@@ -1,0 +1,6 @@
+<apex:page controller="DocuSignController" showHeader="false" sidebar="false" action="{!redirectToRecepientView}">
+     <apex:pageMessage rendered="{!$CurrentPage.Parameters.event=='signing_complete'}" summary="Thank you for signing" severity="info"/>
+     <apex:pageMessage rendered="{!$CurrentPage.Parameters.event=='viewing_complete'}" summary="Thank you for viewing" severity="info"/>
+     <apex:pageMessage rendered="{!($CurrentPage.Parameters.envId=='' || $CurrentPage.Parameters.conId=='') && $CurrentPage.Parameters.event == ''}" summary="Please provide envId and conId" severity="info"/>
+        <apex:pageMessages />
+</apex:page>

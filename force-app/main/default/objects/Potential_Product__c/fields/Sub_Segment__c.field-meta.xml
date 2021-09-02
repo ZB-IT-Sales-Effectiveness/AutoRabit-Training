@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Segment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Anterior Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Anterior Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>Arthroscopy</fullName>
+                <default>false</default>
+                <label>Arthroscopy</label>
+            </value>
+            <value>
+                <fullName>Articular Surface</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Bone Substitute</fullName>
+                <default>false</default>
+                <label>Bone Substitute</label>
+            </value>
+            <value>
+                <fullName>Cable</fullName>
+                <default>false</default>
+                <label>Cable</label>
+            </value>
+            <value>
+                <fullName>Cages</fullName>
+                <default>false</default>
+                <label>Cages</label>
+            </value>
+            <value>
+                <fullName>Cervical</fullName>
+                <default>false</default>
+                <label>Cervical</label>
+            </value>
+            <value>
+                <fullName>Compression Hip Screws</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Compression Hip Screws</label>
+            </value>
+            <value>
+                <fullName>Cranial Fixation</fullName>
+                <default>false</default>
+                <label>Cranial Fixation</label>
+            </value>
+            <value>
+                <fullName>Cranioplasty</fullName>
+                <default>false</default>
+                <label>Cranioplasty</label>
+            </value>
+            <value>
+                <fullName>Cups</fullName>
+                <default>false</default>
+                <label>Cups</label>
+            </value>
+            <value>
+                <fullName>Dermatome</fullName>
+                <default>false</default>
+                <label>Dermatome</label>
+            </value>
+            <value>
+                <fullName>Dynardi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dynardi</label>
+            </value>
+            <value>
+                <fullName>Dynesys</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dynesys</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>External Fixation</fullName>
+                <default>false</default>
+                <label>External Fixation</label>
+            </value>
+            <value>
+                <fullName>Femorals</fullName>
+                <default>false</default>
+                <label>Femorals</label>
+            </value>
+            <value>
+                <fullName>Finger</fullName>
+                <default>false</default>
+                <label>Finger</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+                <label>Fusion</label>
+            </value>
+            <value>
+                <fullName>Hand &amp; Wrist</fullName>
+                <default>false</default>
+                <label>Hand &amp; Wrist</label>
+            </value>
+            <value>
+                <fullName>Heads</fullName>
+                <default>false</default>
+                <label>Heads</label>
+            </value>
+            <value>
+                <fullName>Hips &amp; Knees</fullName>
+                <default>false</default>
+                <label>Hips &amp; Knees</label>
+            </value>
+            <value>
+                <fullName>IM Nails</fullName>
+                <default>false</default>
+                <label>IM Nails</label>
+            </value>
+            <value>
+                <fullName>Knees</fullName>
+                <default>false</default>
+                <label>Knees</label>
+            </value>
+            <value>
+                <fullName>Lavage</fullName>
+                <default>false</default>
+                <label>Lavage</label>
+            </value>
+            <value>
+                <fullName>Liners</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Liners</label>
+            </value>
+            <value>
+                <fullName>Lumbar</fullName>
+                <default>false</default>
+                <label>Lumbar</label>
+            </value>
+            <value>
+                <fullName>Mesher</fullName>
+                <default>false</default>
+                <label>Mesher</label>
+            </value>
+            <value>
+                <fullName>Midface</fullName>
+                <default>false</default>
+                <label>Midface</label>
+            </value>
+            <value>
+                <fullName>Non Fusion</fullName>
+                <default>false</default>
+                <label>Non Fusion</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Patellas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Patellas</label>
+            </value>
+            <value>
+                <fullName>Pectus Deformity</fullName>
+                <default>false</default>
+                <label>Pectus Deformity</label>
+            </value>
+            <value>
+                <fullName>Plates</fullName>
+                <default>false</default>
+                <label>Plates</label>
+            </value>
+            <value>
+                <fullName>Plates &amp; Screws</fullName>
+                <default>false</default>
+                <label>Plates &amp; Screws</label>
+            </value>
+            <value>
+                <fullName>Power Tool</fullName>
+                <default>false</default>
+                <label>Power Tool</label>
+            </value>
+            <value>
+                <fullName>Radial Head</fullName>
+                <default>false</default>
+                <label>Radial Head</label>
+            </value>
+            <value>
+                <fullName>Reamers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reamers</label>
+            </value>
+            <value>
+                <fullName>Resurfacing</fullName>
+                <default>false</default>
+                <label>Resurfacing</label>
+            </value>
+            <value>
+                <fullName>Rib Fixation</fullName>
+                <default>false</default>
+                <label>Rib Fixation</label>
+            </value>
+            <value>
+                <fullName>Saw Blades</fullName>
+                <default>false</default>
+                <label>Saw Blades</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Soft Tissue Attachment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Soft Tissue Attachment</label>
+            </value>
+            <value>
+                <fullName>Stems</fullName>
+                <default>false</default>
+                <label>Stems</label>
+            </value>
+            <value>
+                <fullName>Sternal Fixation</fullName>
+                <default>false</default>
+                <label>Sternal Fixation</label>
+            </value>
+            <value>
+                <fullName>Surgical Equipment</fullName>
+                <default>false</default>
+                <label>Surgical Equipment</label>
+            </value>
+            <value>
+                <fullName>Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>Tibial Plates</fullName>
+                <default>false</default>
+                <label>Tibial Plates</label>
+            </value>
+            <value>
+                <fullName>TMJ</fullName>
+                <default>false</default>
+                <label>TMJ</label>
+            </value>
+            <value>
+                <fullName>Tourniquet</fullName>
+                <default>false</default>
+                <label>Tourniquet</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Trauma Instruments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trauma Instruments</label>
+            </value>
+            <value>
+                <fullName>Trinica Standard/Select</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trinica Standard/Select</label>
+            </value>
+            <value>
+                <fullName>Trofix</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trofix</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Femorals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Tibial Plates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Cups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Heads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Resurfacing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Stems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Elbow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Finger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Foot &amp; Ankle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Hand &amp; Wrist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Radial Head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>External Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>IM Nails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Plates &amp; Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Arthroscopy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Anterior Thoracolumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Bone Substitute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Cages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Cervical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Fusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Lumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Non Fusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Plates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Thoracolumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <valueName>Hips &amp; Knees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <valueName>Knees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Dermatome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Lavage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Mesher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Power Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Saw Blades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Surgical Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tourniquet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Cranial Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Cranioplasty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Midface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Pectus Deformity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Rib Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>Sternal Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMF &amp; Thoracic</controllingFieldValue>
+            <valueName>TMJ</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

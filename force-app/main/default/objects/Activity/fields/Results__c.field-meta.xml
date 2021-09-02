@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Results__c</fullName>
+    <externalId>false</externalId>
+    <label>Result</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>no problem customer constant</fullName>
+                <default>false</default>
+                <label>no problem customer constant</label>
+            </value>
+            <value>
+                <fullName>little problem but solved</fullName>
+                <default>false</default>
+                <label>little problem but solved</label>
+            </value>
+            <value>
+                <fullName>urgent problem, must be solved</fullName>
+                <default>false</default>
+                <label>urgent problem, must be solved</label>
+            </value>
+            <value>
+                <fullName>big problem, solve immedeately</fullName>
+                <default>false</default>
+                <label>big problem, solve immedeately</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

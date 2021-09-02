@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Term Competitor --></label>
+    <name>Term_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Acumed</masterLabel>
+        <translation><!-- Acumed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthrex</masterLabel>
+        <translation><!-- Arthrex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conformis</masterLabel>
+        <translation><!-- Conformis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO/Encore</masterLabel>
+        <translation><!-- DJO/Encore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeRoyal</masterLabel>
+        <translation><!-- DeRoyal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Depuy</masterLabel>
+        <translation><!-- Depuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exactech</masterLabel>
+        <translation><!-- Exactech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genzyme</masterLabel>
+        <translation><!-- Genzyme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mako</masterLabel>
+        <translation><!-- Mako --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medacta</masterLabel>
+        <translation><!-- Medacta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Competitor</masterLabel>
+        <translation><!-- No Competitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ODC</masterLabel>
+        <translation><!-- ODC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omni Life</masterLabel>
+        <translation><!-- Omni Life --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POD (Physician Owned Distributorships)</masterLabel>
+        <translation><!-- POD (Physician Owned Distributorships) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanofi</masterLabel>
+        <translation><!-- Sanofi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone Innovations</masterLabel>
+        <translation><!-- Small Bone Innovations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tornier</masterLabel>
+        <translation><!-- Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>United Orthopaedics</masterLabel>
+        <translation><!-- United Orthopaedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

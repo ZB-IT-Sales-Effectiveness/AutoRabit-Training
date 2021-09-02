@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_Knee_Opportunity_Health_Percentage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!Carevoyance__c, 0, 0.02) +
+IF(!Timeline_Presented_Aligned__c, 0, 0.10) +
+IF(ISBLANK(Observe_TKA__c), 0, 0.02) +
+IF(!Capital_Funds_Budget__c, 0, 0.02) +
+IF(ISBLANK(Lab_Onsite__c), 0, 0.02) +
+IF(ISBLANK(Surgeon_C_Suite_Live__c), 0, 0.10) +
+IF(ISBLANK(Pro_forma_Presented__c), 0, 0.02) +
+IF(!Technical_Presentation__c, 0 , 0.10) +
+IF(!Flight_Simulator__c, 0, 0.10) +
+IF(!Surgeon_to_Surgeon__c, 0, 0.10) +  
+IF(ISBLANK(Executive_Presentation_Performed__c), 0, 0.02) +
+IF(ISBLANK(Quote_Delivered__c), 0, 0.02) +
+IF(!Redlines_Initiated__c, 0, 0.02) +
+IF(!Final_Signator_Alignment__c, 0, 0.10) +
+IF(!Scan_Patients__c, 0, 0.10) +
+IF(!XAtlas__c, 0, 0.10) +
+IF(ISBLANK(Launch_Meeting__c), 0, 0.02) +
+IF(!Surgeon_Training_Complete_w_Signature__c, 0, 0.02)</formula>
+    <label>ROSA Knee Opp Health %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

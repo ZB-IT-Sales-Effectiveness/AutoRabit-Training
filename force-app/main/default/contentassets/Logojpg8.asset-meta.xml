@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Logojpg8</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Kim_Swain_Dashboards</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>DN_Education</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>DN_Account</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>DN_Surgical_Downstream</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Ecommerce</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Logo.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

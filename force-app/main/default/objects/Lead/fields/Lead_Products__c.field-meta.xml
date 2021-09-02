@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>DSUVIA</fullName>
+                <default>false</default>
+                <label>DSUVIA</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Implant Concierge</fullName>
+                <default>false</default>
+                <label>Implant Concierge</label>
+            </value>
+            <value>
+                <fullName>Implants</fullName>
+                <default>false</default>
+                <label>Implants</label>
+            </value>
+            <value>
+                <fullName>Instruments and Tools</fullName>
+                <default>false</default>
+                <label>Instruments and Tools</label>
+            </value>
+            <value>
+                <fullName>iTero</fullName>
+                <default>false</default>
+                <label>iTero</label>
+            </value>
+            <value>
+                <fullName>PartnerZ</fullName>
+                <default>false</default>
+                <label>PartnerZ</label>
+            </value>
+            <value>
+                <fullName>Real Guide</fullName>
+                <default>false</default>
+                <label>Real Guide</label>
+            </value>
+            <value>
+                <fullName>Regenerative</fullName>
+                <default>false</default>
+                <label>Regenerative</label>
+            </value>
+            <value>
+                <fullName>Restorative</fullName>
+                <default>false</default>
+                <label>Restorative</label>
+            </value>
+            <value>
+                <fullName>Z3D</fullName>
+                <default>false</default>
+                <label>Z3D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

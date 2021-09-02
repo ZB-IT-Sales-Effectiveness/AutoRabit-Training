@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZB NC - BP</name>
+    <queueMembers>
+        <users>
+            <user>amanda.sopko@zimmerbiomet.com</user>
+            <user>gbarninc1@aol.com</user>
+            <user>katelyn.gremer@zimmerbiomet.com</user>
+            <user>scott.bagley@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Finance Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Finance Requests</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- COC --></label>
+        <name>Bulk_Buy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bulk Buy --></label>
+        <name>Bulk_Buy2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NON COC --></label>
+        <name>NON_COC</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AVP</masterLabel>
+        <translation><!-- AVP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation>E-Mail</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IM</masterLabel>
+        <translation><!-- IM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-house</masterLabel>
+        <translation><!-- In-house --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intern</masterLabel>
+        <translation><!-- Intern --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PACS Call Center</masterLabel>
+        <translation><!-- PACS Call Center --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Persona IQ</masterLabel>
+        <translation><!-- Persona IQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Personalized Solutions Call Center</masterLabel>
+        <translation><!-- Personalized Solutions Call Center --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Personalized Solutions Clinical Graphics</masterLabel>
+        <translation><!-- Personalized Solutions Clinical Graphics --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Phone</masterLabel>
+        <translation>Telefon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quip</masterLabel>
+        <translation><!-- Quip --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RSD</masterLabel>
+        <translation><!-- RSD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rep</masterLabel>
+        <translation><!-- Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Text Message</masterLabel>
+        <translation><!-- Text Message --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Compliance Call Center</masterLabel>
+        <translation><!-- Trade Compliance Call Center --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Walk-in</masterLabel>
+        <translation><!-- Walk-in --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

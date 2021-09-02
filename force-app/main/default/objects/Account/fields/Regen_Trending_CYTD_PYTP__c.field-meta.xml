@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regen_Trending_CYTD_PYTP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(FlagRegen_On__c=&quot;Y&quot;, Regen_PYTD__c &gt; 0,Regen_YTD__c &lt;&gt;0),
+((Regen_YTD__c - Regen_PYTD__c ) / Regen_PYTD__c),
+
+IF(AND(FlagRegen_On__c=&quot;Y&quot;, Regen_PYTD__c &lt; 0, Regen_YTD__c &lt;&gt;0) ,
+((Regen_YTD__c - Regen_PYTD__c ) / Regen_PYTD__c * -1),
+
+IF(AND(FlagRegen_On__c=&quot;Y&quot;, Regen_PYTD__c = 0, Regen_YTD__c &lt;&gt;0) ,
+(Regen_YTD__c/100),
+
+IF(AND(FlagRegen_On__c=&quot;Y&quot;, Regen_PYTD__c &gt; 0,Regen_YTD__c =0),
+((Regen_YTD__c - Regen_PYTD__c ) / Regen_PYTD__c) ,
+
+
+IF(AND(FlagRegen_On__c=&quot;Y&quot;, Regen_PYTD__c &lt; 0,Regen_YTD__c =0),
+0,
+
+0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Regen % Change - YofY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

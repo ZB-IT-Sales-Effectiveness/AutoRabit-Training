@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZB-NC (BAGLEY) (0034) QUEUE</name>
+    <queueMembers>
+        <users>
+            <user>amanda.sopko@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>WSE__c</sobjectType>
+    </queueSobject>
+</Queue>

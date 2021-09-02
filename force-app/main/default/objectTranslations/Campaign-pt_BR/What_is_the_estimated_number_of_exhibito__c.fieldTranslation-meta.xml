@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the estimated number of exhibitors at this event/exhibit? --></help>
+    <label><!-- What is estimated number of exhibitors --></label>
+    <name>What_is_the_estimated_number_of_exhibito__c</name>
+</CustomFieldTranslation>

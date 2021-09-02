@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ナース/オペ室/その他</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Canada Physician --></label>
+        <name>Canada_Physician</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This contact will be used by Dental for HR On-boarding process. --></description>
+        <label><!-- DN- Candidate --></label>
+        <name>DN_Candidate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU-Contact Record Type --></label>
+        <name>DN_EU_Contact_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-Global-Contact Record Type --></label>
+        <name>DN_Global_Contact_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Contact Record Type --></label>
+        <name>EU_Contact_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Personalized Solutions Contact --></label>
+        <name>Personalized_Solutions_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- All hired or terminated Distributor Personnal --></description>
+        <label><!-- Sales Contact --></label>
+        <name>Sales_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ZB Connect Candidate Record Type --></label>
+        <name>ZB_Connect_HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Zimmer Corporate Employees --></description>
+        <label><!-- Zimmer Corporate Employees --></label>
+        <name>Zimmer_Corporate_Employees</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a Healthcare Professional Contact assigned to a specific Business Account (Non-Physician) --></description>
+        <label><!-- Zimmer Standard Contact --></label>
+        <name>Zimmer_Standard_Contact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The AD user name is required on this contact --></errorMessage>
+        <name>AD_User_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter valid preferred address --></errorMessage>
+        <name>Address_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Attrition details. --></errorMessage>
+        <name>Attrition_field_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Canada Province code. --></errorMessage>
+        <name>CA_State_List_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide complete office address(Office Street, Office City, Office State, Office Postal Code, Office Country) --></errorMessage>
+        <name>Complete_Office_Address_For_DNUSMKTG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Billing Country code (ALL CAPS). --></errorMessage>
+        <name>Country_List_Billing_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Office Country code (ALL CAPS). --></errorMessage>
+        <name>Country_Validation_For_DNUSMKTG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Erlaubte Schreibweise:
+Dipl.-BW,Dipl.-Ing.,Dipl.-Kffr.,Dipl.-Kfm.,Dipl.-Med.,Dipl.oec.,Dipl.-VW,Dr.,Dr. biol. hum.,Dr. Dr. med.,Dr. med.,Dr. med. Dipl.- oec.,Dr. med. Dr. h. c.,Dr. med. habil.,Dr. rer. nat.,Priv. Doz.,Priv. Doz.Dr.med.,Schwester --></errorMessage>
+        <name>EU_Titel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User is not allowed to modify Field Action Notifications fields. --></errorMessage>
+        <name>Field_Action_Notification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is Required. Please fill in first name and save --></errorMessage>
+        <name>First_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Provide Complete Office address --></errorMessage>
+        <name>Full_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Annualized Revenue Gain and Hire Competitor fields are mandatory. --></errorMessage>
+        <name>Hire_Date_Amount_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have access to edit Inactive status for this contact. --></errorMessage>
+        <name>INACTIVE_flag_access_for_Zimmer_Standard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Term Date and Transfer fields are required only where the contact is inactive. --></errorMessage>
+        <name>Inactive_Term_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In HRIS Field Value is madatory.. --></errorMessage>
+        <name>Is_HRIS_OR_Employee_Non_Employee_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Leave End Date is Required. Please fill in Leave End Date. --></errorMessage>
+        <name>Leave_End_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select correct sales specialty --></errorMessage>
+        <name>None_rejection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only enter numbers into the NPI# field --></errorMessage>
+        <name>Only_numbers_in_NPI_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t create/edit this type of record --></errorMessage>
+        <name>Restrict_Mange_CA_Sales_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide SAP Number --></errorMessage>
+        <name>SAP_Number_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please clear SAP number or Select correct Employee Status? --></errorMessage>
+        <name>SAP_Number_Check_for_Non_Employee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP Number should be between 5 to 8  digit number only --></errorMessage>
+        <name>SAP_Numeric_and_5_to_8_digit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only SALES contacts can be linked with a US Distributor business account --></errorMessage>
+        <name>Sales_contacts_linked_US_Distributor_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit State code. --></errorMessage>
+        <name>State_Validation_For_DNUSMKTG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Annualized Revenue Loss and Term Competitor fields are mandatory. --></errorMessage>
+        <name>Term_Date_Amount_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact has been inactivated; Kindly enter term date --></errorMessage>
+        <name>Term_Date_Mandatory_making_contact_inact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name, Last Name &amp; Email can&apos;t be blank and should be in valid format. --></errorMessage>
+        <name>Zimmer_Sales_Name_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Canadian postal code must be in A9A 9A9 format --></errorMessage>
+        <name>Zip_Code_Validation_for_Canada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_GPL_Profile --></label>
+        <name>Create_GPL_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GMI_Show_Map_Button_Contact --></label>
+        <name>GMI_Show_Map_Button_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GMI_Show_Map_Link_Contact --></label>
+        <name>GMI_Show_Map_Link_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Selected_to_Salesloft --></label>
+        <name>Import_Selected_to_Salesloft</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Insert_Picture --></label>
+        <name>Insert_Picture</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LinkedIn --></label>
+        <name>LinkedIn</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Upload_Picture --></label>
+        <name>btydev__Upload_Picture</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_SMS --></label>
+        <name>et4ae5__Send_ExactTarget_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

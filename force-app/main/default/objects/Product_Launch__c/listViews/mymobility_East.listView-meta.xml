@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mymobility_East</fullName>
+    <columns>NAME</columns>
+    <columns>Owner_Full_Name__c</columns>
+    <columns>Account__c</columns>
+    <columns>Account_Zone__c</columns>
+    <columns>Go_live_Target_Date__c</columns>
+    <columns>Launch_Lead__c</columns>
+    <columns>Launch_Status__c</columns>
+    <columns>Seats__c</columns>
+    <columns>Account_Notes__c</columns>
+    <columns>Contract_Notes__c</columns>
+    <columns>Implementation_Notes__c</columns>
+    <columns>Operations_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Product_Launch__c.mymobility</value>
+    </filters>
+    <filters>
+        <field>Account_Zone__c</field>
+        <operation>equals</operation>
+        <value>East</value>
+    </filters>
+    <label>mymobility - East</label>
+    <sharedTo>
+        <group>mymobility_Product_Launch</group>
+    </sharedTo>
+</ListView>

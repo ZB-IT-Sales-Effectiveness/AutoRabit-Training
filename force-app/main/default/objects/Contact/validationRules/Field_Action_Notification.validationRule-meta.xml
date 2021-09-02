@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Action_Notification</fullName>
+    <active>true</active>
+    <description>User is not allowed to modify Field Action Notifications fields.</description>
+    <errorConditionFormula>If( 
+OR(($User.Id =&apos;00580000001mIEm&apos;),($User.Id =&apos;005C000000A4IPI&apos;),($User.Id =&apos;005C000000A0uP3&apos;)),false,( 
+
+AND( 
+
+ISPICKVAL(Role_Classification__c, &quot;Distributor&quot;), 
+
+OR( 
+ISCHANGED(LMS_Knee__c),ISCHANGED(LMS_Hip__c),ISCHANGED(LMS_TMT__c),ISCHANGED(LMS_TMT__c),ISCHANGED(LMS_Spine__c),ISCHANGED(LMS_Trauma__c ),ISCHANGED(LMS_Dental__c),ISCHANGED(LMS_Bone_Healing__c),ISCHANGED(LMS_Biologics__c),ISCHANGED(LMS_Sports_Medicine__c),ISCHANGED(LMS_Extremities__c) 
+), 
+
+OR ( RecordTypeId=&quot;012800000003ZTZ&quot;, RecordTypeId=&quot;012800000002DoB&quot;) 
+)) 
+)</errorConditionFormula>
+    <errorMessage>User is not allowed to modify Field Action Notifications fields.</errorMessage>
+</ValidationRule>

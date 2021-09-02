@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Size --></label>
+    <name>Size__c</name>
+    <picklistValues>
+        <masterLabel>Large 120+</masterLabel>
+        <translation><!-- Large 120+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium 41 to 120</masterLabel>
+        <translation><!-- Medium 41 to 120 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMO 500+</masterLabel>
+        <translation><!-- PMO 500+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Under 40 hours</masterLabel>
+        <translation><!-- Small Under 40 hours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

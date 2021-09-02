@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Needed__c</fullName>
+    <externalId>false</externalId>
+    <label>Support Needed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATSR</fullName>
+                <default>false</default>
+                <label>ATSR</label>
+            </value>
+            <value>
+                <fullName>TSR</fullName>
+                <default>false</default>
+                <label>TSR</label>
+            </value>
+            <value>
+                <fullName>RSM</fullName>
+                <default>false</default>
+                <label>RSM</label>
+            </value>
+            <value>
+                <fullName>RSS</fullName>
+                <default>false</default>
+                <label>RSS</label>
+            </value>
+            <value>
+                <fullName>DDSS</fullName>
+                <default>false</default>
+                <label>DDSS</label>
+            </value>
+            <value>
+                <fullName>CSM</fullName>
+                <default>false</default>
+                <label>CSM</label>
+            </value>
+            <value>
+                <fullName>ISR</fullName>
+                <default>false</default>
+                <label>ISR</label>
+            </value>
+            <value>
+                <fullName>KAS</fullName>
+                <default>false</default>
+                <label>KAS</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>Itero Rep</fullName>
+                <default>false</default>
+                <label>Itero Rep</label>
+            </value>
+            <value>
+                <fullName>DoD</fullName>
+                <default>false</default>
+                <label>DoD</label>
+            </value>
+            <value>
+                <fullName>Uni DSO</fullName>
+                <default>false</default>
+                <label>Uni DSO</label>
+            </value>
+            <value>
+                <fullName>ASD</fullName>
+                <default>false</default>
+                <label>ASD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

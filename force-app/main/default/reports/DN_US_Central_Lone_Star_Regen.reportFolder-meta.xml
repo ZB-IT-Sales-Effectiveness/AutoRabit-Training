@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>DN_US_Central_and_LS_Regen</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>DN - US-Central &amp; Lone Star Regen</name>
+</ReportFolder>

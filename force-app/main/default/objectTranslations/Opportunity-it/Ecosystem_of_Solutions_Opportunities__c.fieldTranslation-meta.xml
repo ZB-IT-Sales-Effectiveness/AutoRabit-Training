@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Ecosystem of Solutions Opportunities --></label>
+    <name>Ecosystem_of_Solutions_Opportunities__c</name>
+    <picklistValues>
+        <masterLabel>Accelero</masterLabel>
+        <translation><!-- Accelero --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Efficient Care</masterLabel>
+        <translation><!-- Efficient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OneBill</masterLabel>
+        <translation><!-- OneBill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

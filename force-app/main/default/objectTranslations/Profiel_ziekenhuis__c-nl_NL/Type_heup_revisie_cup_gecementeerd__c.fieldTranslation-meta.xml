@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type gecementeerde cup voor de revisie heup. --></help>
+    <label><!-- Type heup revisie cup gecementeerd --></label>
+    <name>Type_heup_revisie_cup_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Biomet cup</masterLabel>
+        <translation><!-- Biomet cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contemporary</masterLabel>
+        <translation><!-- Contemporary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SN Müller</masterLabel>
+        <translation><!-- SN Müller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZCA cup</masterLabel>
+        <translation><!-- ZCA cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Müller</masterLabel>
+        <translation><!-- Zimmer Müller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>seleXys DS</masterLabel>
+        <translation><!-- seleXys DS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

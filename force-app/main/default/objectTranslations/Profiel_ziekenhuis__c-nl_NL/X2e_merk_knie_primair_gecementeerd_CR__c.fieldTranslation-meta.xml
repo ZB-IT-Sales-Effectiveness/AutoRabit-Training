@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e merk knie primair gecementeerd CR --></label>
+    <name>X2e_merk_knie_primair_gecementeerd_CR__c</name>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EndoCare</masterLabel>
+        <translation><!-- EndoCare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johnson &amp; Johnson</masterLabel>
+        <translation><!-- Johnson &amp; Johnson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lima</masterLabel>
+        <translation><!-- Lima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mathys</masterLabel>
+        <translation><!-- Mathys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oudshoorn</masterLabel>
+        <translation><!-- Oudshoorn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith Nephew</masterLabel>
+        <translation><!-- Smith Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

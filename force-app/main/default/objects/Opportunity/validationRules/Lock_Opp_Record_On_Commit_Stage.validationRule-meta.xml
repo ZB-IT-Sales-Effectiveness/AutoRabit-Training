@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Opp_Record_On_Commit_Stage</fullName>
+    <active>true</active>
+    <description>Lock Opp Record On Commit Stage for current month</description>
+    <errorConditionFormula>AND( 
+RecordType.Name = &apos;US Surgical&apos;, 
+ OR( 
+ ISPICKVAL(StageName, &quot;Execute&quot;), 
+ ISPICKVAL(StageName, &quot;Solve&quot;),
+ ISPICKVAL(StageName, &quot;Discover&quot;),
+ ISPICKVAL(StageName, &quot;Prospect&quot;),
+ ISPICKVAL(StageName, &quot;Lead&quot;),
+ ISPICKVAL(StageName, &quot;Target&quot;) 
+ ) ,
+  TEXT(PRIORVALUE(StageName)) == &apos;Commit&apos;,
+MONTH(CloseDate) == MONTH( TODAY()))</errorConditionFormula>
+    <errorMessage>Opportunity stage cannot be changed, as the closed date is of current month.</errorMessage>
+</ValidationRule>

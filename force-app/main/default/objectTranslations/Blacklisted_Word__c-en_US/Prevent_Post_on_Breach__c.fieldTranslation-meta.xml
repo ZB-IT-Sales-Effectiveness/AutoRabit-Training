@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prevent Post on Breach --></label>
+    <name>Prevent_Post_on_Breach__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_Cvent_Events</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.NUM_RESPONSES</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.Cvent_Campaign</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>In Progress,Planned</value>
+    </filters>
+    <filters>
+        <field>Segment__c</field>
+        <operation>includes</operation>
+        <value>Dental</value>
+    </filters>
+    <label>Dental Cvent Events</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>CenterofExcellence</group>
+        <roleAndSubordinatesInternal>AM_RC_Executive_Sales_Management</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

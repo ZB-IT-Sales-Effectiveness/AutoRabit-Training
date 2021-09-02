@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom$Name</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom$AccountNumber</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom*Account$SAP_Customer_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom.Activities$IsTask</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom.Activities$ActivityDate</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom.Activities$Subject</field>
+    </columns>
+    <columns>
+        <field>Account.PartnersFrom.Activities$Description</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account$TextName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Marienhaus Dienstleistungen GmbH</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Marienhaus Termine</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Partner_with_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.PartnersFrom.Activities$ActivityDate</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.PartnersFrom.Activities$ActivityDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-07-01</startDate>
+    </timeFrameFilter>
+</Report>

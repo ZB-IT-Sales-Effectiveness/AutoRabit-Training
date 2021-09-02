@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>状态</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation><!-- A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation><!-- G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I</masterLabel>
+        <translation><!-- I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opt In</masterLabel>
+        <translation><!-- Opt In --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opt Out</masterLabel>
+        <translation><!-- Opt Out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Re-Opt In</masterLabel>
+        <translation><!-- Re-Opt In --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

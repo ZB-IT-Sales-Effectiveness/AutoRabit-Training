@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Appeal Type --></label>
+    <name>Appeal_Type2__c</name>
+    <picklistValues>
+        <masterLabel>Claims</masterLabel>
+        <translation><!-- Claims --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prior Auth</masterLabel>
+        <translation><!-- Prior Auth --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

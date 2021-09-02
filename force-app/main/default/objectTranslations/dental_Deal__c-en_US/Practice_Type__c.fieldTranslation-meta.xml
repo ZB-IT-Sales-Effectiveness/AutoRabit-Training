@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Practice Type --></label>
+    <name>Practice_Type__c</name>
+    <picklistValues>
+        <masterLabel>DSO</masterLabel>
+        <translation><!-- DSO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GP</masterLabel>
+        <translation><!-- GP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab</masterLabel>
+        <translation><!-- Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty</masterLabel>
+        <translation><!-- Specialty --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

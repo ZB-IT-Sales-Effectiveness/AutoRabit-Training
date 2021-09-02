@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveLens xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>B_E_S_T_Sales_Application</application>
+    <datasets>Financial_Sales_Revenue</datasets>
+    <masterLabel>US B.E.S.T. Financial Sales</masterLabel>
+    <visualizationType>stackhbar</visualizationType>
+</WaveLens>

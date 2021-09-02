@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Area_EMEA__c</fullName>
+    <description>Sales Area EMEA</description>
+    <externalId>false</externalId>
+    <label>Sales Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recon1</fullName>
+                <default>false</default>
+                <label>Recon1</label>
+            </value>
+            <value>
+                <fullName>Recon2</fullName>
+                <default>false</default>
+                <label>Recon2</label>
+            </value>
+            <value>
+                <fullName>Recon3</fullName>
+                <default>false</default>
+                <label>Recon3</label>
+            </value>
+            <value>
+                <fullName>Recon4</fullName>
+                <default>false</default>
+                <label>Recon4</label>
+            </value>
+            <value>
+                <fullName>Spine1</fullName>
+                <default>false</default>
+                <label>Spine1</label>
+            </value>
+            <value>
+                <fullName>Trauma1</fullName>
+                <default>false</default>
+                <label>Trauma1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

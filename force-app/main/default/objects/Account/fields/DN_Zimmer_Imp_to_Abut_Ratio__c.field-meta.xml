@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Zimmer_Imp_to_Abut_Ratio__c</fullName>
+    <description>Ratio between Total Implants and Total Abutment units from related Sales History records</description>
+    <externalId>false</externalId>
+    <formula>IF(DN_Zimmer_Abutment_Total_Units__c &gt;0, DN_Zimmer_Implant_Total_Units__c / DN_Zimmer_Abutment_Total_Units__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Ideal ratio is 1.00</inlineHelpText>
+    <label>DN Zimmer Imp to Abut Ratio</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

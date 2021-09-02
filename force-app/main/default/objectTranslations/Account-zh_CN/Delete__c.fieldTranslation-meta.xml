@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will delete the Account from SFDC and from the Integration internal tables.  See Ron Cowan or Rob Moulton for more information. --></help>
+    <label>删除</label>
+    <name>Delete__c</name>
+</CustomFieldTranslation>

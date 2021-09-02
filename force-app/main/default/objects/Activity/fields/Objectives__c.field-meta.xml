@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objectives__c</fullName>
+    <externalId>false</externalId>
+    <label>Purpose</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Better Customer connectivity</fullName>
+                <default>false</default>
+                <label>Better Customer connectivity</label>
+            </value>
+            <value>
+                <fullName>Produce Interest</fullName>
+                <default>false</default>
+                <label>Produce Interest</label>
+            </value>
+            <value>
+                <fullName>Schedule a Meeting</fullName>
+                <default>false</default>
+                <label>Schedule a Meeting</label>
+            </value>
+            <value>
+                <fullName>Perform an Inventory</fullName>
+                <default>false</default>
+                <label>Perform an Inventory</label>
+            </value>
+            <value>
+                <fullName>Create an Offer</fullName>
+                <default>false</default>
+                <label>Create an Offer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

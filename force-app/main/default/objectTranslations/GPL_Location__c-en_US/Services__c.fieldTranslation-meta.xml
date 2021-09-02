@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Services --></label>
+    <name>Services__c</name>
+    <picklistValues>
+        <masterLabel>Chaplaincy Services</masterLabel>
+        <translation><!-- Chaplaincy Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pickup Services</masterLabel>
+        <translation><!-- Pickup Services --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

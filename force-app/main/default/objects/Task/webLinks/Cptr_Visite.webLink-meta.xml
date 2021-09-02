@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cptr_Visite</fullName>
+    <availability>online</availability>
+    <description>Entrez un compte rendu de visite.</description>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Compte rendu visite</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>var isInIFrame = (window.location != window.parent.location) ? true : false; 
+if (isInIFrame){ 
+window.parent.location.replace(&quot;/00T/e?what_id={!Account.Id}&amp;tsk5=Compte rendu visite&amp;retURL=%2F{!Account.Id}&amp;RecordType=01280000000Q0dE&amp;tsk12=Completed&amp;tsk2_lkid={!Contact.Id}&amp;tsk2_lkold={!Contact.Name}&amp;tsk2={!Contact.Name}&quot;); 
+}else{ 
+location.replace(&quot;/00T/e?what_id={!Account.Id}&amp;tsk5=Compte rendu visite&amp;retURL=%2F{!Account.Id}&amp;RecordType=01280000000Q0dE&amp;tsk12=Completed&amp;tsk2_lkid={!Contact.Id}&amp;tsk2_lkold={!Contact.Name}&amp;tsk2={!Contact.Name}&quot;); 
+}</url>
+</WebLink>

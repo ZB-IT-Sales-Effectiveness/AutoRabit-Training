@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Goal Expertise --></label>
+    <name>Goal_Expertise__c</name>
+    <picklistValues>
+        <masterLabel>Alloclassic</masterLabel>
+        <translation><!-- Alloclassic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allofit</masterLabel>
+        <translation><!-- Allofit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture Shoulder</masterLabel>
+        <translation><!-- Anatomical Fracture Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Combined</masterLabel>
+        <translation><!-- Anatomical Shoulder Combined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Inverse/Reverse</masterLabel>
+        <translation><!-- Anatomical Shoulder Inverse/Reverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Standard</masterLabel>
+        <translation><!-- Anatomical Shoulder Standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Australian National Joint Registry</masterLabel>
+        <translation><!-- Australian National Joint Registry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir</masterLabel>
+        <translation><!-- Avenir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avn</masterLabel>
+        <translation><!-- Avn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bearing Science</masterLabel>
+        <translation><!-- Bearing Science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bf Shoulder - Hemi Arthroplasty</masterLabel>
+        <translation><!-- Bf Shoulder - Hemi Arthroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bf Shoulder - Total Arthroplasty</masterLabel>
+        <translation><!-- Bf Shoulder - Total Arthroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biolox Delta Ceramic</masterLabel>
+        <translation><!-- Biolox Delta Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Substitutes</masterLabel>
+        <translation><!-- Bone Substitutes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Products</masterLabel>
+        <translation><!-- Cable Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Anterior Plates</masterLabel>
+        <translation><!-- Cervical Anterior Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Corpectomy Cages</masterLabel>
+        <translation><!-- Cervical Corpectomy Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Peek Cages</masterLabel>
+        <translation><!-- Cervical Peek Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Puros Cages</masterLabel>
+        <translation><!-- Cervical Puros Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Tm Cages</masterLabel>
+        <translation><!-- Cervical Tm Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cls</masterLabel>
+        <translation><!-- Cls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cm Elbow</masterLabel>
+        <translation><!-- Cm Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cpt 12/14</masterLabel>
+        <translation><!-- Cpt 12/14 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cr</masterLabel>
+        <translation><!-- Cr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ddh</masterLabel>
+        <translation><!-- Ddh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore Stem</masterLabel>
+        <translation><!-- Fitmore Stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed Bearing</masterLabel>
+        <translation><!-- Fixed Bearing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gsb Elbow</masterLabel>
+        <translation><!-- Gsb Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbert Screws</masterLabel>
+        <translation><!-- Herbert Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iassist Hip</masterLabel>
+        <translation><!-- Iassist Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interspinous Devices (Uniwallis)</masterLabel>
+        <translation><!-- Interspinous Devices (Uniwallis) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interspinous Fusion System (Unilink)</masterLabel>
+        <translation><!-- Interspinous Fusion System (Unilink) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>It Cups</masterLabel>
+        <translation><!-- It Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Itst</masterLabel>
+        <translation><!-- Itst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lcck</masterLabel>
+        <translation><!-- Lcck --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Longevity</masterLabel>
+        <translation><!-- Longevity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lps Flex</masterLabel>
+        <translation><!-- Lps Flex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Anterior Plates</masterLabel>
+        <translation><!-- Lumbar Anterior Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Corpectomy Cage</masterLabel>
+        <translation><!-- Lumbar Corpectomy Cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Peek Cages - Alif</masterLabel>
+        <translation><!-- Lumbar Peek Cages - Alif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Peek Cages - Lateral Approach</masterLabel>
+        <translation><!-- Lumbar Peek Cages - Lateral Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Peek Cages - Plif &amp; Tlif</masterLabel>
+        <translation><!-- Lumbar Peek Cages - Plif &amp; Tlif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Tm Cages - Alif</masterLabel>
+        <translation><!-- Lumbar Tm Cages - Alif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar Tm Cages - Plif &amp; Tlif</masterLabel>
+        <translation><!-- Lumbar Tm Cages - Plif &amp; Tlif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/L Taper</masterLabel>
+        <translation><!-- M/L Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/L Taper Kinectiv</masterLabel>
+        <translation><!-- M/L Taper Kinectiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Magna-Fx And Other Cannulated Screws</masterLabel>
+        <translation><!-- Magna-Fx And Other Cannulated Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Instruments</masterLabel>
+        <translation><!-- Manual Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxera</masterLabel>
+        <translation><!-- Maxera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mdn</masterLabel>
+        <translation><!-- Mdn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc</masterLabel>
+        <translation><!-- Metabloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mis Pedicle Screw Systems</masterLabel>
+        <translation><!-- Mis Pedicle Screw Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Bearing</masterLabel>
+        <translation><!-- Mobile Bearing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montagne</masterLabel>
+        <translation><!-- Montagne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motionloc Ncb</masterLabel>
+        <translation><!-- Motionloc Ncb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motionloc Ss</masterLabel>
+        <translation><!-- Motionloc Ss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multipolar/Bipolar</masterLabel>
+        <translation><!-- Multipolar/Bipolar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ncb</masterLabel>
+        <translation><!-- Ncb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ncb Pp</masterLabel>
+        <translation><!-- Ncb Pp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nexel Elbow</masterLabel>
+        <translation><!-- Nexel Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nexgen</masterLabel>
+        <translation><!-- Nexgen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nk Ii</masterLabel>
+        <translation><!-- Nk Ii --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normed Cmf Plating</masterLabel>
+        <translation><!-- Normed Cmf Plating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normed Foot And Ankle Plating</masterLabel>
+        <translation><!-- Normed Foot And Ankle Plating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normed Hand Ansd Wrist Plating</masterLabel>
+        <translation><!-- Normed Hand Ansd Wrist Plating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oct Spinal Fixation System</masterLabel>
+        <translation><!-- Oct Spinal Fixation System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pedicle Screws Systems</masterLabel>
+        <translation><!-- Pedicle Screws Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periprosthetic Joint Infection (Pji)</masterLabel>
+        <translation><!-- Periprosthetic Joint Infection (Pji) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona</masterLabel>
+        <translation><!-- Persona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfj</masterLabel>
+        <translation><!-- Pfj --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pins/Wires</masterLabel>
+        <translation><!-- Pins/Wires --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pressure Sentinel Reamers</masterLabel>
+        <translation><!-- Pressure Sentinel Reamers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prolong</masterLabel>
+        <translation><!-- Prolong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ps</masterLabel>
+        <translation><!-- Ps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision</masterLabel>
+        <translation><!-- Revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rhk</masterLabel>
+        <translation><!-- Rhk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rings &amp; Cages</masterLabel>
+        <translation><!-- Rings &amp; Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sidus Stem-Free Shoulder</masterLabel>
+        <translation><!-- Sidus Stem-Free Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus</masterLabel>
+        <translation><!-- Sirus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synovasure</masterLabel>
+        <translation><!-- Synovasure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm</masterLabel>
+        <translation><!-- Tm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm Ankle</masterLabel>
+        <translation><!-- Tm Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm Ankle Shapes</masterLabel>
+        <translation><!-- Tm Ankle Shapes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm Glenoid</masterLabel>
+        <translation><!-- Tm Glenoid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm Primary</masterLabel>
+        <translation><!-- Tm Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tm Reverse Shoulder Arthroplasty</masterLabel>
+        <translation><!-- Tm Reverse Shoulder Arthroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tmars</masterLabel>
+        <translation><!-- Tmars --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal</masterLabel>
+        <translation><!-- Trabecular Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trunnionosis</masterLabel>
+        <translation><!-- Trunnionosis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ttrabecular Metal</masterLabel>
+        <translation><!-- Ttrabecular Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uclamp</masterLabel>
+        <translation><!-- Uclamp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uls</masterLabel>
+        <translation><!-- Uls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Versa Fx Ii Or Ti Versa Fx</masterLabel>
+        <translation><!-- Versa Fx Ii Or Ti Versa Fx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vivacit-E</masterLabel>
+        <translation><!-- Vivacit-E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner Cone</masterLabel>
+        <translation><!-- Wagner Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner Sl</masterLabel>
+        <translation><!-- Wagner Sl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wristore</masterLabel>
+        <translation><!-- Wristore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xtrafix</masterLabel>
+        <translation><!-- Xtrafix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zdr</masterLabel>
+        <translation><!-- Zdr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Magic Tower</masterLabel>
+        <translation><!-- Zimmer Magic Tower --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zmr</masterLabel>
+        <translation><!-- Zmr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Znn</masterLabel>
+        <translation><!-- Znn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zplp</masterLabel>
+        <translation><!-- Zplp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zps</masterLabel>
+        <translation><!-- Zps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zss</masterLabel>
+        <translation><!-- Zss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zuk</masterLabel>
+        <translation><!-- Zuk --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_US_Recon_Sales</fullName>
+    <fields>Name</fields>
+    <fields>Distributor_Name__c</fields>
+    <fields>Territory_Number__c</fields>
+    <fields>MDM_SAP_ID__c</fields>
+    <label>AM-US Recon Sales</label>
+</CompactLayout>

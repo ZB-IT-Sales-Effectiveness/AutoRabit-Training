@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ROSA --></label>
+    <name>ROSA__c</name>
+    <picklistValues>
+        <masterLabel>ROSA Brain</masterLabel>
+        <translation><!-- ROSA Brain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA ONE</masterLabel>
+        <translation><!-- ROSA ONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Service</masterLabel>
+        <translation><!-- ROSA Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Spine</masterLabel>
+        <translation><!-- ROSA Spine --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

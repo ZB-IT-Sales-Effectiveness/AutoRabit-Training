@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Garden State</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>167482,101080,386344,423418,460708,128138,460530,373732,101262,119578,376487,377806,119527,331623,372985,373740,376048,378769,100892,101263,376877,147310,100844,129884,119474,376485,376395,119429,376436,376839,455740,378068,152003,119647,445509,117627,364060,230101,425381,188184,373836,392043,226095,119696,110110,376772,150999,379610,252859,351443,432349,406832,162667,427710,451148,410811,389489,447801,412139,419475,439122,119554,119653,162912,368424,284796,101061,136966,132035,376606,105132,101189,376607,361013,119684,419150,346451,428271,119421,100304,408495,104001,311044,132016,119522,405030,373728,101258,377833,119418,395666,101144,119565,369877,101157,129403,206042,376484,456266,119472,350520,134478,348323,132474,277094,441338,339450,377769,101303,194049,375912,454844,109990,167540,167266,117609,390442,390402,420733,101119,411998,411448,376876,376843,119521,407512,336417,100405,377698,390363,134094,145387,373733,334864,310307</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>455186,119432,376394,376397,376469,377632,444408,109974,377902,377974,361049,135401,100446,412409,169505,197648,430012,101586,403564,442477,123087,100911,101139,391457,153939,183521,378931,456217,376054,101270,376383,100851,101233,147881,373832,170340,367316,117595,429453,101097,455548,375880,338932,443129,340018,109989,281706,101180,329606,429888,250354,141748,109973,125909,429322,432514,117615,443523,456457,283613,101196,365023,239841,119430,346874,100908,376768,359957,119501,448437,376605,136040,377809,136679,342324,458302,310048,269297,406204,376015,377681,359272,376806,384501,146778,276823,101247,376028,362663,412049,168944,447925,101206,152800,370604,123050,101152,420935,378006,100585,358267,377721,346202,375877,127462,131238,119497,375979,119579,119619,342690,222322,294082,373143,284859,379004,108388,133661,335100,114576,291256,145120,276481,441461,210561,228621,148191,376507,354120,348316,374271</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Garden State</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

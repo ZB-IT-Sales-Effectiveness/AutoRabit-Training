@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Integration Competitors --></label>
+    <name>Integration_Competitors__c</name>
+    <picklistValues>
+        <masterLabel>Arthrex</masterLabel>
+        <translation><!-- Arthrex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conmed</masterLabel>
+        <translation><!-- Conmed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gettinge</masterLabel>
+        <translation><!-- Gettinge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olympus</masterLabel>
+        <translation><!-- Olympus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skytron</masterLabel>
+        <translation><!-- Skytron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steris</masterLabel>
+        <translation><!-- Steris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storz</masterLabel>
+        <translation><!-- Storz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trumpf</masterLabel>
+        <translation><!-- Trumpf --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

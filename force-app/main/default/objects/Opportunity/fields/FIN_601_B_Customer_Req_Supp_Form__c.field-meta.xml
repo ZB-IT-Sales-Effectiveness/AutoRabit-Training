@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIN_601_B_Customer_Req_Supp_Form__c</fullName>
+    <description>FIN 601 B Customer Request Supplemental Form</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>FIN 601 B Customer Request Supplemental Form</inlineHelpText>
+    <label>FIN 601 B Customer Req Supp Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

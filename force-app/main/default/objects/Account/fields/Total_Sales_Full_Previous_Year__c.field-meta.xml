@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Sales_Full_Previous_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>BVPERSLSLY01__c + BVPERSLSLY02__c + BVPERSLSLY03__c + BVPERSLSLY04__c + BVPERSLSLY05__c +BVPERSLSLY06__c + BVPERSLSLY07__c + BVPERSLSLY08__c + BVPERSLSLY09__c +BVPERSLSLY10__c + BVPERSLSLY11__c +BVPERSLSLY12__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Sales Full Previous Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

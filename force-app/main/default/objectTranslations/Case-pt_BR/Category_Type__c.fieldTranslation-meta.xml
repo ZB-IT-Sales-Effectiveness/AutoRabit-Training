@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kindly select a value in this field when &quot;PSI - K - Post-Delivery&quot;, &quot;CS - B - Technical Support&quot; or &quot;CS - C - Servicing&quot; is selected in the Category field. --></help>
+    <label><!-- Category Type --></label>
+    <name>Category_Type__c</name>
+    <picklistValues>
+        <masterLabel>Complaint</masterLabel>
+        <translation><!-- Complaint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not a Complaint</masterLabel>
+        <translation><!-- Not a Complaint --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

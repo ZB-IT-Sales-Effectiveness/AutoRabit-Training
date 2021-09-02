@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA</fullName>
+    <active>true</active>
+    <description>Product Launch role for ROSA records</description>
+    <label>ROSA</label>
+    <picklistValues>
+        <picklist>Launch_Role_Pick__c</picklist>
+        <values>
+            <fullName>ROSA Champion Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Distributor Ops Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Distributor%2FGM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Fellow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA OR Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Ortho Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA PDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA PDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA PDM Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Recon Account Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Recon Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Recon ROSA Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Recon Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Recon Team Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Resident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA SPD Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unassigned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

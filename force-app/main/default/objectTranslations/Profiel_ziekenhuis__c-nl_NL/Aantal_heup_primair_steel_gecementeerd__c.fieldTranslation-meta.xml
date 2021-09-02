@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Geef aan hoeveel primaire, gecementeerde heup stelen in dit ziekenhuis op jaarbasis worden geïmplanteerd. --></help>
+    <label><!-- Aantal heup primair steel gecementeerd --></label>
+    <name>Aantal_heup_primair_steel_gecementeerd__c</name>
+</CustomFieldTranslation>

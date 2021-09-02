@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the surgeon&apos;s medical school name --></help>
+    <label><!-- Medical School --></label>
+    <name>Medical_School__c</name>
+</CustomFieldTranslation>

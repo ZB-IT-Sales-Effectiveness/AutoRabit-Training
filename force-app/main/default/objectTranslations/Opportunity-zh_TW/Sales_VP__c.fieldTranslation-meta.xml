@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please select your sales VP for this account. --></help>
+    <label><!-- Sales VP --></label>
+    <name>Sales_VP__c</name>
+    <relationshipLabel><!-- Opportunities (Sales VP) --></relationshipLabel>
+</CustomFieldTranslation>

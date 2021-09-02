@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Mange_CA_Sales_Contact</fullName>
+    <active>true</active>
+    <description>Remove User  from managing CANADA sales contact records.
+Except Megan</description>
+    <errorConditionFormula>AND( 
+			
+NOT($User.Id =&apos;005C0000003YY6u&apos;),
+			RecordType.Id = &apos;012800000002DoB&apos;,
+			OR($User.UserRoleId = &apos;00E80000001SlUk&apos;, 
+				$User.UserRoleId = &apos;00E80000001SlUp&apos;, 
+				$User.UserRoleId = &apos;00	EC0000001THev&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T7B7&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T9qz&apos;, 
+				$User.UserRoleId = &apos;00EC0000001THcV&apos;, 
+				$User.UserRoleId = &apos;00EC0000001THca&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T9r9&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T9rJ&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T9r4&apos;, 
+				$User.UserRoleId = &apos;00EC0000001T9rE&apos;, 
+				$User.UserRoleId = &apos;00EC0000001THcQ&apos;, 
+				$User.UserRoleId = &apos;00EC0000001THcf&apos;, 
+				$User.UserRoleId = &apos;00EC0000001THck&apos;
+			), 
+			OR( CONTAINS( MailingCountry , &apos;Canada&apos;), 
+				CONTAINS( MailingCountry , &apos;CANADA&apos;), 
+				CONTAINS( MailingCountry , &apos;CA&apos;), 
+				CONTAINS( OtherCountry , &apos;Canada&apos;), 
+				CONTAINS( OtherCountry , &apos;CANADA&apos;), 
+				CONTAINS( OtherCountry , &apos;CA&apos;)
+			)
+		)</errorConditionFormula>
+    <errorMessage>You can&apos;t create/edit this type of record</errorMessage>
+</ValidationRule>

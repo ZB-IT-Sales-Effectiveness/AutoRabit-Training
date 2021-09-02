@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_User_Details_x__c</fullName>
+    <externalId>false</externalId>
+    <label>Surgeon User Details</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Surgeon_User_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Competitive PKA User – wants to do more w/ROSA</fullName>
+                <default>false</default>
+                <label>Competitive PKA User – wants to do more w/ROSA</label>
+            </value>
+            <value>
+                <fullName>Competitive PKA User – wants to do more wo/ROSA</fullName>
+                <default>false</default>
+                <label>Competitive PKA User – wants to do more wo/ROSA</label>
+            </value>
+            <value>
+                <fullName>Conventional PPK user w/ROSA</fullName>
+                <default>false</default>
+                <label>Conventional PPK user w/ROSA</label>
+            </value>
+            <value>
+                <fullName>Conventional PKA Zealots w/ROSA</fullName>
+                <default>false</default>
+                <label>Conventional PKA Zealots w/ROSA</label>
+            </value>
+            <value>
+                <fullName>Conventional PKA Zealot wo/Technology</fullName>
+                <default>false</default>
+                <label>Conventional PKA Zealot wo/Technology</label>
+            </value>
+            <value>
+                <fullName>ZB Gold (DePuy) present</fullName>
+                <default>false</default>
+                <label>ZB Gold (DePuy) present</label>
+            </value>
+            <value>
+                <fullName>ROSA not present</fullName>
+                <default>false</default>
+                <label>ROSA not present</label>
+            </value>
+            <value>
+                <fullName>ZB Gold (DePuy) not present</fullName>
+                <default>false</default>
+                <label>ZB Gold (DePuy) not present</label>
+            </value>
+            <value>
+                <fullName>ROSA present</fullName>
+                <default>false</default>
+                <label>ROSA present</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Casual User</controllingFieldValue>
+            <valueName>Competitive PKA User – wants to do more w/ROSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casual User</controllingFieldValue>
+            <valueName>Competitive PKA User – wants to do more wo/ROSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casual User</controllingFieldValue>
+            <valueName>Conventional PPK user w/ROSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mid-Volume</controllingFieldValue>
+            <controllingFieldValue>High-Volume</controllingFieldValue>
+            <valueName>Conventional PKA Zealots w/ROSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mid-Volume</controllingFieldValue>
+            <controllingFieldValue>High-Volume</controllingFieldValue>
+            <valueName>Conventional PKA Zealot wo/Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On the Fence</controllingFieldValue>
+            <controllingFieldValue>Velys Advantage</controllingFieldValue>
+            <valueName>ZB Gold (DePuy) present</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On the Fence</controllingFieldValue>
+            <valueName>ROSA present</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ROSA Advantage</controllingFieldValue>
+            <controllingFieldValue>Velys Advantage</controllingFieldValue>
+            <valueName>ROSA not present</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ROSA Advantage</controllingFieldValue>
+            <valueName>ZB Gold (DePuy) not present</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Closed_Prospects</fullName>
+    <columns>Lead_Rating__c</columns>
+    <columns>Lead_Star_Rating__c</columns>
+    <columns>NAME</columns>
+    <columns>Surgeon__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Product__c</columns>
+    <columns>Marketing_Segmentation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>Qualified,Not Qualified</value>
+    </filters>
+    <label>All Closed Prospects</label>
+</ListView>

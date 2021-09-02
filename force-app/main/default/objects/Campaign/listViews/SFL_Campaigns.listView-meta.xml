@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFL_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>State__c</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>Campaign_Member_Count__c</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>flask</value>
+    </filters>
+    <label>SFL Campaigns</label>
+    <sharedTo>
+        <role>DN_USA_South_Florida_RM</role>
+        <role>DN_USA_South_Florida_SP</role>
+    </sharedTo>
+</ListView>

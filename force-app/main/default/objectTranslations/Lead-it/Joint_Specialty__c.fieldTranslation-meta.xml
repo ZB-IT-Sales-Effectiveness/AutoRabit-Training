@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Joint Specialty --></label>
+    <name>Joint_Specialty__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAS</masterLabel>
+        <translation><!-- CAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand &amp; Wrist</masterLabel>
+        <translation><!-- Hand &amp; Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSP/ZImmer Surgical Products</masterLabel>
+        <translation><!-- OSP/ZImmer Surgical Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthobiologics</masterLabel>
+        <translation><!-- Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific</masterLabel>
+        <translation><!-- Patient Specific --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

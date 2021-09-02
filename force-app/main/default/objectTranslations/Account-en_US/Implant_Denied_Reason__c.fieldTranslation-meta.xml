@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Implant Denied Reason --></label>
+    <name>Implant_Denied_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Cap Kit - Customer does not want components on invoice</masterLabel>
+        <translation><!-- Cap Kit - Customer does not want components on invoice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap Kit - Sequence from MMIS System</masterLabel>
+        <translation><!-- Cap Kit - Sequence from MMIS System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Not Interested</masterLabel>
+        <translation><!-- Customer Not Interested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not a GHX Member</masterLabel>
+        <translation><!-- Not a GHX Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other – Please describe in SFDC Notes</masterLabel>
+        <translation><!-- Other – Please describe in SFDC Notes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

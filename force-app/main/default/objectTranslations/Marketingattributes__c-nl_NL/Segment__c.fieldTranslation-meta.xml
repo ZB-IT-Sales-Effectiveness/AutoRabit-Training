@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>segment</label>
+    <name>Segment__c</name>
+    <picklistValues>
+        <masterLabel>Extremitäten</masterLabel>
+        <translation><!-- Extremitäten --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hüfte</masterLabel>
+        <translation><!-- Hüfte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knie</masterLabel>
+        <translation><!-- Knie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sonstiges</masterLabel>
+        <translation><!-- Sonstiges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

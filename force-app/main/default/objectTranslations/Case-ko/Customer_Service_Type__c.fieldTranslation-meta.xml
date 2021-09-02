@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Customer Service Type --></label>
+    <name>Customer_Service_Type__c</name>
+    <picklistValues>
+        <masterLabel>Backorder</masterLabel>
+        <translation><!-- Backorder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBE</masterLabel>
+        <translation><!-- CBE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel Order</masterLabel>
+        <translation><!-- Cancel Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCS Question/Issues</masterLabel>
+        <translation><!-- DCS Question/Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeNovo</masterLabel>
+        <translation><!-- DeNovo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EDI</masterLabel>
+        <translation><!-- EDI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inventory Issue</masterLabel>
+        <translation><!-- Inventory Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Copy</masterLabel>
+        <translation><!-- Invoice Copy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loaner Pool</masterLabel>
+        <translation><!-- Loaner Pool --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Entry</masterLabel>
+        <translation><!-- Order Entry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Maintenance</masterLabel>
+        <translation><!-- Order Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POD/Tracking Info</masterLabel>
+        <translation><!-- POD/Tracking Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI</masterLabel>
+        <translation><!-- PSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing</masterLabel>
+        <translation><!-- Pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Question</masterLabel>
+        <translation><!-- Product Question --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase Order Follow-Up</masterLabel>
+        <translation><!-- Purchase Order Follow-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return Info</masterLabel>
+        <translation><!-- Return Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipping Issue</masterLabel>
+        <translation><!-- Shipping Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shortage/Overage Claim</masterLabel>
+        <translation><!-- Shortage/Overage Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Technique/Lit. Request</masterLabel>
+        <translation><!-- Surgical Technique/Lit. Request --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

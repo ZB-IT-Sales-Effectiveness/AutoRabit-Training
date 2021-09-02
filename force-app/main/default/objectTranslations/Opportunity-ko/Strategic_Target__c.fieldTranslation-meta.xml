@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- In Plan/Not in Plan --></label>
+    <name>Strategic_Target__c</name>
+    <picklistValues>
+        <masterLabel>In Plan</masterLabel>
+        <translation><!-- In Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not in plan</masterLabel>
+        <translation><!-- Not in plan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

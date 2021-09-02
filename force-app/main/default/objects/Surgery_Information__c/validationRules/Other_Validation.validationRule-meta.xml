@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Validation</fullName>
+    <active>true</active>
+    <description>This is the validation rule to ensure that the Other field is populated if the competitor indicated is &quot;Other&quot;</description>
+    <errorConditionFormula>AND(ISPICKVAL( Competitor_Manufacturer__c , &quot;Other&quot;),
+ Other__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Other__c</errorDisplayField>
+    <errorMessage>Other field must be populated as &quot;Other&quot; is selected for Competitor field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EEL__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Added for the Dental DDSS team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this lab Encode Empowered?</inlineHelpText>
+    <label>EEL</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBSO_CAL_HLDSWTHMRTN_0025_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-SO CAL (HLDSWTH-MRTN) (0025) QUEUE</label>
+    <queue>Q_ZBSO_CAL_HLDSWTHMRTN_0025</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Digital System Usage --></label>
+    <name>Digital_System_Usage__c</name>
+    <picklistValues>
+        <masterLabel>Encode</masterLabel>
+        <translation><!-- Encode --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party</masterLabel>
+        <translation><!-- Third Party --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zfx</masterLabel>
+        <translation><!-- Zfx --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

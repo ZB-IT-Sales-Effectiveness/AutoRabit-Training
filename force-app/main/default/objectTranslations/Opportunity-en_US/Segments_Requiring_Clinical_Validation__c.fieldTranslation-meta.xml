@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Segments Requiring Clinical Validation --></label>
+    <name>Segments_Requiring_Clinical_Validation__c</name>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bio</masterLabel>
+        <translation><!-- Bio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement</masterLabel>
+        <translation><!-- Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp;</masterLabel>
+        <translation><!-- Foot &amp; --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips</masterLabel>
+        <translation><!-- Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation><!-- Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulders</masterLabel>
+        <translation><!-- Shoulders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports</masterLabel>
+        <translation><!-- Sports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

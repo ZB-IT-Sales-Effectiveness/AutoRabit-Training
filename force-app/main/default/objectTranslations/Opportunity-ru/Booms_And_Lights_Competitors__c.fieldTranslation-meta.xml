@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Booms And Lights Competitors --></label>
+    <name>Booms_And_Lights_Competitors__c</name>
+    <picklistValues>
+        <masterLabel>Gettinge</masterLabel>
+        <translation><!-- Gettinge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olympus</masterLabel>
+        <translation><!-- Olympus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skytron</masterLabel>
+        <translation><!-- Skytron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steris</masterLabel>
+        <translation><!-- Steris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trumpf</masterLabel>
+        <translation><!-- Trumpf --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

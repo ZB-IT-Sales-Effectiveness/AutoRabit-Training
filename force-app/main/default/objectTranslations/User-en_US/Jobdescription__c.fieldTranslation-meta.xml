@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Funktion --></label>
+    <name>Jobdescription__c</name>
+    <picklistValues>
+        <masterLabel>Executive Assistant</masterLabel>
+        <translation><!-- Executive Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executive Director</masterLabel>
+        <translation><!-- Executive Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance Director</masterLabel>
+        <translation><!-- Finance Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance Manager</masterLabel>
+        <translation><!-- Finance Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Assistant</masterLabel>
+        <translation><!-- Marketing Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Director</masterLabel>
+        <translation><!-- Marketing Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Event Administrator</masterLabel>
+        <translation><!-- Marketing Event Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Manager</masterLabel>
+        <translation><!-- Marketing Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Producer</masterLabel>
+        <translation><!-- Marketing Producer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Product Manager</masterLabel>
+        <translation><!-- Marketing Product Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Administrator</masterLabel>
+        <translation><!-- Operations Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Director</masterLabel>
+        <translation><!-- Operations Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations IT Consultant</masterLabel>
+        <translation><!-- Operations IT Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Manager</masterLabel>
+        <translation><!-- Operations Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Purchasing Administrator</masterLabel>
+        <translation><!-- Operations Purchasing Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Warehouse Operative</masterLabel>
+        <translation><!-- Operations Warehouse Operative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Director</masterLabel>
+        <translation><!-- Sales Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Regional Manager</masterLabel>
+        <translation><!-- Sales Regional Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Representative</masterLabel>
+        <translation><!-- Sales Representative --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

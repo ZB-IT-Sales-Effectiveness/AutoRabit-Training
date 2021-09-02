@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASC_Focus_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This will be used to determined what specific ASC (Ambulatory Surgery Center)  are to be focused on . E.g. if i have a list of 120 ASC accounts but I only one to focus on 20 of them. I will check the box. The box will be used for list views and reporting</description>
+    <externalId>false</externalId>
+    <label>ASC Focus Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implant_Denied_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Implant Denied Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cap Kit - Sequence from MMIS System</fullName>
+                <default>false</default>
+                <label>Cap Kit - Sequence from MMIS System</label>
+            </value>
+            <value>
+                <fullName>Cap Kit - Customer does not want components on invoice</fullName>
+                <default>false</default>
+                <label>Cap Kit - Customer does not want components on invoice</label>
+            </value>
+            <value>
+                <fullName>Customer Not Interested</fullName>
+                <default>false</default>
+                <label>Customer Not Interested</label>
+            </value>
+            <value>
+                <fullName>Not a GHX Member</fullName>
+                <default>false</default>
+                <label>Not a GHX Member</label>
+            </value>
+            <value>
+                <fullName>Other – Please describe in SFDC Notes</fullName>
+                <default>false</default>
+                <label>Other – Please describe in SFDC Notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

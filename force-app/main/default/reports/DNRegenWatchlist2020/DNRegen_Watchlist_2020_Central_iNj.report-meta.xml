@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Central</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>412357,405344,400944,454136,389489,309768,383840,384371,387118,451953,455834,385281,143369,167902,419982,328277,388107,441715,384018,382158,426652,455590,208537,230777,386936,309426,129162,383455,385282,383382,452709,439996,141210,348984,387122,457094,457754,165268,107716,450268,456669,453411,353423,387115,382365,404644,387081,367288,385145,386797,387088,308774,285047,390386,239271,448259,383380,144978,383573,125935,107896,383760,107733,395573,387085,387104,441583,386761,439410,387098,382355,386762,225775,147642,437707,386694,387156,117117,445304,100579</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>429933,382163,396081,107445,427216,383954,353174,383534,440620,430947,384304,144666,107488,384339,154140,285340,387121,148073,383384,426527,381983,129835,390527,385256,430730,284119,383570,247218,383777,390604,107740,383533,276265,382001,355881,130389,382361,422625,395992,151667,391940,239730,383796,214438,452485,395863,129909,386965,387153,385315,112618,140192,400546,383399,457771,386862,387032,152965,383531,108811,143127,451345,382353,386709,439830,383331,372798,369549,448248,384370,145208,111059,430951,383554,385285,383433,382258,383622,242113,386880,108798,383794,443557,383422,382012,285042,410561,347047,383431,383990,117087,385277,127305</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Central</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

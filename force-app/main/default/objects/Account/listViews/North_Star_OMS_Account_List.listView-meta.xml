@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>North_Star_OMS_Account_List</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contact_Name__pc</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Region_Name__c</columns>
+    <columns>Account_Owner_Name__c</columns>
+    <columns>Last_Invoice_Date__c</columns>
+    <columns>YTD_Total__c</columns>
+    <columns>Total_Sales_Full_Previous_Year__c</columns>
+    <columns>Sales_Trend__c</columns>
+    <columns>DN_Regen_YTD_Manual_Rollup__c</columns>
+    <columns>DN_Regen_FPY_Manual_Rollup__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region_Name__c</field>
+        <operation>equals</operation>
+        <value>US North Star</value>
+    </filters>
+    <filters>
+        <field>Speciality_Type__c</field>
+        <operation>equals</operation>
+        <value>Oral Surgeon</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>North Star OMS Account List</label>
+    <sharedTo>
+        <group>DN_Inside_Sales_Group</group>
+    </sharedTo>
+</ListView>

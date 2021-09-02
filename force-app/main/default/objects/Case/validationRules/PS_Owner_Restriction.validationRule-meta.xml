@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_Owner_Restriction</fullName>
+    <active>true</active>
+    <description>Limit the agents to transfer to the Warsaw group, Remy and Miriam</description>
+    <errorConditionFormula>AND(
+	  OR(RecordTypeId =&quot;012C00000007wxl&quot;,RecordTypeId =&quot;0123b000000Qfx9AAC&quot;),
+	  ISCHANGED( OwnerId ),
+	  NOT(OR(
+		Owner:Queue.Id =&quot;00GC00000035PJl&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWD&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWC&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWE&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWF&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWI&quot;,
+                Owner:Queue.Id =&quot;00GC00000035HWK&quot;,
+                Owner:Queue.Id =&quot;00G3b000002KW3J&quot;,
+                Owner:Queue.Id =&quot;04Y3b000000bs58&quot;,
+                Owner:Queue.Id =&quot;00G3b000003QV8w&quot;,
+                Owner:Queue.Id =&quot;00G3b000002KYft&quot;,
+		Owner:User.ProfileId =&quot;00eC00000012Rbe&quot;,
+                Owner:User.ProfileId =&quot;00e3b000001GnFf&quot;,
+                Owner:User.ProfileId =&quot;00e3b000001GnFe&quot;,
+		Owner:User.ProfileId =&quot;00eC00000012Rbj&quot;,
+                Owner:User.ProfileId =&quot;0053b00000Bt15u&quot;,
+                Owner:User.ProfileId =&quot;00e800000014iYr&quot;,
+  Owner:User.ProfileId =&quot;00e80000000sptd&quot;
+		))
+)</errorConditionFormula>
+    <errorMessage>Personalized Solutions cases can only be assigned to Personalized Solutions users and CAS Agents and PS-queues.</errorMessage>
+</ValidationRule>

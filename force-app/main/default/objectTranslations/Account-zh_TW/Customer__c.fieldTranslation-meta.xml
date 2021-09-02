@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this box if this surgeon is a Zimmer customer --></help>
+    <label><!-- Knee Customer ? --></label>
+    <name>Customer__c</name>
+</CustomFieldTranslation>

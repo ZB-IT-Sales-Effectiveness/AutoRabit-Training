@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Ft Worth / West TX Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>001941,003856,007328,007850,009290,014730,016756,017135,018047,018252,018274,018444,019673,019910,022626,024829,026762,030780,030997,032248,032924,033628,033631,033738,034459,035810,036943,037916,039355,040435,040480,042329,042705,045209,045651,047822,048680,050392,053405,053992,054471,054608,057426,060102,062643,064157,068029,068087,070202,070315,074184,076160,076805,081619,081663,082120,083376,084015,084138,085274,087576,088017,088384,090080,091895,093357,094402,094933,095239,095256,096540,099404,104987,109320,109740,110787,117104,032911,054562,054930,113635,116192</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

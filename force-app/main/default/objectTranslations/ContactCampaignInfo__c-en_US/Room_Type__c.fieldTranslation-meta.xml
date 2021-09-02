@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Room Type --></label>
+    <name>Room_Type__c</name>
+    <picklistValues>
+        <masterLabel>Double Room</masterLabel>
+        <translation><!-- Double Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Room</masterLabel>
+        <translation><!-- Single Room --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

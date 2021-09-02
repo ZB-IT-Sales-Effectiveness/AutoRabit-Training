@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EtQ_Required_For_CAS</fullName>
+    <active>true</active>
+    <description>For CAS: This validation rule will throw error if the EtQ number CMP- is left blank for the specified values.</description>
+    <errorConditionFormula>AND( 
+(ISBLANK(EtQ__c)), 
+OR(
+	RecordType.Name = &quot;Zimmer CAS Optical Call Center&quot;, 
+	RecordType.Name = &quot;Zimmer CAS PSI Call Center&quot;, 
+	RecordType.Name = &quot;Zimmer CAS Support Call Center&quot;,
+	RecordType.Name = &quot;Zimmer CAS iAssist Call Center&quot;),
+
+OR 
+	( 
+	(ISPICKVAL(PSI_Solution__c,&quot;Complaint - Forward to EtQ&quot;)), 
+	(ISPICKVAL(Category__c,&quot;CS - D - Complaint&quot;)), 
+	(ISPICKVAL(Category__c,&quot;PSI - G - Complaint&quot;)), 
+	(ISPICKVAL(Category_Type__c,&quot;Complaint&quot;)), 
+	(ISPICKVAL(Sub_Catergory__c,&quot;Complaint&quot;)), 
+	(ISPICKVAL(Sub_Catergory__c,&quot;ETQ #&quot;)) 
+	) 
+)</errorConditionFormula>
+    <errorMessage>Please enter EtQ number.</errorMessage>
+</ValidationRule>

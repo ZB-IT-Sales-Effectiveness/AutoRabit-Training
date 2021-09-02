@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Specialty integration --></label>
+    <name>Specialty_integration__c</name>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle</masterLabel>
+        <translation><!-- Foot and Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand and Wrist</masterLabel>
+        <translation><!-- Hand and Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic</masterLabel>
+        <translation><!-- Orthopedic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Medicine</masterLabel>
+        <translation><!-- Pain Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastics</masterLabel>
+        <translation><!-- Plastics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Podiatry</masterLabel>
+        <translation><!-- Podiatry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care</masterLabel>
+        <translation><!-- Primary Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rheumetology</masterLabel>
+        <translation><!-- Rheumetology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Care</masterLabel>
+        <translation><!-- Wound Care --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

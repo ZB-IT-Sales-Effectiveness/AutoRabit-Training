@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Provisionalization --></label>
+    <name>Provisionalization__c</name>
+    <picklistValues>
+        <masterLabel>I do not provisionalize</masterLabel>
+        <translation><!-- I do not provisionalize --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provisionalize for Aesthetics (non-occlusal loading)</masterLabel>
+        <translation><!-- Provisionalize for Aesthetics (non-occlusal loading) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provisionalize for immediate implant loading due to condition</masterLabel>
+        <translation><!-- Provisionalize for immediate implant loading due to condition --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

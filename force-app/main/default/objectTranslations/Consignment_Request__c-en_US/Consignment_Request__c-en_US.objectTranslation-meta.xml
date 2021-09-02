@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Consignment Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Consignment Requests</value>
+    </caseValues>
+    <nameFieldLabel><!-- Request Number --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- PIS --></label>
+        <name>PIS</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_if_New_Equipment_is_Checked</fullName>
+    <active>false</active>
+    <errorConditionFormula>New_Equipment_Needed__c = True  &amp;&amp; 
+  ISBLANK(  New_Equipment_Quantity__c  )</errorConditionFormula>
+    <errorMessage>If you check the New Equipment Needed Box you must enter a quanity</errorMessage>
+</ValidationRule>

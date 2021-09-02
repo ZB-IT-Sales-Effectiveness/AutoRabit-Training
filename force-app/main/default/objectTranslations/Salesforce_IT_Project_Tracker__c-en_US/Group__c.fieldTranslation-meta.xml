@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Put Details in Comments --></help>
+    <label><!-- Group --></label>
+    <name>Group__c</name>
+    <picklistValues>
+        <masterLabel>CAS</masterLabel>
+        <translation><!-- CAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMF&amp;T</masterLabel>
+        <translation><!-- CMF&amp;T --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMEA</masterLabel>
+        <translation><!-- EMEA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enterprise Solutions</masterLabel>
+        <translation><!-- Enterprise Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global</masterLabel>
+        <translation><!-- Global --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HR</masterLabel>
+        <translation><!-- HR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Presevation</masterLabel>
+        <translation><!-- Hip Presevation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal IT</masterLabel>
+        <translation><!-- Internal IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDM</masterLabel>
+        <translation><!-- MDM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Med Ed</masterLabel>
+        <translation><!-- Med Ed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ortho</masterLabel>
+        <translation><!-- Ortho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personalized Solutions</masterLabel>
+        <translation><!-- Personalized Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics &amp; Technology</masterLabel>
+        <translation><!-- Robotics &amp; Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Ops</masterLabel>
+        <translation><!-- Sales Ops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Sales Support</masterLabel>
+        <translation><!-- Technical Sales Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade Compliance</masterLabel>
+        <translation><!-- Trade Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Connect</masterLabel>
+        <translation><!-- ZB Connect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

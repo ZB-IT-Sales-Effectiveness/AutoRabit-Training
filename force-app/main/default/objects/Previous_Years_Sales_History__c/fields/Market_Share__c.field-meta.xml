@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Share__c</fullName>
+    <externalId>false</externalId>
+    <formula>LEFT(TEXT(IF( ISBLANK(Market_Units__c), 0, (Zimmer_Units__c / Market_Units__c) *100)),4) &amp; &quot;%&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Market Share</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

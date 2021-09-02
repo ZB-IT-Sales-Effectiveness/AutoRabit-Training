@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETQ_values_NOT_Required</fullName>
+    <active>true</active>
+    <description>ETQ is required- 
+CAS: 
+•	Cate = CS - D – Complaint (by consequence Sub-Category = Complaint) 
+•	Cate= PSI - G – Complaint (by consequence Sub-Category = Complaint) 
+•	Cate = Complaint 
+•	CAS Solutions = Complaint - Forw 
+PS: 
+Sub-Cate= ETQ</description>
+    <errorConditionFormula>AND( 
+Not((ISBLANK(EtQ__c))), 
+Not(OR 
+((ISPICKVAL(PSI_Solution__c,&quot;Complaint - Forward to EtQ&quot;)), 
+(ISPICKVAL(Category__c,&quot;CS - D - Complaint&quot;)),(ISPICKVAL(Category__c,&quot;PSI - G - Complaint&quot;)), 
+(ISPICKVAL(Category_Type__c,&quot;Complaint&quot;)), 
+(ISPICKVAL(Sub_Catergory__c,&quot;Complaint&quot;)), 
+(ISPICKVAL(Sub_Catergory__c,&quot;ETQ #&quot;)) 
+
+) 
+) 
+)</errorConditionFormula>
+    <errorMessage>Remove &quot;EtQ number CMP&quot; Field value for selected field values for- Category,Sub-Category, Category Type and CAS Solutions fields.</errorMessage>
+</ValidationRule>

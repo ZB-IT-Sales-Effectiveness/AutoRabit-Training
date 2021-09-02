@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matching_QTD__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( 
+OR( 
+AND( 
+MONTH(Date__c) &gt;= 10, 
+MONTH(TODAY()) &gt;= 10, 
+OR( 
+AND	( 
+Date__c &lt; TODAY(), 
+Date__c&gt;= DATE( YEAR( TODAY() ),10,01) 
+), 
+AND	( 
+Date__c &lt; DATE( YEAR( TODAY())-1 ,MONTH(TODAY()),DAY(TODAY())), 
+Date__c&gt;= DATE( YEAR( TODAY())-1 ,10,01) 
+) 
+) 
+), 
+
+AND( MONTH(Date__c) &gt;= 7, MONTH(TODAY()) &gt;= 7, MONTH(Date__c) &lt; 10, MONTH(TODAY()) &lt; 10, 
+OR( 
+AND	( 
+Date__c &lt; TODAY(), 
+Date__c&gt;= DATE( YEAR( TODAY() ),7,01) 
+), 
+AND	( 
+Date__c &lt; DATE( YEAR( TODAY())-1,MONTH(TODAY()),DAY(TODAY())), 
+Date__c&gt;= DATE( YEAR( TODAY())-1 ,7,01) 
+) 
+) 
+), 
+
+AND( MONTH(Date__c) &gt;= 4, MONTH(TODAY()) &gt;= 4, MONTH(Date__c) &lt; 7, MONTH(TODAY()) &lt; 7, 
+OR( 
+AND	( 
+Date__c &lt; TODAY(), 
+Date__c&gt;= DATE( YEAR( TODAY() ),4,01) 
+), 
+AND	( 
+Date__c &lt; DATE( YEAR( TODAY())-1 ,MONTH(TODAY()),DAY(TODAY())), 
+Date__c&gt;= DATE( YEAR( TODAY())-1 ,4,01) 
+) 
+) 
+), 
+
+AND( MONTH(Date__c) &lt; 4, MONTH(TODAY()) &lt; 4, 
+OR( 
+AND	( 
+Date__c &lt; TODAY(), 
+Date__c&gt;= DATE( YEAR( TODAY() ),1,01) 
+), 
+AND	( 
+Date__c &lt; DATE( YEAR( TODAY())-1 ,MONTH(TODAY()),DAY(TODAY())), 
+Date__c&gt;= DATE( YEAR( TODAY())-1 ,1,01) 
+) 
+) 
+) 
+
+), 
+TRUE, 
+FALSE 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Matching QTD</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

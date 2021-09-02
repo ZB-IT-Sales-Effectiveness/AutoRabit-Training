@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Both (810) --></label>
+    <name>Reason_for_Both_810__c</name>
+    <picklistValues>
+        <masterLabel>30 Day Start Up</masterLabel>
+        <translation><!-- 30 Day Start Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other – Please describe in SFDC Notes</masterLabel>
+        <translation><!-- Other – Please describe in SFDC Notes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

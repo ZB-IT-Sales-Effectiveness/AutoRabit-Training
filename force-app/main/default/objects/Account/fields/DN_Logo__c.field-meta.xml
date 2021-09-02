@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Logo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF
+(
+ AND(
+ RecordType.Name = &apos;DN-ACCT-RECORD-TYPE&apos;,
+
+ OR(
+  ISPICKVAL(Speciality_Type__c , &apos;CA DOD&apos;),ISPICKVAL(Speciality_Type__c , &apos;Clinical&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Consumer&apos;),ISPICKVAL(Speciality_Type__c , &apos;Dept of Defense&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Dept of Justice&apos;),ISPICKVAL(Speciality_Type__c , &apos;Hospital&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Institution&apos;),ISPICKVAL(Speciality_Type__c , &apos;Medical Doctor&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Pharmacy&apos;),ISPICKVAL(Speciality_Type__c , &apos;University&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;VA Account&apos;),ISPICKVAL(Speciality_Type__c , &apos;Military CA&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Periodontist&apos;),ISPICKVAL(Speciality_Type__c , &apos;Oral Surgeon&apos;))
+  ),
+  IMAGE(&apos;/resource/1580983395000/DN_Specialist_Img&apos;,&apos;Specialist&apos;,80,80),
+
+IF
+(
+ AND(
+ RecordType.Name = &apos;DN-ACCT-RECORD-TYPE&apos;,ISPICKVAL(Speciality_Type__c , &apos;Lab&apos;)),
+ IMAGE(&apos;/resource/1580983395000/DN_Lab_Img&apos;,&apos;Lab&apos;,80,80),
+
+IF
+(
+ AND(
+ RecordType.Name = &apos;DN-ACCT-RECORD-TYPE&apos;,
+
+ OR(
+  ISPICKVAL(Speciality_Type__c , &apos;Denturist&apos;),ISPICKVAL(Speciality_Type__c , &apos;Endodontist&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;General Dentist&apos;),ISPICKVAL(Speciality_Type__c , &apos;Military&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Multispecialty&apos;),ISPICKVAL(Speciality_Type__c , &apos;Orthodontist&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Other&apos;),ISPICKVAL(Speciality_Type__c , &apos;Pedodontist&apos;),
+  ISPICKVAL(Speciality_Type__c , &apos;Prosthodontist&apos;),ISPICKVAL(Speciality_Type__c , &apos;Restorative Dentist&apos;))
+  ),
+ IMAGE(&apos;/resource/1580983395000/DN_GP_Img&apos;,&apos;GP&apos;,80,80),&apos;&apos;
+)
+)
+)</formula>
+    <label>Account Type Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

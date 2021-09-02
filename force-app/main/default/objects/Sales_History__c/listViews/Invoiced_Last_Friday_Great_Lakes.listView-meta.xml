@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Last_Friday_Great_Lakes</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1146,1071,1073,1074,1202,1164,1080,1091</value>
+    </filters>
+    <filters>
+        <field>Invoiced_Last_Friday__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Invoiced Last Friday Great Lakes</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_Great_Lakes_ISR</group>
+        <group>DN_USA_KS_GL_BUC_MW_DDSS</group>
+        <group>DN_USA_Key_Stone_GL_Buckeye_Regen</group>
+    </sharedTo>
+</ListView>

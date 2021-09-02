@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Conversion_Rating__c</fullName>
+    <externalId>false</externalId>
+    <label>Territory Conversion Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conversion Completed</fullName>
+                <default>false</default>
+                <label>Conversion Completed</label>
+            </value>
+            <value>
+                <fullName>Conversion in Process</fullName>
+                <default>false</default>
+                <label>Conversion in Process</label>
+            </value>
+            <value>
+                <fullName>Conversion Lost</fullName>
+                <default>false</default>
+                <label>Conversion Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

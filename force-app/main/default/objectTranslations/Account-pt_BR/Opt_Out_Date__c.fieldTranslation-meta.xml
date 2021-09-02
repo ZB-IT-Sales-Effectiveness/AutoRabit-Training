@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- captures the Opt Out Date if Status is set to Opt Out --></help>
+    <label><!-- Opt Out Date --></label>
+    <name>Opt_Out_Date__c</name>
+</CustomFieldTranslation>

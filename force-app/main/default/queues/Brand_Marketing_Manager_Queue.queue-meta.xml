@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>surgicalmarketing-all@zimmerbiomet.com</email>
+    <name>Brand Marketing Manager Queue</name>
+    <queueMembers>
+        <users>
+            <user>alexandria.baker@zimmerbiomet.com</user>
+            <user>chrissy.betsa@zimmerbiomet.com</user>
+            <user>christopher.hosler@zimmerbiomet.com</user>
+            <user>christopher.hunter@zimmer.com</user>
+            <user>darren.wilstead@zimmerbiomet.com</user>
+            <user>kaylee.kaczmark@zimmerbiomet.com</user>
+            <user>phillip.daniels@zimmerbiomet.com</user>
+            <user>steven.goske@zimmerbiomet.com</user>
+            <user>tyler.shelbert@zimmer.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

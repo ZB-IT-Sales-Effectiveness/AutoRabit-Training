@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>Advertentie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Banner Ads</masterLabel>
+        <translation>BioSkills</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation>Masterclass</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Exhibition</masterLabel>
+        <translation>Standhuur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External Wetlab</masterLabel>
+        <translation><!-- External Wetlab --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Factory Tour</masterLabel>
+        <translation>European Site Visit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Institute</masterLabel>
+        <translation><!-- Institute --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instructional Course</masterLabel>
+        <translation><!-- Instructional Course --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Internal</masterLabel>
+        <translation>Intern</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIRD</masterLabel>
+        <translation><!-- JIRD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mailing</masterLabel>
+        <translation>Mailing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medical Education</masterLabel>
+        <translation>Lokale workshop</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting</masterLabel>
+        <translation>LVO studiedag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On-Demand Webcast</masterLabel>
+        <translation><!-- On-Demand Webcast --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Overig</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partners</masterLabel>
+        <translation>Interactions Meeting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PathwayZ Live</masterLabel>
+        <translation><!-- PathwayZ Live --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PathwayZ Resident</masterLabel>
+        <translation><!-- PathwayZ Resident --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PathwayZ Self Study</masterLabel>
+        <translation><!-- PathwayZ Self Study --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patient Event</masterLabel>
+        <translation>Patiëntbijeenkomst</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Professional Education</masterLabel>
+        <translation>Educatie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pronews</masterLabel>
+        <translation>Nieuwsbrief</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Relations</masterLabel>
+        <translation>PR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Referral Program</masterLabel>
+        <translation>Referentieprogramma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regional</masterLabel>
+        <translation>FPM (Field Product Management)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rep Led</masterLabel>
+        <translation><!-- Rep Led --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Road Show</masterLabel>
+        <translation><!-- Road Show --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S2S Reversed</masterLabel>
+        <translation><!-- S2S Reversed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales</masterLabel>
+        <translation>Surgeon to Surgeon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seminar / Conference</masterLabel>
+        <translation>Seminar/congres (TPEC)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tech Forum</masterLabel>
+        <translation><!-- Tech Forum --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Telemarketing</masterLabel>
+        <translation>Online</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Show</masterLabel>
+        <translation>Marketingmateriaal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Webcast</masterLabel>
+        <translation><!-- Webcast --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

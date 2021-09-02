@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scanner_s__c</fullName>
+    <description>This field was created for the Dental DDSS team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What scanner(s) does this lab use?</inlineHelpText>
+    <label>Scanner(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3Shape</fullName>
+                <default>false</default>
+                <label>3Shape</label>
+            </value>
+            <value>
+                <fullName>ZFX</fullName>
+                <default>false</default>
+                <label>ZFX</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>iTero - Aligntech</fullName>
+                <default>false</default>
+                <label>iTero - Aligntech</label>
+            </value>
+            <value>
+                <fullName>Cerec - Dentsply Sirona</fullName>
+                <default>false</default>
+                <label>Cerec - Dentsply Sirona</label>
+            </value>
+            <value>
+                <fullName>Trios - 3Shape</fullName>
+                <default>false</default>
+                <label>Trios - 3Shape</label>
+            </value>
+            <value>
+                <fullName>Dental Wings</fullName>
+                <default>false</default>
+                <label>Dental Wings</label>
+            </value>
+            <value>
+                <fullName>CareStream</fullName>
+                <default>false</default>
+                <label>CareStream</label>
+            </value>
+            <value>
+                <fullName>iMedit</fullName>
+                <default>false</default>
+                <label>iMedit</label>
+            </value>
+            <value>
+                <fullName>3M ESPE</fullName>
+                <default>false</default>
+                <label>3M ESPE</label>
+            </value>
+            <value>
+                <fullName>Primescan - Dentsply Sirona</fullName>
+                <default>false</default>
+                <label>Primescan - Dentsply Sirona</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

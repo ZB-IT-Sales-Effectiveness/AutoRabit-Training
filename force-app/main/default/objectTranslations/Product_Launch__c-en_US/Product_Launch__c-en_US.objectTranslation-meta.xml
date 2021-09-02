@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Launch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Launches</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- MIS --></label>
+        <name>MIS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Brain --></label>
+        <name>ROSA_Brain</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Knee --></label>
+        <name>ROSA_Knee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Spine --></label>
+        <name>ROSA_Spine</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- mymobility --></label>
+        <name>mymobility</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

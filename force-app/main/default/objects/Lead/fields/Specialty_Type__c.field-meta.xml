@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialty_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Specialty Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Periodontist</fullName>
+                <default>false</default>
+                <label>Periodontist</label>
+            </value>
+            <value>
+                <fullName>Oral Surgeon</fullName>
+                <default>false</default>
+                <label>Oral Surgeon</label>
+            </value>
+            <value>
+                <fullName>Endodontist</fullName>
+                <default>false</default>
+                <label>Endodontist</label>
+            </value>
+            <value>
+                <fullName>Prosthodontist</fullName>
+                <default>false</default>
+                <label>Prosthodontist</label>
+            </value>
+            <value>
+                <fullName>Orthodontist</fullName>
+                <default>false</default>
+                <label>Orthodontist</label>
+            </value>
+            <value>
+                <fullName>General Practice</fullName>
+                <default>false</default>
+                <label>General Practice</label>
+            </value>
+            <value>
+                <fullName>GP - Implant Placing</fullName>
+                <default>false</default>
+                <label>GP - Implant Placing</label>
+            </value>
+            <value>
+                <fullName>GP - Referring Restorative</fullName>
+                <default>false</default>
+                <label>GP - Referring Restorative</label>
+            </value>
+            <value>
+                <fullName>Dental Lab</fullName>
+                <default>false</default>
+                <label>Dental Lab</label>
+            </value>
+            <value>
+                <fullName>Hospitals</fullName>
+                <default>false</default>
+                <label>Hospitals</label>
+            </value>
+            <value>
+                <fullName>Dental School/University</fullName>
+                <default>false</default>
+                <label>Dental School/University</label>
+            </value>
+            <value>
+                <fullName>Denturist</fullName>
+                <default>false</default>
+                <label>Denturist</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Study Club</fullName>
+                <default>false</default>
+                <label>Study Club</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

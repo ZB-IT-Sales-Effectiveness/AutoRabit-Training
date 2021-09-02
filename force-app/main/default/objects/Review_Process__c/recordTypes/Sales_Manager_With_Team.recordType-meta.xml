@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Manager_With_Team</fullName>
+    <active>true</active>
+    <description>This is for when a Sales Manager is reviewing w/ a Team Lead(s)</description>
+    <label>Sales Manager With Team</label>
+</RecordType>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canada_Sales_Opportunity</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Avalanche_Segmentation__c</columns>
+    <columns>CanadaDistributor__c</columns>
+    <columns>Primary_Segment__c</columns>
+    <columns>Strategic_Target__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Amount_Custom__c</columns>
+    <columns>Resource_Status__c</columns>
+    <columns>Demand_Review__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AM_CA_RC_Sales</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <label>Canada Sales Opportunity</label>
+    <sharedTo>
+        <group>TCS_SFDC_Admins</group>
+        <roleAndSubordinatesInternal>ZB_Canada_Corporate</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

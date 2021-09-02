@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Please select your distributorship --></label>
+    <name>Please_select_your_distributorship__c</name>
+    <picklistValues>
+        <masterLabel>Boneafide Orthopaedics, Inc.</masterLabel>
+        <translation><!-- Boneafide Orthopaedics, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EverGen Surgical, Inc.</masterLabel>
+        <translation><!-- EverGen Surgical, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midark Surgical Inc.</masterLabel>
+        <translation><!-- Midark Surgical Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Orthopedics, Inc.</masterLabel>
+        <translation><!-- Select Orthopedics, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB APEX Surgical</masterLabel>
+        <translation><!-- ZB APEX Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Davis</masterLabel>
+        <translation><!-- ZB Davis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Iowa</masterLabel>
+        <translation><!-- ZB Iowa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Mid-Atlantic</masterLabel>
+        <translation><!-- ZB Mid-Atlantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Mid-Ohio</masterLabel>
+        <translation><!-- ZB Mid-Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB MidAmerica</masterLabel>
+        <translation><!-- ZB MidAmerica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB South Carolina</masterLabel>
+        <translation><!-- ZB South Carolina --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

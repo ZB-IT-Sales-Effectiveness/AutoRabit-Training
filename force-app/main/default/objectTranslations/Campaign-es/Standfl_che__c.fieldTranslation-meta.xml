@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Geben Sie hier die Grösse des gemieteten Standplatzes ein --></help>
+    <label><!-- Standfläche --></label>
+    <name>Standfl_che__c</name>
+</CustomFieldTranslation>

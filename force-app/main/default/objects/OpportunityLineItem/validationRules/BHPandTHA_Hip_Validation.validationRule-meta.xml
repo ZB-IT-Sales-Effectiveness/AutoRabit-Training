@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BHPandTHA_Hip_Validation</fullName>
+    <active>true</active>
+    <description>Validates that the Hip Surgery type field, visible only to Japanese reps, has been filled in, if the product segment = Hips, and the record type of the opportunity = &quot;AP-JPN-Opportunity&amp;Risk&quot;</description>
+    <errorConditionFormula>AND( Opportunity.RecordTypeId = &quot;012C0000000QAqy&quot;, Product_Segment__c = &quot;Hips&quot;, ISPICKVAL(Hip_surgery_type_JPN_Only__c , &quot;&quot;) )</errorConditionFormula>
+    <errorDisplayField>Hip_surgery_type_JPN_Only__c</errorDisplayField>
+    <errorMessage>This is a Hip product. You must select either THA or BHP</errorMessage>
+</ValidationRule>

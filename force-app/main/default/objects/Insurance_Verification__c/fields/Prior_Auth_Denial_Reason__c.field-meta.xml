@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Auth_Denial_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>I/E – Inv/Exp (policy)
+LMN – Lack of Medical Necessity (e.g., no cons care, radiculopathy)</inlineHelpText>
+    <label>Prior Auth Denial Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

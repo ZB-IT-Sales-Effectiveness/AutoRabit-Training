@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_schouder_cuff__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type schouder cuff</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_schouder_cuff__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZCRP</fullName>
+                <default>false</default>
+                <label>ZCRP</label>
+            </value>
+            <value>
+                <fullName>Nottingham</fullName>
+                <default>false</default>
+                <label>Nottingham</label>
+            </value>
+            <value>
+                <fullName>CTA</fullName>
+                <default>false</default>
+                <label>CTA</label>
+            </value>
+            <value>
+                <fullName>Equalis</fullName>
+                <default>false</default>
+                <label>Equalis</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZCRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Nottingham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>CTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Equalis</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Atlanta West Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>003660,005269,015000,015025,015557,016464,021906,022664,027428,032312,032317,034467,034588,035864,035939,036787,038027,040080,040099,047560,048404,050314,052210,055171,056814,057238,057324,057594,060337,060547,061039,063435,069982,073045,085038,085842,086918,087290,090015,092320,093709,095279,103139,106178,109292,064875</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

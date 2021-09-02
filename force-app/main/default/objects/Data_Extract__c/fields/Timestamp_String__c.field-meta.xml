@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timestamp_String__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(YEAR( DATEVALUE(Timestamp__c) )) &amp; &apos;~~~&apos; &amp;   IF(LEN(TEXT(MONTH(DATEVALUE(Timestamp__c)))) == 2, TEXT(MONTH(DATEVALUE(Timestamp__c))), &apos;0&apos; &amp; TEXT(MONTH(DATEVALUE(Timestamp__c))))  &amp; &apos;~~~&apos; &amp;  IF(LEN(TEXT(DAY(DATEVALUE(Timestamp__c)))) == 2, TEXT(DAY(DATEVALUE(Timestamp__c))), &apos;0&apos; &amp; TEXT(DAY(DATEVALUE(Timestamp__c))))</formula>
+    <label>Timestamp String</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

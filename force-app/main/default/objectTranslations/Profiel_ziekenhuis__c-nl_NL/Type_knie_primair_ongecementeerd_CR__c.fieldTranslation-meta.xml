@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type knie primair ongecementeerd CR --></label>
+    <name>Type_knie_primair_ongecementeerd_CR__c</name>
+    <picklistValues>
+        <masterLabel>AGC</masterLabel>
+        <translation><!-- AGC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advance</masterLabel>
+        <translation><!-- Advance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ascent</masterLabel>
+        <translation><!-- Ascent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Balansys</masterLabel>
+        <translation><!-- Balansys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deuce</masterLabel>
+        <translation><!-- Deuce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duracon</masterLabel>
+        <translation><!-- Duracon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy</masterLabel>
+        <translation><!-- Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genesis II</masterLabel>
+        <translation><!-- Genesis II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex</masterLabel>
+        <translation><!-- Innex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Journey</masterLabel>
+        <translation><!-- Journey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinemax</masterLabel>
+        <translation><!-- Kinemax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCS</masterLabel>
+        <translation><!-- LCS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxim</masterLabel>
+        <translation><!-- Maxim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multigen</masterLabel>
+        <translation><!-- Multigen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen</masterLabel>
+        <translation><!-- NexGen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optetrack</masterLabel>
+        <translation><!-- Optetrack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFC Sigma</masterLabel>
+        <translation><!-- PFC Sigma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance</masterLabel>
+        <translation><!-- Performance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profix</masterLabel>
+        <translation><!-- Profix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROC</masterLabel>
+        <translation><!-- ROC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotaglide</masterLabel>
+        <translation><!-- Rotaglide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scorpio</masterLabel>
+        <translation><!-- Scorpio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TC Plus</masterLabel>
+        <translation><!-- TC Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triathlon</masterLabel>
+        <translation><!-- Triathlon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard</masterLabel>
+        <translation><!-- Vanguard --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

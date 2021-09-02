@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>How_did_you_hear_about_us__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GKnee 11/2009</fullName>
+                <default>false</default>
+                <label>GKnee 11/2009</label>
+            </value>
+            <value>
+                <fullName>WebMD</fullName>
+                <default>false</default>
+                <label>WebMD</label>
+            </value>
+            <value>
+                <fullName>Zimmer Sites</fullName>
+                <default>false</default>
+                <label>Zimmer Sites</label>
+            </value>
+            <value>
+                <fullName>Search Engine</fullName>
+                <default>false</default>
+                <label>Search Engine</label>
+            </value>
+            <value>
+                <fullName>Arthritis Today</fullName>
+                <default>false</default>
+                <label>Arthritis Today</label>
+            </value>
+            <value>
+                <fullName>Business Week</fullName>
+                <default>false</default>
+                <label>Business Week</label>
+            </value>
+            <value>
+                <fullName>Prevention</fullName>
+                <default>false</default>
+                <label>Prevention</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Story/Article</fullName>
+                <default>false</default>
+                <label>Story/Article</label>
+            </value>
+            <value>
+                <fullName>Primary Care Physician</fullName>
+                <default>false</default>
+                <label>Primary Care Physician</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Surgeon</fullName>
+                <default>false</default>
+                <label>Orthopaedic Surgeon</label>
+            </value>
+            <value>
+                <fullName>OBGYN</fullName>
+                <default>false</default>
+                <label>OBGYN</label>
+            </value>
+            <value>
+                <fullName>Back In the Groove</fullName>
+                <default>false</default>
+                <label>Back In the Groove</label>
+            </value>
+            <value>
+                <fullName>Community Seminars</fullName>
+                <default>false</default>
+                <label>Community Seminars</label>
+            </value>
+            <value>
+                <fullName>Commercial/Ad</fullName>
+                <default>false</default>
+                <label>Commercial/Ad</label>
+            </value>
+            <value>
+                <fullName>New Story</fullName>
+                <default>false</default>
+                <label>New Story</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Community Seminars 2010</fullName>
+                <default>false</default>
+                <label>Community Seminars 2010</label>
+            </value>
+            <value>
+                <fullName>2010 Back in the Groove</fullName>
+                <default>false</default>
+                <label>2010 Back in the Groove</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Seminar</controllingFieldValue>
+            <valueName>Back In the Groove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seminar</controllingFieldValue>
+            <valueName>Community Seminars</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seminar</controllingFieldValue>
+            <controllingFieldValue>TV</controllingFieldValue>
+            <controllingFieldValue>Campaigns</controllingFieldValue>
+            <controllingFieldValue>Internet</controllingFieldValue>
+            <controllingFieldValue>Magazine</controllingFieldValue>
+            <controllingFieldValue>Newspaper</controllingFieldValue>
+            <controllingFieldValue>Physician Referral</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TV</controllingFieldValue>
+            <valueName>Commercial/Ad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TV</controllingFieldValue>
+            <valueName>New Story</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaigns</controllingFieldValue>
+            <valueName>GKnee 11/2009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet</controllingFieldValue>
+            <valueName>WebMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet</controllingFieldValue>
+            <valueName>Zimmer Sites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet</controllingFieldValue>
+            <valueName>Search Engine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Magazine</controllingFieldValue>
+            <valueName>Arthritis Today</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Magazine</controllingFieldValue>
+            <valueName>Business Week</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Magazine</controllingFieldValue>
+            <valueName>Prevention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Newspaper</controllingFieldValue>
+            <valueName>Advertisement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Newspaper</controllingFieldValue>
+            <valueName>Story/Article</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Referral</controllingFieldValue>
+            <valueName>Primary Care Physician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Referral</controllingFieldValue>
+            <valueName>Orthopaedic Surgeon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Referral</controllingFieldValue>
+            <valueName>OBGYN</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Account - Trouble Brewing</masterLabel>
+        <translation><!-- Account - Trouble Brewing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Account - Unhappy</masterLabel>
+        <translation><!-- Account - Unhappy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activate consignment</masterLabel>
+        <translation><!-- Activate consignment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aged Repair Resolution</masterLabel>
+        <translation><!-- Aged Repair Resolution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Betreuung</masterLabel>
+        <translation><!-- Anruf Betreuung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Follow up/Betreu.</masterLabel>
+        <translation><!-- Anruf Follow up/Betreu. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Marktumfrage</masterLabel>
+        <translation><!-- Anruf Marktumfrage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Reklamation</masterLabel>
+        <translation><!-- Anruf Reklamation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Terminvereinbarung</masterLabel>
+        <translation><!-- Anruf Terminvereinbarung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anruf Verkaufssupport</masterLabel>
+        <translation><!-- Anruf Verkaufssupport --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>App in Stage = Commit</masterLabel>
+        <translation><!-- App in Stage = Commit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bioskills training course</masterLabel>
+        <translation><!-- Bioskills training course --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Book CSD in-service</masterLabel>
+        <translation><!-- Book CSD in-service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Book nurse in-service</masterLabel>
+        <translation><!-- Book nurse in-service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brief Korresp.Allgemein</masterLabel>
+        <translation><!-- Brief Korresp.Allgemein --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brief Marketing-Mailing</masterLabel>
+        <translation><!-- Brief Marketing-Mailing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brief Offertwesen</masterLabel>
+        <translation><!-- Brief Offertwesen --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brief Reklamation</masterLabel>
+        <translation><!-- Brief Reklamation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brief Veranst.Einladung</masterLabel>
+        <translation><!-- Brief Veranst.Einladung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Plan Presented</masterLabel>
+        <translation><!-- Business Plan Presented --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CTC 2020 Options</masterLabel>
+        <translation><!-- CTC 2020 Options --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation><!-- Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Called</masterLabel>
+        <translation><!-- Called --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Capital Solutions Deal Desk Document Status</masterLabel>
+        <translation><!-- Capital Solutions Deal Desk Document Status --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case Help</masterLabel>
+        <translation><!-- Case Help --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case attendance</masterLabel>
+        <translation><!-- Case attendance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clinical Evidence</masterLabel>
+        <translation><!-- Clinical Evidence --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitive Hire</masterLabel>
+        <translation><!-- Competitive Hire --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitive Opportunity</masterLabel>
+        <translation><!-- Competitive Opportunity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitive product comparison</masterLabel>
+        <translation><!-- Competitive product comparison --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitor Activity</masterLabel>
+        <translation><!-- Competitor Activity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conference Lead Follow-up</masterLabel>
+        <translation><!-- Conference Lead Follow-up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consignment -Installation</masterLabel>
+        <translation><!-- Consignment -Installation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consignment – Request</masterLabel>
+        <translation><!-- Consignment – Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contract Extension</masterLabel>
+        <translation>Contract Verlenging</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contract Negotiation</masterLabel>
+        <translation><!-- Contract Negotiation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contract Statement</masterLabel>
+        <translation><!-- Contract Statement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom Instruments</masterLabel>
+        <translation><!-- Custom Instruments --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital</masterLabel>
+        <translation><!-- Digital --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Doc Deficiencies MYM</masterLabel>
+        <translation><!-- Doc Deficiencies MYM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Doc Deficiencies ROSA</masterLabel>
+        <translation><!-- Doc Deficiencies ROSA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Doc Deficiencies SURGICAL</masterLabel>
+        <translation><!-- Doc Deficiencies SURGICAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Betreuung</masterLabel>
+        <translation><!-- E-Mail Betreuung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Follow up/Betreu.</masterLabel>
+        <translation><!-- E-Mail Follow up/Betreu. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Korresp.Allgemein</masterLabel>
+        <translation><!-- E-Mail Korresp.Allgemein --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Marketing-Mailing</masterLabel>
+        <translation><!-- E-Mail Marketing-Mailing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Marktumfrage</masterLabel>
+        <translation><!-- E-Mail Marktumfrage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Offertwesen</masterLabel>
+        <translation><!-- E-Mail Offertwesen --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Reklamation</masterLabel>
+        <translation><!-- E-Mail Reklamation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Terminvereinbarung</masterLabel>
+        <translation><!-- E-Mail Terminvereinbarung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Veranst.Einladung</masterLabel>
+        <translation><!-- E-Mail Veranst.Einladung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-Mail Verkaufssupport</masterLabel>
+        <translation><!-- E-Mail Verkaufssupport --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Educational site visit</masterLabel>
+        <translation><!-- Educational site visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emailed</masterLabel>
+        <translation><!-- Emailed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Encode</masterLabel>
+        <translation><!-- Encode --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Exchange</masterLabel>
+        <translation><!-- Exchange --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Executive Support Meeting</masterLabel>
+        <translation><!-- Executive Support Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Faxed</masterLabel>
+        <translation><!-- Faxed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Field Feedback</masterLabel>
+        <translation><!-- Field Feedback --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance/Accounting</masterLabel>
+        <translation><!-- Finance/Accounting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up</masterLabel>
+        <translation><!-- Follow Up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up - Courtesy Letter</masterLabel>
+        <translation><!-- Follow Up - Courtesy Letter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up - Send Clinical Evidence</masterLabel>
+        <translation><!-- Follow Up - Send Clinical Evidence --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up - Send Product Information</masterLabel>
+        <translation><!-- Follow Up - Send Product Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up - Send Quote/Proposal</masterLabel>
+        <translation><!-- Follow Up - Send Quote/Proposal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow-up Distributor Meeting</masterLabel>
+        <translation><!-- Follow-up Distributor Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HEMCON SAMPLE SENT</masterLabel>
+        <translation><!-- HEMCON SAMPLE SENT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospital C-Suite Meeting</masterLabel>
+        <translation><!-- Hospital C-Suite Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Identify Related Contacts/Update Contact Roles</masterLabel>
+        <translation><!-- Identify Related Contacts/Update Contact Roles --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant</masterLabel>
+        <translation><!-- Implant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Concierge</masterLabel>
+        <translation><!-- Implant Concierge --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implants</masterLabel>
+        <translation><!-- Implants --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Person</masterLabel>
+        <translation><!-- In Person --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Service - Registrar(s)</masterLabel>
+        <translation><!-- In-Service - Registrar(s) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Service - Surgeon(s)</masterLabel>
+        <translation><!-- In-Service - Surgeon(s) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Service – CSSD</masterLabel>
+        <translation><!-- In-Service – CSSD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Service – Nurses</masterLabel>
+        <translation><!-- In-Service – Nurses --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inbound</masterLabel>
+        <translation><!-- Inbound --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Initial Distributor Meeting</masterLabel>
+        <translation><!-- Initial Distributor Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Initiate Product Launch</masterLabel>
+        <translation><!-- Initiate Product Launch --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instrument Demo</masterLabel>
+        <translation><!-- Instrument Demo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments</masterLabel>
+        <translation><!-- Instruments --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments - Repair/Replace</masterLabel>
+        <translation><!-- Instruments - Repair/Replace --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments – Custom Required</masterLabel>
+        <translation><!-- Instruments – Custom Required --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments – Find/Show Alternative</masterLabel>
+        <translation><!-- Instruments – Find/Show Alternative --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Internal Account Planning Review</masterLabel>
+        <translation><!-- Internal Account Planning Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Performance Review</masterLabel>
+        <translation><!-- LTC - Performance Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Extremities</masterLabel>
+        <translation><!-- LTC - Request - Extremities --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Hips</masterLabel>
+        <translation><!-- LTC - Request - Hips --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Knees</masterLabel>
+        <translation><!-- LTC - Request - Knees --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Spine</masterLabel>
+        <translation><!-- LTC - Request - Spine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Surgical</masterLabel>
+        <translation><!-- LTC - Request - Surgical --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTC - Request - Trauma</masterLabel>
+        <translation><!-- LTC - Request - Trauma --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Legal Notice</masterLabel>
+        <translation><!-- Legal Notice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Local Education Program</masterLabel>
+        <translation><!-- Local Education Program --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lunch &amp; Learn</masterLabel>
+        <translation><!-- Lunch &amp; Learn --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maintaining Referral</masterLabel>
+        <translation><!-- Maintaining Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Course Attendance Follow Up</masterLabel>
+        <translation><!-- Med Ed - Course Attendance Follow Up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Course Attendance Invitation</masterLabel>
+        <translation><!-- Med Ed - Course Attendance Invitation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Course Attendance Invite</masterLabel>
+        <translation><!-- Med Ed - Course Attendance Invite --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Education Site Visit to Warsaw</masterLabel>
+        <translation><!-- Med Ed - Education Site Visit to Warsaw --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Mobile Lab</masterLabel>
+        <translation><!-- Med Ed - Mobile Lab --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Foot &amp; Ankle</masterLabel>
+        <translation><!-- Med Ed - Request - Foot &amp; Ankle --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Hips</masterLabel>
+        <translation><!-- Med Ed - Request - Hips --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Knees</masterLabel>
+        <translation><!-- Med Ed - Request - Knees --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Shoulder &amp; Elbow</masterLabel>
+        <translation><!-- Med Ed - Request - Shoulder &amp; Elbow --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Spine</masterLabel>
+        <translation><!-- Med Ed - Request - Spine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Request - Trauma</masterLabel>
+        <translation><!-- Med Ed - Request - Trauma --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed - Surgeon to Surgeon</masterLabel>
+        <translation><!-- Med Ed - Surgeon to Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meet Related Contacts</masterLabel>
+        <translation><!-- Meet Related Contacts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Met with Ortho Rep</masterLabel>
+        <translation><!-- Met with Ortho Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Northern Hemisphere Fellow Meeting</masterLabel>
+        <translation><!-- Northern Hemisphere Fellow Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Orders</masterLabel>
+        <translation><!-- Orders --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outbound</masterLabel>
+        <translation><!-- Outbound --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outbound 1</masterLabel>
+        <translation><!-- Outbound 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outbound 2</masterLabel>
+        <translation><!-- Outbound 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outbound 3</masterLabel>
+        <translation><!-- Outbound 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outbound 4</masterLabel>
+        <translation><!-- Outbound 4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PartnerZ</masterLabel>
+        <translation><!-- PartnerZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PartnerZ Swap Confirmed</masterLabel>
+        <translation><!-- PartnerZ Swap Confirmed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PartnerZ Target</masterLabel>
+        <translation><!-- PartnerZ Target --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Phone Call</masterLabel>
+        <translation><!-- Phone Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - ASI</masterLabel>
+        <translation><!-- Playbook - ASI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - NCB PP</masterLabel>
+        <translation><!-- Playbook - NCB PP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - Optipac</masterLabel>
+        <translation><!-- Playbook - Optipac --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - S&amp;E Sports Med</masterLabel>
+        <translation><!-- Playbook - S&amp;E Sports Med --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - Taperloc G7</masterLabel>
+        <translation><!-- Playbook - Taperloc G7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - Total Shield</masterLabel>
+        <translation><!-- Playbook - Total Shield --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - Verasense</masterLabel>
+        <translation><!-- Playbook - Verasense --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook - X3</masterLabel>
+        <translation><!-- Playbook - X3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook Attune</masterLabel>
+        <translation><!-- Playbook Attune --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook ConC</masterLabel>
+        <translation><!-- Playbook ConC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook LONG PEG</masterLabel>
+        <translation><!-- Playbook LONG PEG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook MLRasps</masterLabel>
+        <translation><!-- Playbook MLRasps --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook Motionloc</masterLabel>
+        <translation><!-- Playbook Motionloc --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook NCB</masterLabel>
+        <translation><!-- Playbook NCB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook PROMS</masterLabel>
+        <translation><!-- Playbook PROMS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook PSI</masterLabel>
+        <translation><!-- Playbook PSI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook Pathfinder</masterLabel>
+        <translation><!-- Playbook Pathfinder --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook Poly</masterLabel>
+        <translation><!-- Playbook Poly --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook SIDUS</masterLabel>
+        <translation><!-- Playbook SIDUS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook TM</masterLabel>
+        <translation><!-- Playbook TM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook TMG</masterLabel>
+        <translation><!-- Playbook TMG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook TMR</masterLabel>
+        <translation><!-- Playbook TMR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook TMSpine</masterLabel>
+        <translation><!-- Playbook TMSpine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook ZADII</masterLabel>
+        <translation><!-- Playbook ZADII --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook ZMR</masterLabel>
+        <translation><!-- Playbook ZMR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Playbook iAssist</masterLabel>
+        <translation><!-- Playbook iAssist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Presentation to Final Decision Maker Complete</masterLabel>
+        <translation><!-- Presentation to Final Decision Maker Complete --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pricing</masterLabel>
+        <translation><!-- Pricing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pricing Approval Required</masterLabel>
+        <translation><!-- Pricing Approval Required --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Demo</masterLabel>
+        <translation><!-- Product Demo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Demonstration</masterLabel>
+        <translation><!-- Product Demonstration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Proposal Meeting</masterLabel>
+        <translation><!-- Proposal Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Provide Clinical Evidence</masterLabel>
+        <translation><!-- Provide Clinical Evidence --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Provide Product Information</masterLabel>
+        <translation><!-- Provide Product Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Provide Service Information</masterLabel>
+        <translation><!-- Provide Service Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Provide Supply Proposal</masterLabel>
+        <translation><!-- Provide Supply Proposal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q1 2016 Planning &amp; Execution</masterLabel>
+        <translation><!-- Q1 2016 Planning &amp; Execution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q2 2016 Planning &amp; Execution</masterLabel>
+        <translation><!-- Q2 2016 Planning &amp; Execution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q3 2016 Planning &amp; Execution</masterLabel>
+        <translation><!-- Q3 2016 Planning &amp; Execution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q4 2016 Planning &amp; Execution</masterLabel>
+        <translation><!-- Q4 2016 Planning &amp; Execution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quote</masterLabel>
+        <translation><!-- Quote --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quote Delivered</masterLabel>
+        <translation><!-- Quote Delivered --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regen</masterLabel>
+        <translation><!-- Regen --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Relocation</masterLabel>
+        <translation><!-- Relocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Report as regular user</masterLabel>
+        <translation><!-- Report as regular user --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative</masterLabel>
+        <translation><!-- Restorative --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative Case</masterLabel>
+        <translation><!-- Restorative Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Return</masterLabel>
+        <translation><!-- Return --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Send Letter</masterLabel>
+        <translation><!-- Send Letter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Send Quote</masterLabel>
+        <translation><!-- Send Quote --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Service - Billing Issue</masterLabel>
+        <translation><!-- Service - Billing Issue --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Service - LTC Issue</masterLabel>
+        <translation><!-- Service - LTC Issue --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Service - STC Issue</masterLabel>
+        <translation><!-- Service - STC Issue --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Session with iTero Rep</masterLabel>
+        <translation><!-- Session with iTero Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Strategic Alignment Meeting</masterLabel>
+        <translation><!-- Strategic Alignment Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Study Club</masterLabel>
+        <translation><!-- Study Club --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon Meeting</masterLabel>
+        <translation><!-- Surgeon Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon Training Complete</masterLabel>
+        <translation><!-- Surgeon Training Complete --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon to surgeon Visit</masterLabel>
+        <translation><!-- Surgeon to surgeon Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgical Case</masterLabel>
+        <translation><!-- Surgical Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Training</masterLabel>
+        <translation><!-- Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trial case request</masterLabel>
+        <translation><!-- Trial case request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit - Other</masterLabel>
+        <translation><!-- Visit - Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit - Product Manager</masterLabel>
+        <translation><!-- Visit - Product Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit - Sales Associate</masterLabel>
+        <translation><!-- Visit - Sales Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit - Sales Manager</masterLabel>
+        <translation><!-- Visit - Sales Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit - Senior Management</masterLabel>
+        <translation><!-- Visit - Senior Management --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Voicemail</masterLabel>
+        <translation><!-- Voicemail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wellness Check</masterLabel>
+        <translation><!-- Wellness Check --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBD Edu Program</masterLabel>
+        <translation><!-- ZBD Edu Program --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMR Instructions - Surgeon Briefing</masterLabel>
+        <translation><!-- ZMR Instructions - Surgeon Briefing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Executive visit</masterLabel>
+        <translation><!-- Zimmer Executive visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Marketing Visit</masterLabel>
+        <translation><!-- Zimmer Marketing Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer PSD Visit</masterLabel>
+        <translation><!-- Zimmer PSD Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Senior Executive Visit</masterLabel>
+        <translation><!-- Zimmer Senior Executive Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>iTero</masterLabel>
+        <translation><!-- iTero --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ボイスメール</masterLabel>
+        <translation><!-- ボイスメール --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>直接通知</masterLabel>
+        <translation><!-- 直接通知 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>電子メール</masterLabel>
+        <translation><!-- 電子メール --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>電話</masterLabel>
+        <translation><!-- 電話 --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

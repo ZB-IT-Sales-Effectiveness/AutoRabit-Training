@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Person_Name_Required</fullName>
+    <active>true</active>
+    <description>Person Name field will be required when transferred call = &quot;Particular Person&quot;</description>
+    <errorConditionFormula>And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),ISPICKVAL(Transferred_Call_To__c,&quot;Particular Person&quot;), Person_Name__c=&quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Person_Name__c</errorDisplayField>
+    <errorMessage>Person Name is required as Particular Person is selected</errorMessage>
+</ValidationRule>

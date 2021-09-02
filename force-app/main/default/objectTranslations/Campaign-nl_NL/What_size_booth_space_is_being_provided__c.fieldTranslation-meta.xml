@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What size booth space is being provided at this event/exhibit? --></help>
+    <label><!-- What size booth space is being provided --></label>
+    <name>What_size_booth_space_is_being_provided__c</name>
+    <picklistValues>
+        <masterLabel>10x10</masterLabel>
+        <translation><!-- 10x10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8x10</masterLabel>
+        <translation><!-- 8x10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8x6</masterLabel>
+        <translation><!-- 8x6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8x8</masterLabel>
+        <translation><!-- 8x8 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabletop</masterLabel>
+        <translation><!-- Tabletop --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

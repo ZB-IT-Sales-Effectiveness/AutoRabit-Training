@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hips_Target_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Hips Target Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Revision Target, Uses ZB Primary</fullName>
+                <default>false</default>
+                <label>Revision Target, Uses ZB Primary</label>
+            </value>
+            <value>
+                <fullName>Primary Target, Uses ZB Revision</fullName>
+                <default>false</default>
+                <label>Primary Target, Uses ZB Revision</label>
+            </value>
+            <value>
+                <fullName>Primary &amp; Revision Target</fullName>
+                <default>false</default>
+                <label>Primary &amp; Revision Target</label>
+            </value>
+            <value>
+                <fullName>Uses ZB Dual Mobility Only</fullName>
+                <default>false</default>
+                <label>Uses ZB Dual Mobility Only</label>
+            </value>
+            <value>
+                <fullName>Avenir Complete Target</fullName>
+                <default>false</default>
+                <label>Avenir Complete Target</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

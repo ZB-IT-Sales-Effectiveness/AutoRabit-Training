@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Leader_With_Sales_Manager</fullName>
+    <active>true</active>
+    <description>This is for when a Territory Leader is reviewing with a sales manager</description>
+    <label>Territory Leader With Sales Manager</label>
+</RecordType>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(SLA_Indicator__c, &quot;Violated&quot;),
+IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1436186613000/missed&quot;, &quot;Violation&quot;),
+
+IF(
+ISPICKVAL(SLA_Indicator__c, &quot;Warning&quot;),
+IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1436186462000/warning&quot;, &quot;Warning&quot;),
+IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1433767918000/Checked&quot;, &quot;Normal&quot;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SLA</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Year_Estimate__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Product_Group__c &lt;&gt; &apos;Total&apos;, 
+Annual_Sales_Data__r.This_Year_YTD_Sales_Thru_Month__c +  This_Quarter_Projection__c, 
+Business_Plan__r.BP_Sales_Plan__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Full Year Estimate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

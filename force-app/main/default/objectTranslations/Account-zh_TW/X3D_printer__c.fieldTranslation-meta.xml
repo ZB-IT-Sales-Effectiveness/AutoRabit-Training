@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Does the customer have a 3D printer? --></help>
+    <label><!-- 3D printer --></label>
+    <name>X3D_printer__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>Zimmer_Spine_Direct_Office_DCO</sharedTo>
+        <sharedToType>Role</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>Read_only_access_to_all_US_HCF_records</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>US-Spine Sales Admin</name>
+</ReportFolder>

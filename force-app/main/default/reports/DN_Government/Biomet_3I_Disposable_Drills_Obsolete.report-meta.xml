@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Part_Description__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Order_Quantity__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>VA/DOD</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>DC100,DC500,DC600,DP100,DR100,DT2010,DT2015,DT2020,DT210,DT215,DT220,DT2710,DT2715,DT2720,DT310,DT3110,DT3115,DT3120,DT315,DT320,DT3210,DT3215,DT3220,DT4218,DT423,DT428,DT5218,DT523,DT528,DTN210,DTN215,DTN220,DTN2310,DTN2315,DTN2320,DTN2710,DTN2715,DTN2720,DTN310,DTN3110,DTN3115,DTN3120,DTN315,DTN320,DTN3210,DTN3215,DTN3220,DTN4218,DTN423,DTN428,DTN5218,DTN523,DTN528,DDK210,DDK215,DDK220,DDK2710,DDK2715,DDK2720,DDK310,DDK315,DDK320,DDK3210,DDK3215,DDK3220,DDKN215,DDKN2315,DDKN315</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.DN_ACCT_RECORD_TYPE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>VA,DOD,Dept of Defense</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Biomet 3I Disposable Drills (Obsolete)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

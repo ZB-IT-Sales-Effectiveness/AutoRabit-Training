@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Cvent_Lead_Registration_Alert_AT</fullName>
+        <description>Cvent Lead Registration Alert-AT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cvent_AT_Lead</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Cvent_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Cvent_Lead_Registration_Alert_UK</fullName>
+        <description>Cvent Lead Registration Alert-UK</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cvent_UK_Lead</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Cvent_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Cvent_Lead_Registration_Alert_US</fullName>
+        <description>Cvent Lead Registration Alert-US</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cvent_US_Lead</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Cvent_Leads</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Cvent_Campaign_Name</fullName>
+        <field>Cvent_Campaign__c</field>
+        <formula>Campaign.Name</formula>
+        <name>Update Cvent Campaign Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Cvent Lead Alert -AT</fullName>
+        <actions>
+            <name>Cvent_Lead_Registration_Alert_AT</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>AT</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cvent Lead Alert -CH</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>CH</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cvent Lead Alert -DE</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>DE</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cvent Lead Alert -NL</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>NL</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cvent Lead Alert -UK</fullName>
+        <actions>
+            <name>Cvent_Lead_Registration_Alert_UK</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>UK</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cvent Lead Alert -US</fullName>
+        <actions>
+            <name>Cvent_Lead_Registration_Alert_US</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Segment__c</field>
+            <operation>excludes</operation>
+            <value>Dental</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Campaign Name</fullName>
+        <actions>
+            <name>Update_Cvent_Campaign_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_5__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>On a scale of 1-5 how would you rate your knowledge with Salesforce.com after testing?</inlineHelpText>
+    <label>Question #5</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Novice</fullName>
+                <default>false</default>
+                <label>1 - Novice</label>
+            </value>
+            <value>
+                <fullName>2 - Beginner</fullName>
+                <default>false</default>
+                <label>2 - Beginner</label>
+            </value>
+            <value>
+                <fullName>3 - Average</fullName>
+                <default>false</default>
+                <label>3 - Average</label>
+            </value>
+            <value>
+                <fullName>4 - Advanced</fullName>
+                <default>false</default>
+                <label>4 - Advanced</label>
+            </value>
+            <value>
+                <fullName>5 - Expert</fullName>
+                <default>false</default>
+                <label>5 - Expert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

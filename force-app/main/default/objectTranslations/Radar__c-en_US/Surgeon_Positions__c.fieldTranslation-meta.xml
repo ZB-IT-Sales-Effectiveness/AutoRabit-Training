@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon Positions --></label>
+    <name>Surgeon_Positions__c</name>
+    <picklistValues>
+        <masterLabel>Consultant</masterLabel>
+        <translation><!-- Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellow</masterLabel>
+        <translation><!-- Fellow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paramedics</masterLabel>
+        <translation><!-- Paramedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registrar</masterLabel>
+        <translation><!-- Registrar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resident</masterLabel>
+        <translation><!-- Resident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sr Consultant</masterLabel>
+        <translation><!-- Sr Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Young Consultant</masterLabel>
+        <translation><!-- Young Consultant --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

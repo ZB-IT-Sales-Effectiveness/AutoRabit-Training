@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select a user to assign this record to (Sales Managers or Terr. Leaders ONLY). --></help>
+    <label><!-- Assigned To --></label>
+    <lookupFilter>
+        <errorMessage><!-- Assigned user must be a Sales Manager or higher level. --></errorMessage>
+        <informationalMessage><!-- Select a Sales Manager or higher user. --></informationalMessage>
+    </lookupFilter>
+    <name>Assigned_To__c</name>
+    <relationshipLabel><!-- Prospects (Assigned To) --></relationshipLabel>
+</CustomFieldTranslation>

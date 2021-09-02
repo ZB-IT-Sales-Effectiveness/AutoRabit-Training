@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunity Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Amend Existing</fullName>
+                <default>false</default>
+                <label>Amend Existing</label>
+            </value>
+            <value>
+                <fullName>ASC New</fullName>
+                <default>false</default>
+                <label>ASC New</label>
+            </value>
+            <value>
+                <fullName>ASC Renovation</fullName>
+                <default>false</default>
+                <label>ASC Renovation</label>
+            </value>
+            <value>
+                <fullName>Existing Customer Bulk Order</fullName>
+                <default>false</default>
+                <label>Bulk Buy - Consumables</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>Existing Business Addition</fullName>
+                <default>false</default>
+                <label>Existing Business Addition</label>
+            </value>
+            <value>
+                <fullName>Existing Customer New Product</fullName>
+                <default>false</default>
+                <label>Existing Customer New Product</label>
+            </value>
+            <value>
+                <fullName>Combination</fullName>
+                <default>false</default>
+                <label>Existing Prod Addition + Conversion</label>
+            </value>
+            <value>
+                <fullName>Existing Business Upgrade</fullName>
+                <default>false</default>
+                <label>Existing Product Addition</label>
+            </value>
+            <value>
+                <fullName>Exisiting Business Upgrade</fullName>
+                <default>false</default>
+                <label>Existing Product Upgrade</label>
+            </value>
+            <value>
+                <fullName>Existing Product Upgrade + Addition</fullName>
+                <default>false</default>
+                <label>Existing Product Upgrade + Addition</label>
+            </value>
+            <value>
+                <fullName>Growth</fullName>
+                <default>false</default>
+                <label>Growth</label>
+            </value>
+            <value>
+                <fullName>Hospital New</fullName>
+                <default>false</default>
+                <label>Hospital New</label>
+            </value>
+            <value>
+                <fullName>Hospital Renovation</fullName>
+                <default>false</default>
+                <label>Hospital Renovation</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>New CTC Business</fullName>
+                <default>false</default>
+                <label>NEW CTC BUSINESS</label>
+            </value>
+            <value>
+                <fullName>New Customer</fullName>
+                <default>false</default>
+                <label>New Facility</label>
+            </value>
+            <value>
+                <fullName>PPA</fullName>
+                <default>false</default>
+                <label>PPA</label>
+            </value>
+            <value>
+                <fullName>Protection</fullName>
+                <default>false</default>
+                <label>Protection</label>
+            </value>
+            <value>
+                <fullName>Service Agreement</fullName>
+                <default>false</default>
+                <label>Service Agreement</label>
+            </value>
+            <value>
+                <fullName>Service Agreement - Case Pack</fullName>
+                <default>false</default>
+                <label>Service Agreement - Case Pack</label>
+            </value>
+            <value>
+                <fullName>Service Repair/Replace</fullName>
+                <default>false</default>
+                <label>Service Repair/Replace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

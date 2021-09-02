@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Name_Required</fullName>
+    <active>true</active>
+    <description>The First Name is the Required Field in  Physician record Type. With out Filling the First name We Can not Save the record</description>
+    <errorConditionFormula>AND(ISBLANK(FirstName) , 
+(RecordTypeId = &quot;012800000002C4g&quot;|| RecordTypeId = &apos;012800000003YRm&apos;||RecordTypeId = &apos;012800000003YfK&apos;|| RecordTypeId =  &apos;012800000003YRh&apos;||RecordTypeId = &apos;012800000003YRc&apos;))</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>First Name is Required. Please fill in first name and save</errorMessage>
+</ValidationRule>

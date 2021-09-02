@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_of_Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Plan of Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activate consignment</fullName>
+                <default>false</default>
+                <label>Activate consignment</label>
+            </value>
+            <value>
+                <fullName>BioSkills Training Course</fullName>
+                <default>false</default>
+                <label>BioSkills Training Course</label>
+            </value>
+            <value>
+                <fullName>Book CSD in-service</fullName>
+                <default>false</default>
+                <label>Book CSD in-service</label>
+            </value>
+            <value>
+                <fullName>Book nurse in-service</fullName>
+                <default>false</default>
+                <label>Book nurse in-service</label>
+            </value>
+            <value>
+                <fullName>Community Awareness Seminar</fullName>
+                <default>false</default>
+                <label>Community Awareness Seminar</label>
+            </value>
+            <value>
+                <fullName>Competitive Product Comparison</fullName>
+                <default>false</default>
+                <label>Competitive Product Comparison</label>
+            </value>
+            <value>
+                <fullName>Customer Connect Program</fullName>
+                <default>false</default>
+                <label>Customer Connect Program</label>
+            </value>
+            <value>
+                <fullName>Custom Instruments</fullName>
+                <default>false</default>
+                <label>Custom Instruments</label>
+            </value>
+            <value>
+                <fullName>Educational Site Visit</fullName>
+                <default>false</default>
+                <label>Educational Site Visit</label>
+            </value>
+            <value>
+                <fullName>Identify Related Contacts/Update Contact Roles</fullName>
+                <default>false</default>
+                <label>Identify Related Contacts/Update Contact Roles</label>
+            </value>
+            <value>
+                <fullName>Instrument Demo</fullName>
+                <default>false</default>
+                <label>Instrument Demo</label>
+            </value>
+            <value>
+                <fullName>Instrument and Implant Inventory</fullName>
+                <default>false</default>
+                <label>Instrument and Implant Inventory</label>
+            </value>
+            <value>
+                <fullName>Local Cadaveric Practice Workshop</fullName>
+                <default>false</default>
+                <label>Local Cadaveric Practice Workshop</label>
+            </value>
+            <value>
+                <fullName>Local Physician Education Program</fullName>
+                <default>false</default>
+                <label>Local Physician Education Program</label>
+            </value>
+            <value>
+                <fullName>Medical Education Course</fullName>
+                <default>false</default>
+                <label>Medical Education Course</label>
+            </value>
+            <value>
+                <fullName>Pricing and Contracting</fullName>
+                <default>false</default>
+                <label>Pricing and Contracting</label>
+            </value>
+            <value>
+                <fullName>Provide Clinical Evidence</fullName>
+                <default>false</default>
+                <label>Provide Clinical Evidence</label>
+            </value>
+            <value>
+                <fullName>Provide Product Information</fullName>
+                <default>false</default>
+                <label>Provide Product Information</label>
+            </value>
+            <value>
+                <fullName>Provide Service Information</fullName>
+                <default>false</default>
+                <label>Provide Service Information</label>
+            </value>
+            <value>
+                <fullName>Provide Supply Proposal</fullName>
+                <default>false</default>
+                <label>Provide Supply Proposal</label>
+            </value>
+            <value>
+                <fullName>Report as Regular User</fullName>
+                <default>false</default>
+                <label>Report as Regular User</label>
+            </value>
+            <value>
+                <fullName>Surgeon-to-Surgeon Visit</fullName>
+                <default>false</default>
+                <label>Surgeon-to-Surgeon Visit</label>
+            </value>
+            <value>
+                <fullName>Trial Case Request</fullName>
+                <default>false</default>
+                <label>Trial Case Request</label>
+            </value>
+            <value>
+                <fullName>Zimmer Executive Visit</fullName>
+                <default>false</default>
+                <label>Zimmer Executive Visit</label>
+            </value>
+            <value>
+                <fullName>Zimmer Marketing Visit</fullName>
+                <default>false</default>
+                <label>Zimmer Marketing Visit</label>
+            </value>
+            <value>
+                <fullName>Zimmer PSD Visit</fullName>
+                <default>false</default>
+                <label>Zimmer PSD Visit</label>
+            </value>
+            <value>
+                <fullName>Zimmer Senior Executive Visit</fullName>
+                <default>false</default>
+                <label>Zimmer Senior Executive Visit</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>1 - Implants and Instruments requested</fullName>
+                <default>false</default>
+                <label>1 - Implants and Instruments requested</label>
+            </value>
+            <value>
+                <fullName>2 - RSM Approved</fullName>
+                <default>false</default>
+                <label>2 - RSM Approved</label>
+            </value>
+            <value>
+                <fullName>3 - Logistics Sense Check</fullName>
+                <default>false</default>
+                <label>3 - Logistics Sense Check</label>
+            </value>
+            <value>
+                <fullName>4 - Logistics Approved</fullName>
+                <default>false</default>
+                <label>4 - Logistics Approved</label>
+            </value>
+            <value>
+                <fullName>5 - GM Approved</fullName>
+                <default>false</default>
+                <label>5 - GM Approved</label>
+            </value>
+            <value>
+                <fullName>6 - Logistics Sourcing</fullName>
+                <default>false</default>
+                <label>6 - Logistics Sourcing</label>
+            </value>
+            <value>
+                <fullName>7 - Field Reallocation</fullName>
+                <default>false</default>
+                <label>7 - Field Reallocation</label>
+            </value>
+            <value>
+                <fullName>8 - Inventory on order</fullName>
+                <default>false</default>
+                <label>8 - Inventory on order</label>
+            </value>
+            <value>
+                <fullName>9 - Inventory in Build</fullName>
+                <default>false</default>
+                <label>9 - Inventory in Build</label>
+            </value>
+            <value>
+                <fullName>10 - Sales Exec Transfer Request</fullName>
+                <default>false</default>
+                <label>10 - Sales Exec Transfer Request</label>
+            </value>
+            <value>
+                <fullName>11 - Delivery Scheduled</fullName>
+                <default>false</default>
+                <label>11 - Delivery Scheduled</label>
+            </value>
+            <value>
+                <fullName>12 - Sales Executive On Hold</fullName>
+                <default>false</default>
+                <label>12 - Sales Executive On Hold</label>
+            </value>
+            <value>
+                <fullName>13 - Closed</fullName>
+                <default>false</default>
+                <label>13 - Closed</label>
+            </value>
+            <value>
+                <fullName>14 - Jointline</fullName>
+                <default>false</default>
+                <label>14 - Jointline</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

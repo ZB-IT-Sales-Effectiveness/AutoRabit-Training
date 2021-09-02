@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Focus_Accounts</fullName>
+    <columns>Surgeon__c</columns>
+    <columns>Assigned_Team__c</columns>
+    <columns>Assigned_Sales_Rep__c</columns>
+    <columns>Product__c</columns>
+    <columns>Next_Step__c</columns>
+    <columns>Next_Step_Link__c</columns>
+    <columns>Date_Last_Contacted__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assigned_To_me__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Surgeon_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Retired,Deceased</value>
+    </filters>
+    <filters>
+        <field>Surgeon_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Spine Surgeon,CMF Surgeon,Dental,DPM,Other Non-Ortho Surgeon</value>
+    </filters>
+    <label>My Surgeon Accounts</label>
+</ListView>

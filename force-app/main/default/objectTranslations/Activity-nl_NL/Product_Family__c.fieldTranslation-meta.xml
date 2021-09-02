@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Family --></label>
+    <name>Product_Family__c</name>
+    <picklistValues>
+        <masterLabel>AmnioRepair</masterLabel>
+        <translation><!-- AmnioRepair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation>Elleboog</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GEL-ONE</masterLabel>
+        <translation><!-- GEL-ONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPS III</masterLabel>
+        <translation><!-- GPS III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation>Algemeen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation>Heup</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jar Grips</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation>Knie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation>Schouder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature One</masterLabel>
+        <translation><!-- Signature One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VISCO-3</masterLabel>
+        <translation><!-- VISCO-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VRS</masterLabel>
+        <translation><!-- VRS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

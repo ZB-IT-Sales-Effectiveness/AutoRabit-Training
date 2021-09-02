@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$ActivityDate</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$Product__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$Who</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$Subject</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.Activities$Description</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Opportunitynaam of Onderwerp of 
+Opmerkingen of Produkt bevat &quot;mymo&quot;
+en
+Opportunitynaam begint met &quot;NL</description>
+    <filter>
+        <booleanFilter>((1 or 2 OR 3 or 5) AND 4)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Opportunities$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mymo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities.Activities$Subject</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mymo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities.Activities$Description</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mymo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>NL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities.Activities$Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mymo</value>
+        </criteriaItems>
+        <language>nl_NL</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Opportunity of Activiteit bevat mymo</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Opportunities_with_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Opportunities$CreatedDate</dateColumn>
+        <endDate>2022-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-01-01</startDate>
+    </timeFrameFilter>
+</Report>

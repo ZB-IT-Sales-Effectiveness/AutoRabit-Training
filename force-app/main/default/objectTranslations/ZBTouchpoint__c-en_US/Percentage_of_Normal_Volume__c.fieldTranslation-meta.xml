@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How do you expect volume to compare to normal volume in that first month back? --></help>
+    <label><!-- % of Normal volume --></label>
+    <name>Percentage_of_Normal_Volume__c</name>
+</CustomFieldTranslation>

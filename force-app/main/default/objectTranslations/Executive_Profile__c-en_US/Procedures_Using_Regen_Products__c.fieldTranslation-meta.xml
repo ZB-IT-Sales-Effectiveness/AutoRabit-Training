@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Procedures Using Regen Products --></label>
+    <name>Procedures_Using_Regen_Products__c</name>
+    <picklistValues>
+        <masterLabel>Defect associated with Root Resection or Apicoectomy</masterLabel>
+        <translation><!-- Defect associated with Root Resection or Apicoectomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Peri-implant Defect</masterLabel>
+        <translation><!-- Existing Peri-implant Defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extraction Socket</masterLabel>
+        <translation><!-- Extraction Socket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extraction Socket with Implant</masterLabel>
+        <translation><!-- Extraction Socket with Implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizontal Ridge Augmentation</masterLabel>
+        <translation><!-- Horizontal Ridge Augmentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Peri-implant Defect</masterLabel>
+        <translation><!-- New Peri-implant Defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinus Lift (Crestal Procedure)</masterLabel>
+        <translation><!-- Sinus Lift (Crestal Procedure) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinus Lift (Lateral Wall)</masterLabel>
+        <translation><!-- Sinus Lift (Lateral Wall) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical Ridge Augmentation</masterLabel>
+        <translation><!-- Vertical Ridge Augmentation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the earned awards, honors and patents received by  this surgeon --></help>
+    <label><!-- Awards, Honors, Patents --></label>
+    <name>Awards_Honors_Patents__c</name>
+</CustomFieldTranslation>

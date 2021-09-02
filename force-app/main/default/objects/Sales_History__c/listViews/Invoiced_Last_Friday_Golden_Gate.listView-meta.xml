@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Last_Friday_Golden_Gate</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>Salesperson_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1145,1150,1136,1002,1127,1199,1062,1143,1147</value>
+    </filters>
+    <filters>
+        <field>Invoiced_Last_Friday__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Invoiced Last Friday Golden Gate</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_GG_SB_PNW_DDSS</group>
+        <group>DN_USA_Golden_Gate_ISR</group>
+        <group>DN_USA_West_SB_GG_Regen</group>
+    </sharedTo>
+</ListView>

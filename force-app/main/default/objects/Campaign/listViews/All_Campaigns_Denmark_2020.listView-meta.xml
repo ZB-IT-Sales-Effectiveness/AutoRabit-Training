@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Campaigns_Denmark_2020</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>Cancellation_Deadline__c</columns>
+    <columns>Event_City__c</columns>
+    <columns>Contingent_HCPs__c</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Denmark</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2020</value>
+    </filters>
+    <label>All Campaigns Denmark 2020</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Nordics</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

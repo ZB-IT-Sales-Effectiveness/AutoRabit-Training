@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_knie_PFJ__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type knie PFJ</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_knie_PFJ__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Zimmer PFJ</fullName>
+                <default>false</default>
+                <label>Zimmer PFJ</label>
+            </value>
+            <value>
+                <fullName>Vanguard PFJ</fullName>
+                <default>false</default>
+                <label>Vanguard PFJ</label>
+            </value>
+            <value>
+                <fullName>LCS PFJ</fullName>
+                <default>false</default>
+                <label>LCS PFJ</label>
+            </value>
+            <value>
+                <fullName>Journey PFJ</fullName>
+                <default>false</default>
+                <label>Journey PFJ</label>
+            </value>
+            <value>
+                <fullName>Avon</fullName>
+                <default>false</default>
+                <label>Avon</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Zimmer PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Vanguard PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>LCS PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Journey PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Avon</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

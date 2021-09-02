@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The event/exhibit sponsor is not an individual HCP, private practice group, or unincorporated club or group of HCP&apos;s. --></help>
+    <label><!-- Exhibit Fee Is Not Paid To An Individual --></label>
+    <name>Exhibit_Fee_Is_Not_Paid_To_An_Individual__c</name>
+</CustomFieldTranslation>

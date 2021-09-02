@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Segments --></label>
+    <name>Product_Segments__c</name>
+    <picklistValues>
+        <masterLabel>ASC</masterLabel>
+        <translation><!-- ASC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement</masterLabel>
+        <translation><!-- Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips</masterLabel>
+        <translation><!-- Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation><!-- Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyMobility</masterLabel>
+        <translation><!-- MyMobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Med</masterLabel>
+        <translation><!-- Sports Med --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MMIS_System__c</fullName>
+    <externalId>false</externalId>
+    <label>MMIS System</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ariba</fullName>
+                <default>false</default>
+                <label>Ariba</label>
+            </value>
+            <value>
+                <fullName>EasyLink</fullName>
+                <default>false</default>
+                <label>EasyLink</label>
+            </value>
+            <value>
+                <fullName>Lawson</fullName>
+                <default>false</default>
+                <label>Lawson</label>
+            </value>
+            <value>
+                <fullName>McKesson PMM (Pathways)</fullName>
+                <default>false</default>
+                <label>McKesson PMM (Pathways)</label>
+            </value>
+            <value>
+                <fullName>McKesson Nova</fullName>
+                <default>false</default>
+                <label>McKesson Nova</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>MediClick</fullName>
+                <default>false</default>
+                <label>MediClick</label>
+            </value>
+            <value>
+                <fullName>MediTech</fullName>
+                <default>false</default>
+                <label>MediTech</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
+                <fullName>PeopleSoft</fullName>
+                <default>false</default>
+                <label>PeopleSoft</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>ProClick</fullName>
+                <default>false</default>
+                <label>ProClick</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product --></label>
+    <name>Zimmer_Product__c</name>
+    <picklistValues>
+        <masterLabel>A.T.S. 1200 Tourniquet Machine</masterLabel>
+        <translation><!-- A.T.S. 1200 Tourniquet Machine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A.T.S. 3000 Tourniquet Machine</masterLabel>
+        <translation><!-- A.T.S. 3000 Tourniquet Machine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A.T.S. 750 Tourniquet Machine</masterLabel>
+        <translation><!-- A.T.S. 750 Tourniquet Machine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APS</masterLabel>
+        <translation><!-- APS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acetabular-Continuum</masterLabel>
+        <translation><!-- Acetabular-Continuum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acetabular-MMC</masterLabel>
+        <translation><!-- Acetabular-MMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acetabular-TMARS</masterLabel>
+        <translation><!-- Acetabular-TMARS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acetabular-Wagner Cone</masterLabel>
+        <translation><!-- Acetabular-Wagner Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acetabular-ZMR</masterLabel>
+        <translation><!-- Acetabular-ZMR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic</masterLabel>
+        <translation><!-- Alloclassic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture</masterLabel>
+        <translation><!-- Anatomical Fracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse/Reverse</masterLabel>
+        <translation><!-- Anatomical Inverse/Reverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Standard</masterLabel>
+        <translation><!-- Anatomical Standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ardis</masterLabel>
+        <translation><!-- Ardis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BF Standard</masterLabel>
+        <translation><!-- BF Standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BF TM Glenoid</masterLabel>
+        <translation><!-- BF TM Glenoid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BF TM Humeral</masterLabel>
+        <translation><!-- BF TM Humeral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BF TM Reverse</masterLabel>
+        <translation><!-- BF TM Reverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic Frag ZPS</masterLabel>
+        <translation><!-- Basic Frag ZPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Braces, Supports and Protectors</masterLabel>
+        <translation><!-- Braces, Supports and Protectors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCI</masterLabel>
+        <translation><!-- CCI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS</masterLabel>
+        <translation><!-- CLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CM</masterLabel>
+        <translation><!-- CM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CR-F Porous</masterLabel>
+        <translation><!-- CR-F Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Ready</masterLabel>
+        <translation><!-- Cable Ready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable-Ready System</masterLabel>
+        <translation><!-- Cable-Ready System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Sale</masterLabel>
+        <translation><!-- Capital Sale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular Assessment</masterLabel>
+        <translation><!-- Cardiovascular Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular Long Term Agreement</masterLabel>
+        <translation><!-- Cardiovascular Long Term Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Casting Products</masterLabel>
+        <translation><!-- Casting Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chondrofix</masterLabel>
+        <translation><!-- Chondrofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumables</masterLabel>
+        <translation><!-- Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CopiOs Bone Void Filler</masterLabel>
+        <translation><!-- CopiOs Bone Void Filler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CopiOs Cancellous</masterLabel>
+        <translation><!-- CopiOs Cancellous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cuffs, Hoses &amp; Accessories</masterLabel>
+        <translation><!-- Cuffs, Hoses &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service Program</masterLabel>
+        <translation><!-- Customer Service Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSUVIA</masterLabel>
+        <translation><!-- DSUVIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DTO</masterLabel>
+        <translation><!-- DTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeNovo NT</masterLabel>
+        <translation><!-- DeNovo NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermatomes</masterLabel>
+        <translation><!-- Dermatomes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys</masterLabel>
+        <translation><!-- Dynesys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys Top Loading</masterLabel>
+        <translation><!-- Dynesys Top Loading --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral-Fitmore</masterLabel>
+        <translation><!-- Femoral-Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral-Kinectiv</masterLabel>
+        <translation><!-- Femoral-Kinectiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral-M/L Taper</masterLabel>
+        <translation><!-- Femoral-M/L Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral-Wagner Cone</masterLabel>
+        <translation><!-- Femoral-Wagner Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral-ZMR</masterLabel>
+        <translation><!-- Femoral-ZMR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fidji-C</masterLabel>
+        <translation><!-- Fidji-C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSF CR-F</masterLabel>
+        <translation><!-- GSF CR-F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSF LPS-F</masterLabel>
+        <translation><!-- GSF LPS-F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel-One</masterLabel>
+        <translation><!-- Gel-One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hemovac Autotransfusion System (H.A.S.)</masterLabel>
+        <translation><!-- Hemovac Autotransfusion System (H.A.S.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hemovac Infection Control Kit</masterLabel>
+        <translation><!-- Hemovac Infection Control Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hemovac Kit</masterLabel>
+        <translation><!-- Hemovac Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ITST</masterLabel>
+        <translation><!-- ITST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ITST System</masterLabel>
+        <translation><!-- ITST System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injectors/Nozzles</masterLabel>
+        <translation><!-- Injectors/Nozzles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinectiv</masterLabel>
+        <translation><!-- Kinectiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCCK</masterLabel>
+        <translation><!-- LCCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS-F Porous</masterLabel>
+        <translation><!-- LPS-F Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Bone Power System</masterLabel>
+        <translation><!-- Large Bone Power System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/DN</masterLabel>
+        <translation><!-- M/DN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/DN System</masterLabel>
+        <translation><!-- M/DN System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membership Services/OrthoVal</masterLabel>
+        <translation><!-- Membership Services/OrthoVal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meshers</masterLabel>
+        <translation><!-- Meshers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Frag ZPS</masterLabel>
+        <translation><!-- Mini Frag ZPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minibulb</masterLabel>
+        <translation><!-- Minibulb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mixing Systems</masterLabel>
+        <translation><!-- Mixing Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile</masterLabel>
+        <translation><!-- Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Musculoskeletal Assessment</masterLabel>
+        <translation><!-- Musculoskeletal Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Musculoskeletal Long Term Agreement</masterLabel>
+        <translation><!-- Musculoskeletal Long Term Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB</masterLabel>
+        <translation><!-- NCB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Periprosthetic System</masterLabel>
+        <translation><!-- NCB Periprosthetic System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Plating System</masterLabel>
+        <translation><!-- NCB Plating System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NK</masterLabel>
+        <translation><!-- NK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nex-Link</masterLabel>
+        <translation><!-- Nex-Link --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen</masterLabel>
+        <translation><!-- NexGen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen CR</masterLabel>
+        <translation><!-- NexGen CR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LPS</masterLabel>
+        <translation><!-- NexGen LPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ON Rod</masterLabel>
+        <translation><!-- ON Rod --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optima</masterLabel>
+        <translation><!-- Optima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteotrans Plus</masterLabel>
+        <translation><!-- Osteotrans Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Bone Cement</masterLabel>
+        <translation><!-- Other Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other CAS</masterLabel>
+        <translation><!-- Other CAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFJ</masterLabel>
+        <translation><!-- PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRI</masterLabel>
+        <translation><!-- PRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI-NK</masterLabel>
+        <translation><!-- PSI-NK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI-NexGen</masterLabel>
+        <translation><!-- PSI-NexGen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Palacos Bone Cement</masterLabel>
+        <translation><!-- Palacos Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pathfinder NXT</masterLabel>
+        <translation><!-- Pathfinder NXT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pay-per-use</masterLabel>
+        <translation><!-- Pay-per-use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Locking Plates</masterLabel>
+        <translation><!-- Periarticular Locking Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Non-Locking Plates</masterLabel>
+        <translation><!-- Periarticular Non-Locking Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plate</masterLabel>
+        <translation><!-- Periarticular Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perioperative Assessment</masterLabel>
+        <translation><!-- Perioperative Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perioperative Long Term Agreement</masterLabel>
+        <translation><!-- Perioperative Long Term Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona</masterLabel>
+        <translation><!-- Persona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Positioners</masterLabel>
+        <translation><!-- Positioners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pressure Sentinel Reamers System</masterLabel>
+        <translation><!-- Pressure Sentinel Reamers System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pressurizers &amp; Restrictors</masterLabel>
+        <translation><!-- Pressurizers &amp; Restrictors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulsavac Plus</masterLabel>
+        <translation><!-- Pulsavac Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulsavac Plus AC</masterLabel>
+        <translation><!-- Pulsavac Plus AC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulsavac Plus Low Pressure</masterLabel>
+        <translation><!-- Pulsavac Plus Low Pressure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puros Allograft</masterLabel>
+        <translation><!-- Puros Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puros DBM</masterLabel>
+        <translation><!-- Puros DBM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RHK</masterLabel>
+        <translation><!-- RHK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIRUS System</masterLabel>
+        <translation><!-- SIRUS System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Segmental</masterLabel>
+        <translation><!-- Segmental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sequoia</masterLabel>
+        <translation><!-- Sequoia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus</masterLabel>
+        <translation><!-- Sirus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone Power System</masterLabel>
+        <translation><!-- Small Bone Power System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Frag ZPS</masterLabel>
+        <translation><!-- Small Frag ZPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Splints</masterLabel>
+        <translation><!-- Splints --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgivac Kit</masterLabel>
+        <translation><!-- Surgivac Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM</masterLabel>
+        <translation><!-- TM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Diaphyseal Femoral Cones</masterLabel>
+        <translation><!-- TM Diaphyseal Femoral Cones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Large Tibial Cones</masterLabel>
+        <translation><!-- TM Large Tibial Cones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Medium Tibial Cones</masterLabel>
+        <translation><!-- TM Medium Tibial Cones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Metaphyseal Femoral Cones</masterLabel>
+        <translation><!-- TM Metaphyseal Femoral Cones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Modular Tibia</masterLabel>
+        <translation><!-- TM Modular Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-400</masterLabel>
+        <translation><!-- TM-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-500</masterLabel>
+        <translation><!-- TM-500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-Cup Cluster</masterLabel>
+        <translation><!-- TM-Cup Cluster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-Cup Multihole</masterLabel>
+        <translation><!-- TM-Cup Multihole --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-Primary Stem</masterLabel>
+        <translation><!-- TM-Primary Stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-S</masterLabel>
+        <translation><!-- TM-S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ti Versa FX Ⅱ</masterLabel>
+        <translation><!-- Ti Versa FX Ⅱ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tips &amp; Splash Shields</masterLabel>
+        <translation><!-- Tips &amp; Splash Shields --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction Kit &amp; Accessories</masterLabel>
+        <translation><!-- Traction Kit &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TransFx System</masterLabel>
+        <translation><!-- TransFx System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traxis</masterLabel>
+        <translation><!-- Traxis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica ALP</masterLabel>
+        <translation><!-- Trinica ALP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Anterior Cervical Plate</masterLabel>
+        <translation><!-- Trinica Anterior Cervical Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ULS SST</masterLabel>
+        <translation><!-- ULS SST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ULS Ti</masterLabel>
+        <translation><!-- ULS Ti --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UniWallis</masterLabel>
+        <translation><!-- UniWallis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universal Clamp</masterLabel>
+        <translation><!-- Universal Clamp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VBR-S</masterLabel>
+        <translation><!-- VBR-S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Versa-Fx II</masterLabel>
+        <translation><!-- Versa-Fx II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Versys/Other</masterLabel>
+        <translation><!-- Versys/Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner Cone</masterLabel>
+        <translation><!-- Wagner Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wallis</masterLabel>
+        <translation><!-- Wallis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wallis / UniWallis</masterLabel>
+        <translation><!-- Wallis / UniWallis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Drains</masterLabel>
+        <translation><!-- Wound Drains --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wristore Fixator</masterLabel>
+        <translation><!-- Wristore Fixator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZNN CM Nail System</masterLabel>
+        <translation><!-- ZNN CM Nail System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZNN Tib/Femur/Humerus Nail System</masterLabel>
+        <translation><!-- ZNN Tib/Femur/Humerus Nail System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZUK</masterLabel>
+        <translation><!-- ZUK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Blood Reinfusion System (Z.B.R.S.)</masterLabel>
+        <translation><!-- Zimmer Blood Reinfusion System (Z.B.R.S.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Cannulated Screws</masterLabel>
+        <translation><!-- Zimmer Cannulated Screws --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

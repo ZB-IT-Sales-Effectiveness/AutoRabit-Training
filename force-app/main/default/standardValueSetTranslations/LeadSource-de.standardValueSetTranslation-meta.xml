@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AAP Corporate Forum Sept. 2016</masterLabel>
+        <translation><!-- AAP Corporate Forum Sept. 2016 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AO Meeting</masterLabel>
+        <translation><!-- AO Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Acquisition</masterLabel>
+        <translation>Akquise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Advertisement</masterLabel>
+        <translation><!-- Advertisement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Advertisement Offline</masterLabel>
+        <translation><!-- Advertisement Offline --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Reply Card</masterLabel>
+        <translation><!-- Business Reply Card --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Continuum Web Campaign</masterLabel>
+        <translation><!-- Continuum Web Campaign --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cvent</masterLabel>
+        <translation><!-- Cvent --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DSO</masterLabel>
+        <translation><!-- DSO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DSUVIA Target</masterLabel>
+        <translation><!-- DSUVIA Target --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Compare</masterLabel>
+        <translation><!-- Dental Compare --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Product Reports</masterLabel>
+        <translation><!-- Dental Product Reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Advertisement</masterLabel>
+        <translation><!-- Digital Advertisement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Direct Mail</masterLabel>
+        <translation><!-- Direct Mail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor Site - Schedule a Visit</masterLabel>
+        <translation><!-- Distributor Site - Schedule a Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee Referral</masterLabel>
+        <translation><!-- Employee Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Event</masterLabel>
+        <translation>Veranstaltung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External Referral</masterLabel>
+        <translation><!-- External Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Externe Empfehlung</masterLabel>
+        <translation><!-- Externe Empfehlung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ForeverHip.com</masterLabel>
+        <translation><!-- ForeverHip.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GelOne.Zimmer.com</masterLabel>
+        <translation><!-- GelOne.Zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive Account</masterLabel>
+        <translation><!-- Inactive Account --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inbound Call</masterLabel>
+        <translation><!-- Inbound Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incoming Call/Email/Chat</masterLabel>
+        <translation><!-- Incoming Call/Email/Chat --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inside Dentistry</masterLabel>
+        <translation><!-- Inside Dentistry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inside Dentistry’s website</masterLabel>
+        <translation><!-- Inside Dentistry’s website --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Japan</masterLabel>
+        <translation><!-- Japan --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lab Products Magazine</masterLabel>
+        <translation><!-- Lab Products Magazine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Legal</masterLabel>
+        <translation><!-- Legal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>List Import</masterLabel>
+        <translation><!-- List Import --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medical Professional</masterLabel>
+        <translation><!-- Medical Professional --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Messe</masterLabel>
+        <translation><!-- Messe --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mitarbeiterempfehlung</masterLabel>
+        <translation><!-- Mitarbeiterempfehlung --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mundpropaganda</masterLabel>
+        <translation><!-- Mundpropaganda --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>National Tradeshow</masterLabel>
+        <translation><!-- National Tradeshow --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OsseoNews</masterLabel>
+        <translation><!-- OsseoNews --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oxfordknee.com</masterLabel>
+        <translation><!-- Oxfordknee.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation><!-- Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patient Caregiver</masterLabel>
+        <translation><!-- Patient Caregiver --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patient Education Materials</masterLabel>
+        <translation><!-- Patient Education Materials --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physician Locator</masterLabel>
+        <translation><!-- Physician Locator --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physician Referral</masterLabel>
+        <translation><!-- Physician Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Shopper</masterLabel>
+        <translation><!-- Product Shopper --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Relations</masterLabel>
+        <translation><!-- Public Relations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Referral</masterLabel>
+        <translation>Empfehlung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regional Exhibit</masterLabel>
+        <translation><!-- Regional Exhibit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regional Tradeshow</masterLabel>
+        <translation><!-- Regional Tradeshow --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Prospecting</masterLabel>
+        <translation><!-- Sales Prospecting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seminar - Internal</masterLabel>
+        <translation><!-- Seminar - Internal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seminar - Partner</masterLabel>
+        <translation><!-- Seminar - Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Signature website</masterLabel>
+        <translation><!-- Signature website --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Social Media</masterLabel>
+        <translation><!-- Social Media --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sterngold Provided Lead</masterLabel>
+        <translation><!-- Sterngold Provided Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Target Market Campaign</masterLabel>
+        <translation><!-- Target Market Campaign --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tour</masterLabel>
+        <translation><!-- Tour --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tradeshow</masterLabel>
+        <translation><!-- Tradeshow --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VirageOCT.Zimmer.com</masterLabel>
+        <translation><!-- VirageOCT.Zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Webinar</masterLabel>
+        <translation><!-- Webinar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Website</masterLabel>
+        <translation><!-- Website --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Weitere</masterLabel>
+        <translation><!-- Weitere --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Werbung</masterLabel>
+        <translation>Werbung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Word of mouth</masterLabel>
+        <translation><!-- Word of mouth --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XpressLeads</masterLabel>
+        <translation><!-- XpressLeads --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduDigital</masterLabel>
+        <translation><!-- ZBDanduDigital --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduDigitalLab</masterLabel>
+        <translation><!-- ZBDanduDigitalLab --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduDigitalRestorative</masterLabel>
+        <translation><!-- ZBDanduDigitalRestorative --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduDigitalSurgical</masterLabel>
+        <translation><!-- ZBDanduDigitalSurgical --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduHome</masterLabel>
+        <translation><!-- ZBDanduHome --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPeriImplant</masterLabel>
+        <translation><!-- ZBDanduPeriImplant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPeriImplantM1Prevent</masterLabel>
+        <translation><!-- ZBDanduPeriImplantM1Prevent --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPeriImplantM2Treat</masterLabel>
+        <translation><!-- ZBDanduPeriImplantM2Treat --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPeriImplantM3Revise</masterLabel>
+        <translation><!-- ZBDanduPeriImplantM3Revise --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPrecisePrep</masterLabel>
+        <translation><!-- ZBDanduPrecisePrep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPrecisePrepPerfectStart</masterLabel>
+        <translation><!-- ZBDanduPrecisePrepPerfectStart --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBDanduPrecisePrepPreciseDrill</masterLabel>
+        <translation><!-- ZBDanduPrecisePrepPreciseDrill --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Biomet Site</masterLabel>
+        <translation><!-- Zimmer Biomet Site --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Medical Education Event</masterLabel>
+        <translation>Zimmer Biomet Fortbildung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Sales Channel</masterLabel>
+        <translation><!-- Zimmer Sales Channel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer.com</masterLabel>
+        <translation><!-- Zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZimmerBiomet.com</masterLabel>
+        <translation><!-- ZimmerBiomet.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>active.zimmer.com</masterLabel>
+        <translation><!-- active.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>advantage.zimmer.com</masterLabel>
+        <translation><!-- advantage.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>alaska.zimmer.com</masterLabel>
+        <translation><!-- alaska.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>apex.Zimmer.com</masterLabel>
+        <translation><!-- apex.Zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>capital.zimmer.com</masterLabel>
+        <translation><!-- capital.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>carolinas.zimmer.com</masterLabel>
+        <translation><!-- carolinas.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>colorado.zimmer.com</masterLabel>
+        <translation><!-- colorado.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>daniel.zimmer.com</masterLabel>
+        <translation><!-- daniel.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>davis.zimmer.com</masterLabel>
+        <translation><!-- davis.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>downstateny.zimmer.com</masterLabel>
+        <translation><!-- downstateny.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>edge.zimmer.com</masterLabel>
+        <translation><!-- edge.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>elite.zimmer.com</masterLabel>
+        <translation><!-- elite.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>feganmaloney.zimmer.com</masterLabel>
+        <translation><!-- feganmaloney.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>greatlakes.zimmer.com</masterLabel>
+        <translation><!-- greatlakes.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>intermed.zimmer.com</masterLabel>
+        <translation><!-- intermed.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>keystone.zimmer.com</masterLabel>
+        <translation><!-- keystone.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>melia.zimmer.com</masterLabel>
+        <translation><!-- melia.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>midamerica.zimmer.com</masterLabel>
+        <translation><!-- midamerica.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>midatlantic.zimmer.com</masterLabel>
+        <translation><!-- midatlantic.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>midwest.zimmer.com</masterLabel>
+        <translation><!-- midwest.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>mtnwest.zimmer.com</masterLabel>
+        <translation><!-- mtnwest.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>northeast.zimmer.com</masterLabel>
+        <translation><!-- northeast.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>northwest.zimmer.com</masterLabel>
+        <translation><!-- northwest.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ohio.zimmer.com</masterLabel>
+        <translation><!-- ohio.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>pacific.zimmer.com</masterLabel>
+        <translation><!-- pacific.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>precisionortho.zimmer.com</masterLabel>
+        <translation><!-- precisionortho.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>rxmedical.zimmer.com</masterLabel>
+        <translation><!-- rxmedical.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>solutions.zimmer.com</masterLabel>
+        <translation><!-- solutions.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>southwest.zimmer.com</masterLabel>
+        <translation><!-- southwest.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>thomson.zimmer.com</masterLabel>
+        <translation><!-- thomson.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>tristate.zimmer.com</masterLabel>
+        <translation><!-- tristate.zimmer.com --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>upstateny.zimmer.com</masterLabel>
+        <translation><!-- upstateny.zimmer.com --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

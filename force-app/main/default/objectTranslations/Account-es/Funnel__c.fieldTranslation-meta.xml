@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Funnel --></label>
+    <name>Funnel__c</name>
+    <picklistValues>
+        <masterLabel>VIP KALT</masterLabel>
+        <translation><!-- VIP KALT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP KALT BESUCHT</masterLabel>
+        <translation><!-- VIP KALT BESUCHT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP30% TM</masterLabel>
+        <translation><!-- VIP30% TM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP30%CadCam</masterLabel>
+        <translation><!-- VIP30%CadCam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP30%Regen</masterLabel>
+        <translation><!-- VIP30%Regen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP30%TSV/T/ ZOP</masterLabel>
+        <translation><!-- VIP30%TSV/T/ ZOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP60% TM</masterLabel>
+        <translation><!-- VIP60% TM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP60%CadCam</masterLabel>
+        <translation><!-- VIP60%CadCam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP60%Regen</masterLabel>
+        <translation><!-- VIP60%Regen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP60%TSV/T/ ZOP</masterLabel>
+        <translation><!-- VIP60%TSV/T/ ZOP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

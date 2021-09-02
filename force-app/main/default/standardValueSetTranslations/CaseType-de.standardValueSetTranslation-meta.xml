@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Administration</masterLabel>
+        <translation><!-- Administration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Avalanche Bell</masterLabel>
+        <translation><!-- Avalanche Bell --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CRM Application Feedback</masterLabel>
+        <translation><!-- CRM Application Feedback --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contract Request</masterLabel>
+        <translation>Vertragsanforderung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data Update Request</masterLabel>
+        <translation><!-- Data Update Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Demo Kit Requested</masterLabel>
+        <translation><!-- Demo Kit Requested --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Feature Request</masterLabel>
+        <translation>Funktionsanforderung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JAMS</masterLabel>
+        <translation><!-- JAMS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JTM</masterLabel>
+        <translation><!-- JTM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Library Request</masterLabel>
+        <translation><!-- Library Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Literature Request</masterLabel>
+        <translation><!-- Literature Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Problem</masterLabel>
+        <translation>Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Question</masterLabel>
+        <translation><!-- Product Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Question</masterLabel>
+        <translation>Frage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SPIFF</masterLabel>
+        <translation><!-- SPIFF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salesforce</masterLabel>
+        <translation><!-- Salesforce --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sample Request</masterLabel>
+        <translation><!-- Sample Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgical Technique Information</masterLabel>
+        <translation><!-- Surgical Technique Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tableau</masterLabel>
+        <translation><!-- Tableau --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZI - BioSkills Training</masterLabel>
+        <translation><!-- ZI - BioSkills Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZI - Med Ed Training</masterLabel>
+        <translation><!-- ZI - Med Ed Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZI - Zimmer Institute Online (ZIO)</masterLabel>
+        <translation><!-- ZI - Zimmer Institute Online (ZIO) --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

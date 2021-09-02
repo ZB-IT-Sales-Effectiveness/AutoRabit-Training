@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Close_Date_Notice</fullName>
+        <description>Close Date Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>steven.steier@zimmerbiomet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/US_RC_Opportunity_Closed_Date_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>Dental_Opp_Closed_to_Closed_lost_after_45_days</fullName>
+        <description>Dental Opp Closed to Closed lost after 45 days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Opportunity_Closed_lost_after_45_days</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_for_ROSA_Opportunity_Contract_Expiry</fullName>
+        <description>Email Alert for ROSA Opportunity Contract Expiry</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Email_template_for_Contract_Expiration</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_notification_to_Surgical_Leads_Opps_Owners</fullName>
+        <description>Email notification to Surgical Leads Opps Owners</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Hot_Lead_Opportunity_Surgical_Lead</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Opp_for_a_surgical_rep</fullName>
+        <ccEmails>neetam.kushwaha@zimmerbiomet.com</ccEmails>
+        <description>New Opp for a surgical rep</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>mindy.apperson@zimmerbiomet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Opportunity_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_to_Owner_for_Oppty_Close_date</fullName>
+        <description>Notification to Owner for Oppty Close date</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/US_RC_Opportunity_Closed_Date_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_when_opportunity_Closed_date_is_changed</fullName>
+        <description>Notify when opportunity Closed date is changed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>mindy.apperson@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>todd.balduf@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Regional_Sales_Director__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>VP_of_Sales__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opp_close_date_is_changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_when_opportunity_is_downgraded</fullName>
+        <description>Notify when opportunity is downgraded</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>brad.fortune@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jon.bostelman@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mindy.apperson@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>todd.balduf@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_Downgraded</template>
+    </alerts>
+    <alerts>
+        <fullName>OneBill_Now_Available</fullName>
+        <description>OneBill Now Available</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/OneBill_Now_Available</template>
+    </alerts>
+    <alerts>
+        <fullName>OneBill_ready_to_be_built</fullName>
+        <ccEmails>cap.billings@zimmerbiomet.com</ccEmails>
+        <description>OneBill ready to be built</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/A_OneBill_request_is_ready_for_build</template>
+    </alerts>
+    <alerts>
+        <fullName>One_Bill_submitted_for_review</fullName>
+        <description>One Bill submitted for review</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/A_OneBill_request_has_been_submitted_for_review</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_Local_Physician_Education_Ptoram</fullName>
+        <description>Segment: Trauma - Local Physician Education Ptoram</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_BioSkills_Training_course</fullName>
+        <description>Segment: Trauma - POA: BioSkills Training course</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Instrument_and_Implant_Inventory</fullName>
+        <description>Segment: Trauma - POA: Instrument and Implant Inventory</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adam.dutka@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.walma@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>scott.schwartz@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>william.mccarrick@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Local_Cadaveric_Practice_Workshop</fullName>
+        <description>Segment: Trauma - POA: Local Cadaveric Practice Workshop</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Medical_Education_Course</fullName>
+        <description>Segment: Trauma - POA: Medical Education Course</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Other</fullName>
+        <description>Segment: Trauma - POA: Other</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adam.dutka@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.walma@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>scott.schwartz@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>william.mccarrick@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Pricing_and_Contracting</fullName>
+        <description>Segment: Trauma - POA: Pricing and Contracting</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Surgeon_to_Surgeon_Visit</fullName>
+        <description>Segment: Trauma - POA: Surgeon-to-Surgeon Visit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tyson.baker@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Zimmer_Executive_Visit</fullName>
+        <description>Segment: Trauma - POA: Zimmer Executive Visit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adam.dutka@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.walma@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>scott.schwartz@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>william.mccarrick@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Zimmer_PSD_Visit</fullName>
+        <description>Segment: Trauma - POA: Zimmer PSD Visit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adam.dutka@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.walma@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>scott.schwartz@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>william.mccarrick@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Segment_Trauma_POA_Zimmer_Senior_Executive_Visit</fullName>
+        <description>Segment: Trauma - POA: Zimmer Senior Executive Visit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adam.dutka@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.walma@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>scott.schwartz@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>william.mccarrick@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Trama_Workflows/POA_value_for_a_Trauma_sales_plan_has_been_established</template>
+    </alerts>
+    <alerts>
+        <fullName>Your_OneBill_request_has_been_approved</fullName>
+        <description>Your OneBill request has been approved.</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Your_OneBill_request_has_been_approved</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>AP_ANZ_Risk_Global_Stage_Map_Closed_Won</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Closed Won</literalValue>
+        <name>AP-ANZ Risk Global Stage Map Closed Won</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_ANZ_Risk_Global_Stage_Map_ID_Qual</fullName>
+        <description>Update Stages-Global Pipeline with aligned stage value</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Identification/Qualification</literalValue>
+        <name>AP-ANZ Risk Global Stage Map ID/Qual</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_ANZ_Risk_Global_Stage_Map_Proposal</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Proposal/Assessment</literalValue>
+        <name>AP-ANZ Risk Global Stage Map Proposal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_ANZ_Risk_Global_Stage_Map_Train_Trial</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Training/Trial</literalValue>
+        <name>AP-ANZ Risk Global Stage Map Train/Trial</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Opp_Global_Stage_Map_Closed_Won</fullName>
+        <description>Map local APJ stages to global stages (opportunity): Closed Won</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Closed Won</literalValue>
+        <name>AP-APJ-Opp Global Stage Map Closed Won</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Opp_Global_Stage_Map_Commitment</fullName>
+        <description>Map local APJ stages to global stages (opportunity): Commitment</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Commitment</literalValue>
+        <name>AP-APJ-Opp Global Stage Map Commitment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Opp_Global_Stage_Map_ID_Qual</fullName>
+        <description>Map local APJ stages to global stages (opportunity): Identification/Qualification</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Identification/Qualification</literalValue>
+        <name>AP-APJ-Opp Global Stage Map ID/Qual</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Opp_Global_Stage_Map_Proposal</fullName>
+        <description>Map local APJ stages to global stages (opportunity): Proposal/Assessment</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Proposal/Assessment</literalValue>
+        <name>AP-APJ-Opp Global Stage Map Proposal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Opp_Global_Stage_Map_Train_Trial</fullName>
+        <description>Map local APJ stages to global stages (opportunity): Training/Trial</description>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Training/Trial</literalValue>
+        <name>AP-APJ-Opp Global Stage Map Train/Trial</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Validated</fullName>
+        <field>Date_Validated__c</field>
+        <formula>NOW ()</formula>
+        <name>Date Validated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Dollars_left_on_the_table</fullName>
+        <field>Dollars_Left_on_the_Table__c</field>
+        <formula>0</formula>
+        <name>Dollars left on the table</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Dollars_left_on_the_table_for_not_PO</fullName>
+        <field>Dollars_Left_on_the_Table__c</field>
+        <formula>Full_Capital_Target__c  -  Capital_Amount__c</formula>
+        <name>Dollars left on the table for not PO</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Drive_Defend_Update</fullName>
+        <field>Drive_Defend__c</field>
+        <literalValue>1</literalValue>
+        <name>Drive &amp; Defend Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Evaluation_Checked</fullName>
+        <field>Evaluation_Performed__c</field>
+        <literalValue>1</literalValue>
+        <name>Evaluation Checked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Increment_Push_Counter_Field</fullName>
+        <description>Increment the Push Counter by 1</description>
+        <field>Push_Counter__c</field>
+        <formula>IF( 
+ISNULL( Push_Counter__c ), 
+1, 
+Push_Counter__c + 1 
+)</formula>
+        <name>Increment Push Counter Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Nullify_TL_MBR_Field</fullName>
+        <description>this will turn the &apos;tl mbr&apos; field to null if opportunity is closed</description>
+        <field>TL_MBR_Report__c</field>
+        <name>Nullify TL MBR Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Name_Update</fullName>
+        <description>Change Opportunity Name to Opportunity Type value</description>
+        <field>Name</field>
+        <formula>TEXT(Type)</formula>
+        <name>DN-US-Opportunity Name Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Original_Close_Date_Update</fullName>
+        <description>This Will Update The Original Closed date Field</description>
+        <field>Original_Close_Date__c</field>
+        <formula>CloseDate</formula>
+        <name>Original Close Date Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pull_Through_Amount</fullName>
+        <description>Auto populate Amount as Business Segment Amount</description>
+        <field>Amount</field>
+        <formula>Business_Segment_Amount__c</formula>
+        <name>Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_ClosedLost_FieldUpdat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Closed Lost</literalValue>
+        <name>Stage-Standard Map ClosedLost FieldUpdat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_ClosedOth_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Closed Other</literalValue>
+        <name>Stage-Standard Map ClosedOth Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_ClosedWon_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Closed Won</literalValue>
+        <name>Stage-Standard Map ClosedWon Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_Commit_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Commitment</literalValue>
+        <name>Stage - Standard Map Commit Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_ID_Qual_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Identification/Qualification</literalValue>
+        <name>Stage - Standard Map ID/Qual Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_Proposa_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Proposal/Assessment</literalValue>
+        <name>Stage - Standard Map Proposa Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Standard_Map_Train_T_Field_Updat</fullName>
+        <field>Stages_Global_Pipeline__c</field>
+        <literalValue>Training/Trial</literalValue>
+        <name>Stage - Standard Map Train/T Field Updat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_Receivable_fields_blank</fullName>
+        <field>Credit_Approved__c</field>
+        <name>Update Account Receivable fields blank</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Amount_Knee</fullName>
+        <field>Amount</field>
+        <formula>ASP__c*Competitive_Units__c</formula>
+        <name>Update_Amount_Knee</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Check_Opportunity</fullName>
+        <field>Check_Opportunity_Owner_is_changed__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Check Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Credit_Review_field_as_blank</fullName>
+        <field>Credit_Status__c</field>
+        <name>Update Credit Review field as blank</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Installation_as_FALSE</fullName>
+        <field>Installation_Complete__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Installation as FALSE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Is_Clone_field_as_TRUE</fullName>
+        <field>Is_Clone_ROSA_Opportunity__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Clone field as TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Manager_Forecast_field_to_WON</fullName>
+        <field>AVP_Forecast_Judgement__c</field>
+        <literalValue>Won</literalValue>
+        <name>Update Manager Forecast field to &quot;WON&quot;</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Manager_Forecast_to_WON</fullName>
+        <field>Manager_Forecast_Judgement__c</field>
+        <literalValue>Won</literalValue>
+        <name>Update Manager Forecast to WON</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Number_of_Surgeries_field</fullName>
+        <description>Anytime the field value changes for ‘competitive_units__c’ then populate the ‘Number_of_Surgeries__c’ w/ that value</description>
+        <field>Number_of_Surgeries__c</field>
+        <formula>Competitive_Units__c</formula>
+        <name>Update Number of Surgeries field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Zone_Forecast_field_to_Won</fullName>
+        <field>AVP_Forecast_Judgement__c</field>
+        <literalValue>Won</literalValue>
+        <name>Update Zone Forecast field to &quot;Won&quot;</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ASC TL MBR Update</fullName>
+        <actions>
+            <name>Nullify_TL_MBR_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>whenever an ASC opportunity record type is changed to &apos;closed&apos; then the &apos;tl-mbr&apos; checbox is unchecked</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Check Opportunity Owner is changed</fullName>
+        <actions>
+            <name>Update_Check_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  
+        RecordType.Id ==&apos;012C0000000QLX0&apos;,
+         ISCHANGED( OwnerId ) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CloseDateNotice</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Discover,Solve,Execute</value>
+        </criteriaItems>
+        <description>This workflow evaluates close dates on all opportunities for US Recon and Surgical Businesses</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Close_Date_Notice</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Dollars left on the table</fullName>
+        <actions>
+            <name>Dollars_left_on_the_table_for_not_PO</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Purchase_Type__c</field>
+            <operation>notEqual</operation>
+            <value>PO</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Dollars left on the table for PO</fullName>
+        <actions>
+            <name>Dollars_left_on_the_table</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Purchase_Type__c</field>
+            <operation>equals</operation>
+            <value>PO</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Drive %26 Defend Rule</fullName>
+        <actions>
+            <name>Drive_Defend_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(       OR( RecordType.Id == &apos;012C0000000Ga1g&apos;, RecordType.Id == &apos;012C0000000QEmM&apos;,          RecordType.Id == &apos;012C0000000GaIO&apos;, RecordType.Id == &apos;012800000002ReS&apos;,          RecordType.Id == &apos;012C0000000Ga2F&apos;, RecordType.Id == &apos;012C0000000GZza&apos;,          RecordType.Id == &apos;012C0000000YQrE&apos;, RecordType.Id == &apos;0123b000000Qfrz&apos;), 		       OR(NOT(ISPICKVAL(StageName,&apos;Closed Won&apos;)), 	 NOT(ISPICKVAL(StageName,&apos;Closed Lost&apos;))),          Top_150__c==TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email notifications for Opportunity close date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Knee,US Gel-One,US Sports Medicine,US Extremities,US Foot and Ankle,US Hip,US Biologics,US Trauma</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Discover,Solve,Execute</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Notification_to_Owner_for_Oppty_Close_date</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Notification_to_Owner_for_Oppty_Close_date</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Notification_to_Owner_for_Oppty_Close_date</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Initial Close Date</fullName>
+        <actions>
+            <name>Original_Close_Date_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.CloseDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>This work Flow is associated with Push Counter</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Knee_Auto_Update_Amount</fullName>
+        <actions>
+            <name>Update_Amount_Knee</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.ASP__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>USD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Competitive_Units__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>Knee_Auto_Update_Amount : amount = competitive Units x ASP</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>New opp assigned</fullName>
+        <actions>
+            <name>New_Opp_for_a_surgical_rep</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.LastModifiedById</field>
+            <operation>contains</operation>
+            <value>Arun,Neetam,Mohit,steier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>Steven Steier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Push Counter</fullName>
+        <actions>
+            <name>Increment_Push_Counter_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Increment the Push Counter field by 1</description>
+        <formula>IF(  CloseDate &gt; PRIORVALUE( CloseDate ),  IF (MONTH(CloseDate) &lt;&gt; MONTH(PRIORVALUE( CloseDate )) ,  TRUE,  FALSE),  FALSE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ROSA Opportunity Credit Review Date</fullName>
+        <actions>
+            <name>Update_Account_Receivable_fields_blank</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Credit_Review_field_as_blank</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR(          RecordType.Id ==&apos;0123b000000IKKm&apos;,          RecordType.Id ==&apos;012C0000000YQqa&apos;,          RecordType.Id ==&apos;0123b000000IKKr&apos;),          NOT(OR(ISPICKVAL(StageName,&quot;Closed Won&quot;),ISPICKVAL(StageName,&quot;Closed Lost&quot;))),          (ABS(MONTH(Credit_Review_Date__c) + (12*(YEAR(Credit_Review_Date__c)-YEAR(TODAY()))) - MONTH(TODAY()))&gt;=6)  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send alert for ROSA Oppty Contract Expiration</fullName>
+        <actions>
+            <name>Email_Alert_for_ROSA_Opportunity_Contract_Expiry</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_the_Opportunity_before_it_expires</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+     OR(
+         RecordType.Id ==&apos;0123b000000IKKm&apos;,
+         RecordType.Id ==&apos;012C0000000YQqa&apos;,
+         RecordType.Id ==&apos;0123b000000IKKr&apos;
+       ),
+       (ABS(MONTH(Contract_End_Date__c) + (12*(YEAR(Contract_End_Date__c)- 
+        YEAR(TODAY()))) - MONTH(TODAY()))&lt;=3),
+       OR(
+           ISPICKVAL(Deal_Type_Surgical__c,&quot;ROSA+&quot;),
+           ISPICKVAL(Deal_Type_Surgical__c,&quot;ROSA+ from Placement&quot;),
+           ISPICKVAL(Deal_Type_Surgical__c,&quot;Placement&quot;),
+           ISPICKVAL(Deal_Type_Surgical__c,&quot;ROSA ID&quot;),
+           ISPICKVAL(Deal_Type_Surgical__c,&quot;ROSA ID from Placement&quot;)
+          )
+
+
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Closed Lost</fullName>
+        <actions>
+            <name>Stage_Standard_Map_ClosedLost_FieldUpdat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Lost,Lost/不成立</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Closed Lost</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Closed Other</fullName>
+        <actions>
+            <name>Stage_Standard_Map_ClosedOth_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Other</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Closed Other</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Closed Won</fullName>
+        <actions>
+            <name>Stage_Standard_Map_ClosedWon_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Closed Won</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Commitment</fullName>
+        <actions>
+            <name>Stage_Standard_Map_Commit_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Commitment</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Commitment</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map ID%2FQual</fullName>
+        <actions>
+            <name>Stage_Standard_Map_ID_Qual_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Identification/Qualification</value>
+        </criteriaItems>
+        <description>Map global pipeline stages to global stages (opportunity): Identification/Qualification</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Proposal</fullName>
+        <actions>
+            <name>Stage_Standard_Map_Proposa_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Proposal/Assessment</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Proposal/Assessment</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Standard Map Train%2FTrial</fullName>
+        <actions>
+            <name>Stage_Standard_Map_Train_T_Field_Updat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Training/Trial</value>
+        </criteriaItems>
+        <description>Map global stages to global stages (opportunity): Training/Trial</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Enterprise Opportunity Amount</fullName>
+        <actions>
+            <name>Pull_Through_Amount</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Enterprise</value>
+        </criteriaItems>
+        <description>Update Enterprise Opportunity Amount</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Forecast Judgement to %22Won%22 when Oppty updated as Closed Won</fullName>
+        <actions>
+            <name>Update_Manager_Forecast_to_WON</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Zone_Forecast_field_to_Won</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ROSA Brain,ROSA Spine,MyMobility,ROSA Knee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <description>workflow to update the value to Won in these 2 fields when ROSA and My Mobility Opportunity is updated to Closed Won</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Number of Surgeries field</fullName>
+        <actions>
+            <name>Update_Number_of_Surgeries_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Early Intervention,US Knee,US Sports Medicine,US Extremities,US Foot and Ankle,US Hip,US Trauma,US Cement</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update ROSA Knee Installation field for Closed and Closed - Placement Return</fullName>
+        <actions>
+            <name>Update_Installation_as_FALSE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ROSA Knee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed – Placement Return</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Lost</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update checkbox when ROSA Oppty is cloned</fullName>
+        <actions>
+            <name>Update_Is_Clone_field_as_TRUE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+     OR(
+          RecordType.Id ==&apos;0123b000000IKKm&apos;,
+          RecordType.Id ==&apos;012C0000000YQqa&apos;,
+          RecordType.Id ==&apos;0123b000000IKKr&apos;
+        ),
+       ISCLONE()
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Validated Opportunity</fullName>
+        <actions>
+            <name>Date_Validated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>notEqual</operation>
+            <value>Unvalidated Opportunity,Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Date_Validated__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical Leads</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Update_the_Opportunity_before_it_expires</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>-90</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Opportunity.Contract_End_Date__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Update the Opportunity before it expires</subject>
+    </tasks>
+</Workflow>

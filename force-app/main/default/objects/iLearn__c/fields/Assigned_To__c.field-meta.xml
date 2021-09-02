@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SFDC User that is assigned to the iLearn course record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SFDC User that is assigned to the iLearn course record</inlineHelpText>
+    <label>Assigned To</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>iLearn</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

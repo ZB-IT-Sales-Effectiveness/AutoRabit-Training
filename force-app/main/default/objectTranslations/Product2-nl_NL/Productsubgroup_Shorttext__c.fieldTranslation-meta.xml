@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Productnamen</label>
+    <name>Productsubgroup_Shorttext__c</name>
+    <picklistValues>
+        <masterLabel>&lt;nicht definiert&gt;</masterLabel>
+        <translation><!-- &lt;nicht definiert&gt; --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accessories (inactive)</masterLabel>
+        <translation><!-- Accessories (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allegretto Femorals Non-porous</masterLabel>
+        <translation><!-- Allegretto Femorals Non-porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allegretto Tibia</masterLabel>
+        <translation><!-- Allegretto Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Zweymuller CSF Screw Cup</masterLabel>
+        <translation><!-- Alloclassic Zweymuller CSF Screw Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Zweymuller SLL</masterLabel>
+        <translation><!-- Alloclassic Zweymuller SLL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Zweymuller Taper</masterLabel>
+        <translation><!-- Alloclassic Zweymuller Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allofit Shell</masterLabel>
+        <translation><!-- Allofit Shell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allospine</masterLabel>
+        <translation><!-- Allospine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture Heads</masterLabel>
+        <translation><!-- Anatomical Fracture Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture Instruments</masterLabel>
+        <translation><!-- Anatomical Fracture Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture Stems</masterLabel>
+        <translation><!-- Anatomical Fracture Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Glenoid Baseplates</masterLabel>
+        <translation><!-- Anatomical Inverse Glenoid Baseplates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Glenoid Heads</masterLabel>
+        <translation><!-- Anatomical Inverse Glenoid Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Humeral Cups</masterLabel>
+        <translation><!-- Anatomical Inverse Humeral Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Humeral Poly Inlays</masterLabel>
+        <translation><!-- Anatomical Inverse Humeral Poly Inlays --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Instruments</masterLabel>
+        <translation><!-- Anatomical Inverse Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Other (inactive)</masterLabel>
+        <translation><!-- Anatomical Inverse Other (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Inverse Stems (inactive)</masterLabel>
+        <translation><!-- Anatomical Inverse Stems (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Other</masterLabel>
+        <translation><!-- Anatomical Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Glenoids</masterLabel>
+        <translation><!-- Anatomical Shoulder Glenoids --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Heads</masterLabel>
+        <translation><!-- Anatomical Shoulder Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Instruments</masterLabel>
+        <translation><!-- Anatomical Shoulder Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder Stems</masterLabel>
+        <translation><!-- Anatomical Shoulder Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astrid Foot Implants</masterLabel>
+        <translation><!-- Astrid Foot Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astrid Foot Instuments</masterLabel>
+        <translation><!-- Astrid Foot Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autotransfusion Products</masterLabel>
+        <translation><!-- Autotransfusion Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir Stem</masterLabel>
+        <translation><!-- Avenir Stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/F Shoulder Glenoids</masterLabel>
+        <translation><!-- B/F Shoulder Glenoids --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/F Shoulder Heads</masterLabel>
+        <translation><!-- B/F Shoulder Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/F Shoulder Instruments</masterLabel>
+        <translation><!-- B/F Shoulder Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B/F Shoulder Stems</masterLabel>
+        <translation><!-- B/F Shoulder Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAK/C</masterLabel>
+        <translation><!-- BAK/C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAK/L</masterLabel>
+        <translation><!-- BAK/L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bipolar Centerpulse</masterLabel>
+        <translation><!-- Bipolar Centerpulse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Drills</masterLabel>
+        <translation><!-- Bone Drills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brunswick Cup</masterLabel>
+        <translation><!-- Brunswick Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burch-Schneider Cage</masterLabel>
+        <translation><!-- Burch-Schneider Cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/M Elbow Humeral</masterLabel>
+        <translation><!-- C/M Elbow Humeral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/M Elbow Instruments</masterLabel>
+        <translation><!-- C/M Elbow Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/M Elbow Other</masterLabel>
+        <translation><!-- C/M Elbow Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C/M Elbow Ulnar</masterLabel>
+        <translation><!-- C/M Elbow Ulnar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Cannulated Screw Instuments</masterLabel>
+        <translation><!-- CEP Cannulated Screw Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Cannulated Screws</masterLabel>
+        <translation><!-- CEP Cannulated Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Extremities - Other</masterLabel>
+        <translation><!-- CEP Extremities - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Hip Instruments</masterLabel>
+        <translation><!-- CEP Hip Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Hips (inactive)</masterLabel>
+        <translation><!-- CEP Hips (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Hips - Other</masterLabel>
+        <translation><!-- CEP Hips - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Knees (inactive)</masterLabel>
+        <translation><!-- CEP Knees (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Other Trauma</masterLabel>
+        <translation><!-- CEP Other Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Patient Care (inactive)</masterLabel>
+        <translation><!-- CEP Patient Care (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Pins/Wires</masterLabel>
+        <translation><!-- CEP Pins/Wires --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP Spine (inactive)</masterLabel>
+        <translation><!-- CEP Spine (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Spotorno Shell</masterLabel>
+        <translation><!-- CLS Spotorno Shell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Spotorno Taper</masterLabel>
+        <translation><!-- CLS Spotorno Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMI</masterLabel>
+        <translation><!-- CMI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Pin</masterLabel>
+        <translation><!-- Cable Pin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Plates</masterLabel>
+        <translation><!-- Cable Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cables</masterLabel>
+        <translation><!-- Cables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannulated Screw Instruments</masterLabel>
+        <translation><!-- Cannulated Screw Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannulated Screws</masterLabel>
+        <translation><!-- Cannulated Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannulated Screws-Titanium</masterLabel>
+        <translation><!-- Cannulated Screws-Titanium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Centerpulse Knee Instruments</masterLabel>
+        <translation><!-- Centerpulse Knee Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Centerpulse Other Knees</masterLabel>
+        <translation><!-- Centerpulse Other Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceramic Heads</masterLabel>
+        <translation><!-- Ceramic Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceramic Liners (Taper Lock)</masterLabel>
+        <translation><!-- Ceramic Liners (Taper Lock) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerasul</masterLabel>
+        <translation><!-- Cerasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerasul Inserts</masterLabel>
+        <translation><!-- Cerasul Inserts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervi-lok</masterLabel>
+        <translation><!-- Cervi-lok --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoCr Heads</masterLabel>
+        <translation><!-- CoCr Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuum Augmentation Patella</masterLabel>
+        <translation><!-- Continuum Augmentation Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DHS-DCS Instuments</masterLabel>
+        <translation><!-- DHS-DCS Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DHS-DCS Plates</masterLabel>
+        <translation><!-- DHS-DCS Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DHS-DCS Screws</masterLabel>
+        <translation><!-- DHS-DCS Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discectomy</masterLabel>
+        <translation><!-- Discectomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durasul Inserts</masterLabel>
+        <translation><!-- Durasul Inserts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Acetabular Component</masterLabel>
+        <translation><!-- Durom Acetabular Component --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Femoral Component</masterLabel>
+        <translation><!-- Durom Femoral Component --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Shoulder</masterLabel>
+        <translation><!-- Durom Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynardi</masterLabel>
+        <translation><!-- Dynardi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys</masterLabel>
+        <translation><!-- Dynesys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys 510K</masterLabel>
+        <translation><!-- Dynesys 510K --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECT Instruments</masterLabel>
+        <translation><!-- ECT Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECT Large Frag Plates</masterLabel>
+        <translation><!-- ECT Large Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emeraude Cementless</masterLabel>
+        <translation><!-- Emeraude Cementless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endos/ Unipolar Heads</masterLabel>
+        <translation><!-- Endos/ Unipolar Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Plant Instrument</masterLabel>
+        <translation><!-- Ex-Plant Instrument --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exafit</masterLabel>
+        <translation><!-- Exafit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exafit Cup - Durasul</masterLabel>
+        <translation><!-- Exafit Cup - Durasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities - Other</masterLabel>
+        <translation><!-- Extremities - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities Instruments</masterLabel>
+        <translation><!-- Extremities Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities Service Revenue</masterLabel>
+        <translation><!-- Extremities Service Revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremity Products</masterLabel>
+        <translation><!-- Extremity Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FMD Service Revenue</masterLabel>
+        <translation><!-- FMD Service Revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finger Basis</masterLabel>
+        <translation><!-- Finger Basis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finger Caput</masterLabel>
+        <translation><!-- Finger Caput --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore Shell</masterLabel>
+        <translation><!-- Fitmore Shell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freeman Samuelson Femorals</masterLabel>
+        <translation><!-- Freeman Samuelson Femorals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB Elbow Humeral</masterLabel>
+        <translation><!-- GSB Elbow Humeral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB Elbow Other</masterLabel>
+        <translation><!-- GSB Elbow Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB Elbow Ulnar</masterLabel>
+        <translation><!-- GSB Elbow Ulnar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB Femorals</masterLabel>
+        <translation><!-- GSB Femorals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB Instruments</masterLabel>
+        <translation><!-- GSB Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GTR</masterLabel>
+        <translation><!-- GTR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ganz Ring</masterLabel>
+        <translation><!-- Ganz Ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Plates &amp; Screws-Insruments</masterLabel>
+        <translation><!-- General Plates &amp; Screws-Insruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Plates &amp; Screws-Other</masterLabel>
+        <translation><!-- General Plates &amp; Screws-Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HRC Locking Cage Cervical</masterLabel>
+        <translation><!-- HRC Locking Cage Cervical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HRC Locking Cage Lumbar PLIF</masterLabel>
+        <translation><!-- HRC Locking Cage Lumbar PLIF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healos (inactive)</masterLabel>
+        <translation><!-- Healos (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbert Cannulated</masterLabel>
+        <translation><!-- Herbert Cannulated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbert Mini</masterLabel>
+        <translation><!-- Herbert Mini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbert Scaphoid</masterLabel>
+        <translation><!-- Herbert Scaphoid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbert Whipple</masterLabel>
+        <translation><!-- Herbert Whipple --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hex Buttons</masterLabel>
+        <translation><!-- Hex Buttons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Instruments</masterLabel>
+        <translation><!-- Hip Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Service Revenue</masterLabel>
+        <translation><!-- Hip Service Revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex - Other</masterLabel>
+        <translation><!-- Innex - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex CR Articular Surface</masterLabel>
+        <translation><!-- Innex CR Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex CR Cementless Femoral</masterLabel>
+        <translation><!-- Innex CR Cementless Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex CR Femoral</masterLabel>
+        <translation><!-- Innex CR Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex CR Mobile Articular Surface</masterLabel>
+        <translation><!-- Innex CR Mobile Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex Fixed Tibial Plate</masterLabel>
+        <translation><!-- Innex Fixed Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex Mobile Cementless Tibial Plate</masterLabel>
+        <translation><!-- Innex Mobile Cementless Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex Mobile Tibial Plate</masterLabel>
+        <translation><!-- Innex Mobile Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex Patella</masterLabel>
+        <translation><!-- Innex Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex SC Articular Surface</masterLabel>
+        <translation><!-- Innex SC Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex SC Femoral</masterLabel>
+        <translation><!-- Innex SC Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex UC Articular Surface</masterLabel>
+        <translation><!-- Innex UC Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex UCOR Mobile Articular Surface</masterLabel>
+        <translation><!-- Innex UCOR Mobile Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interlocking Femoral Nails</masterLabel>
+        <translation><!-- Interlocking Femoral Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interlocking Nail Instuments</masterLabel>
+        <translation><!-- Interlocking Nail Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interlocking Screws</masterLabel>
+        <translation><!-- Interlocking Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interlocking Tibial Nails</masterLabel>
+        <translation><!-- Interlocking Tibial Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys Instruments</masterLabel>
+        <translation><!-- Intrasys Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys Long Nails</masterLabel>
+        <translation><!-- Intrasys Long Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys Screws</masterLabel>
+        <translation><!-- Intrasys Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys Short Nails</masterLabel>
+        <translation><!-- Intrasys Short Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inverse/Reverse NCB Screws</masterLabel>
+        <translation><!-- Inverse/Reverse NCB Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Instruments</masterLabel>
+        <translation><!-- Knee Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Service Revenue</masterLabel>
+        <translation><!-- Knee Service Revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees - Other</masterLabel>
+        <translation><!-- Knees - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCCK NexGen Articular Surface</masterLabel>
+        <translation><!-- LCCK NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOR</masterLabel>
+        <translation><!-- LOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Fixed-Molded NexGen Articular Surface</masterLabel>
+        <translation><!-- LPS Fixed-Molded NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Mobile NexGen Articular Surface</masterLabel>
+        <translation><!-- LPS Mobile NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS-Flex Fluted Option Tib Plate</masterLabel>
+        <translation><!-- LPS-Flex Fluted Option Tib Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS-Flex Fluted Precoat Tib Plate</masterLabel>
+        <translation><!-- LPS-Flex Fluted Precoat Tib Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Frag Instruments</masterLabel>
+        <translation><!-- Large Frag Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Frag Plates</masterLabel>
+        <translation><!-- Large Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Frag Screws</masterLabel>
+        <translation><!-- Large Frag Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luque Wires</masterLabel>
+        <translation><!-- Luque Wires --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M / L Taper</masterLabel>
+        <translation><!-- M / L Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M / L Taper (HATCP)</masterLabel>
+        <translation><!-- M / L Taper (HATCP) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBK Articular Surface</masterLabel>
+        <translation><!-- MBK Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBK Cemented Femoral</masterLabel>
+        <translation><!-- MBK Cemented Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBK Porous Femoral</masterLabel>
+        <translation><!-- MBK Porous Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBK Tibial Plate</masterLabel>
+        <translation><!-- MBK Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDN Instruments</masterLabel>
+        <translation><!-- MDN Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MG I Articular Surface</masterLabel>
+        <translation><!-- MG I Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MG UNI Articular Surface</masterLabel>
+        <translation><!-- MG UNI Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MG UNI Precoat Femoral</masterLabel>
+        <translation><!-- MG UNI Precoat Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MG UNI Tibial Plate</masterLabel>
+        <translation><!-- MG UNI Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOST Others</masterLabel>
+        <translation><!-- MOST Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOST Proximal Femur</masterLabel>
+        <translation><!-- MOST Proximal Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOST Stems, Adaptors, Segments &amp; Augments</masterLabel>
+        <translation><!-- MOST Stems, Adaptors, Segments &amp; Augments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MS 30</masterLabel>
+        <translation><!-- MS 30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mayo</masterLabel>
+        <translation><!-- Mayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc</masterLabel>
+        <translation><!-- Metabloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc Taper</masterLabel>
+        <translation><!-- Metabloc Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metasul Heads</masterLabel>
+        <translation><!-- Metasul Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metasul Insert</masterLabel>
+        <translation><!-- Metasul Insert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metasul LDH</masterLabel>
+        <translation><!-- Metasul LDH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meuli Wrist</masterLabel>
+        <translation><!-- Meuli Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Frag Instuments</masterLabel>
+        <translation><!-- Mini Frag Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Frag Plates</masterLabel>
+        <translation><!-- Mini Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Frag Screws</masterLabel>
+        <translation><!-- Mini Frag Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous</masterLabel>
+        <translation><!-- Miscellaneous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Molded CR NexGen Articular Surface</masterLabel>
+        <translation><!-- Molded CR NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Molded LPS FLex Fixed NexGen Articular Surface</masterLabel>
+        <translation><!-- Molded LPS FLex Fixed NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morscher</masterLabel>
+        <translation><!-- Morscher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Most Patella</masterLabel>
+        <translation><!-- Most Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller Low Profile standard PE /Full Profile Cups</masterLabel>
+        <translation><!-- Muller Low Profile standard PE /Full Profile Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller Low Profile w/ Durasul</masterLabel>
+        <translation><!-- Muller Low Profile w/ Durasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller Low Profile w/Metasul</masterLabel>
+        <translation><!-- Muller Low Profile w/Metasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller Ring</masterLabel>
+        <translation><!-- Muller Ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Müller Straight Stem</masterLabel>
+        <translation><!-- Müller Straight Stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Femoral Plates</masterLabel>
+        <translation><!-- NCB Femoral Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Femoral Screws</masterLabel>
+        <translation><!-- NCB Femoral Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Humeral Instruments</masterLabel>
+        <translation><!-- NCB Humeral Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Humeral Plates</masterLabel>
+        <translation><!-- NCB Humeral Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Humeral Screws</masterLabel>
+        <translation><!-- NCB Humeral Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Instuments</masterLabel>
+        <translation><!-- NCB Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII All-Poly Patella</masterLabel>
+        <translation><!-- NKII All-Poly Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII CRK Articular Surface</masterLabel>
+        <translation><!-- NKII CRK Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Congruent Articular Surface</masterLabel>
+        <translation><!-- NKII Congruent Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Cons/Rev Non-Porous Femoral</masterLabel>
+        <translation><!-- NKII Cons/Rev Non-Porous Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Durasul Congruent Articular Surface</masterLabel>
+        <translation><!-- NKII Durasul Congruent Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Durasul Patella</masterLabel>
+        <translation><!-- NKII Durasul Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Durasul Ultra-Congruent Articular Surface</masterLabel>
+        <translation><!-- NKII Durasul Ultra-Congruent Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII HTO PLATE</masterLabel>
+        <translation><!-- NKII HTO PLATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Metal-Backed Patella</masterLabel>
+        <translation><!-- NKII Metal-Backed Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Non-Porous Femoral</masterLabel>
+        <translation><!-- NKII Non-Porous Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Non-Porous PS Femoral</masterLabel>
+        <translation><!-- NKII Non-Porous PS Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII PS Articular Surface</masterLabel>
+        <translation><!-- NKII PS Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Porous Femoral</masterLabel>
+        <translation><!-- NKII Porous Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Revision Porous Femoral</masterLabel>
+        <translation><!-- NKII Revision Porous Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Revision Tibial Plate Non-Porous</masterLabel>
+        <translation><!-- NKII Revision Tibial Plate Non-Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Revision Tibial Plate Porous</masterLabel>
+        <translation><!-- NKII Revision Tibial Plate Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Rotating Platform Plate Non-Porous</masterLabel>
+        <translation><!-- NKII Rotating Platform Plate Non-Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Rotating Platform Plate Porous</masterLabel>
+        <translation><!-- NKII Rotating Platform Plate Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Rotating Platform Ultra-Congruent Articular S</masterLabel>
+        <translation><!-- NKII Rotating Platform Ultra-Congruent Articular S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Spacers</masterLabel>
+        <translation><!-- NKII Spacers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Stems</masterLabel>
+        <translation><!-- NKII Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Tib Plate All-Poly</masterLabel>
+        <translation><!-- NKII Tib Plate All-Poly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Tibial Plate Non-Porous</masterLabel>
+        <translation><!-- NKII Tibial Plate Non-Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Tibial Plate Porous</masterLabel>
+        <translation><!-- NKII Tibial Plate Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Ultra-Congruent Articular Surface</masterLabel>
+        <translation><!-- NKII Ultra-Congruent Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Uni Articular Surface</masterLabel>
+        <translation><!-- NKII Uni Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Uni Porous</masterLabel>
+        <translation><!-- NKII Uni Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NKII Uni Tib Plate Porous</masterLabel>
+        <translation><!-- NKII Uni Tib Plate Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigated MIS QS Knee Software</masterLabel>
+        <translation><!-- Navigated MIS QS Knee Software --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigated Mini Hip Software</masterLabel>
+        <translation><!-- Navigated Mini Hip Software --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigated Open Knee Software</masterLabel>
+        <translation><!-- Navigated Open Knee Software --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen All Poly Patella</masterLabel>
+        <translation><!-- NexGen All Poly Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Augmentation Patella</masterLabel>
+        <translation><!-- NexGen Augmentation Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen MIS Precoat Stemmed Tib Plate</masterLabel>
+        <translation><!-- NexGen MIS Precoat Stemmed Tib Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Porous Stemmed Tib Plate</masterLabel>
+        <translation><!-- NexGen Porous Stemmed Tib Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Precoat Stemmed Tibial Plate</masterLabel>
+        <translation><!-- NexGen Precoat Stemmed Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Stems, Augments</masterLabel>
+        <translation><!-- NexGen Stems, Augments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Tibial Plate (inactive)</masterLabel>
+        <translation><!-- NexGen Tibial Plate (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OEM/SDI</masterLabel>
+        <translation><!-- OEM/SDI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ON Rod Implants</masterLabel>
+        <translation><!-- ON Rod Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omnia Femorals Mobile Bearing (SAL)</masterLabel>
+        <translation><!-- Omnia Femorals Mobile Bearing (SAL) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omnia Fixed Femorals Bearing (Wallaby)</masterLabel>
+        <translation><!-- Omnia Fixed Femorals Bearing (Wallaby) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan Cemented</masterLabel>
+        <translation><!-- Optan Cemented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan Cementless</masterLabel>
+        <translation><!-- Optan Cementless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Option CR Flex NexGen Femoral</masterLabel>
+        <translation><!-- Option CR Flex NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Option LCCK NexGen Femoral</masterLabel>
+        <translation><!-- Option LCCK NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Option LPS NexGen Femoral</masterLabel>
+        <translation><!-- Option LPS NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Option LPS-Flex NexGen Femoral</masterLabel>
+        <translation><!-- Option LPS-Flex NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OrTra Shoulder Stems</masterLabel>
+        <translation><!-- OrTra Shoulder Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Support Products</masterLabel>
+        <translation><!-- Orthopaedic Support Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Bone Cement</masterLabel>
+        <translation><!-- Other Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Cemented Cups</masterLabel>
+        <translation><!-- Other Cemented Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Cemented Hips</masterLabel>
+        <translation><!-- Other Cemented Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Cementless Cups</masterLabel>
+        <translation><!-- Other Cementless Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Hip Products Implex</masterLabel>
+        <translation><!-- Other Hip Products Implex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other IM Nail Instruments</masterLabel>
+        <translation><!-- Other IM Nail Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Porous Hips</masterLabel>
+        <translation><!-- Other Porous Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Shoulder Heads</masterLabel>
+        <translation><!-- Other Shoulder Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Shoulder Instruments</masterLabel>
+        <translation><!-- Other Shoulder Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Specialty</masterLabel>
+        <translation><!-- Other Specialty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Specialty Hips</masterLabel>
+        <translation><!-- Other Specialty Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Specialty Knees</masterLabel>
+        <translation><!-- Other Specialty Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Sports Medicine</masterLabel>
+        <translation><!-- Other Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PASSmed</masterLabel>
+        <translation><!-- PASSmed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE Bipolar Liners</masterLabel>
+        <translation><!-- PE Bipolar Liners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE Liners</masterLabel>
+        <translation><!-- PE Liners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Instruments</masterLabel>
+        <translation><!-- Periarticular Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Locking Plates - Humerus</masterLabel>
+        <translation><!-- Periarticular Locking Plates - Humerus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Locking Plates - Radius</masterLabel>
+        <translation><!-- Periarticular Locking Plates - Radius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Elbow</masterLabel>
+        <translation><!-- Periarticular Plates - Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Femur</masterLabel>
+        <translation><!-- Periarticular Plates - Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Fibula</masterLabel>
+        <translation><!-- Periarticular Plates - Fibula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Hand</masterLabel>
+        <translation><!-- Periarticular Plates - Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Shoulder</masterLabel>
+        <translation><!-- Periarticular Plates - Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Plates - Tibia</masterLabel>
+        <translation><!-- Periarticular Plates - Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular Screws</masterLabel>
+        <translation><!-- Periarticular Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pins/Wires</masterLabel>
+        <translation><!-- Pins/Wires --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Porous CR Flex NexGen Femoral</masterLabel>
+        <translation><!-- Porous CR Flex NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Porous LPS NexGen Femoral</masterLabel>
+        <translation><!-- Porous LPS NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Precimed Reamers</masterLabel>
+        <translation><!-- Precimed Reamers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Precoat CR Flex NexGen Femoral</masterLabel>
+        <translation><!-- Precoat CR Flex NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Precoat LPS-Flex NexGen Femoral</masterLabel>
+        <translation><!-- Precoat LPS-Flex NexGen Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pressure Sentinel Reamers</masterLabel>
+        <translation><!-- Pressure Sentinel Reamers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prolong CR NexGen Articular Surface</masterLabel>
+        <translation><!-- Prolong CR NexGen Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximity</masterLabel>
+        <translation><!-- Proximity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Liners</masterLabel>
+        <translation><!-- Revision Liners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revitan Bodies</masterLabel>
+        <translation><!-- Revitan Bodies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revitan Stems</masterLabel>
+        <translation><!-- Revitan Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotating Hinge Articular Surface</masterLabel>
+        <translation><!-- Rotating Hinge Articular Surface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotating Hinge Knee Femoral</masterLabel>
+        <translation><!-- Rotating Hinge Knee Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotating Hinge Tibial Plate</masterLabel>
+        <translation><!-- Rotating Hinge Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPC Cup</masterLabel>
+        <translation><!-- SPC Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ST360</masterLabel>
+        <translation><!-- ST360 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Screws</masterLabel>
+        <translation><!-- Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Shoulder Glenoids</masterLabel>
+        <translation><!-- Select Shoulder Glenoids --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Shoulder Heads</masterLabel>
+        <translation><!-- Select Shoulder Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Shoulder Instruments</masterLabel>
+        <translation><!-- Select Shoulder Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Shoulder Stems</masterLabel>
+        <translation><!-- Select Shoulder Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silhouette</masterLabel>
+        <translation><!-- Silhouette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinart Instuments</masterLabel>
+        <translation><!-- Sinart Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinart Nails</masterLabel>
+        <translation><!-- Sinart Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinart Screws</masterLabel>
+        <translation><!-- Sinart Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Femoral Nails</masterLabel>
+        <translation><!-- Sirus Femoral Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Humeral Nails</masterLabel>
+        <translation><!-- Sirus Humeral Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Instruments</masterLabel>
+        <translation><!-- Sirus Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Screws</masterLabel>
+        <translation><!-- Sirus Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Tibial Nails</masterLabel>
+        <translation><!-- Sirus Tibial Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Graft Products</masterLabel>
+        <translation><!-- Skin Graft Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Frag Instuments</masterLabel>
+        <translation><!-- Small Frag Instuments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Frag Plates</masterLabel>
+        <translation><!-- Small Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Frag Screws</masterLabel>
+        <translation><!-- Small Frag Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialized Screw Instruments</masterLabel>
+        <translation><!-- Specialized Screw Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Splint Products</masterLabel>
+        <translation><!-- Splint Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine - Instruments</masterLabel>
+        <translation><!-- Sports Medicine - Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Nabor</masterLabel>
+        <translation><!-- St. Nabor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Statak</masterLabel>
+        <translation><!-- Statak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sysorb</masterLabel>
+        <translation><!-- Sysorb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM CR Monoblock Tibial</masterLabel>
+        <translation><!-- TM CR Monoblock Tibial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM LPS Monoblock Tibial</masterLabel>
+        <translation><!-- TM LPS Monoblock Tibial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Reverse Spacers</masterLabel>
+        <translation><!-- TM Reverse Spacers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMT Cervical</masterLabel>
+        <translation><!-- TMT Cervical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMT Lumbar</masterLabel>
+        <translation><!-- TMT Lumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thrust Plate Taper</masterLabel>
+        <translation><!-- Thrust Plate Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Acetabular Augment Cups</masterLabel>
+        <translation><!-- Trabecular Acetabular Augment Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal Modular Cups</masterLabel>
+        <translation><!-- Trabecular Metal Modular Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction Products</masterLabel>
+        <translation><!-- Traction Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma System Instruments</masterLabel>
+        <translation><!-- Trauma System Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tribosul Heads</masterLabel>
+        <translation><!-- Tribosul Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trilogy Cups</masterLabel>
+        <translation><!-- Trilogy Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Select</masterLabel>
+        <translation><!-- Trinica Select --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Standard</masterLabel>
+        <translation><!-- Trinica Standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triosite</masterLabel>
+        <translation><!-- Triosite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U&amp;I Optima</masterLabel>
+        <translation><!-- U&amp;I Optima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unispacers</masterLabel>
+        <translation><!-- Unispacers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VBR11 (inactive)</masterLabel>
+        <translation><!-- VBR11 (inactive) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variall Screw Cup</masterLabel>
+        <translation><!-- Variall Screw Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VerSys FM Taper</masterLabel>
+        <translation><!-- VerSys FM Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtec</masterLabel>
+        <translation><!-- Virtec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtec Cemented</masterLabel>
+        <translation><!-- Virtec Cemented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner Cone</masterLabel>
+        <translation><!-- Wagner Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner SL</masterLabel>
+        <translation><!-- Wagner SL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weber - Metasul</masterLabel>
+        <translation><!-- Weber - Metasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weber Cup</masterLabel>
+        <translation><!-- Weber Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weber Fix</masterLabel>
+        <translation><!-- Weber Fix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Debridement Products</masterLabel>
+        <translation><!-- Wound Debridement Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XLPE Liners</masterLabel>
+        <translation><!-- XLPE Liners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZMR - Bodies</masterLabel>
+        <translation><!-- ZMR - Bodies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZMR - Stems</masterLabel>
+        <translation><!-- ZMR - Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Instruments</masterLabel>
+        <translation><!-- ZPS Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Large Frag Plates</masterLabel>
+        <translation><!-- ZPS Large Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Mini Frag Plates</masterLabel>
+        <translation><!-- ZPS Mini Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Pelvic Plates</masterLabel>
+        <translation><!-- ZPS Pelvic Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Screws</masterLabel>
+        <translation><!-- ZPS Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS Small Frag Plates</masterLabel>
+        <translation><!-- ZPS Small Frag Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer UNI Art Surf Fixed Bearing</masterLabel>
+        <translation><!-- Zimmer UNI Art Surf Fixed Bearing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer UNI Femoral Precoat</masterLabel>
+        <translation><!-- Zimmer UNI Femoral Precoat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Uni Fixed Tibial Plate</masterLabel>
+        <translation><!-- Zimmer Uni Fixed Tibial Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimtron/ Stainless Steel Heads</masterLabel>
+        <translation><!-- Zimtron/ Stainless Steel Heads --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

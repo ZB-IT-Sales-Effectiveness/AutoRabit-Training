@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Action Required</masterLabel>
+        <translation>Handlung erforderlich</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activated</masterLabel>
+        <translation>Aktiviert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Draft</masterLabel>
+        <translation>Entwurf</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ended</masterLabel>
+        <translation>Beendet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Approval Process</masterLabel>
+        <translation>Im Genehmigungsprozess</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Review</masterLabel>
+        <translation>In Prüfung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Published</masterLabel>
+        <translation>Veröffentlicht</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

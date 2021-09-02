@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Customer_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account$Account_eMail__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r$Customer_Contact_Name__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>IngeniOs post-market survey list</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0-602501,0-600501,0-601001,0-602001,0-700501,0-701001,0-702001</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>IngeniOs customers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

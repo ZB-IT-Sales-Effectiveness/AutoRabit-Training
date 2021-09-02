@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scontrol xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contentSource>HTML</contentSource>
+    <description>Run all active workflow schedules meeting user defined time intervals. Run manually in Salesforce or schedule with an external application</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EU-Run All Workflow Schedules</name>
+    <supportsCaching>true</supportsCaching>
+</Scontrol>

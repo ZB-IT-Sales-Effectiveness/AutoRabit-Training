@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZB Case Medical - BP</name>
+    <queueMembers>
+        <users>
+            <user>analisa.bailiff@zimmerbiomet.com</user>
+            <user>bill.sherman@zbgreatlakes.com</user>
+            <user>carlo.fumei@zbgreatlakes.com</user>
+            <user>mario.locricchio@zbgreatlakes.com</user>
+            <user>steve.meredith@zbgreatlakes.com</user>
+            <user>tom.tjalsma@zbgreatlakes.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

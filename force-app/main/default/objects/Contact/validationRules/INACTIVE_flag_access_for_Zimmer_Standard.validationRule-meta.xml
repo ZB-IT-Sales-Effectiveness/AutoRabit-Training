@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INACTIVE_flag_access_for_Zimmer_Standard</fullName>
+    <active>true</active>
+    <description>Barrette	SFDC: Brendan Barrette and Rebecca Woodling need INACTIVE flag access for Zimmer Standard Contact records</description>
+    <errorConditionFormula>If(
+	AND( 
+		OR( $User.Id = &apos;005C000000AZvSI&apos;, $User.Id= &apos;005C000000AI2m8&apos;),
+		NOT(RecordTypeId = &apos;012800000002DoL&apos;),
+		$Permission.Inactive_contact_button_access,
+		ISCHANGED(Inactive__c)
+		),
+	TRUE,
+	FALSE
+)</errorConditionFormula>
+    <errorMessage>You don&apos;t have access to edit Inactive status for this contact.</errorMessage>
+</ValidationRule>

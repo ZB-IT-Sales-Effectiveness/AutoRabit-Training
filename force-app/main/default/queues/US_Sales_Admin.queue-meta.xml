@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>US Sales Admin</name>
+    <queueMembers>
+        <users>
+            <user>alexis.kuhne@zimmerbiomet.com</user>
+            <user>alivia.walker@zimmerbiomet.com</user>
+            <user>brittany.malcolm@zimmerbiomet.com</user>
+            <user>jason.herberger@zimmerbiomet.com</user>
+            <user>michele.bottoms@zimmerbiomet.com</user>
+            <user>nick.munson@zimmerbiomet.com</user>
+            <user>raphael.kotzock@zimmerbiomet.com</user>
+            <user>travis.givens@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

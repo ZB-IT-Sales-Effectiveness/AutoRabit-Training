@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stages-Global Pipeline --></label>
+    <name>Stages_Global_Pipeline__c</name>
+    <picklistValues>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation><!-- Closed Lost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Other</masterLabel>
+        <translation><!-- Closed Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Won</masterLabel>
+        <translation><!-- Closed Won --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commitment</masterLabel>
+        <translation><!-- Commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Identification/Qualification</masterLabel>
+        <translation><!-- Identification/Qualification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposal/Assessment</masterLabel>
+        <translation><!-- Proposal/Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training/Trial</masterLabel>
+        <translation><!-- Training/Trial --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

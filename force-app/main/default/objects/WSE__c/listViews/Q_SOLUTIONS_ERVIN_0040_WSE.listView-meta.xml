@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_SOLUTIONS_ERVIN_0040_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SOLUTIONS (ERVIN) (0040) QUEUE</label>
+    <queue>Q_SOLUTIONS_ERVIN_0040</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

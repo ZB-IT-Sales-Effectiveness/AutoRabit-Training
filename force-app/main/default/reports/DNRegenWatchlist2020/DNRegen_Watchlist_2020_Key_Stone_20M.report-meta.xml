@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Key stone</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>378998,164197,224622,378608,391870,411992,381240,111670,377996,378763,378952,378996,448799,455451,377322,379118,408626,131196,460769,107587,440410,378628,378957,115524,379678,441823,378808,378958,286021,364943,378098,378895,457921,377047,107651,378948,442835,455026,269291,458292,103728,241314,264410,342007,378915,378926,390482,445049,401298,427692,123652,379650,358988,377360,377173,378518,198943,412036,120947,377406,115559,372705,378607,377516,412516,377115,392857,126562,349185,131564,385180,360153,368130,378186,169211,377007,377362,130653,123828,421792,377366,260980,107561,141705,378913,411103,444997,428921,378029,378864,104210,377153,378861,140113,378949,378995,283270,379080,222586,281608,375062,378929,460748,441285,372772,377417,448188,447421</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>375131,357615,144981,285361,107619,378777,251972,378943,379026,430613,163997,107667,355957,209287,210365,103662,377216,130032,378603,403401,377536,377327,217795,377206,378471,378776,377439,208336,144298,378117,377068,150332,336488,107562,392528,377267,440658,410273,377207,372871,424608,391782,377526,379062,406876,290605,401229,460420,452451,368253,125924,244655,134996,377016,390478,371131,448268,392354,177101,377420,391936,378708,162731,123878,154569,171613,409797,459250,379163,195169,459099,425156,276667,334033,378829,231607,167902,114788,110232,377361,283076,128976,378593,375065,291592,123697,103661,333032,378975,437873,123656,180261,447216,136453,448460,377202,166675,236917,408713,378950,378678,123712,426641,123681,377045,378900,141275,378846,403962,379069,205507,428270,110223,377049,379441,408286,141386,370863,378761,357585,378404,426532,392067,377102,395501,141813,140630,377128</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Key Stone</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAT_Opportunity_Stage_And_Implant_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISPICKVAL(StageName,&quot;Solve&quot;),ISPICKVAL( StageName,&quot;Execute&quot;)),
+   INCLUDES(ROSA__c , &quot;ROSA Knee&quot;),
+$RecordType.Name = &quot;ROSA Knee&quot;,
+ Vanguard_fill_in__c  == FALSE,  NexGen_fill_in__c == FALSE,  Persona_fill_in__c == FALSE)</errorConditionFormula>
+    <errorMessage>Please select Implant associated with this Opportunity</errorMessage>
+</ValidationRule>

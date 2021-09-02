@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_PY_YTD__c</fullName>
+    <description>Revenue PY YTD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whole Revenue Last Year YTD</inlineHelpText>
+    <label>Revenue PY YTD</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

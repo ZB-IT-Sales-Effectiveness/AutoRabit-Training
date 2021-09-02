@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata holds some generic settings value for ortho sales division for eg. Opportunity record types for Ortho</description>
+    <label>Ortho Sales General Setting</label>
+    <pluralLabel>Ortho Sales General Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select 1 --></help>
+    <label><!-- Strategy --></label>
+    <name>Strategy_1__c</name>
+    <picklistValues>
+        <masterLabel>ASC - Intra-Operative Solutions</masterLabel>
+        <translation><!-- ASC - Intra-Operative Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASC Solutions - Care Optimization</masterLabel>
+        <translation><!-- ASC Solutions - Care Optimization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASC Solutions Post-Operative Solutions</masterLabel>
+        <translation><!-- ASC Solutions Post-Operative Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASC Solutions _ Management Series</masterLabel>
+        <translation><!-- ASC Solutions _ Management Series --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Order</masterLabel>
+        <translation><!-- Bulk Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Order + ROSA(cash)</masterLabel>
+        <translation><!-- Bulk Order + ROSA(cash) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capitation Program - Bulk Buy</masterLabel>
+        <translation><!-- Capitation Program - Bulk Buy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capitation Program - Rebate</masterLabel>
+        <translation><!-- Capitation Program - Rebate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contracting - Existing Business/No Commitment</masterLabel>
+        <translation><!-- Contracting - Existing Business/No Commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contracting - New Business/Commitment</masterLabel>
+        <translation><!-- Contracting - New Business/Commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exchange of Value</masterLabel>
+        <translation><!-- Exchange of Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extend/Reset</masterLabel>
+        <translation><!-- Extend/Reset --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extend/Reset - Pricing</masterLabel>
+        <translation><!-- Extend/Reset - Pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extend/Reset - Rebate</masterLabel>
+        <translation><!-- Extend/Reset - Rebate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fast Start - Balanced Caseload</masterLabel>
+        <translation><!-- Fast Start - Balanced Caseload --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fast Start - Extend 12 Months</masterLabel>
+        <translation><!-- Fast Start - Extend 12 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-Segment Agreement</masterLabel>
+        <translation><!-- Multi-Segment Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Terms</masterLabel>
+        <translation><!-- Payment Terms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price Extension</masterLabel>
+        <translation><!-- Price Extension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RFP Response</masterLabel>
+        <translation><!-- RFP Response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Advantage</masterLabel>
+        <translation><!-- ROSA Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raptor</masterLabel>
+        <translation><!-- Raptor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Management</masterLabel>
+        <translation><!-- Risk Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standardization - Increase%</masterLabel>
+        <translation><!-- Standardization - Increase% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standardization - Pull Through Category</masterLabel>
+        <translation><!-- Standardization - Pull Through Category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walter</masterLabel>
+        <translation><!-- Walter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Technology Pull Through</masterLabel>
+        <translation><!-- ZB Technology Pull Through --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB1</masterLabel>
+        <translation><!-- ZB1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility LE</masterLabel>
+        <translation><!-- mymobility LE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

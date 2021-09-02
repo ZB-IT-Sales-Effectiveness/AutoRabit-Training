@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_in_Golden_Gate_Territory</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Salesperson_ID__c</field>
+        <operation>contains</operation>
+        <value>1143,1147,1145,1136,1002,1127,1199,1062</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Account</value>
+    </filters>
+    <label>Accounts in Golden Gate Territory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_GG_SB_PNW_DDSS</group>
+        <group>DN_USA_Golden_Gate_ISR</group>
+        <group>DN_USA_West_SB_GG_Regen</group>
+    </sharedTo>
+</ListView>

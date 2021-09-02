@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sales Coordinator --></label>
+    <name>Sales_Coordinator__c</name>
+    <relationshipLabel><!-- ZB Connect HR Onboardings (Sales Coordinator) --></relationshipLabel>
+</CustomFieldTranslation>

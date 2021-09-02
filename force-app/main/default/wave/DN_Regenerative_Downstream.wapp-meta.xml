@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folder>DN_Regenerative_Downstream</folder>
+    <masterLabel>DN-Regenerative Downstream</masterLabel>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>daniel.asper@zimmerbiomet.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>justin.lazzara@zimmerbiomet.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>kimberly.swain@zimmerbiomet.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>sandra.ryan2@zimmerbiomet.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

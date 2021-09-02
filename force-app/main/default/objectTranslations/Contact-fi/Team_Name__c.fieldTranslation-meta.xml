@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Team Name --></label>
+    <name>Team_Name__c</name>
+    <picklistValues>
+        <masterLabel>T0005 TEAM HAWAII</masterLabel>
+        <translation><!-- T0005 TEAM HAWAII --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0005 TEAM NORTH COUNTY</masterLabel>
+        <translation><!-- T0005 TEAM NORTH COUNTY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0005 TEAM SAN DIEGO</masterLabel>
+        <translation><!-- T0005 TEAM SAN DIEGO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0005 TEAM TRAUMA</masterLabel>
+        <translation><!-- T0005 TEAM TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM BUFFALO</masterLabel>
+        <translation><!-- T0007 TEAM BUFFALO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM ELMIRA</masterLabel>
+        <translation><!-- T0007 TEAM ELMIRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM GENESEE</masterLabel>
+        <translation><!-- T0007 TEAM GENESEE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM LEO</masterLabel>
+        <translation><!-- T0007 TEAM LEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM NIAGARA</masterLabel>
+        <translation><!-- T0007 TEAM NIAGARA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM ROCHESTER</masterLabel>
+        <translation><!-- T0007 TEAM ROCHESTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM SAYRE</masterLabel>
+        <translation><!-- T0007 TEAM SAYRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0007 TEAM SOUTHERN TIER T07</masterLabel>
+        <translation><!-- T0007 TEAM SOUTHERN TIER T07 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB ALPHA</masterLabel>
+        <translation><!-- T0011 TEAM ZB ALPHA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB BLUE</masterLabel>
+        <translation><!-- T0011 TEAM ZB BLUE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB BRYNDAL</masterLabel>
+        <translation><!-- T0011 TEAM ZB BRYNDAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB CARMEL</masterLabel>
+        <translation><!-- T0011 TEAM ZB CARMEL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB CLARK</masterLabel>
+        <translation><!-- T0011 TEAM ZB CLARK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB DOUGLASS</masterLabel>
+        <translation><!-- T0011 TEAM ZB DOUGLASS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB DOWNTOWN</masterLabel>
+        <translation><!-- T0011 TEAM ZB DOWNTOWN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB EAST</masterLabel>
+        <translation><!-- T0011 TEAM ZB EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB GREEN</masterLabel>
+        <translation><!-- T0011 TEAM ZB GREEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB HAUTE</masterLabel>
+        <translation><!-- T0011 TEAM ZB HAUTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB HERMAN</masterLabel>
+        <translation><!-- T0011 TEAM ZB HERMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB HUFFER</masterLabel>
+        <translation><!-- T0011 TEAM ZB HUFFER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB METRO</masterLabel>
+        <translation><!-- T0011 TEAM ZB METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB NORTHEAST</masterLabel>
+        <translation><!-- T0011 TEAM ZB NORTHEAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB NORTHWEST</masterLabel>
+        <translation><!-- T0011 TEAM ZB NORTHWEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB SOUTHWEST</masterLabel>
+        <translation><!-- T0011 TEAM ZB SOUTHWEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011 TEAM ZB WILLIAMS</masterLabel>
+        <translation><!-- T0011 TEAM ZB WILLIAMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0011TEAM ZB ABEL</masterLabel>
+        <translation><!-- T0011TEAM ZB ABEL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014  TEAM SIFFORD-BARTON</masterLabel>
+        <translation><!-- T0014  TEAM SIFFORD-BARTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM CINCI WEST</masterLabel>
+        <translation><!-- T0014 TEAM CINCI WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM DAYTON</masterLabel>
+        <translation><!-- T0014 TEAM DAYTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM DELTA</masterLabel>
+        <translation><!-- T0014 TEAM DELTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM KEELY-SARGENT</masterLabel>
+        <translation><!-- T0014 TEAM KEELY-SARGENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM SANSONE-ISAACK</masterLabel>
+        <translation><!-- T0014 TEAM SANSONE-ISAACK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM SPRINGFIELD T14</masterLabel>
+        <translation><!-- T0014 TEAM SPRINGFIELD T14 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM WUNDER-SPRAGUE</masterLabel>
+        <translation><!-- T0014 TEAM WUNDER-SPRAGUE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0014 TEAM ZB SOUTHWEST OHIO</masterLabel>
+        <translation><!-- T0014 TEAM ZB SOUTHWEST OHIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0015 TEAM ELKHART</masterLabel>
+        <translation><!-- T0015 TEAM ELKHART --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0015 TEAM LAKE</masterLabel>
+        <translation><!-- T0015 TEAM LAKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0015 TEAM PORTER</masterLabel>
+        <translation><!-- T0015 TEAM PORTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0015 TEAM SOUTH BEND</masterLabel>
+        <translation><!-- T0015 TEAM SOUTH BEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM ALBANY</masterLabel>
+        <translation><!-- T0016 TEAM ALBANY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM AUGUSTA</masterLabel>
+        <translation><!-- T0016 TEAM AUGUSTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM CENTRAL GEORGIA</masterLabel>
+        <translation><!-- T0016 TEAM CENTRAL GEORGIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM HICKMAN/KING</masterLabel>
+        <translation><!-- T0016 TEAM HICKMAN/KING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM SALT COAST</masterLabel>
+        <translation><!-- T0016 TEAM SALT COAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM SAVANNAH</masterLabel>
+        <translation><!-- T0016 TEAM SAVANNAH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM TALLAHASSEE</masterLabel>
+        <translation><!-- T0016 TEAM TALLAHASSEE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM THOMASVILLE</masterLabel>
+        <translation><!-- T0016 TEAM THOMASVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0016 TEAM VALDOSTA</masterLabel>
+        <translation><!-- T0016 TEAM VALDOSTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI BEST</masterLabel>
+        <translation><!-- T0017 TEAM CMI BEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI BUBLICK</masterLabel>
+        <translation><!-- T0017 TEAM CMI BUBLICK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI EAST</masterLabel>
+        <translation><!-- T0017 TEAM CMI EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI GOODMAN</masterLabel>
+        <translation><!-- T0017 TEAM CMI GOODMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI NORTH</masterLabel>
+        <translation><!-- T0017 TEAM CMI NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI SOUTH</masterLabel>
+        <translation><!-- T0017 TEAM CMI SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0017 TEAM CMI WEST</masterLabel>
+        <translation><!-- T0017 TEAM CMI WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM BADGERLAND</masterLabel>
+        <translation><!-- T0018 TEAM BADGERLAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM BREW CITY-MKE</masterLabel>
+        <translation><!-- T0018 TEAM BREW CITY-MKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM DUPAGE EAST</masterLabel>
+        <translation><!-- T0018 TEAM DUPAGE EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM DUPAGE WEST</masterLabel>
+        <translation><!-- T0018 TEAM DUPAGE WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM GREEN BAY NORTH</masterLabel>
+        <translation><!-- T0018 TEAM GREEN BAY NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM GREEN BAY SOUTH</masterLabel>
+        <translation><!-- T0018 TEAM GREEN BAY SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM MADISON</masterLabel>
+        <translation><!-- T0018 TEAM MADISON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM NORTHWEST WISCONSIN</masterLabel>
+        <translation><!-- T0018 TEAM NORTHWEST WISCONSIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM ROCK</masterLabel>
+        <translation><!-- T0018 TEAM ROCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM SAUK</masterLabel>
+        <translation><!-- T0018 TEAM SAUK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM TOSA</masterLabel>
+        <translation><!-- T0018 TEAM TOSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0018 TEAM WI HEARTLAND</masterLabel>
+        <translation><!-- T0018 TEAM WI HEARTLAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM CENTRAL NEBRASKA</masterLabel>
+        <translation><!-- T0019 TEAM CENTRAL NEBRASKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM DULUTH</masterLabel>
+        <translation><!-- T0019 TEAM DULUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM EMERGING TECH</masterLabel>
+        <translation><!-- T0019 TEAM EMERGING TECH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM HOUSE</masterLabel>
+        <translation><!-- T0019 TEAM HOUSE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM LAKES</masterLabel>
+        <translation><!-- T0019 TEAM LAKES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM LINCOLN</masterLabel>
+        <translation><!-- T0019 TEAM LINCOLN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM MN SPORTS</masterLabel>
+        <translation><!-- T0019 TEAM MN SPORTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM MN TRAUMA</masterLabel>
+        <translation><!-- T0019 TEAM MN TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM MPLS METRO</masterLabel>
+        <translation><!-- T0019 TEAM MPLS METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM ND EAST</masterLabel>
+        <translation><!-- T0019 TEAM ND EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM ND WEST</masterLabel>
+        <translation><!-- T0019 TEAM ND WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM NE SOUTH DAKOTA</masterLabel>
+        <translation><!-- T0019 TEAM NE SOUTH DAKOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM NORTH METRO</masterLabel>
+        <translation><!-- T0019 TEAM NORTH METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM NORTHERN MINNESOTA</masterLabel>
+        <translation><!-- T0019 TEAM NORTHERN MINNESOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM NORTHWEST 19</masterLabel>
+        <translation><!-- T0019 TEAM NORTHWEST 19 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM OMAHA</masterLabel>
+        <translation><!-- T0019 TEAM OMAHA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM ROCHESTER (19)</masterLabel>
+        <translation><!-- T0019 TEAM ROCHESTER (19) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM SAATZER</masterLabel>
+        <translation><!-- T0019 TEAM SAATZER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM SIOUX FALLS</masterLabel>
+        <translation><!-- T0019 TEAM SIOUX FALLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM ST PAUL</masterLabel>
+        <translation><!-- T0019 TEAM ST PAUL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM SW METRO</masterLabel>
+        <translation><!-- T0019 TEAM SW METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM TWIN CITIES EAST</masterLabel>
+        <translation><!-- T0019 TEAM TWIN CITIES EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM UNIVERSITY (19)</masterLabel>
+        <translation><!-- T0019 TEAM UNIVERSITY (19) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM WEST METRO</masterLabel>
+        <translation><!-- T0019 TEAM WEST METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0019 TEAM WESTERN SOUTH DAKOTA</masterLabel>
+        <translation><!-- T0019 TEAM WESTERN SOUTH DAKOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM BRUNETT/TYSKA</masterLabel>
+        <translation><!-- T0021 TEAM BRUNETT/TYSKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM BST UNIVERSITY NORTH</masterLabel>
+        <translation><!-- T0021 TEAM BST UNIVERSITY NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM BUSSARD/HALL</masterLabel>
+        <translation><!-- T0021 TEAM BUSSARD/HALL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM DELAWARE (T21)</masterLabel>
+        <translation><!-- T0021 TEAM DELAWARE (T21) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM DILLON-TYSKA</masterLabel>
+        <translation><!-- T0021 TEAM DILLON-TYSKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM DREW</masterLabel>
+        <translation><!-- T0021 TEAM DREW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM JEFF</masterLabel>
+        <translation><!-- T0021 TEAM JEFF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM JERSEY SHORE</masterLabel>
+        <translation><!-- T0021 TEAM JERSEY SHORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM MAINLINE</masterLabel>
+        <translation><!-- T0021 TEAM MAINLINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM NORTHERN MONMOUTH</masterLabel>
+        <translation><!-- T0021 TEAM NORTHERN MONMOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM PENN</masterLabel>
+        <translation><!-- T0021 TEAM PENN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM PHILADELPHIA NORTH</masterLabel>
+        <translation><!-- T0021 TEAM PHILADELPHIA NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM PRIME</masterLabel>
+        <translation><!-- T0021 TEAM PRIME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0021 TEAM UNIVERSITY T21</masterLabel>
+        <translation><!-- T0021 TEAM UNIVERSITY T21 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM ESSEX</masterLabel>
+        <translation><!-- T0022 TEAM ESSEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM NORTH JERSEY ASSOCS</masterLabel>
+        <translation><!-- T0022 TEAM NORTH JERSEY ASSOCS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM OVERLOOK</masterLabel>
+        <translation><!-- T0022 TEAM OVERLOOK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM ROCKLAND COUNTY</masterLabel>
+        <translation><!-- T0022 TEAM ROCKLAND COUNTY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM SOUTH JERSEY</masterLabel>
+        <translation><!-- T0022 TEAM SOUTH JERSEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0022 TEAM WEST JERSEY</masterLabel>
+        <translation><!-- T0022 TEAM WEST JERSEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0023 TEAM DES MOINES CENTRAL</masterLabel>
+        <translation><!-- T0023 TEAM DES MOINES CENTRAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0023 TEAM DES MOINES NORTH</masterLabel>
+        <translation><!-- T0023 TEAM DES MOINES NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0023 TEAM EASTERN IOWA</masterLabel>
+        <translation><!-- T0023 TEAM EASTERN IOWA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0023 TEAM IOWA CITY</masterLabel>
+        <translation><!-- T0023 TEAM IOWA CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0023 TEAM SIOUX CITY</masterLabel>
+        <translation><!-- T0023 TEAM SIOUX CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM CENTRAL ILLINOIS</masterLabel>
+        <translation><!-- T0024 TEAM CENTRAL ILLINOIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM EASTERN ILLINOIS</masterLabel>
+        <translation><!-- T0024 TEAM EASTERN ILLINOIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM GALESBURG</masterLabel>
+        <translation><!-- T0024 TEAM GALESBURG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM MIDAMERICA</masterLabel>
+        <translation><!-- T0024 TEAM MIDAMERICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM NORTH CENTRAL IL</masterLabel>
+        <translation><!-- T0024 TEAM NORTH CENTRAL IL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM NORTH EAST MISSOURI</masterLabel>
+        <translation><!-- T0024 TEAM NORTH EAST MISSOURI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM QUAD CITIES IA-IL</masterLabel>
+        <translation><!-- T0024 TEAM QUAD CITIES IA-IL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0024 TEAM SOUTHERN ILLINOIS</masterLabel>
+        <translation><!-- T0024 TEAM SOUTHERN ILLINOIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM CENTRAL COAST NORTH</masterLabel>
+        <translation><!-- T0025 TEAM CENTRAL COAST NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM CENTRAL COAST SOUTH</masterLabel>
+        <translation><!-- T0025 TEAM CENTRAL COAST SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM DESERT</masterLabel>
+        <translation><!-- T0025 TEAM DESERT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM DESERT CENTRAL</masterLabel>
+        <translation><!-- T0025 TEAM DESERT CENTRAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM DOWNTOWN</masterLabel>
+        <translation><!-- T0025 TEAM DOWNTOWN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM EAST LA</masterLabel>
+        <translation><!-- T0025 TEAM EAST LA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM HIGH DESERT</masterLabel>
+        <translation><!-- T0025 TEAM HIGH DESERT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM INLAND CENTRAL</masterLabel>
+        <translation><!-- T0025 TEAM INLAND CENTRAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM INLAND KAISER</masterLabel>
+        <translation><!-- T0025 TEAM INLAND KAISER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM INLAND NORTH</masterLabel>
+        <translation><!-- T0025 TEAM INLAND NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM INLAND SOUTH</masterLabel>
+        <translation><!-- T0025 TEAM INLAND SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM INLAND WEST</masterLabel>
+        <translation><!-- T0025 TEAM INLAND WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM IRVINE</masterLabel>
+        <translation><!-- T0025 TEAM IRVINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM LONG BEACH</masterLabel>
+        <translation><!-- T0025 TEAM LONG BEACH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM MODERN ORTHO</masterLabel>
+        <translation><!-- T0025 TEAM MODERN ORTHO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM NEWPORT</masterLabel>
+        <translation><!-- T0025 TEAM NEWPORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM NORTH OC</masterLabel>
+        <translation><!-- T0025 TEAM NORTH OC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM NORTH VALLEY</masterLabel>
+        <translation><!-- T0025 TEAM NORTH VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM SOUTH BAY (T0025)</masterLabel>
+        <translation><!-- T0025 TEAM SOUTH BAY (T0025) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM SOUTH OC</masterLabel>
+        <translation><!-- T0025 TEAM SOUTH OC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM SOUTH VALLEY</masterLabel>
+        <translation><!-- T0025 TEAM SOUTH VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM VALLEY</masterLabel>
+        <translation><!-- T0025 TEAM VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0025 TEAM WEST LA</masterLabel>
+        <translation><!-- T0025 TEAM WEST LA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM CHARLOTTESVILLE</masterLabel>
+        <translation><!-- T0026 TEAM CHARLOTTESVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM COOL</masterLabel>
+        <translation><!-- T0026 TEAM COOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM FREDERICKSBURG</masterLabel>
+        <translation><!-- T0026 TEAM FREDERICKSBURG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM RICHMOND</masterLabel>
+        <translation><!-- T0026 TEAM RICHMOND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM ROANOKE</masterLabel>
+        <translation><!-- T0026 TEAM ROANOKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM SOUTH RICHMOND</masterLabel>
+        <translation><!-- T0026 TEAM SOUTH RICHMOND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM SOUTH VIRGINIA</masterLabel>
+        <translation><!-- T0026 TEAM SOUTH VIRGINIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM SOUTHERN MARYLAND</masterLabel>
+        <translation><!-- T0026 TEAM SOUTHERN MARYLAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM SOUTHWEST VIRGINIA</masterLabel>
+        <translation><!-- T0026 TEAM SOUTHWEST VIRGINIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM STAR CITY</masterLabel>
+        <translation><!-- T0026 TEAM STAR CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM VABEACH PENINSULA</masterLabel>
+        <translation><!-- T0026 TEAM VABEACH PENINSULA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM VB KINGS DAUGHTERS</masterLabel>
+        <translation><!-- T0026 TEAM VB KINGS DAUGHTERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM VIRGINIA BEACH</masterLabel>
+        <translation><!-- T0026 TEAM VIRGINIA BEACH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM WINCHESTER NORTH</masterLabel>
+        <translation><!-- T0026 TEAM WINCHESTER NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0026 TEAM WINCHESTER SOUTH</masterLabel>
+        <translation><!-- T0026 TEAM WINCHESTER SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0027 TEAM HSS</masterLabel>
+        <translation><!-- T0027 TEAM HSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM 2 STATE</masterLabel>
+        <translation><!-- T0029 TEAM 2 STATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM BALTIMORE</masterLabel>
+        <translation><!-- T0029 TEAM BALTIMORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM BETHESDA</masterLabel>
+        <translation><!-- T0029 TEAM BETHESDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM CAPITAL CITY</masterLabel>
+        <translation><!-- T0029 TEAM CAPITAL CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM CENTER CITY</masterLabel>
+        <translation><!-- T0029 TEAM CENTER CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM CHESAPEAKE</masterLabel>
+        <translation><!-- T0029 TEAM CHESAPEAKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM DC</masterLabel>
+        <translation><!-- T0029 TEAM DC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM EASTERN SHORE</masterLabel>
+        <translation><!-- T0029 TEAM EASTERN SHORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM ENOVA</masterLabel>
+        <translation><!-- T0029 TEAM ENOVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM FAIRFAX</masterLabel>
+        <translation><!-- T0029 TEAM FAIRFAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM INNER HARBOR</masterLabel>
+        <translation><!-- T0029 TEAM INNER HARBOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM MD</masterLabel>
+        <translation><!-- T0029 TEAM MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM TRI-COUNTY</masterLabel>
+        <translation><!-- T0029 TEAM TRI-COUNTY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM UNION</masterLabel>
+        <translation><!-- T0029 TEAM UNION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM WNOVA</masterLabel>
+        <translation><!-- T0029 TEAM WNOVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0029 TEAM ZBMA</masterLabel>
+        <translation><!-- T0029 TEAM ZBMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM ARENS</masterLabel>
+        <translation><!-- T0030 TEAM ARENS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM BARBER CARDER</masterLabel>
+        <translation><!-- T0030 TEAM BARBER CARDER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM CAPE</masterLabel>
+        <translation><!-- T0030 TEAM CAPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM CENTRAL MISSOURI</masterLabel>
+        <translation><!-- T0030 TEAM CENTRAL MISSOURI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM FOOT &amp; ANKLE</masterLabel>
+        <translation><!-- T0030 TEAM FOOT &amp; ANKLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM HEATH &amp; HEPBURN</masterLabel>
+        <translation><!-- T0030 TEAM HEATH &amp; HEPBURN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM KLEIN</masterLabel>
+        <translation><!-- T0030 TEAM KLEIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM METRO ST LOUIS</masterLabel>
+        <translation><!-- T0030 TEAM METRO ST LOUIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM NELSON</masterLabel>
+        <translation><!-- T0030 TEAM NELSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM POWELLS</masterLabel>
+        <translation><!-- T0030 TEAM POWELLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM SHOWME</masterLabel>
+        <translation><!-- T0030 TEAM SHOWME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM SMS</masterLabel>
+        <translation><!-- T0030 TEAM SMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM SOUTHWEST MO</masterLabel>
+        <translation><!-- T0030 TEAM SOUTHWEST MO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0030 TEAM TOD &amp; LITTLE</masterLabel>
+        <translation><!-- T0030 TEAM TOD &amp; LITTLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0031 TEAM HC (HORS CATÉGORIE)</masterLabel>
+        <translation><!-- T0031 TEAM HC (HORS CATÉGORIE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0031 TEAM MEMPHIS</masterLabel>
+        <translation><!-- T0031 TEAM MEMPHIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0031 TEAM ROCK SOLID</masterLabel>
+        <translation><!-- T0031 TEAM ROCK SOLID --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM BEAUFORT</masterLabel>
+        <translation><!-- T0033 TEAM BEAUFORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM BRODIE</masterLabel>
+        <translation><!-- T0033 TEAM BRODIE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM CHARLESTON 1</masterLabel>
+        <translation><!-- T0033 TEAM CHARLESTON 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM CHARLESTON 2</masterLabel>
+        <translation><!-- T0033 TEAM CHARLESTON 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM COLUMBIA (0033)</masterLabel>
+        <translation><!-- T0033 TEAM COLUMBIA (0033) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM DUKE</masterLabel>
+        <translation><!-- T0033 TEAM DUKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM HINSON</masterLabel>
+        <translation><!-- T0033 TEAM HINSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM PRICE</masterLabel>
+        <translation><!-- T0033 TEAM PRICE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM SCHULTZ</masterLabel>
+        <translation><!-- T0033 TEAM SCHULTZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0033 TEAM UPSTATE</masterLabel>
+        <translation><!-- T0033 TEAM UPSTATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM 70 EAST</masterLabel>
+        <translation><!-- T0034 TEAM 70 EAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM BULL CITY</masterLabel>
+        <translation><!-- T0034 TEAM BULL CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM OAK CITY</masterLabel>
+        <translation><!-- T0034 TEAM OAK CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM OUTER BANX</masterLabel>
+        <translation><!-- T0034 TEAM OUTER BANX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM PHILLIPS</masterLabel>
+        <translation><!-- T0034 TEAM PHILLIPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM PORT CITY</masterLabel>
+        <translation><!-- T0034 TEAM PORT CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM RALEIGHWOOD</masterLabel>
+        <translation><!-- T0034 TEAM RALEIGHWOOD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM SPECIAL FORCES</masterLabel>
+        <translation><!-- T0034 TEAM SPECIAL FORCES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM STEAM</masterLabel>
+        <translation><!-- T0034 TEAM STEAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0034 TEAM SUZIK</masterLabel>
+        <translation><!-- T0034 TEAM SUZIK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0035 TEAM GRANT</masterLabel>
+        <translation><!-- T0035 TEAM GRANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0035 TEAM LAKE NORMAN</masterLabel>
+        <translation><!-- T0035 TEAM LAKE NORMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0035 TEAM SPORTS MEDICINE</masterLabel>
+        <translation><!-- T0035 TEAM SPORTS MEDICINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM BADGER</masterLabel>
+        <translation><!-- T0038 TEAM BADGER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM HARRISBURG</masterLabel>
+        <translation><!-- T0038 TEAM HARRISBURG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM HOLMAN</masterLabel>
+        <translation><!-- T0038 TEAM HOLMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM LANCASTER</masterLabel>
+        <translation><!-- T0038 TEAM LANCASTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM LEHIGH VALLEY</masterLabel>
+        <translation><!-- T0038 TEAM LEHIGH VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM NEPA</masterLabel>
+        <translation><!-- T0038 TEAM NEPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM SHEALER</masterLabel>
+        <translation><!-- T0038 TEAM SHEALER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM SHUTT</masterLabel>
+        <translation><!-- T0038 TEAM SHUTT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0038 TEAM SOUTHERN WATCH</masterLabel>
+        <translation><!-- T0038 TEAM SOUTHERN WATCH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM 24-7</masterLabel>
+        <translation><!-- T0039 TEAM 24-7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM BOB BROWN</masterLabel>
+        <translation><!-- T0039 TEAM BOB BROWN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM CONFLUENCE</masterLabel>
+        <translation><!-- T0039 TEAM CONFLUENCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM DROP THE HAMMER</masterLabel>
+        <translation><!-- T0039 TEAM DROP THE HAMMER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM FOUST</masterLabel>
+        <translation><!-- T0039 TEAM FOUST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM GILBERT</masterLabel>
+        <translation><!-- T0039 TEAM GILBERT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM HALL OF FAME</masterLabel>
+        <translation><!-- T0039 TEAM HALL OF FAME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM LIVELY</masterLabel>
+        <translation><!-- T0039 TEAM LIVELY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM MERCHANT</masterLabel>
+        <translation><!-- T0039 TEAM MERCHANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM MILLER</masterLabel>
+        <translation><!-- T0039 TEAM MILLER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM MOUNTAIN MEDICAL</masterLabel>
+        <translation><!-- T0039 TEAM MOUNTAIN MEDICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM NITTANY</masterLabel>
+        <translation><!-- T0039 TEAM NITTANY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM NORTHWEST GROUP</masterLabel>
+        <translation><!-- T0039 TEAM NORTHWEST GROUP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM OSOLIN</masterLabel>
+        <translation><!-- T0039 TEAM OSOLIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM PETROLLA</masterLabel>
+        <translation><!-- T0039 TEAM PETROLLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM REED</masterLabel>
+        <translation><!-- T0039 TEAM REED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM RENEGADE</masterLabel>
+        <translation><!-- T0039 TEAM RENEGADE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM ROCK N ROLL</masterLabel>
+        <translation><!-- T0039 TEAM ROCK N ROLL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM RUBBER CITY</masterLabel>
+        <translation><!-- T0039 TEAM RUBBER CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM SNOWBELT</masterLabel>
+        <translation><!-- T0039 TEAM SNOWBELT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM SOUTH HILLS</masterLabel>
+        <translation><!-- T0039 TEAM SOUTH HILLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM STEEL VALLEY</masterLabel>
+        <translation><!-- T0039 TEAM STEEL VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM THREE RIVERS</masterLabel>
+        <translation><!-- T0039 TEAM THREE RIVERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM TRIMBUR</masterLabel>
+        <translation><!-- T0039 TEAM TRIMBUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM VERTEX</masterLabel>
+        <translation><!-- T0039 TEAM VERTEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0039 TEAM ZAMAN</masterLabel>
+        <translation><!-- T0039 TEAM ZAMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM BONE-SKELTON</masterLabel>
+        <translation><!-- T0040 TEAM BONE-SKELTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM EMERALD COAST</masterLabel>
+        <translation><!-- T0040 TEAM EMERALD COAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM HUNTSVILLE</masterLabel>
+        <translation><!-- T0040 TEAM HUNTSVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM MIKE HURRING</masterLabel>
+        <translation><!-- T0040 TEAM MIKE HURRING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM MOBILE</masterLabel>
+        <translation><!-- T0040 TEAM MOBILE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0040 TEAM WACHTER-BARBERIO</masterLabel>
+        <translation><!-- T0040 TEAM WACHTER-BARBERIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0042 TEAM EAST MI</masterLabel>
+        <translation><!-- T0042 TEAM EAST MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0042 TEAM GR</masterLabel>
+        <translation><!-- T0042 TEAM GR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0042 TEAM NORTHERN MI</masterLabel>
+        <translation><!-- T0042 TEAM NORTHERN MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM ANN ARBOR</masterLabel>
+        <translation><!-- T0043 TEAM ANN ARBOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM FUMEI (CARLO)</masterLabel>
+        <translation><!-- T0043 TEAM FUMEI (CARLO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM JAM</masterLabel>
+        <translation><!-- T0043 TEAM JAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM LANSING</masterLabel>
+        <translation><!-- T0043 TEAM LANSING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM SOUTH (T43)</masterLabel>
+        <translation><!-- T0043 TEAM SOUTH (T43) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0043 TEAM THOMPSON</masterLabel>
+        <translation><!-- T0043 TEAM THOMPSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044  TEAM EASTSIDE TRAUMA</masterLabel>
+        <translation><!-- T0044  TEAM EASTSIDE TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044  TEAM TACOMA TRAUMA</masterLabel>
+        <translation><!-- T0044  TEAM TACOMA TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM CENTRAL WASHINGTON</masterLabel>
+        <translation><!-- T0044 TEAM CENTRAL WASHINGTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM EMERALD CITY</masterLabel>
+        <translation><!-- T0044 TEAM EMERALD CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM NATURAL NAILERS</masterLabel>
+        <translation><!-- T0044 TEAM NATURAL NAILERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM NORTH CASCADES</masterLabel>
+        <translation><!-- T0044 TEAM NORTH CASCADES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM RAINIER</masterLabel>
+        <translation><!-- T0044 TEAM RAINIER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM SE WASHINGTON</masterLabel>
+        <translation><!-- T0044 TEAM SE WASHINGTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM SEATTLE</masterLabel>
+        <translation><!-- T0044 TEAM SEATTLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM SOUTH SOUND</masterLabel>
+        <translation><!-- T0044 TEAM SOUTH SOUND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM SPOKANE</masterLabel>
+        <translation><!-- T0044 TEAM SPOKANE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0044 TEAM TACOMA</masterLabel>
+        <translation><!-- T0044 TEAM TACOMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM COLUMBIA</masterLabel>
+        <translation><!-- T0045 TEAM COLUMBIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM MCKENZIE</masterLabel>
+        <translation><!-- T0045 TEAM MCKENZIE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM MEDFORD</masterLabel>
+        <translation><!-- T0045 TEAM MEDFORD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM MID-VALLEY</masterLabel>
+        <translation><!-- T0045 TEAM MID-VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM PDX TRAUMA</masterLabel>
+        <translation><!-- T0045 TEAM PDX TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM SOUTH PORTLAND</masterLabel>
+        <translation><!-- T0045 TEAM SOUTH PORTLAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0045 TEAM WILLAMETTE</masterLabel>
+        <translation><!-- T0045 TEAM WILLAMETTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0047 TEAM BR NS</masterLabel>
+        <translation><!-- T0047 TEAM BR NS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0047 TEAM LAFAYETTE</masterLabel>
+        <translation><!-- T0047 TEAM LAFAYETTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0047 TEAM NEW ORLEANS</masterLabel>
+        <translation><!-- T0047 TEAM NEW ORLEANS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0047 TEAM SHREVEPORT</masterLabel>
+        <translation><!-- T0047 TEAM SHREVEPORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0047 TEAM SMITH-STADDON</masterLabel>
+        <translation><!-- T0047 TEAM SMITH-STADDON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0054 TEAM BIOMETONE</masterLabel>
+        <translation><!-- T0054 TEAM BIOMETONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0054 TEAM LAUDERDALE</masterLabel>
+        <translation><!-- T0054 TEAM LAUDERDALE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM ASHLEY</masterLabel>
+        <translation><!-- T0057 TEAM ASHLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM BRIAN</masterLabel>
+        <translation><!-- T0057 TEAM BRIAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM DANNY</masterLabel>
+        <translation><!-- T0057 TEAM DANNY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM EAST VOLUSIA</masterLabel>
+        <translation><!-- T0057 TEAM EAST VOLUSIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM HENRY</masterLabel>
+        <translation><!-- T0057 TEAM HENRY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM JASON</masterLabel>
+        <translation><!-- T0057 TEAM JASON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM KC/JP</masterLabel>
+        <translation><!-- T0057 TEAM KC/JP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0057 TEAM NICK</masterLabel>
+        <translation><!-- T0057 TEAM NICK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM 400</masterLabel>
+        <translation><!-- T0058 TEAM 400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM ATL</masterLabel>
+        <translation><!-- T0058 TEAM ATL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM BLUE RIDGE</masterLabel>
+        <translation><!-- T0058 TEAM BLUE RIDGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM NORTHEAST GA</masterLabel>
+        <translation><!-- T0058 TEAM NORTHEAST GA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM NORTHWEST GA</masterLabel>
+        <translation><!-- T0058 TEAM NORTHWEST GA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM SANDERS</masterLabel>
+        <translation><!-- T0058 TEAM SANDERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM SOUTHSIDE</masterLabel>
+        <translation><!-- T0058 TEAM SOUTHSIDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM VERIZON</masterLabel>
+        <translation><!-- T0058 TEAM VERIZON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0058 TEAM WESTSIDE</masterLabel>
+        <translation><!-- T0058 TEAM WESTSIDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0061 TEAM ALPHA</masterLabel>
+        <translation><!-- T0061 TEAM ALPHA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0061 TEAM DAB</masterLabel>
+        <translation><!-- T0061 TEAM DAB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0061 TEAM WORKAHOLICS</masterLabel>
+        <translation><!-- T0061 TEAM WORKAHOLICS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM ADKINS</masterLabel>
+        <translation><!-- T0063 TEAM ADKINS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM HDS</masterLabel>
+        <translation><!-- T0063 TEAM HDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM KANSAS</masterLabel>
+        <translation><!-- T0063 TEAM KANSAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM KC METRO</masterLabel>
+        <translation><!-- T0063 TEAM KC METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM MONARCH</masterLabel>
+        <translation><!-- T0063 TEAM MONARCH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM SKC</masterLabel>
+        <translation><!-- T0063 TEAM SKC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM TOMAHAWK</masterLabel>
+        <translation><!-- T0063 TEAM TOMAHAWK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM TORNQUIST</masterLabel>
+        <translation><!-- T0063 TEAM TORNQUIST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0063 TEAM TRIDENT</masterLabel>
+        <translation><!-- T0063 TEAM TRIDENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM CHATTANOOGA</masterLabel>
+        <translation><!-- T0064 TEAM CHATTANOOGA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM EAST NASHVILLE</masterLabel>
+        <translation><!-- T0064 TEAM EAST NASHVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM KNOXVILLE</masterLabel>
+        <translation><!-- T0064 TEAM KNOXVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM NASHVILLE</masterLabel>
+        <translation><!-- T0064 TEAM NASHVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM SPORTS MED</masterLabel>
+        <translation><!-- T0064 TEAM SPORTS MED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0064 TEAM SPORTS NASHVILLE</masterLabel>
+        <translation><!-- T0064 TEAM SPORTS NASHVILLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM ASHLAND</masterLabel>
+        <translation><!-- T0065 TEAM ASHLAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM AUDUBON</masterLabel>
+        <translation><!-- T0065 TEAM AUDUBON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM BAPTIST</masterLabel>
+        <translation><!-- T0065 TEAM BAPTIST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM BECKLEY</masterLabel>
+        <translation><!-- T0065 TEAM BECKLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM BROWNSBORO</masterLabel>
+        <translation><!-- T0065 TEAM BROWNSBORO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM CHARLESTON</masterLabel>
+        <translation><!-- T0065 TEAM CHARLESTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM EASTERN KY</masterLabel>
+        <translation><!-- T0065 TEAM EASTERN KY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM HJT</masterLabel>
+        <translation><!-- T0065 TEAM HJT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM HURRICANE</masterLabel>
+        <translation><!-- T0065 TEAM HURRICANE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM LEX</masterLabel>
+        <translation><!-- T0065 TEAM LEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM OUTBACK</masterLabel>
+        <translation><!-- T0065 TEAM OUTBACK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0065 TEAM RIVER CITY</masterLabel>
+        <translation><!-- T0065 TEAM RIVER CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM BELL</masterLabel>
+        <translation><!-- T0068 TEAM BELL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM DARRIN</masterLabel>
+        <translation><!-- T0068 TEAM DARRIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM GREEN COUNTRY</masterLabel>
+        <translation><!-- T0068 TEAM GREEN COUNTRY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM KARBER</masterLabel>
+        <translation><!-- T0068 TEAM KARBER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM LUNA</masterLabel>
+        <translation><!-- T0068 TEAM LUNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM NEO</masterLabel>
+        <translation><!-- T0068 TEAM NEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM NW ARKANSAS</masterLabel>
+        <translation><!-- T0068 TEAM NW ARKANSAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM OKC</masterLabel>
+        <translation><!-- T0068 TEAM OKC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM RICK ATCHISON</masterLabel>
+        <translation><!-- T0068 TEAM RICK ATCHISON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM SJULIN</masterLabel>
+        <translation><!-- T0068 TEAM SJULIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM SOUTHWEST</masterLabel>
+        <translation><!-- T0068 TEAM SOUTHWEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0068 TEAM TULSA</masterLabel>
+        <translation><!-- T0068 TEAM TULSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM ANDERSON</masterLabel>
+        <translation><!-- T0070 TEAM ANDERSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM ASHLEY</masterLabel>
+        <translation><!-- T0070 TEAM ASHLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM BEAUMONT</masterLabel>
+        <translation><!-- T0070 TEAM BEAUMONT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM BP</masterLabel>
+        <translation><!-- T0070 TEAM BP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM COLLEGE STATION</masterLabel>
+        <translation><!-- T0070 TEAM COLLEGE STATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM CORPUS CHRISTI</masterLabel>
+        <translation><!-- T0070 TEAM CORPUS CHRISTI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM EAST TX T70</masterLabel>
+        <translation><!-- T0070 TEAM EAST TX T70 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM FNA</masterLabel>
+        <translation><!-- T0070 TEAM FNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM LAMBARD</masterLabel>
+        <translation><!-- T0070 TEAM LAMBARD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM MED CTR</masterLabel>
+        <translation><!-- T0070 TEAM MED CTR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM NSIDE</masterLabel>
+        <translation><!-- T0070 TEAM NSIDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM RUCKER</masterLabel>
+        <translation><!-- T0070 TEAM RUCKER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM SHOTWELL</masterLabel>
+        <translation><!-- T0070 TEAM SHOTWELL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM SOUTH (T70)</masterLabel>
+        <translation><!-- T0070 TEAM SOUTH (T70) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0070 TEAM SULLIVAN</masterLabel>
+        <translation><!-- T0070 TEAM SULLIVAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM ADIRONDACK</masterLabel>
+        <translation><!-- T0071 TEAM ADIRONDACK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM GREEN MT</masterLabel>
+        <translation><!-- T0071 TEAM GREEN MT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM HARTFORD</masterLabel>
+        <translation><!-- T0071 TEAM HARTFORD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM HUDSON VALLEY</masterLabel>
+        <translation><!-- T0071 TEAM HUDSON VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM MOHAWK VALLEY</masterLabel>
+        <translation><!-- T0071 TEAM MOHAWK VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM NORTH CONN</masterLabel>
+        <translation><!-- T0071 TEAM NORTH CONN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM SOUTH CONN</masterLabel>
+        <translation><!-- T0071 TEAM SOUTH CONN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM SOUTHERN TIER</masterLabel>
+        <translation><!-- T0071 TEAM SOUTHERN TIER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM SYRACUSE</masterLabel>
+        <translation><!-- T0071 TEAM SYRACUSE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM TRI-CITIES</masterLabel>
+        <translation><!-- T0071 TEAM TRI-CITIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0071 TEAM WEST MASS</masterLabel>
+        <translation><!-- T0071 TEAM WEST MASS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM BOSTON</masterLabel>
+        <translation><!-- T0075 TEAM BOSTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM EASTERN MAINE</masterLabel>
+        <translation><!-- T0075 TEAM EASTERN MAINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM MASS GENERAL</masterLabel>
+        <translation><!-- T0075 TEAM MASS GENERAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM METRO NORTH</masterLabel>
+        <translation><!-- T0075 TEAM METRO NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM MISSION HILL</masterLabel>
+        <translation><!-- T0075 TEAM MISSION HILL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM NORTH NEW HAMPSHIRE</masterLabel>
+        <translation><!-- T0075 TEAM NORTH NEW HAMPSHIRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM NORTHERN MAINE</masterLabel>
+        <translation><!-- T0075 TEAM NORTHERN MAINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM NORTHSHORE</masterLabel>
+        <translation><!-- T0075 TEAM NORTHSHORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM PROVIDENCE</masterLabel>
+        <translation><!-- T0075 TEAM PROVIDENCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM SOUTH BOSTON</masterLabel>
+        <translation><!-- T0075 TEAM SOUTH BOSTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM SOUTH NEW HAMPSHIRE</masterLabel>
+        <translation><!-- T0075 TEAM SOUTH NEW HAMPSHIRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM SOUTHSHORE</masterLabel>
+        <translation><!-- T0075 TEAM SOUTHSHORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0075 TEAM WORCESTER</masterLabel>
+        <translation><!-- T0075 TEAM WORCESTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM AMARILLO</masterLabel>
+        <translation><!-- T0077 TEAM AMARILLO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM EAST VALLEY</masterLabel>
+        <translation><!-- T0077 TEAM EAST VALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM FREED</masterLabel>
+        <translation><!-- T0077 TEAM FREED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM JASON FINE</masterLabel>
+        <translation><!-- T0077 TEAM JASON FINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM LOBO</masterLabel>
+        <translation><!-- T0077 TEAM LOBO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM NORTHERN ARIZONA</masterLabel>
+        <translation><!-- T0077 TEAM NORTHERN ARIZONA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM PETER EVERETT</masterLabel>
+        <translation><!-- T0077 TEAM PETER EVERETT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM PHOENIX</masterLabel>
+        <translation><!-- T0077 TEAM PHOENIX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM PRECISION MEDICAL</masterLabel>
+        <translation><!-- T0077 TEAM PRECISION MEDICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM RANDY GARCIA</masterLabel>
+        <translation><!-- T0077 TEAM RANDY GARCIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM SANDIA</masterLabel>
+        <translation><!-- T0077 TEAM SANDIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM SKUNDRICH</masterLabel>
+        <translation><!-- T0077 TEAM SKUNDRICH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM TUCSON</masterLabel>
+        <translation><!-- T0077 TEAM TUCSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM VALLEY SPORTS</masterLabel>
+        <translation><!-- T0077 TEAM VALLEY SPORTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM WILDCAT</masterLabel>
+        <translation><!-- T0077 TEAM WILDCAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM WILL WALKER</masterLabel>
+        <translation><!-- T0077 TEAM WILL WALKER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM ZB TUCSON</masterLabel>
+        <translation><!-- T0077 TEAM ZB TUCSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0077 TEAM ZIA</masterLabel>
+        <translation><!-- T0077 TEAM ZIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM BILLINGS</masterLabel>
+        <translation><!-- T0079 TEAM BILLINGS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM BOZEMAN</masterLabel>
+        <translation><!-- T0079 TEAM BOZEMAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM GREAT FALLS</masterLabel>
+        <translation><!-- T0079 TEAM GREAT FALLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM MEDPOINT KALISPELL</masterLabel>
+        <translation><!-- T0079 TEAM MEDPOINT KALISPELL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM MISSOULA</masterLabel>
+        <translation><!-- T0079 TEAM MISSOULA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM WESTERN MONTANA</masterLabel>
+        <translation><!-- T0079 TEAM WESTERN MONTANA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0079 TEAM WYOMING</masterLabel>
+        <translation><!-- T0079 TEAM WYOMING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM CENTEX</masterLabel>
+        <translation><!-- T0080 TEAM CENTEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM DALLAS</masterLabel>
+        <translation><!-- T0080 TEAM DALLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM DALLAS TRAUMA</masterLabel>
+        <translation><!-- T0080 TEAM DALLAS TRAUMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM EAST TX</masterLabel>
+        <translation><!-- T0080 TEAM EAST TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM FOOT &amp; ANKLE</masterLabel>
+        <translation><!-- T0080 TEAM FOOT &amp; ANKLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM FORT WORTH</masterLabel>
+        <translation><!-- T0080 TEAM FORT WORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM LUBBOCK</masterLabel>
+        <translation><!-- T0080 TEAM LUBBOCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM MIDCITIES</masterLabel>
+        <translation><!-- T0080 TEAM MIDCITIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM NACOGDOCHES</masterLabel>
+        <translation><!-- T0080 TEAM NACOGDOCHES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM NORTH DALLAS</masterLabel>
+        <translation><!-- T0080 TEAM NORTH DALLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM NORTH DALLAS SPECIAL</masterLabel>
+        <translation><!-- T0080 TEAM NORTH DALLAS SPECIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM SOUTH DALLAS</masterLabel>
+        <translation><!-- T0080 TEAM SOUTH DALLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM SOUTHWEST</masterLabel>
+        <translation><!-- T0080 TEAM SOUTHWEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0080 TEAM TYLER</masterLabel>
+        <translation><!-- T0080 TEAM TYLER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0087 TEAM BOISE METRO</masterLabel>
+        <translation><!-- T0087 TEAM BOISE METRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0087 TEAM BOISE WEST</masterLabel>
+        <translation><!-- T0087 TEAM BOISE WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0087 TEAM EASTERN IDAHO</masterLabel>
+        <translation><!-- T0087 TEAM EASTERN IDAHO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM 5280</masterLabel>
+        <translation><!-- T0088 TEAM 5280 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM BEST</masterLabel>
+        <translation><!-- T0088 TEAM BEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM BORCHARD</masterLabel>
+        <translation><!-- T0088 TEAM BORCHARD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM BOULDER</masterLabel>
+        <translation><!-- T0088 TEAM BOULDER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM CENTRAL ROCKIES</masterLabel>
+        <translation><!-- T0088 TEAM CENTRAL ROCKIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM COLORADO SPRINGS</masterLabel>
+        <translation><!-- T0088 TEAM COLORADO SPRINGS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM CORS 88</masterLabel>
+        <translation><!-- T0088 TEAM CORS 88 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM DENVER WEST</masterLabel>
+        <translation><!-- T0088 TEAM DENVER WEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM FORT COLLINS</masterLabel>
+        <translation><!-- T0088 TEAM FORT COLLINS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM GRAND JUNCTION</masterLabel>
+        <translation><!-- T0088 TEAM GRAND JUNCTION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM LITTLETON</masterLabel>
+        <translation><!-- T0088 TEAM LITTLETON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM PETERSON-SYNCHEF</masterLabel>
+        <translation><!-- T0088 TEAM PETERSON-SYNCHEF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM PUEBLO</masterLabel>
+        <translation><!-- T0088 TEAM PUEBLO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM SCOTT BRADFORD</masterLabel>
+        <translation><!-- T0088 TEAM SCOTT BRADFORD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM STEAMBOAT</masterLabel>
+        <translation><!-- T0088 TEAM STEAMBOAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM WRIGHT</masterLabel>
+        <translation><!-- T0088 TEAM WRIGHT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0088 TEAM WYOMING OPEN</masterLabel>
+        <translation><!-- T0088 TEAM WYOMING OPEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM LAS CRUCES</masterLabel>
+        <translation><!-- T0090 TEAM LAS CRUCES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM ROSWELL</masterLabel>
+        <translation><!-- T0090 TEAM ROSWELL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM SAN ANGELO</masterLabel>
+        <translation><!-- T0090 TEAM SAN ANGELO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM VICTORIA</masterLabel>
+        <translation><!-- T0090 TEAM VICTORIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM W</masterLabel>
+        <translation><!-- T0090 TEAM W --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0090 TEAM WEST TEXAS</masterLabel>
+        <translation><!-- T0090 TEAM WEST TEXAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0091 TEAM EAST BAY</masterLabel>
+        <translation><!-- T0091 TEAM EAST BAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0091 TEAM GOLDEN GATE</masterLabel>
+        <translation><!-- T0091 TEAM GOLDEN GATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0091 TEAM MONTEREY</masterLabel>
+        <translation><!-- T0091 TEAM MONTEREY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0091 TEAM SOUTH BAY</masterLabel>
+        <translation><!-- T0091 TEAM SOUTH BAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM DOGS</masterLabel>
+        <translation><!-- T0092 TEAM DOGS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM HENDERSON LV</masterLabel>
+        <translation><!-- T0092 TEAM HENDERSON LV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM LAS VEGAS</masterLabel>
+        <translation><!-- T0092 TEAM LAS VEGAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM NORTHERN UTAH</masterLabel>
+        <translation><!-- T0092 TEAM NORTHERN UTAH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM SLC NORTH</masterLabel>
+        <translation><!-- T0092 TEAM SLC NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM SLC SOUTH</masterLabel>
+        <translation><!-- T0092 TEAM SLC SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM UNIVERSITY</masterLabel>
+        <translation><!-- T0092 TEAM UNIVERSITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0092 TEAM UTAH COUNTY</masterLabel>
+        <translation><!-- T0092 TEAM UTAH COUNTY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM CHICAGO - NORTH</masterLabel>
+        <translation><!-- T0093 TEAM CHICAGO - NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM CHICAGO - SOUTH</masterLabel>
+        <translation><!-- T0093 TEAM CHICAGO - SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM CITY</masterLabel>
+        <translation><!-- T0093 TEAM CITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM CITY NORTH</masterLabel>
+        <translation><!-- T0093 TEAM CITY NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM DUPAGE</masterLabel>
+        <translation><!-- T0093 TEAM DUPAGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM NORTH-NW SUBURBS</masterLabel>
+        <translation><!-- T0093 TEAM NORTH-NW SUBURBS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0093 TEAM ROCKFORD NW</masterLabel>
+        <translation><!-- T0093 TEAM ROCKFORD NW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM CENTRAL SIERRA</masterLabel>
+        <translation><!-- T0094 TEAM CENTRAL SIERRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM CENTRAL VALLEY NORTH</masterLabel>
+        <translation><!-- T0094 TEAM CENTRAL VALLEY NORTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM CENTRAL VALLEY SOUTH</masterLabel>
+        <translation><!-- T0094 TEAM CENTRAL VALLEY SOUTH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM CHICO-REDDING</masterLabel>
+        <translation><!-- T0094 TEAM CHICO-REDDING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM MODESTO</masterLabel>
+        <translation><!-- T0094 TEAM MODESTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM NAPA</masterLabel>
+        <translation><!-- T0094 TEAM NAPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM NORTH BAY</masterLabel>
+        <translation><!-- T0094 TEAM NORTH BAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM RENO</masterLabel>
+        <translation><!-- T0094 TEAM RENO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0094 TEAM SACRAMENTO</masterLabel>
+        <translation><!-- T0094 TEAM SACRAMENTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T0095 TEAM ALASKA</masterLabel>
+        <translation><!-- T0095 TEAM ALASKA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

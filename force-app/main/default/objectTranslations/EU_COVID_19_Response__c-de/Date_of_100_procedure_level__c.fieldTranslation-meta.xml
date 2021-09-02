@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wann werden wieder 100% der Prozeduren durchgeführt?</help>
+    <label>Prozeduren bei 100%</label>
+    <name>Date_of_100_procedure_level__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is the Opportunity aligned to the correct Account with ZB Account # --></help>
+    <label><!-- Account Verification --></label>
+    <name>Account_Verification__c</name>
+</CustomFieldTranslation>

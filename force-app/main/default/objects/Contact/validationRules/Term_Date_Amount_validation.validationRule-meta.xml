@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Term_Date_Amount_validation</fullName>
+    <active>true</active>
+    <description>When anyone enters a termination date on a Zimmer Sales Contact it would require to enter Term Annual Sales , and when anyone enters Hire Date it would require to enter Hire Annual Sales.</description>
+    <errorConditionFormula>and(And ( or($User.ProfileId =&apos;00eC0000001SoOv&apos;, $User.ProfileId =&apos;00eC0000001SoOt&apos;   , $User.ProfileId =&apos;00e80000000t61i&apos; ), not(ISNULL(Term_Date__c )), RecordTypeId = &apos;012800000002DoB&apos;, or( ISBLANK( Term_Annual_Sales__c ) ,ISPICKVAL( Term_Competitor__c, &apos;&apos; )) ), $User.Alias &lt;&gt;&apos;khast&apos;)</errorConditionFormula>
+    <errorMessage>Expected Annualized Revenue Loss and Term Competitor fields are mandatory.</errorMessage>
+</ValidationRule>

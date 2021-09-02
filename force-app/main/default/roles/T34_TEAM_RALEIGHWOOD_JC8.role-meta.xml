@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T34 TEAM RALEIGHWOOD (JC8)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T34 TEAM RALEIGHWOOD (JC8)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>ZB_NC_BAGLEY_0034</parentRole>
+</Role>

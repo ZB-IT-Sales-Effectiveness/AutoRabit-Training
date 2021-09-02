@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- SST Notified of New Hire --></help>
+    <label><!-- Completion Date --></label>
+    <name>Completion_Date_SST_Notified__c</name>
+</CustomFieldTranslation>

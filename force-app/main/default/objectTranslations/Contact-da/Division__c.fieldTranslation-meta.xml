@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the division of the hospital the contact is working in. --></help>
+    <label><!-- Division --></label>
+    <name>Division__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation>Administrationen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthesia</masterLabel>
+        <translation>Anæstesi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiac Surgery</masterLabel>
+        <translation><!-- Cardiac Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiothoracic Surgery</masterLabel>
+        <translation>Hjerte-, Lunge-, karkirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Sterile Services Department (CSSD)</masterLabel>
+        <translation>Sterilcentralen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communications</masterLabel>
+        <translation><!-- Communications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostics</masterLabel>
+        <translation>Diagnostisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Room</masterLabel>
+        <translation><!-- Emergency Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle Surgery</masterLabel>
+        <translation>Fodkirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery</masterLabel>
+        <translation>Kirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geriatrics</masterLabel>
+        <translation><!-- Geriatrics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand Surgery</masterLabel>
+        <translation><!-- Hand Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygiene</masterLabel>
+        <translation><!-- Hospital Hygiene --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Management</masterLabel>
+        <translation><!-- Hospital Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Medicine</masterLabel>
+        <translation><!-- Internal Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Laboratorium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Controlling</masterLabel>
+        <translation>Medicinsk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Product Safety</masterLabel>
+        <translation><!-- Medical Product Safety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Technology</masterLabel>
+        <translation>Institut for Klinisk Medicin</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurosurgery</masterLabel>
+        <translation>Neurokirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing</masterLabel>
+        <translation><!-- Nursing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operating Room</masterLabel>
+        <translation>Operationsafsnit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral and Maxillofacial Surgery</masterLabel>
+        <translation>Tand-, Mund-, Kæbekirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedics</masterLabel>
+        <translation>Ortopædkirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paediatric Surgery</masterLabel>
+        <translation>Pædiatrisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation>Apotek</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapy</masterLabel>
+        <translation><!-- Physiotherapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic Surgery</masterLabel>
+        <translation>Plastikkirurgi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing</masterLabel>
+        <translation>Indkøbsafdelingen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Management</masterLabel>
+        <translation>Kvalitetsafdelingen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiology</masterLabel>
+        <translation>Radiologisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rehabilitation</masterLabel>
+        <translation><!-- Rehabilitation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Surgery</masterLabel>
+        <translation>Rygkirurgisk afdeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Surgery</masterLabel>
+        <translation><!-- Sports Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Services</masterLabel>
+        <translation><!-- Technical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic Surgery</masterLabel>
+        <translation><!-- Thoracic Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma Surgery</masterLabel>
+        <translation>Traumecenter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

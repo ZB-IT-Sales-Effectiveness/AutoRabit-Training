@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Growth_Factor_Cempetitor__c</fullName>
+    <description>This Field is Created for All the Dental page Layout in both Costomer and Non-customer record type</description>
+    <externalId>false</externalId>
+    <label>Primary Growth Factor Cempetitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AmnioSpark (Salvin)</fullName>
+                <default>false</default>
+                <label>AmnioSpark (Salvin)</label>
+            </value>
+            <value>
+                <fullName>Emdogain (Straumann)</fullName>
+                <default>false</default>
+                <label>Emdogain (Straumann)</label>
+            </value>
+            <value>
+                <fullName>Gem21</fullName>
+                <default>false</default>
+                <label>Gem21</label>
+            </value>
+            <value>
+                <fullName>Ostocel (ACE)</fullName>
+                <default>false</default>
+                <label>Ostocel (ACE)</label>
+            </value>
+            <value>
+                <fullName>PRP/PRGF (Autogenous)</fullName>
+                <default>false</default>
+                <label>PRP/PRGF (Autogenous)</label>
+            </value>
+            <value>
+                <fullName>Infuse (Medtronic)</fullName>
+                <default>false</default>
+                <label>Infuse (Medtronic)</label>
+            </value>
+            <value>
+                <fullName>Other Growth Factor</fullName>
+                <default>false</default>
+                <label>Other Growth Factor</label>
+            </value>
+            <value>
+                <fullName>Does not use Growth Factors</fullName>
+                <default>false</default>
+                <label>Does not use Growth Factors</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

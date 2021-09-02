@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Competitor --></label>
+    <name>Competitor__c</name>
+    <picklistValues>
+        <masterLabel>AAP</masterLabel>
+        <translation><!-- AAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASDM</masterLabel>
+        <translation><!-- ASDM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acumed</masterLabel>
+        <translation><!-- Acumed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aecuaos</masterLabel>
+        <translation><!-- Aecuaos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesculap</masterLabel>
+        <translation><!-- Aesculap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ai-medic</masterLabel>
+        <translation><!-- Ai-medic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alpha Consulting Group</masterLabel>
+        <translation><!-- Alpha Consulting Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthrex</masterLabel>
+        <translation><!-- Arthrex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ascension</masterLabel>
+        <translation><!-- Ascension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AustoFix</masterLabel>
+        <translation><!-- AustoFix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Axomed</masterLabel>
+        <translation><!-- Axomed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B.Braun</masterLabel>
+        <translation><!-- B.Braun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brehm</masterLabel>
+        <translation><!-- Brehm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conformis</masterLabel>
+        <translation><!-- Conformis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corin</masterLabel>
+        <translation><!-- Corin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO/Encore</masterLabel>
+        <translation><!-- DJO/Encore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DePuy</masterLabel>
+        <translation><!-- DePuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeSoutter</masterLabel>
+        <translation><!-- DeSoutter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergo Asia Pacific Pty Ltd</masterLabel>
+        <translation><!-- Emergo Asia Pacific Pty Ltd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eska</masterLabel>
+        <translation><!-- Eska --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exactech</masterLabel>
+        <translation><!-- Exactech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GE Healthcare Performance Solutions</masterLabel>
+        <translation><!-- GE Healthcare Performance Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global</masterLabel>
+        <translation><!-- Global --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Globus Medical</masterLabel>
+        <translation><!-- Globus Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Care Surgical</masterLabel>
+        <translation><!-- Health Care Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter &amp; Associates</masterLabel>
+        <translation><!-- Hunter &amp; Associates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implantcast</masterLabel>
+        <translation><!-- Implantcast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implantindustries</masterLabel>
+        <translation><!-- Implantindustries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JMM</masterLabel>
+        <translation><!-- JMM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Research</masterLabel>
+        <translation><!-- Joint Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K2M</masterLabel>
+        <translation><!-- K2M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Konigsee Implantate</masterLabel>
+        <translation><!-- Konigsee Implantate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kyocera</masterLabel>
+        <translation><!-- Kyocera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Health Care</masterLabel>
+        <translation><!-- Life Health Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lima</masterLabel>
+        <translation><!-- Lima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link</masterLabel>
+        <translation><!-- Link --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linvatec</masterLabel>
+        <translation><!-- Linvatec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDM</masterLabel>
+        <translation><!-- MDM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MMT</masterLabel>
+        <translation><!-- MMT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mako</masterLabel>
+        <translation><!-- Mako --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marshall Steele &amp; Associates</masterLabel>
+        <translation><!-- Marshall Steele &amp; Associates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mathys</masterLabel>
+        <translation><!-- Mathys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medacta</masterLabel>
+        <translation><!-- Medacta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medartis</masterLabel>
+        <translation><!-- Medartis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medtronic</masterLabel>
+        <translation><!-- Medtronic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mizuho</masterLabel>
+        <translation><!-- Mizuho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nakashima</masterLabel>
+        <translation><!-- Nakashima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NuVasive</masterLabel>
+        <translation><!-- NuVasive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ODC</masterLabel>
+        <translation><!-- ODC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omni Life Science</masterLabel>
+        <translation><!-- Omni Life Science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthofix</masterLabel>
+        <translation><!-- Orthofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Advantage Healthcare Consulting LLC</masterLabel>
+        <translation><!-- Orthopaedic Advantage Healthcare Consulting LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteofix</masterLabel>
+        <translation><!-- Osteofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paradigm Spine</masterLabel>
+        <translation><!-- Paradigm Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pioneer Surgical</masterLabel>
+        <translation><!-- Pioneer Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Premier Inc.</masterLabel>
+        <translation><!-- Premier Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SG2</masterLabel>
+        <translation><!-- SG2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scient&apos;x Australasia</masterLabel>
+        <translation><!-- Scient&apos;x Australasia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scient&apos;x-Alphatec</masterLabel>
+        <translation><!-- Scient&apos;x-Alphatec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signus Medical</masterLabel>
+        <translation><!-- Signus Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone Innovations</masterLabel>
+        <translation><!-- Small Bone Innovations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speedtec</masterLabel>
+        <translation><!-- Speedtec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spinal Kinetics</masterLabel>
+        <translation><!-- Spinal Kinetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SpineMark Corporation</masterLabel>
+        <translation><!-- SpineMark Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stelkast</masterLabel>
+        <translation><!-- Stelkast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sullivan Healthcare Consulting</masterLabel>
+        <translation><!-- Sullivan Healthcare Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summit Medical</masterLabel>
+        <translation><!-- Summit Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Management Improvement Group</masterLabel>
+        <translation><!-- Surgery Management Improvement Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synthes</masterLabel>
+        <translation><!-- Synthes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tantum</masterLabel>
+        <translation><!-- Tantum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TeleVisual Communications (TVC)</masterLabel>
+        <translation><!-- TeleVisual Communications (TVC) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Advisory Board Company</masterLabel>
+        <translation><!-- The Advisory Board Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomson Reuters Healthcare</masterLabel>
+        <translation><!-- Thomson Reuters Healthcare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tokibo</masterLabel>
+        <translation><!-- Tokibo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tornier</masterLabel>
+        <translation><!-- Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TranS1</masterLabel>
+        <translation><!-- TranS1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ulrich Medical</masterLabel>
+        <translation><!-- Ulrich Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VHA Inc.</masterLabel>
+        <translation><!-- VHA Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaios</masterLabel>
+        <translation><!-- Vaios --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

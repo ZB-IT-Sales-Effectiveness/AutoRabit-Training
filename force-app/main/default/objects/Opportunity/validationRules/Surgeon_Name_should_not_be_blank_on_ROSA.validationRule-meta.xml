@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_Name_should_not_be_blank_on_ROSA</fullName>
+    <active>true</active>
+    <description>AVP cannot enter Manager Forecast on Rosa Opportunity page is Surgeon Name field is left blank.</description>
+    <errorConditionFormula>AND(
+     OR(
+         RecordType.Id ==&apos;0123b000000IKKm&apos;,
+         RecordType.Id ==&apos;012C0000000YQqa&apos;,
+         RecordType.Id ==&apos;0123b000000IKKr&apos;
+       ),
+     OR(
+          $User.Id = &apos;005C0000009kZnW&apos;,
+          $User.Id = &apos;005C000000Bo6lq&apos;,
+          $User.Id = &apos;0053b00000BIdLd&apos;
+          
+        ),
+     OR(
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;High&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;Gut&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;Low&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;Out&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;IN&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;Up&quot;),
+          ISPICKVAL(Manager_Forecast_Judgement__c,&quot;Won&quot;)
+       ), 
+      NOT(
+           ISPICKVAL(StageName,&quot;Closed Won&quot;)
+          ),
+      ISBLANK(Surgeon_Name__c)
+   )</errorConditionFormula>
+    <errorMessage>Please provide the Surgeon Name details</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>dhravesh.murpana2@zimmerbiomet.com</contactEmail>
+    <label>ServiceNow</label>
+    <oauthConfig>
+        <callbackUrl>https://zimmerbiometglobal.lightning.force.com/RestTest/oauth/_callback</callbackUrl>
+        <consumerKey>3MVG9gI0ielx8zHLKXlEe15aGYmmUXAjrVQyXPK.FdLOAwu9ix.7oSw8ZNhdSBUyGBe9l0SM3hY3ivJAhufUK</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

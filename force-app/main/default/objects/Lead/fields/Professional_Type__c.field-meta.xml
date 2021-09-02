@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Professional Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>ASC Executive/Administrator</fullName>
+                <default>false</default>
+                <label>ASC Executive/Administrator</label>
+            </value>
+            <value>
+                <fullName>Hospital Executive/Administrator</fullName>
+                <default>false</default>
+                <label>Hospital Executive/Administrator</label>
+            </value>
+            <value>
+                <fullName>Non-prescribing assistant</fullName>
+                <default>false</default>
+                <label>Non-prescribing assistant</label>
+            </value>
+            <value>
+                <fullName>non-prescribing Technician</fullName>
+                <default>false</default>
+                <label>non-prescribing Technician</label>
+            </value>
+            <value>
+                <fullName>Nurse</fullName>
+                <default>false</default>
+                <label>Nurse</label>
+            </value>
+            <value>
+                <fullName>Nurse-APRN</fullName>
+                <default>false</default>
+                <label>Nurse-APRN</label>
+            </value>
+            <value>
+                <fullName>Nurse-RNLPN</fullName>
+                <default>false</default>
+                <label>Nurse-RNLPN</label>
+            </value>
+            <value>
+                <fullName>OR Manager/Director</fullName>
+                <default>false</default>
+                <label>OR Manager/Director</label>
+            </value>
+            <value>
+                <fullName>OR Nurse</fullName>
+                <default>false</default>
+                <label>OR Nurse</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other non-prescribing HCP</fullName>
+                <default>false</default>
+                <label>Other non-prescribing HCP</label>
+            </value>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Prescriber (non-Physician)</fullName>
+                <default>false</default>
+                <label>Prescriber (non-Physician)</label>
+            </value>
+            <value>
+                <fullName>Student/Trainee</fullName>
+                <default>false</default>
+                <label>Student/Trainee</label>
+            </value>
+            <value>
+                <fullName>Surgeon in ASC Setting</fullName>
+                <default>false</default>
+                <label>Surgeon in ASC Setting</label>
+            </value>
+            <value>
+                <fullName>Surgeon in Hospital Setting</fullName>
+                <default>false</default>
+                <label>Surgeon in Hospital Setting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

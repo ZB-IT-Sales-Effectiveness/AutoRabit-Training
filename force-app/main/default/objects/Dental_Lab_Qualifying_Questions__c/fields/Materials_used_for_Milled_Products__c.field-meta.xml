@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Materials_used_for_Milled_Products__c</fullName>
+    <description>What Materials do you use for Milled Products?</description>
+    <externalId>false</externalId>
+    <label>Materials used for Milled Products</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TI Only</fullName>
+                <default>false</default>
+                <label>TI Only</label>
+            </value>
+            <value>
+                <fullName>TI &amp; Zirconia</fullName>
+                <default>false</default>
+                <label>TI &amp; Zirconia</label>
+            </value>
+            <value>
+                <fullName>TI &amp; Zirconia &amp; Cobalt Chrome</fullName>
+                <default>false</default>
+                <label>TI &amp; Zirconia &amp; Cobalt Chrome</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

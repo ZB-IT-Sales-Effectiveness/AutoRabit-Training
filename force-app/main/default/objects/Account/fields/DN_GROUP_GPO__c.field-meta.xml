@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_GROUP_GPO__c</fullName>
+    <externalId>false</externalId>
+    <label>DN GROUP-GPO</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Access</fullName>
+                <default>false</default>
+                <label>Access</label>
+            </value>
+            <value>
+                <fullName>Advantage</fullName>
+                <default>false</default>
+                <label>Advantage</label>
+            </value>
+            <value>
+                <fullName>Affordable Dentures</fullName>
+                <default>false</default>
+                <label>Affordable Dentures</label>
+            </value>
+            <value>
+                <fullName>AllAccess</fullName>
+                <default>false</default>
+                <label>AllAccess</label>
+            </value>
+            <value>
+                <fullName>Allied</fullName>
+                <default>false</default>
+                <label>Allied</label>
+            </value>
+            <value>
+                <fullName>Altima (Canada)</fullName>
+                <default>false</default>
+                <label>Altima (Canada)</label>
+            </value>
+            <value>
+                <fullName>American Dental Partners</fullName>
+                <default>false</default>
+                <label>American Dental Partners</label>
+            </value>
+            <value>
+                <fullName>Aspen</fullName>
+                <default>false</default>
+                <label>Aspen</label>
+            </value>
+            <value>
+                <fullName>Baystate</fullName>
+                <default>false</default>
+                <label>Baystate</label>
+            </value>
+            <value>
+                <fullName>Clear Choice</fullName>
+                <default>false</default>
+                <label>Clear Choice</label>
+            </value>
+            <value>
+                <fullName>Coast/Smilecare/Nevada</fullName>
+                <default>false</default>
+                <label>Coast/Smilecare/Nevada</label>
+            </value>
+            <value>
+                <fullName>Comfort Dental</fullName>
+                <default>false</default>
+                <label>Comfort Dental</label>
+            </value>
+            <value>
+                <fullName>Concerned</fullName>
+                <default>false</default>
+                <label>Concerned</label>
+            </value>
+            <value>
+                <fullName>Dca/Gentle (Mi-Pa-Va)</fullName>
+                <default>false</default>
+                <label>Dca/Gentle (Mi-Pa-Va)</label>
+            </value>
+            <value>
+                <fullName>Dental Associates</fullName>
+                <default>false</default>
+                <label>Dental Associates</label>
+            </value>
+            <value>
+                <fullName>Dental Corp (Canada)</fullName>
+                <default>false</default>
+                <label>Dental Corp (Canada)</label>
+            </value>
+            <value>
+                <fullName>DentalOne Partners</fullName>
+                <default>false</default>
+                <label>DentalOne Partners</label>
+            </value>
+            <value>
+                <fullName>DSG Dental Lab</fullName>
+                <default>false</default>
+                <label>DSG Dental Lab</label>
+            </value>
+            <value>
+                <fullName>Eastern</fullName>
+                <default>false</default>
+                <label>Eastern</label>
+            </value>
+            <value>
+                <fullName>First Advantage</fullName>
+                <default>false</default>
+                <label>First Advantage</label>
+            </value>
+            <value>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+                <label>Fusion</label>
+            </value>
+            <value>
+                <fullName>Gentle (Fl)</fullName>
+                <default>false</default>
+                <label>Gentle (Fl)</label>
+            </value>
+            <value>
+                <fullName>Gentle (Ma)</fullName>
+                <default>false</default>
+                <label>Gentle (Ma)</label>
+            </value>
+            <value>
+                <fullName>Gentle (Ny)</fullName>
+                <default>false</default>
+                <label>Gentle (Ny)</label>
+            </value>
+            <value>
+                <fullName>Great Expressions</fullName>
+                <default>false</default>
+                <label>Great Expressions</label>
+            </value>
+            <value>
+                <fullName>Half</fullName>
+                <default>false</default>
+                <label>Half</label>
+            </value>
+            <value>
+                <fullName>Hawaii Family</fullName>
+                <default>false</default>
+                <label>Hawaii Family</label>
+            </value>
+            <value>
+                <fullName>HealthPartners</fullName>
+                <default>false</default>
+                <label>HealthPartners</label>
+            </value>
+            <value>
+                <fullName>Heartland</fullName>
+                <default>false</default>
+                <label>Heartland</label>
+            </value>
+            <value>
+                <fullName>Imagix</fullName>
+                <default>false</default>
+                <label>Imagix</label>
+            </value>
+            <value>
+                <fullName>Interdent-Gentle (CA,OR,WA) Smilekeepers</fullName>
+                <default>false</default>
+                <label>Interdent-Gentle (CA,OR,WA) Smilekeepers</label>
+            </value>
+            <value>
+                <fullName>iSmiles</fullName>
+                <default>false</default>
+                <label>iSmiles</label>
+            </value>
+            <value>
+                <fullName>Jefferson</fullName>
+                <default>false</default>
+                <label>Jefferson</label>
+            </value>
+            <value>
+                <fullName>Kaiser Permanente NW</fullName>
+                <default>false</default>
+                <label>Kaiser Permanente NW</label>
+            </value>
+            <value>
+                <fullName>Katsur</fullName>
+                <default>false</default>
+                <label>Katsur</label>
+            </value>
+            <value>
+                <fullName>Master Bill-To Account</fullName>
+                <default>false</default>
+                <label>Master Bill-To Account</label>
+            </value>
+            <value>
+                <fullName>Microdental Labs</fullName>
+                <default>false</default>
+                <label>Microdental Labs</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>Midwestern (MI)</fullName>
+                <default>false</default>
+                <label>Midwestern (MI)</label>
+            </value>
+            <value>
+                <fullName>Mortenson Dental</fullName>
+                <default>false</default>
+                <label>Mortenson Dental</label>
+            </value>
+            <value>
+                <fullName>MyDentist</fullName>
+                <default>false</default>
+                <label>MyDentist</label>
+            </value>
+            <value>
+                <fullName>MyDrDental (Northeast)</fullName>
+                <default>false</default>
+                <label>MyDrDental (Northeast)</label>
+            </value>
+            <value>
+                <fullName>National Dentex Lab</fullName>
+                <default>false</default>
+                <label>National Dentex Lab</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Ocean</fullName>
+                <default>false</default>
+                <label>Ocean</label>
+            </value>
+            <value>
+                <fullName>Pacific</fullName>
+                <default>false</default>
+                <label>Pacific</label>
+            </value>
+            <value>
+                <fullName>Park</fullName>
+                <default>false</default>
+                <label>Park</label>
+            </value>
+            <value>
+                <fullName>Perfect Dental</fullName>
+                <default>false</default>
+                <label>Perfect Dental</label>
+            </value>
+            <value>
+                <fullName>Perfect Teeth</fullName>
+                <default>false</default>
+                <label>Perfect Teeth</label>
+            </value>
+            <value>
+                <fullName>Refresh</fullName>
+                <default>false</default>
+                <label>Refresh</label>
+            </value>
+            <value>
+                <fullName>Smile Brands-Monarch-Castle-Brightnow</fullName>
+                <default>false</default>
+                <label>Smile Brands-Monarch-Castle-Brightnow</label>
+            </value>
+            <value>
+                <fullName>Smilecare</fullName>
+                <default>false</default>
+                <label>Smilecare</label>
+            </value>
+            <value>
+                <fullName>Sunrise</fullName>
+                <default>false</default>
+                <label>Sunrise</label>
+            </value>
+            <value>
+                <fullName>Towncare</fullName>
+                <default>false</default>
+                <label>Towncare</label>
+            </value>
+            <value>
+                <fullName>Unified Smiles</fullName>
+                <default>false</default>
+                <label>Unified Smiles</label>
+            </value>
+            <value>
+                <fullName>VA Direct-Mult Ship to&apos;s</fullName>
+                <default>false</default>
+                <label>VA Direct-Mult Ship to&apos;s</label>
+            </value>
+            <value>
+                <fullName>Veterans Health-Military Location</fullName>
+                <default>false</default>
+                <label>Veterans Health-Military Location</label>
+            </value>
+            <value>
+                <fullName>Veterans Health-VA Location</fullName>
+                <default>false</default>
+                <label>Veterans Health-VA Location</label>
+            </value>
+            <value>
+                <fullName>West Coast</fullName>
+                <default>false</default>
+                <label>West Coast</label>
+            </value>
+            <value>
+                <fullName>Western Dental</fullName>
+                <default>false</default>
+                <label>Western Dental</label>
+            </value>
+            <value>
+                <fullName>Willamette</fullName>
+                <default>false</default>
+                <label>Willamette</label>
+            </value>
+            <value>
+                <fullName>Zimmer CLT (for internal use only)</fullName>
+                <default>false</default>
+                <label>Zimmer CLT (for internal use only)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

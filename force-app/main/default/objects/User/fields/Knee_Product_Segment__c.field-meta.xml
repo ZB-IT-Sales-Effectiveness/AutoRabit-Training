@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knee_Product_Segment__c</fullName>
+    <description>Used in the Knee Alta project. This field is used in formulas to drive whether or not a topic, response or meeting needs to go through the approval process by a segment lead.</description>
+    <externalId>false</externalId>
+    <label>Knee Product Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cam Post</fullName>
+                <default>false</default>
+                <label>Cam Post</label>
+            </value>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>Mobile Bearing</fullName>
+                <default>false</default>
+                <label>Mobile Bearing</label>
+            </value>
+            <value>
+                <fullName>Natural Cruciate</fullName>
+                <default>false</default>
+                <label>Natural Cruciate</label>
+            </value>
+            <value>
+                <fullName>Revision</fullName>
+                <default>false</default>
+                <label>Revision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

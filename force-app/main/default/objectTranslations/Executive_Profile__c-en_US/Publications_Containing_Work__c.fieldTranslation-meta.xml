@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Publications Containing Work --></label>
+    <name>Publications_Containing_Work__c</name>
+    <picklistValues>
+        <masterLabel>Compendium</masterLabel>
+        <translation><!-- Compendium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IJP - International Journal of Prosthodontics</masterLabel>
+        <translation><!-- IJP - International Journal of Prosthodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IJPRD - International Journal of Periodontics &amp; Restorative Dentistry</masterLabel>
+        <translation><!-- IJPRD - International Journal of Periodontics &amp; Restorative Dentistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JOMI - International Journal of Oral &amp; Maxillofacial Implants</masterLabel>
+        <translation><!-- JOMI - International Journal of Oral &amp; Maxillofacial Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JOMS - Journal of Oral &amp; Maxillofacial Surgery</masterLabel>
+        <translation><!-- JOMS - Journal of Oral &amp; Maxillofacial Surgery --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

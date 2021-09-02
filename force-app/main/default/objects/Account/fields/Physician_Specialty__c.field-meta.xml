@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physician_Specialty__c</fullName>
+    <description>The speciality(s) of this surgeon with regard to Zimmer products</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Zimmer specialty for this surgeon</inlineHelpText>
+    <label>Specialty</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Spine</fullName>
+                <default>false</default>
+                <label>Spine</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>CAS</fullName>
+                <default>false</default>
+                <label>CAS</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Hand &amp; Wrist</fullName>
+                <default>false</default>
+                <label>Hand &amp; Wrist</label>
+            </value>
+            <value>
+                <fullName>Orthobiologics</fullName>
+                <default>false</default>
+                <label>Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>OSP</fullName>
+                <default>false</default>
+                <label>OSP</label>
+            </value>
+            <value>
+                <fullName>Patient Specific</fullName>
+                <default>false</default>
+                <label>Patient Specific</label>
+            </value>
+            <value>
+                <fullName>Sports Medicine</fullName>
+                <default>false</default>
+                <label>Sports Medicine</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Neurosurgical</fullName>
+                <default>false</default>
+                <label>Neurosurgical</label>
+            </value>
+            <value>
+                <fullName>Arthroplasty</fullName>
+                <default>false</default>
+                <label>Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Arthroscopy</fullName>
+                <default>false</default>
+                <label>Arthroscopy</label>
+            </value>
+            <value>
+                <fullName>Paediatric</fullName>
+                <default>false</default>
+                <label>Paediatric</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>PEDIATRIC ORTHOPEDICS</fullName>
+                <default>false</default>
+                <label>PEDIATRIC ORTHOPEDICS</label>
+            </value>
+            <value>
+                <fullName>ORTHOPEDIC SURGERY</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgery</label>
+            </value>
+            <value>
+                <fullName>NEUROLOGICAL SURGERY</fullName>
+                <default>false</default>
+                <label>NEUROLOGICAL SURGERY</label>
+            </value>
+            <value>
+                <fullName>ORTHOPEDIC SURGERY OF THE SPINE</fullName>
+                <default>false</default>
+                <label>ORTHOPEDIC SURGERY OF THE SPINE</label>
+            </value>
+            <value>
+                <fullName>ADULT RECONSTRUCTIVE ORTHOPEDICS</fullName>
+                <default>false</default>
+                <label>ADULT RECONSTRUCTIVE ORTHOPEDICS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Chicago land</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>253996,124619,387274,124438,212346,360246,381896,444628,449897,387483,131529,387010,387235,387563,431398,124457,149481,147783,427293,276010,293313,385389,387469,381966,122512,451378,383355,406239,459028,124469,117439,310827,387184,387935,381973,179461,381928,277238,453724,427205,447683,348475,226316,287523,149946,383875,382036,347541,400263,259132,420786,399624,309896,366925,382200,384368,387549,381895,244902,381792,385039,385005,350701,381904,107163,175881,363113,448516,384752,391161,124717,106633,379304,395872,142891,451244,411583,104410,120397,171564,124451,379234,387596,353347,129983,289990,370832,409824,448320,387556,173502,448686,381733,325529,381863,441058,124773,235247,428105,124710,258775,365159,381964,404142,381913,381784,134936,382204,459029</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>410312,387315,130866,120400,326226,370204,387009,457428,170856,125877,438907,382205,238405,167902,204621,124708,165964,120387,382055,381938,277866,357363,404098,405801,141499,381764,363746,381886,425476,355705,452102,299316,357005,362923,124570,124611,379302,381956,426662,124638,150721,387894,381918,456900,142655,240032,323508,389489,387485,125762,452840,124719,120435,132452,384785,405666,328468,428830,383881,233331,153792,207041,379273,107097,107066,124537,382067,257462,441142,120851,124669,309763,354254,120307,453322,432191,269353,387599,124532,124721,183001,255645,368650,125751,387243,351772,381941,403213,381946,133297,386660,124476,359155,457661,381752,104639,387481,409651,381922,405734,432447,104397,250810,287759,170043,126480,341546,385217,242070,354089,142372,381924,381849,253582,290821,330356,278539,152980,387554,170541,218369,329812,422988,281009,387528,316303,381912,201095,364662,387598,150077,387553,132599,385256,120385</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Chicago land</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

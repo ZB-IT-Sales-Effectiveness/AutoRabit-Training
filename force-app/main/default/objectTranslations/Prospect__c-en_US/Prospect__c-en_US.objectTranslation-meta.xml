@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prospect</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prospects</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- This is for internally generated leads prospects for the sales rep to act on --></description>
+        <label><!-- Cross Sell --></label>
+        <name>Cross_Sell</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is to be used by the downstream marketing team --></description>
+        <label><!-- DownStreamMarketing --></label>
+        <name>DownStreamMarketing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Doximity --></label>
+        <name>Doximity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prospect --></label>
+        <name>Prospect</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is to be used by US Ortho team and when qualified passed on to the ROSA Team --></description>
+        <label><!-- ROSA --></label>
+        <name>ROSA</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Prospect records from ZBEdge Campaign events --></description>
+        <label><!-- ZBEdge --></label>
+        <name>ZBEdge</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

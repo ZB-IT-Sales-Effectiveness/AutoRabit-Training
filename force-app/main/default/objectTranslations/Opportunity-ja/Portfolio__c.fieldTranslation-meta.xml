@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Portfolio --></label>
+    <name>Portfolio__c</name>
+    <picklistValues>
+        <masterLabel>Digital</masterLabel>
+        <translation><!-- Digital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthetic</masterLabel>
+        <translation><!-- Prosthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative</masterLabel>
+        <translation><!-- Regenerative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

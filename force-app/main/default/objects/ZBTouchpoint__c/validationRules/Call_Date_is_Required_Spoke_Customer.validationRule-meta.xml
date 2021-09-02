@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Date_is_Required_Spoke_Customer</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Spoke_with_customer__c , &quot;Yes&quot;),
+  ISBLANK( Call_Date__c )
+)</errorConditionFormula>
+    <errorDisplayField>Call_Date__c</errorDisplayField>
+    <errorMessage>Please enter call date</errorMessage>
+</ValidationRule>

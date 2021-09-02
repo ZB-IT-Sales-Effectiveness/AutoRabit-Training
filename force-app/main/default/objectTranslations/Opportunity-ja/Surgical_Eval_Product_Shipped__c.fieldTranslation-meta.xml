@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgical Eval Product Shipped --></label>
+    <name>Surgical_Eval_Product_Shipped__c</name>
+    <picklistValues>
+        <masterLabel>ATS 2200</masterLabel>
+        <translation><!-- ATS 2200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATS 4000TS W/STND BKS/HOSE</masterLabel>
+        <translation><!-- ATS 4000TS W/STND BKS/HOSE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATS 4000TS WITH HOSES</masterLabel>
+        <translation><!-- ATS 4000TS WITH HOSES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTELLICART EVAC STATION</masterLabel>
+        <translation><!-- INTELLICART EVAC STATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MESHGRAFT 11</masterLabel>
+        <translation><!-- MESHGRAFT 11 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SKIN GRAFT MESHER</masterLabel>
+        <translation><!-- SKIN GRAFT MESHER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOTAL SHIELD SURGICAL HELM</masterLabel>
+        <translation><!-- TOTAL SHIELD SURGICAL HELM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaso 500 Digital Mini</masterLabel>
+        <translation><!-- Vaso 500 Digital Mini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 31IN 4K UHD MONITOR</masterLabel>
+        <translation><!-- ZEOS 31IN 4K UHD MONITOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 32IN ARTICULAT ARM CART</masterLabel>
+        <translation><!-- ZEOS 32IN ARTICULAT ARM CART --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 32IN FIXED ARM CART</masterLabel>
+        <translation><!-- ZEOS 32IN FIXED ARM CART --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 4K UHD CAMERA CNTRL UNIT</masterLabel>
+        <translation><!-- ZEOS 4K UHD CAMERA CNTRL UNIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 4K UHD CH C-MOUNT</masterLabel>
+        <translation><!-- ZEOS 4K UHD CH C-MOUNT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS 4K UHD CH INTEGRATED</masterLabel>
+        <translation><!-- ZEOS 4K UHD CH INTEGRATED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS HD CAMERA CONTROL UNIT</masterLabel>
+        <translation><!-- ZEOS HD CAMERA CONTROL UNIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS HD CH C-MOUNT</masterLabel>
+        <translation><!-- ZEOS HD CH C-MOUNT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS HD CH INTEGRATED</masterLabel>
+        <translation><!-- ZEOS HD CH INTEGRATED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS MONITOR DUST COVER 26IN</masterLabel>
+        <translation><!-- ZEOS MONITOR DUST COVER 26IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS MONITOR DUST COVER 31IN</masterLabel>
+        <translation><!-- ZEOS MONITOR DUST COVER 31IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS MONITOR ROLL STAND</masterLabel>
+        <translation><!-- ZEOS MONITOR ROLL STAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS TABLET</masterLabel>
+        <translation><!-- ZEOS TABLET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS TABLET HOLDER</masterLabel>
+        <translation><!-- ZEOS TABLET HOLDER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS WIRELESS TRANSMIT-RECEIVE</masterLabel>
+        <translation><!-- ZEOS WIRELESS TRANSMIT-RECEIVE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZIMMER ELECTRIC DERMATOME</masterLabel>
+        <translation><!-- ZIMMER ELECTRIC DERMATOME --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

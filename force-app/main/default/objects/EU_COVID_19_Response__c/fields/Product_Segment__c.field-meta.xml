@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primary Hip</fullName>
+                <default>false</default>
+                <label>Primary Hip</label>
+            </value>
+            <value>
+                <fullName>Revision Hip</fullName>
+                <default>false</default>
+                <label>Revision Hip</label>
+            </value>
+            <value>
+                <fullName>Partial Knee</fullName>
+                <default>false</default>
+                <label>Partial Knee</label>
+            </value>
+            <value>
+                <fullName>Total Knee</fullName>
+                <default>false</default>
+                <label>Total Knee</label>
+            </value>
+            <value>
+                <fullName>Revision Knee</fullName>
+                <default>false</default>
+                <label>Revision Knee</label>
+            </value>
+            <value>
+                <fullName>Upper and Lower Extremities</fullName>
+                <default>false</default>
+                <label>Upper and Lower Extremities</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>SportsMed</fullName>
+                <default>false</default>
+                <label>SportsMed</label>
+            </value>
+            <value>
+                <fullName>Spine - Cervical</fullName>
+                <default>false</default>
+                <label>Spine - Cervical</label>
+            </value>
+            <value>
+                <fullName>Spine - Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Spine - Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>CMF-T</fullName>
+                <default>false</default>
+                <label>CMF-T</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Recon</controllingFieldValue>
+            <valueName>Primary Hip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon</controllingFieldValue>
+            <valueName>Revision Hip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon</controllingFieldValue>
+            <valueName>Partial Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon</controllingFieldValue>
+            <valueName>Total Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon</controllingFieldValue>
+            <valueName>Revision Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SET</controllingFieldValue>
+            <valueName>Upper and Lower Extremities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SET</controllingFieldValue>
+            <valueName>Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SET</controllingFieldValue>
+            <valueName>SportsMed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine/CMF-T</controllingFieldValue>
+            <valueName>Spine - Cervical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine/CMF-T</controllingFieldValue>
+            <valueName>Spine - Thoracolumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine/CMF-T</controllingFieldValue>
+            <valueName>CMF-T</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

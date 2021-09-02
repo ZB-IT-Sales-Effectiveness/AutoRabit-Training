@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Collagen Competitor --></label>
+    <name>Primary_Collagen_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Ace</masterLabel>
+        <translation><!-- Ace --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BioHorizons</masterLabel>
+        <translation><!-- BioHorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteohealth</masterLabel>
+        <translation><!-- Osteohealth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRP/PRF</masterLabel>
+        <translation><!-- PRP/PRF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salvin</masterLabel>
+        <translation><!-- Salvin --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

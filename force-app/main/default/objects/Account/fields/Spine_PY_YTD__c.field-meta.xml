@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spine_PY_YTD__c</fullName>
+    <description>Spine PY YTD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Spine Revenue Last Year YTD</inlineHelpText>
+    <label>Spine PY YTD</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

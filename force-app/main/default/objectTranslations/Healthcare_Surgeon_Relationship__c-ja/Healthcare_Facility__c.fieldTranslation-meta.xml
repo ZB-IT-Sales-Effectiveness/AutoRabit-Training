@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>勤務先</label>
+    <name>Healthcare_Facility__c</name>
+    <relationshipLabel>勤務医</relationshipLabel>
+</CustomFieldTranslation>

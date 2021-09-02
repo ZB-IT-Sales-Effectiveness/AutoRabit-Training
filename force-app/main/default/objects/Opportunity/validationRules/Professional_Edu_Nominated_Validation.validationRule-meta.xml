@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional_Edu_Nominated_Validation</fullName>
+    <active>true</active>
+    <description>Professional Education Nominated Validation - IF nominated then fill Committee Status</description>
+    <errorConditionFormula>ISPICKVAL(Nominated__c , &quot;Yes&quot;) &amp;&amp;  ISPICKVAL(Committee_Status__c, &quot;&quot;)</errorConditionFormula>
+    <errorMessage>Please enter Committee Status</errorMessage>
+</ValidationRule>

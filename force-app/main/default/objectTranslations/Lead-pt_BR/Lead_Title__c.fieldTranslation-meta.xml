@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Title --></label>
+    <name>Lead_Title__c</name>
+    <picklistValues>
+        <masterLabel>Assistant</masterLabel>
+        <translation><!-- Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDT</masterLabel>
+        <translation><!-- CDT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Oral Surgery</masterLabel>
+        <translation><!-- Chair of Oral Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Periodontics</masterLabel>
+        <translation><!-- Chair of Periodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Prosthodontics</masterLabel>
+        <translation><!-- Chair of Prosthodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS</masterLabel>
+        <translation><!-- DDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS, MD</masterLabel>
+        <translation><!-- DDS, MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS, MS</masterLabel>
+        <translation><!-- DDS, MS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dean</masterLabel>
+        <translation><!-- Dean --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Oral Surgery</masterLabel>
+        <translation><!-- Director of Oral Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Periodontics</masterLabel>
+        <translation><!-- Director of Periodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Prosthodontics</masterLabel>
+        <translation><!-- Director of Prosthodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygienist</masterLabel>
+        <translation><!-- Hygienist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Coordinator</masterLabel>
+        <translation><!-- Implant Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Owner</masterLabel>
+        <translation><!-- Lab Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory Implant Director</masterLabel>
+        <translation><!-- Laboratory Implant Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory Implant Manager</masterLabel>
+        <translation><!-- Laboratory Implant Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDT</masterLabel>
+        <translation><!-- MDT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Manager</masterLabel>
+        <translation><!-- Office Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>President</masterLabel>
+        <translation><!-- President --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement Director</masterLabel>
+        <translation><!-- Procurement Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement Manager</masterLabel>
+        <translation><!-- Procurement Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Director</masterLabel>
+        <translation><!-- Purchasing Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Manager</masterLabel>
+        <translation><!-- Purchasing Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Assistant</masterLabel>
+        <translation><!-- Surgical Assistant --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

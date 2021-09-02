@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F_hrungsebene__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Values 1,2,3 Recon 
+SP1,2 for Spine Contacts 
+TR1,2 for Trauma Contacts</inlineHelpText>
+    <label>Management Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>SP1</fullName>
+                <default>false</default>
+                <label>SP1</label>
+            </value>
+            <value>
+                <fullName>SP2</fullName>
+                <default>false</default>
+                <label>SP2</label>
+            </value>
+            <value>
+                <fullName>TR1</fullName>
+                <default>false</default>
+                <label>TR1</label>
+            </value>
+            <value>
+                <fullName>TR2</fullName>
+                <default>false</default>
+                <label>TR2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

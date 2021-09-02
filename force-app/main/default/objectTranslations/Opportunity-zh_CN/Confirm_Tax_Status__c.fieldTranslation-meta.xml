@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is Tax Status on form current? Confirm @ Tax.CustomerService@zimmerbiomet.com --></help>
+    <label><!-- Confirm Tax Status --></label>
+    <name>Confirm_Tax_Status__c</name>
+</CustomFieldTranslation>

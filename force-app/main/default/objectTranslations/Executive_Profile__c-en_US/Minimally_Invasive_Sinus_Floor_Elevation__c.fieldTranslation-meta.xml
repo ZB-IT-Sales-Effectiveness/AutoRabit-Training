@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Minimally Invasive Sinus Floor Elevation --></label>
+    <name>Minimally_Invasive_Sinus_Floor_Elevation__c</name>
+    <picklistValues>
+        <masterLabel>Crestal Approach</masterLabel>
+        <translation><!-- Crestal Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lateral &amp; Crestal Approach</masterLabel>
+        <translation><!-- Lateral &amp; Crestal Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lateral Approach</masterLabel>
+        <translation><!-- Lateral Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None of the above</masterLabel>
+        <translation><!-- None of the above --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

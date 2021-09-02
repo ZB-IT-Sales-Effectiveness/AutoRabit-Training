@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limitation_for_procedure_ramp_up__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What are the limiting factors that slow down or hinder procedure ramp up in 2020?</inlineHelpText>
+    <label>Limitation for procedure ramp-up</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>2nd wave of COVID-19</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2nd wave of COVID-19</label>
+            </value>
+            <value>
+                <fullName>COVID-19 testing capacity</fullName>
+                <default>false</default>
+                <label>COVID-19 testing capacity</label>
+            </value>
+            <value>
+                <fullName>Instrument sets related</fullName>
+                <default>false</default>
+                <label>Instrument sets related</label>
+            </value>
+            <value>
+                <fullName>Insufficient funding</fullName>
+                <default>false</default>
+                <label>Insufficient funding</label>
+            </value>
+            <value>
+                <fullName>Low priority for total joint replacement</fullName>
+                <default>false</default>
+                <label>Low priority for total joint replacement</label>
+            </value>
+            <value>
+                <fullName>No limitation</fullName>
+                <default>false</default>
+                <label>No limitation</label>
+            </value>
+            <value>
+                <fullName>OR capacity</fullName>
+                <default>false</default>
+                <label>OR capacity</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outpatient clinic capacity</fullName>
+                <default>false</default>
+                <label>Outpatient clinic capacity</label>
+            </value>
+            <value>
+                <fullName>PPE availability</fullName>
+                <default>false</default>
+                <label>PPE availability</label>
+            </value>
+            <value>
+                <fullName>Pre-op testing related</fullName>
+                <default>false</default>
+                <label>Pre-op testing related</label>
+            </value>
+            <value>
+                <fullName>Reduced patient consultations</fullName>
+                <default>false</default>
+                <label>Reduced patient consultations</label>
+            </value>
+            <value>
+                <fullName>Rehab capacity</fullName>
+                <default>false</default>
+                <label>Rehab capacity</label>
+            </value>
+            <value>
+                <fullName>Staff capacity</fullName>
+                <default>false</default>
+                <label>Staff capacity</label>
+            </value>
+            <value>
+                <fullName>Stricter safety protocols</fullName>
+                <default>false</default>
+                <label>Stricter safety protocols</label>
+            </value>
+            <value>
+                <fullName>Sufficient patients availability</fullName>
+                <default>false</default>
+                <label>Sufficient patients availability</label>
+            </value>
+            <value>
+                <fullName>Ward capacity</fullName>
+                <default>false</default>
+                <label>Ward capacity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

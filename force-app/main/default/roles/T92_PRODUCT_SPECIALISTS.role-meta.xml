@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T92 PRODUCT_SPECIALISTS</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T92 PRODUCT_SPECIALISTS</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>WEST_PARKIN_0092</parentRole>
+</Role>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Anmeldeschluss_Event</fullName>
+        <ccEmails>franziska.eggimann@zimmer.com.dezim</ccEmails>
+        <description>EU-Anmeldeschluss_Event</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EMailDE</template>
+    </alerts>
+    <alerts>
+        <fullName>CSM_Submits_the_request</fullName>
+        <description>CSM Submits the request</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <alerts>
+        <fullName>DDSS_submits_the_Request</fullName>
+        <description>DDSS submits the Request</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <alerts>
+        <fullName>Exhibit_Campaign_Event_Request_Approved</fullName>
+        <description>Exhibit Campaign Event Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Requester_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Exhibit_campaign_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Level_3_Approved</fullName>
+        <description>Level 3 Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Requester_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Exhibit_campaign_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Level_3_Approved1</fullName>
+        <description>Level 3 Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Requester_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Exhibit_campaign_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>RSM_Submits_the_request</fullName>
+        <description>RSM Submits the request</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <alerts>
+        <fullName>RSS_submits_the_requests</fullName>
+        <description>RSS submits the requests</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Approved</fullName>
+        <description>Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Exhibit_campaign_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Declined</fullName>
+        <description>Request Declined</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Campaign_Declined</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Submitted</fullName>
+        <description>Request Submitted</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Submitted2</fullName>
+        <description>Request Submitted</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Requester_Name__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Exhibit_Campaign_Email_Templates/Rep_Submits_New_Regional_Event_Exhibit_request</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approved</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ApprovedByLeve1</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Approved By Level 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved_ByLevel1</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Approved By Level 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved_By_Level1</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Approved By Level 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved_By_Level_1</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Approved By Level 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved_Level_1</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Approved Level 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Declined</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Declined</literalValue>
+        <name>Declined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Level_3_Approval</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 3</literalValue>
+        <name>Level 3 Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_Campaign_As_Active</fullName>
+        <description>Mark Campaign As Active</description>
+        <field>IsActive</field>
+        <literalValue>1</literalValue>
+        <name>Mark Campaign As Active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_By</fullName>
+        <description>Update Approval Level</description>
+        <field>Approved_By__c</field>
+        <literalValue>Level 1</literalValue>
+        <name>Update Approved By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>sherry.degouw@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Campaign Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Cvent_Campaign_Status</fullName>
+        <description>Updates the status to Completed when criteria are met.</description>
+        <field>Status</field>
+        <literalValue>Completed</literalValue>
+        <name>Update Cvent Campaign Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>level_2_approved</fullName>
+        <field>Approved_By__c</field>
+        <literalValue>Level 2</literalValue>
+        <name>level 2 approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Assign DN Exhibit Campaign Owner To Sherry</fullName>
+        <actions>
+            <name>Update_Campaign_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>DN- Regional Event/Exhibit Request</value>
+        </criteriaItems>
+        <description>Assign DN Exhibit Campaign Owner To Sherry on Create</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto-Active DN Exhibit Campaign</fullName>
+        <actions>
+            <name>Mark_Campaign_As_Active</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>DN- Regional Event/Exhibit Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.IsActive</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Auto-Active DN Exhibit Campaign</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Cvent Campaign Status</fullName>
+        <actions>
+            <name>Update_Cvent_Campaign_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.EndDate</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+        <description>Updates the Cvent Campaign status to completed when End date is crossed.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

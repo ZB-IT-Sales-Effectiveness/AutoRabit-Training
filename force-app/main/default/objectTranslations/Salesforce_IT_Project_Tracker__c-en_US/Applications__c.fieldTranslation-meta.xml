@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Other Give Details in Notes field --></help>
+    <label><!-- Applications --></label>
+    <name>Applications__c</name>
+    <picklistValues>
+        <masterLabel>Avalanche Bell</masterLabel>
+        <translation><!-- Avalanche Bell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CPQ</masterLabel>
+        <translation><!-- CPQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cvent</masterLabel>
+        <translation><!-- Cvent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demand Tools</masterLabel>
+        <translation><!-- Demand Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Einstein</masterLabel>
+        <translation><!-- Einstein --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GBI</masterLabel>
+        <translation><!-- GBI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GIW</masterLabel>
+        <translation><!-- GIW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grid Buddy</masterLabel>
+        <translation><!-- Grid Buddy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informatica</masterLabel>
+        <translation><!-- Informatica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Cloud</masterLabel>
+        <translation><!-- Marketing Cloud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketo</masterLabel>
+        <translation><!-- Marketo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile</masterLabel>
+        <translation><!-- Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOVO</masterLabel>
+        <translation><!-- NOVO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROS</masterLabel>
+        <translation><!-- PROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC</masterLabel>
+        <translation><!-- SFDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tableau</masterLabel>
+        <translation><!-- Tableau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tibco</masterLabel>
+        <translation><!-- Tibco --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

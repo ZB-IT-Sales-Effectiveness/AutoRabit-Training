@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Three_Admin_Clinical_Drivers__c</fullName>
+    <externalId>false</externalId>
+    <label>Top Three Admin &amp; Clinical Drivers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pricing (would also capture profitability , rebates, OneBill</fullName>
+                <default>false</default>
+                <label>Pricing (would also capture profitability , rebates, OneBill</label>
+            </value>
+            <value>
+                <fullName>ROSA</fullName>
+                <default>false</default>
+                <label>ROSA</label>
+            </value>
+            <value>
+                <fullName>mymobility</fullName>
+                <default>false</default>
+                <label>mymobility</label>
+            </value>
+            <value>
+                <fullName>Surgical Capital</fullName>
+                <default>false</default>
+                <label>Surgical Capital</label>
+            </value>
+            <value>
+                <fullName>Efficiency Solutions</fullName>
+                <default>false</default>
+                <label>Efficiency Solutions</label>
+            </value>
+            <value>
+                <fullName>Product (would also capture portfolio breadth, clinical history, preference)</fullName>
+                <default>false</default>
+                <label>Product (would also capture portfolio breadth, clinical history, preference)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

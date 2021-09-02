@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Function --></label>
+    <name>JobDescription__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation><!-- Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthetist</masterLabel>
+        <translation><!-- Anaesthetist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation><!-- Assistant Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Manager</masterLabel>
+        <translation><!-- CSSD Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Technician</masterLabel>
+        <translation><!-- CSSD Technician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Manager</masterLabel>
+        <translation><!-- Case Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation><!-- Chief Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation><!-- Co. Chief Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation><!-- Deputy Chief Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP Lead</masterLabel>
+        <translation><!-- Deputy OP Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation><!-- Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation><!-- General Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation><!-- Head of Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Laboratory</masterLabel>
+        <translation><!-- Head of Laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Pharmacy</masterLabel>
+        <translation><!-- Head of Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing</masterLabel>
+        <translation><!-- Head of Purchasing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygienist</masterLabel>
+        <translation><!-- Hospital Hygienist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation><!-- Leading Senior Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation><!-- Leading Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation><!-- Medical Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation><!-- Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Lead</masterLabel>
+        <translation><!-- OP Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Manager</masterLabel>
+        <translation><!-- OP Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation><!-- OP Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation><!-- Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation><!-- Pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapist</masterLabel>
+        <translation><!-- Physiotherapist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Manager</masterLabel>
+        <translation><!-- Project Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchaser</masterLabel>
+        <translation><!-- Purchaser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QM Lead</masterLabel>
+        <translation><!-- QM Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsible Implants/Instruments</masterLabel>
+        <translation><!-- Responsible Implants/Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Manager</masterLabel>
+        <translation><!-- Safety Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation><!-- Secretary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation><!-- Senior Assistant Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation><!-- Senior Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation><!-- Speaker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Study Nurse</masterLabel>
+        <translation><!-- Study Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation><!-- Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician</masterLabel>
+        <translation><!-- Technician --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

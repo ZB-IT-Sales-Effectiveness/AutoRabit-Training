@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Access_Level__c</fullName>
+    <externalId>false</externalId>
+    <label>Access Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Access</fullName>
+                <default>false</default>
+                <label>No Access</label>
+            </value>
+            <value>
+                <fullName>Access to Gatekeeper</fullName>
+                <default>false</default>
+                <label>Access to Gatekeeper</label>
+            </value>
+            <value>
+                <fullName>Access to Gatekeeper and Support Staff</fullName>
+                <default>false</default>
+                <label>Access to Gatekeeper and Support Staff</label>
+            </value>
+            <value>
+                <fullName>Access to Surgeon</fullName>
+                <default>false</default>
+                <label>Access to Surgeon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

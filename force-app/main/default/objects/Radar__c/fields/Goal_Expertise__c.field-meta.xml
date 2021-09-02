@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Goal_Expertise__c</fullName>
+    <externalId>false</externalId>
+    <label>Goal Expertise</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alloclassic</fullName>
+                <default>false</default>
+                <label>Alloclassic</label>
+            </value>
+            <value>
+                <fullName>Allofit</fullName>
+                <default>false</default>
+                <label>Allofit</label>
+            </value>
+            <value>
+                <fullName>Anatomical Fracture Shoulder</fullName>
+                <default>false</default>
+                <label>Anatomical Fracture Shoulder</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Combined</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Combined</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Inverse/Reverse</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Inverse/Reverse</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Standard</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Standard</label>
+            </value>
+            <value>
+                <fullName>Australian National Joint Registry</fullName>
+                <default>false</default>
+                <label>Australian National Joint Registry</label>
+            </value>
+            <value>
+                <fullName>Avenir</fullName>
+                <default>false</default>
+                <label>Avenir</label>
+            </value>
+            <value>
+                <fullName>Avn</fullName>
+                <default>false</default>
+                <label>Avn</label>
+            </value>
+            <value>
+                <fullName>Bearing Science</fullName>
+                <default>false</default>
+                <label>Bearing Science</label>
+            </value>
+            <value>
+                <fullName>Bf Shoulder - Hemi Arthroplasty</fullName>
+                <default>false</default>
+                <label>Bf Shoulder - Hemi Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Bf Shoulder - Total Arthroplasty</fullName>
+                <default>false</default>
+                <label>Bf Shoulder - Total Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Biolox Delta Ceramic</fullName>
+                <default>false</default>
+                <label>Biolox Delta Ceramic</label>
+            </value>
+            <value>
+                <fullName>Bone Substitutes</fullName>
+                <default>false</default>
+                <label>Bone Substitutes</label>
+            </value>
+            <value>
+                <fullName>Cable Products</fullName>
+                <default>false</default>
+                <label>Cable Products</label>
+            </value>
+            <value>
+                <fullName>Cervical Anterior Plates</fullName>
+                <default>false</default>
+                <label>Cervical Anterior Plates</label>
+            </value>
+            <value>
+                <fullName>Cervical Corpectomy Cages</fullName>
+                <default>false</default>
+                <label>Cervical Corpectomy Cages</label>
+            </value>
+            <value>
+                <fullName>Cervical Peek Cages</fullName>
+                <default>false</default>
+                <label>Cervical Peek Cages</label>
+            </value>
+            <value>
+                <fullName>Cervical Puros Cages</fullName>
+                <default>false</default>
+                <label>Cervical Puros Cages</label>
+            </value>
+            <value>
+                <fullName>Cervical Tm Cages</fullName>
+                <default>false</default>
+                <label>Cervical Tm Cages</label>
+            </value>
+            <value>
+                <fullName>Cls</fullName>
+                <default>false</default>
+                <label>Cls</label>
+            </value>
+            <value>
+                <fullName>Cm Elbow</fullName>
+                <default>false</default>
+                <label>Cm Elbow</label>
+            </value>
+            <value>
+                <fullName>Cpt 12/14</fullName>
+                <default>false</default>
+                <label>Cpt 12/14</label>
+            </value>
+            <value>
+                <fullName>Cr</fullName>
+                <default>false</default>
+                <label>Cr</label>
+            </value>
+            <value>
+                <fullName>Ddh</fullName>
+                <default>false</default>
+                <label>Ddh</label>
+            </value>
+            <value>
+                <fullName>Fitmore Stem</fullName>
+                <default>false</default>
+                <label>Fitmore Stem</label>
+            </value>
+            <value>
+                <fullName>Fixed Bearing</fullName>
+                <default>false</default>
+                <label>Fixed Bearing</label>
+            </value>
+            <value>
+                <fullName>Gsb Elbow</fullName>
+                <default>false</default>
+                <label>Gsb Elbow</label>
+            </value>
+            <value>
+                <fullName>Herbert Screws</fullName>
+                <default>false</default>
+                <label>Herbert Screws</label>
+            </value>
+            <value>
+                <fullName>Iassist Hip</fullName>
+                <default>false</default>
+                <label>Iassist Hip</label>
+            </value>
+            <value>
+                <fullName>Interspinous Devices (Uniwallis)</fullName>
+                <default>false</default>
+                <label>Interspinous Devices (Uniwallis)</label>
+            </value>
+            <value>
+                <fullName>Interspinous Fusion System (Unilink)</fullName>
+                <default>false</default>
+                <label>Interspinous Fusion System (Unilink)</label>
+            </value>
+            <value>
+                <fullName>It Cups</fullName>
+                <default>false</default>
+                <label>It Cups</label>
+            </value>
+            <value>
+                <fullName>Itst</fullName>
+                <default>false</default>
+                <label>Itst</label>
+            </value>
+            <value>
+                <fullName>Lcck</fullName>
+                <default>false</default>
+                <label>Lcck</label>
+            </value>
+            <value>
+                <fullName>Longevity</fullName>
+                <default>false</default>
+                <label>Longevity</label>
+            </value>
+            <value>
+                <fullName>Lps Flex</fullName>
+                <default>false</default>
+                <label>Lps Flex</label>
+            </value>
+            <value>
+                <fullName>Lumbar Anterior Plates</fullName>
+                <default>false</default>
+                <label>Lumbar Anterior Plates</label>
+            </value>
+            <value>
+                <fullName>Lumbar Corpectomy Cage</fullName>
+                <default>false</default>
+                <label>Lumbar Corpectomy Cage</label>
+            </value>
+            <value>
+                <fullName>Lumbar Peek Cages - Alif</fullName>
+                <default>false</default>
+                <label>Lumbar Peek Cages - Alif</label>
+            </value>
+            <value>
+                <fullName>Lumbar Peek Cages - Lateral Approach</fullName>
+                <default>false</default>
+                <label>Lumbar Peek Cages - Lateral Approach</label>
+            </value>
+            <value>
+                <fullName>Lumbar Peek Cages - Plif &amp; Tlif</fullName>
+                <default>false</default>
+                <label>Lumbar Peek Cages - Plif &amp; Tlif</label>
+            </value>
+            <value>
+                <fullName>Lumbar Tm Cages - Alif</fullName>
+                <default>false</default>
+                <label>Lumbar Tm Cages - Alif</label>
+            </value>
+            <value>
+                <fullName>Lumbar Tm Cages - Plif &amp; Tlif</fullName>
+                <default>false</default>
+                <label>Lumbar Tm Cages - Plif &amp; Tlif</label>
+            </value>
+            <value>
+                <fullName>M/L Taper</fullName>
+                <default>false</default>
+                <label>M/L Taper</label>
+            </value>
+            <value>
+                <fullName>M/L Taper Kinectiv</fullName>
+                <default>false</default>
+                <label>M/L Taper Kinectiv</label>
+            </value>
+            <value>
+                <fullName>Magna-Fx And Other Cannulated Screws</fullName>
+                <default>false</default>
+                <label>Magna-Fx And Other Cannulated Screws</label>
+            </value>
+            <value>
+                <fullName>Manual Instruments</fullName>
+                <default>false</default>
+                <label>Manual Instruments</label>
+            </value>
+            <value>
+                <fullName>Maxera</fullName>
+                <default>false</default>
+                <label>Maxera</label>
+            </value>
+            <value>
+                <fullName>Mdn</fullName>
+                <default>false</default>
+                <label>Mdn</label>
+            </value>
+            <value>
+                <fullName>Metabloc</fullName>
+                <default>false</default>
+                <label>Metabloc</label>
+            </value>
+            <value>
+                <fullName>Mis Pedicle Screw Systems</fullName>
+                <default>false</default>
+                <label>Mis Pedicle Screw Systems</label>
+            </value>
+            <value>
+                <fullName>Mobile Bearing</fullName>
+                <default>false</default>
+                <label>Mobile Bearing</label>
+            </value>
+            <value>
+                <fullName>Montagne</fullName>
+                <default>false</default>
+                <label>Montagne</label>
+            </value>
+            <value>
+                <fullName>Motionloc Ncb</fullName>
+                <default>false</default>
+                <label>Motionloc Ncb</label>
+            </value>
+            <value>
+                <fullName>Motionloc Ss</fullName>
+                <default>false</default>
+                <label>Motionloc Ss</label>
+            </value>
+            <value>
+                <fullName>Multipolar/Bipolar</fullName>
+                <default>false</default>
+                <label>Multipolar/Bipolar</label>
+            </value>
+            <value>
+                <fullName>Ncb</fullName>
+                <default>false</default>
+                <label>Ncb</label>
+            </value>
+            <value>
+                <fullName>Ncb Pp</fullName>
+                <default>false</default>
+                <label>Ncb Pp</label>
+            </value>
+            <value>
+                <fullName>Nexel Elbow</fullName>
+                <default>false</default>
+                <label>Nexel Elbow</label>
+            </value>
+            <value>
+                <fullName>Nexgen</fullName>
+                <default>false</default>
+                <label>Nexgen</label>
+            </value>
+            <value>
+                <fullName>Nk Ii</fullName>
+                <default>false</default>
+                <label>Nk Ii</label>
+            </value>
+            <value>
+                <fullName>Normed Cmf Plating</fullName>
+                <default>false</default>
+                <label>Normed Cmf Plating</label>
+            </value>
+            <value>
+                <fullName>Normed Foot And Ankle Plating</fullName>
+                <default>false</default>
+                <label>Normed Foot And Ankle Plating</label>
+            </value>
+            <value>
+                <fullName>Normed Hand Ansd Wrist Plating</fullName>
+                <default>false</default>
+                <label>Normed Hand Ansd Wrist Plating</label>
+            </value>
+            <value>
+                <fullName>Oct Spinal Fixation System</fullName>
+                <default>false</default>
+                <label>Oct Spinal Fixation System</label>
+            </value>
+            <value>
+                <fullName>Pedicle Screws Systems</fullName>
+                <default>false</default>
+                <label>Pedicle Screws Systems</label>
+            </value>
+            <value>
+                <fullName>Periprosthetic Joint Infection (Pji)</fullName>
+                <default>false</default>
+                <label>Periprosthetic Joint Infection (Pji)</label>
+            </value>
+            <value>
+                <fullName>Persona</fullName>
+                <default>false</default>
+                <label>Persona</label>
+            </value>
+            <value>
+                <fullName>Pfj</fullName>
+                <default>false</default>
+                <label>Pfj</label>
+            </value>
+            <value>
+                <fullName>Pins/Wires</fullName>
+                <default>false</default>
+                <label>Pins/Wires</label>
+            </value>
+            <value>
+                <fullName>Pressure Sentinel Reamers</fullName>
+                <default>false</default>
+                <label>Pressure Sentinel Reamers</label>
+            </value>
+            <value>
+                <fullName>Prolong</fullName>
+                <default>false</default>
+                <label>Prolong</label>
+            </value>
+            <value>
+                <fullName>Ps</fullName>
+                <default>false</default>
+                <label>Ps</label>
+            </value>
+            <value>
+                <fullName>Revision</fullName>
+                <default>false</default>
+                <label>Revision</label>
+            </value>
+            <value>
+                <fullName>Rhk</fullName>
+                <default>false</default>
+                <label>Rhk</label>
+            </value>
+            <value>
+                <fullName>Rings &amp; Cages</fullName>
+                <default>false</default>
+                <label>Rings &amp; Cages</label>
+            </value>
+            <value>
+                <fullName>Sidus Stem-Free Shoulder</fullName>
+                <default>false</default>
+                <label>Sidus Stem-Free Shoulder</label>
+            </value>
+            <value>
+                <fullName>Sirus</fullName>
+                <default>false</default>
+                <label>Sirus</label>
+            </value>
+            <value>
+                <fullName>Synovasure</fullName>
+                <default>false</default>
+                <label>Synovasure</label>
+            </value>
+            <value>
+                <fullName>Tm</fullName>
+                <default>false</default>
+                <label>Tm</label>
+            </value>
+            <value>
+                <fullName>Tm Ankle</fullName>
+                <default>false</default>
+                <label>Tm Ankle</label>
+            </value>
+            <value>
+                <fullName>Tm Ankle Shapes</fullName>
+                <default>false</default>
+                <label>Tm Ankle Shapes</label>
+            </value>
+            <value>
+                <fullName>Tmars</fullName>
+                <default>false</default>
+                <label>Tmars</label>
+            </value>
+            <value>
+                <fullName>Tm Glenoid</fullName>
+                <default>false</default>
+                <label>Tm Glenoid</label>
+            </value>
+            <value>
+                <fullName>Tm Primary</fullName>
+                <default>false</default>
+                <label>Tm Primary</label>
+            </value>
+            <value>
+                <fullName>Tm Reverse Shoulder Arthroplasty</fullName>
+                <default>false</default>
+                <label>Tm Reverse Shoulder Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal</fullName>
+                <default>false</default>
+                <label>Trabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Trunnionosis</fullName>
+                <default>false</default>
+                <label>Trunnionosis</label>
+            </value>
+            <value>
+                <fullName>Ttrabecular Metal</fullName>
+                <default>false</default>
+                <label>Ttrabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Uclamp</fullName>
+                <default>false</default>
+                <label>Uclamp</label>
+            </value>
+            <value>
+                <fullName>Uls</fullName>
+                <default>false</default>
+                <label>Uls</label>
+            </value>
+            <value>
+                <fullName>Versa Fx Ii Or Ti Versa Fx</fullName>
+                <default>false</default>
+                <label>Versa Fx Ii Or Ti Versa Fx</label>
+            </value>
+            <value>
+                <fullName>Vivacit-E</fullName>
+                <default>false</default>
+                <label>Vivacit-E</label>
+            </value>
+            <value>
+                <fullName>Wagner Cone</fullName>
+                <default>false</default>
+                <label>Wagner Cone</label>
+            </value>
+            <value>
+                <fullName>Wagner Sl</fullName>
+                <default>false</default>
+                <label>Wagner Sl</label>
+            </value>
+            <value>
+                <fullName>Wristore</fullName>
+                <default>false</default>
+                <label>Wristore</label>
+            </value>
+            <value>
+                <fullName>Xtrafix</fullName>
+                <default>false</default>
+                <label>Xtrafix</label>
+            </value>
+            <value>
+                <fullName>Zdr</fullName>
+                <default>false</default>
+                <label>Zdr</label>
+            </value>
+            <value>
+                <fullName>Zimmer Magic Tower</fullName>
+                <default>false</default>
+                <label>Zimmer Magic Tower</label>
+            </value>
+            <value>
+                <fullName>Zmr</fullName>
+                <default>false</default>
+                <label>Zmr</label>
+            </value>
+            <value>
+                <fullName>Znn</fullName>
+                <default>false</default>
+                <label>Znn</label>
+            </value>
+            <value>
+                <fullName>Zplp</fullName>
+                <default>false</default>
+                <label>Zplp</label>
+            </value>
+            <value>
+                <fullName>Zps</fullName>
+                <default>false</default>
+                <label>Zps</label>
+            </value>
+            <value>
+                <fullName>Zss</fullName>
+                <default>false</default>
+                <label>Zss</label>
+            </value>
+            <value>
+                <fullName>Zuk</fullName>
+                <default>false</default>
+                <label>Zuk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

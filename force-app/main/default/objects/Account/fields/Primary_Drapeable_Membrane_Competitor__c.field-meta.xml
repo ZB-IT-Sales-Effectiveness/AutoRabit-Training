@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Drapeable_Membrane_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Drapeable Membrane Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bio-Gide (Osteohealth, Geistlich)</fullName>
+                <default>false</default>
+                <label>Bio-Gide (Geistlich)</label>
+            </value>
+            <value>
+                <fullName>Bioxlude (Snoasis)</fullName>
+                <default>false</default>
+                <label>Bioxlude (Snoasis)</label>
+            </value>
+            <value>
+                <fullName>Conform (Ace)</fullName>
+                <default>false</default>
+                <label>Conform (Ace)</label>
+            </value>
+            <value>
+                <fullName>Dynamatrix (Keystone)</fullName>
+                <default>false</default>
+                <label>Dynamatrix (Keystone)</label>
+            </value>
+            <value>
+                <fullName>Membragel (Strauman)</fullName>
+                <default>false</default>
+                <label>Membragel (Strauman)</label>
+            </value>
+            <value>
+                <fullName>Pericardium (Exactech)</fullName>
+                <default>false</default>
+                <label>Pericardium (Exactech)</label>
+            </value>
+            <value>
+                <fullName>Remotis (Thommen)</fullName>
+                <default>false</default>
+                <label>Remotis (Thommen)</label>
+            </value>
+            <value>
+                <fullName>Bego Collagen Membrane (Bego)</fullName>
+                <default>false</default>
+                <label>Bego Collagen Membrane (Bego)</label>
+            </value>
+            <value>
+                <fullName>Jason (botiss)</fullName>
+                <default>false</default>
+                <label>Jason (botiss)</label>
+            </value>
+            <value>
+                <fullName>Collprotect (botiss)</fullName>
+                <default>false</default>
+                <label>Collprotect (botiss)</label>
+            </value>
+            <value>
+                <fullName>BoneProtect Membrane (dentegris)</fullName>
+                <default>false</default>
+                <label>BoneProtect Membrane (dentegris)</label>
+            </value>
+            <value>
+                <fullName>Resodont Membrane (Resorba)</fullName>
+                <default>false</default>
+                <label>Resodont Membrane (Resorba)</label>
+            </value>
+            <value>
+                <fullName>Creos xeno.protect (Nobel)</fullName>
+                <default>false</default>
+                <label>Creos xeno.protect (Nobel)</label>
+            </value>
+            <value>
+                <fullName>Frios Boneshield (Dentsply)</fullName>
+                <default>false</default>
+                <label>Frios Boneshield (Dentsply)</label>
+            </value>
+            <value>
+                <fullName>Cytoplast (curasan)</fullName>
+                <default>false</default>
+                <label>Cytoplast (curasan)</label>
+            </value>
+            <value>
+                <fullName>Collaguide (curasan)</fullName>
+                <default>false</default>
+                <label>Collaguide (curasan)</label>
+            </value>
+            <value>
+                <fullName>Epiguide (curasan)</fullName>
+                <default>false</default>
+                <label>Epiguide (curasan)</label>
+            </value>
+            <value>
+                <fullName>RCM6 (Henry Schein)</fullName>
+                <default>false</default>
+                <label>RCM6 (Henry Schein)</label>
+            </value>
+            <value>
+                <fullName>Conform (Henry Schein)</fullName>
+                <default>false</default>
+                <label>Conform (Henry Schein)</label>
+            </value>
+            <value>
+                <fullName>Ossix Plus (Regedent)</fullName>
+                <default>false</default>
+                <label>Ossix Plus (Regedent)</label>
+            </value>
+            <value>
+                <fullName>Smartbrane (Regedent)</fullName>
+                <default>false</default>
+                <label>Smartbrane (Regedent)</label>
+            </value>
+            <value>
+                <fullName>Mem-lok Pliable (Biohorizons)</fullName>
+                <default>false</default>
+                <label>Mem-lok Pliable (Biohorizons)</label>
+            </value>
+            <value>
+                <fullName>Citagenix</fullName>
+                <default>false</default>
+                <label>Citagenix</label>
+            </value>
+            <value>
+                <fullName>PRGF (Autogenous)</fullName>
+                <default>false</default>
+                <label>PRGF (Autogenous)</label>
+            </value>
+            <value>
+                <fullName>Creos Xenoprotect (Nobel)</fullName>
+                <default>false</default>
+                <label>Creos Xenoprotect (Nobel)</label>
+            </value>
+            <value>
+                <fullName>Dynamatrix (Multiple)</fullName>
+                <default>false</default>
+                <label>Dynamatrix (Multiple)</label>
+            </value>
+            <value>
+                <fullName>Ossix Plus (Multiple)</fullName>
+                <default>false</default>
+                <label>Ossix Plus (Multiple)</label>
+            </value>
+            <value>
+                <fullName>Pericardium (Multiple)</fullName>
+                <default>false</default>
+                <label>Pericardium (Multiple)</label>
+            </value>
+            <value>
+                <fullName>Straumann Flex (Straumann)</fullName>
+                <default>false</default>
+                <label>Straumann Flex (Straumann)</label>
+            </value>
+            <value>
+                <fullName>Xymphony (Salvin)</fullName>
+                <default>false</default>
+                <label>Xymphony (Salvin)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

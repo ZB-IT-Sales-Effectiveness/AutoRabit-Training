@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Segment</label>
+    <name>Segment__c</name>
+    <picklistValues>
+        <masterLabel>ASC Solutions</masterLabel>
+        <translation><!-- ASC Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alle</masterLabel>
+        <translation>- - niet zichtbaar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biologics</masterLabel>
+        <translation>Biologics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Healing</masterLabel>
+        <translation>Recon algemeen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMF &amp; Thoracic</masterLabel>
+        <translation>CMF &amp; Thoracaal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement</masterLabel>
+        <translation>Cement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation>Kaak</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etex</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation>Extremiteiten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation>Voet &amp; Enkel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation>Heup</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation>Knie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Creations</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSP</masterLabel>
+        <translation>- - niet zichtbaar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation>Spine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation>Sports</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation>Surgical</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation>Trauma</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>T33 TEAM CHARLESTON 1 (IW4)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>ZBCAROLINAS_BECKER_0033</parentTerritory>
+    <territory2Type>US_Ortho</territory2Type>
+</Territory2>

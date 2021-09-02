@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Allograft_Bone_Competitor__c</fullName>
+    <description>This Field is Created for All the Dental page Layout in both Costomer and Non-customer record type</description>
+    <externalId>false</externalId>
+    <label>Primary Allograft Bone Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AlloOss (Ace)</fullName>
+                <default>false</default>
+                <label>AlloOss (Ace)</label>
+            </value>
+            <value>
+                <fullName>Creos (Nobel)</fullName>
+                <default>false</default>
+                <label>Creos (Nobel)</label>
+            </value>
+            <value>
+                <fullName>enCore (Osteogenics)</fullName>
+                <default>false</default>
+                <label>enCore (Osteogenics)</label>
+            </value>
+            <value>
+                <fullName>DynaBlast (Multiple)</fullName>
+                <default>false</default>
+                <label>DynaBlast (Multiple)</label>
+            </value>
+            <value>
+                <fullName>OraGraft (Salvin)</fullName>
+                <default>false</default>
+                <label>OraGraft (Salvin)</label>
+            </value>
+            <value>
+                <fullName>Maxxeus (CTS)</fullName>
+                <default>false</default>
+                <label>Maxxeus (CTS)</label>
+            </value>
+            <value>
+                <fullName>MinerOss (BioHorizons)</fullName>
+                <default>false</default>
+                <label>MinerOss (BioHorizons)</label>
+            </value>
+            <value>
+                <fullName>MTF (Multiple)</fullName>
+                <default>false</default>
+                <label>MTF (Multiple)</label>
+            </value>
+            <value>
+                <fullName>Raptos (Citagenix)</fullName>
+                <default>false</default>
+                <label>Raptos (Citagenix)</label>
+            </value>
+            <value>
+                <fullName>Rocky Mountain TB (Multiple)</fullName>
+                <default>false</default>
+                <label>Rocky Mountain TB (Multiple)</label>
+            </value>
+            <value>
+                <fullName>Straumann Allograft</fullName>
+                <default>false</default>
+                <label>Straumann Allograft</label>
+            </value>
+            <value>
+                <fullName>Symbios (Dentsply)</fullName>
+                <default>false</default>
+                <label>Symbios (Dentsply)</label>
+            </value>
+            <value>
+                <fullName>Other Allograft</fullName>
+                <default>false</default>
+                <label>Other Allograft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

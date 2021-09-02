@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Accounting_Leads_Notification_Payable</fullName>
+        <ccEmails>Accounts.Payable@zimmerbiomet.com</ccEmails>
+        <ccEmails>neetam.kushwaha@zimmerbiomet.com</ccEmails>
+        <description>Accounting Leads Notification - Payable</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Accounting_Leads_Notification_Receivable</fullName>
+        <ccEmails>zbinvoicerequest@zimmerbiomet.com</ccEmails>
+        <ccEmails>neetam.kushwaha@zimmerbiomet.com</ccEmails>
+        <description>Accounting Leads Notification - Receivable</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Us_Leads_for_Non_US</fullName>
+        <ccEmails>marketing.operations@zimmerbiomet.com</ccEmails>
+        <ccEmails>neetam.kushwaha@zimmerbiomet.com</ccEmails>
+        <description>Contact Us Leads for Non- US</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Us_lead_has_been_received_in_Salesforce_com_with_Campaign_Details</fullName>
+        <description>Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ZUK_Contact_Us_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Cvent_Dental_Leads</fullName>
+        <description>Cvent Dental Leads</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>lily.rose@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Cvent_Dental_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Dental_Lead_Closed_as_Closed_Lost</fullName>
+        <description>Dental Lead Closed as Closed Lost</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Lead_Closed_lost_after_45_days</template>
+    </alerts>
+    <alerts>
+        <fullName>Distributor_Sites_Schedule_a_Visit_Request</fullName>
+        <description>Distributor Sites - Schedule a Visit Request</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>General_Inquiry_lead_has_been_received_in_Salesforce_com</fullName>
+        <ccEmails>marketing.operations@zimmerbiomet.com</ccEmails>
+        <description>General Inquiry lead has been received in Salesforce.com</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with_Campaign_Detail</fullName>
+        <description>Generic Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Grants_and_Donations_Lead_Notification</fullName>
+        <ccEmails>grants.amer@zimmerbiomet.com</ccEmails>
+        <description>Grants and Donations Lead Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Human_Resources_Leads_Notification</fullName>
+        <ccEmails>talent.acquisition@zimmerbiomet.com</ccEmails>
+        <description>Human Resources Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Local_community_Grants_Leads_Notification</fullName>
+        <ccEmails>grants_donations@zimmerbiomet.com</ccEmails>
+        <description>Local community Grants Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Surgeon_Managed_Lead_Generation_Alert</fullName>
+        <description>New Surgeon Managed Lead Generation Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>amy.brown@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>arun.singh@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nicole.sherrill@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Oxford_Knee_Contact_Us_leads</fullName>
+        <ccEmails>patienteducation@zimmerbiomet.com</ccEmails>
+        <ccEmails>neetam.kushwaha@zimmerbiomet.com</ccEmails>
+        <ccEmails>arun.singh@zimmerbiomet.com</ccEmails>
+        <description>Oxford Knee Contact Us leads</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Patient_Education_General_Inquiry_Leads_Notification</fullName>
+        <ccEmails>patienteducation@zimmerbiomet.com</ccEmails>
+        <description>Patient Education &amp; General Inquiry Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_To_Lead_Owner</fullName>
+        <description>Send Email To Lead Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_NAM_Lead_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Supplier_Certifications_Leads_Notification</fullName>
+        <ccEmails>SupplierCerts@zimmerbiomet.com</ccEmails>
+        <description>Supplier Certifications Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Surgeon_leads_from_Physician_Locator_as_source_has_been_received_in_Salesforce_c</fullName>
+        <description>Surgeon leads from Physician Locator as source has been received in Salesforce.com</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jeromy.puglisi@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>neetam.kushwaha@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>yvonne.bouchard@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Surgical_Sales_Leads_Notification</fullName>
+        <ccEmails>SurgicalSales-SalesSupportTeam@zimmerbiomet.com</ccEmails>
+        <description>Surgical Sales Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Web_Support_Leads_Notification</fullName>
+        <ccEmails>websupport@zimmerbiomet.com</ccEmails>
+        <ccEmails>arun.singh@zimmerbiomet.com</ccEmails>
+        <description>Web Support Leads Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Contact_Us_Area_Of_Inquiry_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>ZB_NYC_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_wi</fullName>
+        <description>ZB NYC Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ZB_NYC_Consumer_Call_Cent</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmeCapital_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with_Ca</fullName>
+        <description>Zimmer Capital Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Capital_Consumer_Call_Center_Gr</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmeMidwest_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with_Ca</fullName>
+        <description>Zimmer Midwest Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Midwest_Consumer_Call_Center_Gr</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerCarolinas_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with</fullName>
+        <description>Zimmer Carolinas Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Carolinas_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerColorado_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with</fullName>
+        <description>Zimmer Colorado Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Colorado_Consumer_Call_Center_G</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerDaniel_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_wi</fullName>
+        <description>Zimmer Daniel Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Daniel_Consumer_Call_Center_Gro</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerDavis_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with</fullName>
+        <description>Zimmer Davis Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Davis_Consumer_Call_Center_Grou</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerEdge_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_wi</fullName>
+        <description>Zimmer Edge Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Edge_Consumer_Call_Center_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>ZimmerMidwest_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_wi</fullName>
+        <description>Zimmer Midwest Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Midwest_Consumer_Call_Center_Gr</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Active_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer  Active Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Active_Consumer_Call_Center_Gro</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Advantage_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer  Advantage Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Advantage_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Alaska_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer  Alaska Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Alaska_Consumer_Call_Center_Gro</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Apex_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer Apex Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Apex_Consumer_Call_Center_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Elite_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer Elite Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Elite_Consumer_Call_Center_Grou</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Fegen_Maloney_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Fegen Maloney Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ZB_Fegan_Inc</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Intermed_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Intermed Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Intermed_Consumer_Call_Center_G</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Keystone_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Keystone Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Keystone_Consumer_Call_Center_G</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Melia_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Melia Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Melia_Consumer_Call_Center_Grou</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_MidAmerica_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer MidAmerica Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_MidAmerica_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_MidAtlantic_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer MidAtlantic Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_MidAtlantic_Consumer_Call_Cente</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_MtnWest_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer MtnWest Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_MtnWest_Consumer_Call_Center_Gr</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Northeast_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>ZB North Atlantic Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Northeast_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Northwest_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer Northwest Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Northwest_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Ohio_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Ohio Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Ohio_Consumer_Call_Center_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Precision_Ortho_Generic_Contact_Us_lead_has_been_received_in_Salesforce_c</fullName>
+        <description>Zimmer Precision Ortho Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Precision_Ortho_Consumer_Call_C</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Rx_Medical_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Rx Medical Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_RxMedical_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Solutions_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Solutions Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Solutions_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Southwest_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Southwest Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Southwest_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Thomson_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Thomson Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Thomson_Consumer_Call_Center_Gr</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_TriState_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Zimmer TriState Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ZB_Tri_State</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_Upstate_NY_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Upstate NY Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Upstate_NY_Consumer_Call_Center</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <alerts>
+        <fullName>Zimmer_greate_lakes_Generic_Contact_Us_lead_has_been_received_in_Salesforce_com</fullName>
+        <description>Zimmer Greate Lakes Contact Us lead has been received in Salesforce.com with Campaign Details</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Zimmer_Great_Lakes_Consumer_Call_Cente</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/ContactUs</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Change_Lead_Record_Type</fullName>
+        <description>Update Lead Record Type to Consumer</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Consumer</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change Lead Record Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Lead_Status_Opt_In</fullName>
+        <description>Update Status to Opt In</description>
+        <field>Status__c</field>
+        <literalValue>Opt In</literalValue>
+        <name>Change Lead: Status to Opt In</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Lead_Status_to_Opt_Out</fullName>
+        <description>Update Status to Opt Out</description>
+        <field>Status__c</field>
+        <literalValue>Opt Out</literalValue>
+        <name>Change Lead: Status to Opt Out</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Lead_Status_to_Re_Opt_In</fullName>
+        <description>Update Status to Re-Opt In</description>
+        <field>Status__c</field>
+        <literalValue>Re-Opt In</literalValue>
+        <name>Change Lead: Status to Re-Opt In</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CompanyUpdate</fullName>
+        <field>Company</field>
+        <formula>FirstName +&quot; &quot;+ LastName</formula>
+        <name>CompanyUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_True</fullName>
+        <field>Do_Not_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Sync True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_not_sync_false</fullName>
+        <field>Do_Not_Sync__c</field>
+        <literalValue>0</literalValue>
+        <name>Do not sync false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FieldUpdateLeadRecordType</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Surgeon_Leads</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>FieldUpdateLeadRecordType</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Owner_of_Contact_Us_Non_US_leads</fullName>
+        <field>OwnerId</field>
+        <lookupValue>sue.alexander@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Lead Owner of Contact Us Non-US leads</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Source_Field_Value</fullName>
+        <field>LeadSource</field>
+        <literalValue>Legal</literalValue>
+        <name>Lead Source Field Value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Lead_Status_Update</fullName>
+        <field>Status</field>
+        <literalValue>Opt In</literalValue>
+        <name>Lead Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_Lead_Created_from_Cvent</fullName>
+        <field>IsCreatedFromLead__c</field>
+        <literalValue>1</literalValue>
+        <name>Mark Lead Created from Cvent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opt_In_Date_Update</fullName>
+        <field>Opt_In_Date__c</field>
+        <formula>CreatedDate</formula>
+        <name>Opt In Date Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opt_in_date_for_PEM</fullName>
+        <field>Opt_In_Date__c</field>
+        <formula>Today( )</formula>
+        <name>Opt-in date for PEM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Patient_Educaiton_materials</fullName>
+        <description>New lead created will have lead status as &quot;opt-in&quot; and opt-in date as today( )</description>
+        <field>Status</field>
+        <literalValue>Opt In</literalValue>
+        <name>Patient Educaiton materials</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_SFDC_Campaign_Name</fullName>
+        <field>SFDC_Campaign_Name__c</field>
+        <formula>Campaign.Name</formula>
+        <name>Set SFDC Campaign Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Source_Details</fullName>
+        <field>Source_Details__c</field>
+        <literalValue>Zimmer Internet</literalValue>
+        <name>Source Details</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Source_Details_Field_value</fullName>
+        <field>Source_Details__c</field>
+        <literalValue>Legal Contact Us</literalValue>
+        <name>Source Details Field value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Source_Update</fullName>
+        <field>Source__c</field>
+        <literalValue>Web Requests</literalValue>
+        <name>Source Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>US_Dental_Leads_owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>lily.rose@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>US Dental Leads owner update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Agreement_c_field</fullName>
+        <field>Agreement__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Agreement__c field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead_Record_Type_Hidden_for_con</fullName>
+        <field>Lead_Record_Type_Hidden_2__c</field>
+        <formula>&quot;DN-Global-Contact Record Type&quot;</formula>
+        <name>Update Lead Record Type(Hidden)-for con</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead_Status</fullName>
+        <field>Close_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Lead Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead_record_Type_Hidden</fullName>
+        <field>Lead_Record_Type_Hidden__c</field>
+        <formula>&quot;DN-ACCT-RECORD-TYPE&quot;</formula>
+        <name>Update Lead record Type(Hidden)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updates_Agreement_c_field</fullName>
+        <field>Agreement__c</field>
+        <literalValue>0</literalValue>
+        <name>Updates Agreement__c field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>closed_status</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>closed status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>closed_status_for_leads</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>closed status for leads</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>leadt_status_opt_in_for_PEM</fullName>
+        <field>Status</field>
+        <literalValue>Opt In</literalValue>
+        <name>leadt status opt-in for PEM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AccountsCreatedFromCventLead</fullName>
+        <actions>
+            <name>Mark_Lead_Created_from_Cvent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Leads</value>
+        </criteriaItems>
+        <description>Check account is created fromCvent Lead Conversion</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Check Agreement%5F%5Fc field</fullName>
+        <actions>
+            <name>Update_Agreement_c_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Physicians_Locator_Contact__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This rule checks the Agreement__c field when Physicians_Locator_Contact__c is checked.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contact Us leads outside of the United State</fullName>
+        <actions>
+            <name>Contact_Us_Leads_for_Non_US</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Lead_Owner_of_Contact_Us_Non_US_leads</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Contact Us</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>notEqual</operation>
+            <value>US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Area_of_Inquiry__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Contact Us leads outside of the United State</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>FIND A DOC lead email notification</fullName>
+        <actions>
+            <name>Surgeon_leads_from_Physician_Locator_as_source_has_been_received_in_Salesforce_c</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Surgeon Leads</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>Physician Locator</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead Close Date</fullName>
+        <actions>
+            <name>Update_Lead_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Map Lead Record Type</fullName>
+        <actions>
+            <name>Update_Lead_Record_Type_Hidden_for_con</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Lead_record_Type_Hidden</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Leads</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>equals</operation>
+            <value>Caroline Wojciechowski</value>
+        </criteriaItems>
+        <description>to map Lead record type hidden to account record type hidden</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Map Lead Record Type Person Account</fullName>
+        <actions>
+            <name>CompanyUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Leads</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>equals</operation>
+            <value>Nakitta White</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Company</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>to map Lead record type hidden to account record type hidden</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync %E2%80%93 True</fullName>
+        <actions>
+            <name>Do_Not_Sync_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>OR ( ISBLANK (Email), NOT(CONTAINS(Email,&apos;@&apos;)), NOT(ISPICKVAL(Primary_Country__c,&apos;US&apos;)), (OR(Country &lt;&gt; &quot;US&quot;,Country &lt;&gt; &quot;USA&quot;, Country &lt;&gt; &quot;United States&quot;)), ISBLANK(Country), RecordTypeId &lt;&gt; &quot;012C0000000Qcym&quot;, RecordTypeId &lt;&gt; &quot;012C0000000Q3ot&quot; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync False</fullName>
+        <actions>
+            <name>Do_not_sync_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( NOT
+(ISBLANK (Email)), 
+CONTAINS(Email,&apos;@&apos;),
+(OR ( 
+NOT(ISPICKVAL(Primary_Country__c,&apos;&apos;)), ISPICKVAL(Primary_Country__c,&apos;US&apos;), 
+ NOT(ISBLANK (Country)),
+ (OR(Country = &quot;US&quot;,Country = &quot;USA&quot;, Country = &quot;United States&quot; )))), 
+OR( RecordTypeId = &quot;012C0000000Qcym&quot;,RecordTypeId = &quot;012C0000000Q3ot&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Oxford Knee Contact Us leads</fullName>
+        <actions>
+            <name>Oxford_Knee_Contact_Us_leads</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>Oxfordknee.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Contact Us</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>US Dental Leads</fullName>
+        <actions>
+            <name>Cvent_Dental_Leads</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>US_Dental_Leads_owner_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Primary_Country__c</field>
+            <operation>equals</operation>
+            <value>US,CA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Campaign_Segment__c</field>
+            <operation>contains</operation>
+            <value>Dental</value>
+        </criteriaItems>
+        <description>To assign cvent dental leads to Caroline</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Uncheck Agreement%5F%5Fc field</fullName>
+        <actions>
+            <name>Updates_Agreement_c_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Physicians_Locator_Contact__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule unchecks the Agreement__c field when Physicians_Locator_Contact__c is unchecked.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Worldwide Customer Support Contact Us Email Notification</fullName>
+        <actions>
+            <name>Generic_Contact_Us_lead_has_been_received_in_Salesforce_com_with_Campaign_Detail</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Contact Us</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>ForeverHip.com,GelOne.Zimmer.com,VirageOCT.Zimmer.com,Zimmer.com,ZimmerBiomet.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Area_of_Inquiry__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Campaign_Segment__c</field>
+            <operation>notEqual</operation>
+            <value>Dental</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>opt-instatus for patient education material leads</fullName>
+        <actions>
+            <name>Opt_in_date_for_PEM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>leadt_status_opt_in_for_PEM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Source__c</field>
+            <operation>equals</operation>
+            <value>Web Requests</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Source_Details__c</field>
+            <operation>equals</operation>
+            <value>Patient Education Materials</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

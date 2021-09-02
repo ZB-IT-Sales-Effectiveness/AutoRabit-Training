@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CVENT Campaign --></label>
+    <name>CVENT_Campaign__c</name>
+    <relationshipLabel><!-- Medical Education Training Trackers --></relationshipLabel>
+</CustomFieldTranslation>

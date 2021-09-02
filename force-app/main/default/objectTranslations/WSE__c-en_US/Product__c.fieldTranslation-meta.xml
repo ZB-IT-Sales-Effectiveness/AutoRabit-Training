@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product --></label>
+    <name>Product__c</name>
+    <picklistValues>
+        <masterLabel>CEMENT</masterLabel>
+        <translation><!-- CEMENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EARLY INTERVENTION</masterLabel>
+        <translation><!-- EARLY INTERVENTION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXTREMITIES</masterLabel>
+        <translation><!-- EXTREMITIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOT &amp; ANKLE</masterLabel>
+        <translation><!-- FOOT &amp; ANKLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HIPS</masterLabel>
+        <translation><!-- HIPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KNEES</masterLabel>
+        <translation><!-- KNEES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPORTS MEDICINE</masterLabel>
+        <translation><!-- SPORTS MEDICINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAUMA</masterLabel>
+        <translation><!-- TRAUMA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

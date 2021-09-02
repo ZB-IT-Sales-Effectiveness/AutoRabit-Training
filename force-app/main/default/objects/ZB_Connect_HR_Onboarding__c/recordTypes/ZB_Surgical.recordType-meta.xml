@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Surgical</fullName>
+    <active>true</active>
+    <description>ZB Surgical HR Onboardings</description>
+    <label>ZB Surgical</label>
+    <picklistValues>
+        <picklist>Completed_By_Add_to_Ortho_DL__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Add_to_ROSA_AVP_DL__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Add_to_ROSA_PDM_DL__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Add_to_ROSA_RSM_DL__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Add_to_ROSA_Team_USA_DL__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Box_com__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Cell_Phone__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_CustomPoint_Access__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Email_Sig_Explanation__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Laptop__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Name_Badges__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Onboarding_Doc_Rcd__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Onboarding_Doc__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Recurring_Invites_AVP__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Recurring_Invites__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_SMS_Access__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Scrubs__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Tool_Kit_ordered_Todd_Bald__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Update_Org_Chart__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Webex__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Welcome_Announce_rqst__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_Welcome_Email__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_ZB_Sales_Hub__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_iLearn__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed_By_iPad__c</picklist>
+        <values>
+            <fullName>Jackson Pfister</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jake Nimmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Napka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelsey Ketcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kris Simonton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee Gillett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindy Apperson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachael Gilardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troy Watson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ZB_Connect_Team__c</picklist>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My Mobility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Str%2E Contracting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

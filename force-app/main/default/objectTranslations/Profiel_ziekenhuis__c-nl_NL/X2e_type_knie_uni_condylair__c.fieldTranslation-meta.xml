@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type knie uni-condylair --></label>
+    <name>X2e_type_knie_uni_condylair__c</name>
+    <picklistValues>
+        <masterLabel>Accuris</masterLabel>
+        <translation><!-- Accuris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advance uni</masterLabel>
+        <translation><!-- Advance uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allegretto</masterLabel>
+        <translation><!-- Allegretto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avon</masterLabel>
+        <translation><!-- Avon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Balancys uni</masterLabel>
+        <translation><!-- Balancys uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elius</masterLabel>
+        <translation><!-- Elius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mitus</masterLabel>
+        <translation><!-- Mitus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NK II uni</masterLabel>
+        <translation><!-- NK II uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optetrak uni</masterLabel>
+        <translation><!-- Optetrak uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oxford</masterLabel>
+        <translation><!-- Oxford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFC sigma uni</masterLabel>
+        <translation><!-- PFC sigma uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preservation</masterLabel>
+        <translation><!-- Preservation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repicci</masterLabel>
+        <translation><!-- Repicci --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triathon uni</masterLabel>
+        <translation><!-- Triathon uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UC plus</masterLabel>
+        <translation><!-- UC plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uni glide</masterLabel>
+        <translation><!-- Uni glide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard uni</masterLabel>
+        <translation><!-- Vanguard uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZUK</masterLabel>
+        <translation><!-- ZUK --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

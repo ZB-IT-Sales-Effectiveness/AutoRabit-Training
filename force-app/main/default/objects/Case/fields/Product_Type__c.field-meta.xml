@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ROSA Knee</fullName>
+                <default>false</default>
+                <label>ROSA Knee</label>
+            </value>
+            <value>
+                <fullName>ROSA Brain</fullName>
+                <default>false</default>
+                <label>ROSA Brain</label>
+            </value>
+            <value>
+                <fullName>ROSA Spine</fullName>
+                <default>false</default>
+                <label>ROSA Spine</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+            <value>
+                <fullName>Fluid Waste Management</fullName>
+                <default>false</default>
+                <label>Fluid Waste Management</label>
+            </value>
+            <value>
+                <fullName>Omni Suite</fullName>
+                <default>false</default>
+                <label>Omni Suite</label>
+            </value>
+            <value>
+                <fullName>MCS</fullName>
+                <default>false</default>
+                <label>MCS</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Orthopedic</fullName>
+                <default>false</default>
+                <label>Orthopedic</label>
+            </value>
+            <value>
+                <fullName>Spine</fullName>
+                <default>false</default>
+                <label>Spine</label>
+            </value>
+            <value>
+                <fullName>CMF/Thoracic/Robotics</fullName>
+                <default>false</default>
+                <label>CMF/Thoracic/Robotics</label>
+            </value>
+            <value>
+                <fullName>Joint/Trauma/Sports Med/Biologics/ETEX</fullName>
+                <default>false</default>
+                <label>Joint/Trauma/Sports Med/Biologics/ETEX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

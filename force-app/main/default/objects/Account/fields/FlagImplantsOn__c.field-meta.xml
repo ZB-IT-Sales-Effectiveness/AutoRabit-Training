@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlagImplantsOn__c</fullName>
+    <externalId>false</externalId>
+    <formula>If (and(Implants_Units_PYtd__c =0,  Implants_Units_Ytd__c =0), &quot;N&quot;,&quot;Y&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FlagImplantsOn</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

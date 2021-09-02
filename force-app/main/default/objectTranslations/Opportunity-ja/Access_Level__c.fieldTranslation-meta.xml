@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Access Level --></label>
+    <name>Access_Level__c</name>
+    <picklistValues>
+        <masterLabel>Access to Gatekeeper</masterLabel>
+        <translation><!-- Access to Gatekeeper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Access to Gatekeeper and Support Staff</masterLabel>
+        <translation><!-- Access to Gatekeeper and Support Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Access to Surgeon</masterLabel>
+        <translation><!-- Access to Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Access</masterLabel>
+        <translation><!-- No Access --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

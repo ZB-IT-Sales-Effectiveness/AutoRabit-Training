@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functie_verfijning__c</fullName>
+    <description>Geef exacte functiebenaming aan zoals contactpersoon zelf gebruikt.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Geef exacte functiebenaming aan zoals contactpersoon zelf gebruikt.</inlineHelpText>
+    <label>Functie verfijning</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

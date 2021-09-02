@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implant_Trending_YTD_vs_PYTD__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(FlagImplantsOn__c=&quot;Y&quot;, Implants_Units_PYtd__c &gt; 0,Implants_Units_Ytd__c &lt;&gt;0),      
+ ((Implants_Units_Ytd__c - Implants_Units_PYtd__c ) / Implants_Units_PYtd__c),
+
+IF(AND(FlagImplantsOn__c=&quot;Y&quot;, Implants_Units_PYtd__c &lt; 0,  Implants_Units_Ytd__c &lt;&gt;0) , 
+ (((Implants_Units_Ytd__c - Implants_Units_PYtd__c ) / Implants_Units_PYtd__c) * -1),
+
+IF(AND(FlagImplantsOn__c=&quot;Y&quot;, Implants_Units_PYtd__c = 0,  Implants_Units_Ytd__c &lt;&gt;0) ,
+    (Implants_Units_Ytd__c/100),
+
+IF(AND(FlagImplantsOn__c=&quot;Y&quot;, Implants_Units_PYtd__c &gt; 0,Implants_Units_Ytd__c =0),      
+((Implants_Units_Ytd__c - Implants_Units_PYtd__c )/ Implants_Units_PYtd__c) ,
+
+
+IF(AND(FlagImplantsOn__c=&quot;Y&quot;, Implants_Units_PYtd__c &lt; 0,Implants_Units_Ytd__c =0),      
+0 ,
+
+
+0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Implant Trending YTD vs PYTD</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

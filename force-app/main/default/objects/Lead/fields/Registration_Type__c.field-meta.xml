@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Registration Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Active Member</fullName>
+                <default>false</default>
+                <label>Active Member</label>
+            </value>
+            <value>
+                <fullName>Associate Member</fullName>
+                <default>false</default>
+                <label>Associate Member</label>
+            </value>
+            <value>
+                <fullName>Dental Hygienist/Full Conference</fullName>
+                <default>false</default>
+                <label>Dental Hygienist/Full Conference</label>
+            </value>
+            <value>
+                <fullName>Dental Student Interest Group (DSIG)</fullName>
+                <default>false</default>
+                <label>Dental Student Interest Group (DSIG)</label>
+            </value>
+            <value>
+                <fullName>International Member</fullName>
+                <default>false</default>
+                <label>International Member</label>
+            </value>
+            <value>
+                <fullName>Life Active Member</fullName>
+                <default>false</default>
+                <label>Life Active Member</label>
+            </value>
+            <value>
+                <fullName>Non-member Dentist/Periodontist</fullName>
+                <default>false</default>
+                <label>Non-member Dentist/Periodontist</label>
+            </value>
+            <value>
+                <fullName>Non-member Student</fullName>
+                <default>false</default>
+                <label>Non-member Student</label>
+            </value>
+            <value>
+                <fullName>Office Staff</fullName>
+                <default>false</default>
+                <label>Office Staff</label>
+            </value>
+            <value>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+                <label>Speaker</label>
+            </value>
+            <value>
+                <fullName>Student Member</fullName>
+                <default>false</default>
+                <label>Student Member</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Allied Health</fullName>
+                <default>false</default>
+                <label>Allied Health</label>
+            </value>
+            <value>
+                <fullName>Americas (Delegates)</fullName>
+                <default>false</default>
+                <label>Americas (Delegates)</label>
+            </value>
+            <value>
+                <fullName>Americas (Staff)</fullName>
+                <default>false</default>
+                <label>Americas (Staff)</label>
+            </value>
+            <value>
+                <fullName>Anatomist</fullName>
+                <default>false</default>
+                <label>Anatomist</label>
+            </value>
+            <value>
+                <fullName>APAC (Delegate)</fullName>
+                <default>false</default>
+                <label>APAC (Delegate)</label>
+            </value>
+            <value>
+                <fullName>APAC (Staff)</fullName>
+                <default>false</default>
+                <label>APAC (Staff)</label>
+            </value>
+            <value>
+                <fullName>Austria (Delegate)</fullName>
+                <default>false</default>
+                <label>Austria (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Austria (Staff)</fullName>
+                <default>false</default>
+                <label>Austria (Staff)</label>
+            </value>
+            <value>
+                <fullName>AV</fullName>
+                <default>false</default>
+                <label>AV</label>
+            </value>
+            <value>
+                <fullName>Belgium (Delegate)</fullName>
+                <default>false</default>
+                <label>Belgium (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Belgium (Staff)</fullName>
+                <default>false</default>
+                <label>Belgium (Staff)</label>
+            </value>
+            <value>
+                <fullName>Brand Management</fullName>
+                <default>false</default>
+                <label>Brand Management</label>
+            </value>
+            <value>
+                <fullName>Business Guest</fullName>
+                <default>false</default>
+                <label>Business Guest</label>
+            </value>
+            <value>
+                <fullName>Canada (Delegate)</fullName>
+                <default>false</default>
+                <label>Canada (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Canada (Staff)</fullName>
+                <default>false</default>
+                <label>Canada (Staff)</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Czech Republic/Slovakia (Delegate)</fullName>
+                <default>false</default>
+                <label>Czech Republic/Slovakia (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Czech Republic/Slovakia (Staff)</fullName>
+                <default>false</default>
+                <label>Czech Republic/Slovakia (Staff)</label>
+            </value>
+            <value>
+                <fullName>Denmark (Delegate)</fullName>
+                <default>false</default>
+                <label>Denmark (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Denmark (Staff)</fullName>
+                <default>false</default>
+                <label>Denmark (Staff)</label>
+            </value>
+            <value>
+                <fullName>Direct Sales</fullName>
+                <default>false</default>
+                <label>Direct Sales</label>
+            </value>
+            <value>
+                <fullName>East Europe (Delegates)</fullName>
+                <default>false</default>
+                <label>East Europe (Delegates)</label>
+            </value>
+            <value>
+                <fullName>East Europe (Staff)</fullName>
+                <default>false</default>
+                <label>East Europe (Staff)</label>
+            </value>
+            <value>
+                <fullName>EE/Balkans/Baltics (Delegate)</fullName>
+                <default>false</default>
+                <label>EE/Balkans/Baltics (Delegate)</label>
+            </value>
+            <value>
+                <fullName>EE/Balkans/Baltics (Staff)</fullName>
+                <default>false</default>
+                <label>EE/Balkans/Baltics (Staff)</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Exhibitor</fullName>
+                <default>false</default>
+                <label>Exhibitor</label>
+            </value>
+            <value>
+                <fullName>Faculty</fullName>
+                <default>false</default>
+                <label>Faculty</label>
+            </value>
+            <value>
+                <fullName>Fellow (U.S. &amp; Puerto Rico)</fullName>
+                <default>false</default>
+                <label>Fellow (U.S. &amp; Puerto Rico)</label>
+            </value>
+            <value>
+                <fullName>Finland (Delegate)</fullName>
+                <default>false</default>
+                <label>Finland (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Finland (Staff)</fullName>
+                <default>false</default>
+                <label>Finland (Staff)</label>
+            </value>
+            <value>
+                <fullName>France (Delegate)</fullName>
+                <default>false</default>
+                <label>France (Delegate)</label>
+            </value>
+            <value>
+                <fullName>France (Staff)</fullName>
+                <default>false</default>
+                <label>France (Staff)</label>
+            </value>
+            <value>
+                <fullName>GEM EMEA</fullName>
+                <default>false</default>
+                <label>GEM EMEA</label>
+            </value>
+            <value>
+                <fullName>Germany (Delegate)</fullName>
+                <default>false</default>
+                <label>Germany (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Germany (Staff)</fullName>
+                <default>false</default>
+                <label>Germany (Staff)</label>
+            </value>
+            <value>
+                <fullName>Guest</fullName>
+                <default>false</default>
+                <label>Guest</label>
+            </value>
+            <value>
+                <fullName>HCP</fullName>
+                <default>false</default>
+                <label>HCP</label>
+            </value>
+            <value>
+                <fullName>HCP Non Physician</fullName>
+                <default>false</default>
+                <label>HCP Non Physician</label>
+            </value>
+            <value>
+                <fullName>HCP Non Surgeon</fullName>
+                <default>false</default>
+                <label>HCP Non Surgeon</label>
+            </value>
+            <value>
+                <fullName>Healthcare Professional</fullName>
+                <default>false</default>
+                <label>Healthcare Professional</label>
+            </value>
+            <value>
+                <fullName>Host Auditor</fullName>
+                <default>false</default>
+                <label>Host Auditor</label>
+            </value>
+            <value>
+                <fullName>Iceland (Delegate)</fullName>
+                <default>false</default>
+                <label>Iceland (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Iceland (Staff)</fullName>
+                <default>false</default>
+                <label>Iceland (Staff)</label>
+            </value>
+            <value>
+                <fullName>Italy Delegate</fullName>
+                <default>false</default>
+                <label>Italy Delegate</label>
+            </value>
+            <value>
+                <fullName>Italy Staff</fullName>
+                <default>false</default>
+                <label>Italy Staff</label>
+            </value>
+            <value>
+                <fullName>Latin America Sales</fullName>
+                <default>false</default>
+                <label>Latin America Sales</label>
+            </value>
+            <value>
+                <fullName>MEA/MED (Delegate)</fullName>
+                <default>false</default>
+                <label>MEA/MED (Delegate)</label>
+            </value>
+            <value>
+                <fullName>MEA/MED (Staff)</fullName>
+                <default>false</default>
+                <label>MEA/MED (Staff)</label>
+            </value>
+            <value>
+                <fullName>MedEd</fullName>
+                <default>false</default>
+                <label>MedEd</label>
+            </value>
+            <value>
+                <fullName>Medical Student</fullName>
+                <default>false</default>
+                <label>Medical Student</label>
+            </value>
+            <value>
+                <fullName>Netherlands (Delegate)</fullName>
+                <default>false</default>
+                <label>Netherlands (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Netherlands (Staff)</fullName>
+                <default>false</default>
+                <label>Netherlands (Staff)</label>
+            </value>
+            <value>
+                <fullName>Non-HCP</fullName>
+                <default>false</default>
+                <label>Non-HCP</label>
+            </value>
+            <value>
+                <fullName>Norway (Delegate)</fullName>
+                <default>false</default>
+                <label>Norway (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Norway (Staff)</fullName>
+                <default>false</default>
+                <label>Norway (Staff)</label>
+            </value>
+            <value>
+                <fullName>Observer</fullName>
+                <default>false</default>
+                <label>Observer</label>
+            </value>
+            <value>
+                <fullName>OUS Surgeon</fullName>
+                <default>false</default>
+                <label>OUS Surgeon</label>
+            </value>
+            <value>
+                <fullName>Outside of US Fellow</fullName>
+                <default>false</default>
+                <label>Outside of US Fellow</label>
+            </value>
+            <value>
+                <fullName>Outside US Surgeon</fullName>
+                <default>false</default>
+                <label>Outside US Surgeon</label>
+            </value>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Portugal (Delegate)</fullName>
+                <default>false</default>
+                <label>Portugal (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Portugal (Staff)</fullName>
+                <default>false</default>
+                <label>Portugal (Staff)</label>
+            </value>
+            <value>
+                <fullName>Puerto Rico - Fellow</fullName>
+                <default>false</default>
+                <label>Puerto Rico - Fellow</label>
+            </value>
+            <value>
+                <fullName>Puerto Rico - Surgeon</fullName>
+                <default>false</default>
+                <label>Puerto Rico - Surgeon</label>
+            </value>
+            <value>
+                <fullName>Resident</fullName>
+                <default>false</default>
+                <label>Resident</label>
+            </value>
+            <value>
+                <fullName>Russia (Delegate)</fullName>
+                <default>false</default>
+                <label>Russia (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Russia (Staff)</fullName>
+                <default>false</default>
+                <label>Russia (Staff)</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>South Africa (Delegate)</fullName>
+                <default>false</default>
+                <label>South Africa (Delegate)</label>
+            </value>
+            <value>
+                <fullName>South Africa (Staff)</fullName>
+                <default>false</default>
+                <label>South Africa (Staff)</label>
+            </value>
+            <value>
+                <fullName>Spain (Delegate)</fullName>
+                <default>false</default>
+                <label>Spain (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Spain (Staff)</fullName>
+                <default>false</default>
+                <label>Spain (Staff)</label>
+            </value>
+            <value>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+                <label>Speaker</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>Surgeon (U.S. &amp; Puerto Rico)</fullName>
+                <default>false</default>
+                <label>Surgeon (U.S. &amp; Puerto Rico)</label>
+            </value>
+            <value>
+                <fullName>Sweden (Delegate)</fullName>
+                <default>false</default>
+                <label>Sweden (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Sweden (Staff)</fullName>
+                <default>false</default>
+                <label>Sweden (Staff)</label>
+            </value>
+            <value>
+                <fullName>Switzerland (Delegate)</fullName>
+                <default>false</default>
+                <label>Switzerland (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Switzerland (Staff)</fullName>
+                <default>false</default>
+                <label>Switzerland (Staff)</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+            <value>
+                <fullName>Trauma Direct Sales</fullName>
+                <default>false</default>
+                <label>Trauma Direct Sales</label>
+            </value>
+            <value>
+                <fullName>Turkey (Delegate)</fullName>
+                <default>false</default>
+                <label>Turkey (Delegate)</label>
+            </value>
+            <value>
+                <fullName>Turkey (Staff)</fullName>
+                <default>false</default>
+                <label>Turkey (Staff)</label>
+            </value>
+            <value>
+                <fullName>UK (Delegate)</fullName>
+                <default>false</default>
+                <label>UK (Delegate)</label>
+            </value>
+            <value>
+                <fullName>UK (Staff)</fullName>
+                <default>false</default>
+                <label>UK (Staff)</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition/Hotel</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition/Hotel</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition/Hotel/Air</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition/Hotel/Air</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition/Hotel/Air X</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition/Hotel/Air X</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition/Hotel X</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition/Hotel X</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition Only</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition Only</label>
+            </value>
+            <value>
+                <fullName>ZI Adv Surgical Rebate - Tuition Only X</fullName>
+                <default>false</default>
+                <label>ZI Adv Surgical Rebate - Tuition Only X</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition/Hotel</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition/Hotel</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition/Hotel/Air</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition/Hotel/Air</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition/Hotel/Air X</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition/Hotel/Air X</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition/Hotel X</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition/Hotel X</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition Only</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition Only</label>
+            </value>
+            <value>
+                <fullName>ZI Comprehensive Rebate - Tuition Only X</fullName>
+                <default>false</default>
+                <label>ZI Comprehensive Rebate - Tuition Only X</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Corporate</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Corporate</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Direct Sales</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Direct Sales</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Sales</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Sales</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition/Hotel</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition/Hotel</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition/Hotel/Air</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition/Hotel/Air</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition/Hotel/Air X</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition/Hotel/Air X</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition/Hotel X</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition/Hotel X</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition Only</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition Only</label>
+            </value>
+            <value>
+                <fullName>ZI Restorative Rebate - Tuition Only X</fullName>
+                <default>false</default>
+                <label>ZI Restorative Rebate - Tuition Only X</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

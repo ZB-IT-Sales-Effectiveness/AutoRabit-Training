@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>2nd Surgeon List</masterLabel>
+        <translation><!-- 2nd Surgeon List --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>APAC</masterLabel>
+        <translation><!-- APAC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Account Issues</masterLabel>
+        <translation><!-- Account Issues --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accounts Payable</masterLabel>
+        <translation><!-- Accounts Payable --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Advertisement Request</masterLabel>
+        <translation><!-- Advertisement Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anweisungen unklar</masterLabel>
+        <translation>instructies niet duidelijk</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Benutzer nicht an Schulung teilgenommen</masterLabel>
+        <translation>gebruiker heeft geen training gehad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bestehendes Problem</masterLabel>
+        <translation>bestaand probleem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campaign Registrant</masterLabel>
+        <translation><!-- Campaign Registrant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canada</masterLabel>
+        <translation><!-- Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case ID &amp; Recon Request</masterLabel>
+        <translation><!-- Case ID &amp; Recon Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clinical Study Info</masterLabel>
+        <translation><!-- Clinical Study Info --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitive Selling Information</masterLabel>
+        <translation><!-- Competitive Selling Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complex functionality</masterLabel>
+        <translation><!-- Complex functionality --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact info</masterLabel>
+        <translation><!-- Contact info --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Content Issues</masterLabel>
+        <translation><!-- Content Issues --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contracted</masterLabel>
+        <translation><!-- Contracted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporate Inquiry</masterLabel>
+        <translation><!-- Corporate Inquiry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customs/Instru-Serve</masterLabel>
+        <translation><!-- Customs/Instru-Serve --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Demo Bank/Product Samples</masterLabel>
+        <translation><!-- Demo Bank/Product Samples --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Denovo Availability</masterLabel>
+        <translation><!-- Denovo Availability --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Templating</masterLabel>
+        <translation><!-- Digital Templating --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Disposables</masterLabel>
+        <translation><!-- Disposables --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EMEA</masterLabel>
+        <translation><!-- EMEA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Existing problem</masterLabel>
+        <translation><!-- Existing problem --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financial Services</masterLabel>
+        <translation><!-- Financial Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up/Feedback</masterLabel>
+        <translation><!-- Follow Up/Feedback --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCP Closed Adjusted</masterLabel>
+        <translation><!-- HCP Closed Adjusted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCP Closed Agreed</masterLabel>
+        <translation><!-- HCP Closed Agreed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCP Closed Dispute</masterLabel>
+        <translation><!-- HCP Closed Dispute --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR/Career</masterLabel>
+        <translation><!-- HR/Career --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hardware</masterLabel>
+        <translation><!-- Hardware --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hardware &amp; Software</masterLabel>
+        <translation><!-- Hardware &amp; Software --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HelpDesk/Technical Support</masterLabel>
+        <translation><!-- HelpDesk/Technical Support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I.T. Technical Issues</masterLabel>
+        <translation><!-- I.T. Technical Issues --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Image Request</masterLabel>
+        <translation><!-- Image Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Import/Export Inquiry</masterLabel>
+        <translation><!-- Import/Export Inquiry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Information Only</masterLabel>
+        <translation><!-- Information Only --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instructions not clear</masterLabel>
+        <translation><!-- Instructions not clear --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments</masterLabel>
+        <translation><!-- Instruments --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>International</masterLabel>
+        <translation><!-- International --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investor Relations</masterLabel>
+        <translation><!-- Investor Relations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Komplexe Funktion</masterLabel>
+        <translation>complexe functie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Library Literature</masterLabel>
+        <translation><!-- Library Literature --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Live Surgery</masterLabel>
+        <translation><!-- Live Surgery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Logistics</masterLabel>
+        <translation><!-- Logistics --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MLC/Cadaver Lab</masterLabel>
+        <translation><!-- MLC/Cadaver Lab --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MRI Question</masterLabel>
+        <translation><!-- MRI Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing Question</masterLabel>
+        <translation><!-- Marketing Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metal Allergy Question</masterLabel>
+        <translation><!-- Metal Allergy Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metal Composition</masterLabel>
+        <translation><!-- Metal Composition --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Neues Problem</masterLabel>
+        <translation>nieuw probleem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Account</masterLabel>
+        <translation><!-- New Account --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New problem</masterLabel>
+        <translation><!-- New problem --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PSI Online Training</masterLabel>
+        <translation><!-- PSI Online Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Password Reset/Resend</masterLabel>
+        <translation><!-- Password Reset/Resend --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patient ID Card</masterLabel>
+        <translation><!-- Patient ID Card --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post Op Questions</masterLabel>
+        <translation><!-- Post Op Questions --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pre Alert Notice</masterLabel>
+        <translation><!-- Pre Alert Notice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Experience Report</masterLabel>
+        <translation><!-- Product Experience Report --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Identification Number</masterLabel>
+        <translation><!-- Product Identification Number --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Question</masterLabel>
+        <translation><!-- Product Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Technical Issue</masterLabel>
+        <translation><!-- Product Technical Issue --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product/Education Material</masterLabel>
+        <translation><!-- Product/Education Material --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Relations</masterLabel>
+        <translation><!-- Public Relations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quality Compliant</masterLabel>
+        <translation><!-- Quality Compliant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recall Question</masterLabel>
+        <translation><!-- Recall Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rejected/Canceled Case</masterLabel>
+        <translation><!-- Rejected/Canceled Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renegotiation planned</masterLabel>
+        <translation><!-- Renegotiation planned --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reporting Zimmer Van Issues</masterLabel>
+        <translation><!-- Reporting Zimmer Van Issues --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SMS&amp; PSI Setup</masterLabel>
+        <translation><!-- SMS&amp; PSI Setup --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Collateral</masterLabel>
+        <translation><!-- Sales Collateral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Rep/Med Pro Inquiry</masterLabel>
+        <translation><!-- Sales Rep/Med Pro Inquiry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Training</masterLabel>
+        <translation><!-- Sales Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Scan Center</masterLabel>
+        <translation><!-- Scan Center --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seminar Registrant</masterLabel>
+        <translation><!-- Seminar Registrant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shipping</masterLabel>
+        <translation><!-- Shipping --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Software</masterLabel>
+        <translation><!-- Software --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Success Story</masterLabel>
+        <translation><!-- Success Story --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon List</masterLabel>
+        <translation><!-- Surgeon List --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon Training</masterLabel>
+        <translation><!-- Surgeon Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgical Technique Information</masterLabel>
+        <translation><!-- Surgical Technique Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Transfer Call CRM</masterLabel>
+        <translation><!-- Transfer Call CRM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Transfer Call Cust Service</masterLabel>
+        <translation><!-- Transfer Call Cust Service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US Sales and Marketing Terr Visit</masterLabel>
+        <translation><!-- US Sales and Marketing Terr Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User didn&apos;t attend training</masterLabel>
+        <translation><!-- User didn&apos;t attend training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web Support</masterLabel>
+        <translation><!-- Web Support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>X-Ray Identification</masterLabel>
+        <translation><!-- X-Ray Identification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Institute</masterLabel>
+        <translation><!-- Zimmer Institute --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer Institute Training</masterLabel>
+        <translation><!-- Zimmer Institute Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimmer.com Questions</masterLabel>
+        <translation><!-- Zimmer.com Questions --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

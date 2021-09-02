@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Event/exhibit should be open to all vendors. Vendors can be assigned to certain months in multi-month meeting series --></help>
+    <label><!-- Exhibit Space Is Offered To All Vendors --></label>
+    <name>Exhibit_Space_Is_Offered_To_All_Vendors__c</name>
+</CustomFieldTranslation>

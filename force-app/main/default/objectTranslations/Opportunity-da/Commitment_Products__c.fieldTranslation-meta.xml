@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Commitment Products --></label>
+    <name>Commitment_Products__c</name>
+    <picklistValues>
+        <masterLabel>ALL</masterLabel>
+        <translation><!-- ALL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIOLOGICS</masterLabel>
+        <translation><!-- BIOLOGICS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEMENT</masterLabel>
+        <translation><!-- CEMENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXTREMETIES</masterLabel>
+        <translation><!-- EXTREMETIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FOOT &amp; ANKLE</masterLabel>
+        <translation><!-- FOOT &amp; ANKLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HIP</masterLabel>
+        <translation><!-- HIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KNEES</masterLabel>
+        <translation><!-- KNEES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPINE</masterLabel>
+        <translation><!-- SPINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPORTS MEDICINE</masterLabel>
+        <translation><!-- SPORTS MEDICINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SURGICAL</masterLabel>
+        <translation><!-- SURGICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAUMA</masterLabel>
+        <translation><!-- TRAUMA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Agreement --></label>
+    <name>Type_of_Agreement__c</name>
+    <picklistValues>
+        <masterLabel>Directed Rebate Agreement</masterLabel>
+        <translation><!-- Directed Rebate Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Placement Agreement</masterLabel>
+        <translation><!-- Placement Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rental Agreement</masterLabel>
+        <translation><!-- Rental Agreement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,79 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-30-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<aura:component>
+    <aura:attribute name="parent" type="Aura.Component"/>
+
+    <aura:attribute name="title" type="String" default="Master Data"/>
+    <aura:attribute name="textFooter" type="String" default=""/>
+    <aura:attribute name="clase" type="String" default="cont_data"/>  <!-- cont_data , cont_details -->
+    <aura:attribute name="showIcon" type="Boolean" default="false"/>
+    <aura:attribute name="inputlabel" type="SObject" />
+
+    <aura:attribute name="fields" type="String[]" />
+    <aura:attribute name="fullrecord" type="SObject" />
+    <aura:attribute name="registrolocal" type="List" />
+    <aura:attribute name="disabledIn" type="Boolean" default="true"/>
+
+    
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInitHH}"/>
+
+    <div class="body_Profiles">
+        <div class="head-row">
+            <div class="contTitle"><h1>{!v.title}</h1></div>
+            <!-- <lightning:button variant="brand" label="Invoke Parent Method" onclick="{!c.callParentMethod}" /> -->
+            <aura:if isTrue="{!v.showIcon}">
+                <div  class="contIcon">
+                    <aura:if isTrue="{!v.disabledIn}">
+                        <lightning:buttonIcon iconName="utility:edit" variant="brand" alternativeText="Settings" title="Settings" size="small" onclick="{!c.handleClick}"/>
+                        <aura:set attribute="else">
+                            <lightning:buttonIcon class="clsIconCheck" iconName="utility:check" variant="brand" alternativeText="Settings" title="Settings" size="small" onclick="{!c.handleClick}"/>
+                            <lightning:buttonIcon class="clsIconClose" iconName="utility:close" variant="destructive" alternativeText="Settings" title="Settings" size="small" onclick="{!c.cancelEdit}"/>
+                        </aura:set>
+                    </aura:if> 
+                    <!-- <lightning:icon iconName="custom:custom11" title="custom11" size="small" /> -->
+                </div>
+            </aura:if> 
+        </div>
+        <div class="body-row">
+            <aura:iteration var="arr" items="{!v.registrolocal}">
+                <div class="{!v.clase}">
+                    <aura:iteration var="item" items="{!arr}" indexVar="i">
+                        <aura:if isTrue="{!item.listbox}">
+                            <lightning:input  label="{!item.name}" value="{!item.value}" disabled="{!v.disabledIn}" onchange="{!c.handleChangeInp}" />
+                            <aura:set attribute="else">
+
+                                <aura:if isTrue="{!v.disabledIn}">
+                                    <lightning:input  label="{!item.name}" value="{!item.value}" disabled="{!v.disabledIn}"/>
+                                    <aura:set attribute="else">
+                                        
+                                        <lightning:dualListbox 
+                                            name="languages"
+                                            label= "{!item.name}"
+                                            sourceLabel="Available"
+                                            selectedLabel="Selected"
+                                            fieldLevelHelp="Select your preferred languages"
+                                            options="{! item.listOptions }"
+                                            value="{!item.defaultOptions}" 
+                                            onchange="{! c.handleChange }"  
+                                        />
+
+                                    </aura:set>
+                                </aura:if>
+                            </aura:set>
+                        </aura:if> 
+
+                    </aura:iteration>
+                </div>
+            </aura:iteration>
+        </div>
+        <div class="clsParrafo">
+            <p>{!v.textFooter}</p>
+        </div>
+    </div>
+</aura:component>

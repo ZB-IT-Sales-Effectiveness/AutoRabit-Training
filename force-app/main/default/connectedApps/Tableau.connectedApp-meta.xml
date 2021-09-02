@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributes>
+        <formula>&quot;true&quot;</formula>
+        <key>OrthoApp</key>
+    </attributes>
+    <contactEmail>bleboff@appirio.com</contactEmail>
+    <contactPhone>2155841871</contactPhone>
+    <iconUrl>https://test.salesforce.com/logos/Salesforce/Wave/icon.png</iconUrl>
+    <label>Tableau</label>
+    <logoUrl>https://zimmerbiometglobal--OrthoCRM--c.cs43.content.force.com/servlet/servlet.ImageServer?id=01563000000OKPs&amp;oid=00D63000000Dpts</logoUrl>
+    <startUrl>tableau://</startUrl>
+</ConnectedApp>

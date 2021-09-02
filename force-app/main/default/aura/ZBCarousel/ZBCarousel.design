@@ -1,0 +1,3 @@
+<design:component label="ZB Carousel">
+    <design:attribute name="carouselName" label="Carousel Name" description="Please provide Carousel Name (like CRSL - 00000)" />
+</design:component>

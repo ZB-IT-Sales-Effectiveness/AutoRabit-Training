@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Who is the primary competitor in this Opportunity? --></help>
+    <label>Wettbewerber</label>
+    <name>Main_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>3M</masterLabel>
+        <translation><!-- 3M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3Shape</masterLabel>
+        <translation><!-- 3Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACE</masterLabel>
+        <translation><!-- ACE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Align</masterLabel>
+        <translation><!-- Align --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astra</masterLabel>
+        <translation><!-- Astra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BEGO</masterLabel>
+        <translation><!-- BEGO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biohorizons</masterLabel>
+        <translation><!-- Biohorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camlog</masterLabel>
+        <translation><!-- Camlog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carestream</masterLabel>
+        <translation><!-- Carestream --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Wings</masterLabel>
+        <translation><!-- Dental Wings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply</masterLabel>
+        <translation><!-- Dentsply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply Sirona</masterLabel>
+        <translation><!-- Dentsply Sirona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geistlich</masterLabel>
+        <translation><!-- Geistlich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic</masterLabel>
+        <translation><!-- Generic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HiOssen</masterLabel>
+        <translation><!-- HiOssen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICX</masterLabel>
+        <translation><!-- ICX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Direct</masterLabel>
+        <translation><!-- Implant Direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keystone</masterLabel>
+        <translation><!-- Keystone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifenet</masterLabel>
+        <translation><!-- Lifenet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxxeus</masterLabel>
+        <translation><!-- Maxxeus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medit</masterLabel>
+        <translation><!-- Medit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEOSS</masterLabel>
+        <translation><!-- NEOSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel</masterLabel>
+        <translation><!-- Nobel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteohealth</masterLabel>
+        <translation><!-- Osteohealth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteoready</masterLabel>
+        <translation><!-- Osteoready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planmeca</masterLabel>
+        <translation><!-- Planmeca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIC</masterLabel>
+        <translation><!-- SIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salvin</masterLabel>
+        <translation><!-- Salvin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern</masterLabel>
+        <translation><!-- Southern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann</masterLabel>
+        <translation><!-- Straumann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thommen</masterLabel>
+        <translation><!-- Thommen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation>Unbekannt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vatech</masterLabel>
+        <translation><!-- Vatech --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

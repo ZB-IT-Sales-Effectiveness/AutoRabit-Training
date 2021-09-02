@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Source_must_be_entered</fullName>
+    <active>false</active>
+    <errorConditionFormula>And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),
+Ispickval( 00N80000004Xhs0 , &quot;Other&quot;), 
+00N80000004XhsF =&quot;&quot;
+)</errorConditionFormula>
+    <errorMessage>Other Source must be filled out as &quot;Other&quot; is selected in Source Details.</errorMessage>
+</ValidationRule>

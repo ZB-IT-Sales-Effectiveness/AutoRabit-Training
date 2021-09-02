@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Top Three Admin &amp; Clinical Drivers --></label>
+    <name>Top_Three_Admin_Clinical_Drivers__c</name>
+    <picklistValues>
+        <masterLabel>Efficiency Solutions</masterLabel>
+        <translation><!-- Efficiency Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing (would also capture profitability , rebates, OneBill</masterLabel>
+        <translation><!-- Pricing (would also capture profitability , rebates, OneBill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product (would also capture portfolio breadth, clinical history, preference)</masterLabel>
+        <translation><!-- Product (would also capture portfolio breadth, clinical history, preference) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Capital</masterLabel>
+        <translation><!-- Surgical Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

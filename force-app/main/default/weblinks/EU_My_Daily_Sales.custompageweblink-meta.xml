@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>EU-My Daily Sales</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://bi-jedox.zimmer.com/ui/lnk/?_=eJxNj0ELwjAMhf%2FKyHlQPOhhZxGPQ%2FHWSzeDLXRrSdONMvbfTRXBU96XkPeSDdaUoNtgcbgiVcWOPUIHc4AWJpzzYOiHHIL%2Fw8SGc%2FrSvrdgYpyEchKnFtahTk5HkS%2BKoknKQcjSKGSrnLnEGsY4RW8YpUW9YSstrbS6YQzESaurQzI02qLV2Thf7sZjau6X5iFZTU%2FhmUd2i6wv4sQFOqaMn4vEqv64vwGgT0xY&amp;user=Salesforce&amp;pass=Hp50gGtMLWiv1%2B3FB3MZkA%3D%3D
+&amp;var/SAP_number={Account.AccountNumber}&amp;var/User_Name={!User.Name}&amp;var/JX_Report={!User.Account_Team__c}</url>
+</CustomPageWebLink>

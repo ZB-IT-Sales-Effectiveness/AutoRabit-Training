@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_GR_LKS_FUMEILOCRICCHIO_0043_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>GR LKS (FUMEI-LOCRICCHIO) (0043) QUEUE</label>
+    <queue>Q_GR_LKS_FUMEILOCRICCHIO_0043</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

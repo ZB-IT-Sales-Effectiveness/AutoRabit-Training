@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>GPL_Profile__c.Name__c</field>
+    </columns>
+    <columns>
+        <field>GPL_Profile__c.Account__c</field>
+    </columns>
+    <columns>
+        <field>GPL_Profile__c.Specialties__c</field>
+    </columns>
+    <columns>
+        <field>GPL_Profile__c.Specialty_Type__c</field>
+    </columns>
+    <columns>
+        <field>GPL_Profile__c.Procedures__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>GPL Profiles tagged with &quot;Rosa Knee&quot; procedure and &quot;Rosa Total Knee Replacement&quot; specialty</description>
+    <filter>
+        <criteriaItems>
+            <column>GPL_Profile__c.Specialties__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>ROSA Knee Robotics</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GPL_Profile__c.Procedures__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>ROSA® Knee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>GPL_Profile__c.GPL_PhysicianProfile</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>GPL Profile Tagged With ROSA Knee</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$GPL_Profile__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

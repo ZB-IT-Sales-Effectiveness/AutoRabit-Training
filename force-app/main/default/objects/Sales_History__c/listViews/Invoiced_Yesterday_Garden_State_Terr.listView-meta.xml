@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Yesterday_Garden_State_Terr</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>Salesperson_ID__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1009,1013,1153,1100,1035,1014,1017,1018</value>
+    </filters>
+    <filters>
+        <field>Invoice_Date__c</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Invoiced Yesterday Garden State Terr.</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CP_SE_DDSS</group>
+        <group>DN_USA_Garden_State_Metro_NY_Regen</group>
+        <group>DN_USA_North_TX_Garden_St_ISR</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Return Type --></label>
+    <name>Return_Type__c</name>
+    <picklistValues>
+        <masterLabel>CMP</masterLabel>
+        <translation><!-- CMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IRA</masterLabel>
+        <translation><!-- IRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGA</masterLabel>
+        <translation><!-- RGA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RMA</masterLabel>
+        <translation><!-- RMA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

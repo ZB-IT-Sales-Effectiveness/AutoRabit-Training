@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Genehmigungsstatus</label>
+    <name>Approval_Status__c</name>
+    <picklistValues>
+        <masterLabel>Abgelehnt oder Storno</masterLabel>
+        <translation><!-- Abgelehnt oder Storno --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antragsstellung</masterLabel>
+        <translation><!-- Antragsstellung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genehmigt</masterLabel>
+        <translation><!-- Genehmigt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genehmigungsprüfung Finanzen</masterLabel>
+        <translation><!-- Genehmigungsprüfung Finanzen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genehmigungsprüfung RVL</masterLabel>
+        <translation><!-- Genehmigungsprüfung RVL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prüfung PM</masterLabel>
+        <translation><!-- Prüfung PM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

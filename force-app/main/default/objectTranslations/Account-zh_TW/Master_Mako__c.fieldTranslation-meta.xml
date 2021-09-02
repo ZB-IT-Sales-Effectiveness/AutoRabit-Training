@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Master Mako --></label>
+    <name>Master_Mako__c</name>
+    <picklistValues>
+        <masterLabel>Facility</masterLabel>
+        <translation><!-- Facility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital System</masterLabel>
+        <translation><!-- Hospital System --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

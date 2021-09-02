@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Team --></label>
+    <name>Team__c</name>
+    <picklistValues>
+        <masterLabel>South Bend</masterLabel>
+        <translation><!-- South Bend --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Elkhart</masterLabel>
+        <translation><!-- Team Elkhart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Lake</masterLabel>
+        <translation><!-- Team Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Porter</masterLabel>
+        <translation><!-- Team Porter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team South Bend</masterLabel>
+        <translation><!-- Team South Bend --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

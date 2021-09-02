@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_contacts_linked_US_Distributor_Acc</fullName>
+    <active>false</active>
+    <description>A rule that only SALES contacts can be linked with a US Distributor business account</description>
+    <errorConditionFormula>AND(
+NOT(OR ( $RecordType.Id = &quot;012800000002DoB&quot;,
+$RecordType.Id = &quot;012800000002DoBAAU&quot;)),
+OR( Account.RecordType.Id =&quot;012800000002ByT&quot; ,
+Account.RecordType.Id =&quot;012800000002ByTAAU&quot;),
+Account.BillingCountry =&quot;US&quot;
+)</errorConditionFormula>
+    <errorMessage>Only SALES contacts can be linked with a US Distributor business account</errorMessage>
+</ValidationRule>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Geef aan welke filosofie voor de heup kop en cup wordt gebruikt in het ziekenhuis. Er zijn meerdere opties mogelijk. --></help>
+    <label><!-- Heup tribologie --></label>
+    <name>Heup_tribologie__c</name>
+    <picklistValues>
+        <masterLabel>Ceramic - Ceramic</masterLabel>
+        <translation><!-- Ceramic - Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-Poly - Ceramic</masterLabel>
+        <translation><!-- E-Poly - Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HXLPE - Metal</masterLabel>
+        <translation><!-- HXLPE - Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HXLPE -Ceramic</masterLabel>
+        <translation><!-- HXLPE -Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HXPE - Ceramic</masterLabel>
+        <translation><!-- HXPE - Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HXPE - Metal</masterLabel>
+        <translation><!-- HXPE - Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metal - Metal</masterLabel>
+        <translation><!-- Metal - Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE - Ceramic</masterLabel>
+        <translation><!-- PE - Ceramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE - Metal</masterLabel>
+        <translation><!-- PE - Metal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

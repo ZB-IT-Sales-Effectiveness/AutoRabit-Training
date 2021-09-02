@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Request --></label>
+    <name>Reason_for_Request__c</name>
+    <picklistValues>
+        <masterLabel>Competitor conversion</masterLabel>
+        <translation><!-- Competitor conversion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>new facility</masterLabel>
+        <translation><!-- new facility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>protect play</masterLabel>
+        <translation><!-- protect play --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

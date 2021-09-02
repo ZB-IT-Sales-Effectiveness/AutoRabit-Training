@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Implants</masterLabel>
+        <translation><!-- Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthetics</masterLabel>
+        <translation><!-- Prosthetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative</masterLabel>
+        <translation><!-- Regenerative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total</masterLabel>
+        <translation><!-- Total --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

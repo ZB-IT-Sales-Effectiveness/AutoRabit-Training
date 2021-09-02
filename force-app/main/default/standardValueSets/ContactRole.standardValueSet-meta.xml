@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Architect</fullName>
+        <default>false</default>
+        <label>Architect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blocker</fullName>
+        <default>false</default>
+        <label>Blocker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business User</fullName>
+        <default>false</default>
+        <label>Business User</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Champion</fullName>
+        <default>false</default>
+        <label>Champion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coach</fullName>
+        <default>false</default>
+        <label>Coach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Economic Buyer</fullName>
+        <default>false</default>
+        <label>Economic Buyer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Economic Decision Maker</fullName>
+        <default>false</default>
+        <label>Economic Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Equipment Planner</fullName>
+        <default>false</default>
+        <label>Equipment Planner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluator</fullName>
+        <default>false</default>
+        <label>Evaluator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Influencer</fullName>
+        <default>false</default>
+        <label>Influencer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Neutral</fullName>
+        <default>false</default>
+        <label>Neutral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Primary Facility Contact</fullName>
+        <default>false</default>
+        <label>Primary Facility Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Primary Office Contact</fullName>
+        <default>false</default>
+        <label>Primary Office Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Champion Surgeon</fullName>
+        <default>false</default>
+        <label>ROSA Champion Surgeon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Distributor/GM</fullName>
+        <default>false</default>
+        <label>ROSA Distributor/GM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Distributor Ops Manager</fullName>
+        <default>false</default>
+        <label>ROSA Distributor Ops Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Fellow</fullName>
+        <default>false</default>
+        <label>ROSA Fellow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA OR Director</fullName>
+        <default>false</default>
+        <label>ROSA OR Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Ortho Coordinator</fullName>
+        <default>false</default>
+        <label>ROSA Ortho Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA PDA</fullName>
+        <default>false</default>
+        <label>ROSA PDA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA PDM</fullName>
+        <default>false</default>
+        <label>ROSA PDM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA PDM Lead</fullName>
+        <default>false</default>
+        <label>ROSA PDM Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Recon Account Lead</fullName>
+        <default>false</default>
+        <label>ROSA Recon Account Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Recon Associate</fullName>
+        <default>false</default>
+        <label>ROSA Recon Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Recon Representative</fullName>
+        <default>false</default>
+        <label>ROSA Recon Representative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Recon ROSA Lead</fullName>
+        <default>false</default>
+        <label>ROSA Recon ROSA Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Recon Team Leader</fullName>
+        <default>false</default>
+        <label>ROSA Recon Team Leader</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Resident</fullName>
+        <default>false</default>
+        <label>ROSA Resident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA SPD Director</fullName>
+        <default>false</default>
+        <label>ROSA SPD Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROSA Surgeon</fullName>
+        <default>false</default>
+        <label>ROSA Surgeon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon</fullName>
+        <default>false</default>
+        <label>Surgeon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Buyer</fullName>
+        <default>false</default>
+        <label>Technical Buyer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>User Buyer</fullName>
+        <default>false</default>
+        <label>User Buyer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VP of Neurosciences</fullName>
+        <default>false</default>
+        <label>VP of Neurosciences</label>
+    </standardValue>
+</StandardValueSet>

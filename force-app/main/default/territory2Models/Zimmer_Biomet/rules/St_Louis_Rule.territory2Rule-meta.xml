@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>St. Louis Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>005874,007685,011450,016866,020720,021384,021629,021680,022375,023128,023316,023576,024000,024124,026516,027490,028868,032365,032451,032461,032464,035912,035945,036573,037174,040142,040423,040627,040705,044143,046360,047524,048812,050336,053189,057493,058743,059276,060340,061069,061309,061562,063001,063850,064136,071324,071932,072089,072565,072666,072927,078190,080302,087603,088220,088967,088970,088971,089093,089182,089512,089945,090000,090042,097281,097360,107669,109757</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

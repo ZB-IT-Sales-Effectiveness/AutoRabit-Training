@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Continent_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Region_Name__c = &quot;US Buckeye&quot; || Region_Name__c = &quot;US Chicago Land&quot; || Region_Name__c = &quot;US Garden State&quot; || Region_Name__c = &quot;US Great Lakes&quot; || Region_Name__c = &quot;US Key Stone&quot; || Region_Name__c = &quot;US Metro NY&quot; || Region_Name__c = &quot;US No New England&quot; || Region_Name__c = &quot;US So New England&quot; || Region_Name__c = &quot;US Central&quot; || Region_Name__c = &quot;US Golden Gate&quot; || Region_Name__c = &quot;US Lone Star&quot; || Region_Name__c = &quot;US Mountain&quot; || Region_Name__c = &quot;US Los Angeles&quot; || Region_Name__c = &quot;US North Star&quot; || Region_Name__c = &quot;US Pacific NW&quot; || Region_Name__c = &quot;US South Bay&quot; || Region_Name__c = &quot;US West&quot; || Region_Name__c = &quot;US Appalachian&quot; || Region_Name__c = &quot;US Capitol&quot; || Region_Name__c = &quot;US Chesapeake Bay&quot; || Region_Name__c = &quot;US North Florida&quot; || Region_Name__c = &quot;US South Florida&quot; || Region_Name__c = &quot;US Mississippi Delta&quot; || Region_Name__c = &quot;US SouthEast&quot; || Region_Name__c = &quot;US Southern&quot; || Region_Name__c = &quot;CA Central&quot; || Region_Name__c = &quot;CA Eastern Canada&quot; || Region_Name__c = &quot;CA Western Canada&quot;, &apos;NAM&apos;, null)</formula>
+    <label>Continent Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

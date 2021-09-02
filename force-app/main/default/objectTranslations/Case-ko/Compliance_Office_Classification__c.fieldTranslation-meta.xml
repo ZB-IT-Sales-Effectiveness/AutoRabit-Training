@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Compliance Office Classification --></label>
+    <name>Compliance_Office_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Disputed transactions - Correction required</masterLabel>
+        <translation><!-- Disputed transactions - Correction required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disputed transactions - No Correction required</masterLabel>
+        <translation><!-- Disputed transactions - No Correction required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for additional information</masterLabel>
+        <translation><!-- Request for additional information --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

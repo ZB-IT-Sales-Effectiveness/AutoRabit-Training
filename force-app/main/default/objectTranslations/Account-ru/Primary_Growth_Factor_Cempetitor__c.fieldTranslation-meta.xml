@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Growth Factor Cempetitor --></label>
+    <name>Primary_Growth_Factor_Cempetitor__c</name>
+    <picklistValues>
+        <masterLabel>AmnioSpark (Salvin)</masterLabel>
+        <translation><!-- AmnioSpark (Salvin) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Does not use Growth Factors</masterLabel>
+        <translation><!-- Does not use Growth Factors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emdogain (Straumann)</masterLabel>
+        <translation><!-- Emdogain (Straumann) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gem21</masterLabel>
+        <translation><!-- Gem21 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infuse (Medtronic)</masterLabel>
+        <translation><!-- Infuse (Medtronic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ostocel (ACE)</masterLabel>
+        <translation><!-- Ostocel (ACE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Growth Factor</masterLabel>
+        <translation><!-- Other Growth Factor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRP/PRGF (Autogenous)</masterLabel>
+        <translation><!-- PRP/PRGF (Autogenous) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

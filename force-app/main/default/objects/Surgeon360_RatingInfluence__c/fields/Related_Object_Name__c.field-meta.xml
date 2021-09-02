@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Object_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Object Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>% Zimmer Usage</fullName>
+                <default>false</default>
+                <label>% Zimmer Usage</label>
+            </value>
+            <value>
+                <fullName>Campaigns</fullName>
+                <default>false</default>
+                <label>Campaigns</label>
+            </value>
+            <value>
+                <fullName>Healthcare Facility Relationships</fullName>
+                <default>false</default>
+                <label>Healthcare Facility Relationships</label>
+            </value>
+            <value>
+                <fullName>Opportunities</fullName>
+                <default>false</default>
+                <label>Opportunities</label>
+            </value>
+            <value>
+                <fullName>Payors</fullName>
+                <default>false</default>
+                <label>Payors</label>
+            </value>
+            <value>
+                <fullName>Peer Networks</fullName>
+                <default>false</default>
+                <label>Peer Networks</label>
+            </value>
+            <value>
+                <fullName>Product Usage - Market</fullName>
+                <default>false</default>
+                <label>Product Usage - Market</label>
+            </value>
+            <value>
+                <fullName>Product Usage - ZB</fullName>
+                <default>false</default>
+                <label>Product Usage - ZB</label>
+            </value>
+            <value>
+                <fullName>Public Engagements</fullName>
+                <default>false</default>
+                <label>Public Engagements</label>
+            </value>
+            <value>
+                <fullName>Schedules</fullName>
+                <default>false</default>
+                <label>Schedules</label>
+            </value>
+            <value>
+                <fullName>Sunshine Payments</fullName>
+                <default>false</default>
+                <label>Sunshine Payments</label>
+            </value>
+            <value>
+                <fullName>Tasks</fullName>
+                <default>false</default>
+                <label>Tasks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

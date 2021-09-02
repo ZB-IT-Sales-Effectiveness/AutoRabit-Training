@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_67395530</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$Region_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>US Key Stone</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US No New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US So New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chesapeake Bay</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Garden State</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Upstate New York</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Metro New York</sourceValue>
+            </sourceValues>
+            <value>Northeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Mississippi Delta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Southern</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Appalachian</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Capitol</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Florida</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US SouthEast</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Florida</sourceValue>
+            </sourceValues>
+            <value>Southeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Buckeye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Central</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Midwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Great Lakes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chicago Land</sourceValue>
+            </sourceValues>
+            <value>Central</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US North Star</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Mountain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Golden Gate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Los Angeles</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Pacific NW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Bay</sourceValue>
+            </sourceValues>
+            <value>West</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Order_Quantity__c</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$Speciality_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account$Salesperson_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Customer_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account$BillingAddress</field>
+    </columns>
+    <columns>
+        <field>Account$Phone</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>BNPT4310,BNPT4311,BNPT4313,BNPT4315,BNPT4385,BNPT5410,BNPT5411,BNPT5413,BNPT5415,BNPT5485,BNPT6510,BNPT6511,BNPT6513,BNPT6515,BNPT6585,BNST3210,BNST3211,BNST3213,BNST3215,BNST3285,BNST410,BNST411,BNST413,BNST415,BNST485,BNST510,BNST511,BNST513,BNST515,BNST585,BNST610,BNST611,BNST613,BNST615,BNST685,BOPT4310,BOPT4311,BOPT4313,BOPT4315,BOPT4385,BOPT5410,BOPT5411,BOPT5413,BOPT5415,BOPT5485,BOPT6510,BOPT6511,BOPT6513,BOPT6515,BOPT6585,BOST3210,BOST3211,BOST3213,BOST3215,BOST3285,BOST410,BOST411,BOST413,BOST415,BOST485,BOST510,BOST511,BOST513,BOST515,BOST585,BOST610,BOST611,BOST613,BOST615,BOST685,BNPS4310,BNPS4311,BNPS4313,BNPS4315,BNPS4385,BNPS5410,BNPS5411,BNPS5413,BNPS5415,BNPS5485,BNPS6510,BNPS6511,BNPS6513,BNPS6515,BNPS6585,BNSS310,BNSS311,BNSS313,BNSS315,BNSS318,BNSS385,BNSS410,BNSS411,BNSS413,BNSS415,BNSS418,BNSS485,BNSS510,BNSS511,BNSS513,BNSS515,BNSS585,BNSS610,BNSS611,BNSS613,BNSS615,BNSS685,BOPS4310,BOPS4311,BOPS4313,BOPS4315,BOPS4385,BOPS5410,BOPS5411,BOPS5413,BOPS5415,BOPS5485</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,BOPS6510,BOPS6511,BOPS6513,BOPS6515,BOPS6585,BOSS310,BOSS311,BOSS313,BOSS315,BOSS318,BOSS385,BOSS410,BOSS411,BOSS413,BOSS415,BOSS418,BOSS485,BOSS510,BOSS511,BOSS513,BOSS515,BOSS585,BOSS610,BOSS611,BOSS613,BOSS615,BOSS685,BNES505,BNES506,BNES605,BNES606,BOES505,BOES506,BOES605,BOES606,BOES310,BOES311,BOES313,BOES315,BOES318,BOES365,BOES3710,BOES3711,BOES3713,BOES3715,BOES3718,BOES3765,BOES3785,BOES385,BOES410,BOES411,BOES413,BOES415,BOES418,BOES465,BOES485,BOES510,BOES511,BOES513,BOES515,BOES518,BOES565,BOES585,BOES610,BOES611,BOES613,BOES615,BOES618,BOES665,BOES685,BOET3210,BOET3211,BOET3213,BOET3215,BOET3285,BOET410,BOET411,BOET413,BOET415,BOET485,BOET510,BOET511,BOET513,BOET515,BOET585,BOET610,BOET611,BOET613,BOET615,BOET685,BNET3210,BNET3211,BNET3213,BNET3215,BNET3285,BNET410,BNET411,BNET413,BNET415,BNET485,BNET510,BNET511,BNET513,BNET515,BNET585,BNET610,BNET611,BNET613,BNET615,BNET685</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>T3 Hai Bo</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Owner</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

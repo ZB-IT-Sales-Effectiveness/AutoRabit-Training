@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Biologics</fullName>
+                <default>false</default>
+                <label>Biologics</label>
+            </value>
+            <value>
+                <fullName>Bone Cement</fullName>
+                <default>false</default>
+                <label>Bone Cement</label>
+            </value>
+            <value>
+                <fullName>Bone Cement Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement Accessories</label>
+            </value>
+            <value>
+                <fullName>Elbows</fullName>
+                <default>false</default>
+                <label>Elbows</label>
+            </value>
+            <value>
+                <fullName>Fluid Waste</fullName>
+                <default>false</default>
+                <label>Fluid Waste</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Partial Hips</fullName>
+                <default>false</default>
+                <label>Partial Hips</label>
+            </value>
+            <value>
+                <fullName>Patial Knees</fullName>
+                <default>false</default>
+                <label>Patial Knees</label>
+            </value>
+            <value>
+                <fullName>Pneumatic Comp</fullName>
+                <default>false</default>
+                <label>Pneumatic Comp</label>
+            </value>
+            <value>
+                <fullName>Power/Blades</fullName>
+                <default>false</default>
+                <label>Power/Blades</label>
+            </value>
+            <value>
+                <fullName>Primary Hips</fullName>
+                <default>false</default>
+                <label>Primary Hips</label>
+            </value>
+            <value>
+                <fullName>Primary Knees</fullName>
+                <default>false</default>
+                <label>Primary Knees</label>
+            </value>
+            <value>
+                <fullName>Protective Apparel</fullName>
+                <default>false</default>
+                <label>Protective Apparel</label>
+            </value>
+            <value>
+                <fullName>Pulse Lavage</fullName>
+                <default>false</default>
+                <label>Pulse Lavage</label>
+            </value>
+            <value>
+                <fullName>Revision Hips</fullName>
+                <default>false</default>
+                <label>Revision Hips</label>
+            </value>
+            <value>
+                <fullName>Revision Knees</fullName>
+                <default>false</default>
+                <label>Revision Knees</label>
+            </value>
+            <value>
+                <fullName>ROSA Brain</fullName>
+                <default>false</default>
+                <label>ROSA Brain</label>
+            </value>
+            <value>
+                <fullName>ROSA Knee</fullName>
+                <default>false</default>
+                <label>ROSA Knee</label>
+            </value>
+            <value>
+                <fullName>ROSA Spine</fullName>
+                <default>false</default>
+                <label>ROSA Spine</label>
+            </value>
+            <value>
+                <fullName>Salvage Knees</fullName>
+                <default>false</default>
+                <label>Salvage Knees</label>
+            </value>
+            <value>
+                <fullName>Shoulders</fullName>
+                <default>false</default>
+                <label>Shoulders</label>
+            </value>
+            <value>
+                <fullName>Skin Grafting</fullName>
+                <default>false</default>
+                <label>Skin Grafting</label>
+            </value>
+            <value>
+                <fullName>Sports Medicine</fullName>
+                <default>false</default>
+                <label>Sports Medicine</label>
+            </value>
+            <value>
+                <fullName>Tourniquets</fullName>
+                <default>false</default>
+                <label>Tourniquets</label>
+            </value>
+            <value>
+                <fullName>Traction</fullName>
+                <default>false</default>
+                <label>Traction</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Visualization</fullName>
+                <default>false</default>
+                <label>Visualization</label>
+            </value>
+            <value>
+                <fullName>Walter</fullName>
+                <default>false</default>
+                <label>Walter</label>
+            </value>
+            <value>
+                <fullName>Wound Drainage</fullName>
+                <default>false</default>
+                <label>Wound Drainage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

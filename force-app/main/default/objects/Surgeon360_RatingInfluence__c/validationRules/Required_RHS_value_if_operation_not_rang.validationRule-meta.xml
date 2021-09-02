@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_RHS_value_if_operation_not_rang</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Operator__c , &quot;Range&quot;)),
+ISBLANK( RHS_Value__c)
+)</errorConditionFormula>
+    <errorMessage>Value needed for RHS field when operation is not a Range</errorMessage>
+</ValidationRule>

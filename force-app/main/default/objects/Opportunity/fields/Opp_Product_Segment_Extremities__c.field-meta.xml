@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Product_Segment_Extremities__c</fullName>
+    <description>Total no of related products with Segment=Extremities</description>
+    <externalId>false</externalId>
+    <label>Opp Product-Segment Extremities</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Opp_Product_Segment__c</field>
+        <operation>equals</operation>
+        <value>Extremities</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

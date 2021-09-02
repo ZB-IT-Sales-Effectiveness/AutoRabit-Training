@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>et4ae5__IndividualEmailResult__c.et4ae5__Opened__c:SUM/RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Percent Open Rate</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_85885583</developerName>
+        <masterLabel>Role Classification</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>FK_$Contact.Role_Classification__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Office - Admin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Customer Service Leader</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Customer Service Representative</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Driver</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - HR/Compliance</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Inventory  Coordinator</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Inventory Leader</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Operations Leader</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Pricing/Contracts</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Sourcing/Logistics Coordinator</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office - Sourcing/Logistics Leader</sourceValue>
+            </sourceValues>
+            <value>Office</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Sales Associate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager with accounts</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager without accounts</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Surgery Case Specialist</sourceValue>
+            </sourceValues>
+            <value>Sales Personnel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Distributor</sourceValue>
+            </sourceValues>
+            <value>Distributor</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__Opened__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Report_Group__c</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__Email__c</field>
+    </columns>
+    <columns>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__DateOpened__c</field>
+    </columns>
+    <columns>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__Clicked__c</field>
+    </columns>
+    <columns>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__NumberOfTotalClicks__c</field>
+    </columns>
+    <columns>
+        <field>et4ae5__IndividualEmailResult__c.et4ae5__NumberOfUniqueClicks__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>et4ae5__IndividualEmailResult__c.et4ae5__DateSent__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_N_DAYS:365</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CNTC_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Contact.Sales_Contact</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Contact.Role_Classification__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Zimmer Biomet Spine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Contact.Role_Classification__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value/>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Account.Class_Description__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value/>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Account.Class_Description__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_85885583</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>US Recon Email Open Rates</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$et4ae5__IndividualEmailResult__c@et4ae5__IndividualEmailResult__c.et4ae5__Contact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>et4ae5__IndividualEmailResult__c.et4ae5__DateSent__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

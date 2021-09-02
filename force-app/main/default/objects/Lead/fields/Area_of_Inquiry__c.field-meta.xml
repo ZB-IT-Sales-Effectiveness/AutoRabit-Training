@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_of_Inquiry__c</fullName>
+    <externalId>false</externalId>
+    <label>Area of Inquiry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grants and Donations</fullName>
+                <default>false</default>
+                <label>Grants and Donations</label>
+            </value>
+            <value>
+                <fullName>Local Community Grants</fullName>
+                <default>false</default>
+                <label>Local Community Grants</label>
+            </value>
+            <value>
+                <fullName>Accounts - Payable</fullName>
+                <default>false</default>
+                <label>Accounts - Payable</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>Surgical Sales</fullName>
+                <default>false</default>
+                <label>Surgical Sales</label>
+            </value>
+            <value>
+                <fullName>General Inquiry</fullName>
+                <default>false</default>
+                <label>General Inquiry</label>
+            </value>
+            <value>
+                <fullName>Patient Education</fullName>
+                <default>false</default>
+                <label>Patient Education</label>
+            </value>
+            <value>
+                <fullName>Supplier Certifications</fullName>
+                <default>false</default>
+                <label>Supplier Certifications</label>
+            </value>
+            <value>
+                <fullName>Website Support</fullName>
+                <default>false</default>
+                <label>Website Support</label>
+            </value>
+            <value>
+                <fullName>Accounts - Receivable</fullName>
+                <default>false</default>
+                <label>Accounts - Receivable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

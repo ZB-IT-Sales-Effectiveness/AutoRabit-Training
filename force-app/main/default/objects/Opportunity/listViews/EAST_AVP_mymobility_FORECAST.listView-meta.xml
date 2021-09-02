@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EAST_AVP_mymobility_FORECAST</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Pull_Through__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Manager_Forecast_Judgement__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Distributor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Distributor__c</field>
+        <operation>contains</operation>
+        <value>ZB-N ATLANTIC (ALMEIDA),MID-OHIO,ZB-EMPIRE,JNT MED CONCEPTS,ORTHOSOLU,SOUTHEAST,ZB-CAROLINAS,ZB-NC,ZB-ONE,LEGACY ORTHO,RICCIONE,ZB-MID-ATLANTIC,ZB-NYC,ZB-TRI-STATE,ZB-EMPIRE (FUSILLI),(GRAHAM),SOUTHWEST OHIO (YOUNG),APEX (FOX-GATTEN)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Accelero</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Discover,Solve,Execute,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Service</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>7/31/2021</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kyle Klein,Bailee Fitzgerald,Kris Simonton,Jackson Pfister,Kyle Smith,Mason DeAnna,Chase Idleman,Eric Caille,Dustin Papon</value>
+    </filters>
+    <label>EAST AVP mymobility FORECAST</label>
+    <sharedTo>
+        <role>EAST_ZONE</role>
+        <role>Mgmt_Technology_East_Zone</role>
+    </sharedTo>
+</ListView>

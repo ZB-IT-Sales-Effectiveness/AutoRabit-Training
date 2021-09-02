@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HIPS</fullName>
+                <default>false</default>
+                <label>HIPS</label>
+            </value>
+            <value>
+                <fullName>KNEES</fullName>
+                <default>false</default>
+                <label>KNEES</label>
+            </value>
+            <value>
+                <fullName>EXTREMITIES</fullName>
+                <default>false</default>
+                <label>EXTREMITIES</label>
+            </value>
+            <value>
+                <fullName>CEMENT</fullName>
+                <default>false</default>
+                <label>CEMENT</label>
+            </value>
+            <value>
+                <fullName>TRAUMA</fullName>
+                <default>false</default>
+                <label>TRAUMA</label>
+            </value>
+            <value>
+                <fullName>SPORTS MEDICINE</fullName>
+                <default>false</default>
+                <label>SPORTS MEDICINE</label>
+            </value>
+            <value>
+                <fullName>FOOT &amp; ANKLE</fullName>
+                <default>false</default>
+                <label>FOOT &amp; ANKLE</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS</fullName>
+                <default>false</default>
+                <label>BIOLOGICS</label>
+            </value>
+            <value>
+                <fullName>GEL-ONE</fullName>
+                <default>false</default>
+                <label>GEL-ONE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

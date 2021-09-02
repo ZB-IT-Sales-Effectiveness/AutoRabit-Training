@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon Status --></label>
+    <name>Surgeon_Status__c</name>
+    <picklistValues>
+        <masterLabel>Approaching Retirement</masterLabel>
+        <translation><!-- Approaching Retirement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Available Target</masterLabel>
+        <translation><!-- Available Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consultant Relationship</masterLabel>
+        <translation><!-- Consultant Relationship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Left Industry</masterLabel>
+        <translation><!-- Left Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired/Death</masterLabel>
+        <translation><!-- Retired/Death --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

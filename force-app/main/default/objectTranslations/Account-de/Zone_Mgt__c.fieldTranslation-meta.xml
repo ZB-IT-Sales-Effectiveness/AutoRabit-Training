@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Zone Mgt --></label>
+    <name>Zone_Mgt__c</name>
+    <picklistValues>
+        <masterLabel>Zone 01</masterLabel>
+        <translation><!-- Zone 01 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 02</masterLabel>
+        <translation><!-- Zone 02 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 03</masterLabel>
+        <translation><!-- Zone 03 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 04</masterLabel>
+        <translation><!-- Zone 04 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 05</masterLabel>
+        <translation><!-- Zone 05 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 06</masterLabel>
+        <translation><!-- Zone 06 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 07</masterLabel>
+        <translation><!-- Zone 07 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 08</masterLabel>
+        <translation><!-- Zone 08 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 09</masterLabel>
+        <translation><!-- Zone 09 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone 10</masterLabel>
+        <translation><!-- Zone 10 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

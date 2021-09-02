@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive_Term_Date_Validation</fullName>
+    <active>true</active>
+    <description>Whenever any contact is inactivated, Term Date is mandatory and vice versa.</description>
+    <errorConditionFormula>and(and(Or(and(Inactive__c, or( ISBLANK( Term_Date__c ), ISPICKVAL(  Transfer__c ,&apos;&apos;))  ), and( or(not(ISBLANK( Term_Date__c )), not(ISPICKVAL( Transfer__c,&apos;&apos;)) ) , not(Inactive__c))), RecordTypeId =&apos;012800000002DoB&apos;),or($User.ProfileId =&apos;00eC0000001SoOv&apos;, $User.ProfileId =&apos;00eC0000001SoOt&apos; ),$User.Alias &lt;&gt; &apos;khast&apos;)</errorConditionFormula>
+    <errorMessage>Term Date and Transfer fields are required only where the contact is inactive.</errorMessage>
+</ValidationRule>

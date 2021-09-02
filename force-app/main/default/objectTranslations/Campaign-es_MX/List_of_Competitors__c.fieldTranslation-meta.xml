@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Competitors Attending --></label>
+    <name>List_of_Competitors__c</name>
+    <picklistValues>
+        <masterLabel>BioHorizons</masterLabel>
+        <translation><!-- BioHorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply Sirona</masterLabel>
+        <translation><!-- Dentsply Sirona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hiossen</masterLabel>
+        <translation><!-- Hiossen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Direct</masterLabel>
+        <translation><!-- Implant Direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keystone Dental</masterLabel>
+        <translation><!-- Keystone Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel Biocare</masterLabel>
+        <translation><!-- Nobel Biocare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern Implants</masterLabel>
+        <translation><!-- Southern Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann</masterLabel>
+        <translation><!-- Straumann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thommen</masterLabel>
+        <translation><!-- Thommen --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

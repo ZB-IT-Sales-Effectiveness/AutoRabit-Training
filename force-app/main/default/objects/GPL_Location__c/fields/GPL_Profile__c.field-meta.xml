@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPL_Profile__c</fullName>
+    <externalId>false</externalId>
+    <label>GPL Profile</label>
+    <referenceTo>GPL_Profile__c</referenceTo>
+    <relationshipLabel>GPL Locations</relationshipLabel>
+    <relationshipName>Locations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

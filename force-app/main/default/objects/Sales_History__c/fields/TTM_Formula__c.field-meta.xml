@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TTM_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+Invoice_Date__c &gt;  ADDMONTHS(TODAY(),-12),
+Invoice_Date__c &lt;  TODAY()
+)</formula>
+    <inlineHelpText>Checked If Invoice Falls In Trailing Twelve Months (TTM)</inlineHelpText>
+    <label>TTM</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

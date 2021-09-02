@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Implant Competitor --></label>
+    <name>Primary_Implant_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Astra</masterLabel>
+        <translation><!-- Astra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biohorizons</masterLabel>
+        <translation><!-- Biohorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camlog</masterLabel>
+        <translation><!-- Camlog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply</masterLabel>
+        <translation><!-- Dentsply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hoissen</masterLabel>
+        <translation><!-- Hoissen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Direct</masterLabel>
+        <translation><!-- Implant Direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keystone</masterLabel>
+        <translation><!-- Keystone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS</masterLabel>
+        <translation><!-- MIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neodent</masterLabel>
+        <translation><!-- Neodent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neoss</masterLabel>
+        <translation><!-- Neoss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel Biocare</masterLabel>
+        <translation><!-- Nobel Biocare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OsteoReady</masterLabel>
+        <translation><!-- OsteoReady --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann ITI</masterLabel>
+        <translation><!-- Straumann ITI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thommen</masterLabel>
+        <translation><!-- Thommen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

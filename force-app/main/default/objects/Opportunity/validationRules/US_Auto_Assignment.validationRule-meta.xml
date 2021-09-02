@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Auto_Assignment</fullName>
+    <active>false</active>
+    <description>US_Auto_Assignment</description>
+    <errorConditionFormula>AND( 
+    OR(
+     RecordType.Id == &apos;012C0000000GaIO&apos;,RecordType.Id == &apos;012C0000000Ga1g&apos;,
+     RecordType.Id == &apos;012800000002ReS&apos;,RecordType.Id == &apos;0123b000000Qfrz&apos;,
+     RecordType.Id == &apos;012C0000000GZza&apos;,RecordType.Id == &apos;012C0000000QEmM&apos;,
+     RecordType.Id == &apos;012C0000000Ga2F&apos;,RecordType.Id == &apos;012C0000000YQrE&apos;
+     ),
+    ISBLANK(Account.MDM_SAP_ID__c)
+)</errorConditionFormula>
+    <errorMessage>You must pick a hospital account with a &apos;zimmer account number&apos;.</errorMessage>
+</ValidationRule>

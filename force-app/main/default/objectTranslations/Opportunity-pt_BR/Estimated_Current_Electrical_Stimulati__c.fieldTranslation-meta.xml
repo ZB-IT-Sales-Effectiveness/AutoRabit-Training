@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Estimated Current Electrical Stimulati --></label>
+    <name>Estimated_Current_Electrical_Stimulati__c</name>
+    <picklistValues>
+        <masterLabel>10-15 stims/month</masterLabel>
+        <translation><!-- 10-15 stims/month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15+ stims/month</masterLabel>
+        <translation><!-- 15+ stims/month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5-10 stims/month</masterLabel>
+        <translation><!-- 5-10 stims/month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than 5 stims/month</masterLabel>
+        <translation><!-- Less than 5 stims/month --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

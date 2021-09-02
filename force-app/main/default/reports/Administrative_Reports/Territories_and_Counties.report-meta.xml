@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>County_Distributor__c</joinTable>
+        </blockInfo>
+        <columns>
+            <field>County_Distributor__c$Name</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c.Territory_counties2__r$Name</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c.Territory_counties2__r$territory__c</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c$State_Code__c</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c$County_Distributor_External_Id__c</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c$FIPS_Code__c</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c.Territory_counties2__r$territory__c.Territory_External_Id__c</field>
+        </columns>
+        <currency>USD</currency>
+        <format>Tabular</format>
+        <name>Counties &amp; Territory County block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>Counties_Territory_County__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>County_Distributor__c$CreatedDate</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>County_Distributor__c</joinTable>
+        </blockInfo>
+        <columns>
+            <field>County_Distributor__c.County_to_Zip_Codes__r$Zip_Codes_Distributor__c</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c$Name</field>
+        </columns>
+        <columns>
+            <field>County_Distributor__c.County_to_Zip_Codes__r$Name</field>
+        </columns>
+        <currency>USD</currency>
+        <format>Summary</format>
+        <name>Territory County &amp; counties to z block 2</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>Territory_County_counties_to_zip_code_Test2__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>County_Distributor__c$CreatedDate</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>County_Distributor__c</joinTable>
+    </blockInfo>
+    <description>Territories and Counties</description>
+    <format>MultiBlock</format>
+    <name>Territories and Counties</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>Counties_Territory_County__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productsubgroup_Shorttext__c</fullName>
+    <externalId>false</externalId>
+    <label>Produktuntergruppe Kurztext</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hip Service Revenue</fullName>
+                <default>false</default>
+                <label>Hip Service Revenue</label>
+            </value>
+            <value>
+                <fullName>Knee Service Revenue</fullName>
+                <default>false</default>
+                <label>Knee Service Revenue</label>
+            </value>
+            <value>
+                <fullName>FMD Service Revenue</fullName>
+                <default>false</default>
+                <label>FMD Service Revenue</label>
+            </value>
+            <value>
+                <fullName>Extremities Service Revenue</fullName>
+                <default>false</default>
+                <label>Extremities Service Revenue</label>
+            </value>
+            <value>
+                <fullName>CEP Hips (inactive)</fullName>
+                <default>false</default>
+                <label>CEP Hips (inactive)</label>
+            </value>
+            <value>
+                <fullName>CEP Knees (inactive)</fullName>
+                <default>false</default>
+                <label>CEP Knees (inactive)</label>
+            </value>
+            <value>
+                <fullName>CEP Spine (inactive)</fullName>
+                <default>false</default>
+                <label>CEP Spine (inactive)</label>
+            </value>
+            <value>
+                <fullName>CEP Patient Care (inactive)</fullName>
+                <default>false</default>
+                <label>CEP Patient Care (inactive)</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal Modular Cups</fullName>
+                <default>false</default>
+                <label>Trabecular Metal Modular Cups</label>
+            </value>
+            <value>
+                <fullName>Trabecular Acetabular Augment Cups</fullName>
+                <default>false</default>
+                <label>Trabecular Acetabular Augment Cups</label>
+            </value>
+            <value>
+                <fullName>Precimed Reamers</fullName>
+                <default>false</default>
+                <label>Precimed Reamers</label>
+            </value>
+            <value>
+                <fullName>Ex-Plant Instrument</fullName>
+                <default>false</default>
+                <label>Ex-Plant Instrument</label>
+            </value>
+            <value>
+                <fullName>Molded CR NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>Molded CR NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>LPS Fixed-Molded NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>LPS Fixed-Molded NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>LCCK NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>LCCK NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Rotating Hinge Articular Surface</fullName>
+                <default>false</default>
+                <label>Rotating Hinge Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Rotating Hinge Tibial Plate</fullName>
+                <default>false</default>
+                <label>Rotating Hinge Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>TM CR Monoblock Tibial</fullName>
+                <default>false</default>
+                <label>TM CR Monoblock Tibial</label>
+            </value>
+            <value>
+                <fullName>TM LPS Monoblock Tibial</fullName>
+                <default>false</default>
+                <label>TM LPS Monoblock Tibial</label>
+            </value>
+            <value>
+                <fullName>NexGen Augmentation Patella</fullName>
+                <default>false</default>
+                <label>NexGen Augmentation Patella</label>
+            </value>
+            <value>
+                <fullName>Continuum Augmentation Patella</fullName>
+                <default>false</default>
+                <label>Continuum Augmentation Patella</label>
+            </value>
+            <value>
+                <fullName>NexGen Stems, Augments</fullName>
+                <default>false</default>
+                <label>NexGen Stems, Augments</label>
+            </value>
+            <value>
+                <fullName>Pressure Sentinel Reamers</fullName>
+                <default>false</default>
+                <label>Pressure Sentinel Reamers</label>
+            </value>
+            <value>
+                <fullName>Cables</fullName>
+                <default>false</default>
+                <label>Cables</label>
+            </value>
+            <value>
+                <fullName>GTR</fullName>
+                <default>false</default>
+                <label>GTR</label>
+            </value>
+            <value>
+                <fullName>Cable Pin</fullName>
+                <default>false</default>
+                <label>Cable Pin</label>
+            </value>
+            <value>
+                <fullName>Cable Plates</fullName>
+                <default>false</default>
+                <label>Cable Plates</label>
+            </value>
+            <value>
+                <fullName>Luque Wires</fullName>
+                <default>false</default>
+                <label>Luque Wires</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Tibia</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Tibia</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Femur</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Femur</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Fibula</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Fibula</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Elbow</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Elbow</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Shoulder</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Shoulder</label>
+            </value>
+            <value>
+                <fullName>Periarticular Plates - Hand</fullName>
+                <default>false</default>
+                <label>Periarticular Plates - Hand</label>
+            </value>
+            <value>
+                <fullName>Periarticular Screws</fullName>
+                <default>false</default>
+                <label>Periarticular Screws</label>
+            </value>
+            <value>
+                <fullName>ZPS Mini Frag Plates</fullName>
+                <default>false</default>
+                <label>ZPS Mini Frag Plates</label>
+            </value>
+            <value>
+                <fullName>ZPS Small Frag Plates</fullName>
+                <default>false</default>
+                <label>ZPS Small Frag Plates</label>
+            </value>
+            <value>
+                <fullName>ZPS Large Frag Plates</fullName>
+                <default>false</default>
+                <label>ZPS Large Frag Plates</label>
+            </value>
+            <value>
+                <fullName>ZPS Pelvic Plates</fullName>
+                <default>false</default>
+                <label>ZPS Pelvic Plates</label>
+            </value>
+            <value>
+                <fullName>ZPS Screws</fullName>
+                <default>false</default>
+                <label>ZPS Screws</label>
+            </value>
+            <value>
+                <fullName>ECT Large Frag Plates</fullName>
+                <default>false</default>
+                <label>ECT Large Frag Plates</label>
+            </value>
+            <value>
+                <fullName>Cannulated Screws</fullName>
+                <default>false</default>
+                <label>Cannulated Screws</label>
+            </value>
+            <value>
+                <fullName>Pins/Wires</fullName>
+                <default>false</default>
+                <label>Pins/Wires</label>
+            </value>
+            <value>
+                <fullName>Trauma System Instruments</fullName>
+                <default>false</default>
+                <label>Trauma System Instruments</label>
+            </value>
+            <value>
+                <fullName>B/F Shoulder Stems</fullName>
+                <default>false</default>
+                <label>B/F Shoulder Stems</label>
+            </value>
+            <value>
+                <fullName>B/F Shoulder Heads</fullName>
+                <default>false</default>
+                <label>B/F Shoulder Heads</label>
+            </value>
+            <value>
+                <fullName>B/F Shoulder Glenoids</fullName>
+                <default>false</default>
+                <label>B/F Shoulder Glenoids</label>
+            </value>
+            <value>
+                <fullName>C/M Elbow Ulnar</fullName>
+                <default>false</default>
+                <label>C/M Elbow Ulnar</label>
+            </value>
+            <value>
+                <fullName>C/M Elbow Humeral</fullName>
+                <default>false</default>
+                <label>C/M Elbow Humeral</label>
+            </value>
+            <value>
+                <fullName>B/F Shoulder Instruments</fullName>
+                <default>false</default>
+                <label>B/F Shoulder Instruments</label>
+            </value>
+            <value>
+                <fullName>C/M Elbow Instruments</fullName>
+                <default>false</default>
+                <label>C/M Elbow Instruments</label>
+            </value>
+            <value>
+                <fullName>Precoat CR Flex NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Precoat CR Flex NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Option CR Flex NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Option CR Flex NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Porous CR Flex NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Porous CR Flex NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>M / L Taper</fullName>
+                <default>false</default>
+                <label>M / L Taper</label>
+            </value>
+            <value>
+                <fullName>PE Bipolar Liners</fullName>
+                <default>false</default>
+                <label>PE Bipolar Liners</label>
+            </value>
+            <value>
+                <fullName>Accessories (inactive)</fullName>
+                <default>false</default>
+                <label>Accessories (inactive)</label>
+            </value>
+            <value>
+                <fullName>Other Hip Products Implex</fullName>
+                <default>false</default>
+                <label>Other Hip Products Implex</label>
+            </value>
+            <value>
+                <fullName>MDN Instruments</fullName>
+                <default>false</default>
+                <label>MDN Instruments</label>
+            </value>
+            <value>
+                <fullName>Other IM Nail Instruments</fullName>
+                <default>false</default>
+                <label>Other IM Nail Instruments</label>
+            </value>
+            <value>
+                <fullName>Hex Buttons</fullName>
+                <default>false</default>
+                <label>Hex Buttons</label>
+            </value>
+            <value>
+                <fullName>Periarticular Locking Plates - Humerus</fullName>
+                <default>false</default>
+                <label>Periarticular Locking Plates - Humerus</label>
+            </value>
+            <value>
+                <fullName>Periarticular Locking Plates - Radius</fullName>
+                <default>false</default>
+                <label>Periarticular Locking Plates - Radius</label>
+            </value>
+            <value>
+                <fullName>Periarticular Instruments</fullName>
+                <default>false</default>
+                <label>Periarticular Instruments</label>
+            </value>
+            <value>
+                <fullName>ZPS Instruments</fullName>
+                <default>false</default>
+                <label>ZPS Instruments</label>
+            </value>
+            <value>
+                <fullName>ECT Instruments</fullName>
+                <default>false</default>
+                <label>ECT Instruments</label>
+            </value>
+            <value>
+                <fullName>Cannulated Screw Instruments</fullName>
+                <default>false</default>
+                <label>Cannulated Screw Instruments</label>
+            </value>
+            <value>
+                <fullName>Specialized Screw Instruments</fullName>
+                <default>false</default>
+                <label>Specialized Screw Instruments</label>
+            </value>
+            <value>
+                <fullName>ON Rod Implants</fullName>
+                <default>false</default>
+                <label>ON Rod Implants</label>
+            </value>
+            <value>
+                <fullName>C/M Elbow Other</fullName>
+                <default>false</default>
+                <label>C/M Elbow Other</label>
+            </value>
+            <value>
+                <fullName>Other Shoulder Instruments</fullName>
+                <default>false</default>
+                <label>Other Shoulder Instruments</label>
+            </value>
+            <value>
+                <fullName>Zimmer UNI Femoral Precoat</fullName>
+                <default>false</default>
+                <label>Zimmer UNI Femoral Precoat</label>
+            </value>
+            <value>
+                <fullName>Zimmer UNI Art Surf Fixed Bearing</fullName>
+                <default>false</default>
+                <label>Zimmer UNI Art Surf Fixed Bearing</label>
+            </value>
+            <value>
+                <fullName>Zimmer Uni Fixed Tibial Plate</fullName>
+                <default>false</default>
+                <label>Zimmer Uni Fixed Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>Other Shoulder Heads</fullName>
+                <default>false</default>
+                <label>Other Shoulder Heads</label>
+            </value>
+            <value>
+                <fullName>Navigated Open Knee Software</fullName>
+                <default>false</default>
+                <label>Navigated Open Knee Software</label>
+            </value>
+            <value>
+                <fullName>Navigated MIS QS Knee Software</fullName>
+                <default>false</default>
+                <label>Navigated MIS QS Knee Software</label>
+            </value>
+            <value>
+                <fullName>Navigated Mini Hip Software</fullName>
+                <default>false</default>
+                <label>Navigated Mini Hip Software</label>
+            </value>
+            <value>
+                <fullName>BAK/C</fullName>
+                <default>false</default>
+                <label>BAK/C</label>
+            </value>
+            <value>
+                <fullName>Cervi-lok</fullName>
+                <default>false</default>
+                <label>Cervi-lok</label>
+            </value>
+            <value>
+                <fullName>Trinica Standard</fullName>
+                <default>false</default>
+                <label>Trinica Standard</label>
+            </value>
+            <value>
+                <fullName>Trinica Select</fullName>
+                <default>false</default>
+                <label>Trinica Select</label>
+            </value>
+            <value>
+                <fullName>BAK/L</fullName>
+                <default>false</default>
+                <label>BAK/L</label>
+            </value>
+            <value>
+                <fullName>Proximity</fullName>
+                <default>false</default>
+                <label>Proximity</label>
+            </value>
+            <value>
+                <fullName>Silhouette</fullName>
+                <default>false</default>
+                <label>Silhouette</label>
+            </value>
+            <value>
+                <fullName>U&amp;I Optima</fullName>
+                <default>false</default>
+                <label>U&amp;I Optima</label>
+            </value>
+            <value>
+                <fullName>ST360</fullName>
+                <default>false</default>
+                <label>ST360</label>
+            </value>
+            <value>
+                <fullName>TMT Lumbar</fullName>
+                <default>false</default>
+                <label>TMT Lumbar</label>
+            </value>
+            <value>
+                <fullName>Dynesys</fullName>
+                <default>false</default>
+                <label>Dynesys</label>
+            </value>
+            <value>
+                <fullName>OEM/SDI</fullName>
+                <default>false</default>
+                <label>OEM/SDI</label>
+            </value>
+            <value>
+                <fullName>Discectomy</fullName>
+                <default>false</default>
+                <label>Discectomy</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Healos (inactive)</fullName>
+                <default>false</default>
+                <label>Healos (inactive)</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Unispacers</fullName>
+                <default>false</default>
+                <label>Unispacers</label>
+            </value>
+            <value>
+                <fullName>NKII Uni Porous</fullName>
+                <default>false</default>
+                <label>NKII Uni Porous</label>
+            </value>
+            <value>
+                <fullName>Allegretto Femorals Non-porous</fullName>
+                <default>false</default>
+                <label>Allegretto Femorals Non-porous</label>
+            </value>
+            <value>
+                <fullName>Innex CR Femoral</fullName>
+                <default>false</default>
+                <label>Innex CR Femoral</label>
+            </value>
+            <value>
+                <fullName>Innex CR Cementless Femoral</fullName>
+                <default>false</default>
+                <label>Innex CR Cementless Femoral</label>
+            </value>
+            <value>
+                <fullName>Innex SC Femoral</fullName>
+                <default>false</default>
+                <label>Innex SC Femoral</label>
+            </value>
+            <value>
+                <fullName>NKII Porous Femoral</fullName>
+                <default>false</default>
+                <label>NKII Porous Femoral</label>
+            </value>
+            <value>
+                <fullName>NKII Non-Porous Femoral</fullName>
+                <default>false</default>
+                <label>NKII Non-Porous Femoral</label>
+            </value>
+            <value>
+                <fullName>NKII Non-Porous PS Femoral</fullName>
+                <default>false</default>
+                <label>NKII Non-Porous PS Femoral</label>
+            </value>
+            <value>
+                <fullName>NKII Revision Porous Femoral</fullName>
+                <default>false</default>
+                <label>NKII Revision Porous Femoral</label>
+            </value>
+            <value>
+                <fullName>NKII Cons/Rev Non-Porous Femoral</fullName>
+                <default>false</default>
+                <label>NKII Cons/Rev Non-Porous Femoral</label>
+            </value>
+            <value>
+                <fullName>Innex CR Mobile Articular Surface</fullName>
+                <default>false</default>
+                <label>Innex CR Mobile Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Innex UCOR Mobile Articular Surface</fullName>
+                <default>false</default>
+                <label>Innex UCOR Mobile Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Innex CR Articular Surface</fullName>
+                <default>false</default>
+                <label>Innex CR Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Innex UC Articular Surface</fullName>
+                <default>false</default>
+                <label>Innex UC Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Innex SC Articular Surface</fullName>
+                <default>false</default>
+                <label>Innex SC Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Uni Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII Uni Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Congruent Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII Congruent Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Ultra-Congruent Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII Ultra-Congruent Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Rotating Platform Ultra-Congruent Articular S</fullName>
+                <default>false</default>
+                <label>NKII Rotating Platform Ultra-Congruent Articular S</label>
+            </value>
+            <value>
+                <fullName>NKII Durasul Congruent Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII Durasul Congruent Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Durasul Ultra-Congruent Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII Durasul Ultra-Congruent Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII PS Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII PS Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Uni Tib Plate Porous</fullName>
+                <default>false</default>
+                <label>NKII Uni Tib Plate Porous</label>
+            </value>
+            <value>
+                <fullName>Allegretto Tibia</fullName>
+                <default>false</default>
+                <label>Allegretto Tibia</label>
+            </value>
+            <value>
+                <fullName>NKII Tibial Plate Porous</fullName>
+                <default>false</default>
+                <label>NKII Tibial Plate Porous</label>
+            </value>
+            <value>
+                <fullName>NKII Tibial Plate Non-Porous</fullName>
+                <default>false</default>
+                <label>NKII Tibial Plate Non-Porous</label>
+            </value>
+            <value>
+                <fullName>NKII Revision Tibial Plate Porous</fullName>
+                <default>false</default>
+                <label>NKII Revision Tibial Plate Porous</label>
+            </value>
+            <value>
+                <fullName>NKII Revision Tibial Plate Non-Porous</fullName>
+                <default>false</default>
+                <label>NKII Revision Tibial Plate Non-Porous</label>
+            </value>
+            <value>
+                <fullName>NKII Tib Plate All-Poly</fullName>
+                <default>false</default>
+                <label>NKII Tib Plate All-Poly</label>
+            </value>
+            <value>
+                <fullName>Innex Mobile Tibial Plate</fullName>
+                <default>false</default>
+                <label>Innex Mobile Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>Innex Mobile Cementless Tibial Plate</fullName>
+                <default>false</default>
+                <label>Innex Mobile Cementless Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>Innex Fixed Tibial Plate</fullName>
+                <default>false</default>
+                <label>Innex Fixed Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>NKII Metal-Backed Patella</fullName>
+                <default>false</default>
+                <label>NKII Metal-Backed Patella</label>
+            </value>
+            <value>
+                <fullName>NKII All-Poly Patella</fullName>
+                <default>false</default>
+                <label>NKII All-Poly Patella</label>
+            </value>
+            <value>
+                <fullName>NKII Durasul Patella</fullName>
+                <default>false</default>
+                <label>NKII Durasul Patella</label>
+            </value>
+            <value>
+                <fullName>Most Patella</fullName>
+                <default>false</default>
+                <label>Most Patella</label>
+            </value>
+            <value>
+                <fullName>Innex Patella</fullName>
+                <default>false</default>
+                <label>Innex Patella</label>
+            </value>
+            <value>
+                <fullName>Sysorb</fullName>
+                <default>false</default>
+                <label>Sysorb</label>
+            </value>
+            <value>
+                <fullName>CMI</fullName>
+                <default>false</default>
+                <label>CMI</label>
+            </value>
+            <value>
+                <fullName>Sports Medicine - Instruments</fullName>
+                <default>false</default>
+                <label>Sports Medicine - Instruments</label>
+            </value>
+            <value>
+                <fullName>Other Sports Medicine</fullName>
+                <default>false</default>
+                <label>Other Sports Medicine</label>
+            </value>
+            <value>
+                <fullName>NKII HTO PLATE</fullName>
+                <default>false</default>
+                <label>NKII HTO PLATE</label>
+            </value>
+            <value>
+                <fullName>Innex - Other</fullName>
+                <default>false</default>
+                <label>Innex - Other</label>
+            </value>
+            <value>
+                <fullName>Omnia Femorals Mobile Bearing (SAL)</fullName>
+                <default>false</default>
+                <label>Omnia Femorals Mobile Bearing (SAL)</label>
+            </value>
+            <value>
+                <fullName>Omnia Fixed Femorals Bearing (Wallaby)</fullName>
+                <default>false</default>
+                <label>Omnia Fixed Femorals Bearing (Wallaby)</label>
+            </value>
+            <value>
+                <fullName>GSB Femorals</fullName>
+                <default>false</default>
+                <label>GSB Femorals</label>
+            </value>
+            <value>
+                <fullName>Freeman Samuelson Femorals</fullName>
+                <default>false</default>
+                <label>Freeman Samuelson Femorals</label>
+            </value>
+            <value>
+                <fullName>MOST Stems, Adaptors, Segments &amp; Augments</fullName>
+                <default>false</default>
+                <label>MOST Stems, Adaptors, Segments &amp; Augments</label>
+            </value>
+            <value>
+                <fullName>Centerpulse Other Knees</fullName>
+                <default>false</default>
+                <label>Centerpulse Other Knees</label>
+            </value>
+            <value>
+                <fullName>Centerpulse Knee Instruments</fullName>
+                <default>false</default>
+                <label>Centerpulse Knee Instruments</label>
+            </value>
+            <value>
+                <fullName>NKII Spacers</fullName>
+                <default>false</default>
+                <label>NKII Spacers</label>
+            </value>
+            <value>
+                <fullName>MS 30</fullName>
+                <default>false</default>
+                <label>MS 30</label>
+            </value>
+            <value>
+                <fullName>Exafit</fullName>
+                <default>false</default>
+                <label>Exafit</label>
+            </value>
+            <value>
+                <fullName>Durom Femoral Component</fullName>
+                <default>false</default>
+                <label>Durom Femoral Component</label>
+            </value>
+            <value>
+                <fullName>Metabloc</fullName>
+                <default>false</default>
+                <label>Metabloc</label>
+            </value>
+            <value>
+                <fullName>Müller Straight Stem</fullName>
+                <default>false</default>
+                <label>Müller Straight Stem</label>
+            </value>
+            <value>
+                <fullName>Virtec</fullName>
+                <default>false</default>
+                <label>Virtec</label>
+            </value>
+            <value>
+                <fullName>Weber Fix</fullName>
+                <default>false</default>
+                <label>Weber Fix</label>
+            </value>
+            <value>
+                <fullName>Optan Cemented</fullName>
+                <default>false</default>
+                <label>Optan Cemented</label>
+            </value>
+            <value>
+                <fullName>Metabloc Taper</fullName>
+                <default>false</default>
+                <label>Metabloc Taper</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Zweymuller Taper</fullName>
+                <default>false</default>
+                <label>Alloclassic Zweymuller Taper</label>
+            </value>
+            <value>
+                <fullName>CLS Spotorno Taper</fullName>
+                <default>false</default>
+                <label>CLS Spotorno Taper</label>
+            </value>
+            <value>
+                <fullName>Thrust Plate Taper</fullName>
+                <default>false</default>
+                <label>Thrust Plate Taper</label>
+            </value>
+            <value>
+                <fullName>Wagner Cone</fullName>
+                <default>false</default>
+                <label>Wagner Cone</label>
+            </value>
+            <value>
+                <fullName>Optan Cementless</fullName>
+                <default>false</default>
+                <label>Optan Cementless</label>
+            </value>
+            <value>
+                <fullName>Virtec Cemented</fullName>
+                <default>false</default>
+                <label>Virtec Cemented</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Zweymuller SLL</fullName>
+                <default>false</default>
+                <label>Alloclassic Zweymuller SLL</label>
+            </value>
+            <value>
+                <fullName>Wagner SL</fullName>
+                <default>false</default>
+                <label>Wagner SL</label>
+            </value>
+            <value>
+                <fullName>Revitan Stems</fullName>
+                <default>false</default>
+                <label>Revitan Stems</label>
+            </value>
+            <value>
+                <fullName>Revitan Bodies</fullName>
+                <default>false</default>
+                <label>Revitan Bodies</label>
+            </value>
+            <value>
+                <fullName>Muller Low Profile standard PE /Full Profile Cups</fullName>
+                <default>false</default>
+                <label>Muller Low Profile standard PE /Full Profile Cups</label>
+            </value>
+            <value>
+                <fullName>Muller Low Profile w/ Durasul</fullName>
+                <default>false</default>
+                <label>Muller Low Profile w/ Durasul</label>
+            </value>
+            <value>
+                <fullName>Muller Low Profile w/Metasul</fullName>
+                <default>false</default>
+                <label>Muller Low Profile w/Metasul</label>
+            </value>
+            <value>
+                <fullName>Brunswick Cup</fullName>
+                <default>false</default>
+                <label>Brunswick Cup</label>
+            </value>
+            <value>
+                <fullName>Exafit Cup - Durasul</fullName>
+                <default>false</default>
+                <label>Exafit Cup - Durasul</label>
+            </value>
+            <value>
+                <fullName>SPC Cup</fullName>
+                <default>false</default>
+                <label>SPC Cup</label>
+            </value>
+            <value>
+                <fullName>Weber Cup</fullName>
+                <default>false</default>
+                <label>Weber Cup</label>
+            </value>
+            <value>
+                <fullName>Weber - Metasul</fullName>
+                <default>false</default>
+                <label>Weber - Metasul</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Zweymuller CSF Screw Cup</fullName>
+                <default>false</default>
+                <label>Alloclassic Zweymuller CSF Screw Cup</label>
+            </value>
+            <value>
+                <fullName>Allofit Shell</fullName>
+                <default>false</default>
+                <label>Allofit Shell</label>
+            </value>
+            <value>
+                <fullName>CLS Spotorno Shell</fullName>
+                <default>false</default>
+                <label>CLS Spotorno Shell</label>
+            </value>
+            <value>
+                <fullName>Fitmore Shell</fullName>
+                <default>false</default>
+                <label>Fitmore Shell</label>
+            </value>
+            <value>
+                <fullName>Morscher</fullName>
+                <default>false</default>
+                <label>Morscher</label>
+            </value>
+            <value>
+                <fullName>Durom Acetabular Component</fullName>
+                <default>false</default>
+                <label>Durom Acetabular Component</label>
+            </value>
+            <value>
+                <fullName>St. Nabor</fullName>
+                <default>false</default>
+                <label>St. Nabor</label>
+            </value>
+            <value>
+                <fullName>Variall Screw Cup</fullName>
+                <default>false</default>
+                <label>Variall Screw Cup</label>
+            </value>
+            <value>
+                <fullName>Burch-Schneider Cage</fullName>
+                <default>false</default>
+                <label>Burch-Schneider Cage</label>
+            </value>
+            <value>
+                <fullName>Ganz Ring</fullName>
+                <default>false</default>
+                <label>Ganz Ring</label>
+            </value>
+            <value>
+                <fullName>Muller Ring</fullName>
+                <default>false</default>
+                <label>Muller Ring</label>
+            </value>
+            <value>
+                <fullName>LOR</fullName>
+                <default>false</default>
+                <label>LOR</label>
+            </value>
+            <value>
+                <fullName>Metasul Insert</fullName>
+                <default>false</default>
+                <label>Metasul Insert</label>
+            </value>
+            <value>
+                <fullName>Cerasul</fullName>
+                <default>false</default>
+                <label>Cerasul</label>
+            </value>
+            <value>
+                <fullName>Metasul Heads</fullName>
+                <default>false</default>
+                <label>Metasul Heads</label>
+            </value>
+            <value>
+                <fullName>Bipolar Centerpulse</fullName>
+                <default>false</default>
+                <label>Bipolar Centerpulse</label>
+            </value>
+            <value>
+                <fullName>CEP Hips - Other</fullName>
+                <default>false</default>
+                <label>CEP Hips - Other</label>
+            </value>
+            <value>
+                <fullName>CEP Hip Instruments</fullName>
+                <default>false</default>
+                <label>CEP Hip Instruments</label>
+            </value>
+            <value>
+                <fullName>Select Shoulder Stems</fullName>
+                <default>false</default>
+                <label>Select Shoulder Stems</label>
+            </value>
+            <value>
+                <fullName>Select Shoulder Heads</fullName>
+                <default>false</default>
+                <label>Select Shoulder Heads</label>
+            </value>
+            <value>
+                <fullName>Select Shoulder Glenoids</fullName>
+                <default>false</default>
+                <label>Select Shoulder Glenoids</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Stems</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Stems</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Heads</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Heads</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Glenoids</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Glenoids</label>
+            </value>
+            <value>
+                <fullName>GSB Elbow Ulnar</fullName>
+                <default>false</default>
+                <label>GSB Elbow Ulnar</label>
+            </value>
+            <value>
+                <fullName>GSB Elbow Humeral</fullName>
+                <default>false</default>
+                <label>GSB Elbow Humeral</label>
+            </value>
+            <value>
+                <fullName>GSB Elbow Other</fullName>
+                <default>false</default>
+                <label>GSB Elbow Other</label>
+            </value>
+            <value>
+                <fullName>Select Shoulder Instruments</fullName>
+                <default>false</default>
+                <label>Select Shoulder Instruments</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder Instruments</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder Instruments</label>
+            </value>
+            <value>
+                <fullName>GSB Instruments</fullName>
+                <default>false</default>
+                <label>GSB Instruments</label>
+            </value>
+            <value>
+                <fullName>Extremities Instruments</fullName>
+                <default>false</default>
+                <label>Extremities Instruments</label>
+            </value>
+            <value>
+                <fullName>CEP Extremities - Other</fullName>
+                <default>false</default>
+                <label>CEP Extremities - Other</label>
+            </value>
+            <value>
+                <fullName>Sirus Femoral Nails</fullName>
+                <default>false</default>
+                <label>Sirus Femoral Nails</label>
+            </value>
+            <value>
+                <fullName>Sirus Tibial Nails</fullName>
+                <default>false</default>
+                <label>Sirus Tibial Nails</label>
+            </value>
+            <value>
+                <fullName>Sirus Humeral Nails</fullName>
+                <default>false</default>
+                <label>Sirus Humeral Nails</label>
+            </value>
+            <value>
+                <fullName>Sirus Screws</fullName>
+                <default>false</default>
+                <label>Sirus Screws</label>
+            </value>
+            <value>
+                <fullName>Sirus Instruments</fullName>
+                <default>false</default>
+                <label>Sirus Instruments</label>
+            </value>
+            <value>
+                <fullName>Intrasys Short Nails</fullName>
+                <default>false</default>
+                <label>Intrasys Short Nails</label>
+            </value>
+            <value>
+                <fullName>Intrasys Long Nails</fullName>
+                <default>false</default>
+                <label>Intrasys Long Nails</label>
+            </value>
+            <value>
+                <fullName>Intrasys Screws</fullName>
+                <default>false</default>
+                <label>Intrasys Screws</label>
+            </value>
+            <value>
+                <fullName>Intrasys Instruments</fullName>
+                <default>false</default>
+                <label>Intrasys Instruments</label>
+            </value>
+            <value>
+                <fullName>Interlocking Femoral Nails</fullName>
+                <default>false</default>
+                <label>Interlocking Femoral Nails</label>
+            </value>
+            <value>
+                <fullName>Interlocking Tibial Nails</fullName>
+                <default>false</default>
+                <label>Interlocking Tibial Nails</label>
+            </value>
+            <value>
+                <fullName>Interlocking Screws</fullName>
+                <default>false</default>
+                <label>Interlocking Screws</label>
+            </value>
+            <value>
+                <fullName>Interlocking Nail Instuments</fullName>
+                <default>false</default>
+                <label>Interlocking Nail Instuments</label>
+            </value>
+            <value>
+                <fullName>Sinart Nails</fullName>
+                <default>false</default>
+                <label>Sinart Nails</label>
+            </value>
+            <value>
+                <fullName>Sinart Screws</fullName>
+                <default>false</default>
+                <label>Sinart Screws</label>
+            </value>
+            <value>
+                <fullName>Sinart Instuments</fullName>
+                <default>false</default>
+                <label>Sinart Instuments</label>
+            </value>
+            <value>
+                <fullName>DHS-DCS Plates</fullName>
+                <default>false</default>
+                <label>DHS-DCS Plates</label>
+            </value>
+            <value>
+                <fullName>DHS-DCS Screws</fullName>
+                <default>false</default>
+                <label>DHS-DCS Screws</label>
+            </value>
+            <value>
+                <fullName>DHS-DCS Instuments</fullName>
+                <default>false</default>
+                <label>DHS-DCS Instuments</label>
+            </value>
+            <value>
+                <fullName>Large Frag Plates</fullName>
+                <default>false</default>
+                <label>Large Frag Plates</label>
+            </value>
+            <value>
+                <fullName>Large Frag Screws</fullName>
+                <default>false</default>
+                <label>Large Frag Screws</label>
+            </value>
+            <value>
+                <fullName>Large Frag Instruments</fullName>
+                <default>false</default>
+                <label>Large Frag Instruments</label>
+            </value>
+            <value>
+                <fullName>Small Frag Plates</fullName>
+                <default>false</default>
+                <label>Small Frag Plates</label>
+            </value>
+            <value>
+                <fullName>Small Frag Screws</fullName>
+                <default>false</default>
+                <label>Small Frag Screws</label>
+            </value>
+            <value>
+                <fullName>Small Frag Instuments</fullName>
+                <default>false</default>
+                <label>Small Frag Instuments</label>
+            </value>
+            <value>
+                <fullName>Mini Frag Plates</fullName>
+                <default>false</default>
+                <label>Mini Frag Plates</label>
+            </value>
+            <value>
+                <fullName>Mini Frag Screws</fullName>
+                <default>false</default>
+                <label>Mini Frag Screws</label>
+            </value>
+            <value>
+                <fullName>Mini Frag Instuments</fullName>
+                <default>false</default>
+                <label>Mini Frag Instuments</label>
+            </value>
+            <value>
+                <fullName>General Plates &amp; Screws-Other</fullName>
+                <default>false</default>
+                <label>General Plates &amp; Screws-Other</label>
+            </value>
+            <value>
+                <fullName>General Plates &amp; Screws-Insruments</fullName>
+                <default>false</default>
+                <label>General Plates &amp; Screws-Insruments</label>
+            </value>
+            <value>
+                <fullName>NCB Femoral Plates</fullName>
+                <default>false</default>
+                <label>NCB Femoral Plates</label>
+            </value>
+            <value>
+                <fullName>NCB Femoral Screws</fullName>
+                <default>false</default>
+                <label>NCB Femoral Screws</label>
+            </value>
+            <value>
+                <fullName>NCB Instuments</fullName>
+                <default>false</default>
+                <label>NCB Instuments</label>
+            </value>
+            <value>
+                <fullName>Astrid Foot Implants</fullName>
+                <default>false</default>
+                <label>Astrid Foot Implants</label>
+            </value>
+            <value>
+                <fullName>Astrid Foot Instuments</fullName>
+                <default>false</default>
+                <label>Astrid Foot Instuments</label>
+            </value>
+            <value>
+                <fullName>Cannulated Screws-Titanium</fullName>
+                <default>false</default>
+                <label>Cannulated Screws-Titanium</label>
+            </value>
+            <value>
+                <fullName>CEP Cannulated Screws</fullName>
+                <default>false</default>
+                <label>CEP Cannulated Screws</label>
+            </value>
+            <value>
+                <fullName>CEP Cannulated Screw Instuments</fullName>
+                <default>false</default>
+                <label>CEP Cannulated Screw Instuments</label>
+            </value>
+            <value>
+                <fullName>CEP Pins/Wires</fullName>
+                <default>false</default>
+                <label>CEP Pins/Wires</label>
+            </value>
+            <value>
+                <fullName>CEP Other Trauma</fullName>
+                <default>false</default>
+                <label>CEP Other Trauma</label>
+            </value>
+            <value>
+                <fullName>Durasul Inserts</fullName>
+                <default>false</default>
+                <label>Durasul Inserts</label>
+            </value>
+            <value>
+                <fullName>Precoat LPS-Flex NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Precoat LPS-Flex NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Molded LPS FLex Fixed NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>Molded LPS FLex Fixed NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NexGen Precoat Stemmed Tibial Plate</fullName>
+                <default>false</default>
+                <label>NexGen Precoat Stemmed Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>NexGen MIS Precoat Stemmed Tib Plate</fullName>
+                <default>false</default>
+                <label>NexGen MIS Precoat Stemmed Tib Plate</label>
+            </value>
+            <value>
+                <fullName>NexGen Porous Stemmed Tib Plate</fullName>
+                <default>false</default>
+                <label>NexGen Porous Stemmed Tib Plate</label>
+            </value>
+            <value>
+                <fullName>LPS-Flex Fluted Option Tib Plate</fullName>
+                <default>false</default>
+                <label>LPS-Flex Fluted Option Tib Plate</label>
+            </value>
+            <value>
+                <fullName>LPS-Flex Fluted Precoat Tib Plate</fullName>
+                <default>false</default>
+                <label>LPS-Flex Fluted Precoat Tib Plate</label>
+            </value>
+            <value>
+                <fullName>NKII Rotating Platform Plate Porous</fullName>
+                <default>false</default>
+                <label>NKII Rotating Platform Plate Porous</label>
+            </value>
+            <value>
+                <fullName>M / L Taper (HATCP)</fullName>
+                <default>false</default>
+                <label>M / L Taper (HATCP)</label>
+            </value>
+            <value>
+                <fullName>Cerasul Inserts</fullName>
+                <default>false</default>
+                <label>Cerasul Inserts</label>
+            </value>
+            <value>
+                <fullName>TM Reverse Spacers</fullName>
+                <default>false</default>
+                <label>TM Reverse Spacers</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Stems (inactive)</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Stems (inactive)</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Glenoid Heads</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Glenoid Heads</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Humeral Poly Inlays</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Humeral Poly Inlays</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Other (inactive)</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Other (inactive)</label>
+            </value>
+            <value>
+                <fullName>Durom Shoulder</fullName>
+                <default>false</default>
+                <label>Durom Shoulder</label>
+            </value>
+            <value>
+                <fullName>OrTra Shoulder Stems</fullName>
+                <default>false</default>
+                <label>OrTra Shoulder Stems</label>
+            </value>
+            <value>
+                <fullName>Finger Caput</fullName>
+                <default>false</default>
+                <label>Finger Caput</label>
+            </value>
+            <value>
+                <fullName>Meuli Wrist</fullName>
+                <default>false</default>
+                <label>Meuli Wrist</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Instruments</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Instruments</label>
+            </value>
+            <value>
+                <fullName>NCB Humeral Plates</fullName>
+                <default>false</default>
+                <label>NCB Humeral Plates</label>
+            </value>
+            <value>
+                <fullName>NCB Humeral Screws</fullName>
+                <default>false</default>
+                <label>NCB Humeral Screws</label>
+            </value>
+            <value>
+                <fullName>NCB Humeral Instruments</fullName>
+                <default>false</default>
+                <label>NCB Humeral Instruments</label>
+            </value>
+            <value>
+                <fullName>VBR11 (inactive)</fullName>
+                <default>false</default>
+                <label>VBR11 (inactive)</label>
+            </value>
+            <value>
+                <fullName>Dynesys 510K</fullName>
+                <default>false</default>
+                <label>Dynesys 510K</label>
+            </value>
+            <value>
+                <fullName>Dynardi</fullName>
+                <default>false</default>
+                <label>Dynardi</label>
+            </value>
+            <value>
+                <fullName>HRC Locking Cage Cervical</fullName>
+                <default>false</default>
+                <label>HRC Locking Cage Cervical</label>
+            </value>
+            <value>
+                <fullName>HRC Locking Cage Lumbar PLIF</fullName>
+                <default>false</default>
+                <label>HRC Locking Cage Lumbar PLIF</label>
+            </value>
+            <value>
+                <fullName>PASSmed</fullName>
+                <default>false</default>
+                <label>PASSmed</label>
+            </value>
+            <value>
+                <fullName>Allospine</fullName>
+                <default>false</default>
+                <label>Allospine</label>
+            </value>
+            <value>
+                <fullName>MOST Proximal Femur</fullName>
+                <default>false</default>
+                <label>MOST Proximal Femur</label>
+            </value>
+            <value>
+                <fullName>NKII CRK Articular Surface</fullName>
+                <default>false</default>
+                <label>NKII CRK Articular Surface</label>
+            </value>
+            <value>
+                <fullName>NKII Rotating Platform Plate Non-Porous</fullName>
+                <default>false</default>
+                <label>NKII Rotating Platform Plate Non-Porous</label>
+            </value>
+            <value>
+                <fullName>NKII Stems</fullName>
+                <default>false</default>
+                <label>NKII Stems</label>
+            </value>
+            <value>
+                <fullName>MOST Others</fullName>
+                <default>false</default>
+                <label>MOST Others</label>
+            </value>
+            <value>
+                <fullName>Avenir Stem</fullName>
+                <default>false</default>
+                <label>Avenir Stem</label>
+            </value>
+            <value>
+                <fullName>Emeraude Cementless</fullName>
+                <default>false</default>
+                <label>Emeraude Cementless</label>
+            </value>
+            <value>
+                <fullName>Tribosul Heads</fullName>
+                <default>false</default>
+                <label>Tribosul Heads</label>
+            </value>
+            <value>
+                <fullName>Metasul LDH</fullName>
+                <default>false</default>
+                <label>Metasul LDH</label>
+            </value>
+            <value>
+                <fullName>Anatomical Other</fullName>
+                <default>false</default>
+                <label>Anatomical Other</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Humeral Cups</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Humeral Cups</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse Glenoid Baseplates</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse Glenoid Baseplates</label>
+            </value>
+            <value>
+                <fullName>Anatomical Fracture Stems</fullName>
+                <default>false</default>
+                <label>Anatomical Fracture Stems</label>
+            </value>
+            <value>
+                <fullName>Anatomical Fracture Heads</fullName>
+                <default>false</default>
+                <label>Anatomical Fracture Heads</label>
+            </value>
+            <value>
+                <fullName>Inverse/Reverse NCB Screws</fullName>
+                <default>false</default>
+                <label>Inverse/Reverse NCB Screws</label>
+            </value>
+            <value>
+                <fullName>Finger Basis</fullName>
+                <default>false</default>
+                <label>Finger Basis</label>
+            </value>
+            <value>
+                <fullName>Anatomical Fracture Instruments</fullName>
+                <default>false</default>
+                <label>Anatomical Fracture Instruments</label>
+            </value>
+            <value>
+                <fullName>TMT Cervical</fullName>
+                <default>false</default>
+                <label>TMT Cervical</label>
+            </value>
+            <value>
+                <fullName>ZMR - Stems</fullName>
+                <default>false</default>
+                <label>ZMR - Stems</label>
+            </value>
+            <value>
+                <fullName>Mayo</fullName>
+                <default>false</default>
+                <label>Mayo</label>
+            </value>
+            <value>
+                <fullName>Screws</fullName>
+                <default>false</default>
+                <label>Screws</label>
+            </value>
+            <value>
+                <fullName>Endos/ Unipolar Heads</fullName>
+                <default>false</default>
+                <label>Endos/ Unipolar Heads</label>
+            </value>
+            <value>
+                <fullName>Hip Instruments</fullName>
+                <default>false</default>
+                <label>Hip Instruments</label>
+            </value>
+            <value>
+                <fullName>VerSys FM Taper</fullName>
+                <default>false</default>
+                <label>VerSys FM Taper</label>
+            </value>
+            <value>
+                <fullName>Other Cemented Hips</fullName>
+                <default>false</default>
+                <label>Other Cemented Hips</label>
+            </value>
+            <value>
+                <fullName>Other Porous Hips</fullName>
+                <default>false</default>
+                <label>Other Porous Hips</label>
+            </value>
+            <value>
+                <fullName>Other Specialty Hips</fullName>
+                <default>false</default>
+                <label>Other Specialty Hips</label>
+            </value>
+            <value>
+                <fullName>Other Bone Cement</fullName>
+                <default>false</default>
+                <label>Other Bone Cement</label>
+            </value>
+            <value>
+                <fullName>Other Cemented Cups</fullName>
+                <default>false</default>
+                <label>Other Cemented Cups</label>
+            </value>
+            <value>
+                <fullName>Trilogy Cups</fullName>
+                <default>false</default>
+                <label>Trilogy Cups</label>
+            </value>
+            <value>
+                <fullName>Prolong CR NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>Prolong CR NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Rotating Hinge Knee Femoral</fullName>
+                <default>false</default>
+                <label>Rotating Hinge Knee Femoral</label>
+            </value>
+            <value>
+                <fullName>MG UNI Precoat Femoral</fullName>
+                <default>false</default>
+                <label>MG UNI Precoat Femoral</label>
+            </value>
+            <value>
+                <fullName>NexGen Tibial Plate (inactive)</fullName>
+                <default>false</default>
+                <label>NexGen Tibial Plate (inactive)</label>
+            </value>
+            <value>
+                <fullName>Option LCCK NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Option LCCK NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>MBK Cemented Femoral</fullName>
+                <default>false</default>
+                <label>MBK Cemented Femoral</label>
+            </value>
+            <value>
+                <fullName>Knee Instruments</fullName>
+                <default>false</default>
+                <label>Knee Instruments</label>
+            </value>
+            <value>
+                <fullName>NexGen All Poly Patella</fullName>
+                <default>false</default>
+                <label>NexGen All Poly Patella</label>
+            </value>
+            <value>
+                <fullName>Option LPS-Flex NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Option LPS-Flex NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Option LPS NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Option LPS NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Knees - Other</fullName>
+                <default>false</default>
+                <label>Knees - Other</label>
+            </value>
+            <value>
+                <fullName>Porous LPS NexGen Femoral</fullName>
+                <default>false</default>
+                <label>Porous LPS NexGen Femoral</label>
+            </value>
+            <value>
+                <fullName>Other Specialty Knees</fullName>
+                <default>false</default>
+                <label>Other Specialty Knees</label>
+            </value>
+            <value>
+                <fullName>MBK Tibial Plate</fullName>
+                <default>false</default>
+                <label>MBK Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>MBK Articular Surface</fullName>
+                <default>false</default>
+                <label>MBK Articular Surface</label>
+            </value>
+            <value>
+                <fullName>Extremities - Other</fullName>
+                <default>false</default>
+                <label>Extremities - Other</label>
+            </value>
+            <value>
+                <fullName>Bone Drills</fullName>
+                <default>false</default>
+                <label>Bone Drills</label>
+            </value>
+            <value>
+                <fullName>Herbert Whipple</fullName>
+                <default>false</default>
+                <label>Herbert Whipple</label>
+            </value>
+            <value>
+                <fullName>Herbert Scaphoid</fullName>
+                <default>false</default>
+                <label>Herbert Scaphoid</label>
+            </value>
+            <value>
+                <fullName>Herbert Cannulated</fullName>
+                <default>false</default>
+                <label>Herbert Cannulated</label>
+            </value>
+            <value>
+                <fullName>Herbert Mini</fullName>
+                <default>false</default>
+                <label>Herbert Mini</label>
+            </value>
+            <value>
+                <fullName>Statak</fullName>
+                <default>false</default>
+                <label>Statak</label>
+            </value>
+            <value>
+                <fullName>Triosite</fullName>
+                <default>false</default>
+                <label>Triosite</label>
+            </value>
+            <value>
+                <fullName>Autotransfusion Products</fullName>
+                <default>false</default>
+                <label>Autotransfusion Products</label>
+            </value>
+            <value>
+                <fullName>Wound Debridement Products</fullName>
+                <default>false</default>
+                <label>Wound Debridement Products</label>
+            </value>
+            <value>
+                <fullName>Skin Graft Products</fullName>
+                <default>false</default>
+                <label>Skin Graft Products</label>
+            </value>
+            <value>
+                <fullName>Extremity Products</fullName>
+                <default>false</default>
+                <label>Extremity Products</label>
+            </value>
+            <value>
+                <fullName>Traction Products</fullName>
+                <default>false</default>
+                <label>Traction Products</label>
+            </value>
+            <value>
+                <fullName>Splint Products</fullName>
+                <default>false</default>
+                <label>Splint Products</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Support Products</fullName>
+                <default>false</default>
+                <label>Orthopaedic Support Products</label>
+            </value>
+            <value>
+                <fullName>Other Specialty</fullName>
+                <default>false</default>
+                <label>Other Specialty</label>
+            </value>
+            <value>
+                <fullName>Other Cementless Cups</fullName>
+                <default>false</default>
+                <label>Other Cementless Cups</label>
+            </value>
+            <value>
+                <fullName>Zimtron/ Stainless Steel Heads</fullName>
+                <default>false</default>
+                <label>Zimtron/ Stainless Steel Heads</label>
+            </value>
+            <value>
+                <fullName>Ceramic Heads</fullName>
+                <default>false</default>
+                <label>Ceramic Heads</label>
+            </value>
+            <value>
+                <fullName>CoCr Heads</fullName>
+                <default>false</default>
+                <label>CoCr Heads</label>
+            </value>
+            <value>
+                <fullName>PE Liners</fullName>
+                <default>false</default>
+                <label>PE Liners</label>
+            </value>
+            <value>
+                <fullName>XLPE Liners</fullName>
+                <default>false</default>
+                <label>XLPE Liners</label>
+            </value>
+            <value>
+                <fullName>ZMR - Bodies</fullName>
+                <default>false</default>
+                <label>ZMR - Bodies</label>
+            </value>
+            <value>
+                <fullName>Ceramic Liners (Taper Lock)</fullName>
+                <default>false</default>
+                <label>Ceramic Liners (Taper Lock)</label>
+            </value>
+            <value>
+                <fullName>Revision Liners</fullName>
+                <default>false</default>
+                <label>Revision Liners</label>
+            </value>
+            <value>
+                <fullName>MBK Porous Femoral</fullName>
+                <default>false</default>
+                <label>MBK Porous Femoral</label>
+            </value>
+            <value>
+                <fullName>MG UNI Tibial Plate</fullName>
+                <default>false</default>
+                <label>MG UNI Tibial Plate</label>
+            </value>
+            <value>
+                <fullName>MG I Articular Surface</fullName>
+                <default>false</default>
+                <label>MG I Articular Surface</label>
+            </value>
+            <value>
+                <fullName>MG UNI Articular Surface</fullName>
+                <default>false</default>
+                <label>MG UNI Articular Surface</label>
+            </value>
+            <value>
+                <fullName>LPS Mobile NexGen Articular Surface</fullName>
+                <default>false</default>
+                <label>LPS Mobile NexGen Articular Surface</label>
+            </value>
+            <value>
+                <fullName>&lt;nicht definiert&gt;</fullName>
+                <default>false</default>
+                <label>&lt;nicht definiert&gt;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

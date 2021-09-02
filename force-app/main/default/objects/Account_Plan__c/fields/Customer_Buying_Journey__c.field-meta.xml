@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Buying_Journey__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Buying Journey</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IDN</fullName>
+                <default>false</default>
+                <label>IDN</label>
+            </value>
+            <value>
+                <fullName>Value Committee</fullName>
+                <default>false</default>
+                <label>Value Committee</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Committee</fullName>
+                <default>false</default>
+                <label>Supply Chain Committee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

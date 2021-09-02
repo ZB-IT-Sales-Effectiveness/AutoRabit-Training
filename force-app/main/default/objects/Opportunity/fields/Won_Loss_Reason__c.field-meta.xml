@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Won_Loss_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Won/Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Clinically Superior</fullName>
+                <default>false</default>
+                <label>Clinically Superior</label>
+            </value>
+            <value>
+                <fullName>Clinical - not enough data</fullName>
+                <default>false</default>
+                <label>Clinical - not enough data</label>
+            </value>
+            <value>
+                <fullName>Competitive Contract Expiring</fullName>
+                <default>false</default>
+                <label>Competitive Contract Expiring</label>
+            </value>
+            <value>
+                <fullName>Current Customer</fullName>
+                <default>false</default>
+                <label>Current Customer</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Economic Value</fullName>
+                <default>false</default>
+                <label>Economic Value</label>
+            </value>
+            <value>
+                <fullName>Facility Expansion</fullName>
+                <default>false</default>
+                <label>Facility Expansion</label>
+            </value>
+            <value>
+                <fullName>GPO/IDN contract</fullName>
+                <default>false</default>
+                <label>GPO/IDN contract</label>
+            </value>
+            <value>
+                <fullName>Local contract</fullName>
+                <default>false</default>
+                <label>Local contract</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Gap</fullName>
+                <default>false</default>
+                <label>Product Gap</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Surgeon Unhappy</fullName>
+                <default>false</default>
+                <label>Surgeon Unhappy</label>
+            </value>
+            <value>
+                <fullName>Technical Features</fullName>
+                <default>false</default>
+                <label>Technical Features</label>
+            </value>
+            <value>
+                <fullName>Unhappy with Competitor</fullName>
+                <default>false</default>
+                <label>Unhappy with Competitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

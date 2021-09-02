@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Product_Launch_Notify_Owner_of_New_Record</fullName>
+        <description>Product Launch - Notify Owner of New Record</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>webmaster@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Product_Launch_Notify_Owner_Of_Creation</template>
+    </alerts>
+</Workflow>

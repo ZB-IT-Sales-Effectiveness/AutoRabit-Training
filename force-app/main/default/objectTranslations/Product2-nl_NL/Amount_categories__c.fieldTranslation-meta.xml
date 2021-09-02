@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Amount Categories --></label>
+    <name>Amount_categories__c</name>
+    <picklistValues>
+        <masterLabel>Capital</masterLabel>
+        <translation><!-- Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumable</masterLabel>
+        <translation><!-- Consumable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disposables</masterLabel>
+        <translation><!-- Disposables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instrument Kits</masterLabel>
+        <translation><!-- Instrument Kits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warranty/Service</masterLabel>
+        <translation><!-- Warranty/Service --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

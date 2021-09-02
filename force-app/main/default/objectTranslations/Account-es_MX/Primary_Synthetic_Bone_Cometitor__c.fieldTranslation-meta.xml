@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Synthetic Bone Cometitor --></label>
+    <name>Primary_Synthetic_Bone_Cometitor__c</name>
+    <picklistValues>
+        <masterLabel>Cerasorb (Curasan)</masterLabel>
+        <translation><!-- Cerasorb (Curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Does not use Synthetic</masterLabel>
+        <translation><!-- Does not use Synthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation Pug (Multiple)</masterLabel>
+        <translation><!-- Foundation Pug (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NovaBone (Multiple)</masterLabel>
+        <translation><!-- NovaBone (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OsteoGen Plug (Multiple)</masterLabel>
+        <translation><!-- OsteoGen Plug (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Synthetic</masterLabel>
+        <translation><!-- Other Synthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SynOss (ACE)</masterLabel>
+        <translation><!-- SynOss (ACE) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

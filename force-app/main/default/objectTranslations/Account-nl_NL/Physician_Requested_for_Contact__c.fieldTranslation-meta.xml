@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Physician/Contact requested for --></label>
+    <name>Physician_Requested_for_Contact__c</name>
+    <relationshipLabel><!-- Accounts (Physician Requested for Contact) --></relationshipLabel>
+</CustomFieldTranslation>

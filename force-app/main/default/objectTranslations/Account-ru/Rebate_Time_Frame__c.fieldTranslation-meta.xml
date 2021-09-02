@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is this customer on any rebates? If so, this field will display that and the duration of that rebate. --></help>
+    <label><!-- Rebate Time Frame --></label>
+    <name>Rebate_Time_Frame__c</name>
+</CustomFieldTranslation>

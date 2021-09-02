@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EtQ_Required_for_Personalized_Solutions</fullName>
+    <active>true</active>
+    <description>This validation rule will throw error if the EtQ number CMP- is left blank for the specified values.
+Closing PS case when ETQ is missing</description>
+    <errorConditionFormula>AND( 
+RecordType.Name = &quot;Personalized Solutions&quot;, 
+ISCHANGED(Status),
+ISPICKVAL(Status,&quot;Closed&quot;),
+(ISBLANK(EtQ__c)), 
+OR( 
+	(ISPICKVAL(PSI_Solution__c,&quot;Complaint - Forward to EtQ&quot;)), 
+	(ISPICKVAL(Category__c,&quot;CS - D - Complaint&quot;)), 
+	(ISPICKVAL(Category__c,&quot;PSI - G - Complaint&quot;)), 
+	(ISPICKVAL(Category_Type__c,&quot;Complaint&quot;)), 
+	(ISPICKVAL(Sub_Catergory__c,&quot;Complaint&quot;)), 
+	(ISPICKVAL(Sub_Catergory__c,&quot;ETQ #&quot;)) 
+	) 
+)</errorConditionFormula>
+    <errorMessage>Please enter EtQ number.</errorMessage>
+</ValidationRule>

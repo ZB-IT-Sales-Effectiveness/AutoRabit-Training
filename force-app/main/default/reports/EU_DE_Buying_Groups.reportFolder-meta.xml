@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>EU_DE_Buying_Groups_Management</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>EU-DE Buying Groups</name>
+</ReportFolder>

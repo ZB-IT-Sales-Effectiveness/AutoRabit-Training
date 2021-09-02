@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sales Specialty --></label>
+    <name>Sales_Specialty__c</name>
+    <picklistValues>
+        <masterLabel>B.E.S.T.</masterLabel>
+        <translation><!-- B.E.S.T. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSFFA</masterLabel>
+        <translation><!-- DSFFA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Line</masterLabel>
+        <translation><!-- Full Line --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon (H, K)</masterLabel>
+        <translation><!-- Recon (H, K) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports</masterLabel>
+        <translation><!-- Sports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

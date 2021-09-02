@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage --></label>
+    <name>Stage__c</name>
+    <picklistValues>
+        <masterLabel>10th Case</masterLabel>
+        <translation><!-- 10th Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1st Case</masterLabel>
+        <translation><!-- 1st Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3rd Case</masterLabel>
+        <translation><!-- 3rd Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agreed to Book</masterLabel>
+        <translation><!-- Agreed to Book --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Angebot</masterLabel>
+        <translation><!-- Angebot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bedarfsanalyse Analyse</masterLabel>
+        <translation><!-- Bedarfsanalyse Analyse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked</masterLabel>
+        <translation><!-- Booked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed - Inactive</masterLabel>
+        <translation><!-- Closed - Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation><!-- Closed Lost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Other</masterLabel>
+        <translation><!-- Closed Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Won</masterLabel>
+        <translation><!-- Closed Won --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commitment</masterLabel>
+        <translation><!-- Commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drifting</masterLabel>
+        <translation><!-- Drifting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Erwartung</masterLabel>
+        <translation><!-- Erwartung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geschlossene und gewonnene</masterLabel>
+        <translation><!-- Geschlossene und gewonnene --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geschlossene und verlorene</masterLabel>
+        <translation><!-- Geschlossene und verlorene --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Highly Likely to Close</masterLabel>
+        <translation><!-- Highly Likely to Close --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Id. Decision Makers</masterLabel>
+        <translation><!-- Id. Decision Makers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Id. Entscheidungsträger</masterLabel>
+        <translation><!-- Id. Entscheidungsträger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Identification/Qualification</masterLabel>
+        <translation><!-- Identification/Qualification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initial Discussion</masterLabel>
+        <translation><!-- Initial Discussion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interested-Issue Discovery,Pain/Gain</masterLabel>
+        <translation><!-- Interested-Issue Discovery,Pain/Gain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost/不成立</masterLabel>
+        <translation><!-- Lost/不成立 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting scheduled</masterLabel>
+        <translation><!-- Meeting scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Negotiation/Review</masterLabel>
+        <translation><!-- Negotiation/Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Approached</masterLabel>
+        <translation><!-- Not Approached --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Interested</masterLabel>
+        <translation><!-- Not Interested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase0</masterLabel>
+        <translation><!-- Phase0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase1</masterLabel>
+        <translation><!-- Phase1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase2</masterLabel>
+        <translation><!-- Phase2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase3</masterLabel>
+        <translation><!-- Phase3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase4</masterLabel>
+        <translation><!-- Phase4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase5</masterLabel>
+        <translation><!-- Phase5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase6</masterLabel>
+        <translation><!-- Phase6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone call scheduled</masterLabel>
+        <translation><!-- Phone call scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Potenzialanalyse</masterLabel>
+        <translation><!-- Potenzialanalyse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation Complete</masterLabel>
+        <translation><!-- Presentation Complete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation Made</masterLabel>
+        <translation><!-- Presentation Made --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produktvorstellung</masterLabel>
+        <translation><!-- Produktvorstellung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposal/Assessment</masterLabel>
+        <translation><!-- Proposal/Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prospecting</masterLabel>
+        <translation><!-- Prospecting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reference Checking</masterLabel>
+        <translation><!-- Reference Checking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular User</masterLabel>
+        <translation><!-- Regular User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular User (Brickwall)</masterLabel>
+        <translation><!-- Regular User (Brickwall) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stopped ( Closed )</masterLabel>
+        <translation><!-- Stopped ( Closed ) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test-OP</masterLabel>
+        <translation><!-- Test-OP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training/Trial</masterLabel>
+        <translation><!-- Training/Trial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trialling Competitor Product</masterLabel>
+        <translation><!-- Trialling Competitor Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verhandlung/Überprüfung</masterLabel>
+        <translation><!-- Verhandlung/Überprüfung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wahrnehmungsanalyse</masterLabel>
+        <translation><!-- Wahrnehmungsanalyse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wertangebot</masterLabel>
+        <translation><!-- Wertangebot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workshop</masterLabel>
+        <translation><!-- Workshop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workshop/Med Ed Event</masterLabel>
+        <translation><!-- Workshop/Med Ed Event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

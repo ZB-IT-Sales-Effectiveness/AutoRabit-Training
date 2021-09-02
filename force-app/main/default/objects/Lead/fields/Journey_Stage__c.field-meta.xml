@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Journey_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Journey Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unaware</fullName>
+                <default>false</default>
+                <label>Unaware</label>
+            </value>
+            <value>
+                <fullName>Aware</fullName>
+                <default>false</default>
+                <label>Aware</label>
+            </value>
+            <value>
+                <fullName>Remarket</fullName>
+                <default>false</default>
+                <label>Remarket</label>
+            </value>
+            <value>
+                <fullName>Consideration</fullName>
+                <default>false</default>
+                <label>Consideration</label>
+            </value>
+            <value>
+                <fullName>Evaluation</fullName>
+                <default>false</default>
+                <label>Evaluation</label>
+            </value>
+            <value>
+                <fullName>Decision</fullName>
+                <default>false</default>
+                <label>Decision</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+                <label>Adoption</label>
+            </value>
+            <value>
+                <fullName>Value Realization</fullName>
+                <default>false</default>
+                <label>Value Realization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

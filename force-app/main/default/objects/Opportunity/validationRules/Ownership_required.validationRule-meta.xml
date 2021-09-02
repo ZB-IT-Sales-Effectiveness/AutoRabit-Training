@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ownership_required</fullName>
+    <active>true</active>
+    <description>This requires the One bill team to fill out ownership before a opp is completed</description>
+    <errorConditionFormula>AND((RecordTypeId = &quot;0126w000000CoWf&quot;),
+ OR( ISBLANK( TEXT( Hospital_Ownership__c )),
+ISBLANK(TEXT(  Rebate__c  ))),
+ NOT( ISPICKVAL(  StageName , &quot;OneBill Initial Review&quot;))&amp;&amp;
+ NOT( ISPICKVAL(StageName ,&quot;OneBill Team Review&quot; ))&amp;&amp;
+NOT( ISPICKVAL(StageName,&quot;Closed Lost&quot; ))&amp;&amp;
+ NOT( ISPICKVAL( StageName ,&quot;OneBill Approved - Build Exhibit&quot;)))</errorConditionFormula>
+    <errorMessage>Must Fill Out Hospital Ownership and Rebate %  to move to this stage. Zero is an acceptable value</errorMessage>
+</ValidationRule>

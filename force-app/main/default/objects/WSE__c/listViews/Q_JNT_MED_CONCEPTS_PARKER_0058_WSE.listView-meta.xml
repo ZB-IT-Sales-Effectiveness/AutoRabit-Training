@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_JNT_MED_CONCEPTS_PARKER_0058_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>JNT MED CONCEPTS (PARKER) (0058) QUEUE</label>
+    <queue>Q_JNT_MED_CONCEPTS_PARKER_0058</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

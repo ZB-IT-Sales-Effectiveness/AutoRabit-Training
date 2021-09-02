@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Primärer Knochen-</label>
+    <name>Primary__c</name>
+    <picklistValues>
+        <masterLabel>AlloOss</masterLabel>
+        <translation><!-- AlloOss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BegoOss</masterLabel>
+        <translation><!-- BegoOss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BegoOss-S</masterLabel>
+        <translation><!-- BegoOss-S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bio-Oss Collagen</masterLabel>
+        <translation><!-- Bio-Oss Collagen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BioOss</masterLabel>
+        <translation><!-- BioOss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BoneCeramic</masterLabel>
+        <translation><!-- BoneCeramic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Botiss Maxgraft (Straumann)</masterLabel>
+        <translation><!-- Botiss Maxgraft (Straumann) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerabone Xenograft (Straumann)</masterLabel>
+        <translation><!-- Cerabone Xenograft (Straumann) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerasorb</masterLabel>
+        <translation><!-- Cerasorb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Citagenix</masterLabel>
+        <translation><!-- Citagenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos</masterLabel>
+        <translation><!-- Creos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Easygraft</masterLabel>
+        <translation><!-- Easygraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation Plug</masterLabel>
+        <translation><!-- Foundation Plug --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keystone</masterLabel>
+        <translation><!-- Keystone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifenet (Private Label)</masterLabel>
+        <translation><!-- Lifenet (Private Label) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTF</masterLabel>
+        <translation><!-- MTF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxxeus Allograft</masterLabel>
+        <translation><!-- Maxxeus Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MinerOss</masterLabel>
+        <translation><!-- MinerOss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nanobone</masterLabel>
+        <translation><!-- Nanobone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OsteoGen Plug</masterLabel>
+        <translation><!-- OsteoGen Plug --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteobiol</masterLabel>
+        <translation><!-- Osteobiol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteograft</masterLabel>
+        <translation><!-- Osteograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Allograft</masterLabel>
+        <translation><!-- Other Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Xenograft</masterLabel>
+        <translation><!-- Other Xenograft --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

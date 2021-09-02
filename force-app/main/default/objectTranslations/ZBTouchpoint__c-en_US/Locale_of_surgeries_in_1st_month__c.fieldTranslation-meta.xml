@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Locale of surgeries in 1st month? --></label>
+    <name>Locale_of_surgeries_in_1st_month__c</name>
+    <picklistValues>
+        <masterLabel>ASC</masterLabel>
+        <translation><!-- ASC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation><!-- Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>select one</masterLabel>
+        <translation><!-- select one --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

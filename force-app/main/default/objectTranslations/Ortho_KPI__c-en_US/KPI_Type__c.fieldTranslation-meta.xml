@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KPI Type --></label>
+    <name>KPI_Type__c</name>
+    <picklistValues>
+        <masterLabel>Target</masterLabel>
+        <translation><!-- Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year-Over-Year</masterLabel>
+        <translation><!-- Year-Over-Year --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

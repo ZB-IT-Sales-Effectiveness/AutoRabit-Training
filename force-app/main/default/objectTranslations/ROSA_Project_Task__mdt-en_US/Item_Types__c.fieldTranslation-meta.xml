@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Item Types --></label>
+    <name>Item_Types__c</name>
+    <picklistValues>
+        <masterLabel>Action</masterLabel>
+        <translation><!-- Action --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Task</masterLabel>
+        <translation><!-- Task --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

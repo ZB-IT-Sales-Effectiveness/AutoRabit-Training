@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funktion_AT__c</fullName>
+    <externalId>false</externalId>
+    <label>Funktion AT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ärztlicher Direktor</fullName>
+                <default>false</default>
+                <label>Ärztlicher Direktor</label>
+            </value>
+            <value>
+                <fullName>Direktor</fullName>
+                <default>false</default>
+                <label>Direktor</label>
+            </value>
+            <value>
+                <fullName>Verwaltungsleitung</fullName>
+                <default>false</default>
+                <label>Verwaltungsleitung</label>
+            </value>
+            <value>
+                <fullName>Abteilungsvorstand</fullName>
+                <default>false</default>
+                <label>Abteilungsvorstand</label>
+            </value>
+            <value>
+                <fullName>Verwaltung</fullName>
+                <default>false</default>
+                <label>Verwaltung</label>
+            </value>
+            <value>
+                <fullName>Schwester</fullName>
+                <default>false</default>
+                <label>Schwester</label>
+            </value>
+            <value>
+                <fullName>Pfleger</fullName>
+                <default>false</default>
+                <label>Pfleger</label>
+            </value>
+            <value>
+                <fullName>Lt. Steri-Schwester</fullName>
+                <default>false</default>
+                <label>Lt. Steri-Schwester</label>
+            </value>
+            <value>
+                <fullName>Oberarzt</fullName>
+                <default>false</default>
+                <label>Oberarzt</label>
+            </value>
+            <value>
+                <fullName>Arzt</fullName>
+                <default>false</default>
+                <label>Arzt</label>
+            </value>
+            <value>
+                <fullName>Primarius</fullName>
+                <default>false</default>
+                <label>Primarius</label>
+            </value>
+            <value>
+                <fullName>Leitender Arzt</fullName>
+                <default>false</default>
+                <label>Leitender Arzt</label>
+            </value>
+            <value>
+                <fullName>Assistenzarzt</fullName>
+                <default>false</default>
+                <label>Assistenzarzt</label>
+            </value>
+            <value>
+                <fullName>Einkauf</fullName>
+                <default>false</default>
+                <label>Einkauf</label>
+            </value>
+            <value>
+                <fullName>Einkaufsleitung</fullName>
+                <default>false</default>
+                <label>Einkaufsleitung</label>
+            </value>
+            <value>
+                <fullName>OP-Leitung</fullName>
+                <default>false</default>
+                <label>OP-Leitung</label>
+            </value>
+            <value>
+                <fullName>Stv. OP-Leitung</fullName>
+                <default>false</default>
+                <label>Stv. OP-Leitung</label>
+            </value>
+            <value>
+                <fullName>OP Schwester</fullName>
+                <default>false</default>
+                <label>OP Schwester</label>
+            </value>
+            <value>
+                <fullName>OP Pfleger</fullName>
+                <default>false</default>
+                <label>OP Pfleger</label>
+            </value>
+            <value>
+                <fullName>Technische Leitung</fullName>
+                <default>false</default>
+                <label>Technische Leitung</label>
+            </value>
+            <value>
+                <fullName>Inhaber</fullName>
+                <default>false</default>
+                <label>Inhaber</label>
+            </value>
+            <value>
+                <fullName>Belegarzt</fullName>
+                <default>false</default>
+                <label>Belegarzt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

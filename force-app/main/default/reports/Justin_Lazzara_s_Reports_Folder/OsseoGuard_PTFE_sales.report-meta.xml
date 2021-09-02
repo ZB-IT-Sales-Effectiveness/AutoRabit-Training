@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_67395530</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$Region_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>US Key Stone</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US No New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US So New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chesapeake Bay</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Garden State</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Upstate New York</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Metro New York</sourceValue>
+            </sourceValues>
+            <value>Northeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Mississippi Delta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Southern</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Appalachian</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Capitol</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Florida</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US SouthEast</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Florida</sourceValue>
+            </sourceValues>
+            <value>Southeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Buckeye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Central</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Midwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Great Lakes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chicago Land</sourceValue>
+            </sourceValues>
+            <value>Central</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US North Star</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Mountain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Golden Gate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Los Angeles</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Pacific NW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Bay</sourceValue>
+            </sourceValues>
+            <value>West</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Order_Quantity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Part_Description__c</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$rss__c</field>
+    </columns>
+    <columns>
+        <field>Account$Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$ISR__c</field>
+    </columns>
+    <columns>
+        <field>Account$Speciality_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account$Regen_FPY__c</field>
+    </columns>
+    <columns>
+        <field>Account$Primary_Implant_Competitor__c</field>
+    </columns>
+    <columns>
+        <field>Account$DN_Implant_Units_FPY_Manual_Rollup__c</field>
+    </columns>
+    <columns>
+        <field>Account$Estimated_Implants_or_Restorations_YR__c</field>
+    </columns>
+    <columns>
+        <field>Account$ZB_Share__c</field>
+    </columns>
+    <columns>
+        <field>Account$Category__c</field>
+    </columns>
+    <columns>
+        <field>Account$Sales_Trend__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account$Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TXR2530-1,TXR2530-4,TXR1224-1,TXR1224-10,TR250AE-1,TR250AEY-1,TR250LF-1,TR250PE-1,TR250SMT-1,TR250P-1,TR250LGT-1,TR250RAX-1,TR250RAK-1,TR250TCS-1,TR250TCL-1,TR250PR-1,TR250RAKL-1,TR250PN-1,TR250PW-1,TR250AE-2,TR250AEY-2,TR250LF-2,TR250PE-2,TR250SMT-2,TR250P-2,TR250LGT-2,TR250RAX-2,TR250RAK-2,TR250TCS-2,TR250TCL-2,TR250PR-2,TR250RAKL-2,TR250PN-2,TR250PW-2,TR150AE-1,TR150AEY-1,TR150LF-1,TR150PE-1,TR150SMT-1,TR150P-1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TR150LGT-1,TR150RAX-1,TR150RAK-1,TR150TCS-1,TR150TCL-1,TR150PR-1,TR150RAKL-1,TR150PN-1,TR150PW-1,TR150AE-2,TR150AEY-2,TR150LF-2,TR150PE-2,TR150SMT-2,TR150P-2,TR150LGT-2,TR150RAX-2,TR150RAK-2,TR150TCS-2,TR150TCL-2,TR150PR-2,TR150RAKL-2,TR150PN-2,TR150PW-2,NTXR2530-4,NTXR1224-10,TIM2534-1,TIM4545-1,OS2019,OS3016,OS3019,OS3016B,OS3019B,OS4016,OS4013PE,OS4013PR</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>OsseoGuard PTFE sales</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Owner</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_PREVCURY</interval>
+    </timeFrameFilter>
+</Report>

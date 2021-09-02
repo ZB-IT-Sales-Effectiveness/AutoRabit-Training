@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Protocols --></label>
+    <name>Protocols__c</name>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P2</masterLabel>
+        <translation><!-- P2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAA</masterLabel>
+        <translation><!-- TAA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TKA/THA/PKA</masterLabel>
+        <translation><!-- TKA/THA/PKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSA/RSA</masterLabel>
+        <translation><!-- TSA/RSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Joint Revisions</masterLabel>
+        <translation><!-- Total Joint Revisions --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

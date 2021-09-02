@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Corporate_Employees</fullName>
+    <active>true</active>
+    <description>Zimmer Corporate Employees</description>
+    <label>Zimmer Corporate Employees</label>
+    <picklistValues>
+        <picklist>Attrition__c</picklist>
+        <values>
+            <fullName>Involuntary %E2%80%93 Loss of experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Involuntary %E2%80%93 Loss of experience%2Frevenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Involuntary %E2%80%93 No loss of experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary %E2%80%93 Loss of experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary %E2%80%93 Loss of experience%2Frevenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary %E2%80%93 No loss of experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Type__c</picklist>
+        <values>
+            <fullName>CFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disqualified_Reason__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Email_Access__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Emails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GDPR_Consent_Status__c</picklist>
+        <values>
+            <fullName>Compliant - Opt-in Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Consent Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-compliant - Consent Not Obtained</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Opt-in Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsubscribed - Opted Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal Consent Given - Pending Opt-In Confirmation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Handoff_Status__c</picklist>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Known</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remarket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hire_Competitor__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Function__c</picklist>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive%2FAdministrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Representative %C2%A0</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Title__c</picklist>
+        <values>
+            <fullName>AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRCST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRNFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FNPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PhD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Journey_Stage__c</picklist>
+        <values>
+            <fullName>Adoption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consideration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remarket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Realization</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>KPI_Access__c</picklist>
+        <values>
+            <fullName>STP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YOY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Medical Education Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legacy_Company_Code__c</picklist>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Office_Specialty_Type__c</picklist>
+        <values>
+            <fullName>Centre mutualiste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denturist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dept of Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dept of Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endodontist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etablissement de Santé privé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etablissement de Santé public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Dentist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implantologist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Doctor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multispecialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oral Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthodontist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedodontist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Periodontist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prosthodontist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restorative Dentist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA Account</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Contact__c</picklist>
+        <values>
+            <fullName>Cell Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Home Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pager</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Mail_Address__c</picklist>
+        <values>
+            <fullName>Office</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prospect_Type__c</picklist>
+        <values>
+            <fullName>Medical Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient or Caregiver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Record_Edit_Status__c</picklist>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Remarket_Reason__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role_Classification__c</picklist>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Customer Service Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Customer Service Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - HR%2FCompliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Inventory %C2%A0Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Inventory Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Operations Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Pricing%2FContracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Sourcing%2FLogistics Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office - Sourcing%2FLogistics Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Manager with accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Manager without accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery Case Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Biomet Canada Recon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Biomet Spine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>CMM Responsible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speaker</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Specialty__c</picklist>
+        <values>
+            <fullName>B%2EE%2ES%2ET%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extremities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foot %26 Ankle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recon %28H%2C K%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Salesloft_Person_Stage__c</picklist>
+        <values>
+            <fullName>Bounced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed- Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed- Not Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stakeholder_Role__c</picklist>
+        <values>
+            <fullName>Blocker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Champion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neutral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tableau_Access_Subscription__c</picklist>
+        <values>
+            <fullName>STP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YOY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Name__c</picklist>
+        <values>
+            <fullName>T0005 TEAM HAWAII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0005 TEAM NORTH COUNTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0005 TEAM SAN DIEGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0005 TEAM TRAUMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0007 TEAM BUFFALO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0007 TEAM ELMIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0007 TEAM LEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0007 TEAM ROCHESTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0007 TEAM SAYRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB BLUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB BRYNDAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB CARMEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB CLARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB DOUGLASS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB DOWNTOWN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB GREEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB HAUTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB HERMAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB HUFFER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB NORTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB NORTHWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB SOUTHWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0011 TEAM ZB WILLIAMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM CINCI WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM DAYTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM KEELY-SARGENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM SANSONE-ISAACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM SPRINGFIELD T14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014 TEAM ZB SOUTHWEST OHIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0014_TEAM_DELTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0015 TEAM SOUTH BEND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0016 TEAM SALT COAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0017 TEAM CMI EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0017 TEAM CMI NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0017 TEAM CMI SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0017 TEAM CMI WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM BREW CITY-MKE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM GREEN BAY NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM GREEN BAY SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM MADISON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM NORTHWEST WISCONSIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM TOSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0018 TEAM WI HEARTLAND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM CENTRAL NEBRASKA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM DULUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM LAKES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM LINCOLN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM MPLS METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM ND EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM ND WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM NE SOUTH DAKOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM NORTH METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM NORTHWEST 19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM OMAHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM ROCHESTER %2819%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM SAATZER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM SIOUX FALLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM ST PAUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM SW METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM UNIVERSITY %2819%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM WEST METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0019 TEAM WESTERN SOUTH DAKOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0021 TEAM DELAWARE %28T21%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0021 TEAM JERSEY SHORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0021 TEAM PHILADELPHIA NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0021 TEAM UNIVERSITY T21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0022 TEAM ESSEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0022 TEAM NORTH JERSEY ASSOCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0022 TEAM ROCKLAND COUNTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0023 TEAM DES MOINES CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0023 TEAM DES MOINES NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0023 TEAM EASTERN IOWA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0023 TEAM IOWA CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0023 TEAM SIOUX CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM CENTRAL ILLINOIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM EASTERN ILLINOIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM NORTH CENTRAL IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM NORTH EAST MISSOURI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM QUAD CITIES IA-IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0024 TEAM SOUTHERN ILLINOIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM CENTRAL COAST NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM CENTRAL COAST SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM DESERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM DESERT CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM DOWNTOWN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM EAST LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM HIGH DESERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM INLAND CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM INLAND KAISER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM INLAND NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM INLAND SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM INLAND WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM LONG BEACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM NORTH OC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM NORTH VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM SOUTH BAY %28T0025%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM SOUTH OC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM SOUTH VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0025 TEAM WEST LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM CHARLOTTESVILLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM FREDERICKSBURG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM RICHMOND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM ROANOKE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM SOUTH RICHMOND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM SOUTH VIRGINIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM SOUTHERN MARYLAND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM SOUTHWEST VIRGINIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM STAR CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM VB KINGS DAUGHTERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM VIRGINIA BEACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM WINCHESTER NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0026 TEAM WINCHESTER SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0027 TEAM HSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM 2 STATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM BALTIMORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM BETHESDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM CAPITAL CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM CENTER CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM CHESAPEAKE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM EASTERN SHORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM ENOVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM FAIRFAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM INNER HARBOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM TRI-COUNTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM UNION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0029 TEAM WNOVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0030 TEAM CAPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0030 TEAM CENTRAL MISSOURI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0030 TEAM METRO ST LOUIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0030 TEAM SHOWME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0030 TEAM SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0031 TEAM MEMPHIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0031 TEAM ROCK SOLID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM BEAUFORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM BRODIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM DUKE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM HINSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM PRICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM SCHULTZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0033 TEAM UPSTATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM BULL CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM OAK CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM OUTER BANX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM PHILLIPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM PORT CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0034 TEAM SUZIK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM HARRISBURG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM LANCASTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM LEHIGH VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM NEPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM SHUTT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0038 TEAM SOUTHERN WATCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM 24-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM BOB BROWN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM CONFLUENCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM DROP THE HAMMER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM GILBERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM HALL OF FAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM LIVELY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM MERCHANT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM MOUNTAIN MEDICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM NITTANY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM NORTHWEST GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM OSOLIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM PETROLLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM RENEGADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM ROCK N ROLL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM RUBBER CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM SNOWBELT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM SOUTH HILLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM STEEL VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM THREE RIVERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM TRIMBUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM VERTEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0039 TEAM ZAMAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0040 TEAM WACHTER-BARBERIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0042 TEAM GR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0042 TEAM NORTHERN MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0043 TEAM ANN ARBOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0043 TEAM FUMEI %28CARLO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0043 TEAM JAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0043 TEAM LANSING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0043 TEAM THOMPSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM CENTRAL WASHINGTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM EMERALD CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM NORTH CASCADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM RAINIER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM SE WASHINGTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM SEATTLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM SOUTH SOUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM SPOKANE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0044 TEAM TACOMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM COLUMBIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM MCKENZIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM MEDFORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM MID-VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM SOUTH PORTLAND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0045 TEAM WILLAMETTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0047 TEAM BR NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0047 TEAM LAFAYETTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0047 TEAM NEW ORLEANS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0047 TEAM SHREVEPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0047 TEAM SMITH-STADDON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0054 TEAM LAUDERDALE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0058 TEAM 400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0058 TEAM ATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0058 TEAM BLUE RIDGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0058 TEAM NORTHEAST GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0058 TEAM SOUTHSIDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM ADKINS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM KANSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM KC METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM MONARCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM SKC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM TOMAHAWK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM TORNQUIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0063 TEAM TRIDENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0064 TEAM CHATTANOOGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0064 TEAM EAST NASHVILLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0064 TEAM KNOXVILLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0064 TEAM NASHVILLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM ASHLAND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM AUDUBON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM BAPTIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM BROWNSBORO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM CHARLESTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM EASTERN KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM HJT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM HURRICANE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM LEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM OUTBACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0065 TEAM RIVER CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0068 TEAM GREEN COUNTRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0068 TEAM LUNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0068 TEAM NW ARKANSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0068 TEAM OKC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM ADIRONDACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM HUDSON VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM MOHAWK VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM NORTH CONN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM SOUTH CONN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM SOUTHERN TIER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM SYRACUSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM TRI-CITIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0071 TEAM WEST MASS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM BOSTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM METRO NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM NORTH NEW HAMPSHIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM NORTHERN MAINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM NORTHSHORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM PROVIDENCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM SOUTH NEW HAMPSHIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM SOUTHSHORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0075 TEAM WORCESTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM AMARILLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM EAST VALLEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM LOBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM NORTHERN ARIZONA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM PRECISION MEDICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM RANDY GARCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM SANDIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM SKUNDRICH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM WILDCAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0077 TEAM ZIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM BILLINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM BOZEMAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM GREAT FALLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM MEDPOINT KALISPELL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM MISSOULA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM WESTERN MONTANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0079 TEAM WYOMING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM CENTEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM DALLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM DALLAS TRAUMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM EAST TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM FORT WORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM LUBBOCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM MIDCITIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM NACOGDOCHES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM NORTH DALLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM NORTH DALLAS SPECIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM SOUTHWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0080 TEAM TYLER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0087 TEAM BOISE METRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0087 TEAM BOISE WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0087 TEAM EASTERN IDAHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM BEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM BORCHARD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM BOULDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM CENTRAL ROCKIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM COLORADO SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM CORS 88</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM DENVER WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM FORT COLLINS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM GRAND JUNCTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM PETERSON-SYNCHEF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM PUEBLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM STEAMBOAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM WRIGHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0088 TEAM WYOMING OPEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0090 TEAM W</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0090 TEAM WEST TEXAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0091 TEAM EAST BAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0091 TEAM GOLDEN GATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0091 TEAM MONTEREY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0091 TEAM SOUTH BAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0092 TEAM LAS VEGAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0092 TEAM NORTHERN UTAH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0092 TEAM SLC NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0092 TEAM SLC SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0092 TEAM UNIVERSITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM CHICAGO - NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM CHICAGO - SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM CITY NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM DUPAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM NORTH-NW SUBURBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0093 TEAM ROCKFORD NW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM CENTRAL SIERRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM CENTRAL VALLEY NORTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM CENTRAL VALLEY SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM CHICO-REDDING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM MODESTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM NAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM NORTH BAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM RENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0094 TEAM SACRAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T0095 TEAM ALASKA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term_Competitor__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Titre__c</picklist>
+        <values>
+            <fullName>Docteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%2E le Doyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mme le Doyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mme%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professeur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transfer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Validity_Verify__Status__c</picklist>
+        <values>
+            <fullName>Accept_All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valid</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>mkto71_Lead_Source_Most_Recent__c</picklist>
+        <values>
+            <fullName>Advertisement Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incoming Call%2FEmail%2FChat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>List Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>mkto71_Marketo_LifeCycle_Status__c</picklist>
+        <values>
+            <fullName>Contact w%2F Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Known</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketo Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity %E2%80%93 Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Lead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>mkto71_Professional_Type__c</picklist>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-prescribing assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse-APRN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse-RNLPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other non-prescribing HCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescriber %28non-Physician%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student%2FTrainee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>non-prescribing Technician</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

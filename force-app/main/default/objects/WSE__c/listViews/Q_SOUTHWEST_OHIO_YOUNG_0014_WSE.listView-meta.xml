@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_SOUTHWEST_OHIO_YOUNG_0014_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SOUTHWEST OHIO (YOUNG) (0014) QUEUE</label>
+    <queue>Q_SOUTHWEST_OHIO_YOUNG_0014</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>THA</fullName>
+                <default>false</default>
+                <label>THA</label>
+            </value>
+            <value>
+                <fullName>BHP</fullName>
+                <default>false</default>
+                <label>BHP</label>
+            </value>
+            <value>
+                <fullName>-</fullName>
+                <default>false</default>
+                <label>-</label>
+            </value>
+            <value>
+                <fullName>‐</fullName>
+                <default>false</default>
+                <label>‐</label>
+            </value>
+            <value>
+                <fullName>Ankle</fullName>
+                <default>false</default>
+                <label>Ankle</label>
+            </value>
+            <value>
+                <fullName>Blood Management</fullName>
+                <default>false</default>
+                <label>Blood Management</label>
+            </value>
+            <value>
+                <fullName>Bone Cement &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Cable Products</fullName>
+                <default>false</default>
+                <label>Cable Products</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>External Fixation</fullName>
+                <default>false</default>
+                <label>External Fixation</label>
+            </value>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>IM Nails</fullName>
+                <default>false</default>
+                <label>IM Nails</label>
+            </value>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>Orthobiologics</fullName>
+                <default>false</default>
+                <label>Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>Other Trauma</fullName>
+                <default>false</default>
+                <label>Other Trauma</label>
+            </value>
+            <value>
+                <fullName>Plates &amp; Screws</fullName>
+                <default>false</default>
+                <label>Plates &amp; Screws</label>
+            </value>
+            <value>
+                <fullName>Power Tools &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Power Tools &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Pre-TKA</fullName>
+                <default>false</default>
+                <label>Pre-TKA</label>
+            </value>
+            <value>
+                <fullName>Primary Hip</fullName>
+                <default>false</default>
+                <label>Primary Hip</label>
+            </value>
+            <value>
+                <fullName>Primary Knee</fullName>
+                <default>false</default>
+                <label>Primary Knee</label>
+            </value>
+            <value>
+                <fullName>Revision Hip</fullName>
+                <default>false</default>
+                <label>Revision Hip</label>
+            </value>
+            <value>
+                <fullName>Revision Knee</fullName>
+                <default>false</default>
+                <label>Revision Knee</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Skin Graft Product</fullName>
+                <default>false</default>
+                <label>Skin Graft Product</label>
+            </value>
+            <value>
+                <fullName>Soft Goods, Braces &amp; Supports</fullName>
+                <default>false</default>
+                <label>Soft Goods, Braces &amp; Supports</label>
+            </value>
+            <value>
+                <fullName>Tourniquet Systems</fullName>
+                <default>false</default>
+                <label>Tourniquet Systems</label>
+            </value>
+            <value>
+                <fullName>Traction</fullName>
+                <default>false</default>
+                <label>Traction</label>
+            </value>
+            <value>
+                <fullName>Trauma-Orthobiologics</fullName>
+                <default>false</default>
+                <label>Trauma-Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>Wound Debridement</fullName>
+                <default>false</default>
+                <label>Wound Debridement</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>Cervical</fullName>
+                <default>false</default>
+                <label>Cervical</label>
+            </value>
+            <value>
+                <fullName>Dynamic Stabilisation</fullName>
+                <default>false</default>
+                <label>Dynamic Stabilisation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

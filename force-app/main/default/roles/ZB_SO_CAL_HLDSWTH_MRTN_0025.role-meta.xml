@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ZB-SO CAL (HLDSWTH-MRTN) (0025)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ZB-SO CAL (HLDSWTH-MRTN) (0025)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>ORTHO_AVP_WEST</parentRole>
+</Role>

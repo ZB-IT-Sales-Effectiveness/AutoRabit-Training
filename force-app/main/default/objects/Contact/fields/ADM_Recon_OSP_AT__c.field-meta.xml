@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADM_Recon_OSP_AT__c</fullName>
+    <externalId>false</externalId>
+    <label>ADM/Recon Surgical AT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christian Brückler</fullName>
+                <default>false</default>
+                <label>Christian Brückler</label>
+            </value>
+            <value>
+                <fullName>Paul Jozsa</fullName>
+                <default>false</default>
+                <label>Paul Jozsa</label>
+            </value>
+            <value>
+                <fullName>Roland Immler</fullName>
+                <default>false</default>
+                <label>Roland Immler</label>
+            </value>
+            <value>
+                <fullName>Wolfgang Weber</fullName>
+                <default>false</default>
+                <label>Wolfgang Weber</label>
+            </value>
+            <value>
+                <fullName>Adam Frey</fullName>
+                <default>false</default>
+                <label>Adam Frey</label>
+            </value>
+            <value>
+                <fullName>Michael Bständig</fullName>
+                <default>false</default>
+                <label>Michael Bständig</label>
+            </value>
+            <value>
+                <fullName>Jürgen Jester</fullName>
+                <default>false</default>
+                <label>Jürgen Jester</label>
+            </value>
+            <value>
+                <fullName>Gerhard Klotz</fullName>
+                <default>false</default>
+                <label>Gerhard Klotz</label>
+            </value>
+            <value>
+                <fullName>Gerhard Beyer</fullName>
+                <default>false</default>
+                <label>Gerhard Beyer</label>
+            </value>
+            <value>
+                <fullName>Thomas Tramontana</fullName>
+                <default>false</default>
+                <label>Thomas Tramontana</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

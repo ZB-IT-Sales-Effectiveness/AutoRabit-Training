@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sub-Segment</label>
+    <name>Sub_Segment__c</name>
+    <picklistValues>
+        <masterLabel>Anterior Thoracolumbar</masterLabel>
+        <translation><!-- Anterior Thoracolumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthroscopy</masterLabel>
+        <translation><!-- Arthroscopy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Substitute</masterLabel>
+        <translation><!-- Bone Substitute --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable</masterLabel>
+        <translation><!-- Cable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cages</masterLabel>
+        <translation><!-- Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical</masterLabel>
+        <translation><!-- Cervical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cranial Fixation</masterLabel>
+        <translation><!-- Cranial Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cranioplasty</masterLabel>
+        <translation><!-- Cranioplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cups</masterLabel>
+        <translation><!-- Cups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermatome</masterLabel>
+        <translation><!-- Dermatome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Fixation</masterLabel>
+        <translation><!-- External Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femorals</masterLabel>
+        <translation><!-- Femorals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finger</masterLabel>
+        <translation><!-- Finger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fusion</masterLabel>
+        <translation><!-- Fusion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand &amp; Wrist</masterLabel>
+        <translation><!-- Hand &amp; Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heads</masterLabel>
+        <translation><!-- Heads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips &amp; Knees</masterLabel>
+        <translation><!-- Hips &amp; Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IM Nails</masterLabel>
+        <translation><!-- IM Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation><!-- Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lavage</masterLabel>
+        <translation><!-- Lavage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbar</masterLabel>
+        <translation><!-- Lumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mesher</masterLabel>
+        <translation><!-- Mesher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midface</masterLabel>
+        <translation><!-- Midface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Fusion</masterLabel>
+        <translation><!-- Non Fusion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pectus Deformity</masterLabel>
+        <translation><!-- Pectus Deformity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates</masterLabel>
+        <translation><!-- Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates &amp; Screws</masterLabel>
+        <translation><!-- Plates &amp; Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Tool</masterLabel>
+        <translation><!-- Power Tool --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radial Head</masterLabel>
+        <translation><!-- Radial Head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resurfacing</masterLabel>
+        <translation><!-- Resurfacing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rib Fixation</masterLabel>
+        <translation><!-- Rib Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saw Blades</masterLabel>
+        <translation><!-- Saw Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stems</masterLabel>
+        <translation><!-- Stems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sternal Fixation</masterLabel>
+        <translation><!-- Sternal Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Equipment</masterLabel>
+        <translation><!-- Surgical Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMJ</masterLabel>
+        <translation><!-- TMJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracolumbar</masterLabel>
+        <translation><!-- Thoracolumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tibial Plates</masterLabel>
+        <translation><!-- Tibial Plates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet</masterLabel>
+        <translation><!-- Tourniquet --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

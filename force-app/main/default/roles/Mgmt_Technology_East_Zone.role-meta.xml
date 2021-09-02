@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Mgmt-Technology East Zone</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Mgmt-Technology East Zone</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>EAST_ZONE</parentRole>
+</Role>

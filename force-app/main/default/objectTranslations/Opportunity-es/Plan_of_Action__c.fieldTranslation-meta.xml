@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Plan of Action --></label>
+    <name>Plan_of_Action__c</name>
+    <picklistValues>
+        <masterLabel>1 - Implants and Instruments requested</masterLabel>
+        <translation><!-- 1 - Implants and Instruments requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 - Sales Exec Transfer Request</masterLabel>
+        <translation><!-- 10 - Sales Exec Transfer Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 - Delivery Scheduled</masterLabel>
+        <translation><!-- 11 - Delivery Scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 - Sales Executive On Hold</masterLabel>
+        <translation><!-- 12 - Sales Executive On Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13 - Closed</masterLabel>
+        <translation><!-- 13 - Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14 - Jointline</masterLabel>
+        <translation><!-- 14 - Jointline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 - RSM Approved</masterLabel>
+        <translation><!-- 2 - RSM Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 - Logistics Sense Check</masterLabel>
+        <translation><!-- 3 - Logistics Sense Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 - Logistics Approved</masterLabel>
+        <translation><!-- 4 - Logistics Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 - GM Approved</masterLabel>
+        <translation><!-- 5 - GM Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 - Logistics Sourcing</masterLabel>
+        <translation><!-- 6 - Logistics Sourcing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 - Field Reallocation</masterLabel>
+        <translation><!-- 7 - Field Reallocation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 - Inventory on order</masterLabel>
+        <translation><!-- 8 - Inventory on order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9 - Inventory in Build</masterLabel>
+        <translation><!-- 9 - Inventory in Build --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activate consignment</masterLabel>
+        <translation><!-- Activate consignment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BioSkills Training Course</masterLabel>
+        <translation><!-- BioSkills Training Course --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Book CSD in-service</masterLabel>
+        <translation><!-- Book CSD in-service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Book nurse in-service</masterLabel>
+        <translation><!-- Book nurse in-service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Awareness Seminar</masterLabel>
+        <translation><!-- Community Awareness Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive Product Comparison</masterLabel>
+        <translation><!-- Competitive Product Comparison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Instruments</masterLabel>
+        <translation><!-- Custom Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Connect Program</masterLabel>
+        <translation><!-- Customer Connect Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educational Site Visit</masterLabel>
+        <translation><!-- Educational Site Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Identify Related Contacts/Update Contact Roles</masterLabel>
+        <translation><!-- Identify Related Contacts/Update Contact Roles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instrument Demo</masterLabel>
+        <translation><!-- Instrument Demo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instrument and Implant Inventory</masterLabel>
+        <translation><!-- Instrument and Implant Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Cadaveric Practice Workshop</masterLabel>
+        <translation><!-- Local Cadaveric Practice Workshop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Physician Education Program</masterLabel>
+        <translation><!-- Local Physician Education Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Education Course</masterLabel>
+        <translation><!-- Medical Education Course --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing and Contracting</masterLabel>
+        <translation><!-- Pricing and Contracting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provide Clinical Evidence</masterLabel>
+        <translation><!-- Provide Clinical Evidence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provide Product Information</masterLabel>
+        <translation><!-- Provide Product Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provide Service Information</masterLabel>
+        <translation><!-- Provide Service Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provide Supply Proposal</masterLabel>
+        <translation><!-- Provide Supply Proposal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report as Regular User</masterLabel>
+        <translation><!-- Report as Regular User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon-to-Surgeon Visit</masterLabel>
+        <translation><!-- Surgeon-to-Surgeon Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trial Case Request</masterLabel>
+        <translation><!-- Trial Case Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Executive Visit</masterLabel>
+        <translation><!-- Zimmer Executive Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Marketing Visit</masterLabel>
+        <translation><!-- Zimmer Marketing Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer PSD Visit</masterLabel>
+        <translation><!-- Zimmer PSD Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Senior Executive Visit</masterLabel>
+        <translation><!-- Zimmer Senior Executive Visit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

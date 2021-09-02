@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Performance Group --></label>
+    <name>Pricing_Programs__c</name>
+    <picklistValues>
+        <masterLabel>Capstone</masterLabel>
+        <translation><!-- Capstone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Premier Ascend</masterLabel>
+        <translation><!-- Premier Ascend --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Premier SPG</masterLabel>
+        <translation><!-- Premier SPG --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

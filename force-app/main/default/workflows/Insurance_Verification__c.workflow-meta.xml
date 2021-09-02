@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Mark_ATC_Current_Status_as_Closed</fullName>
+        <field>Initial_Stage__c</field>
+        <literalValue>Closed</literalValue>
+        <name>Mark ATC Current Status as Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_ATC_Current_Status_as_On_Hold</fullName>
+        <field>Initial_Stage__c</field>
+        <literalValue>On Hold</literalValue>
+        <name>Mark ATC Current Status as On Hold</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_ATC_Current_Status_as_Open</fullName>
+        <field>Initial_Stage__c</field>
+        <literalValue>Open</literalValue>
+        <name>Mark ATC Current Status as Open</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ATC_Close_Date_Today</fullName>
+        <field>ATC_Case_Close_Date__c</field>
+        <formula>Today()</formula>
+        <name>Update ATC Close Date Today</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ATC Activated Initiated Hold</fullName>
+        <actions>
+            <name>Mark_ATC_Current_Status_as_On_Hold</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(  AND (NOT(ISBLANK(X2nd_Level_Prior_Auth_Initiate_Hold__c)), (ISBLANK(X2nd_Level_Prior_Auth_Release_Hold__c ))), AND(NOT(ISBLANK( X1st_Level_Prior_Auth_Initiate_Hold__c )) , (ISBLANK( X1st_Level_Prior_Auth_Release_Hold__c ))), AND(NOT(ISBLANK( External_Review_Initiate_Hold__c )), (ISBLANK( External_Review_Release_Hold__c ))), AND(NOT(ISBLANK( Prior_Auth_Initiate_Hold__c )), (ISBLANK( Prior_Auth_Release_Hold__c ))) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ATC Activated Initiated Open</fullName>
+        <actions>
+            <name>Mark_ATC_Current_Status_as_Open</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR(	 AND(NOT(ISBLANK(X2nd_Level_Prior_Auth_Initiate_Hold__c)), NOT(ISBLANK(X2nd_Level_Prior_Auth_Release_Hold__c ))), AND((ISBLANK(X2nd_Level_Prior_Auth_Initiate_Hold__c)), (ISBLANK(X2nd_Level_Prior_Auth_Release_Hold__c ))) ),  OR(	 AND(NOT(ISBLANK(X1st_Level_Prior_Auth_Initiate_Hold__c)), NOT(ISBLANK(X1st_Level_Prior_Auth_Release_Hold__c ))), AND((ISBLANK(X1st_Level_Prior_Auth_Initiate_Hold__c)), (ISBLANK(X1st_Level_Prior_Auth_Release_Hold__c ))) ),  OR(	 AND(NOT(ISBLANK(External_Review_Initiate_Hold__c)), NOT(ISBLANK(External_Review_Release_Hold__c ))), AND((ISBLANK(External_Review_Initiate_Hold__c)), (ISBLANK(External_Review_Release_Hold__c ))) ),  OR(	 AND(NOT(ISBLANK(Prior_Auth_Initiate_Hold__c)), NOT(ISBLANK(Prior_Auth_Release_Hold__c ))), AND((ISBLANK(Prior_Auth_Initiate_Hold__c)), (ISBLANK(Prior_Auth_Release_Hold__c))) ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Current Status to CLOSED</fullName>
+        <actions>
+            <name>Mark_ATC_Current_Status_as_Closed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_ATC_Close_Date_Today</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Insurance_Verification__c.ATC_Close_Reason__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Insurance_Verification__c.Initial_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>On Hold</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

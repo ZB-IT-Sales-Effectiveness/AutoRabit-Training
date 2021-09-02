@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Service Type --></label>
+    <name>Service_Type__c</name>
+    <picklistValues>
+        <masterLabel>LE</masterLabel>
+        <translation><!-- LE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPJ</masterLabel>
+        <translation><!-- OPJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OS</masterLabel>
+        <translation><!-- OS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RE</masterLabel>
+        <translation><!-- RE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA + mymobility</masterLabel>
+        <translation><!-- ROSA + mymobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

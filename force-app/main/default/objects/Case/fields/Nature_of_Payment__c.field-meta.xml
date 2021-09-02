@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nature_of_Payment__c</fullName>
+    <externalId>false</externalId>
+    <label>Nature of Payment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Consulting Fee</fullName>
+                <default>false</default>
+                <label>Consulting Fee</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Food and Beverage</fullName>
+                <default>false</default>
+                <label>Food and Beverage</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Royalty or License</fullName>
+                <default>false</default>
+                <label>Royalty or License</label>
+            </value>
+            <value>
+                <fullName>Space rental or facility fees (teaching hospital only)</fullName>
+                <default>false</default>
+                <label>Space rental or facility fees (teaching hospital only)</label>
+            </value>
+            <value>
+                <fullName>Travel and Lodging</fullName>
+                <default>false</default>
+                <label>Travel and Lodging</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

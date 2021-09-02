@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBTN_WARD_0064_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-TN (WARD) (0064) QUEUE</label>
+    <queue>Q_ZBTN_WARD_0064</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

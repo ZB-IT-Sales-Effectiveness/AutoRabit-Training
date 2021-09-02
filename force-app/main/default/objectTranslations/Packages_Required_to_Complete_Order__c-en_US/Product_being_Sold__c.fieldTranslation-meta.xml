@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product being Sold --></label>
+    <name>Product_being_Sold__c</name>
+    <relationshipLabel><!-- Packages Required to Complete Order --></relationshipLabel>
+</CustomFieldTranslation>

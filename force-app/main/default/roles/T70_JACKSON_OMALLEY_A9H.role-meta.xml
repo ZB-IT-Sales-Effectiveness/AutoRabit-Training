@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T70 JACKSON OMALLEY (A9H)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T70 JACKSON OMALLEY (A9H)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>SOUTH_TEXAS_HARPER_0070</parentRole>
+</Role>

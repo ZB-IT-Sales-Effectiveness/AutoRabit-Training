@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Range_Fields_Required_If_Operation_is_Ra</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Operator__c, &quot;Range&quot;),
+ OR(  ISBLANK(Range_High__c),ISBLANK(Range_Low__c))
+)</errorConditionFormula>
+    <errorMessage>Range fields must be populated if operation is Range</errorMessage>
+</ValidationRule>

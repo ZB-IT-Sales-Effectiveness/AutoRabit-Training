@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Geschlossen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation>Geschlossen Verloren</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Lost - No Activity</masterLabel>
+        <translation><!-- Closed Lost - No Activity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won</masterLabel>
+        <translation>Geschlossen Gewonnen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contacted</masterLabel>
+        <translation>Kontaktiert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover</masterLabel>
+        <translation><!-- Discover --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Execute</masterLabel>
+        <translation><!-- Execute --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open</masterLabel>
+        <translation>Offen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opt In</masterLabel>
+        <translation><!-- Opt In --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opt Out</masterLabel>
+        <translation><!-- Opt Out --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualified</masterLabel>
+        <translation>Qualifiziert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Re-Opt In</masterLabel>
+        <translation><!-- Re-Opt In --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Solve</masterLabel>
+        <translation><!-- Solve --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unqualified</masterLabel>
+        <translation>Unqualifiziert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Verify</masterLabel>
+        <translation>Identifizieren</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

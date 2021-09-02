@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>geen interesse</label>
+    <name>Customer_No_interest__c</name>
+    <picklistValues>
+        <masterLabel>1-Absage</masterLabel>
+        <translation><!-- 1-Absage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2-Zusage</masterLabel>
+        <translation><!-- 2-Zusage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implantat von Konkurrenz ist besser</masterLabel>
+        <translation><!-- Implantat von Konkurrenz ist besser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implatation ist zu schwierig</masterLabel>
+        <translation><!-- Implatation ist zu schwierig --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instrumente sind schlecht</masterLabel>
+        <translation><!-- Instrumente sind schlecht --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Konkurrenz-Set gekauft</masterLabel>
+        <translation><!-- Konkurrenz-Set gekauft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM-Material überzeugt nicht</masterLabel>
+        <translation><!-- TM-Material überzeugt nicht --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>keine Entscheidungsbefugnis</masterLabel>
+        <translation><!-- keine Entscheidungsbefugnis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>verwendet keine Cages</masterLabel>
+        <translation><!-- verwendet keine Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>zu teuer</masterLabel>
+        <translation><!-- zu teuer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

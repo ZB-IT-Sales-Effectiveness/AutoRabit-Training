@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_IQ_mymobility_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>Products__c</columns>
+    <columns>My_Mobility_User_ID__c</columns>
+    <columns>MyMobility_Customer_Country__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.My_Mobility_Customer</value>
+    </filters>
+    <label>Persona IQ + mymobility Accounts</label>
+    <sharedTo>
+        <group>mymobility_Person_IQ_Team</group>
+    </sharedTo>
+</ListView>

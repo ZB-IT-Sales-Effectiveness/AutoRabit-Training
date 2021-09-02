@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Average # of Cases on highest Volume day of the week fill in --></help>
+    <label><!-- Average # of Cases on highest Volume day --></label>
+    <name>Average_of_Cases_on_highest_Volume_day__c</name>
+</CustomFieldTranslation>

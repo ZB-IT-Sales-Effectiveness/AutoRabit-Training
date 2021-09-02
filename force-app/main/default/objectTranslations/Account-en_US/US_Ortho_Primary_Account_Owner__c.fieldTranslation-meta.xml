@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- US Ortho Primary Account Owner --></label>
+    <name>US_Ortho_Primary_Account_Owner__c</name>
+    <relationshipLabel><!-- Accounts (US Ortho Primary Account Owner) --></relationshipLabel>
+</CustomFieldTranslation>

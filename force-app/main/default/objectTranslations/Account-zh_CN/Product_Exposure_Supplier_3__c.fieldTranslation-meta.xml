@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Exposure/Supplier #3 --></label>
+    <name>Product_Exposure_Supplier_3__c</name>
+    <picklistValues>
+        <masterLabel>Acumed</masterLabel>
+        <translation><!-- Acumed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alphatec</masterLabel>
+        <translation><!-- Alphatec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthrocare</masterLabel>
+        <translation><!-- Arthrocare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO</masterLabel>
+        <translation><!-- DJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DePuy</masterLabel>
+        <translation><!-- DePuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exactech</masterLabel>
+        <translation><!-- Exactech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Globus</masterLabel>
+        <translation><!-- Globus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integra LifeSciences</masterLabel>
+        <translation><!-- Integra LifeSciences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAKO</masterLabel>
+        <translation><!-- MAKO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medtronic</masterLabel>
+        <translation><!-- Medtronic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuvasive</masterLabel>
+        <translation><!-- Nuvasive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthofix</masterLabel>
+        <translation><!-- Orthofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RTI</masterLabel>
+        <translation><!-- RTI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBI</masterLabel>
+        <translation><!-- SBI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tornier</masterLabel>
+        <translation><!-- Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trimed</masterLabel>
+        <translation><!-- Trimed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

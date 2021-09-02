@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DN Account Sales Analytics</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DN Account Sales Analytics</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- DN Key Products Sub Summary --></label>
+        <name>DN_Key_Products_Sub_Summary</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN Regen Products Sub Summary --></label>
+        <name>DN_Regen_Products_Sub_Summary</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN ZFX Products Sub Summary --></label>
+        <name>DN_ZFX_Products_Sub_Summary</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

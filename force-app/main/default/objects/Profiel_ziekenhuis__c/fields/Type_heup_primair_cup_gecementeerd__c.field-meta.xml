@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_primair_cup_gecementeerd__c</fullName>
+    <description>Kies het type gecementeerde cup voor de primaire heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type gecementeerde cup voor de primaire heup.</inlineHelpText>
+    <label>Type heup primair cup gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_primair_cup_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Müller</fullName>
+                <default>false</default>
+                <label>Müller</label>
+            </value>
+            <value>
+                <fullName>ZCA</fullName>
+                <default>false</default>
+                <label>ZCA</label>
+            </value>
+            <value>
+                <fullName>SHP</fullName>
+                <default>false</default>
+                <label>SHP</label>
+            </value>
+            <value>
+                <fullName>EndoCare cup</fullName>
+                <default>false</default>
+                <label>EndoCare cup</label>
+            </value>
+            <value>
+                <fullName>J&amp;J cup</fullName>
+                <default>false</default>
+                <label>J&amp;J cup</label>
+            </value>
+            <value>
+                <fullName>CCM</fullName>
+                <default>false</default>
+                <label>CCM</label>
+            </value>
+            <value>
+                <fullName>Exceter</fullName>
+                <default>false</default>
+                <label>Exceter</label>
+            </value>
+            <value>
+                <fullName>Link cup</fullName>
+                <default>false</default>
+                <label>Link cup</label>
+            </value>
+            <value>
+                <fullName>Mueller ring</fullName>
+                <default>false</default>
+                <label>Mueller ring</label>
+            </value>
+            <value>
+                <fullName>Reflection</fullName>
+                <default>false</default>
+                <label>Reflection</label>
+            </value>
+            <value>
+                <fullName>Opera</fullName>
+                <default>false</default>
+                <label>Opera</label>
+            </value>
+            <value>
+                <fullName>CS steel</fullName>
+                <default>false</default>
+                <label>CS steel</label>
+            </value>
+            <value>
+                <fullName>CSL steel</fullName>
+                <default>false</default>
+                <label>CSL steel</label>
+            </value>
+            <value>
+                <fullName>Spectron</fullName>
+                <default>false</default>
+                <label>Spectron</label>
+            </value>
+            <value>
+                <fullName>MC Minn Pedestal</fullName>
+                <default>false</default>
+                <label>MC Minn Pedestal</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Müller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>SHP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Mueller ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>EndoCare cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>J&amp;J cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Link cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>MC Minn Pedestal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Exceter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>Reflection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>Opera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>CS steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>CSL steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>Spectron</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

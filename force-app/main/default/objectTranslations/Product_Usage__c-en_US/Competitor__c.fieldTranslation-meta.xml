@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Competitor --></label>
+    <name>Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Acumed</masterLabel>
+        <translation><!-- Acumed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bard</masterLabel>
+        <translation><!-- Bard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardinal</masterLabel>
+        <translation><!-- Cardinal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO Surgical</masterLabel>
+        <translation><!-- DJO Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DePuy</masterLabel>
+        <translation><!-- DePuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exactech</masterLabel>
+        <translation><!-- Exactech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linvatec</masterLabel>
+        <translation><!-- Linvatec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker/Howmedica/Osteonics</masterLabel>
+        <translation><!-- Stryker/Howmedica/Osteonics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synthes</masterLabel>
+        <translation><!-- Synthes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tornier</masterLabel>
+        <translation><!-- Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

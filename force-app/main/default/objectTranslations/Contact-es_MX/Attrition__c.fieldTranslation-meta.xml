@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Attrition --></label>
+    <name>Attrition__c</name>
+    <picklistValues>
+        <masterLabel>Involuntary – Loss of experience</masterLabel>
+        <translation><!-- Involuntary – Loss of experience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Involuntary – Loss of experience/revenue</masterLabel>
+        <translation><!-- Involuntary – Loss of experience/revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Involuntary – No loss of experience</masterLabel>
+        <translation><!-- Involuntary – No loss of experience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voluntary – Loss of experience</masterLabel>
+        <translation><!-- Voluntary – Loss of experience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voluntary – Loss of experience/revenue</masterLabel>
+        <translation><!-- Voluntary – Loss of experience/revenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voluntary – No loss of experience</masterLabel>
+        <translation><!-- Voluntary – No loss of experience --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

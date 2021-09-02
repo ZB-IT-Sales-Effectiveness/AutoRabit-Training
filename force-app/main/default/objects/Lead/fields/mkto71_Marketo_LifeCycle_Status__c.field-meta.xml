@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mkto71_Marketo_LifeCycle_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketo LifeCycle Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Contact w/ Opportunity</fullName>
+                <default>false</default>
+                <label>Contact w/ Opportunity</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Known</fullName>
+                <default>false</default>
+                <label>Known</label>
+            </value>
+            <value>
+                <fullName>Marketo Qualified</fullName>
+                <default>false</default>
+                <label>Marketo Qualified</label>
+            </value>
+            <value>
+                <fullName>Opportunity – Won</fullName>
+                <default>false</default>
+                <label>Opportunity – Won</label>
+            </value>
+            <value>
+                <fullName>Salesforce Lead</fullName>
+                <default>false</default>
+                <label>Salesforce Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

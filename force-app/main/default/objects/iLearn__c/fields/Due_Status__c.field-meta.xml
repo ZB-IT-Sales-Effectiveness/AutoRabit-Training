@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Days_Until_Due__c &gt; 0, Days_Until_Due__c &lt;= 5), &quot;Due within 5 Days&quot;,
+IF(AND(Days_Until_Due__c &gt; 5, Days_Until_Due__c &lt;= 15), &quot;Due within 15 Days&quot;,
+IF(AND(Days_Until_Due__c &gt; 15, Days_Until_Due__c &lt;= 30), &quot;Due within 30 Days&quot;,
+IF(Days_Until_Due__c &gt; 30, &quot;30+ Days&quot;,
+IF(Days_Overdue__c &gt;0, &quot;Past Due&quot;, null
+)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Due Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

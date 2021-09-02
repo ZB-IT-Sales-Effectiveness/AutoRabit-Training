@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Scanner_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR
+(ISPICKVAL( Are_you__c , &quot;FULLY IN-HOUSE CAD/CAM OPERATIONAL (Have scanner &amp; milling facility)&quot;),
+ISPICKVAL( Are_you__c , &quot;PARTIALLY CAD/CAM OUTSOURCING (Have scanner-sending milling work out)&quot; )),
+( Primary_Scanner__c =&quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Primary_Scanner__c</errorDisplayField>
+    <errorMessage>Primary Scanner field should not be blank as you are using a Scanner.</errorMessage>
+</ValidationRule>

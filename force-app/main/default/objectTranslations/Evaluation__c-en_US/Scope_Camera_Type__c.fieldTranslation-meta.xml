@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Scope &amp; Camera Type --></label>
+    <name>Scope_Camera_Type__c</name>
+    <picklistValues>
+        <masterLabel>C-Mount</masterLabel>
+        <translation><!-- C-Mount --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrated</masterLabel>
+        <translation><!-- Integrated --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

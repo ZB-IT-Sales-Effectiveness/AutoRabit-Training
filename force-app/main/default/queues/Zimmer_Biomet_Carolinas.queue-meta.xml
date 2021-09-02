@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Zimmer Biomet Carolinas</name>
+    <queueMembers>
+        <users>
+            <user>alex.fisch@zimmerbiomet.com</user>
+            <user>brett.basanez@zimmerbiomet.com</user>
+            <user>gina.sidden@zimmerbiomet.com</user>
+            <user>jason.osolin@zbcarolinas.com</user>
+            <user>jay.smith@zimmerbiomet.com</user>
+            <user>kristoff.goson@zimmerbiomet.com</user>
+            <user>ryan.poffenberger@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_MIS_steel__c</fullName>
+    <description>Kies het type van de MIS heup steel.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type van de MIS heup steel.</inlineHelpText>
+    <label>Type heup MIS steel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_MIS_steel__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fitmore</fullName>
+                <default>false</default>
+                <label>Fitmore</label>
+            </value>
+            <value>
+                <fullName>Hybrid</fullName>
+                <default>false</default>
+                <label>Hybrid</label>
+            </value>
+            <value>
+                <fullName>Mayo</fullName>
+                <default>false</default>
+                <label>Mayo</label>
+            </value>
+            <value>
+                <fullName>Onlay</fullName>
+                <default>false</default>
+                <label>Onlay</label>
+            </value>
+            <value>
+                <fullName>Finsbury</fullName>
+                <default>false</default>
+                <label>Finsbury</label>
+            </value>
+            <value>
+                <fullName>Tri Lock bone preservation stem</fullName>
+                <default>false</default>
+                <label>Tri Lock bone preservation stem</label>
+            </value>
+            <value>
+                <fullName>CFP</fullName>
+                <default>false</default>
+                <label>CFP</label>
+            </value>
+            <value>
+                <fullName>Link korte steel</fullName>
+                <default>false</default>
+                <label>Link korte steel</label>
+            </value>
+            <value>
+                <fullName>Taperloc</fullName>
+                <default>false</default>
+                <label>Taperloc</label>
+            </value>
+            <value>
+                <fullName>Anthology</fullName>
+                <default>false</default>
+                <label>Anthology</label>
+            </value>
+            <value>
+                <fullName>Mia SL</fullName>
+                <default>false</default>
+                <label>Mia SL</label>
+            </value>
+            <value>
+                <fullName>Accolade</fullName>
+                <default>false</default>
+                <label>Accolade</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Fitmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Mayo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>CFP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Link korte steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Anthology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Mia SL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Accolade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Onlay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Tri Lock bone preservation stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finsbury</controllingFieldValue>
+            <valueName>Finsbury</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

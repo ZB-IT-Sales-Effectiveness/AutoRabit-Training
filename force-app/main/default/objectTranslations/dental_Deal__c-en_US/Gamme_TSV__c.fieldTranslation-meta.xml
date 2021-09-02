@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Gamme TSV --></label>
+    <name>Gamme_TSV__c</name>
+    <picklistValues>
+        <masterLabel>Offre install - 15 imp</masterLabel>
+        <translation><!-- Offre install - 15 imp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offre install - 25 imp</masterLabel>
+        <translation><!-- Offre install - 25 imp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offre install - 40 imp</masterLabel>
+        <translation><!-- Offre install - 40 imp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réassort</masterLabel>
+        <translation><!-- Réassort --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

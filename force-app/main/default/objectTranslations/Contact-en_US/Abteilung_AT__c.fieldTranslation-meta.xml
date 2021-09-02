@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Department AT</label>
+    <name>Abteilung_AT__c</name>
+    <picklistValues>
+        <masterLabel>Allgemeine Chirurgie</masterLabel>
+        <translation><!-- Allgemeine Chirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allgemeine Chirurgie m. Unfallchirurgie</masterLabel>
+        <translation><!-- Allgemeine Chirurgie m. Unfallchirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anästhesiologie</masterLabel>
+        <translation><!-- Anästhesiologie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apotheke</masterLabel>
+        <translation><!-- Apotheke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chirurgische Abteilung</masterLabel>
+        <translation><!-- Chirurgische Abteilung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermatologie</masterLabel>
+        <translation><!-- Dermatologie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Einkauf</masterLabel>
+        <translation><!-- Einkauf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geschäftsführung</masterLabel>
+        <translation><!-- Geschäftsführung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interne Medizin</masterLabel>
+        <translation><!-- Interne Medizin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurochirurgie</masterLabel>
+        <translation><!-- Neurochirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP</masterLabel>
+        <translation><!-- OP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ordinationsgemeinschaft</masterLabel>
+        <translation><!-- Ordinationsgemeinschaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopädie</masterLabel>
+        <translation><!-- Orthopädie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastische Chirurgie</masterLabel>
+        <translation><!-- Plastische Chirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Präsident der Öst. Ges.f. Fußchirurgie</masterLabel>
+        <translation><!-- Präsident der Öst. Ges.f. Fußchirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiologie</masterLabel>
+        <translation><!-- Radiologie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sekretariat</masterLabel>
+        <translation><!-- Sekretariat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sterilisation</masterLabel>
+        <translation><!-- Sterilisation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unfallchirurgie</masterLabel>
+        <translation><!-- Unfallchirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verbrennungschirurgie</masterLabel>
+        <translation><!-- Verbrennungschirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verwaltung</masterLabel>
+        <translation><!-- Verwaltung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wirbelsäulenchirurgie</masterLabel>
+        <translation><!-- Wirbelsäulenchirurgie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wirbelsäulenzentrum</masterLabel>
+        <translation><!-- Wirbelsäulenzentrum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zentral OP (Z-OP)</masterLabel>
+        <translation><!-- Zentral OP (Z-OP) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ärztliche Direktion</masterLabel>
+        <translation><!-- Ärztliche Direktion --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

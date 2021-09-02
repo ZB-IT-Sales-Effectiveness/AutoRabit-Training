@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of Team Member to be called --></help>
+    <label><!-- Team Member Name --></label>
+    <name>Team_Member_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,64 @@
+.THIS.body_Profiles{
+    height: 100%;
+    width: 100%;
+}
+.THIS .body-row{
+    width: 100%;
+    height: calc(100% - 3rem);
+    float: left;
+}
+.THIS .head-row{
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    background-color: #f7f7f7;
+    padding: 0px 8px;
+    border-radius: 3px;
+}
+.THIS .cont_data{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.THIS .cont_details{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.THIS .clsParrafo{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.THIS .contTitle{
+    width: 50%;
+    float: left;
+}
+.THIS .contIcon{
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-top: 2px;
+}
+.THIS .clsIconCheck{
+    background-color: #45c65a;
+    border-color: #91db8b;
+    color: white;
+}
+.THIS .clsIconCheck:hover{
+    background-color: #2e844a;
+    border-color: #2e844a;
+}
+.THIS .clsIconClose{
+    background-color: #ba0517;
+    border-color: #ba0517;
+    color: white;
+}
+.THIS .clsIconClose:hover{
+    background-color: #8e030f;
+    border-color: #8e030f;
+}

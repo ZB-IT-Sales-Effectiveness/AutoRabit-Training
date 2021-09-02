@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASM_Opportunities</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Distributor__c</columns>
+    <columns>Region_Name__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TL_MBR_Report__c</columns>
+    <columns>Include__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.ASC</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>MY ASC Opportunities (Open)</label>
+    <sharedTo>
+        <group>ASC_Sales</group>
+    </sharedTo>
+</ListView>

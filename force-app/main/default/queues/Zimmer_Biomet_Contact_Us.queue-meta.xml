@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>daniel.hanna@zimmer.com</email>
+    <name>Zimmer Biomet Contact Us</name>
+    <queueMembers>
+        <users>
+            <user>ashley.prater@zimmer.com</user>
+            <user>zimmer.consumerrelations@zimmer.com</user>
+            <user>daniel.hanna@zimmer.com</user>
+            <user>deborah.geiger@zimmerbiomet.com</user>
+            <user>timothy.anthony@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

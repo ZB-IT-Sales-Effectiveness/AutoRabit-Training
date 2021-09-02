@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Contacttype</label>
+    <name>Contact_Type__c</name>
+    <picklistValues>
+        <masterLabel>APAC (Delegate)</masterLabel>
+        <translation><!-- APAC (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APAC (Staff)</masterLabel>
+        <translation><!-- APAC (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AV</masterLabel>
+        <translation><!-- AV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allied Health</masterLabel>
+        <translation><!-- Allied Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Americas (Delegates)</masterLabel>
+        <translation><!-- Americas (Delegates) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Americas (Staff)</masterLabel>
+        <translation><!-- Americas (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomist</masterLabel>
+        <translation><!-- Anatomist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Austria (Delegate)</masterLabel>
+        <translation><!-- Austria (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Austria (Staff)</masterLabel>
+        <translation><!-- Austria (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belgium (Delegate)</masterLabel>
+        <translation><!-- Belgium (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belgium (Staff)</masterLabel>
+        <translation><!-- Belgium (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brand Management</masterLabel>
+        <translation><!-- Brand Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Guest</masterLabel>
+        <translation><!-- Business Guest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada (Delegate)</masterLabel>
+        <translation><!-- Canada (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada (Staff)</masterLabel>
+        <translation><!-- Canada (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Czech Republic/Slovakia (Delegate)</masterLabel>
+        <translation><!-- Czech Republic/Slovakia (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Czech Republic/Slovakia (Staff)</masterLabel>
+        <translation><!-- Czech Republic/Slovakia (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denmark (Delegate)</masterLabel>
+        <translation><!-- Denmark (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denmark (Staff)</masterLabel>
+        <translation><!-- Denmark (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Sales</masterLabel>
+        <translation><!-- Direct Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EE/Balkans/Baltics (Delegate)</masterLabel>
+        <translation><!-- EE/Balkans/Baltics (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EE/Balkans/Baltics (Staff)</masterLabel>
+        <translation><!-- EE/Balkans/Baltics (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Europe (Delegates)</masterLabel>
+        <translation><!-- East Europe (Delegates) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Europe (Staff)</masterLabel>
+        <translation><!-- East Europe (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employee</masterLabel>
+        <translation><!-- Employee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exhibitor</masterLabel>
+        <translation><!-- Exhibitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faculty</masterLabel>
+        <translation><!-- Faculty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellow (U.S. &amp; Puerto Rico)</masterLabel>
+        <translation><!-- Fellow (U.S. &amp; Puerto Rico) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finland (Delegate)</masterLabel>
+        <translation><!-- Finland (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finland (Staff)</masterLabel>
+        <translation><!-- Finland (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>France (Delegate)</masterLabel>
+        <translation><!-- France (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>France (Staff)</masterLabel>
+        <translation><!-- France (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GEM EMEA</masterLabel>
+        <translation><!-- GEM EMEA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Germany (Delegate)</masterLabel>
+        <translation><!-- Germany (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Germany (Staff)</masterLabel>
+        <translation><!-- Germany (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guest</masterLabel>
+        <translation><!-- Guest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HCP</masterLabel>
+        <translation><!-- HCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HCP Non Physician</masterLabel>
+        <translation><!-- HCP Non Physician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HCP Non Surgeon</masterLabel>
+        <translation><!-- HCP Non Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Professional</masterLabel>
+        <translation><!-- Healthcare Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Host Auditor</masterLabel>
+        <translation><!-- Host Auditor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iceland (Delegate)</masterLabel>
+        <translation><!-- Iceland (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iceland (Staff)</masterLabel>
+        <translation><!-- Iceland (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italy Delegate</masterLabel>
+        <translation><!-- Italy Delegate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italy Staff</masterLabel>
+        <translation><!-- Italy Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Latin America Sales</masterLabel>
+        <translation><!-- Latin America Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEA/MED (Delegate)</masterLabel>
+        <translation><!-- MEA/MED (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEA/MED (Staff)</masterLabel>
+        <translation><!-- MEA/MED (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedEd</masterLabel>
+        <translation><!-- MedEd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Student</masterLabel>
+        <translation><!-- Medical Student --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Netherlands (Delegate)</masterLabel>
+        <translation><!-- Netherlands (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Netherlands (Staff)</masterLabel>
+        <translation><!-- Netherlands (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-HCP</masterLabel>
+        <translation><!-- Non-HCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norway (Delegate)</masterLabel>
+        <translation><!-- Norway (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norway (Staff)</masterLabel>
+        <translation><!-- Norway (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OUS Surgeon</masterLabel>
+        <translation><!-- OUS Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observer</masterLabel>
+        <translation><!-- Observer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outside US Surgeon</masterLabel>
+        <translation><!-- Outside US Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outside of US Fellow</masterLabel>
+        <translation><!-- Outside of US Fellow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician</masterLabel>
+        <translation><!-- Physician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portugal (Delegate)</masterLabel>
+        <translation><!-- Portugal (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portugal (Staff)</masterLabel>
+        <translation><!-- Portugal (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puerto Rico - Fellow</masterLabel>
+        <translation><!-- Puerto Rico - Fellow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puerto Rico - Surgeon</masterLabel>
+        <translation><!-- Puerto Rico - Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resident</masterLabel>
+        <translation><!-- Resident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russia (Delegate)</masterLabel>
+        <translation><!-- Russia (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russia (Staff)</masterLabel>
+        <translation><!-- Russia (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales</masterLabel>
+        <translation><!-- Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Africa (Delegate)</masterLabel>
+        <translation><!-- South Africa (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Africa (Staff)</masterLabel>
+        <translation><!-- South Africa (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spain (Delegate)</masterLabel>
+        <translation><!-- Spain (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spain (Staff)</masterLabel>
+        <translation><!-- Spain (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation><!-- Speaker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff</masterLabel>
+        <translation><!-- Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon (U.S. &amp; Puerto Rico)</masterLabel>
+        <translation><!-- Surgeon (U.S. &amp; Puerto Rico) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sweden (Delegate)</masterLabel>
+        <translation><!-- Sweden (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sweden (Staff)</masterLabel>
+        <translation><!-- Sweden (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Switzerland (Delegate)</masterLabel>
+        <translation><!-- Switzerland (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Switzerland (Staff)</masterLabel>
+        <translation><!-- Switzerland (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Translation</masterLabel>
+        <translation><!-- Translation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma Direct Sales</masterLabel>
+        <translation><!-- Trauma Direct Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turkey (Delegate)</masterLabel>
+        <translation><!-- Turkey (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turkey (Staff)</masterLabel>
+        <translation><!-- Turkey (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UK (Delegate)</masterLabel>
+        <translation><!-- UK (Delegate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UK (Staff)</masterLabel>
+        <translation><!-- UK (Staff) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vendor</masterLabel>
+        <translation><!-- Vendor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition Only</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition Only X</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition Only X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition/Hotel</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition/Hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition/Hotel X</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition/Hotel X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition/Hotel/Air</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition/Hotel/Air --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Adv Surgical Rebate - Tuition/Hotel/Air X</masterLabel>
+        <translation><!-- ZI Adv Surgical Rebate - Tuition/Hotel/Air X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition Only</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition Only X</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition Only X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition/Hotel</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition/Hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition/Hotel X</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition/Hotel X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition/Hotel/Air</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition/Hotel/Air --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Comprehensive Rebate - Tuition/Hotel/Air X</masterLabel>
+        <translation><!-- ZI Comprehensive Rebate - Tuition/Hotel/Air X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition Only</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition Only X</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition Only X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition/Hotel</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition/Hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition/Hotel X</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition/Hotel X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition/Hotel/Air</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition/Hotel/Air --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZI Restorative Rebate - Tuition/Hotel/Air X</masterLabel>
+        <translation><!-- ZI Restorative Rebate - Tuition/Hotel/Air X --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Corporate</masterLabel>
+        <translation><!-- Zimmer Biomet Corporate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Direct Sales</masterLabel>
+        <translation><!-- Zimmer Biomet Direct Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Sales</masterLabel>
+        <translation><!-- Zimmer Biomet Sales --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

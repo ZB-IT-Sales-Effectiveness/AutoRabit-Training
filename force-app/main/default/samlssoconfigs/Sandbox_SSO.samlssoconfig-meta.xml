@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://ezsignonqa.zimmer.com/adfs/services/trust</issuer>
+    <loginUrl>https://ezsignonqa.zimmer.com/adfs/ls/</loginUrl>
+    <name>Sandbox SSO</name>
+    <oauthTokenEndpoint>https://zimmerbiometglobal--sandbox01.my.salesforce.com/services/oauth2/token?so=00D6w0000004bNV</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P13b0000004QHb</requestSigningCertId>
+    <salesforceLoginUrl>https://zimmerbiometglobal--sandbox01.my.salesforce.com?so=00D6w0000004bNV</salesforceLoginUrl>
+    <samlEntityId>https://zimmerbiometglobal--sandbox01.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC4jCCAcqgAwIBAgIQcSSv3nW4nbFOPFNYXPP4fTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDEyJBREZTIFNpZ25pbmcgLSBlenNpZ25vbi56aW1tZXIuY29tMB4XDTE5MTAwNTEzMjIwOFoXDTI0MTAwNTEzMjIwOFowLTErMCkGA1UEAxMiQURGUyBTaWduaW5nIC0gZXpzaWdub24uemltbWVyLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALhDUv7EqXO120oJyc5uMJcnNzP8Es6ISctHQ9N3M5Bb5eOc5HPbJrOZcq3lft44CYS3l7Lmy11Uc65fmIXkghruIJ7ZTAUFV5SvM/c/eivHmm6OKk787lsFx+B+1hUmH9lco7h0NOpnYPI0LLABgP5jjBGqq8mvUyVNlcKtsXHXXdThBKQUjuBwsmRpUIxi7d7GeehcWDPSsz2X/tFXcmCUbYb2mlyBXwMdXvD7pJORgRLhS3knE5EMHg7Ka2nf/cqry3/cXY2rYiaxVFT4B8k9REKT5tfTvnm3r9ry1g6uYPCHgShkRG1SenDZs6Hnep8AUICC4mlkA2T8kd7ap3cCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAIpxj2Mfsd8JmBt03SOZelzRRXQ/RqeCmr7Y1H7Im3ywG67V234KY+EfWZ7gzc15hpUVep2nrqC1MfuLc5UVCckGDBLWIABKYpAMk3h2J2ArtQ7Hzf47/PPr//dngPGNonXpsI/mmiJEbf3VWtc0PZR5YGfmXdRs7pIOaNGyZ+bzdLbUEMyztXFI//Omb4KXe+oj1zaU6oD+LB6idd3slg4mwcbkm+wU5qLJvWSeniJzpW4130Jn5Wpb5r+e50w7HlfRVnV4la76snE17Acz0vx/uxY0YCUUWjCQZnCmXZy1KzIZ4Oo2BR1A++I/RISwqqQngURaK6VxffC+hB3Y6IQ==</validationCert>
+</SamlSsoConfig>

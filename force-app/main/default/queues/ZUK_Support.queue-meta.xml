@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>ZUK Support</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>ZUK_Contact_Us_Support</publicGroup>
+        </publicGroups>
+        <users>
+            <user>onno.siegersma@zimmer.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

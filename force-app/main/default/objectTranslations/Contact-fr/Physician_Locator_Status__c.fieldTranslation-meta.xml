@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Physician Locator Status --></label>
+    <name>Physician_Locator_Status__c</name>
+    <picklistValues>
+        <masterLabel>Locator Displayed</masterLabel>
+        <translation><!-- Locator Displayed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locator Pending</masterLabel>
+        <translation><!-- Locator Pending --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

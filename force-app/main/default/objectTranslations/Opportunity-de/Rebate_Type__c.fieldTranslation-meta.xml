@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Rebate Type --></label>
+    <name>Rebate_Type__c</name>
+    <picklistValues>
+        <masterLabel>Baseline</masterLabel>
+        <translation><!-- Baseline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth</masterLabel>
+        <translation><!-- Growth --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

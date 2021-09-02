@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conditions_of_Payment_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Conditions_of_Payment__c, &quot;Z006&quot;, &quot;innerhalb von 30 Tagen netto&quot;, &quot;Z010&quot;, &quot;innerhalb von 90 Tagen netto&quot;, &quot;Z015&quot;, &quot;innerhalb von 10 Tagen 2% Skonto&quot;, &quot;innerhalb von 30 Tagen netto&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Zahlungsbedingungen</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

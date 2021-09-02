@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADM_Trauma_AT__c</fullName>
+    <externalId>false</externalId>
+    <label>ADM Trauma AT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Martin Heigl</fullName>
+                <default>true</default>
+                <label>Martin Heigl</label>
+            </value>
+            <value>
+                <fullName>Günter Kerndler</fullName>
+                <default>false</default>
+                <label>Günter Kerndler</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

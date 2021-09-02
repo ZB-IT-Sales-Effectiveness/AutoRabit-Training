@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZAN_Required</fullName>
+    <active>false</active>
+    <description>ZAN required if the creator of the record is &apos;custom - Data Administrator&apos;
+
+Deactivated as part of Physician Validation changes requested by Suzanne.</description>
+    <errorConditionFormula>IF(AND(ISBLANK(MDM_SAP_ID__c),$Profile.Id=&quot;00e80000001SQMI&quot;, ( PersonMailingCountry = &quot;US&quot; || PersonMailingCountry = &quot;PR&quot; || PersonMailingCountry = &quot;GU&quot; || PersonMailingCountry = &quot;VI&quot; || PersonMailingCountry = &quot;BM&quot;), ( RecordTypeId = &quot;012800000002C4g&quot;)), true, false)</errorConditionFormula>
+    <errorDisplayField>MDM_SAP_ID__c</errorDisplayField>
+    <errorMessage>Please enter Zimmer Account Number</errorMessage>
+</ValidationRule>

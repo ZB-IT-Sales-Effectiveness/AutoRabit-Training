@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Launch Role --></label>
+    <name>Launch_Role_Pick__c</name>
+    <picklistValues>
+        <masterLabel>Primary Facility Contact</masterLabel>
+        <translation><!-- Primary Facility Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Office Contact</masterLabel>
+        <translation><!-- Primary Office Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Champion Surgeon</masterLabel>
+        <translation><!-- ROSA Champion Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Distributor Ops Manager</masterLabel>
+        <translation><!-- ROSA Distributor Ops Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Distributor/GM</masterLabel>
+        <translation><!-- ROSA Distributor/GM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Fellow</masterLabel>
+        <translation><!-- ROSA Fellow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA OR Director</masterLabel>
+        <translation><!-- ROSA OR Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Ortho Coordinator</masterLabel>
+        <translation><!-- ROSA Ortho Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA PDA</masterLabel>
+        <translation><!-- ROSA PDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA PDM</masterLabel>
+        <translation><!-- ROSA PDM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA PDM Lead</masterLabel>
+        <translation><!-- ROSA PDM Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Recon Account Lead</masterLabel>
+        <translation><!-- ROSA Recon Account Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Recon Associate</masterLabel>
+        <translation><!-- ROSA Recon Associate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Recon ROSA Lead</masterLabel>
+        <translation><!-- ROSA Recon ROSA Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Recon Representative</masterLabel>
+        <translation><!-- ROSA Recon Representative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Recon Team Leader</masterLabel>
+        <translation><!-- ROSA Recon Team Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Resident</masterLabel>
+        <translation><!-- ROSA Resident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA SPD Director</masterLabel>
+        <translation><!-- ROSA SPD Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Surgeon</masterLabel>
+        <translation><!-- ROSA Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation><!-- Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unassigned</masterLabel>
+        <translation><!-- Unassigned --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

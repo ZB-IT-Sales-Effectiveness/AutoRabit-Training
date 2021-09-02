@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Time Zone --></label>
+    <name>Time_Zone__c</name>
+    <picklistValues>
+        <masterLabel>Alaska Standard Time</masterLabel>
+        <translation><!-- Alaska Standard Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Standard Time</masterLabel>
+        <translation><!-- Central Standard Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern Standard Time</masterLabel>
+        <translation><!-- Eastern Standard Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hawaii Standard Time</masterLabel>
+        <translation><!-- Hawaii Standard Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mountain Standard Time</masterLabel>
+        <translation><!-- Mountain Standard Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pacific Standard Time</masterLabel>
+        <translation><!-- Pacific Standard Time --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>This was created by brennen jenkins as a temporary manual fix</description>
+    <name>T70 Paulina Tran (Manually Created)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>SOUTH_TEXAS_HARPER_0070</parentTerritory>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Ortho_S_Texas_Rule</ruleName>
+    </ruleAssociations>
+    <territory2Type>US_Ortho</territory2Type>
+</Territory2>

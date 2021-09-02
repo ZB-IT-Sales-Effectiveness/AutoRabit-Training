@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Segment --></label>
+    <name>Sub_Segment__c</name>
+    <picklistValues>
+        <masterLabel>AC Joint Reconstruction/Reduction</masterLabel>
+        <translation><!-- AC Joint Reconstruction/Reduction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALPS</masterLabel>
+        <translation><!-- ALPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accessories</masterLabel>
+        <translation><!-- Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic SL</masterLabel>
+        <translation><!-- Alloclassic SL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir Complete Stem</masterLabel>
+        <translation><!-- Avenir Complete Stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biologics</masterLabel>
+        <translation><!-- Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bipolar Head</masterLabel>
+        <translation><!-- Bipolar Head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Management</masterLabel>
+        <translation><!-- Blood Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement &amp; Accessories</masterLabel>
+        <translation><!-- Bone Cement &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Stimulation</masterLabel>
+        <translation><!-- Bone Stimulation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C+TBA</masterLabel>
+        <translation><!-- C+TBA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Products</masterLabel>
+        <translation><!-- Cable Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital</masterLabel>
+        <translation><!-- Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical</masterLabel>
+        <translation><!-- Cervical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical Cages</masterLabel>
+        <translation><!-- Cervical Cages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamic Stabilisation</masterLabel>
+        <translation><!-- Dynamic Stabilisation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention Knee</masterLabel>
+        <translation><!-- Early Intervention Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Fixation</masterLabel>
+        <translation><!-- External Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FastFrame</masterLabel>
+        <translation><!-- FastFrame --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fluid Waste Management</masterLabel>
+        <translation><!-- Fluid Waste Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fluid Waste Management - Capital</masterLabel>
+        <translation><!-- Fluid Waste Management - Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fluid Waste Management - Consumables</masterLabel>
+        <translation><!-- Fluid Waste Management - Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle Biologics</masterLabel>
+        <translation><!-- Foot and Ankle Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forefoot</masterLabel>
+        <translation><!-- Forefoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Solutions PFJ</masterLabel>
+        <translation><!-- Gender Solutions PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Systems</masterLabel>
+        <translation><!-- Hip Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Advantage</masterLabel>
+        <translation><!-- Hospital Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IM Nails</masterLabel>
+        <translation><!-- IM Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injectables</masterLabel>
+        <translation><!-- Injectables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JPN Others</masterLabel>
+        <translation><!-- JPN Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Systems</masterLabel>
+        <translation><!-- Knee Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees Creation</masterLabel>
+        <translation><!-- Knees Creation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limb Salvage</masterLabel>
+        <translation><!-- Limb Salvage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumbal</masterLabel>
+        <translation><!-- Lumbal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MCS - Capital</masterLabel>
+        <translation><!-- MCS - Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MCS - Consumables</masterLabel>
+        <translation><!-- MCS - Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS</masterLabel>
+        <translation><!-- MIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meniscus Systems</masterLabel>
+        <translation><!-- Meniscus Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Müller straight stem</masterLabel>
+        <translation><!-- Müller straight stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthobiologics</masterLabel>
+        <translation><!-- Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Trauma</masterLabel>
+        <translation><!-- Other Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outpatient Advantage</masterLabel>
+        <translation><!-- Outpatient Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Knee</masterLabel>
+        <translation><!-- Partial Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perioperative Consulting</masterLabel>
+        <translation><!-- Perioperative Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona Patella</masterLabel>
+        <translation><!-- Persona Patella --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personalized Solutions</masterLabel>
+        <translation><!-- Personalized Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates &amp; Screws</masterLabel>
+        <translation><!-- Plates &amp; Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Tools &amp; Accessories</masterLabel>
+        <translation><!-- Power Tools &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Tools and Consumables</masterLabel>
+        <translation><!-- Power Tools and Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Practice Advantage</masterLabel>
+        <translation><!-- Practice Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Acetabular</masterLabel>
+        <translation><!-- Primary Acetabular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Femoral</masterLabel>
+        <translation><!-- Primary Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Knee</masterLabel>
+        <translation><!-- Primary Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximal Biceps and Elbow</masterLabel>
+        <translation><!-- Proximal Biceps and Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulse Lavage - Consumables</masterLabel>
+        <translation><!-- Pulse Lavage - Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA - Capital</masterLabel>
+        <translation><!-- ROSA - Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Brain - Service and Warranty</masterLabel>
+        <translation><!-- ROSA Brain - Service and Warranty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA®  Brain Warranty</masterLabel>
+        <translation><!-- ROSA®  Brain Warranty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Brain Capital</masterLabel>
+        <translation><!-- ROSA® Brain Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Brain Consumable</masterLabel>
+        <translation><!-- ROSA® Brain Consumable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Brain Service</masterLabel>
+        <translation><!-- ROSA® Brain Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Spine Capital</masterLabel>
+        <translation><!-- ROSA® Spine Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reamers</masterLabel>
+        <translation><!-- Reamers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rearfoot</masterLabel>
+        <translation><!-- Rearfoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Acetabular</masterLabel>
+        <translation><!-- Revision Acetabular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Femoral</masterLabel>
+        <translation><!-- Revision Femoral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knee</masterLabel>
+        <translation><!-- Revision Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAT</masterLabel>
+        <translation><!-- SAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SSC Pfanne</masterLabel>
+        <translation><!-- SSC Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service - Extended</masterLabel>
+        <translation><!-- Service - Extended --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder Systems</masterLabel>
+        <translation><!-- Shoulder Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature Solutions</masterLabel>
+        <translation><!-- Signature Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Graft Product</masterLabel>
+        <translation><!-- Skin Graft Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone and Joint - Hand &amp; Wrist</masterLabel>
+        <translation><!-- Small Bone and Joint - Hand &amp; Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soft Goods, Braces &amp; Supports</masterLabel>
+        <translation><!-- Soft Goods, Braces &amp; Supports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Biologics</masterLabel>
+        <translation><!-- Spine Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Med Biologics</masterLabel>
+        <translation><!-- Sports Med Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology</masterLabel>
+        <translation><!-- Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracolumbar</masterLabel>
+        <translation><!-- Thoracolumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet - Capital</masterLabel>
+        <translation><!-- Tourniquet - Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet - Consumables</masterLabel>
+        <translation><!-- Tourniquet - Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet Systems</masterLabel>
+        <translation><!-- Tourniquet Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction</masterLabel>
+        <translation><!-- Traction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma Biologics</masterLabel>
+        <translation><!-- Trauma Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma-Orthobiologics</masterLabel>
+        <translation><!-- Trauma-Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TrueUp - Capital</masterLabel>
+        <translation><!-- TrueUp - Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIDEO SYSTEMS - CAPITAL</masterLabel>
+        <translation><!-- VIDEO SYSTEMS - CAPITAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Video Systems - Flat Repair</masterLabel>
+        <translation><!-- Video Systems - Flat Repair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Video Systems - Premium</masterLabel>
+        <translation><!-- Video Systems - Premium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Video Systems - Repair Replace</masterLabel>
+        <translation><!-- Video Systems - Repair Replace --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner SL RevisionStem</masterLabel>
+        <translation><!-- Wagner SL RevisionStem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Debridement</masterLabel>
+        <translation><!-- Wound Debridement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrist</masterLabel>
+        <translation><!-- Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>X Power Tools Capital</masterLabel>
+        <translation><!-- X Power Tools Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>X Power Tools Capital-Eval</masterLabel>
+        <translation><!-- X Power Tools Capital-Eval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xentrax</masterLabel>
+        <translation><!-- Xentrax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZEOS</masterLabel>
+        <translation><!-- ZEOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iAssist</masterLabel>
+        <translation><!-- iAssist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

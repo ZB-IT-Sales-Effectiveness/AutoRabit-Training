@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Date last update consignment --></help>
+    <label>Sidste opdat. Consignment</label>
+    <name>Last_Update_Consignment__c</name>
+</CustomFieldTranslation>

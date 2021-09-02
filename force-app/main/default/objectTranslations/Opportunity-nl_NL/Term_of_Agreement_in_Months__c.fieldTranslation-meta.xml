@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Term of Agreement in Months --></label>
+    <name>Term_of_Agreement_in_Months__c</name>
+    <picklistValues>
+        <masterLabel>12 Months</masterLabel>
+        <translation><!-- 12 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24 Months</masterLabel>
+        <translation><!-- 24 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36 Months</masterLabel>
+        <translation><!-- 36 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48 Months</masterLabel>
+        <translation><!-- 48 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>60 Months</masterLabel>
+        <translation><!-- 60 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Non-Std Request Below</masterLabel>
+        <translation><!-- Other Non-Std Request Below --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

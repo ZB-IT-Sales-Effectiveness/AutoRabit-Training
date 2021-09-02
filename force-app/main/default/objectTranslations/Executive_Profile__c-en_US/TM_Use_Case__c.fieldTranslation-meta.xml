@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TM Use Case --></label>
+    <name>TM_Use_Case__c</name>
+    <picklistValues>
+        <masterLabel>As an optional everyday implant</masterLabel>
+        <translation><!-- As an optional everyday implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In high-risk patients</masterLabel>
+        <translation><!-- In high-risk patients --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In revision procedures</masterLabel>
+        <translation><!-- In revision procedures --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T94 TEAM REDDING (F8G)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T94 TEAM REDDING (F8G)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>PREMIER_ORTH_VON_SAVOYE_0094</parentRole>
+</Role>

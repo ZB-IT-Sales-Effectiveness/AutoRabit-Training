@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CENTRAL_ZONE_VP_mymobility_FORECAST</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Pull_Through__c</columns>
+    <columns>Deal_Type_Surgical__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Manager_Forecast_Judgement__c</columns>
+    <columns>AVP_Forecast_Judgement__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Accelero</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Discover,Solve,Execute,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit</value>
+    </filters>
+    <filters>
+        <field>Distributor__c</field>
+        <operation>contains</operation>
+        <value>HOLINKA,HARPER,SCHMAHL,ELLIS,ZERINGUE,NIPPS,WHITMAN-BURK,ERVIN,WARD,FUMEI-LOCRICCHIO,HIBBARD,SHALALA,SOLTWEDEL</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Service</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kyle Klein,Bailee Fitzgerald,Kris Simonton,Jackson Pfister,Kyle Smith,Chase Idleman,Eric Caille,Dustin Papon</value>
+    </filters>
+    <label>CENTRAL VP mymobility FORECAST</label>
+    <sharedTo>
+        <role>CENTRAL_ZONE</role>
+    </sharedTo>
+</ListView>

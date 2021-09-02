@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FutureDistributorship__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Future Distributorship</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Distributor</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Organization__c</field>
+            <operation>equals</operation>
+            <value>Parent</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,GU,BM</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.ShippingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,GU,BM</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (Future Distributorship)</relationshipLabel>
+    <relationshipName>FutureDistributorship</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

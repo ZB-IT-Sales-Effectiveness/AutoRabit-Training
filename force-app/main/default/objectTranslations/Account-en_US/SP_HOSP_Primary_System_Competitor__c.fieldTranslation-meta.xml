@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SP HOSP Primary System Competitor --></label>
+    <name>SP_HOSP_Primary_System_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>DePuy/Synthes</masterLabel>
+        <translation><!-- DePuy/Synthes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medtronic</masterLabel>
+        <translation><!-- Medtronic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niche Vendor</masterLabel>
+        <translation><!-- Niche Vendor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuvasive</masterLabel>
+        <translation><!-- Nuvasive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Owned Distr</masterLabel>
+        <translation><!-- Physician Owned Distr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

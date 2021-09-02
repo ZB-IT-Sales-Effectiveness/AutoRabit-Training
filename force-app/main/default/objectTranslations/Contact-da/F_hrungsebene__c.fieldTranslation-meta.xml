@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Values 1,2,3 Recon 
+SP1,2 for Spine Contacts 
+TR1,2 for Trauma Contacts --></help>
+    <label>Ledelsesniveau</label>
+    <name>F_hrungsebene__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation><!-- 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation><!-- 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP1</masterLabel>
+        <translation><!-- SP1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP2</masterLabel>
+        <translation><!-- SP2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR1</masterLabel>
+        <translation><!-- TR1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR2</masterLabel>
+        <translation><!-- TR2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

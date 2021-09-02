@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Existing Technique --></label>
+    <name>Existing_Technique__c</name>
+    <picklistValues>
+        <masterLabel>Alif</masterLabel>
+        <translation><!-- Alif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All Lower Limb</masterLabel>
+        <translation><!-- All Lower Limb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All Upper Limb</masterLabel>
+        <translation><!-- All Upper Limb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterior Approach</masterLabel>
+        <translation><!-- Anterior Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterior Supine Approach</masterLabel>
+        <translation><!-- Anterior Supine Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antero-Medial Approach</masterLabel>
+        <translation><!-- Antero-Medial Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antero-Superior Approach</masterLabel>
+        <translation><!-- Antero-Superior Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterolateral Approach</masterLabel>
+        <translation><!-- Anterolateral Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterolateral-Supine (Al-S) Approach</masterLabel>
+        <translation><!-- Anterolateral-Supine (Al-S) Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arm</masterLabel>
+        <translation><!-- Arm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bearing Surfaces</masterLabel>
+        <translation><!-- Bearing Surfaces --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cmf</masterLabel>
+        <translation><!-- Cmf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delto-Pectoral Approach</masterLabel>
+        <translation><!-- Delto-Pectoral Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Difficult Primaries Technique</masterLabel>
+        <translation><!-- Difficult Primaries Technique --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femur</masterLabel>
+        <translation><!-- Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femur Af</masterLabel>
+        <translation><!-- Femur Af --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femur Rf</masterLabel>
+        <translation><!-- Femur Rf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixation Technology</masterLabel>
+        <translation><!-- Fixation Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot</masterLabel>
+        <translation><!-- Foot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fusion</masterLabel>
+        <translation><!-- Fusion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand</masterLabel>
+        <translation><!-- Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intelligent Instrumentation</masterLabel>
+        <translation><!-- Intelligent Instrumentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Kinematic</masterLabel>
+        <translation><!-- Knee Kinematic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lateral Approach</masterLabel>
+        <translation><!-- Lateral Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lateral To Medial Triceps/Anconeal Flap</masterLabel>
+        <translation><!-- Lateral To Medial Triceps/Anconeal Flap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lateral Transfibular Approach</masterLabel>
+        <translation><!-- Lateral Transfibular Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medial To Lateral Triceps/Anconeal Flap</masterLabel>
+        <translation><!-- Medial To Lateral Triceps/Anconeal Flap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid Vastus</masterLabel>
+        <translation><!-- Mid Vastus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mis</masterLabel>
+        <translation><!-- Mis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigation</masterLabel>
+        <translation><!-- Navigation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olecranon Osteotomy</masterLabel>
+        <translation><!-- Olecranon Osteotomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteotomies</masterLabel>
+        <translation><!-- Osteotomies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periprosthetic</masterLabel>
+        <translation><!-- Periprosthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plif</masterLabel>
+        <translation><!-- Plif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Posterior Approach</masterLabel>
+        <translation><!-- Posterior Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qs</masterLabel>
+        <translation><!-- Qs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soft Tissue Balancing</masterLabel>
+        <translation><!-- Soft Tissue Balancing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subvastus</masterLabel>
+        <translation><!-- Subvastus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Templating</masterLabel>
+        <translation><!-- Templating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tibia</masterLabel>
+        <translation><!-- Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tlif</masterLabel>
+        <translation><!-- Tlif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triceps Release</masterLabel>
+        <translation><!-- Triceps Release --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triceps Split And Reflection</masterLabel>
+        <translation><!-- Triceps Split And Reflection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrist</masterLabel>
+        <translation><!-- Wrist --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

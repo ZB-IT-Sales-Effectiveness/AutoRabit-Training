@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ZB Connect Team --></label>
+    <name>ZB_Connect_Team__c</name>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>My Mobility</masterLabel>
+        <translation><!-- My Mobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAT</masterLabel>
+        <translation><!-- SAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Str. Contracting</masterLabel>
+        <translation><!-- Str. Contracting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

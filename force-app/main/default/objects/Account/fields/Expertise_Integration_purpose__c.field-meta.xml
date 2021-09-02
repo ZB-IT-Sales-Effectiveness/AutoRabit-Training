@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expertise_Integration_purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Enterprise Integration purpose</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anterior Supine</fullName>
+                <default>false</default>
+                <label>Anterior Supine</label>
+            </value>
+            <value>
+                <fullName>Partial Knee</fullName>
+                <default>false</default>
+                <label>Partial Knee</label>
+            </value>
+            <value>
+                <fullName>Patient Specific Instruments</fullName>
+                <default>false</default>
+                <label>Patient Specific Instruments</label>
+            </value>
+            <value>
+                <fullName>Vanguard</fullName>
+                <default>false</default>
+                <label>Vanguard</label>
+            </value>
+            <value>
+                <fullName>VitaminE</fullName>
+                <default>false</default>
+                <label>VitaminE</label>
+            </value>
+            <value>
+                <fullName>Vivacit-E Hip Construct</fullName>
+                <default>false</default>
+                <label>Vivacit-E Hip Construct</label>
+            </value>
+            <value>
+                <fullName>XP</fullName>
+                <default>false</default>
+                <label>XP</label>
+            </value>
+            <value>
+                <fullName>Chondrofix</fullName>
+                <default>false</default>
+                <label>Chondrofix</label>
+            </value>
+            <value>
+                <fullName>Early Intervention</fullName>
+                <default>false</default>
+                <label>Early Intervention</label>
+            </value>
+            <value>
+                <fullName>Gel-One</fullName>
+                <default>false</default>
+                <label>Gel-One</label>
+            </value>
+            <value>
+                <fullName>Persona Knee System</fullName>
+                <default>false</default>
+                <label>Persona Knee System</label>
+            </value>
+            <value>
+                <fullName>PFJ</fullName>
+                <default>false</default>
+                <label>PFJ</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal Total Ankle</fullName>
+                <default>false</default>
+                <label>Trabecular Metal Total Ankle</label>
+            </value>
+            <value>
+                <fullName>Zimmer Unicompartmental Knee</fullName>
+                <default>false</default>
+                <label>Zimmer Unicompartmental Knee</label>
+            </value>
+            <value>
+                <fullName>Oxford Partial Knee</fullName>
+                <default>false</default>
+                <label>Oxford Partial Knee</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Signature Solutions</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Signature Solutions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

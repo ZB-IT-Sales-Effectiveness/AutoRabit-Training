@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Status , &quot;NEW&quot;) ||  ISPICKVAL(Status, &quot;NEU&quot;)  || ISPICKVAL(Status, &quot;Assigned&quot;) || ISPICKVAL(Status, &quot;Escalated&quot;) || ISPICKVAL(Status, &quot;Eskaliert&quot;) || ISPICKVAL(Status, &quot;Opened&quot;) || ISPICKVAL(Status, &quot;Pending&quot;) || ISPICKVAL(Status, &quot;Under Review&quot;) || ISPICKVAL(Status, &quot;Notify HCP&quot;), 
+
+IF(  Indicator__c  = TRUE, 
+IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1433767941000/New&quot;, &quot;New&quot;), IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1433767918000/Checked&quot;,&quot;Seen&quot;))
+
+, IMAGE(&quot;https://zimmerbiometglobal--c.na8.visual.force.com/resource/1433767964000/Closed&quot;, &quot;Closed&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Email Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

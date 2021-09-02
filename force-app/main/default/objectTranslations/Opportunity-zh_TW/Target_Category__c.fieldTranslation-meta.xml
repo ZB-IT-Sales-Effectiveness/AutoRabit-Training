@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Target Category --></label>
+    <name>Target_Category__c</name>
+    <picklistValues>
+        <masterLabel>Attune</masterLabel>
+        <translation><!-- Attune --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement</masterLabel>
+        <translation><!-- Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PKA, No TKA</masterLabel>
+        <translation><!-- PKA, No TKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Palacos Priorities</masterLabel>
+        <translation><!-- Palacos Priorities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona</masterLabel>
+        <translation><!-- Persona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona Partial</masterLabel>
+        <translation><!-- Persona Partial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Tibia</masterLabel>
+        <translation><!-- TM Tibia --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

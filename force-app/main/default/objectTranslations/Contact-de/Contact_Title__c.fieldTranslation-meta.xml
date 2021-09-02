@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Position</label>
+    <name>Contact_Title__c</name>
+    <picklistValues>
+        <masterLabel>Accountant</masterLabel>
+        <translation>Buchhalter(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistant</masterLabel>
+        <translation>Assistent(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistante dentaire</masterLabel>
+        <translation><!-- Assistante dentaire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autre</masterLabel>
+        <translation><!-- Autre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDT</masterLabel>
+        <translation>CDT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Oral Surgery</masterLabel>
+        <translation>Vorsitzender Oralchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Periodontics</masterLabel>
+        <translation>Vorsitzender Parodontologie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair of Prosthodontics</masterLabel>
+        <translation>Vorsitzender Prothetik</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chef de clinique</masterLabel>
+        <translation><!-- Chef de clinique --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chef de service</masterLabel>
+        <translation><!-- Chef de service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Department Manager</masterLabel>
+        <translation>Leiter Klinische Abteilung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS</masterLabel>
+        <translation>Dr. med. dent.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS, MD</masterLabel>
+        <translation>Dr. med. dent., Dr. med.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS, MS</masterLabel>
+        <translation>Dr. med. dent., MSc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DMD</masterLabel>
+        <translation><!-- DMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dean</masterLabel>
+        <translation>Dekan</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Technician</masterLabel>
+        <translation>Zahntechniker</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentist</masterLabel>
+        <translation>Zahnarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Oral Surgery</masterLabel>
+        <translation>Direktor Oralchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Periodontics</masterLabel>
+        <translation>Direktor Parodontologie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director of Prosthodontics</masterLabel>
+        <translation>Direktor Prothetik</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endodontist</masterLabel>
+        <translation><!-- Endodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Practitioner</masterLabel>
+        <translation><!-- General Practitioner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygienist</masterLabel>
+        <translation>Dentalhygieniker(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Co-coordinator</masterLabel>
+        <translation>Implantatkoordinator(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implantologist</masterLabel>
+        <translation>Implantologe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Owner</masterLabel>
+        <translation>Laboreigentümer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory Implant Director</masterLabel>
+        <translation>Labor-Implantatdirektor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory Implant Manager</masterLabel>
+        <translation>Labor-Implantatmanager</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDT</masterLabel>
+        <translation>MDT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxillofacial Surgeon</masterLabel>
+        <translation>MKG-Chirurg(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OMS</masterLabel>
+        <translation><!-- OMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OR Manager</masterLabel>
+        <translation>Leiter OP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Manager</masterLabel>
+        <translation>Praxismanager(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral Surgeon</masterLabel>
+        <translation>Oralchirurg(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthodontist</masterLabel>
+        <translation>Kieferorthopäde</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periodontist</masterLabel>
+        <translation><!-- Periodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>President</masterLabel>
+        <translation>Präsident</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement Director</masterLabel>
+        <translation>Direktor Beschaffung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement Manager</masterLabel>
+        <translation>Manager Beschaffung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthodontist</masterLabel>
+        <translation><!-- Prosthodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Director</masterLabel>
+        <translation>Direktor Einkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Manager</masterLabel>
+        <translation>Manager Einkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receptionist</masterLabel>
+        <translation>Rezeptionist(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registered Dental Assistant (RDA)</masterLabel>
+        <translation><!-- Registered Dental Assistant (RDA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resident</masterLabel>
+        <translation><!-- Resident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secrétaire</masterLabel>
+        <translation>Sekretär(in)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stomatologue</masterLabel>
+        <translation>Stomatologe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Assistant</masterLabel>
+        <translation>Chirurgischer Assistent</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Allograft Bone Competitor --></label>
+    <name>Primary_Allograft_Bone_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>AlloOss (Ace)</masterLabel>
+        <translation><!-- AlloOss (Ace) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos (Nobel)</masterLabel>
+        <translation><!-- Creos (Nobel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DynaBlast (Multiple)</masterLabel>
+        <translation><!-- DynaBlast (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTF (Multiple)</masterLabel>
+        <translation><!-- MTF (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxxeus (CTS)</masterLabel>
+        <translation><!-- Maxxeus (CTS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MinerOss (BioHorizons)</masterLabel>
+        <translation><!-- MinerOss (BioHorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OraGraft (Salvin)</masterLabel>
+        <translation><!-- OraGraft (Salvin) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Allograft</masterLabel>
+        <translation><!-- Other Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raptos (Citagenix)</masterLabel>
+        <translation><!-- Raptos (Citagenix) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rocky Mountain TB (Multiple)</masterLabel>
+        <translation><!-- Rocky Mountain TB (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann Allograft</masterLabel>
+        <translation><!-- Straumann Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Symbios (Dentsply)</masterLabel>
+        <translation><!-- Symbios (Dentsply) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>enCore (Osteogenics)</masterLabel>
+        <translation><!-- enCore (Osteogenics) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

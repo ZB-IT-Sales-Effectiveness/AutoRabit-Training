@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Territory Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ALASKA (BARTOW)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ALASKA (BARTOW)</label>
+            </value>
+            <value>
+                <fullName>APEX SURGICAL(FOX-GATTEN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>APEX SURGICAL(FOX-GATTEN)</label>
+            </value>
+            <value>
+                <fullName>BONEAFIDE ORTHO(ZERINGUE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BONEAFIDE ORTHO(ZERINGUE)</label>
+            </value>
+            <value>
+                <fullName>Boneafide Orthopaedics, Inc.</fullName>
+                <default>false</default>
+                <label>Boneafide Orthopaedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>CAPITAL (PATAK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CAPITAL (PATAK)</label>
+            </value>
+            <value>
+                <fullName>CASE MEDICAL (CASE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CASE MEDICAL (CASE)</label>
+            </value>
+            <value>
+                <fullName>DAVIS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DAVIS</label>
+            </value>
+            <value>
+                <fullName>DOWNSTATE NY (LOSCHIAVO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DOWNSTATE NY (LOSCHIAVO)</label>
+            </value>
+            <value>
+                <fullName>FEGAN INC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FEGAN INC</label>
+            </value>
+            <value>
+                <fullName>GR LKS (FUMEI-LOCRICCHIO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GR LKS (FUMEI-LOCRICCHIO)</label>
+            </value>
+            <value>
+                <fullName>HIBBARD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HIBBARD</label>
+            </value>
+            <value>
+                <fullName>HOLZBACH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HOLZBACH</label>
+            </value>
+            <value>
+                <fullName>JNT MED CONCEPTS (PARKER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>JNT MED CONCEPTS (PARKER)</label>
+            </value>
+            <value>
+                <fullName>Joint Medical Concepts</fullName>
+                <default>false</default>
+                <label>Joint Medical Concepts</label>
+            </value>
+            <value>
+                <fullName>LEGACY ORTHO(COOK-PERHACS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LEGACY ORTHO(COOK-PERHACS</label>
+            </value>
+            <value>
+                <fullName>Legacy Orthopedic, Inc.</fullName>
+                <default>false</default>
+                <label>Legacy Orthopedic, Inc.</label>
+            </value>
+            <value>
+                <fullName>MIDAMERICA (HOLINKA)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MIDAMERICA (HOLINKA)</label>
+            </value>
+            <value>
+                <fullName>MIDARK SURGICAL (NIPPS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MIDARK SURGICAL (NIPPS)</label>
+            </value>
+            <value>
+                <fullName>Midark Surgical Inc.</fullName>
+                <default>false</default>
+                <label>Midark Surgical Inc.</label>
+            </value>
+            <value>
+                <fullName>MID-OHIO (GRAHAM)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MID-OHIO (GRAHAM)</label>
+            </value>
+            <value>
+                <fullName>NORTHEAST (KILCOMMONS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NORTHEAST (KILCOMMONS)</label>
+            </value>
+            <value>
+                <fullName>OREGON (COUPENS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OREGON (COUPENS)</label>
+            </value>
+            <value>
+                <fullName>ORTHOSOLU(OLIVER-STANBERY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ORTHOSOLU(OLIVER-STANBERY</label>
+            </value>
+            <value>
+                <fullName>Osteo1, Inc</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Osteo1, Inc</label>
+            </value>
+            <value>
+                <fullName>OSTEO1 INC (SCHMITT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OSTEO1 INC (SCHMITT)</label>
+            </value>
+            <value>
+                <fullName>PRECISION (ETHERIDGE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PRECISION (ETHERIDGE)</label>
+            </value>
+            <value>
+                <fullName>PREMIER ORTH (VON SAVOYE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PREMIER ORTH (VON SAVOYE)</label>
+            </value>
+            <value>
+                <fullName>Premier Orthopedics, Inc.</fullName>
+                <default>false</default>
+                <label>Premier Orthopedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>RICCIONE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RICCIONE</label>
+            </value>
+            <value>
+                <fullName>RXMEDICAL (ROUSE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RXMEDICAL (ROUSE)</label>
+            </value>
+            <value>
+                <fullName>SELECT ORTHO(WHITMAN-BURK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SELECT ORTHO(WHITMAN-BURK</label>
+            </value>
+            <value>
+                <fullName>Select Orthopedics, Inc.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Select Orthopedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>SOLUTIONS (ERVIN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOLUTIONS (ERVIN)</label>
+            </value>
+            <value>
+                <fullName>SOUTHEAST (MATT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOUTHEAST (MATT)</label>
+            </value>
+            <value>
+                <fullName>SOUTH TEXAS (HARPER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOUTH TEXAS (HARPER)</label>
+            </value>
+            <value>
+                <fullName>SOUTHWEST OHIO (YOUNG)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOUTHWEST OHIO (YOUNG)</label>
+            </value>
+            <value>
+                <fullName>Summit Surgical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Summit Surgical</label>
+            </value>
+            <value>
+                <fullName>SUMMIT SURGICAL (BARNETT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SUMMIT SURGICAL (BARNETT)</label>
+            </value>
+            <value>
+                <fullName>WEST (PARKIN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WEST (PARKIN)</label>
+            </value>
+            <value>
+                <fullName>ZB APEX Surgical</fullName>
+                <default>false</default>
+                <label>ZB APEX Surgical</label>
+            </value>
+            <value>
+                <fullName>ZB-ARIZONA (SCOTT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-ARIZONA (SCOTT)</label>
+            </value>
+            <value>
+                <fullName>ZB-BAY AREA (QUIGLEY)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-BAY AREA (QUIGLEY)</label>
+            </value>
+            <value>
+                <fullName>ZB BLUE WATER ORTHOPEDICS (GROVER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB BLUE WATER ORTHOPEDICS (GROVER)</label>
+            </value>
+            <value>
+                <fullName>ZB BONEAFIDE ORTHOPAEDICS, INC. (ZERINGUE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB BONEAFIDE ORTHOPAEDICS, INC. (ZERINGUE)</label>
+            </value>
+            <value>
+                <fullName>ZB-CAROLINAS (GOSON)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-CAROLINAS (GOSON)</label>
+            </value>
+            <value>
+                <fullName>ZB Chicago</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB Chicago</label>
+            </value>
+            <value>
+                <fullName>ZB-CHICAGO (SHALALA)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-CHICAGO (SHALALA)</label>
+            </value>
+            <value>
+                <fullName>ZB-COLORADO (JOHNSON)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-COLORADO (JOHNSON)</label>
+            </value>
+            <value>
+                <fullName>ZB-COLORADO (KENDALL)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-COLORADO (KENDALL)</label>
+            </value>
+            <value>
+                <fullName>ZB DOWNSTATE NEWYORK (LOSCHIAVO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB DOWNSTATE NEWYORK (LOSCHIAVO)</label>
+            </value>
+            <value>
+                <fullName>ZB Empire</fullName>
+                <default>false</default>
+                <label>ZB Empire</label>
+            </value>
+            <value>
+                <fullName>ZB-EMPIRE (FUSILLI)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-EMPIRE (FUSILLI)</label>
+            </value>
+            <value>
+                <fullName>ZB-HEARTLAND (KLEM)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-HEARTLAND (KLEM)</label>
+            </value>
+            <value>
+                <fullName>ZB-INDIANA (SCHMAHL)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-INDIANA (SCHMAHL)</label>
+            </value>
+            <value>
+                <fullName>ZB IOWA (OLEJNICZAK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB IOWA (OLEJNICZAK)</label>
+            </value>
+            <value>
+                <fullName>ZB MIDARK SURGICAL INC. (NIPPS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB MIDARK SURGICAL INC. (NIPPS)</label>
+            </value>
+            <value>
+                <fullName>ZB-MID-ATLANTIC(PETERSON)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-MID-ATLANTIC(PETERSON)</label>
+            </value>
+            <value>
+                <fullName>ZB MOKAN (LEHMAN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB MOKAN (LEHMAN)</label>
+            </value>
+            <value>
+                <fullName>ZB-MOKAN (ROSS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-MOKAN (ROSS)</label>
+            </value>
+            <value>
+                <fullName>ZB N Atlantic</fullName>
+                <default>false</default>
+                <label>ZB N Atlantic</label>
+            </value>
+            <value>
+                <fullName>ZB-NC</fullName>
+                <default>false</default>
+                <label>ZB-NC</label>
+            </value>
+            <value>
+                <fullName>ZB NORTHEAST (KILCOMMONS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB NORTHEAST (KILCOMMONS)</label>
+            </value>
+            <value>
+                <fullName>ZB NORTH TEXAS (ELLIS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB NORTH TEXAS (ELLIS)</label>
+            </value>
+            <value>
+                <fullName>ZB-NORTHWEST (STEVENSON)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-NORTHWEST (STEVENSON)</label>
+            </value>
+            <value>
+                <fullName>ZB-NTEXAS (ELLIS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-NTEXAS (ELLIS)</label>
+            </value>
+            <value>
+                <fullName>ZBNW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZBNW</label>
+            </value>
+            <value>
+                <fullName>ZB NYC</fullName>
+                <default>false</default>
+                <label>ZB NYC</label>
+            </value>
+            <value>
+                <fullName>ZBOne</fullName>
+                <default>false</default>
+                <label>ZBOne</label>
+            </value>
+            <value>
+                <fullName>ZB-ONE (BEZJAK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-ONE (BEZJAK)</label>
+            </value>
+            <value>
+                <fullName>ZB-PACIFIC (SILLICK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-PACIFIC (SILLICK)</label>
+            </value>
+            <value>
+                <fullName>ZB-RIO GRANDE (VICTOR)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-RIO GRANDE (VICTOR)</label>
+            </value>
+            <value>
+                <fullName>ZB RXMEDICAL (ROUSE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB RXMEDICAL (ROUSE)</label>
+            </value>
+            <value>
+                <fullName>ZB So Cal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB So Cal</label>
+            </value>
+            <value>
+                <fullName>ZB-SO CAL (HLDSWTH-MRTN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-SO CAL (HLDSWTH-MRTN)</label>
+            </value>
+            <value>
+                <fullName>ZB SOLUTIONS (ERVIN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB SOLUTIONS (ERVIN)</label>
+            </value>
+            <value>
+                <fullName>ZB Southeast</fullName>
+                <default>false</default>
+                <label>ZB Southeast</label>
+            </value>
+            <value>
+                <fullName>ZB-SOUTH FLORIDA (BEZJAK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-SOUTH FLORIDA (BEZJAK)</label>
+            </value>
+            <value>
+                <fullName>ZB-SOUTH IDAHO (TU-TYGRS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-SOUTH IDAHO (TU-TYGRS)</label>
+            </value>
+            <value>
+                <fullName>ZB SOUTH TEXAS (HARPER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB SOUTH TEXAS (HARPER)</label>
+            </value>
+            <value>
+                <fullName>ZB-TN (WARD)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-TN (WARD)</label>
+            </value>
+            <value>
+                <fullName>ZB-TRI-STATE (JASPAN)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZB-TRI-STATE (JASPAN)</label>
+            </value>
+            <value>
+                <fullName>ZBWisco Inc</fullName>
+                <default>false</default>
+                <label>ZBWisco Inc</label>
+            </value>
+            <value>
+                <fullName>ZBWISCO INC (SOLTWEDEL)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ZBWISCO INC (SOLTWEDEL)</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Alaska</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Alaska</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Arizona</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Arizona</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Bay Area</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Bay Area</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Carolinas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Carolinas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Chicago</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Chicago</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Colorado</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Colorado</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Davis</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Davis</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Downstate New York</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Downstate New York</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Empire</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Empire</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Great Lakes</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Great Lakes</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Heartland-Omaha</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Heartland-Omaha</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Hibbard</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Hibbard</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Indiana</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Indiana</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet MidAmerica</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet MidAmerica</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mid-Ohio</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mid-Ohio</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mokan</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mokan</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Northeast</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zimmer Biomet Northeast</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet North Texas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet North Texas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Northwest</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Northwest</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet NYC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zimmer Biomet NYC</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Oregon</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Oregon</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet OrthoSolutions</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet OrthoSolutions</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Pacific</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Pacific</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Riccione</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Riccione</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Rio Grande</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Rio Grande</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet RxMedical</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet RxMedical</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Solutions</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Solutions</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southern California</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southern California</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southern Idaho</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zimmer Biomet Southern Idaho</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet South Idaho</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zimmer Biomet South Idaho</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet South Texas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet South Texas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southwest Ohio</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southwest Ohio</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet TN</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet TN</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Tri-State</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Tri-State</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet United</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet United</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet West, Inc.</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet West, Inc.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

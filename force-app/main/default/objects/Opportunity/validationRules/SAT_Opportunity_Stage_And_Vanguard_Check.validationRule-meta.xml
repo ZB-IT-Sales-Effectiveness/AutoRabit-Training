@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAT_Opportunity_Stage_And_Vanguard_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF((AND($RecordType.Name = &quot;ROSA Knee&quot;,Vanguard_fill_in__c  == FALSE)),
+OR(NOT(ISBLANK( Trays_requested__c)) ,NOT(ISBLANK(Estimated_Annual_Cases__c)), NOT(ISBLANK(Average_of_Cases_on_highest_Volume_day__c))),FALSE)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Please select Vanguard Implant Checkbox first.</errorMessage>
+</ValidationRule>

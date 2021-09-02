@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Headcount__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Headcount</label>
+    <summarizedField>Headcount_Summary__c.This_Year_End_Estimate__c</summarizedField>
+    <summaryForeignKey>Headcount_Summary__c.Business_Plan__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

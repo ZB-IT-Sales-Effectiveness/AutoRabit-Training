@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remove_Validation_Requested_Checkbox</fullName>
+    <active>true</active>
+    <description>Only Custom-Data Admin profile can manually remove validation requested checkbox.</description>
+    <errorConditionFormula>And( 
+RecordTypeId =&apos;012800000002C4g&apos;, 
+Not(OR ( 
+$Profile.Id =&apos;00e80000001SQMI&apos;, 
+$Profile.Id =&apos;00e80000000sptd&apos; 
+)), 
+
+ISCHANGED( Validation_Requested__c ), 
+Validation_Requested__c= FALSE	
+
+)</errorConditionFormula>
+    <errorMessage>Only Custom-Data Admin profile can manually remove validation requested checkbox.</errorMessage>
+</ValidationRule>

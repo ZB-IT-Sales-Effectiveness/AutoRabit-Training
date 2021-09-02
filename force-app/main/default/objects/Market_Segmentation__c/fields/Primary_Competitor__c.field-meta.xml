@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Competitor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Group__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAP</fullName>
+                <default>false</default>
+                <label>AAP</label>
+            </value>
+            <value>
+                <fullName>Aecuaos</fullName>
+                <default>false</default>
+                <label>Aecuaos</label>
+            </value>
+            <value>
+                <fullName>Aesculap</fullName>
+                <default>false</default>
+                <label>Aesculap</label>
+            </value>
+            <value>
+                <fullName>Ai-medic</fullName>
+                <default>false</default>
+                <label>Ai-medic</label>
+            </value>
+            <value>
+                <fullName>Alpha Consulting Group</fullName>
+                <default>false</default>
+                <label>Alpha Consulting Group</label>
+            </value>
+            <value>
+                <fullName>AMPLITUDE SAS</fullName>
+                <default>false</default>
+                <label>AMPLITUDE SAS</label>
+            </value>
+            <value>
+                <fullName>AQ Implants</fullName>
+                <default>false</default>
+                <label>AQ Implants</label>
+            </value>
+            <value>
+                <fullName>Arthrex</fullName>
+                <default>false</default>
+                <label>Arthrex</label>
+            </value>
+            <value>
+                <fullName>Ascension</fullName>
+                <default>false</default>
+                <label>Ascension</label>
+            </value>
+            <value>
+                <fullName>Axomed</fullName>
+                <default>false</default>
+                <label>Axomed</label>
+            </value>
+            <value>
+                <fullName>B.Braun</fullName>
+                <default>false</default>
+                <label>B.Braun</label>
+            </value>
+            <value>
+                <fullName>Brehm</fullName>
+                <default>false</default>
+                <label>Brehm</label>
+            </value>
+            <value>
+                <fullName>Conformis</fullName>
+                <default>false</default>
+                <label>Conformis</label>
+            </value>
+            <value>
+                <fullName>Corentec</fullName>
+                <default>false</default>
+                <label>Corentec</label>
+            </value>
+            <value>
+                <fullName>Corin</fullName>
+                <default>false</default>
+                <label>Corin</label>
+            </value>
+            <value>
+                <fullName>DePuy</fullName>
+                <default>false</default>
+                <label>DePuy</label>
+            </value>
+            <value>
+                <fullName>DeSoutter</fullName>
+                <default>false</default>
+                <label>DeSoutter</label>
+            </value>
+            <value>
+                <fullName>DIZG</fullName>
+                <default>false</default>
+                <label>DIZG</label>
+            </value>
+            <value>
+                <fullName>DJO</fullName>
+                <default>false</default>
+                <label>DJO</label>
+            </value>
+            <value>
+                <fullName>DJO Surgical</fullName>
+                <default>false</default>
+                <label>DJO Surgical</label>
+            </value>
+            <value>
+                <fullName>Encore</fullName>
+                <default>false</default>
+                <label>Encore</label>
+            </value>
+            <value>
+                <fullName>Exactech</fullName>
+                <default>false</default>
+                <label>Exactech</label>
+            </value>
+            <value>
+                <fullName>GE Healthcare Performance Solutions</fullName>
+                <default>false</default>
+                <label>GE Healthcare Performance Solutions</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Group Lepin</fullName>
+                <default>false</default>
+                <label>Group Lepin</label>
+            </value>
+            <value>
+                <fullName>Heraeus</fullName>
+                <default>false</default>
+                <label>Heraeus</label>
+            </value>
+            <value>
+                <fullName>Hunter &amp; Associates</fullName>
+                <default>false</default>
+                <label>Hunter &amp; Associates</label>
+            </value>
+            <value>
+                <fullName>Implantcast</fullName>
+                <default>false</default>
+                <label>Implantcast</label>
+            </value>
+            <value>
+                <fullName>Implan-Tec</fullName>
+                <default>false</default>
+                <label>Implan-Tec</label>
+            </value>
+            <value>
+                <fullName>Implantindustries</fullName>
+                <default>false</default>
+                <label>Implantindustries</label>
+            </value>
+            <value>
+                <fullName>JMM</fullName>
+                <default>false</default>
+                <label>JMM</label>
+            </value>
+            <value>
+                <fullName>K2M</fullName>
+                <default>false</default>
+                <label>K2M</label>
+            </value>
+            <value>
+                <fullName>Konigsee Implantate</fullName>
+                <default>false</default>
+                <label>Konigsee Implantate</label>
+            </value>
+            <value>
+                <fullName>Kyocera</fullName>
+                <default>false</default>
+                <label>Kyocera</label>
+            </value>
+            <value>
+                <fullName>Life Health Care</fullName>
+                <default>false</default>
+                <label>Life Health Care</label>
+            </value>
+            <value>
+                <fullName>Lima</fullName>
+                <default>false</default>
+                <label>Lima</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>LMA PacMed</fullName>
+                <default>false</default>
+                <label>LMA PacMed</label>
+            </value>
+            <value>
+                <fullName>Mako</fullName>
+                <default>false</default>
+                <label>Mako</label>
+            </value>
+            <value>
+                <fullName>Marshall Steele</fullName>
+                <default>false</default>
+                <label>Marshall Steele</label>
+            </value>
+            <value>
+                <fullName>Marshall Steele &amp; Associates</fullName>
+                <default>false</default>
+                <label>Marshall Steele &amp; Associates</label>
+            </value>
+            <value>
+                <fullName>Mathys</fullName>
+                <default>false</default>
+                <label>Mathys</label>
+            </value>
+            <value>
+                <fullName>MDM</fullName>
+                <default>false</default>
+                <label>MDM</label>
+            </value>
+            <value>
+                <fullName>Medacta</fullName>
+                <default>false</default>
+                <label>Medacta</label>
+            </value>
+            <value>
+                <fullName>Medartis</fullName>
+                <default>false</default>
+                <label>Medartis</label>
+            </value>
+            <value>
+                <fullName>Medtronic</fullName>
+                <default>false</default>
+                <label>Medtronic</label>
+            </value>
+            <value>
+                <fullName>Merete</fullName>
+                <default>false</default>
+                <label>Merete</label>
+            </value>
+            <value>
+                <fullName>Mizuho</fullName>
+                <default>false</default>
+                <label>Mizuho</label>
+            </value>
+            <value>
+                <fullName>MMT</fullName>
+                <default>false</default>
+                <label>MMT</label>
+            </value>
+            <value>
+                <fullName>Nakashima</fullName>
+                <default>false</default>
+                <label>Nakashima</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Nuvasive</fullName>
+                <default>false</default>
+                <label>Nuvasive</label>
+            </value>
+            <value>
+                <fullName>ODC</fullName>
+                <default>false</default>
+                <label>ODC</label>
+            </value>
+            <value>
+                <fullName>Omni Life Science</fullName>
+                <default>false</default>
+                <label>Omni Life Science</label>
+            </value>
+            <value>
+                <fullName>Orthofix</fullName>
+                <default>false</default>
+                <label>Orthofix</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Advantage</fullName>
+                <default>false</default>
+                <label>Orthopaedic Advantage</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Advantage Healthcare Consulting LLC</fullName>
+                <default>false</default>
+                <label>Orthopaedic Advantage Healthcare Consulting LLC</label>
+            </value>
+            <value>
+                <fullName>Orthotech</fullName>
+                <default>false</default>
+                <label>Orthotech</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Paradigm Spine</fullName>
+                <default>false</default>
+                <label>Paradigm Spine</label>
+            </value>
+            <value>
+                <fullName>Pioneer Surgical</fullName>
+                <default>false</default>
+                <label>Pioneer Surgical</label>
+            </value>
+            <value>
+                <fullName>Premier Inc.</fullName>
+                <default>false</default>
+                <label>Premier Inc.</label>
+            </value>
+            <value>
+                <fullName>S&amp;N</fullName>
+                <default>false</default>
+                <label>S&amp;N</label>
+            </value>
+            <value>
+                <fullName>Scient&apos;x-Alphatec</fullName>
+                <default>false</default>
+                <label>Scient&apos;x-Alphatec</label>
+            </value>
+            <value>
+                <fullName>Self-Implementation</fullName>
+                <default>false</default>
+                <label>Self-Implementation</label>
+            </value>
+            <value>
+                <fullName>SG2</fullName>
+                <default>false</default>
+                <label>SG2</label>
+            </value>
+            <value>
+                <fullName>Signature Spine</fullName>
+                <default>false</default>
+                <label>Signature Spine</label>
+            </value>
+            <value>
+                <fullName>Signus Medical</fullName>
+                <default>false</default>
+                <label>Signus Medical</label>
+            </value>
+            <value>
+                <fullName>Small Bone Innovations</fullName>
+                <default>false</default>
+                <label>Small Bone Innovations</label>
+            </value>
+            <value>
+                <fullName>Smith &amp; Nephew</fullName>
+                <default>false</default>
+                <label>Smith &amp; Nephew</label>
+            </value>
+            <value>
+                <fullName>Speedtec</fullName>
+                <default>false</default>
+                <label>Speedtec</label>
+            </value>
+            <value>
+                <fullName>Spinal Kinetics</fullName>
+                <default>false</default>
+                <label>Spinal Kinetics</label>
+            </value>
+            <value>
+                <fullName>SpineMark Corporation</fullName>
+                <default>false</default>
+                <label>SpineMark Corporation</label>
+            </value>
+            <value>
+                <fullName>Stelkast</fullName>
+                <default>false</default>
+                <label>Stelkast</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Sullivan Group</fullName>
+                <default>false</default>
+                <label>Sullivan Group</label>
+            </value>
+            <value>
+                <fullName>Sullivan Healthcare Consulting</fullName>
+                <default>false</default>
+                <label>Sullivan Healthcare Consulting</label>
+            </value>
+            <value>
+                <fullName>Summit Medical</fullName>
+                <default>false</default>
+                <label>Summit Medical</label>
+            </value>
+            <value>
+                <fullName>Surgery Management Improvement Group</fullName>
+                <default>false</default>
+                <label>Surgery Management Improvement Group</label>
+            </value>
+            <value>
+                <fullName>Symbios</fullName>
+                <default>false</default>
+                <label>Symbios</label>
+            </value>
+            <value>
+                <fullName>Synthes</fullName>
+                <default>false</default>
+                <label>Synthes</label>
+            </value>
+            <value>
+                <fullName>T.V.C.</fullName>
+                <default>false</default>
+                <label>T.V.C.</label>
+            </value>
+            <value>
+                <fullName>Tantum</fullName>
+                <default>false</default>
+                <label>Tantum</label>
+            </value>
+            <value>
+                <fullName>TeleVisual Communications (TVC)</fullName>
+                <default>false</default>
+                <label>TeleVisual Communications (TVC)</label>
+            </value>
+            <value>
+                <fullName>Telos</fullName>
+                <default>false</default>
+                <label>Telos</label>
+            </value>
+            <value>
+                <fullName>The Advisory Board Company</fullName>
+                <default>false</default>
+                <label>The Advisory Board Company</label>
+            </value>
+            <value>
+                <fullName>Thomson Reuters Healthcare</fullName>
+                <default>false</default>
+                <label>Thomson Reuters Healthcare</label>
+            </value>
+            <value>
+                <fullName>TJO</fullName>
+                <default>false</default>
+                <label>TJO</label>
+            </value>
+            <value>
+                <fullName>Tokibo</fullName>
+                <default>false</default>
+                <label>Tokibo</label>
+            </value>
+            <value>
+                <fullName>Tornier</fullName>
+                <default>false</default>
+                <label>Tornier</label>
+            </value>
+            <value>
+                <fullName>TranS1</fullName>
+                <default>false</default>
+                <label>TranS1</label>
+            </value>
+            <value>
+                <fullName>Tutogen</fullName>
+                <default>false</default>
+                <label>Tutogen</label>
+            </value>
+            <value>
+                <fullName>Ulrich Medical</fullName>
+                <default>false</default>
+                <label>Ulrich Medical</label>
+            </value>
+            <value>
+                <fullName>VHA Inc.</fullName>
+                <default>false</default>
+                <label>VHA Inc.</label>
+            </value>
+            <value>
+                <fullName>Wright Medical</fullName>
+                <default>false</default>
+                <label>Wright Medical</label>
+            </value>
+            <value>
+                <fullName>Microport</fullName>
+                <default>false</default>
+                <label>Microport</label>
+            </value>
+            <value>
+                <fullName>Linvatech</fullName>
+                <default>false</default>
+                <label>Linvatech</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Aesculap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Arthrex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Corentec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>DePuy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>DJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Exactech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Lima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Medacta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Medtronic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Omni Life Science</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>S&amp;N</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Stelkast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Stryker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>TJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Mako</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>ODC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Small Bone Innovations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Smith &amp; Nephew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Synthes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tornier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Wright Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>AAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Aecuaos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Ai-medic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Alpha Consulting Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>AMPLITUDE SAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>AQ Implants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Ascension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Axomed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>B.Braun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Brehm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Conformis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Corin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>DeSoutter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>DJO Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Encore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>GE Healthcare Performance Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Group Lepin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Heraeus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Hunter &amp; Associates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Implantcast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Implan-Tec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Implantindustries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>JMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>K2M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Konigsee Implantate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Kyocera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Life Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>LMA PacMed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Marshall Steele</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Marshall Steele &amp; Associates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Mathys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>MDM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Medartis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Mizuho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>MMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Nakashima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Nuvasive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Orthofix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Orthopaedic Advantage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Orthopaedic Advantage Healthcare Consulting LLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Orthotech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Paradigm Spine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Pioneer Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Premier Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Scient&apos;x-Alphatec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Self-Implementation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>SG2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Signature Spine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Signus Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Speedtec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Spinal Kinetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>SpineMark Corporation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Sullivan Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Sullivan Healthcare Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Summit Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Surgery Management Improvement Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Symbios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>T.V.C.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tantum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>TeleVisual Communications (TVC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>The Advisory Board Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Thomson Reuters Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tokibo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>TranS1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Ulrich Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>VHA Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Microport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>DIZG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Merete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Telos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tutogen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Linvatech</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

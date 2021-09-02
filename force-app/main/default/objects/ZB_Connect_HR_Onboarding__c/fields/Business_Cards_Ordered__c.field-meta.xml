@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Cards_Ordered__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Business_Cards_Ordered</description>
+    <externalId>false</externalId>
+    <label>Business Cards Ordered</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

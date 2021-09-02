@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon 4 --></label>
+    <name>Surgeon_4__c</name>
+    <relationshipLabel><!-- Segmentation Breakouts (Surgeon 4) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Source Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Source__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3700</fullName>
+                <default>false</default>
+                <label>3700</label>
+            </value>
+            <value>
+                <fullName>3750</fullName>
+                <default>false</default>
+                <label>3750</label>
+            </value>
+            <value>
+                <fullName>3751</fullName>
+                <default>false</default>
+                <label>3751</label>
+            </value>
+            <value>
+                <fullName>3752</fullName>
+                <default>false</default>
+                <label>3752</label>
+            </value>
+            <value>
+                <fullName>3753</fullName>
+                <default>false</default>
+                <label>3753</label>
+            </value>
+            <value>
+                <fullName>3754</fullName>
+                <default>false</default>
+                <label>3754</label>
+            </value>
+            <value>
+                <fullName>3755</fullName>
+                <default>false</default>
+                <label>3755</label>
+            </value>
+            <value>
+                <fullName>3756</fullName>
+                <default>false</default>
+                <label>3756</label>
+            </value>
+            <value>
+                <fullName>3757</fullName>
+                <default>false</default>
+                <label>3757</label>
+            </value>
+            <value>
+                <fullName>3760</fullName>
+                <default>false</default>
+                <label>3760</label>
+            </value>
+            <value>
+                <fullName>3762</fullName>
+                <default>false</default>
+                <label>3762</label>
+            </value>
+            <value>
+                <fullName>3765</fullName>
+                <default>false</default>
+                <label>3765</label>
+            </value>
+            <value>
+                <fullName>3766</fullName>
+                <default>false</default>
+                <label>3766</label>
+            </value>
+            <value>
+                <fullName>3767</fullName>
+                <default>false</default>
+                <label>3767</label>
+            </value>
+            <value>
+                <fullName>3768</fullName>
+                <default>false</default>
+                <label>3768</label>
+            </value>
+            <value>
+                <fullName>3769</fullName>
+                <default>false</default>
+                <label>3769</label>
+            </value>
+            <value>
+                <fullName>3770</fullName>
+                <default>false</default>
+                <label>3770</label>
+            </value>
+            <value>
+                <fullName>3771</fullName>
+                <default>false</default>
+                <label>3771</label>
+            </value>
+            <value>
+                <fullName>3772</fullName>
+                <default>false</default>
+                <label>3772</label>
+            </value>
+            <value>
+                <fullName>3773</fullName>
+                <default>false</default>
+                <label>3773</label>
+            </value>
+            <value>
+                <fullName>3774</fullName>
+                <default>false</default>
+                <label>3774</label>
+            </value>
+            <value>
+                <fullName>Back In The Groove</fullName>
+                <default>false</default>
+                <label>Back In The Groove</label>
+            </value>
+            <value>
+                <fullName>Gender Knee</fullName>
+                <default>false</default>
+                <label>Gender Knee</label>
+            </value>
+            <value>
+                <fullName>MLC</fullName>
+                <default>false</default>
+                <label>MLC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Zimmer Internet</fullName>
+                <default>false</default>
+                <label>Zimmer Internet</label>
+            </value>
+            <value>
+                <fullName>Biggs &amp; Gilmore</fullName>
+                <default>false</default>
+                <label>Biggs &amp; Gilmore</label>
+            </value>
+            <value>
+                <fullName>WebMD</fullName>
+                <default>false</default>
+                <label>WebMD</label>
+            </value>
+            <value>
+                <fullName>3790</fullName>
+                <default>false</default>
+                <label>3790</label>
+            </value>
+            <value>
+                <fullName>3791</fullName>
+                <default>false</default>
+                <label>3791</label>
+            </value>
+            <value>
+                <fullName>3794</fullName>
+                <default>false</default>
+                <label>3794</label>
+            </value>
+            <value>
+                <fullName>3795</fullName>
+                <default>false</default>
+                <label>3795</label>
+            </value>
+            <value>
+                <fullName>Search Ads</fullName>
+                <default>false</default>
+                <label>Search Ads</label>
+            </value>
+            <value>
+                <fullName>Other-N/A</fullName>
+                <default>false</default>
+                <label>Other-N/A</label>
+            </value>
+            <value>
+                <fullName>PSI</fullName>
+                <default>false</default>
+                <label>PSI</label>
+            </value>
+            <value>
+                <fullName>Hip Pain</fullName>
+                <default>false</default>
+                <label>Hip Pain</label>
+            </value>
+            <value>
+                <fullName>Knee Pain</fullName>
+                <default>false</default>
+                <label>Knee Pain</label>
+            </value>
+            <value>
+                <fullName>Uni</fullName>
+                <default>false</default>
+                <label>Uni</label>
+            </value>
+            <value>
+                <fullName>PFJ</fullName>
+                <default>false</default>
+                <label>PFJ</label>
+            </value>
+            <value>
+                <fullName>Contact Us</fullName>
+                <default>false</default>
+                <label>Contact Us</label>
+            </value>
+            <value>
+                <fullName>Contact Us Health Care Professionals</fullName>
+                <default>false</default>
+                <label>Contact Us Health Care Professionals</label>
+            </value>
+            <value>
+                <fullName>Patient Educaiton Materials</fullName>
+                <default>false</default>
+                <label>Patient Educaiton Materials</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>BRC</controllingFieldValue>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Back In The Groove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BRC</controllingFieldValue>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Gender Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BRC</controllingFieldValue>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>MLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BRC</controllingFieldValue>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3700</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3750</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3751</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3752</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3754</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3755</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3756</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3757</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3760</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3762</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3765</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3766</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3767</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3768</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3769</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3770</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3771</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3772</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3773</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3774</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Zimmer Internet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Biggs &amp; Gilmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>WebMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3790</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3791</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3794</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <controllingFieldValue>Inbound 800#’s</controllingFieldValue>
+            <valueName>3795</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Search Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Other-N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>PSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Hip Pain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Knee Pain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Contact Us</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Contact Us Health Care Professionals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Requests</controllingFieldValue>
+            <valueName>Patient Educaiton Materials</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Tone of interaction with surgeon - Detailed feedback --></help>
+    <label><!-- Details of interaction --></label>
+    <name>Details_of_interaction__c</name>
+</CustomFieldTranslation>

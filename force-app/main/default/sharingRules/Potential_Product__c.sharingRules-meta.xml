@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>EUDEAllUsers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DE-All Users</label>
+        <sharedTo>
+            <group>EU_DE_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_DE_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

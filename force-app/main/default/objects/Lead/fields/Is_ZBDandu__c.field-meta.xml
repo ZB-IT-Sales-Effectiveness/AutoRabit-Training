@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_ZBDandu__c</fullName>
+    <description>Checked if Lead Source Contains ZB Dandu. To be referred in Process Builder</description>
+    <externalId>false</externalId>
+    <formula>OR( 
+ISPICKVAL(LeadSource, &apos;ZBDanduDigital&apos; ),
+ISPICKVAL(LeadSource, &apos;ZBDanduDigitalLab&apos;),
+ISPICKVAL(LeadSource, &apos;ZBDanduDigitalRestorative&apos;),
+ISPICKVAL(LeadSource, &apos;ZBDanduDigitalSurgical&apos;),
+ISPICKVAL(LeadSource, &apos;ZBDanduHome&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPeriImplant&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPeriImplantM1Prevent&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPeriImplantM2Treat&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPeriImplantM3Revise&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPrecisePrep&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPrecisePrepPerfectStart&apos;),
+ISPICKVAL(LeadSource,  &apos;ZBDanduPrecisePrepPreciseDrill &apos;)
+)</formula>
+    <label>Is ZBDandu</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

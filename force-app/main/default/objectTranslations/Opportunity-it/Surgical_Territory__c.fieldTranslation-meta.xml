@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Legacy Surgical Territory(Do Not Update) --></label>
+    <name>Surgical_Territory__c</name>
+    <picklistValues>
+        <masterLabel>Albany</masterLabel>
+        <translation><!-- Albany --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arizona North</masterLabel>
+        <translation><!-- Arizona North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arizona South</masterLabel>
+        <translation><!-- Arizona South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arkansas / Memphis</masterLabel>
+        <translation><!-- Arkansas / Memphis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlanta East</masterLabel>
+        <translation><!-- Atlanta East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlanta West</masterLabel>
+        <translation><!-- Atlanta West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Austin / San Antonio</masterLabel>
+        <translation><!-- Austin / San Antonio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Birmingham North</masterLabel>
+        <translation><!-- Birmingham North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Birmingham South</masterLabel>
+        <translation><!-- Birmingham South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boise, ID</masterLabel>
+        <translation><!-- Boise, ID --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boston North</masterLabel>
+        <translation><!-- Boston North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bronx</masterLabel>
+        <translation><!-- Bronx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buffalo</masterLabel>
+        <translation><!-- Buffalo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central / East Tennessee</masterLabel>
+        <translation><!-- Central / East Tennessee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Illinois</masterLabel>
+        <translation><!-- Central Illinois --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlotte</masterLabel>
+        <translation><!-- Charlotte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chicago North</masterLabel>
+        <translation><!-- Chicago North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chicago South</masterLabel>
+        <translation><!-- Chicago South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati / Dayton</masterLabel>
+        <translation><!-- Cincinnati / Dayton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleveland</masterLabel>
+        <translation><!-- Cleveland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Colorado</masterLabel>
+        <translation><!-- Colorado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbus</masterLabel>
+        <translation><!-- Columbus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Connecticut</masterLabel>
+        <translation><!-- Connecticut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DC</masterLabel>
+        <translation><!-- DC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dakota/N. MN</masterLabel>
+        <translation><!-- Dakota/N. MN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dallas / East Texas</masterLabel>
+        <translation><!-- Dallas / East Texas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detroit North</masterLabel>
+        <translation><!-- Detroit North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detroit South</masterLabel>
+        <translation><!-- Detroit South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ft Worth / West TX</masterLabel>
+        <translation><!-- Ft Worth / West TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ft. Lauderdale.Miami</masterLabel>
+        <translation><!-- Ft. Lauderdale.Miami --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ft. Wayne</masterLabel>
+        <translation><!-- Ft. Wayne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harrisburg</masterLabel>
+        <translation><!-- Harrisburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Houston Central</masterLabel>
+        <translation><!-- Houston Central --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Houston North</masterLabel>
+        <translation><!-- Houston North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis</masterLabel>
+        <translation><!-- Indianapolis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inland/Desert</masterLabel>
+        <translation><!-- Inland/Desert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iowa</masterLabel>
+        <translation><!-- Iowa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jacksonville</masterLabel>
+        <translation><!-- Jacksonville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kansas City</masterLabel>
+        <translation><!-- Kansas City --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA / IM</masterLabel>
+        <translation><!-- LA / IM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long Island</masterLabel>
+        <translation><!-- Long Island --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Louisiana</masterLabel>
+        <translation><!-- Louisiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Louisville / Lexington</masterLabel>
+        <translation><!-- Louisville / Lexington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manhattan</masterLabel>
+        <translation><!-- Manhattan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maryland/Delaware</masterLabel>
+        <translation><!-- Maryland/Delaware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid Cities / North TX</masterLabel>
+        <translation><!-- Mid Cities / North TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minneapolis</masterLabel>
+        <translation><!-- Minneapolis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N. Cal - Central Valley</masterLabel>
+        <translation><!-- N. Cal - Central Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N. New Jersey</masterLabel>
+        <translation><!-- N. New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nebraska</masterLabel>
+        <translation><!-- Nebraska --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Mexico</masterLabel>
+        <translation><!-- New Mexico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oklahoma</masterLabel>
+        <translation><!-- Oklahoma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange County</masterLabel>
+        <translation><!-- Orange County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oregon</masterLabel>
+        <translation><!-- Oregon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orlando</masterLabel>
+        <translation><!-- Orlando --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Philadelphia / S. New Jersey</masterLabel>
+        <translation><!-- Philadelphia / S. New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pittsburgh</masterLabel>
+        <translation><!-- Pittsburgh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raleigh</masterLabel>
+        <translation><!-- Raleigh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rhode Island</masterLabel>
+        <translation><!-- Rhode Island --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richmond</masterLabel>
+        <translation><!-- Richmond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sacramento/Reno/North Bay</masterLabel>
+        <translation><!-- Sacramento/Reno/North Bay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Diego / Hawaii</masterLabel>
+        <translation><!-- San Diego / Hawaii --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Francisco</masterLabel>
+        <translation><!-- San Francisco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seattle/Alaska</masterLabel>
+        <translation><!-- Seattle/Alaska --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Carolina</masterLabel>
+        <translation><!-- South Carolina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Louis</masterLabel>
+        <translation><!-- St. Louis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tampa</masterLabel>
+        <translation><!-- Tampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utah / Las Vegas</masterLabel>
+        <translation><!-- Utah / Las Vegas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Western Michigan</masterLabel>
+        <translation><!-- Western Michigan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wisconsin / Milwaukee</masterLabel>
+        <translation><!-- Wisconsin / Milwaukee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

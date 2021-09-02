@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Access_to_Christopher_Sanders_Leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Giving Danielle Saied access to Christopher Sanders Leads</description>
+        <label>Access to Christopher Sanders Leads</label>
+        <sharedTo>
+            <group>Danielle_Saied</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>0053b00000BsqInAAJ</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Allow_Danielle_Saied_to_read_edit_all_Jason_Zepeda_s_leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allow Danielle Saied to read/edit all Jason Zepeda&apos;s leads</description>
+        <label>Allow Danielle Saied to read/edit all Jason Zepeda&apos;s leads</label>
+        <sharedTo>
+            <group>Access_to_Jason_Leads</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00580000003YIMmAAO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HCP_Login_for_Germany_Sharing_rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HCP Login for Germany Sharing rule</label>
+        <sharedTo>
+            <group>HCP_Login_Germany</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005C0000004M2GV</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Lead_Owned_by_Sarita_with_Scott_Zielinski</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Lead Owned by Sarita with  Scott Zielinski</label>
+        <sharedTo>
+            <group>Dental_Lead_Share</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005C0000009ht87</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>CallCenterManagerI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Call Center ManagerI</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CallCenterManager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>CallCenterManager</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lead_sharing_for_TSRs_ATSRs</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lead sharing for TSRs &amp; ATSRs</label>
+        <sharedTo>
+            <group>DN_TSR_ATSR_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>DN_TSR_ATSR_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Netherlands</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zimmer Netherlands</label>
+        <sharedTo>
+            <roleAndSubordinates>Netherlands</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Netherlands</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

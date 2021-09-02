@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_Robotics_RECON</fullName>
+    <active>true</active>
+    <label>ROSA Robotics - RECON</label>
+    <picklistValues>
+        <picklist>Certification_Type__c</picklist>
+        <values>
+            <fullName>ROSA Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Partial Knee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Certification__c</picklist>
+        <values>
+            <fullName>ROSA Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Partial Knee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

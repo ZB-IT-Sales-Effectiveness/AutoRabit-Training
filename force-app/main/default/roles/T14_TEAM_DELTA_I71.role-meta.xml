@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T14 TEAM DELTA (I71)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T14 TEAM DELTA (I71)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>SOUTHWEST_OHIO_YOUNG_0014</parentRole>
+</Role>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon Region --></label>
+    <name>Surgeon_Region__c</name>
+    <picklistValues>
+        <masterLabel>NSW</masterLabel>
+        <translation><!-- NSW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NZ</masterLabel>
+        <translation><!-- NZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QLD</masterLabel>
+        <translation><!-- QLD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SA/NT</masterLabel>
+        <translation><!-- SA/NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIC/TAS</masterLabel>
+        <translation><!-- VIC/TAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WA</masterLabel>
+        <translation><!-- WA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

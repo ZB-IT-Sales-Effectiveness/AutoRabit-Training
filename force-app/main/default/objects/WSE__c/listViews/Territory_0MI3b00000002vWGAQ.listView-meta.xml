@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_0MI3b00000002vWGAQ</fullName>
+    <columns>NAME</columns>
+    <columns>Product__c</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>Prior_Mnth_WSE__c</columns>
+    <columns>WSE_Mnth__c</columns>
+    <columns>Target_Mnth__c</columns>
+    <columns>Vs_Target_Amt_Mnth__c</columns>
+    <columns>Vs_Target_Pct_Mnth__c</columns>
+    <columns>Vs_Prior_WSE_Amt_Mnth__c</columns>
+    <columns>Vs_Prior_WSE_Pct_Mnth__c</columns>
+    <columns>Prior_Qtr_WSE__c</columns>
+    <columns>WSE_Qtr__c</columns>
+    <columns>Target_Qtr__c</columns>
+    <columns>Territory2Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory2Id__c</field>
+        <operation>equals</operation>
+        <value>0MI3b00000002vWGAQ</value>
+    </filters>
+    <filters>
+        <field>Effective_Date__c</field>
+        <operation>equals</operation>
+        <value>5/15/2021</value>
+    </filters>
+    <label>ZB-CAROLINAS (BECKER) (0033) WSEs</label>
+</ListView>

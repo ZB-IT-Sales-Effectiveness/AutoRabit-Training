@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WSE</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>WSEs</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Quarter 1 --></label>
+        <name>Quarter_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarter 2 --></label>
+        <name>Quarter_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

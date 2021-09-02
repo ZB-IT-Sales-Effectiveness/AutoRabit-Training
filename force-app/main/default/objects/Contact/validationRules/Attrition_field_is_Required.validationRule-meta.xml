@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attrition_field_is_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $RecordType.Name=&apos;Sales Contact&apos;, 
+    NOT(ISNULL(Term_Date__c)),
+    ISPICKVAL(Attrition__c ,&apos;&apos;),
+    INCLUDES(Account.Distributor_Specialties__c,&apos;Reconstructive&apos;),
+    
+ Account.Owner.Id =&quot;005C0000009SZVQ&quot;
+ 
+)</errorConditionFormula>
+    <errorDisplayField>Abteilung_AT__c</errorDisplayField>
+    <errorMessage>Please provide Attrition details.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_ZB_Reps_Attending_Event__c</fullName>
+    <description>List_ZB_Reps_Attending_Event</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>If no additional reps attending, please put N/A</inlineHelpText>
+    <label>List ZB Reps Attending Event</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

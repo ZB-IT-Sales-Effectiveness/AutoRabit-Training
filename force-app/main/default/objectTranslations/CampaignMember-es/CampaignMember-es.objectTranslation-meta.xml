@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Cvent Campaign Member Record Type --></label>
+        <name>Cvent_Campaign_Member_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-US-Campaign Member Record Type --></label>
+        <name>DN_US_Campaign_Member_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Campaign Member Record Type --></label>
+        <name>EU_Campaign_Member_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for marketing events (trade shows and other industry events) --></description>
+        <label><!-- Mktg-US-Campaign Member Record Type --></label>
+        <name>Mktg_US_Campaign_Member_Record_Type</name>
+    </recordTypes>
+</CustomObjectTranslation>

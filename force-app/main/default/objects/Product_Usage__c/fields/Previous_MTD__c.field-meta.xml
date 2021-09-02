@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_MTD__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( 
+	OR( 
+
+	AND( 
+	MONTH(TODAY())==1,
+	Date__c &gt;= DATE( YEAR( TODAY() )-1,12,01) , 
+	Date__c &lt; DATE( YEAR( TODAY()) ,01,01) 
+
+	) 
+	, 
+	AND	( 
+	MONTH(TODAY())==1,
+	Date__c &gt;= DATE( YEAR( TODAY() )-2,12,01) , 
+	Date__c &lt; DATE( YEAR( TODAY())-1 ,01,01) 
+	),
+
+	AND( 
+	MONTH(TODAY())!=1,
+	Date__c &gt;= DATE( YEAR( TODAY() ),MONTH(TODAY())-1,01) , 
+	Date__c &lt; DATE( YEAR( TODAY()) ,MONTH(TODAY()),01) 
+
+	) 
+	, 
+	AND	( 
+	MONTH(TODAY())!=1,
+	Date__c &gt;= DATE( YEAR( TODAY() )-1,MONTH(TODAY())-1,01) , 
+	Date__c &lt; DATE( YEAR( TODAY())-1 ,MONTH(TODAY()),01) 
+	) 	
+	
+	) 
+	
+	
+, 
+TRUE, 
+FALSE 
+)</formula>
+    <label>Previous MTD</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

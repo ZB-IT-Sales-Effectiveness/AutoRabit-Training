@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>imad.koleilat@zimmer.com</email>
+    <name>CAS iAssist</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>PS_Members_access_to_CAS_Cases</publicGroup>
+        </publicGroups>
+        <users>
+            <user>bryan.moya@zimmerbiomet.com</user>
+            <user>imad.koleilat@zimmer.com</user>
+            <user>olivemae.bato@zimmerbiomet.com</user>
+            <user>pol.lebourdonnec@zimmer.com</user>
+            <user>sabrinakelsey.alves@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

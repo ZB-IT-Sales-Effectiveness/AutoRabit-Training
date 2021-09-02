@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Customer_Type__c</fullName>
+    <description>This Field is Added to To New Global Pipeline Recon</description>
+    <externalId>false</externalId>
+    <label>Business/Customer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Business to New Customers</fullName>
+                <default>false</default>
+                <label>New Business to New Customers</label>
+            </value>
+            <value>
+                <fullName>New Business to Existing Customers</fullName>
+                <default>false</default>
+                <label>New Business to Existing Customers</label>
+            </value>
+            <value>
+                <fullName>Existing Business to Existing Customers</fullName>
+                <default>false</default>
+                <label>Existing Business to Existing Customers</label>
+            </value>
+            <value>
+                <fullName>Replacement Product to Existing Customer</fullName>
+                <default>false</default>
+                <label>Replacement Product to Existing Customer</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <valueName>Existing Business to Existing Customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <valueName>New Business to New Customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <valueName>New Business to Existing Customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <valueName>Replacement Product to Existing Customer</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

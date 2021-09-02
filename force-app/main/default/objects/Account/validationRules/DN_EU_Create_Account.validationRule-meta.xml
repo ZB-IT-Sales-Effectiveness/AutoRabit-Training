@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_EU_Create_Account</fullName>
+    <active>true</active>
+    <description>Create Accounts only using Lead Conversion</description>
+    <errorConditionFormula>AND( ISNEW(), (OR($User.ProfileId = &apos;00eC0000001WhFi&apos;, $User.ProfileId = &apos;00eC0000001WhFd&apos;)), IsConvertedFromLead__c &lt;&gt; TRUE )</errorConditionFormula>
+    <errorMessage>You cannot create Accounts manually. Please convert a qualified Lead to create a new Account.</errorMessage>
+</ValidationRule>

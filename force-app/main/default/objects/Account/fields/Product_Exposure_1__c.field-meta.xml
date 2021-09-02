@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Exposure_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Exposure #1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>Spine</fullName>
+                <default>false</default>
+                <label>Spine</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Extremity</fullName>
+                <default>false</default>
+                <label>Extremity</label>
+            </value>
+            <value>
+                <fullName>Hip &amp; Knee</fullName>
+                <default>false</default>
+                <label>Hip &amp; Knee</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Ankle</fullName>
+                <default>false</default>
+                <label>Ankle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

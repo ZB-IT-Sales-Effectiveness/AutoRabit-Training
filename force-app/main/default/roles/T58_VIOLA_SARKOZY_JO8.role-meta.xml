@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T58 VIOLA SARKOZY (JO8)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T58 VIOLA SARKOZY (JO8)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>JNT_MED_CONCEPTS_PARKER_0058</parentRole>
+</Role>

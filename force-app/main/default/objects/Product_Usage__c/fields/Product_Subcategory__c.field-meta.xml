@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Subcategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AC_Joint_Repair</fullName>
+                <default>false</default>
+                <label>AC_Joint_Repair</label>
+            </value>
+            <value>
+                <fullName>ACL_PCL_Reconstruction</fullName>
+                <default>false</default>
+                <label>ACL_PCL_Reconstruction</label>
+            </value>
+            <value>
+                <fullName>Anatomical Fracture Shoulder System</fullName>
+                <default>false</default>
+                <label>Anatomical Fracture Shoulder System</label>
+            </value>
+            <value>
+                <fullName>Anatomical Inverse/Reverse Shoulder</fullName>
+                <default>false</default>
+                <label>Anatomical Inverse/Reverse Shoulder</label>
+            </value>
+            <value>
+                <fullName>Anatomical Shoulder System</fullName>
+                <default>false</default>
+                <label>Anatomical Shoulder System</label>
+            </value>
+            <value>
+                <fullName>Arthrocentesis</fullName>
+                <default>false</default>
+                <label>Arthrocentesis</label>
+            </value>
+            <value>
+                <fullName>Articular Surface Implants</fullName>
+                <default>false</default>
+                <label>Articular Surface Implants</label>
+            </value>
+            <value>
+                <fullName>Augments, Bone Screws &amp; Stem Extensions</fullName>
+                <default>false</default>
+                <label>Augments, Bone Screws &amp; Stem Extensions</label>
+            </value>
+            <value>
+                <fullName>Bigliani/Flatow Shoulder</fullName>
+                <default>false</default>
+                <label>Bigliani/Flatow Shoulder</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS</fullName>
+                <default>false</default>
+                <label>BIOLOGICS</label>
+            </value>
+            <value>
+                <fullName>Bipolar Cups</fullName>
+                <default>false</default>
+                <label>Bipolar Cups</label>
+            </value>
+            <value>
+                <fullName>Blood Management</fullName>
+                <default>false</default>
+                <label>Blood Management</label>
+            </value>
+            <value>
+                <fullName>Bone Cement &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Bone Cement + Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement + Accessories</label>
+            </value>
+            <value>
+                <fullName>Bone Cement and Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement and Accessories</label>
+            </value>
+            <value>
+                <fullName>Bone Drills and Bits</fullName>
+                <default>false</default>
+                <label>Bone Drills and Bits</label>
+            </value>
+            <value>
+                <fullName>Bone Substitutes</fullName>
+                <default>false</default>
+                <label>Bone Substitutes</label>
+            </value>
+            <value>
+                <fullName>Cable Products</fullName>
+                <default>false</default>
+                <label>Cable Products</label>
+            </value>
+            <value>
+                <fullName>Cannulated/Specialty Screws</fullName>
+                <default>false</default>
+                <label>Cannulated/Specialty Screws</label>
+            </value>
+            <value>
+                <fullName>Compression Hip Screws</fullName>
+                <default>false</default>
+                <label>Compression Hip Screws</label>
+            </value>
+            <value>
+                <fullName>Coonrad/Morrey Total Elbow</fullName>
+                <default>false</default>
+                <label>Coonrad/Morrey Total Elbow</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Elbow_Replacement</fullName>
+                <default>false</default>
+                <label>Elbow_Replacement</label>
+            </value>
+            <value>
+                <fullName>External Fixation</fullName>
+                <default>false</default>
+                <label>External Fixation</label>
+            </value>
+            <value>
+                <fullName>Femoral Heads</fullName>
+                <default>false</default>
+                <label>Femoral Heads</label>
+            </value>
+            <value>
+                <fullName>Femoral Implants</fullName>
+                <default>false</default>
+                <label>Femoral Implants</label>
+            </value>
+            <value>
+                <fullName>Foot_Ankle_Repair</fullName>
+                <default>false</default>
+                <label>Foot_Ankle_Repair</label>
+            </value>
+            <value>
+                <fullName>Fracture Stems</fullName>
+                <default>false</default>
+                <label>Fracture Stems</label>
+            </value>
+            <value>
+                <fullName>Gender Solutions Natural-Knee Flex</fullName>
+                <default>false</default>
+                <label>Gender Solutions Natural-Knee Flex</label>
+            </value>
+            <value>
+                <fullName>Gender Solutions PFJ</fullName>
+                <default>false</default>
+                <label>Gender Solutions PFJ</label>
+            </value>
+            <value>
+                <fullName>Hand</fullName>
+                <default>false</default>
+                <label>Hand</label>
+            </value>
+            <value>
+                <fullName>Hand_Wrist_Recon</fullName>
+                <default>false</default>
+                <label>Hand_Wrist_Recon</label>
+            </value>
+            <value>
+                <fullName>Hip_Replacement</fullName>
+                <default>false</default>
+                <label>Hip_Replacement</label>
+            </value>
+            <value>
+                <fullName>Hip_Revision</fullName>
+                <default>false</default>
+                <label>Hip_Revision</label>
+            </value>
+            <value>
+                <fullName>Hip_Scope</fullName>
+                <default>false</default>
+                <label>Hip_Scope</label>
+            </value>
+            <value>
+                <fullName>Hip Instruments</fullName>
+                <default>false</default>
+                <label>Hip Instruments</label>
+            </value>
+            <value>
+                <fullName>HWE_Soft_Tissue</fullName>
+                <default>false</default>
+                <label>HWE_Soft_Tissue</label>
+            </value>
+            <value>
+                <fullName>IM Nails</fullName>
+                <default>false</default>
+                <label>IM Nails</label>
+            </value>
+            <value>
+                <fullName>Insall/Burstein I (I/B I)</fullName>
+                <default>false</default>
+                <label>Insall/Burstein I (I/B I)</label>
+            </value>
+            <value>
+                <fullName>Insall/Burstein II (I/B II)</fullName>
+                <default>false</default>
+                <label>Insall/Burstein II (I/B II)</label>
+            </value>
+            <value>
+                <fullName>Instability</fullName>
+                <default>false</default>
+                <label>Instability</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Arm</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Arm</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Femur</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Femur</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Hand</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Hand</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Hip</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Hip</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Humerus</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Humerus</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Shoulder</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Shoulder</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixation_Tibia_Fibula</fullName>
+                <default>false</default>
+                <label>Internal_Fixation_Tibia_Fibula</label>
+            </value>
+            <value>
+                <fullName>Internal_Fixaton_Foot</fullName>
+                <default>false</default>
+                <label>Internal_Fixaton_Foot</label>
+            </value>
+            <value>
+                <fullName>Knee_ACI_OC_auto_allo</fullName>
+                <default>false</default>
+                <label>Knee_ACI_OC_auto_allo</label>
+            </value>
+            <value>
+                <fullName>Knee_Collateral_Ligament</fullName>
+                <default>false</default>
+                <label>Knee_Collateral_Ligament</label>
+            </value>
+            <value>
+                <fullName>Knee_Replacement</fullName>
+                <default>false</default>
+                <label>Knee_Replacement</label>
+            </value>
+            <value>
+                <fullName>Knee_Revision</fullName>
+                <default>false</default>
+                <label>Knee_Revision</label>
+            </value>
+            <value>
+                <fullName>Knee Instrumentation</fullName>
+                <default>false</default>
+                <label>Knee Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Large Bone Power Equipment</fullName>
+                <default>false</default>
+                <label>Large Bone Power Equipment</label>
+            </value>
+            <value>
+                <fullName>Manual Instruments</fullName>
+                <default>false</default>
+                <label>Manual Instruments</label>
+            </value>
+            <value>
+                <fullName>Medical Products</fullName>
+                <default>false</default>
+                <label>Medical Products</label>
+            </value>
+            <value>
+                <fullName>Meniscus_Repair</fullName>
+                <default>false</default>
+                <label>Meniscus_Repair</label>
+            </value>
+            <value>
+                <fullName>Miller/Gallante I (M/G I)</fullName>
+                <default>false</default>
+                <label>Miller/Gallante I (M/G I)</label>
+            </value>
+            <value>
+                <fullName>Miller/Gallante II (M/G II)</fullName>
+                <default>false</default>
+                <label>Miller/Gallante II (M/G II)</label>
+            </value>
+            <value>
+                <fullName>Miller/Gallante Unicompartmental</fullName>
+                <default>false</default>
+                <label>Miller/Gallante Unicompartmental</label>
+            </value>
+            <value>
+                <fullName>MOST Options System</fullName>
+                <default>false</default>
+                <label>MOST Options System</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee</fullName>
+                <default>false</default>
+                <label>Natural-Knee</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee CRK</fullName>
+                <default>false</default>
+                <label>Natural-Knee CRK</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee High Tibial Osteotomy</fullName>
+                <default>false</default>
+                <label>Natural-Knee High Tibial Osteotomy</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee II</fullName>
+                <default>false</default>
+                <label>Natural-Knee II</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee II PFJ</fullName>
+                <default>false</default>
+                <label>Natural-Knee II PFJ</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee II Posterior Stabalized</fullName>
+                <default>false</default>
+                <label>Natural-Knee II Posterior Stabalized</label>
+            </value>
+            <value>
+                <fullName>Natural-Knee Unicompartmental</fullName>
+                <default>false</default>
+                <label>Natural-Knee Unicompartmental</label>
+            </value>
+            <value>
+                <fullName>NexGen CR</fullName>
+                <default>false</default>
+                <label>NexGen CR</label>
+            </value>
+            <value>
+                <fullName>NexGen CRA</fullName>
+                <default>false</default>
+                <label>NexGen CRA</label>
+            </value>
+            <value>
+                <fullName>NexGen CR Flex</fullName>
+                <default>false</default>
+                <label>NexGen CR Flex</label>
+            </value>
+            <value>
+                <fullName>NexGen CR Gender</fullName>
+                <default>false</default>
+                <label>NexGen CR Gender</label>
+            </value>
+            <value>
+                <fullName>NexGen High Tibial Osteotomy</fullName>
+                <default>false</default>
+                <label>NexGen High Tibial Osteotomy</label>
+            </value>
+            <value>
+                <fullName>NexGen LCCK</fullName>
+                <default>false</default>
+                <label>NexGen LCCK</label>
+            </value>
+            <value>
+                <fullName>NexGen LPS</fullName>
+                <default>false</default>
+                <label>NexGen LPS</label>
+            </value>
+            <value>
+                <fullName>NexGen LPS Flex</fullName>
+                <default>false</default>
+                <label>NexGen LPS Flex</label>
+            </value>
+            <value>
+                <fullName>NexGen LPS Flex Gender</fullName>
+                <default>false</default>
+                <label>NexGen LPS Flex Gender</label>
+            </value>
+            <value>
+                <fullName>NexGen LPS Flex Mobile</fullName>
+                <default>false</default>
+                <label>NexGen LPS Flex Mobile</label>
+            </value>
+            <value>
+                <fullName>NexGen Rotating Hinge Knee</fullName>
+                <default>false</default>
+                <label>NexGen Rotating Hinge Knee</label>
+            </value>
+            <value>
+                <fullName>N-K II Revision</fullName>
+                <default>false</default>
+                <label>N-K II Revision</label>
+            </value>
+            <value>
+                <fullName>ON Rod and Other Trauma</fullName>
+                <default>false</default>
+                <label>ON Rod and Other Trauma</label>
+            </value>
+            <value>
+                <fullName>Orthobiologics</fullName>
+                <default>false</default>
+                <label>Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>Other Extremities</fullName>
+                <default>false</default>
+                <label>Other Extremities</label>
+            </value>
+            <value>
+                <fullName>Other Hip Products</fullName>
+                <default>false</default>
+                <label>Other Hip Products</label>
+            </value>
+            <value>
+                <fullName>Other Market Products</fullName>
+                <default>false</default>
+                <label>Other Market Products</label>
+            </value>
+            <value>
+                <fullName>Patella_Tendon_Repair</fullName>
+                <default>false</default>
+                <label>Patella_Tendon_Repair</label>
+            </value>
+            <value>
+                <fullName>Patellar Implants</fullName>
+                <default>false</default>
+                <label>Patellar Implants</label>
+            </value>
+            <value>
+                <fullName>Pins and Wires</fullName>
+                <default>false</default>
+                <label>Pins and Wires</label>
+            </value>
+            <value>
+                <fullName>Plates/Screws</fullName>
+                <default>false</default>
+                <label>Plates/Screws</label>
+            </value>
+            <value>
+                <fullName>Primary Cup Liners</fullName>
+                <default>false</default>
+                <label>Primary Cup Liners</label>
+            </value>
+            <value>
+                <fullName>Primary Cups</fullName>
+                <default>false</default>
+                <label>Primary Cups</label>
+            </value>
+            <value>
+                <fullName>Primary Stems</fullName>
+                <default>false</default>
+                <label>Primary Stems</label>
+            </value>
+            <value>
+                <fullName>Proximal Humeral Fractures</fullName>
+                <default>false</default>
+                <label>Proximal Humeral Fractures</label>
+            </value>
+            <value>
+                <fullName>Reamers</fullName>
+                <default>false</default>
+                <label>Reamers</label>
+            </value>
+            <value>
+                <fullName>Reverse Shoulder Arthroplasty</fullName>
+                <default>false</default>
+                <label>Reverse Shoulder Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Revision_Upper_Ex</fullName>
+                <default>false</default>
+                <label>Revision_Upper_Ex</label>
+            </value>
+            <value>
+                <fullName>Revision Cup Liners</fullName>
+                <default>false</default>
+                <label>Revision Cup Liners</label>
+            </value>
+            <value>
+                <fullName>Revision Cups</fullName>
+                <default>false</default>
+                <label>Revision Cups</label>
+            </value>
+            <value>
+                <fullName>Revision Stems</fullName>
+                <default>false</default>
+                <label>Revision Stems</label>
+            </value>
+            <value>
+                <fullName>Rotator_Cuff</fullName>
+                <default>false</default>
+                <label>Rotator_Cuff</label>
+            </value>
+            <value>
+                <fullName>Segmental Implants</fullName>
+                <default>false</default>
+                <label>Segmental Implants</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Shoulder_Replacement</fullName>
+                <default>false</default>
+                <label>Shoulder_Replacement</label>
+            </value>
+            <value>
+                <fullName>Skin Grafting and Meshing</fullName>
+                <default>false</default>
+                <label>Skin Grafting and Meshing</label>
+            </value>
+            <value>
+                <fullName>Skin Substitute Graft</fullName>
+                <default>false</default>
+                <label>Skin Substitute Graft</label>
+            </value>
+            <value>
+                <fullName>Small Bone Power Equipment</fullName>
+                <default>false</default>
+                <label>Small Bone Power Equipment</label>
+            </value>
+            <value>
+                <fullName>Soft Goods</fullName>
+                <default>false</default>
+                <label>Soft Goods</label>
+            </value>
+            <value>
+                <fullName>Soft Tissue Attachment</fullName>
+                <default>false</default>
+                <label>Soft Tissue Attachment</label>
+            </value>
+            <value>
+                <fullName>Spinal Fixation</fullName>
+                <default>false</default>
+                <label>Spinal Fixation</label>
+            </value>
+            <value>
+                <fullName>Stems</fullName>
+                <default>false</default>
+                <label>Stems</label>
+            </value>
+            <value>
+                <fullName>Surgical Products</fullName>
+                <default>false</default>
+                <label>Surgical Products</label>
+            </value>
+            <value>
+                <fullName>Tibial Implants</fullName>
+                <default>false</default>
+                <label>Tibial Implants</label>
+            </value>
+            <value>
+                <fullName>Total Shoulder Arthroplasty</fullName>
+                <default>false</default>
+                <label>Total Shoulder Arthroplasty</label>
+            </value>
+            <value>
+                <fullName>Tourniquets</fullName>
+                <default>false</default>
+                <label>Tourniquets</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal</fullName>
+                <default>false</default>
+                <label>Trabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal Humeral Shoulder</fullName>
+                <default>false</default>
+                <label>Trabecular Metal Humeral Shoulder</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal Reverse Shoulder</fullName>
+                <default>false</default>
+                <label>Trabecular Metal Reverse Shoulder</label>
+            </value>
+            <value>
+                <fullName>Traction</fullName>
+                <default>false</default>
+                <label>Traction</label>
+            </value>
+            <value>
+                <fullName>Wound Debridement</fullName>
+                <default>false</default>
+                <label>Wound Debridement</label>
+            </value>
+            <value>
+                <fullName>Zimmer Collagen Repair Patch</fullName>
+                <default>false</default>
+                <label>Zimmer Collagen Repair Patch</label>
+            </value>
+            <value>
+                <fullName>Zimmer Segmental System</fullName>
+                <default>false</default>
+                <label>Zimmer Segmental System</label>
+            </value>
+            <value>
+                <fullName>Zimmer Unicompartmental Knee</fullName>
+                <default>false</default>
+                <label>Zimmer Unicompartmental Knee</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Bone Drills and Bits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Bone Substitutes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cable Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cannulated/Specialty Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Compression Hip Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>External Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>IM Nails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Manual Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>ON Rod and Other Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Orthobiologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Other Market Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Pins and Wires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Plates/Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Reamers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Soft Tissue Attachment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Spinal Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Blood Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Bone Cement and Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Large Bone Power Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Skin Grafting and Meshing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Small Bone Power Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Soft Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tourniquets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Traction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Wound Debridement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Anatomical Fracture Shoulder System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Anatomical Inverse/Reverse Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Anatomical Shoulder System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Bigliani/Flatow Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Coonrad/Morrey Total Elbow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Proximal Humeral Fractures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Reverse Shoulder Arthroplasty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Total Shoulder Arthroplasty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Trabecular Metal Humeral Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Trabecular Metal Reverse Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Zimmer Collagen Repair Patch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Femoral Heads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Fracture Stems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Other Hip Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Primary Cup Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Revision Cup Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Revision Cups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Revision Stems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Stems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Trabecular Metal</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

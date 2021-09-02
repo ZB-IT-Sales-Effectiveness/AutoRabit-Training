@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Administration</fullName>
+        <default>false</default>
+        <label>Administration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Avalanche Bell</fullName>
+        <default>false</default>
+        <label>Avalanche Bell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Request</fullName>
+        <default>false</default>
+        <label>Contract Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CRM Application Feedback</fullName>
+        <default>false</default>
+        <label>CRM Application Feedback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Update Request</fullName>
+        <default>false</default>
+        <label>Data Update Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Kit Requested</fullName>
+        <default>false</default>
+        <label>Demo Kit Requested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JAMS</fullName>
+        <default>false</default>
+        <label>JAMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JTM</fullName>
+        <default>false</default>
+        <label>JTM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Library Request</fullName>
+        <default>false</default>
+        <label>Library Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Literature Request</fullName>
+        <default>false</default>
+        <label>Literature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Question</fullName>
+        <default>false</default>
+        <label>Product Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sample Request</fullName>
+        <default>false</default>
+        <label>Sample Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SPIFF</fullName>
+        <default>false</default>
+        <label>SPIFF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical Technique Information</fullName>
+        <default>false</default>
+        <label>Surgical Technique Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tableau</fullName>
+        <default>false</default>
+        <label>Tableau</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZI - BioSkills Training</fullName>
+        <default>false</default>
+        <label>ZI - BioSkills Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZI - Med Ed Training</fullName>
+        <default>false</default>
+        <label>ZI - Med Ed Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZI - Zimmer Institute Online (ZIO)</fullName>
+        <default>false</default>
+        <label>ZI - Zimmer Institute Online (ZIO)</label>
+    </standardValue>
+</StandardValueSet>

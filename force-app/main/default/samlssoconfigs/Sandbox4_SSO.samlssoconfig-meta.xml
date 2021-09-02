@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://sts.windows.net/e7290980-632a-4f65-bbb2-1151420d7c39/</issuer>
+    <loginUrl>https://login.microsoftonline.com/e7290980-632a-4f65-bbb2-1151420d7c39/saml2</loginUrl>
+    <name>Sandbox4 SSO</name>
+    <oauthTokenEndpoint>https://zimmerbiometglobal--sandbox01.my.salesforce.com/services/oauth2/token?so=00D6w0000004bNV</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P13b0000004QHb</requestSigningCertId>
+    <salesforceLoginUrl>https://zimmerbiometglobal--sandbox01.my.salesforce.com?so=00D6w0000004bNV</salesforceLoginUrl>
+    <samlEntityId>https://zimmerbiometglobal--sandbox01.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIID0TCCArkCFA/t7ntb7IjbMQkPhVmf1AXY2sd9MA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJVUzEQMA4GA1UECAwHSW5kaWFuYTEPMA0GA1UEBwwGV2Fyc2F3MRYwFAYDVQQKDA1aaW1tZXIgQmlvbWV0MQswCQYDVQQLDAJJVDEeMBwGA1UEAwwVZXpzaWdub25xYS56aW1tZXIuY29tMSwwKgYJKoZIhvcNAQkBFh1jaHJpcy5rZWVudW1AemltbWVyYmlvbWV0LmNvbTAgFw0yMTAxMTExODI3NTZaGA8yMDcwMTIzMDE4Mjc1NlowgaMxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdJbmRpYW5hMQ8wDQYDVQQHDAZXYXJzYXcxFjAUBgNVBAoMDVppbW1lciBCaW9tZXQxCzAJBgNVBAsMAklUMR4wHAYDVQQDDBVlenNpZ25vbnFhLnppbW1lci5jb20xLDAqBgkqhkiG9w0BCQEWHWNocmlzLmtlZW51bUB6aW1tZXJiaW9tZXQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7E9gdyRNoupPoymJg4t70jI5C/EoNZ3RX54NBuXW2C+3SQwNSFDcGekAKnyTikBeHXIQgEGpixJe45vFGY6JQXltMwXyM+nO9d82C78MQnJmtYFS6Wq7tKmv2TFpndujQ3VZowijdeVdIJ6vcjyzFXS4cXCx8N921EfMPoOOuPe8nVLxdL9Jx1o/XAam8rpkp3KGq/BwLFfLivQyX001OS7qR2AWEw9wQ/Tuz77TzyfVPJy69RCPEmaQO5sZiGKFMV5aVsf2aOXl3ZOEV9WeZ+DtqgscvspY8Z4pfl14gwiy4woc99gTURWlpELbxoZdBWYXN7QATcGOXNwCTkYY+wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCF9C3axF8xr0N/9XRHWw6FAu7AZ5yaCfD/6il/wU8dRpJN5mT6+s9Y7Nm35w2uYLqGJTjrRFlMUIMx1aD0VvfNdpLIA9vrKybFhG9at2BeEXKUkxqpQPBFFr0m0jr4n4X9thNh/0NqqkMc9D1IeZOoDCUcgH7MKI3ydRTK6IHF0m4vXwkQ6HDHW+nnX/cRjtiSO5hlD6CLKK+bJZWG3Bja5tAIRd5NeacnY+T7tE6tDvlfxOmpRwNgYjRXJwj0RNh6ncA/QsZJ1WHCeuDZHldi2RyLVyWgkdjMD6pcVriN0yIWsuYIP86zI+2G1JzUJHUmFBul2V7iI268PVq0kT9/</validationCert>
+</SamlSsoConfig>

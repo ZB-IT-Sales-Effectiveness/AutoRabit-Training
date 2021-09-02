@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AP_ANZ_Super_Priority_del__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used specifically for ANZ sales plans/opportunities to indicate that this opportunity is the best chance / highest value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select if this Sales Plan is your Best Chance, Highest Value Opportunity</inlineHelpText>
+    <label>Super Priority</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

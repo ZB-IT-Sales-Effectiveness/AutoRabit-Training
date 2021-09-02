@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related Information --></label>
+    <name>Related_Information__c</name>
+    <picklistValues>
+        <masterLabel>AARP 2008</masterLabel>
+        <translation><!-- AARP 2008 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation><!-- Advertisement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthritis Today</masterLabel>
+        <translation><!-- Arthritis Today --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In The Groove 2008</masterLabel>
+        <translation><!-- Back In The Groove 2008 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In The Groove 2009</masterLabel>
+        <translation><!-- Back In The Groove 2009 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In The Groove 2010</masterLabel>
+        <translation><!-- Back In The Groove 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In The Groove 2012</masterLabel>
+        <translation><!-- Back In The Groove 2012 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back in the Groove 2011</masterLabel>
+        <translation><!-- Back in the Groove 2011 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Week</masterLabel>
+        <translation><!-- Business Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial/Ad</masterLabel>
+        <translation><!-- Commercial/Ad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminar 2011</masterLabel>
+        <translation><!-- Community Seminar 2011 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminar 2012</masterLabel>
+        <translation><!-- Community Seminar 2012 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminars 2009</masterLabel>
+        <translation><!-- Community Seminars 2009 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminars 2010</masterLabel>
+        <translation><!-- Community Seminars 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GKnee 11/2009</masterLabel>
+        <translation><!-- GKnee 11/2009 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee 12/2010</masterLabel>
+        <translation><!-- Knee 12/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Campaign 1Q 2011</masterLabel>
+        <translation><!-- Knee Campaign 1Q 2011 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Story</masterLabel>
+        <translation><!-- New Story --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OBGYN</masterLabel>
+        <translation><!-- OBGYN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Surgeon</masterLabel>
+        <translation><!-- Orthopaedic Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other-N/A</masterLabel>
+        <translation><!-- Other-N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI Ad 12/2010</masterLabel>
+        <translation><!-- PSI Ad 12/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI Web Banner 12/2010</masterLabel>
+        <translation><!-- PSI Web Banner 12/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prevention</masterLabel>
+        <translation><!-- Prevention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Physician</masterLabel>
+        <translation><!-- Primary Care Physician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon Campaign Q2 2010</masterLabel>
+        <translation><!-- Recon Campaign Q2 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S/N Ad 12/2010</masterLabel>
+        <translation><!-- S/N Ad 12/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Engine</masterLabel>
+        <translation><!-- Search Engine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Story/Article</masterLabel>
+        <translation><!-- Story/Article --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WebMD</masterLabel>
+        <translation><!-- WebMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Precision 2010</masterLabel>
+        <translation><!-- Zimmer Precision 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Randall 2010</masterLabel>
+        <translation><!-- Zimmer Randall 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Sites</masterLabel>
+        <translation><!-- Zimmer Sites --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

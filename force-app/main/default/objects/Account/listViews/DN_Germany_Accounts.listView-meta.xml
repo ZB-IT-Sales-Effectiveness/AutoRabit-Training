@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Germany_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Customer_Number__c</columns>
+    <columns>DSO1__c</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>YTD_Total__c</columns>
+    <columns>Previous_Year_To_Date_Sales__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>DE,Germany</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.DN_EU_ACCT_RECORD_TYPE,Account.DN_EU_Ghost_Account</value>
+    </filters>
+    <label>DN-Germany Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>TCS_SFDC_Admins</group>
+        <roleAndSubordinatesInternal>DN_EMEA_All</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

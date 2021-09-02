@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Type --></label>
+    <name>Request_Type__c</name>
+    <picklistValues>
+        <masterLabel>Brand/Marketing/Product Manager</masterLabel>
+        <translation><!-- Brand/Marketing/Product Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Solutions Team</masterLabel>
+        <translation><!-- Capital Solutions Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Excellence Team</masterLabel>
+        <translation><!-- Clinical Excellence Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Connect Solution Center</masterLabel>
+        <translation><!-- Connect Solution Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executive Support</masterLabel>
+        <translation><!-- Executive Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPO Group</masterLabel>
+        <translation><!-- GPO Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MarCom</masterLabel>
+        <translation><!-- MarCom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional Sales Director</masterLabel>
+        <translation><!-- Regional Sales Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC Request</masterLabel>
+        <translation><!-- SFDC Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Visit</masterLabel>
+        <translation><!-- Site Visit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

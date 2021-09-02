@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HCF_Account_Integrated_Fields_Lock</fullName>
+    <active>true</active>
+    <description>DCS/IW Integrated fields of HCF Accounts should only be noneditable
+Except Data Admin team, Adminstrator and Zimmer Integration Profile for  US, PR, GU, VI, and BM countries</description>
+    <errorConditionFormula>And(
+RecordTypeId =&apos;012800000002AW5&apos;,
+ShippingCountry =&apos;US&apos;,
+ShippingCountry =&apos;PR&apos;,
+ShippingCountry =&apos;GU&apos;,
+ShippingCountry =&apos;VI&apos;,
+ShippingCountry =&apos;BM&apos;,
+ShippingCountry =&apos;&apos;,
+BillingCountry =&apos;US&apos;, 
+ BillingCountry =&apos;VI&apos;, 
+ BillingCountry =&apos;BM&apos;, 
+ BillingCountry =&apos;PR&apos;, 
+ BillingCountry =&apos;GU&apos;,
+ BillingCountry =&apos;&apos; ,
+NOT(OR(
+$User.ProfileId =&apos;00e80000000sptd&apos;,
+$User.ProfileId =&apos;00eC0000001SZiN&apos;,
+$User.ProfileId =&apos;00e80000001SQMI&apos;
+)),
+OR(
+ISCHANGED(Class__c) ,
+ISCHANGED(Class_Description__c) ,
+ISCHANGED(Consignment_Warehouse__c) ,
+ISCHANGED(Type) ,
+ISCHANGED(Customer_Type_Description__c) ,
+ISCHANGED(DCS_Create_Date__c) ,
+ISCHANGED(DCS_Modify_Date__c) ,
+ISCHANGED(Distributor_Name__c) ,
+ISCHANGED(Geocode__c) ,
+ISCHANGED(LOC_Code__c) ,
+ISCHANGED(LOC_Description__c) ,
+ISCHANGED(Name) ,
+ISCHANGED(Phone) ,
+ISCHANGED(Region_code__c) ,
+ISCHANGED(Region_Name__c) ,
+ISCHANGED(Verispan_ID__c) ,
+ISCHANGED(ShippingCity) ,
+ISCHANGED(ShippingCountry) ,
+ISCHANGED(ShippingState) ,
+ISCHANGED(ShippingStreet) ,
+ISCHANGED(ShippingPostalCode) ,
+ISCHANGED(Teaching_Institute__c) ,
+ISCHANGED(Territory_Number__c) ,
+ISCHANGED(MDM_SAP_ID__c),
+ISCHANGED(BillingCity) ,
+ISCHANGED(BillingCountry) ,
+ISCHANGED(BillingState)
+))</errorConditionFormula>
+    <errorMessage>DCS/IW Integrated Healthcare Facility Account fields cannot be edited for US, PR, GU, VI, and BM countries</errorMessage>
+</ValidationRule>

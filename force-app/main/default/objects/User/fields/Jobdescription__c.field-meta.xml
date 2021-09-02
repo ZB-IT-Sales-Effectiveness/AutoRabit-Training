@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jobdescription__c</fullName>
+    <externalId>false</externalId>
+    <label>Funktion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Executive Assistant</fullName>
+                <default>false</default>
+                <label>Executive Assistant</label>
+            </value>
+            <value>
+                <fullName>Executive Director</fullName>
+                <default>false</default>
+                <label>Executive Director</label>
+            </value>
+            <value>
+                <fullName>Finance Director</fullName>
+                <default>false</default>
+                <label>Finance Director</label>
+            </value>
+            <value>
+                <fullName>Finance Manager</fullName>
+                <default>false</default>
+                <label>Finance Manager</label>
+            </value>
+            <value>
+                <fullName>Marketing Assistant</fullName>
+                <default>false</default>
+                <label>Marketing Assistant</label>
+            </value>
+            <value>
+                <fullName>Marketing Director</fullName>
+                <default>false</default>
+                <label>Marketing Director</label>
+            </value>
+            <value>
+                <fullName>Marketing Event Administrator</fullName>
+                <default>false</default>
+                <label>Marketing Event Administrator</label>
+            </value>
+            <value>
+                <fullName>Marketing Manager</fullName>
+                <default>false</default>
+                <label>Marketing Manager</label>
+            </value>
+            <value>
+                <fullName>Marketing Producer</fullName>
+                <default>false</default>
+                <label>Marketing Producer</label>
+            </value>
+            <value>
+                <fullName>Marketing Product Manager</fullName>
+                <default>false</default>
+                <label>Marketing Product Manager</label>
+            </value>
+            <value>
+                <fullName>Operations Administrator</fullName>
+                <default>false</default>
+                <label>Operations Administrator</label>
+            </value>
+            <value>
+                <fullName>Operations Director</fullName>
+                <default>false</default>
+                <label>Operations Director</label>
+            </value>
+            <value>
+                <fullName>Operations IT Consultant</fullName>
+                <default>false</default>
+                <label>Operations IT Consultant</label>
+            </value>
+            <value>
+                <fullName>Operations Manager</fullName>
+                <default>false</default>
+                <label>Operations Manager</label>
+            </value>
+            <value>
+                <fullName>Operations Purchasing Administrator</fullName>
+                <default>false</default>
+                <label>Operations Purchasing Administrator</label>
+            </value>
+            <value>
+                <fullName>Operations Warehouse Operative</fullName>
+                <default>false</default>
+                <label>Operations Warehouse Operative</label>
+            </value>
+            <value>
+                <fullName>Sales Director</fullName>
+                <default>false</default>
+                <label>Sales Director</label>
+            </value>
+            <value>
+                <fullName>Sales Regional Manager</fullName>
+                <default>false</default>
+                <label>Sales Regional Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Representative</fullName>
+                <default>false</default>
+                <label>Sales Representative</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

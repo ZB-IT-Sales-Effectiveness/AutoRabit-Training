@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Target Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Attune</fullName>
+                <default>false</default>
+                <label>Attune</label>
+            </value>
+            <value>
+                <fullName>Cement</fullName>
+                <default>false</default>
+                <label>Cement</label>
+            </value>
+            <value>
+                <fullName>Palacos Priorities</fullName>
+                <default>false</default>
+                <label>Palacos Priorities</label>
+            </value>
+            <value>
+                <fullName>Persona</fullName>
+                <default>false</default>
+                <label>Persona</label>
+            </value>
+            <value>
+                <fullName>Persona Partial</fullName>
+                <default>false</default>
+                <label>Persona Partial</label>
+            </value>
+            <value>
+                <fullName>PKA, No TKA</fullName>
+                <default>false</default>
+                <label>PKA, No TKA</label>
+            </value>
+            <value>
+                <fullName>TM Tibia</fullName>
+                <default>false</default>
+                <label>TM Tibia</label>
+            </value>
+            <value>
+                <fullName>Top Dollar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top Dollar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

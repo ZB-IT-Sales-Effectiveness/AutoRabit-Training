@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type schouder resurfacing --></label>
+    <name>X2e_type_schouder_resurfacing__c</name>
+    <picklistValues>
+        <masterLabel>CAP</masterLabel>
+        <translation><!-- CAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conserve/Conv.Plus</masterLabel>
+        <translation><!-- Conserve/Conv.Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copeland EAS</masterLabel>
+        <translation><!-- Copeland EAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom</masterLabel>
+        <translation><!-- Durom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equalis res head</masterLabel>
+        <translation><!-- Equalis res head --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Specialty --></label>
+    <name>Specialty__c</name>
+    <picklistValues>
+        <masterLabel>Adult Spine</masterLabel>
+        <translation><!-- Adult Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthroscopy</masterLabel>
+        <translation><!-- Arthroscopy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiothoracic</masterLabel>
+        <translation><!-- Cardiothoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disability</masterLabel>
+        <translation><!-- Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle</masterLabel>
+        <translation><!-- Foot and Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery/Trauma</masterLabel>
+        <translation><!-- General Surgery/Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand</masterLabel>
+        <translation><!-- Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand and Wrist</masterLabel>
+        <translation><!-- Hand and Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Orthopaedics</masterLabel>
+        <translation><!-- Legal Orthopaedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic Trauma</masterLabel>
+        <translation><!-- Orthopedic Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pectus Surgery</masterLabel>
+        <translation><!-- Pectus Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric</masterLabel>
+        <translation><!-- Pediatric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Orthopaedics</masterLabel>
+        <translation><!-- Pediatric Orthopaedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic</masterLabel>
+        <translation><!-- Plastic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder and Elbow</masterLabel>
+        <translation><!-- Shoulder and Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic</masterLabel>
+        <translation><!-- Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Joint</masterLabel>
+        <translation><!-- Total Joint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

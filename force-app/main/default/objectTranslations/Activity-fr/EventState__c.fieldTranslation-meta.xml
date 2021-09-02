@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Event status --></label>
+    <name>EventState__c</name>
+    <picklistValues>
+        <masterLabel>called off</masterLabel>
+        <translation>annulé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>done</masterLabel>
+        <translation>clôturé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>open</masterLabel>
+        <translation>en cours</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>postponed</masterLabel>
+        <translation>reporté</translation>
+    </picklistValues>
+</CustomFieldTranslation>

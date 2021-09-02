@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type knie PFJ --></label>
+    <name>X2e_type_knie_PFJ__c</name>
+    <picklistValues>
+        <masterLabel>Avon</masterLabel>
+        <translation><!-- Avon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Journey PFJ</masterLabel>
+        <translation><!-- Journey PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCS PFJ</masterLabel>
+        <translation><!-- LCS PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard PFJ</masterLabel>
+        <translation><!-- Vanguard PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer PFJ</masterLabel>
+        <translation><!-- Zimmer PFJ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

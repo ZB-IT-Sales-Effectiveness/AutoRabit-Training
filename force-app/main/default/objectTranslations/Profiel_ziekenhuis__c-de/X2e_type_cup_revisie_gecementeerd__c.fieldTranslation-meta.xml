@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type cup revisie gecementeerd --></label>
+    <name>X2e_type_cup_revisie_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Biomet cup</masterLabel>
+        <translation><!-- Biomet cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contemporary</masterLabel>
+        <translation><!-- Contemporary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Müller</masterLabel>
+        <translation><!-- Müller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SN Müller</masterLabel>
+        <translation><!-- SN Müller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZCA cup</masterLabel>
+        <translation><!-- ZCA cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>seleXys DS</masterLabel>
+        <translation><!-- seleXys DS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

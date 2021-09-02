@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Category__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Part_Description__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>((1 AND( 2 OR 3)) AND 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <column>Account$Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>pacific nw</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Part_Description__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>bellatek,SBL,NBR,Low profile,scan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>TAC,15AT,30AT,TATHC,ACTDT,ACTIT,ACTR,ACTT,ACTGC,ACTP,TGC,TTC,SCTS,SCWS,Zfx</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>ACTPSD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Invoiced Yesterday Pacific NW</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Sales__r$Name</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_YESTERDAY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type_Surgical__c</fullName>
+    <externalId>false</externalId>
+    <label>Purchase Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Cash from Placement</fullName>
+                <default>false</default>
+                <label>Cash from Placement</label>
+            </value>
+            <value>
+                <fullName>Consign - Bill Only</fullName>
+                <default>false</default>
+                <label>Consign - Bill Only</label>
+            </value>
+            <value>
+                <fullName>DRA</fullName>
+                <default>false</default>
+                <label>DRA</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Lease from Placement</fullName>
+                <default>false</default>
+                <label>Lease from Placement</label>
+            </value>
+            <value>
+                <fullName>Placement</fullName>
+                <default>false</default>
+                <label>Placement</label>
+            </value>
+            <value>
+                <fullName>PPU (Pay-per-Use)</fullName>
+                <default>false</default>
+                <label>PPU (Pay-per-Use)</label>
+            </value>
+            <value>
+                <fullName>Rental</fullName>
+                <default>false</default>
+                <label>Rental</label>
+            </value>
+            <value>
+                <fullName>ROSA+</fullName>
+                <default>false</default>
+                <label>ROSA+</label>
+            </value>
+            <value>
+                <fullName>ROSA+ from Placement</fullName>
+                <default>false</default>
+                <label>ROSA+ from Placement</label>
+            </value>
+            <value>
+                <fullName>ROSA ID</fullName>
+                <default>false</default>
+                <label>ROSA ID</label>
+            </value>
+            <value>
+                <fullName>ROSA ID from Placement</fullName>
+                <default>false</default>
+                <label>ROSA ID from Placement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

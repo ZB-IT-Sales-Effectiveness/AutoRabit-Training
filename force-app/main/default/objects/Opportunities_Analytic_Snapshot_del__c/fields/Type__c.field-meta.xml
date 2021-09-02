@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Other</fullName>
+                <default>false</default>
+                <label>All Other</label>
+            </value>
+            <value>
+                <fullName>Bestehendes Geschäft</fullName>
+                <default>false</default>
+                <label>Bestehendes Geschäft</label>
+            </value>
+            <value>
+                <fullName>Care Coordination</fullName>
+                <default>false</default>
+                <label>Care Coordination</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Disease Specific Certification</fullName>
+                <default>false</default>
+                <label>Disease Specific Certification</label>
+            </value>
+            <value>
+                <fullName>Implant Placement-Bulk Implant Order</fullName>
+                <default>false</default>
+                <label>Implant Placement-Bulk Implant Order</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Bulk Implant Order</fullName>
+                <default>false</default>
+                <label>Implant Placement- Bulk Implant Order</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Drill Stops</fullName>
+                <default>false</default>
+                <label>Implant Placement- Drill Stops</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- ERA Mini</fullName>
+                <default>false</default>
+                <label>Implant Placement- ERA Mini</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Guided Surgery Drills</fullName>
+                <default>false</default>
+                <label>Implant Placement- Guided Surgery Drills</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Motor/Handpiece</fullName>
+                <default>false</default>
+                <label>Implant Placement- Motor/Handpiece</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Spoons</fullName>
+                <default>false</default>
+                <label>Implant Placement- Spoons</label>
+            </value>
+            <value>
+                <fullName>Implant Placement- Surgical Kit</fullName>
+                <default>false</default>
+                <label>Implant Placement- Surgical Kit</label>
+            </value>
+            <value>
+                <fullName>Implant Placement-Tube Adapters</fullName>
+                <default>false</default>
+                <label>Implant Placement-Tube Adapters</label>
+            </value>
+            <value>
+                <fullName>Implant Placement-ZI Restorative Deal</fullName>
+                <default>false</default>
+                <label>Implant Placement-ZI Restorative Deal</label>
+            </value>
+            <value>
+                <fullName>Implant Placement-ZI Surgical Deal</fullName>
+                <default>false</default>
+                <label>Implant Placement-ZI Surgical Deal</label>
+            </value>
+            <value>
+                <fullName>Implants</fullName>
+                <default>false</default>
+                <label>Implants</label>
+            </value>
+            <value>
+                <fullName>Instruments and Tools</fullName>
+                <default>false</default>
+                <label>Instruments and Tools</label>
+            </value>
+            <value>
+                <fullName>Joint Assess</fullName>
+                <default>false</default>
+                <label>Joint Assess</label>
+            </value>
+            <value>
+                <fullName>Joint Implementation</fullName>
+                <default>false</default>
+                <label>Joint Implementation</label>
+            </value>
+            <value>
+                <fullName>MSK - LTA</fullName>
+                <default>false</default>
+                <label>MSK - LTA</label>
+            </value>
+            <value>
+                <fullName>MSK - SLDP</fullName>
+                <default>false</default>
+                <label>MSK - SLDP</label>
+            </value>
+            <value>
+                <fullName>Neues Geschäft</fullName>
+                <default>false</default>
+                <label>Neues Geschäft</label>
+            </value>
+            <value>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+                <label>Opportunity</label>
+            </value>
+            <value>
+                <fullName>Perioperative Assess</fullName>
+                <default>false</default>
+                <label>Perioperative Assess</label>
+            </value>
+            <value>
+                <fullName>Perioperative - LTA</fullName>
+                <default>false</default>
+                <label>Perioperative - LTA</label>
+            </value>
+            <value>
+                <fullName>Physician Practice</fullName>
+                <default>false</default>
+                <label>Physician Practice</label>
+            </value>
+            <value>
+                <fullName>Regenerative</fullName>
+                <default>false</default>
+                <label>Regenerative</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Capsule</fullName>
+                <default>false</default>
+                <label>Regenerative- Capsule</label>
+            </value>
+            <value>
+                <fullName>Regenerative- DBM Putty</fullName>
+                <default>false</default>
+                <label>Regenerative- DBM Putty</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Hemcon</fullName>
+                <default>false</default>
+                <label>Regenerative- Hemcon</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Membranes</fullName>
+                <default>false</default>
+                <label>Regenerative- Membranes</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Other</fullName>
+                <default>false</default>
+                <label>Regenerative- Other</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Puros Bulk Order</fullName>
+                <default>false</default>
+                <label>Regenerative- Puros Bulk Order</label>
+            </value>
+            <value>
+                <fullName>Regenerative- Sinus Balloon</fullName>
+                <default>false</default>
+                <label>Regenerative- Sinus Balloon</label>
+            </value>
+            <value>
+                <fullName>Restorative</fullName>
+                <default>false</default>
+                <label>Restorative</label>
+            </value>
+            <value>
+                <fullName>Restorative- ERA Mini</fullName>
+                <default>false</default>
+                <label>Restorative- ERA Mini</label>
+            </value>
+            <value>
+                <fullName>Restorative-New Tools</fullName>
+                <default>false</default>
+                <label>Restorative-New Tools</label>
+            </value>
+            <value>
+                <fullName>Restorative- PSA</fullName>
+                <default>false</default>
+                <label>Restorative- PSA</label>
+            </value>
+            <value>
+                <fullName>Restorative- Short Abutment (NEW)</fullName>
+                <default>false</default>
+                <label>Restorative- Short Abutment (NEW)</label>
+            </value>
+            <value>
+                <fullName>Risk</fullName>
+                <default>false</default>
+                <label>Risk</label>
+            </value>
+            <value>
+                <fullName>Special Project</fullName>
+                <default>false</default>
+                <label>Special Project</label>
+            </value>
+            <value>
+                <fullName>Technology- Simplant</fullName>
+                <default>false</default>
+                <label>Technology- Simplant</label>
+            </value>
+            <value>
+                <fullName>ZFX</fullName>
+                <default>false</default>
+                <label>ZFX</label>
+            </value>
+            <value>
+                <fullName>シェアアップ</fullName>
+                <default>false</default>
+                <label>シェアアップ</label>
+            </value>
+            <value>
+                <fullName>リスク</fullName>
+                <default>false</default>
+                <label>リスク</label>
+            </value>
+            <value>
+                <fullName>新規</fullName>
+                <default>false</default>
+                <label>新規</label>
+            </value>
+            <value>
+                <fullName>既存</fullName>
+                <default>false</default>
+                <label>既存</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

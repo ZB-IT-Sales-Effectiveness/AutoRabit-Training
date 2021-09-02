@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>-</fullName>
+        <default>false</default>
+        <label>-</label>
+    </standardValue>
+    <standardValue>
+        <fullName>01 Known</fullName>
+        <default>false</default>
+        <label>01 Known</label>
+    </standardValue>
+    <standardValue>
+        <fullName>02 Inquiry</fullName>
+        <default>false</default>
+        <label>02 Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>03 Marketing Qualified Lead</fullName>
+        <default>false</default>
+        <label>03 Marketing Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>04 Qualified</fullName>
+        <default>false</default>
+        <label>04 Qualified</label>
+    </standardValue>
+    <standardValue>
+        <fullName>05 Remarket</fullName>
+        <default>false</default>
+        <label>05 Remarket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>06 Disqualified</fullName>
+        <default>false</default>
+        <label>06 Disqualified</label>
+    </standardValue>
+    <standardValue>
+        <fullName>09 Adoption</fullName>
+        <default>false</default>
+        <label>09 Adoption</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1,5mm</fullName>
+        <default>false</default>
+        <label>1,5mm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2,9mm</fullName>
+        <default>false</default>
+        <label>2,9mm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aangemeld/show</fullName>
+        <default>false</default>
+        <label>Aangemeld/show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aanmelding</fullName>
+        <default>false</default>
+        <label>Aanmelding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aanmelding / show</fullName>
+        <default>false</default>
+        <label>Aanmelding / show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Abgesagt</fullName>
+        <default>false</default>
+        <label>Abgesagt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Actief</fullName>
+        <default>false</default>
+        <label>Actief</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afgemeld/no-show</fullName>
+        <default>false</default>
+        <label>Afgemeld/no-show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afgewezen</fullName>
+        <default>false</default>
+        <label>Afgewezen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afmelding</fullName>
+        <default>false</default>
+        <label>Afmelding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afmelding/no show</fullName>
+        <default>false</default>
+        <label>Afmelding/no show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afmelding / noshow</fullName>
+        <default>false</default>
+        <label>Afmelding / noshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afmelding / no show</fullName>
+        <default>false</default>
+        <label>Afmelding / no show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Angesprochen</fullName>
+        <default>false</default>
+        <label>Angesprochen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attanded</fullName>
+        <default>false</default>
+        <label>Attanded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attemded</fullName>
+        <default>false</default>
+        <label>Attemded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attend</fullName>
+        <default>false</default>
+        <label>Attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendeed</fullName>
+        <default>false</default>
+        <label>Attendeed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendees</fullName>
+        <default>false</default>
+        <label>Attendees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendend</fullName>
+        <default>false</default>
+        <label>Attendend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attends</fullName>
+        <default>false</default>
+        <label>Attends</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Atteneded</fullName>
+        <default>false</default>
+        <label>Atteneded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Besvaret</fullName>
+        <default>false</default>
+        <label>Besvaret</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancel</fullName>
+        <default>false</default>
+        <label>Cancel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancellation</fullName>
+        <default>false</default>
+        <label>Cancellation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancels</fullName>
+        <default>false</default>
+        <label>Cancels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canclled</fullName>
+        <default>false</default>
+        <label>Canclled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certificaat</fullName>
+        <default>false</default>
+        <label>Certificaat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor preferred</fullName>
+        <default>false</default>
+        <label>Competitor preferred</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deltager</fullName>
+        <default>false</default>
+        <label>Deltager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deltog</fullName>
+        <default>false</default>
+        <label>Deltog</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Eingeladen</fullName>
+        <default>false</default>
+        <label>Eingeladen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Einladen</fullName>
+        <default>false</default>
+        <label>Einladen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>für nächste Mobidays vormerken</fullName>
+        <default>false</default>
+        <label>für nächste Mobidays vormerken</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Geantwortet</fullName>
+        <default>false</default>
+        <label>Geantwortet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Geen Oxford gebruiker</fullName>
+        <default>false</default>
+        <label>Geen Oxford gebruiker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gereageerd</fullName>
+        <default>false</default>
+        <label>Gereageerd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gesendet</fullName>
+        <default>false</default>
+        <label>Gesendet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Influenced</fullName>
+        <default>false</default>
+        <label>Influenced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited to TM Experience</fullName>
+        <default>false</default>
+        <label>Invited to TM Experience</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inviteret</fullName>
+        <default>false</default>
+        <label>Inviteret</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Keine Zeit</fullName>
+        <default>false</default>
+        <label>Keine Zeit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kein Interesse</fullName>
+        <default>false</default>
+        <label>Kein Interesse</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Klant geworden</fullName>
+        <default>false</default>
+        <label>Klant geworden</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Modtaget invitation</fullName>
+        <default>false</default>
+        <label>Modtaget invitation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nicht bearbeitet</fullName>
+        <default>false</default>
+        <label>Nicht bearbeitet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Niet actief</fullName>
+        <default>false</default>
+        <label>Niet actief</label>
+    </standardValue>
+    <standardValue>
+        <fullName>niet gebruiken</fullName>
+        <default>false</default>
+        <label>niet gebruiken</label>
+    </standardValue>
+    <standardValue>
+        <fullName>nieuw</fullName>
+        <default>false</default>
+        <label>nieuw</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nieuwe Oxford gebruiker</fullName>
+        <default>false</default>
+        <label>Nieuwe Oxford gebruiker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nieuw primair &amp; Oxford</fullName>
+        <default>false</default>
+        <label>Nieuw primair &amp; Oxford</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NoShow</fullName>
+        <default>false</default>
+        <label>NoShow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No show</fullName>
+        <default>false</default>
+        <label>No show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No-Show</fullName>
+        <default>false</default>
+        <label>No-Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Shows</fullName>
+        <default>false</default>
+        <label>No Shows</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Sow</fullName>
+        <default>false</default>
+        <label>No Sow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ontvanger</fullName>
+        <default>false</default>
+        <label>Ontvanger</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Oxford gebruiker</fullName>
+        <default>false</default>
+        <label>Oxford gebruiker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Participant</fullName>
+        <default>false</default>
+        <label>Participant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Participate</fullName>
+        <default>false</default>
+        <label>Participate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Participated</fullName>
+        <default>false</default>
+        <label>Participated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paticipated</fullName>
+        <default>false</default>
+        <label>Paticipated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Approval</fullName>
+        <default>false</default>
+        <label>Pending Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reactie</fullName>
+        <default>false</default>
+        <label>Reactie</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reegistered</fullName>
+        <default>false</default>
+        <label>Reegistered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Register</fullName>
+        <default>false</default>
+        <label>Register</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registerd</fullName>
+        <default>false</default>
+        <label>Registerd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registereda</fullName>
+        <default>false</default>
+        <label>Registereda</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registers</fullName>
+        <default>false</default>
+        <label>Registers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registerted</fullName>
+        <default>false</default>
+        <label>Registerted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registration</fullName>
+        <default>false</default>
+        <label>Registration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reigstered</fullName>
+        <default>false</default>
+        <label>Reigstered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Resgistered</fullName>
+        <default>false</default>
+        <label>Resgistered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scanned Attendees</fullName>
+        <default>false</default>
+        <label>Scanned Attendees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sendt</fullName>
+        <default>false</default>
+        <label>Sendt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Show</fullName>
+        <default>false</default>
+        <label>Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Speaker</fullName>
+        <default>false</default>
+        <label>Speaker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Standbemanning</fullName>
+        <default>false</default>
+        <label>Standbemanning</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Te late afmelding</fullName>
+        <default>false</default>
+        <label>Te late afmelding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TM Experience Attendees</fullName>
+        <default>false</default>
+        <label>TM Experience Attendees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Toegevoegd</fullName>
+        <default>false</default>
+        <label>Toegevoegd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Uitgenodigd</fullName>
+        <default>false</default>
+        <label>Uitgenodigd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vertrag</fullName>
+        <default>false</default>
+        <label>Vertrag</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Verzonden</fullName>
+        <default>false</default>
+        <label>Verzonden</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voorgedragen</fullName>
+        <default>false</default>
+        <label>Voorgedragen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waitlist</fullName>
+        <default>false</default>
+        <label>Waitlist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wordt niet uitgenodigd</fullName>
+        <default>false</default>
+        <label>Wordt niet uitgenodigd</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZB friendly</fullName>
+        <default>false</default>
+        <label>ZB friendly</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zugesagt</fullName>
+        <default>false</default>
+        <label>Zugesagt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zusage</fullName>
+        <default>false</default>
+        <label>Zusage</label>
+    </standardValue>
+</StandardValueSet>

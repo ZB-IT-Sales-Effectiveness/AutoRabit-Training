@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMEA_Surgical</fullName>
+    <columns>NAME</columns>
+    <columns>Provider__c</columns>
+    <columns>Segment__c</columns>
+    <columns>Sub_Segment__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Segment__c</field>
+        <operation>equals</operation>
+        <value>Surgical</value>
+    </filters>
+    <label>Surgical</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>EMEA</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

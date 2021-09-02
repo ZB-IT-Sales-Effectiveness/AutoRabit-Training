@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Sales__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account$Account_Name_Customer_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account$Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ACT2010SP,ACT2015SP,ACT2020SP,ACT206SSP,ACT2710SP,ACT2715SP,ACT2720SP,ACT3010SP,ACT3015SP,ACT3020SP,ACT3110SP,ACT3115SP,ACT3120SP,ACT3210SP,ACT3215SP,ACT3220SP,ACT326SSP,ACT3810SP,ACT3815SP,ACT3820SP,ACT386SSP,ACT4213SP,ACT4218SP,ACT426SSP,ACT4285SP,ACT4813SP,ACT4818SP,ACT486SSP,ACT4885SP,ACT5213SP,ACT5218SP,ACT5285SP,ACTPSDSP,CD100SP,CD500SP,CD600SP,FCS385SSP,FCS386SSP,FCS485SSP,FCS486SSP,ICD100SP,PD100SP,QSD3210SP,QSD3211SP,QSD3213SP,QSD3215SP,QSD3285SP,QSD410SP,QSD411SP,QSD413SP,QSD415SP,QSD485SP,QSD510SP,QSD511SP,QSD513SP,QSD515SP,QSD585SP,QSD610SP,QSD611SP,QSD613SP,QSD615SP,QSD685SP,RD100SP</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>CERTAIN DISPOSABLE DRILLS</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Sales__r$Invoice_Date__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

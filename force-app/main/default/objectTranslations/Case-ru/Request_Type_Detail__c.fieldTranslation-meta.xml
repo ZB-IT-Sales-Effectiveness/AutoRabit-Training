@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Type Detail --></label>
+    <name>Request_Type_Detail__c</name>
+    <picklistValues>
+        <masterLabel>Account Reporting</masterLabel>
+        <translation><!-- Account Reporting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Account Review</masterLabel>
+        <translation><!-- Business Account Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEU Education Training</masterLabel>
+        <translation><!-- CEU Education Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Support</masterLabel>
+        <translation><!-- Clinical Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance Status Tracking</masterLabel>
+        <translation><!-- Compliance Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Documents</masterLabel>
+        <translation><!-- Create Documents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cross-Sell Targets at GPO/IDN/Coalition Level</masterLabel>
+        <translation><!-- Cross-Sell Targets at GPO/IDN/Coalition Level --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cross-reference (Account Support)</masterLabel>
+        <translation><!-- Cross-reference (Account Support) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Contract Status</masterLabel>
+        <translation><!-- Current Contract Status --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRA Status Tracking</masterLabel>
+        <translation><!-- DRA Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dashboard Update</masterLabel>
+        <translation><!-- Dashboard Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deal Change</masterLabel>
+        <translation><!-- Deal Change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demonstrations/Training</masterLabel>
+        <translation><!-- Demonstrations/Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discovery Event</masterLabel>
+        <translation><!-- Discovery Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document Deficiencies</masterLabel>
+        <translation><!-- Document Deficiencies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email Blast assistance</masterLabel>
+        <translation><!-- Email Blast assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Term Tracking</masterLabel>
+        <translation><!-- End of Term Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enhancement(s)</masterLabel>
+        <translation><!-- Enhancement(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility Visit</masterLabel>
+        <translation><!-- Facility Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Support for Product set-up after sale</masterLabel>
+        <translation><!-- Field Support for Product set-up after sale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Find Accounts</masterLabel>
+        <translation><!-- Find Accounts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPO/IDN Information</masterLabel>
+        <translation><!-- GPO/IDN Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-servicing</masterLabel>
+        <translation><!-- In-servicing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inventory Status/Back Orders/Product Holds- Replacements or Substitutes</masterLabel>
+        <translation><!-- Inventory Status/Back Orders/Product Holds- Replacements or Substitutes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Collateral</masterLabel>
+        <translation><!-- Marketing Collateral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyMobility</masterLabel>
+        <translation><!-- MyMobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Dashboard</masterLabel>
+        <translation><!-- New Dashboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Field</masterLabel>
+        <translation><!-- New Field --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Widget</masterLabel>
+        <translation><!-- New Widget --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Object Creation</masterLabel>
+        <translation><!-- Object Creation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunities Management</masterLabel>
+        <translation><!-- Opportunities Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order In-put &amp; Tracking Information</masterLabel>
+        <translation><!-- Order In-put &amp; Tracking Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing</masterLabel>
+        <translation><!-- Pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing information</masterLabel>
+        <translation><!-- Pricing information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Evaluation</masterLabel>
+        <translation><!-- Product Evaluation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Support/Knowledge</masterLabel>
+        <translation><!-- Product Support/Knowledge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Approval</masterLabel>
+        <translation><!-- Quote Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote/Deal Approval</masterLabel>
+        <translation><!-- Quote/Deal Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Placement Status Tracking</masterLabel>
+        <translation><!-- ROSA Placement Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Rental Status Tracking</masterLabel>
+        <translation><!-- ROSA Rental Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA+ Status Tracking</masterLabel>
+        <translation><!-- ROSA+ Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record Update</masterLabel>
+        <translation><!-- Record Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red Lines</masterLabel>
+        <translation><!-- Red Lines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report Creation</masterLabel>
+        <translation><!-- Report Creation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report Update</masterLabel>
+        <translation><!-- Report Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Needed</masterLabel>
+        <translation><!-- Revision Needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics</masterLabel>
+        <translation><!-- Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC Training</masterLabel>
+        <translation><!-- SFDC Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shortfall Invoice Status Tracking</masterLabel>
+        <translation><!-- Shortfall Invoice Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Visit</masterLabel>
+        <translation><!-- Site Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structure Review</masterLabel>
+        <translation><!-- Structure Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical DRA Status Tracking</masterLabel>
+        <translation><!-- Surgical DRA Status Tracking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Template building</masterLabel>
+        <translation><!-- Template building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Widget Update</masterLabel>
+        <translation><!-- Widget Update --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

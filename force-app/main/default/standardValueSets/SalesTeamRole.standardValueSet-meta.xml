@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Biologic - Associate</fullName>
+        <default>false</default>
+        <label>Biologic - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bone Healing - Associate</fullName>
+        <default>false</default>
+        <label>Bone Healing - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cement - Associate</fullName>
+        <default>false</default>
+        <label>Cement - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CMF and Thoracic - Associate</fullName>
+        <default>false</default>
+        <label>CMF and Thoracic - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Service - Associate</fullName>
+        <default>false</default>
+        <label>Customer Service - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental - Assisting TSR</fullName>
+        <default>false</default>
+        <label>Dental - Assisting TSR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental - Corporate Sales</fullName>
+        <default>false</default>
+        <label>Dental - Corporate Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental - DDSS</fullName>
+        <default>false</default>
+        <label>Dental - DDSS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Digital Specialist</fullName>
+        <default>false</default>
+        <label>Dental Digital Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental - Inside Sales</fullName>
+        <default>false</default>
+        <label>Dental - Inside Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Key Account Manager</fullName>
+        <default>false</default>
+        <label>Dental Key Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Marketing Manager</fullName>
+        <default>false</default>
+        <label>Dental Marketing Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Mitarbeiter</fullName>
+        <default>false</default>
+        <label>Dental Mitarbeiter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental - Regenerative Specialist</fullName>
+        <default>false</default>
+        <label>Dental - Regenerative Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enterprise National Sales Director</fullName>
+        <default>false</default>
+        <label>Enterprise National Sales Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enterprise Regional Sales Director</fullName>
+        <default>false</default>
+        <label>Enterprise Regional Sales Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Extremities - Associate</fullName>
+        <default>false</default>
+        <label>Extremities - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Foot and Ankle - Associate</fullName>
+        <default>false</default>
+        <label>Foot and Ankle - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gel-One - Associate</fullName>
+        <default>false</default>
+        <label>Gel-One - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Market Access Account Specialist</fullName>
+        <default>false</default>
+        <label>Market Access Account Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>mymobility Rep</fullName>
+        <default>false</default>
+        <label>mymobility Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBT - Associate</fullName>
+        <default>false</default>
+        <label>OBT - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Owner</fullName>
+        <default>false</default>
+        <label>Opportunity Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Specialist</fullName>
+        <default>false</default>
+        <label>Product Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recon - Associate</fullName>
+        <default>false</default>
+        <label>Recon - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Robotics - Rep</fullName>
+        <default>false</default>
+        <label>Robotics - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager with Accounts</fullName>
+        <default>false</default>
+        <label>Sales Manager with Accounts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager without Accounts</fullName>
+        <default>false</default>
+        <label>Sales Manager without Accounts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Rep</fullName>
+        <default>false</default>
+        <label>Sales Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SET - Associate</fullName>
+        <default>false</default>
+        <label>SET - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solutions Consultant</fullName>
+        <default>false</default>
+        <label>Solutions Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spine - Associate</fullName>
+        <default>false</default>
+        <label>Spine - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sports Medicine - Associate</fullName>
+        <default>false</default>
+        <label>Sports Medicine - Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical - Rep</fullName>
+        <default>false</default>
+        <label>Surgical - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Team Leader</fullName>
+        <default>false</default>
+        <label>Team Leader</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trauma - Associate</fullName>
+        <default>false</default>
+        <label>Trauma - Associate</label>
+    </standardValue>
+</StandardValueSet>

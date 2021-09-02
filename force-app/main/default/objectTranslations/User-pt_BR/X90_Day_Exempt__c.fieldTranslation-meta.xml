@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This check box should be checked to show anyone who is exempt from the 90 day no login deactivation policy. --></help>
+    <label><!-- 90 Day Exempt --></label>
+    <name>X90_Day_Exempt__c</name>
+</CustomFieldTranslation>

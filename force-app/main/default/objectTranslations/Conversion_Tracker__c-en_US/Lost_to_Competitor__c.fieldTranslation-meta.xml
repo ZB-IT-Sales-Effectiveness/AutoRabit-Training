@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lost to Competitor --></label>
+    <name>Lost_to_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>DJO</masterLabel>
+        <translation><!-- DJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heraeus</masterLabel>
+        <translation><!-- Heraeus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teknimed</masterLabel>
+        <translation><!-- Teknimed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

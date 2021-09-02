@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-speciality --></label>
+    <name>Sub_speciality__c</name>
+    <picklistValues>
+        <masterLabel>Biologics</masterLabel>
+        <translation><!-- Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Replacement</masterLabel>
+        <translation><!-- Joint Replacement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports</masterLabel>
+        <translation><!-- Sports --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

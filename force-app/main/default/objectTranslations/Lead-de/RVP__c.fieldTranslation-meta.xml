@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RVP --></label>
+    <name>RVP__c</name>
+    <picklistValues>
+        <masterLabel>Don Thomas</masterLabel>
+        <translation><!-- Don Thomas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jim Colbourne</masterLabel>
+        <translation><!-- Jim Colbourne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scott Gunnigle</masterLabel>
+        <translation><!-- Scott Gunnigle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Bartnicki</masterLabel>
+        <translation><!-- Thomas Bartnicki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tim Kan</masterLabel>
+        <translation><!-- Tim Kan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vincent Fath</masterLabel>
+        <translation><!-- Vincent Fath --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

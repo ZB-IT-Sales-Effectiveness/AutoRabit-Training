@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spine_Distributor_Accounts</fullName>
+    <columns>Distributor_Name__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Territory_Number__c</columns>
+    <columns>Territory_Number__pc</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Distributor</value>
+    </filters>
+    <filters>
+        <field>Distributor_Specialties__c</field>
+        <operation>includes</operation>
+        <value>Spine</value>
+    </filters>
+    <filters>
+        <field>Inactive__pc</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Distributor -Spine</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>CenterofExcellence</group>
+        <role>Zimmer_Spine_Direct_Office_DCO</role>
+        <roleAndSubordinatesInternal>Market_Access</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

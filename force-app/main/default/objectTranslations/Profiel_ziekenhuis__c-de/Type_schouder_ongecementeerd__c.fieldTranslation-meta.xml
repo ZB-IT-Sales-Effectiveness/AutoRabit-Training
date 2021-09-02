@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type voor de ongecementeerde schouder, primair en revisie. --></help>
+    <label><!-- Type schouder ongecementeerd --></label>
+    <name>Type_schouder_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Aequalis</masterLabel>
+        <translation><!-- Aequalis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affinis</masterLabel>
+        <translation><!-- Affinis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical</masterLabel>
+        <translation><!-- Anatomical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bigliani</masterLabel>
+        <translation><!-- Bigliani --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bio Modular</masterLabel>
+        <translation><!-- Bio Modular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cofield</masterLabel>
+        <translation><!-- Cofield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global/Global AP</masterLabel>
+        <translation><!-- Global/Global AP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neer II</masterLabel>
+        <translation><!-- Neer II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neer III</masterLabel>
+        <translation><!-- Neer III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nottinghem</masterLabel>
+        <translation><!-- Nottinghem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olympia</masterLabel>
+        <translation><!-- Olympia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TESS</masterLabel>
+        <translation><!-- TESS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

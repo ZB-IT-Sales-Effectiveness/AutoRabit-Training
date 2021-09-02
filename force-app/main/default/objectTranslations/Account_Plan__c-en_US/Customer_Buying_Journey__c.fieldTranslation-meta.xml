@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Customer Buying Journey --></label>
+    <name>Customer_Buying_Journey__c</name>
+    <picklistValues>
+        <masterLabel>IDN</masterLabel>
+        <translation><!-- IDN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supply Chain Committee</masterLabel>
+        <translation><!-- Supply Chain Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value Committee</masterLabel>
+        <translation><!-- Value Committee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

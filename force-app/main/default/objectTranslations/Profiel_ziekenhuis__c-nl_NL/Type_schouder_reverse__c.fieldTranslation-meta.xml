@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type voor schouder reverse. --></help>
+    <label><!-- Type schouder reverse --></label>
+    <name>Type_schouder_reverse__c</name>
+    <picklistValues>
+        <masterLabel>Aegualis rev.</masterLabel>
+        <translation><!-- Aegualis rev. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affinis</masterLabel>
+        <translation><!-- Affinis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical inverse</masterLabel>
+        <translation><!-- Anatomical inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bigliani inverse</masterLabel>
+        <translation><!-- Bigliani inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeltaExtended</masterLabel>
+        <translation><!-- DeltaExtended --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular</masterLabel>
+        <translation><!-- Modular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promos</masterLabel>
+        <translation><!-- Promos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TESS</masterLabel>
+        <translation><!-- TESS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

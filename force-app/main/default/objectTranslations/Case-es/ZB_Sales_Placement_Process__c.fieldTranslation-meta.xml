@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ZB Connect CapSol Sales Process --></label>
+    <name>ZB_Sales_Placement_Process__c</name>
+    <picklistValues>
+        <masterLabel>1. Prospect</masterLabel>
+        <translation><!-- 1. Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2. Discover</masterLabel>
+        <translation><!-- 2. Discover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3. Solve</masterLabel>
+        <translation><!-- 3. Solve --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4. Execute</masterLabel>
+        <translation><!-- 4. Execute --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

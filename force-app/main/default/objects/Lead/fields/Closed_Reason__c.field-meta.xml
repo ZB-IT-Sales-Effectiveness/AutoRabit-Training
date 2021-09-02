@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Closed Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad fit</fullName>
+                <default>false</default>
+                <label>Bad fit</label>
+            </value>
+            <value>
+                <fullName>Competitive takeover</fullName>
+                <default>false</default>
+                <label>Competitive takeover</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Performance</fullName>
+                <default>false</default>
+                <label>Product Performance</label>
+            </value>
+            <value>
+                <fullName>Marketing Issue</fullName>
+                <default>false</default>
+                <label>Marketing Issue</label>
+            </value>
+            <value>
+                <fullName>Inventory Stocked</fullName>
+                <default>false</default>
+                <label>Inventory Stocked</label>
+            </value>
+            <value>
+                <fullName>Error/Not Valid</fullName>
+                <default>false</default>
+                <label>Error/Not Valid</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>No Activity - 30 days</fullName>
+                <default>false</default>
+                <label>No Activity - 45 days</label>
+            </value>
+            <value>
+                <fullName>Bad timing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bad timing</label>
+            </value>
+            <value>
+                <fullName>Lost to competition</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lost to competition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

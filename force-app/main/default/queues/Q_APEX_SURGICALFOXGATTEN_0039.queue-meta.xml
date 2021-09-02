@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>APEX SURGICAL(FOX-GATTEN) (0039) QUEUE</name>
+    <queueMembers>
+        <users>
+            <user>agatten@zbapexsurgical.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>WSE__c</sobjectType>
+    </queueSobject>
+</Queue>

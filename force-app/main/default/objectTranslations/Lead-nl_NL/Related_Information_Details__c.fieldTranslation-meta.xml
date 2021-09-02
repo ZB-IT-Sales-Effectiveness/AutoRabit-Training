@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related Information Details --></label>
+    <name>Related_Information_Details__c</name>
+    <picklistValues>
+        <masterLabel>Atlanta, GA</masterLabel>
+        <translation><!-- Atlanta, GA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore, MD</masterLabel>
+        <translation><!-- Baltimore, MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beltway Church of Christ</masterLabel>
+        <translation><!-- Beltway Church of Christ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discovery Health</masterLabel>
+        <translation><!-- Discovery Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ennis, TX</masterLabel>
+        <translation><!-- Ennis, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fine Living</masterLabel>
+        <translation><!-- Fine Living --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Gospel Baptist Fellowship Conference</masterLabel>
+        <translation><!-- Full Gospel Baptist Fellowship Conference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hallmark</masterLabel>
+        <translation><!-- Hallmark --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hinesville, GA</masterLabel>
+        <translation><!-- Hinesville, GA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis, IN</masterLabel>
+        <translation><!-- Indianapolis, IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lafayette, IN</masterLabel>
+        <translation><!-- Lafayette, IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifetime</masterLabel>
+        <translation><!-- Lifetime --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifetime Movie Network</masterLabel>
+        <translation><!-- Lifetime Movie Network --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Memorial Baptist Church</masterLabel>
+        <translation><!-- Memorial Baptist Church --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mt. Summit, MI</masterLabel>
+        <translation><!-- Mt. Summit, MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Baptist Convention USA</masterLabel>
+        <translation><!-- National Baptist Convention USA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pryor, OK</masterLabel>
+        <translation><!-- Pryor, OK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raleigh, NC</masterLabel>
+        <translation><!-- Raleigh, NC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rockwell, TX</masterLabel>
+        <translation><!-- Rockwell, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Petersburg, FL</masterLabel>
+        <translation><!-- St. Petersburg, FL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TV Land</masterLabel>
+        <translation><!-- TV Land --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Towson, MD</masterLabel>
+        <translation><!-- Towson, MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Union City, TN</masterLabel>
+        <translation><!-- Union City, TN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WE</masterLabel>
+        <translation><!-- WE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Chester, OH</masterLabel>
+        <translation><!-- West Chester, OH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windham, NH</masterLabel>
+        <translation><!-- Windham, NH --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

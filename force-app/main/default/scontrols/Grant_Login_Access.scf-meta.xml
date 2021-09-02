@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scontrol xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contentSource>HTML</contentSource>
+    <description>This controller is used to simplify the process of granting login access for the users and administrators (Link: https://na6.salesforce.com/servlet/servlet.Integration?lid=01N80000000PS1f&amp;ic=1)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Grant Login Access</name>
+    <supportsCaching>true</supportsCaching>
+</Scontrol>

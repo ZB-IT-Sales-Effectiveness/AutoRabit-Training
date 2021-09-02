@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Insurance_Verification</fullName>
+    <active>true</active>
+    <description>This is the standard insurance verification used by the Reimbursement Hotline Team.</description>
+    <label>Standard Insurance Verification</label>
+    <picklistValues>
+        <picklist>ATC_Close_Reason__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appeal_Type1__c</picklist>
+        <values>
+            <fullName>Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prior Auth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appeal_Type2__c</picklist>
+        <values>
+            <fullName>Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prior Auth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Denial_Review_Denied_Reason__c</picklist>
+        <values>
+            <fullName>Non-coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-formulary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-preferred brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Documentation_Received__c</picklist>
+        <values>
+            <fullName>ATC Forms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letter of Denial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT Notes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Review_On_Hold__c</picklist>
+        <values>
+            <fullName>F %E2%80%93 ATC Forms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR %E2%80%93 Medical Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O %E2%80%93 Office Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P %E2%80%93 Patient Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V %E2%80%93 Vacation %2F Known Absence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Review_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Experimental%2FInvestigational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Not Medically Necessary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>First_Level_Appeal_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Experimental%2FInvestigational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Not Medically Necessary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Initial_Stage__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Joint_Involved__c</picklist>
+        <values>
+            <fullName>Ankle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metatarsal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Last_Follow_Up_in_Hours__c</picklist>
+        <values>
+            <fullName>14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Hold__c</picklist>
+        <values>
+            <fullName>F %E2%80%93 ATC Forms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR %E2%80%93 Medical Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O %E2%80%93 Office Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P %E2%80%93 Patient Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V %E2%80%93 Vacation %2F Known Absence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Determine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Peer_to_Peer_Review_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Benefits_for_Treatment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Coverage_Terminated__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Deductible_Met__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Out_of_Network_Deductible_Met__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Plan_Type__c</picklist>
+        <values>
+            <fullName>EPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fee-For-Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care Savings Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indemnity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare Advantage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Review_Approved__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Review_Denied__c</picklist>
+        <values>
+            <fullName>Benefit Coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Necessity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-formulary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-preferred brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Auth_Appeal_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Experimental%2FInvestigational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Not Medically Necessary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Auth_On_Hold__c</picklist>
+        <values>
+            <fullName>F %E2%80%93 ATC Forms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR %E2%80%93 Medical Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O %E2%80%93 Office Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P %E2%80%93 Patient Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V %E2%80%93 Vacation %2F Known Absence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Authorization_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Experimental%2FInvestigational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Not Medically Necessary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Authorization_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Procedures__c</picklist>
+        <values>
+            <fullName>ACI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chondroplasty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microfracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OAT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referral_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sec_SpecificSpecialty_Pharmacy_Requested__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Second_Level_Appeal_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Experimental%2FInvestigational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied - Not Medically Necessary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Benefits_for_Treatment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Coverage_Terminated__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Deductible_Met__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Out_of_Network_Deductible_Met__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Outcome__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Determine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Plan_Type__c</picklist>
+        <values>
+            <fullName>EPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fee-For-Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care Savings Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indemnity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare Advantage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare Supplement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Prior_Authorization_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Referral_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Review_Approved__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Review_Denied_Reason__c</picklist>
+        <values>
+            <fullName>Benefit Coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Necessity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-formulary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-preferred brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Specialty_Pharmacy__c</picklist>
+        <values>
+            <fullName>ACRO Pharmaceutical Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APS Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accredo Health Group%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aetna Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allion Healthcare%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambient HealthCare%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apex Therapeutic Care%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armada Health Care%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assured Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avia Partners%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axium Healthcare Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bioscrip%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Ridge Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CanAm Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caremark Rx%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caremark%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical Care Systems%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CuraScript%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Care Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplomat Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DrugMax%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F %26 M Specialty Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familymeds Group%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familymeds%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freedom Drug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galloway Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genoa Healthcare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guardian Pharmacy%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HomeCall Rx-Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICORE Healthcare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDI Pharmacy Services%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIM Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McKesson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicine Compounding Professionals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medmark%2C a Walgreens Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Diabetic Pharmacies%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Factor%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCARE PHARMACY%2C INC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PharmaCare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrecisionRx Specialty Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrescriptiCare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescription City%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescription Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Health Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QoL Meds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RegenceRx Walgreens Specialty Prescription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RuralRx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rx Stat%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schraft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy Networks%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy Services%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SunScript Pharmacy Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitality Pharmaceutical Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WHP Health Initiatives%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walgreen Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellmark Pharmacy Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>excelleRX%2C Inc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specialty_Pharmacy__c</picklist>
+        <values>
+            <fullName>ACRO Pharmaceutical Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APS Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accredo Health Group%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aetna Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allion Healthcare%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambient HealthCare%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apex Therapeutic Care%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armada Health Care%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assured Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avia Partners%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axium Healthcare Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bioscrip%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Ridge Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS%2FCaremark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CanAm Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caremark Rx%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caremark%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical Care Systems%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CuraScript%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Care Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplomat Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DrugMax%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F %26 M Specialty Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familymeds Group%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familymeds%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freedom Drug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galloway Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genoa Healthcare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guardian Pharmacy%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HomeCall Rx-Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICORE Healthcare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDI Pharmacy Services%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIM Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McKesson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicine Compounding Professionals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medmark%2C a Walgreens Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Diabetic Pharmacies%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Factor%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OptumRX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCARE PHARMACY%2C INC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PharmaCare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrecisionRx Specialty Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrescriptiCare%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescription City%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescription Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Health Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Pharmacy%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QoL Meds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RegenceRx Walgreens Specialty Prescription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RuralRx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rx Stat%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schraft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy Networks%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Pharmacy Services%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SunScript Pharmacy Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitality Pharmaceutical Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WHP Health Initiatives%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walgreen Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellmark Pharmacy Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>excelleRX%2C Inc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specific_Specialty_Pharmacy_Requested__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage_at_Close__c</picklist>
+        <values>
+            <fullName>Claim Appeal Level 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Appeal Level 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Appeal Level 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Appeal Level 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prior Authorization</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Who_Performed_Prior_Authorization1__c</picklist>
+        <values>
+            <fullName>MD Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Who_Performed_Prior_Authorization2__c</picklist>
+        <values>
+            <fullName>MD Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2nd_Level_Prior_Auth_On_Hold__c</picklist>
+        <values>
+            <fullName>F %E2%80%93 ATC Forms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR %E2%80%93 Medical Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O %E2%80%93 Office Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P %E2%80%93 Patient Nonresponse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V %E2%80%93 Vacation %2F Known Absence</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zimmer_Product__c</picklist>
+        <values>
+            <fullName>ChondroFix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeNovo NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gel-One</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subchondroplasty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- My doctor has told me that I am not old enough to do the surgery yet. --></help>
+    <label><!-- Question No. 8 --></label>
+    <name>Question_No_8__c</name>
+</CustomFieldTranslation>

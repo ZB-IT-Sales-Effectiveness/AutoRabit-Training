@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/3.png</assetIcon>
+    <description>This is to test data and layouts for the DDSS team</description>
+    <folder>DDSS_Test_Dashboard</folder>
+    <masterLabel>DN-DDSS</masterLabel>
+</WaveApplication>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Robot Product --></label>
+    <name>Robot_Product__c</name>
+    <picklistValues>
+        <masterLabel>CORI</masterLabel>
+        <translation><!-- CORI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAKO</masterLabel>
+        <translation><!-- MAKO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NAVIO</masterLabel>
+        <translation><!-- NAVIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Velys</masterLabel>
+        <translation><!-- Velys --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

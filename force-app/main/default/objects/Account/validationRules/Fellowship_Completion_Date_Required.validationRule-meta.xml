@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fellowship_Completion_Date_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>if(And(OwnerId == &apos;00580000003IVO9&apos;), false, And(RecordTypeId == &apos;012800000003YRh&apos;, OR(ISBLANK(Fellowship_Completion_Date__c ),Fellowship_Completion_Date__c &lt;= today())))</errorConditionFormula>
+    <errorDisplayField>of_Basic_Res_Publications__c</errorDisplayField>
+    <errorMessage>Please enter a valid future Fellowship Completion Date.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Submit Request for System&apos;s Access --></help>
+    <label><!-- Completion Date --></label>
+    <name>Completion_Date_Submit_Request__c</name>
+</CustomFieldTranslation>

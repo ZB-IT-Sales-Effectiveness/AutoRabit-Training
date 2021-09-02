@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Term_Date_Mandatory_making_contact_inact</fullName>
+    <active>true</active>
+    <description>When a contact is inactivated to make the term date field mandatory.</description>
+    <errorConditionFormula>AND( 
+RecordTypeId =&apos;012800000002DoB&apos;, 
+Inactive__c=TRUE, 
+ISBLANK( Term_Date__c ), 
+ISCHANGED(Inactive__c) 
+)</errorConditionFormula>
+    <errorMessage>Contact has been inactivated; Kindly enter term date</errorMessage>
+</ValidationRule>

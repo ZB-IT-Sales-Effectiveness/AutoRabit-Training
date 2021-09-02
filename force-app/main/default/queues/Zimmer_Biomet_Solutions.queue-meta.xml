@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Zimmer Biomet Solutions</name>
+    <queueMembers>
+        <users>
+            <user>jonpaul.bobo@zbsolutions.net</user>
+            <user>robert.ervin@zbsolutions.net</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

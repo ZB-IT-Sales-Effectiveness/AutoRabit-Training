@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_Validation</fullName>
+    <active>true</active>
+    <description>Address can&apos;t be blank if chosen as preferred address</description>
+    <errorConditionFormula>ISPICKVAL(Preferred_Mail_Address__c, &quot;OtherStreet&quot;) &amp;&amp;  ISNULL( OtherStreet ) || 
+ISPICKVAL(Preferred_Mail_Address__c, &quot;Mailing&quot;) &amp;&amp;  ISNULL( MailingStreet )</errorConditionFormula>
+    <errorMessage>Please enter valid preferred address</errorMessage>
+</ValidationRule>

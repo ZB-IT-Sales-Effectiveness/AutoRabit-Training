@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicator of this surgeon as a Zimmer customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if this surgeon is a Zimmer customer</inlineHelpText>
+    <label>Knee Customer ?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

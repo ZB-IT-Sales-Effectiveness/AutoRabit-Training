@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ORGANIZER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>DURATION</field>
+    </columns>
+    <columns>
+        <field>LOCATION</field>
+    </columns>
+    <columns>
+        <field>TYPE_ENUM</field>
+    </columns>
+    <columns>
+        <field>INVITEE_NAME</field>
+    </columns>
+    <columns>
+        <field>INVITEE_STATUS</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Campagne gerelateerde afspraken waarbij collega&apos;s zijn uitgenodigd</description>
+    <filter>
+        <criteriaItems>
+            <column>CREATED_BY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>breur,oomsen,van rij,schoenmakers,rutteman,timman,de bruijn,van nieuwkasteele,dirks</value>
+        </criteriaItems>
+        <language>nl_NL</language>
+    </filter>
+    <format>Tabular</format>
+    <name>NL campagne-events met collega&apos;s</name>
+    <params>
+        <name>me</name>
+        <value>team</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>EventAttendee</reportType>
+    <roleHierarchyFilter>Netherlands</roleHierarchyFilter>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>DUE_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-06-07</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBCHICAGO_SHALALA_0093_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-CHICAGO (SHALALA) (0093) QUEUE</label>
+    <queue>Q_ZBCHICAGO_SHALALA_0093</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

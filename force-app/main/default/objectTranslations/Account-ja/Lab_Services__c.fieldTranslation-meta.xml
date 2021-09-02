@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What service(s) does this lab perform? --></help>
+    <label><!-- Service(s) Performed --></label>
+    <name>Lab_Services__c</name>
+    <picklistValues>
+        <masterLabel>Crown &amp; Bridge</masterLabel>
+        <translation><!-- Crown &amp; Bridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Service</masterLabel>
+        <translation><!-- Full Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removable</masterLabel>
+        <translation><!-- Removable --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

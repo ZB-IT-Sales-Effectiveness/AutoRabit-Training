@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitive_Sales</fullName>
+    <active>true</active>
+    <label>Competitive Sales</label>
+    <picklistValues>
+        <picklist>Qtr_Timing__c</picklist>
+        <values>
+            <fullName>Q1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Competitive Sales Rep Conversion Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under-performing Reps</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

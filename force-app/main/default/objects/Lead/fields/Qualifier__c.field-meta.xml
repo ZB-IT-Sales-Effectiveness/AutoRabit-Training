@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifier__c</fullName>
+    <description>This field is leveraged to provide additional lead information acquired at the time of the initial contact.</description>
+    <externalId>false</externalId>
+    <label>Qualifier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>Email Info</fullName>
+                <default>false</default>
+                <label>Email Info</label>
+            </value>
+            <value>
+                <fullName>Follow up</fullName>
+                <default>false</default>
+                <label>Follow up</label>
+            </value>
+            <value>
+                <fullName>Have Rep Call</fullName>
+                <default>false</default>
+                <label>Have Rep Call</label>
+            </value>
+            <value>
+                <fullName>Hot Lead</fullName>
+                <default>false</default>
+                <label>Hot Lead</label>
+            </value>
+            <value>
+                <fullName>Mail Info</fullName>
+                <default>false</default>
+                <label>Mail Info</label>
+            </value>
+            <value>
+                <fullName>Medical Education</fullName>
+                <default>false</default>
+                <label>Medical Education</label>
+            </value>
+            <value>
+                <fullName>Model</fullName>
+                <default>false</default>
+                <label>Model</label>
+            </value>
+            <value>
+                <fullName>Surgical Technique</fullName>
+                <default>false</default>
+                <label>Surgical Technique</label>
+            </value>
+            <value>
+                <fullName>White Paper</fullName>
+                <default>false</default>
+                <label>White Paper</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

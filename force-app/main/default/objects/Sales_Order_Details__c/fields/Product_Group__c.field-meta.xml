@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Group__c</fullName>
+    <description>Based on Product Code also in Product and Sales History Detail</description>
+    <externalId>false</externalId>
+    <formula>CASE(Product_Code__c ,
+&quot;7272&quot;, &quot;Implants&quot;, &quot;7273&quot;, &quot;Implants&quot;, &quot;7274&quot;, &quot;Implants&quot;, &quot;7275&quot;, &quot;Implants&quot;, &quot;7276&quot;, &quot;Implants&quot;, &quot;7277&quot;, &quot;Implants&quot;, &quot;7278&quot;, &quot;Implants&quot;, &quot;7279&quot;, &quot;Implants&quot;, &quot;7280&quot;, &quot;Implants&quot;, &quot;7646&quot;, &quot;Implants&quot;, &quot;7954&quot;, &quot;Implants&quot;, &quot;7955&quot;, &quot;Implants&quot;, &quot;7956&quot;, &quot;Implants&quot;, &quot;7957&quot;, &quot;Implants&quot;, &quot;8265&quot;, &quot;Implants&quot;,
+
+&quot;7281&quot;, &quot;Prosthetic&quot;, &quot;7282&quot;, &quot;Prosthetic&quot;, &quot;7283&quot;, &quot;Prosthetic&quot;, &quot;7284&quot;, &quot;Prosthetic&quot;, &quot;7285&quot;, &quot;Prosthetic&quot;, &quot;7286&quot;, &quot;Prosthetic&quot;, &quot;7293&quot;, &quot;Prosthetic&quot;, &quot;7958&quot;, &quot;Prosthetic&quot;, &quot;7959&quot;, &quot;Prosthetic&quot;, &quot;7960&quot;, &quot;Prosthetic&quot;, &quot;7961&quot;, &quot;Prosthetic&quot;, &quot;7962&quot;, &quot;Prosthetic&quot;, &quot;7963&quot;, &quot;Prosthetic&quot;, &quot;7964&quot;, &quot;Prosthetic&quot;, &quot;7965&quot;, &quot;Prosthetic&quot;, &quot;7966&quot;, &quot;Prosthetic&quot;, &quot;7967&quot;, &quot;Prosthetic&quot;, &quot;7968&quot;, &quot;Prosthetic&quot;, &quot;7969&quot;, &quot;Prosthetic&quot;, &quot;7970&quot;, &quot;Prosthetic&quot;, &quot;7971&quot;, &quot;Prosthetic&quot;, &quot;7972&quot;, &quot;Prosthetic&quot;, &quot;7973&quot;, &quot;Prosthetic&quot;, &quot;7974&quot;, &quot;Prosthetic&quot;, &quot;7975&quot;, &quot;Prosthetic&quot;, &quot;7976&quot;, &quot;Prosthetic&quot;, &quot;7977&quot;, &quot;Prosthetic&quot;, &quot;7978&quot;, &quot;Prosthetic&quot;, &quot;7979&quot;, &quot;Prosthetic&quot;, &quot;7995&quot;, &quot;Prosthetic&quot;, &quot;7996&quot;, &quot;Prosthetic&quot;, &quot;7997&quot;, &quot;Prosthetic&quot;, &quot;8281&quot;, &quot;Prosthetic&quot;, &quot;8282&quot;, &quot;Prosthetic&quot;, &quot;8288&quot;, &quot;Prosthetic&quot;, &quot;8289&quot;, &quot;Prosthetic&quot;,&quot;8290&quot;, &quot;Prosthetic&quot;,
+
+&quot;7287&quot;, &quot;Surgical&quot;, &quot;7288&quot;, &quot;Surgical&quot;, &quot;7289&quot;, &quot;Surgical&quot;, &quot;7290&quot;, &quot;Surgical&quot;, &quot;7291&quot;, &quot;Surgical&quot;, &quot;7980&quot;, &quot;Surgical&quot;, &quot;7981&quot;, &quot;Surgical&quot;, &quot;7297&quot;, &quot;Surgical&quot;,&quot;7298&quot;, &quot;Surgical&quot;,&quot;8266&quot;, &quot;Surgical&quot;,&quot;8283&quot;, &quot;Surgical&quot;,
+
+&quot;7283&quot;, &quot;Regen&quot;, &quot;7294&quot;, &quot;Regen&quot;, &quot;7295&quot;, &quot;Regen&quot;, &quot;7296&quot;, &quot;Regen&quot;, &quot;7983&quot;, &quot;Regen&quot;, &quot;7984&quot;, &quot;Regen&quot;, &quot;7985&quot;, &quot;Regen&quot;, &quot;7986&quot;, &quot;Regen&quot;, &quot;7998&quot;, &quot;Regen&quot;, &quot;8284&quot;, &quot;Regen&quot;, &quot;8286&quot;, &quot;Regen&quot;, &quot;8287&quot;, &quot;Regen&quot;,
+
+&quot;QUOTA&quot;,&quot;_QUOTA&quot;,
+&quot;Not Classified&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Flag to indicate that this user can view all data in the RC Sales Dataset --></help>
+    <label><!-- Einstein All Access --></label>
+    <name>Einstein_All_Access__c</name>
+</CustomFieldTranslation>

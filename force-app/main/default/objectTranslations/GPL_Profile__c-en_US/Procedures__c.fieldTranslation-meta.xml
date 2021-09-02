@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Procedures --></label>
+    <name>Procedures__c</name>
+    <picklistValues>
+        <masterLabel>Anterior Hip Replacement</masterLabel>
+        <translation><!-- Anterior Hip Replacement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterior Supine</masterLabel>
+        <translation><!-- Anterior Supine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS</masterLabel>
+        <translation><!-- MIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobi-C Cervical Disc Replacement</masterLabel>
+        <translation><!-- Mobi-C Cervical Disc Replacement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Knee Replacement</masterLabel>
+        <translation><!-- Partial Knee Replacement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA ONE® Brain</masterLabel>
+        <translation><!-- ROSA ONE® Brain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Knee</masterLabel>
+        <translation><!-- ROSA® Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA® Spine</masterLabel>
+        <translation><!-- ROSA® Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subchondroplasty</masterLabel>
+        <translation><!-- Subchondroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility® Mobile App</masterLabel>
+        <translation><!-- mymobility® Mobile App --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

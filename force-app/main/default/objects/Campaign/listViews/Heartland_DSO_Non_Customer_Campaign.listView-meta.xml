@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Heartland_DSO_Non_Customer_Campaign</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>equals</operation>
+        <value>Heartland DSO Non-Customers</value>
+    </filters>
+    <label>Heartland DSO Non-Customer Campaign</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_Inside_Sales_Group</group>
+    </sharedTo>
+</ListView>

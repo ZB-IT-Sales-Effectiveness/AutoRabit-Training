@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Funktion</label>
+    <name>JobDescription__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation>Verwaltung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthetist</masterLabel>
+        <translation>Anästhesist / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation>Assistenzarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Manager</masterLabel>
+        <translation>ZSVA-Leiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Technician</masterLabel>
+        <translation>ZSVA-Mitarbeiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Manager</masterLabel>
+        <translation>Case Manager / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Chefarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation>Co. Chefarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation>Stellv. Chefarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP Lead</masterLabel>
+        <translation>Stellv. OP-Leiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation>Direktor / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation>Geschäftsführer / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Verwaltungsleiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Laboratory</masterLabel>
+        <translation>Laborleiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Pharmacy</masterLabel>
+        <translation>Apothekenleiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing</masterLabel>
+        <translation>Einkaufsleiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygienist</masterLabel>
+        <translation>Krankenhaushygieniker / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Leitender Oberarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation>Leitender Arzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Ärztlicher Direktor / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation>Pfleger / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Lead</masterLabel>
+        <translation>OP-Leiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Manager</masterLabel>
+        <translation>OP-Manager / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>OP-Pfleger / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstige</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation>Inhaber / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Apotheker / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapist</masterLabel>
+        <translation>Physiotherapeut / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Manager</masterLabel>
+        <translation>Projektleiter / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchaser</masterLabel>
+        <translation>Einkäufer / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QM Lead</masterLabel>
+        <translation>QM-Leitung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsible Implants/Instruments</masterLabel>
+        <translation><!-- Responsible Implants/Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Manager</masterLabel>
+        <translation>Sicherheitsbeauftragte / r</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation>Sekretär / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation>Oberassistenzarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Oberarzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation>Sprecher / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Study Nurse</masterLabel>
+        <translation>Studienassistent / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Arzt / in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician</masterLabel>
+        <translation>Techniker / in</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Ortho Mobile Task --></label>
+        <name>Ortho_Mobile_Task</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- AM-US-RC Access to Care Task --></label>
+        <name>AM_US_RC_Access_to_Care_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Accelero --></label>
+        <name>Accelero</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type to capture Outbound Consumer related Tasks --></description>
+        <label><!-- Outbound Consumer Task --></label>
+        <name>Consumer_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-CA-Task Record Type --></label>
+        <name>DN_CA_Task_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EMEA Task Record Type --></label>
+        <name>DN_EMEA_Task_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-US-Task Record Type --></label>
+        <name>DN_US_Task_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Task Record Type --></label>
+        <name>EU_Task_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GL-Academic Institutions Task --></label>
+        <name>GL_Academic_Institutions_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ICM Auto Task --></label>
+        <name>IcertisCLM__ICM_Auto_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inbound Consumer Task --></label>
+        <name>Inbound_Consumer_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Legal Notice task created on each new user --></description>
+        <label><!-- Legal Notice --></label>
+        <name>Legal_Notice</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MIS --></label>
+        <name>MIS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ortho Tasks --></label>
+        <name>Ortho_Tasks</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Pre and Post Sales Tasks against a ROSA Opportunity --></description>
+        <label><!-- ROSA Opportunity --></label>
+        <name>ROSA_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT Call Record --></label>
+        <name>RT_Call_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is to be used by the US Ortho team for calls --></description>
+        <label><!-- US Call --></label>
+        <name>US_Call</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is for the US Down Stream Marketing Group to Use --></description>
+        <label><!-- US DSM --></label>
+        <name>US_DSM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Email --></label>
+        <name>US_Email</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Internal Note --></label>
+        <name>US_Internal_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for all standard tasks created within Salesforce.com --></description>
+        <label><!-- Zimmer Standard Task --></label>
+        <name>Zimmer_Standard_Task</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Other Details must be filled out when &quot;Other&quot; is selected in &quot;How did you hear about us&quot; --></errorMessage>
+        <name>Other_Details_Must_be_Filled_out</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If &quot;Other&quot; is selected in the field &quot;Who is this for?&quot;, then a value must be entered in the &quot;Other&quot; field. --></errorMessage>
+        <name>Other_Must_be_Filled_Out</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Related Information must be filled out as &quot;Other&quot; is selected in Related Information --></errorMessage>
+        <name>Other_Related_Info_must_be_entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Source must be filled out as &quot;Other&quot; is selected in Source Details. --></errorMessage>
+        <name>Other_Source_must_be_entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Related Information Details must be filled out when &quot;Other&quot; is selected in Related Information --></errorMessage>
+        <name>Other_related_info_details_must_be_enter</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ACT_Task --></label>
+        <name>ACT_Task</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cptr_Visite --></label>
+        <name>Cptr_Visite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ICM_Quick_Create --></label>
+        <name>IcertisCLM__ICM_Quick_Create</name>
+    </webLinks>
+    <webLinks>
+        <label>ENREG VISITE</label>
+        <name>Log_A_Call</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Log_A_Call_New --></label>
+        <name>Log_A_Call_New</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Log_Account_Activity --></label>
+        <name>Log_Account_Activity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Log_aCall --></label>
+        <name>Log_aCall</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Task --></label>
+        <name>New_Task</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RT_Log_A_Call --></label>
+        <name>RT_Log_A_Call</name>
+    </webLinks>
+</CustomObjectTranslation>

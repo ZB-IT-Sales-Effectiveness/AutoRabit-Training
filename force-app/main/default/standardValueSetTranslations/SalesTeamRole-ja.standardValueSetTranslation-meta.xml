@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Biologic - Associate</masterLabel>
+        <translation><!-- Biologic - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bone Healing - Associate</masterLabel>
+        <translation><!-- Bone Healing - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CMF and Thoracic - Associate</masterLabel>
+        <translation><!-- CMF and Thoracic - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cement - Associate</masterLabel>
+        <translation><!-- Cement - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Service - Associate</masterLabel>
+        <translation><!-- Customer Service - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental - Assisting TSR</masterLabel>
+        <translation><!-- Dental - Assisting TSR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental - Corporate Sales</masterLabel>
+        <translation><!-- Dental - Corporate Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental - DDSS</masterLabel>
+        <translation><!-- Dental - DDSS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental - Inside Sales</masterLabel>
+        <translation><!-- Dental - Inside Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental - Regenerative Specialist</masterLabel>
+        <translation><!-- Dental - Regenerative Specialist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Digital Specialist</masterLabel>
+        <translation><!-- Dental Digital Specialist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Key Account Manager</masterLabel>
+        <translation><!-- Dental Key Account Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Marketing Manager</masterLabel>
+        <translation><!-- Dental Marketing Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dental Mitarbeiter</masterLabel>
+        <translation><!-- Dental Mitarbeiter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enterprise National Sales Director</masterLabel>
+        <translation><!-- Enterprise National Sales Director --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enterprise Regional Sales Director</masterLabel>
+        <translation><!-- Enterprise Regional Sales Director --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Extremities - Associate</masterLabel>
+        <translation><!-- Extremities - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Foot and Ankle - Associate</masterLabel>
+        <translation><!-- Foot and Ankle - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gel-One - Associate</masterLabel>
+        <translation><!-- Gel-One - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Market Access Account Specialist</masterLabel>
+        <translation><!-- Market Access Account Specialist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OBT - Associate</masterLabel>
+        <translation><!-- OBT - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opportunity Owner</masterLabel>
+        <translation><!-- Opportunity Owner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Specialist</masterLabel>
+        <translation><!-- Product Specialist --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recon - Associate</masterLabel>
+        <translation>OIDセールス</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robotics - Rep</masterLabel>
+        <translation><!-- Robotics - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SET - Associate</masterLabel>
+        <translation><!-- SET - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Manager with Accounts</masterLabel>
+        <translation><!-- Sales Manager with Accounts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Manager without Accounts</masterLabel>
+        <translation><!-- Sales Manager without Accounts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Rep</masterLabel>
+        <translation><!-- Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Solutions Consultant</masterLabel>
+        <translation><!-- Solutions Consultant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spine - Associate</masterLabel>
+        <translation><!-- Spine - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sports Medicine - Associate</masterLabel>
+        <translation><!-- Sports Medicine - Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgical - Rep</masterLabel>
+        <translation><!-- Surgical - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Team Leader</masterLabel>
+        <translation><!-- Team Leader --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trauma - Associate</masterLabel>
+        <translation>トラウマセールス</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>mymobility Rep</masterLabel>
+        <translation><!-- mymobility Rep --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

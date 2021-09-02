@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>ROSA-Boneafide</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>ROSA_Territories</parentTerritory>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Boneafide_Territory_Rule</ruleName>
+    </ruleAssociations>
+    <territory2Type>ROSA</territory2Type>
+</Territory2>

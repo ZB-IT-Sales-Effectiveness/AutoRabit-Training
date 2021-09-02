@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUPhoneValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(Country__c,&apos;AU&apos;),  OR( LEN(Phone__c) &lt;&gt;8,ISBLANK(Phone__c)))</errorConditionFormula>
+    <errorDisplayField>Phone__c</errorDisplayField>
+    <errorMessage>Please enter only the 8 digit phone number with no spaces or (brackets).</errorMessage>
+</ValidationRule>

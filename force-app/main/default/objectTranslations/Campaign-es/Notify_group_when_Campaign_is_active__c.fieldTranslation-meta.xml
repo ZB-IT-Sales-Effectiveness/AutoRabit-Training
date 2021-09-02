@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Notify group when Campaign is active --></label>
+    <name>Notify_group_when_Campaign_is_active__c</name>
+    <picklistValues>
+        <masterLabel>Call Center</masterLabel>
+        <translation><!-- Call Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

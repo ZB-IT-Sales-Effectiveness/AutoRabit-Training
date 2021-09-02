@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation>Anruf</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won - Call weekly for schedule</masterLabel>
+        <translation><!-- Closed Won - Call weekly for schedule --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won - Ensure Deal Desk, Price Desk load and activates in ERP</masterLabel>
+        <translation><!-- Closed Won - Ensure Deal Desk, Price Desk load and activates in ERP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won - Ensure inventory deployed for use</masterLabel>
+        <translation><!-- Closed Won - Ensure inventory deployed for use --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won - Request Corporate Leadership Visit</masterLabel>
+        <translation><!-- Closed Won - Request Corporate Leadership Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Call for follow up appointment</masterLabel>
+        <translation><!-- Consider - Call for follow up appointment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Conduct a Personal Visit - Rep</masterLabel>
+        <translation><!-- Consider - Conduct a Personal Visit - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Evaluate PROS pricing. Approve or reject pricing requests</masterLabel>
+        <translation><!-- Consider - Evaluate PROS pricing. Approve or reject pricing requests --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Initiate inventory set needs with local field office</masterLabel>
+        <translation><!-- Consider - Initiate inventory set needs with local field office --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Request business/trial</masterLabel>
+        <translation><!-- Consider - Request business/trial --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consider - Schedule a Medical Education event</masterLabel>
+        <translation><!-- Consider - Schedule a Medical Education event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Call for follow up appointment</masterLabel>
+        <translation><!-- Discover - Call for follow up appointment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Conduct Product Demo (samples)</masterLabel>
+        <translation><!-- Discover - Conduct Product Demo (samples) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Conduct a Personal Visit - Rep</masterLabel>
+        <translation><!-- Discover - Conduct a Personal Visit - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Conduct a Saw Bones Lab</masterLabel>
+        <translation><!-- Discover - Conduct a Saw Bones Lab --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Confirm the product is on contract or add</masterLabel>
+        <translation><!-- Discover - Confirm the product is on contract or add --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Drop off a Corporate Aid/leave behind/Thank You</masterLabel>
+        <translation><!-- Discover - Drop off a Corporate Aid/leave behind/Thank You --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Educate a surgeon via a sales aid (demos, tech guides)</masterLabel>
+        <translation><!-- Discover - Educate a surgeon via a sales aid (demos, tech guides) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Invite to meet at Industry Event</masterLabel>
+        <translation><!-- Discover - Invite to meet at Industry Event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Present a Journal/White Paper</masterLabel>
+        <translation><!-- Discover - Present a Journal/White Paper --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Solidify Implant/Instrument availability with AMD</masterLabel>
+        <translation><!-- Discover - Solidify Implant/Instrument availability with AMD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discover - Submit for Pricing review</masterLabel>
+        <translation><!-- Discover - Submit for Pricing review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation>E-Mail</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Call for follow up appointment</masterLabel>
+        <translation><!-- Evaluate - Call for follow up appointment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Conduct a Cadaveric Workshop (CPW)</masterLabel>
+        <translation><!-- Evaluate - Conduct a Cadaveric Workshop (CPW) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Conduct a Personal Visit - Rep</masterLabel>
+        <translation><!-- Evaluate - Conduct a Personal Visit - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Execute Personal Visit - Corporate</masterLabel>
+        <translation><!-- Evaluate - Execute Personal Visit - Corporate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Execute a Site Visit/Warsaw (ESP)</masterLabel>
+        <translation><!-- Evaluate - Execute a Site Visit/Warsaw (ESP) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Execute a Surgeon to Surgeon Visit (S2S)</masterLabel>
+        <translation><!-- Evaluate - Execute a Surgeon to Surgeon Visit (S2S) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Finalize inventory needs and Initiate request</masterLabel>
+        <translation><!-- Evaluate - Finalize inventory needs and Initiate request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Finalize remaining contract points and set timeline</masterLabel>
+        <translation><!-- Evaluate - Finalize remaining contract points and set timeline --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluate - Request Communication from Territory Leadership</masterLabel>
+        <translation><!-- Evaluate - Request Communication from Territory Leadership --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fax</masterLabel>
+        <translation>Fax</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalize Deal - Call for follow up appointment</masterLabel>
+        <translation><!-- Finalize Deal - Call for follow up appointment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalize Deal - Conduct a Personal Visit - Rep</masterLabel>
+        <translation><!-- Finalize Deal - Conduct a Personal Visit - Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalize Deal - Contract PPA, quote and submit, obtain customer signature</masterLabel>
+        <translation><!-- Finalize Deal - Contract PPA, quote and submit, obtain customer signature --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalize Deal - Execute Trial case</masterLabel>
+        <translation><!-- Finalize Deal - Execute Trial case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalize Deal - Negotiate and execute Shelf Stock/Consignment</masterLabel>
+        <translation><!-- Finalize Deal - Negotiate and execute Shelf Stock/Consignment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-person</masterLabel>
+        <translation><!-- In-person --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lead - Scrub AAOS (Meetings) and Data</masterLabel>
+        <translation><!-- Lead - Scrub AAOS (Meetings) and Data --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lead - Scrub Leads from Cross-Sells</masterLabel>
+        <translation><!-- Lead - Scrub Leads from Cross-Sells --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting</masterLabel>
+        <translation>Besprechung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Assess if Implants/Instruments are on limited roll-out</masterLabel>
+        <translation><!-- Qualify - Assess if Implants/Instruments are on limited roll-out --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Call office to work an appointment</masterLabel>
+        <translation><!-- Qualify - Call office to work an appointment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Drop off a Leave Behind (sell sheet)</masterLabel>
+        <translation><!-- Qualify - Drop off a Leave Behind (sell sheet) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Evaluate current contract details and pricing</masterLabel>
+        <translation><!-- Qualify - Evaluate current contract details and pricing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Network a connection</masterLabel>
+        <translation><!-- Qualify - Network a connection --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify - Qualify Surgeon usage/bio</masterLabel>
+        <translation><!-- Qualify - Qualify Surgeon usage/bio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Supply</masterLabel>
+        <translation>Ausliefern</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Virtual</masterLabel>
+        <translation><!-- Virtual --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

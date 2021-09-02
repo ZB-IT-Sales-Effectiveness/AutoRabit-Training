@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Weekly update for expired inventory --></help>
+    <label><!-- Expiration Management --></label>
+    <name>Expiration_Management__c</name>
+</CustomFieldTranslation>

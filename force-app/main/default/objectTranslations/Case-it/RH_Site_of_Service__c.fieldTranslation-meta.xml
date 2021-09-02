@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RH Site of Service --></label>
+    <name>RH_Site_of_Service__c</name>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgery Center</masterLabel>
+        <translation><!-- Ambulatory Surgery Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinic</masterLabel>
+        <translation><!-- Clinic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostic</masterLabel>
+        <translation><!-- Diagnostic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Inpatient</masterLabel>
+        <translation><!-- Hospital Inpatient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Outpatient</masterLabel>
+        <translation><!-- Hospital Outpatient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging Center</masterLabel>
+        <translation><!-- Imaging Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation><!-- Insurance Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation><!-- Laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient</masterLabel>
+        <translation><!-- Patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Office Practice</masterLabel>
+        <translation><!-- Physician Office Practice --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

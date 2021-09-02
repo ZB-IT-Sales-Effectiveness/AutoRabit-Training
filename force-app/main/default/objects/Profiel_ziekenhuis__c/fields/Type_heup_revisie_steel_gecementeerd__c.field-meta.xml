@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_revisie_steel_gecementeerd__c</fullName>
+    <description>Kies het type gecementeerde steel voor de revisie heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type gecementeerde steel voor de revisie heup.</inlineHelpText>
+    <label>Type heup revisie steel gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_revisie_steel_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPT</fullName>
+                <default>false</default>
+                <label>CPT</label>
+            </value>
+            <value>
+                <fullName>Kent hip</fullName>
+                <default>false</default>
+                <label>Kent hip</label>
+            </value>
+            <value>
+                <fullName>CS steel</fullName>
+                <default>false</default>
+                <label>CS steel</label>
+            </value>
+            <value>
+                <fullName>CSL steel</fullName>
+                <default>false</default>
+                <label>CSL steel</label>
+            </value>
+            <value>
+                <fullName>Exeter</fullName>
+                <default>false</default>
+                <label>Exeter</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Kent hip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>CS steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>CSL steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Exeter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

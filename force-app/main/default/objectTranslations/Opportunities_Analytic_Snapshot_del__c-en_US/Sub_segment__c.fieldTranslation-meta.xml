@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-segment --></label>
+    <name>Sub_segment__c</name>
+    <picklistValues>
+        <masterLabel>-</masterLabel>
+        <translation><!-- - --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BHP</masterLabel>
+        <translation><!-- BHP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Management</masterLabel>
+        <translation><!-- Blood Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement &amp; Accessories</masterLabel>
+        <translation><!-- Bone Cement &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Products</masterLabel>
+        <translation><!-- Cable Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cervical</masterLabel>
+        <translation><!-- Cervical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamic Stabilisation</masterLabel>
+        <translation><!-- Dynamic Stabilisation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Fixation</masterLabel>
+        <translation><!-- External Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IM Nails</masterLabel>
+        <translation><!-- IM Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthobiologics</masterLabel>
+        <translation><!-- Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Trauma</masterLabel>
+        <translation><!-- Other Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates &amp; Screws</masterLabel>
+        <translation><!-- Plates &amp; Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Tools &amp; Accessories</masterLabel>
+        <translation><!-- Power Tools &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-TKA</masterLabel>
+        <translation><!-- Pre-TKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Hip</masterLabel>
+        <translation><!-- Primary Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Knee</masterLabel>
+        <translation><!-- Primary Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Hip</masterLabel>
+        <translation><!-- Revision Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knee</masterLabel>
+        <translation><!-- Revision Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Graft Product</masterLabel>
+        <translation><!-- Skin Graft Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soft Goods, Braces &amp; Supports</masterLabel>
+        <translation><!-- Soft Goods, Braces &amp; Supports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THA</masterLabel>
+        <translation><!-- THA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracolumbar</masterLabel>
+        <translation><!-- Thoracolumbar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet Systems</masterLabel>
+        <translation><!-- Tourniquet Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction</masterLabel>
+        <translation><!-- Traction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma-Orthobiologics</masterLabel>
+        <translation><!-- Trauma-Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Debridement</masterLabel>
+        <translation><!-- Wound Debridement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>‐</masterLabel>
+        <translation><!-- ‐ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

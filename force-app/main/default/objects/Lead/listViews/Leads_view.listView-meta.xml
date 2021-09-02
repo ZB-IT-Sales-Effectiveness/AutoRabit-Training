@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_view</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>DN_Lead_Type__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>startsWith</operation>
+        <value>ZBDanduDigital,ZBDanduHome,ZBDanduPeriImplant,ZBDanduPrecisePrep</value>
+    </filters>
+    <label>ZBDandU Leads</label>
+</ListView>

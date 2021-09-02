@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Immediate</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Immediate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1-2 Hours</fullName>
+        <color>#FF9900</color>
+        <default>false</default>
+        <label>1-2 Hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3-8 Hours</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>3-8 Hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>8-12 Hours</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>8-12 Hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>12-24 Hours</fullName>
+        <color>#3333FF</color>
+        <default>false</default>
+        <label>12-24 Hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specific Date</fullName>
+        <color>#CC33CC</color>
+        <default>false</default>
+        <label>Specific Date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NONE</fullName>
+        <default>true</default>
+        <label>NONE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Normal</fullName>
+        <default>false</default>
+        <label>Normal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>false</default>
+        <label>Medium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Urgent</fullName>
+        <default>false</default>
+        <label>Urgent</label>
+    </standardValue>
+</StandardValueSet>

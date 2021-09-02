@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Solution_Annual_Review_Notification</fullName>
+        <ccEmails>crm@zimmer.com</ccEmails>
+        <description>Solution Annual Review Notification</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Annual_Solution_Review</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>SetstatusbacktoDraft</fullName>
+        <field>Status</field>
+        <literalValue>Draft</literalValue>
+        <name>Set status back to Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetstatustoApproved</fullName>
+        <field>Status</field>
+        <literalValue>Approved</literalValue>
+        <name>Set status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetstatustoInreview</fullName>
+        <field>Status</field>
+        <literalValue>In review</literalValue>
+        <name>Set status to In review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetstatustoRejected</fullName>
+        <field>Status</field>
+        <literalValue>Rejected</literalValue>
+        <name>Set status to Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Annual Review Notification</fullName>
+        <active>true</active>
+        <formula>DATEVALUE(LastModifiedDate) = TODAY()</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Solution_Annual_Review_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Solution.LastModifiedDate</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

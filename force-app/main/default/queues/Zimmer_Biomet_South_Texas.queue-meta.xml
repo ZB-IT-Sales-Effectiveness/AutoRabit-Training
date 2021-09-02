@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Zimmer Biomet South Texas</name>
+    <queueMembers>
+        <users>
+            <user>jmoye@zbsouthtexas.com</user>
+            <user>jessica.deyo@zimmerbiomet.com</user>
+            <user>mharper@zbsouthtexas.com</user>
+            <user>kspaniels9@aol.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

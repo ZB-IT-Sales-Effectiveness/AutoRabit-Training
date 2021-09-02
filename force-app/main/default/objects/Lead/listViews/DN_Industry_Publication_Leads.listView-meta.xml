@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Industry_Publication_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Product_of_Interest__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.DN_Industry_Publication_Lead</value>
+    </filters>
+    <label>DN-Industry Publication Leads</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_Buckeye_App_ISR</group>
+        <group>DN_USA_CB_Southern_ISR</group>
+        <group>DN_USA_Canada_ISR</group>
+        <group>DN_USA_Metro_NY_ISR</group>
+        <group>DN_USA_Mountain_MSD_ISR</group>
+        <group>DN_USA_NNE_SNE_ISR</group>
+        <group>DN_USA_North_TX_Garden_St_ISR</group>
+        <group>DN_USA_Pacific_NW_ISR</group>
+        <group>DN_USA_South_Bay_ISR</group>
+        <group>DN_USA_South_Florida_ISR</group>
+    </sharedTo>
+</ListView>

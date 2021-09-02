@@ -1,0 +1,107 @@
+.THIS{
+    margin: auto !important;
+}
+.THIS h1{
+    font-size: 18px;
+}
+.THIS label{
+    font-weight: bold;
+}
+.THIS p{
+    font-size: 12px;
+    color: #757575;
+}
+.THIS .text-ri{
+    text-align: right;
+}
+.THIS div.slds-hyphenate{
+    text-align: left;
+    font-size: 30px;
+}
+
+.THIS .slds-modal__container.modal__address {
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 78rem;
+    min-width: 30rem;
+    text-align: left;
+}
+
+
+.THIS .row {
+    margin: 1rem;
+}
+.THIS .row .col-12, .THIS .row .col-6, .THIS .row .col-4{
+    float: left;
+    height: auto;
+    padding: 5px;
+}
+
+.THIS .row .col-12{
+    width: 100%;
+}
+.THIS .row .col-6{
+    width: 50%;
+}
+.THIS .row .col-4{
+    width: 33.33%;
+}
+
+
+
+
+
+
+.THIS .body__master-data {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.THIS .body__profile-details {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 2rem;
+}
+.THIS .body__profile-locations {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.THIS .master-data__foto{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.THIS .body-data__foto{
+    width: 100%;
+    height: auto;
+    max-height: 11rem;
+}
+.THIS .body-btn__foto{
+    width: 100%;
+    text-align: center;
+}
+.THIS .master-data{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.THIS table {
+    margin-top: 5px;
+}
+.THIS table tr th{
+    height: 35px;
+    background-color: #efefef;
+    border: 1px solid #d4d4d4;
+}
+.THIS table tr td{
+    border: 1px solid #d4d4d4
+}
+.THIS table td, .THIS table th{
+    padding: 5px;
+}

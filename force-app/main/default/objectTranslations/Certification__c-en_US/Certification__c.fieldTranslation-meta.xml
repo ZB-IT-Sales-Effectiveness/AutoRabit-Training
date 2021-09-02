@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Certification --></label>
+    <name>Certification__c</name>
+    <picklistValues>
+        <masterLabel>ROSA Hip</masterLabel>
+        <translation><!-- ROSA Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Partial Knee</masterLabel>
+        <translation><!-- ROSA Partial Knee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

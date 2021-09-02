@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scan_Center_Accounts1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Modality__c</columns>
+    <columns>Team__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Scan_Center</value>
+    </filters>
+    <label>Scan Center Accounts</label>
+    <sharedTo>
+        <role>CRMAdministrator</role>
+        <role>Management_Personalized_Solutions</role>
+        <role>Personlized_Solutions_Agent</role>
+        <role>Personlized_Solutions_Manager</role>
+        <roleAndSubordinatesInternal>My_Mobility_Support_Manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T68 TEAM SEVE SANCHEZ (E9O)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T68 TEAM SEVE SANCHEZ (E9O)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>RXMEDICAL_ROUSE_0068</parentRole>
+</Role>

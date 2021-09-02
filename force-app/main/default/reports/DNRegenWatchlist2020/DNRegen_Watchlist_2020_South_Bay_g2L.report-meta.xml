@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US South Bay</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>385784,386054,453512,456549,425736,450472,223294,389196,456243,389087,454780,389016,457322,149802,251341,385548,385918,300695,389094,389029,152819,422304,133659,153389,385569,389184,385697,388919,366110,373467,385791,356340,454672,102585,389051,362211,427016,327074,388834,389061,389237,272977,255925,389235,239750,386086,389063,385156,385887,385956,451577,266159,361598,460227,446236,277049,165983,450867,116171,129950,121541,100512,135719,108479,113714,405187,388384,389198,385580,360338,108352,167056,422366,388971,361003,108334,385724,388835,450581,430896,385635,164484,341525</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>129095,388281,152480,438764,385158,112975,392539,385599,363425,172032,389021,125799,456865,143268,388703,385662,389088,126082,144617,389065,263086,388247,121532,113733,386037,385886,389189,389233,368922,388852,205257,389221,389231,149286,385693,164331,206715,360086,406033,389191,440594,216908,352550,386025,452379,134472,153761,276979,389224,327687,385752,356806,250543,100491,385952,386102,177501,150016,385921,385603,360630,385718,389253,100216,133059,113903,141361,171891,451920,121506,360819,446163,121529,391505,126100,389217,385545,385833,121501,290146,405905,386052,186323,255345,396714,356106,239896,385636,443351,236414,385732,385672,389064,371011,389154,386050,389060,426661,242169,389186,419134,385786,148720,388716,335910,116160,146258,248054,127550,240276,389028,354515,365871,443798,363758,177721,365001,385416,113728,171609,389489,385900,385533,116250,445883,388325,108471,385864,385547,424766,362134,406188,258977,135481,233870,121571,163017,444100,108335,359446</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 South Bay</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

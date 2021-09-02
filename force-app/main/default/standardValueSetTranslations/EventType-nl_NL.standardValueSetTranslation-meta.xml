@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Acquisition</masterLabel>
+        <translation>Face to Face</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation>Telefoneren</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case Booked</masterLabel>
+        <translation><!-- Case Booked --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complaint</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation>Correspondentie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Event</masterLabel>
+        <translation>Congres/Event (bijwonen)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Follow Up / care</masterLabel>
+        <translation>Projectbijeenkomst</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GOP</masterLabel>
+        <translation>Gratis Demomodel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Holiday</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitation</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Industry Meeting (AAOS,AAHKS)</masterLabel>
+        <translation><!-- Industry Meeting (AAOS,AAHKS) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Logistic</masterLabel>
+        <translation>patiëntenvoorlichting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Med Ed Course</masterLabel>
+        <translation><!-- Med Ed Course --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting</masterLabel>
+        <translation>Meeting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Missed Surgery</masterLabel>
+        <translation>Missed Surgery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Negotiations</masterLabel>
+        <translation>quick scan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP-registration</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP-support primary</masterLabel>
+        <translation>Begeleiding OK primair</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP-support revision</masterLabel>
+        <translation>Begeleiding OK revisie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Office</masterLabel>
+        <translation>Office/Administratie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private</masterLabel>
+        <translation>business meal / presentatie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Meeting Non-Office or Non-OR</masterLabel>
+        <translation><!-- Sales Meeting Non-Office or Non-OR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sick Leave</masterLabel>
+        <translation>afwezig</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Social</masterLabel>
+        <translation>--</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Training</masterLabel>
+        <translation>training / workshop (geven)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Workshop</masterLabel>
+        <translation>administratie</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Development_Team_Interest__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether a surgeon is interested in being part of our development team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if the  surgeon is interested in our Development team efforts</inlineHelpText>
+    <label>Development Team Interest?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

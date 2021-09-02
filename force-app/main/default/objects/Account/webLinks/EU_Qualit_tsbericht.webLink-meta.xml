@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_Qualit_tsbericht</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>EU-Qualitätsbericht</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>https://bi-jedox.zimmer.com/ui/lnk/?_=eJxNj70OwjAMhF8Fea4UiujSkYmxMGdJi0Ui2iZynFRV1XfHASEx%2Bb6zzj8bLDFCu0F2uCAVxY5HhBZmDxVMOKfe0A%2FZ%2B%2FEPIxtO8Uv7XoEJYRJKUSZVsPSl0zQinxREk5RayNIgZIuceQ1lGeMURsMoFnWGrVhaaXXH4ImjVleHZGiwq1a3y%2BlYnw8d%2BUd6scsSyZLmFVqmhJ8rJF7%2B2t%2F%2BiUdW&amp;user=Salesforce&amp;pass=Hp50gGtMLWiv1%2B3FB3MZkA%3D%3D
+&amp;var/SAP_number={!Account.AccountNumber}</url>
+</WebLink>

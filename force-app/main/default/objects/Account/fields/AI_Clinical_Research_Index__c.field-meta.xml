@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Clinical_Research_Index__c</fullName>
+    <externalId>false</externalId>
+    <formula>5*IF(of_Surgeons_Clinical_Research__c=0,0,IF(of_Surgeons_Clinical_Research__c&lt;=2,2,IF(of_Surgeons_Clinical_Research__c&lt;=4,4,IF(of_Surgeons_Clinical_Research__c&lt;=6,6,IF(of_Surgeons_Clinical_Research__c&lt;=8,8,10)))))+5*IF( of_Clinical_Publications__c=0,0,IF( of_Clinical_Publications__c&lt;=25,2,IF( of_Clinical_Publications__c&lt;=50,4,IF( of_Clinical_Publications__c&lt;=75,6,IF( of_Clinical_Publications__c&lt;=100,8,10)))))+2*IF(ISPICKVAL(Capabilities__c,&apos;GAIT&apos;),2,IF(ISPICKVAL(Capabilities__c,&apos;RSA&apos;),4,IF(ISPICKVAL(Capabilities__c,&apos;GAIT + RSA&apos;),6,0)))+2*IF(Staff_Writer__c,6,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AI Clinical Research Index</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

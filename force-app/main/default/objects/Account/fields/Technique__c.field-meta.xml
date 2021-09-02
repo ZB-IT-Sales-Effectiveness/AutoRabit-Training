@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technique__c</fullName>
+    <description>The techniques commonly used by this surgeon</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the surgery techniques commonly used by this surgeon (max 255 characters)</inlineHelpText>
+    <label>Technique</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>MIS II</fullName>
+                <default>false</default>
+                <label>MIS II</label>
+            </value>
+            <value>
+                <fullName>MIS Mini</fullName>
+                <default>false</default>
+                <label>MIS Mini</label>
+            </value>
+            <value>
+                <fullName>Quad Sparing</fullName>
+                <default>false</default>
+                <label>Quad Sparing</label>
+            </value>
+            <value>
+                <fullName>PSI</fullName>
+                <default>false</default>
+                <label>PSI</label>
+            </value>
+            <value>
+                <fullName>PSI Uni Knee</fullName>
+                <default>false</default>
+                <label>PSI Uni Knee</label>
+            </value>
+            <value>
+                <fullName>Anterior Supine Hip</fullName>
+                <default>false</default>
+                <label>Anterior Supine Hip</label>
+            </value>
+            <value>
+                <fullName>Smart Tools – Knee</fullName>
+                <default>false</default>
+                <label>Smart Tools – Knee</label>
+            </value>
+            <value>
+                <fullName>Smart Tools – Hip</fullName>
+                <default>false</default>
+                <label>Smart Tools – Hip</label>
+            </value>
+            <value>
+                <fullName>Mini Hip – Posteriolateral</fullName>
+                <default>false</default>
+                <label>Mini Hip – Posteriolateral</label>
+            </value>
+            <value>
+                <fullName>Mini Hip –Anteriorlateral</fullName>
+                <default>false</default>
+                <label>Mini Hip –Anteriorlateral</label>
+            </value>
+            <value>
+                <fullName>Subchondroplasty</fullName>
+                <default>false</default>
+                <label>Subchondroplasty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

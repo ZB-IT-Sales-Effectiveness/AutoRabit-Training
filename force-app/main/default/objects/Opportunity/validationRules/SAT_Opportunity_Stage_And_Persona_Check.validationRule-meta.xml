@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAT_Opportunity_Stage_And_Persona_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF((AND($RecordType.Name = &quot;ROSA Knee&quot;,Persona_fill_in__c == FALSE)),
+OR(NOT(ISBLANK( Trays_requested_Persona_fill_in__c)) ,NOT(ISBLANK(Estimated_Annual_Cases_Persona_fill_in__c)),NOT( ISBLANK( Average_of_Cases_Persona_fill_in__c ))),FALSE)</errorConditionFormula>
+    <errorMessage>Please select Persona Implant checkbox first.</errorMessage>
+</ValidationRule>

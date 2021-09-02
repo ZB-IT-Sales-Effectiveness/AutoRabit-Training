@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Procedure/Product Specialties --></label>
+    <name>Procedure_Product_Specialties__c</name>
+    <picklistValues>
+        <masterLabel>Adkins Strut</masterLabel>
+        <translation><!-- Adkins Strut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterior Spine</masterLabel>
+        <translation><!-- Anterior Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anterior Supine</masterLabel>
+        <translation><!-- Anterior Supine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer Assisted Solutions/Navigation</masterLabel>
+        <translation><!-- Computer Assisted Solutions/Navigation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuum</masterLabel>
+        <translation><!-- Continuum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuum Metal on Metal</masterLabel>
+        <translation><!-- Continuum Metal on Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denovo NT</masterLabel>
+        <translation><!-- Denovo NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore</masterLabel>
+        <translation><!-- Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel-One</masterLabel>
+        <translation><!-- Gel-One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Knee</masterLabel>
+        <translation><!-- Gender Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinectiv</masterLabel>
+        <translation><!-- Kinectiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Flex Mobile</masterLabel>
+        <translation><!-- LPS Flex Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minimally Invasive Solutions (MIS)</masterLabel>
+        <translation><!-- Minimally Invasive Solutions (MIS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthobiologics</masterLabel>
+        <translation><!-- Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Knee, Patello-Femoral Joint</masterLabel>
+        <translation><!-- Partial Knee, Patello-Femoral Joint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Knee, Unicompartmental Knee</masterLabel>
+        <translation><!-- Partial Knee, Unicompartmental Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific Instruments</masterLabel>
+        <translation><!-- Patient Specific Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pectus Bar</masterLabel>
+        <translation><!-- Pectus Bar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona</masterLabel>
+        <translation><!-- Persona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona Knee System</masterLabel>
+        <translation><!-- Persona Knee System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Hip</masterLabel>
+        <translation><!-- Revision Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knee</masterLabel>
+        <translation><!-- Revision Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RibFix Blu</masterLabel>
+        <translation><!-- RibFix Blu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SternaLock 360</masterLabel>
+        <translation><!-- SternaLock 360 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SternaLock Blu</masterLabel>
+        <translation><!-- SternaLock Blu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal</masterLabel>
+        <translation><!-- Trabecular Metal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal Total Ankle</masterLabel>
+        <translation><!-- Trabecular Metal Total Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vivacit-E</masterLabel>
+        <translation><!-- Vivacit-E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vivacit-E-Hip Construct</masterLabel>
+        <translation><!-- Vivacit-E-Hip Construct --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

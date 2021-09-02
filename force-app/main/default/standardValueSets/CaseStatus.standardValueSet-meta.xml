@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Request</fullName>
+        <default>false</default>
+        <label>New Request</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Response</fullName>
+        <default>false</default>
+        <label>Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Security/Privacy</fullName>
+        <default>false</default>
+        <label>Security/Privacy</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Unresponsive</fullName>
+        <default>false</default>
+        <label>Unresponsive</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Execution</fullName>
+        <default>false</default>
+        <label>Execution</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Testing</fullName>
+        <default>false</default>
+        <label>Testing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Connection Live</fullName>
+        <default>false</default>
+        <label>Connection Live</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Support</fullName>
+        <default>false</default>
+        <label>Technical Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade</fullName>
+        <default>false</default>
+        <label>Upgrade</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Adjusted</fullName>
+        <default>false</default>
+        <label>Closed Adjusted</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Agreed</fullName>
+        <default>false</default>
+        <label>Closed Agreed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Disputed</fullName>
+        <default>false</default>
+        <label>Closed Disputed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete</fullName>
+        <default>false</default>
+        <label>Complete</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Notify HCP</fullName>
+        <default>false</default>
+        <label>Notify HCP</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Out For Approval</fullName>
+        <default>false</default>
+        <label>Out For Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Revision Needed</fullName>
+        <default>false</default>
+        <label>Revision Needed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Under Review</fullName>
+        <default>false</default>
+        <label>Under Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <default>false</default>
+        <label>Working</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Information</fullName>
+        <default>false</default>
+        <label>Pending Information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Response</fullName>
+        <default>false</default>
+        <label>Customer Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Support Response</fullName>
+        <default>false</default>
+        <label>Support Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Vendor</fullName>
+        <default>false</default>
+        <label>Pending Vendor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Release</fullName>
+        <default>false</default>
+        <label>Pending Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reopened</fullName>
+        <default>false</default>
+        <label>Reopened</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Received</fullName>
+        <default>false</default>
+        <label>Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Executed Site Call</fullName>
+        <default>false</default>
+        <label>Executed Site Call</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>IT Connected</fullName>
+        <default>false</default>
+        <label>IT Connected</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Images Received</fullName>
+        <default>false</default>
+        <label>Images Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Images Approved</fullName>
+        <default>false</default>
+        <label>Images Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Parking Lane</fullName>
+        <default>false</default>
+        <label>Parking Lane</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

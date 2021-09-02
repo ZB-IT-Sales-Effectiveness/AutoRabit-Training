@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_knie_primair_gecementeerd__c</fullName>
+    <description>Dit is het budget van het ziekenhuis voor primaire knieën. Gecementeerd en ongecementeerd bij elkaar opgeteld.</description>
+    <externalId>false</externalId>
+    <formula>Aantal_knie_primair_gecementeerd__c  * Gemid_prijs_knie_primair_gecementeerd__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Budget knie primair gecementeerd</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

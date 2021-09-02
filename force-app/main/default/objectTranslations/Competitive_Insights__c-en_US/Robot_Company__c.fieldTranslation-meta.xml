@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Robot Company --></label>
+    <name>Robot_Company__c</name>
+    <picklistValues>
+        <masterLabel>Depuy</masterLabel>
+        <translation><!-- Depuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S&amp;N</masterLabel>
+        <translation><!-- S&amp;N --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

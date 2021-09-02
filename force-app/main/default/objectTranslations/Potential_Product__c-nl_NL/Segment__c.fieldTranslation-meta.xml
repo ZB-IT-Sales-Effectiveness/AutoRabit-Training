@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Segment --></label>
+    <name>Segment__c</name>
+    <picklistValues>
+        <masterLabel>Bone Cement</masterLabel>
+        <translation><!-- Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Substitutes</masterLabel>
+        <translation><!-- Bone Substitutes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMF &amp; Thoracic</masterLabel>
+        <translation><!-- CMF &amp; Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation>Extremiteiten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips</masterLabel>
+        <translation>Heupen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation>Knieën</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics</masterLabel>
+        <translation><!-- Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation>Spine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation>Surgical</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation>Trauma</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$Account</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$Subject</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$Description</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$Owner</field>
+    </columns>
+    <columns>
+        <field>Campaign.ContactCampaignMembers.ActivityRelations$Status</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>DKOU Leaderfassung</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign.ContactCampaignMembers.ActivityRelations$What</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>DKOU 2018 - Leaderfassung</value>
+        </criteriaItems>
+        <language>de</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DKOU Leaderfassung</name>
+    <params>
+        <name>scopeid</name>
+        <value>7013b000001MnIi</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity_with_Campaign_and_Contact__c</reportType>
+    <scope>one</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign.ContactCampaignMembers.ActivityRelations$CreatedDate</dateColumn>
+        <endDate>2018-10-29</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-10-17</startDate>
+    </timeFrameFilter>
+</Report>

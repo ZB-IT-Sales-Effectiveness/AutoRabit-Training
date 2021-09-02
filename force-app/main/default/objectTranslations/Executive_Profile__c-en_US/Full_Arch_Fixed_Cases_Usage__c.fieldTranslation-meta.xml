@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Full-Arch Fixed Cases Usage --></label>
+    <name>Full_Arch_Fixed_Cases_Usage__c</name>
+    <picklistValues>
+        <masterLabel>DIEM</masterLabel>
+        <translation><!-- DIEM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RevitaliZe</masterLabel>
+        <translation><!-- RevitaliZe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party</masterLabel>
+        <translation><!-- Third Party --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

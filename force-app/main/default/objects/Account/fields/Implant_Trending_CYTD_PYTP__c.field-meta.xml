@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implant_Trending_CYTD_PYTP__c</fullName>
+    <description>Surgical $ Trending  CYTD PYTP</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(FlagImplants_On__c=&quot;Y&quot;, Implants_PYTD__c &gt; 0,Implants_YTD__c &lt;&gt;0),      
+ ((Implants_YTD__c - Implants_PYTD__c ) / Implants_PYTD__c),
+
+IF(AND(FlagImplants_On__c=&quot;Y&quot;, Implants_PYTD__c &lt; 0,  Implants_YTD__c &lt;&gt;0) , 
+ ((Implants_YTD__c - Implants_PYTD__c ) / Implants_PYTD__c * -1),
+
+IF(AND(FlagImplants_On__c=&quot;Y&quot;, Implants_PYTD__c = 0,  Implants_YTD__c &lt;&gt;0) ,
+    ((Implants_YTD__c)/100),
+
+IF(AND(FlagImplants_On__c=&quot;Y&quot;, Implants_PYTD__c &gt; 0,Implants_YTD__c =0),      
+((Implants_YTD__c - Implants_PYTD__c ) / Implants_PYTD__c) ,
+
+
+IF(AND(FlagImplants_On__c=&quot;Y&quot;, Implants_PYTD__c &lt; 0,Implants_YTD__c =0),      
+0 ,
+
+
+0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Surgical % Change - YofY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

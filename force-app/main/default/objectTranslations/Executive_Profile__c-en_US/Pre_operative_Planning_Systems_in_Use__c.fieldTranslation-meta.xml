@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pre-operative Planning Systems in Use --></label>
+    <name>Pre_operative_Planning_Systems_in_Use__c</name>
+    <picklistValues>
+        <masterLabel>Anatomage</masterLabel>
+        <translation><!-- Anatomage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoDiagnostix</masterLabel>
+        <translation><!-- CoDiagnostix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Simplant</masterLabel>
+        <translation><!-- Simplant --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

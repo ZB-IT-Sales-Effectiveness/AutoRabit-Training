@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accessories</fullName>
+                <default>false</default>
+                <label>Accessories</label>
+            </value>
+            <value>
+                <fullName>AC Joint Reconstruction/Reduction</fullName>
+                <default>false</default>
+                <label>AC Joint Reconstruction/Reduction</label>
+            </value>
+            <value>
+                <fullName>Alloclassic SL</fullName>
+                <default>false</default>
+                <label>Alloclassic SL</label>
+            </value>
+            <value>
+                <fullName>ALPS</fullName>
+                <default>false</default>
+                <label>ALPS</label>
+            </value>
+            <value>
+                <fullName>Ankle</fullName>
+                <default>false</default>
+                <label>Ankle</label>
+            </value>
+            <value>
+                <fullName>Avenir Complete Stem</fullName>
+                <default>false</default>
+                <label>Avenir Complete Stem</label>
+            </value>
+            <value>
+                <fullName>Biologics</fullName>
+                <default>false</default>
+                <label>Biologics</label>
+            </value>
+            <value>
+                <fullName>Bipolar Head</fullName>
+                <default>false</default>
+                <label>Bipolar Head</label>
+            </value>
+            <value>
+                <fullName>Blood Management</fullName>
+                <default>false</default>
+                <label>Blood Management</label>
+            </value>
+            <value>
+                <fullName>Bone Cement &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Bone Stimulation</fullName>
+                <default>false</default>
+                <label>Bone Stimulation</label>
+            </value>
+            <value>
+                <fullName>C+TBA</fullName>
+                <default>false</default>
+                <label>C+TBA</label>
+            </value>
+            <value>
+                <fullName>Cable Products</fullName>
+                <default>false</default>
+                <label>Cable Products</label>
+            </value>
+            <value>
+                <fullName>Capital</fullName>
+                <default>false</default>
+                <label>Capital</label>
+            </value>
+            <value>
+                <fullName>Cervical</fullName>
+                <default>false</default>
+                <label>Cervical</label>
+            </value>
+            <value>
+                <fullName>Cervical Cages</fullName>
+                <default>false</default>
+                <label>Cervical Cages</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Dynamic Stabilisation</fullName>
+                <default>false</default>
+                <label>Dynamic Stabilisation</label>
+            </value>
+            <value>
+                <fullName>Early Intervention</fullName>
+                <default>false</default>
+                <label>Early Intervention</label>
+            </value>
+            <value>
+                <fullName>Early Intervention Knee</fullName>
+                <default>false</default>
+                <label>Early Intervention Knee</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>External Fixation</fullName>
+                <default>false</default>
+                <label>External Fixation</label>
+            </value>
+            <value>
+                <fullName>Extremities</fullName>
+                <default>false</default>
+                <label>Extremities</label>
+            </value>
+            <value>
+                <fullName>FastFrame</fullName>
+                <default>false</default>
+                <label>FastFrame</label>
+            </value>
+            <value>
+                <fullName>Fluid Waste Management</fullName>
+                <default>false</default>
+                <label>Fluid Waste Management</label>
+            </value>
+            <value>
+                <fullName>Fluid Waste Management - Capital</fullName>
+                <default>false</default>
+                <label>Fluid Waste Management - Capital</label>
+            </value>
+            <value>
+                <fullName>Fluid Waste Management - Consumables</fullName>
+                <default>false</default>
+                <label>Fluid Waste Management - Consumables</label>
+            </value>
+            <value>
+                <fullName>Foot and Ankle Biologics</fullName>
+                <default>false</default>
+                <label>Foot and Ankle Biologics</label>
+            </value>
+            <value>
+                <fullName>Forefoot</fullName>
+                <default>false</default>
+                <label>Forefoot</label>
+            </value>
+            <value>
+                <fullName>Gender Solutions PFJ</fullName>
+                <default>false</default>
+                <label>Gender Solutions PFJ</label>
+            </value>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Hip Systems</fullName>
+                <default>false</default>
+                <label>Hip Systems</label>
+            </value>
+            <value>
+                <fullName>Hospital Advantage</fullName>
+                <default>false</default>
+                <label>Hospital Advantage</label>
+            </value>
+            <value>
+                <fullName>iAssist</fullName>
+                <default>false</default>
+                <label>iAssist</label>
+            </value>
+            <value>
+                <fullName>IM Nails</fullName>
+                <default>false</default>
+                <label>IM Nails</label>
+            </value>
+            <value>
+                <fullName>Injectables</fullName>
+                <default>false</default>
+                <label>Injectables</label>
+            </value>
+            <value>
+                <fullName>JPN Others</fullName>
+                <default>false</default>
+                <label>JPN Others</label>
+            </value>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>Knees Creation</fullName>
+                <default>false</default>
+                <label>Knees Creation</label>
+            </value>
+            <value>
+                <fullName>Knee Systems</fullName>
+                <default>false</default>
+                <label>Knee Systems</label>
+            </value>
+            <value>
+                <fullName>Limb Salvage</fullName>
+                <default>false</default>
+                <label>Limb Salvage</label>
+            </value>
+            <value>
+                <fullName>Lumbal</fullName>
+                <default>false</default>
+                <label>Lumbal</label>
+            </value>
+            <value>
+                <fullName>MCS - Capital</fullName>
+                <default>false</default>
+                <label>MCS - Capital</label>
+            </value>
+            <value>
+                <fullName>MCS - Consumables</fullName>
+                <default>false</default>
+                <label>MCS - Consumables</label>
+            </value>
+            <value>
+                <fullName>Meniscus Systems</fullName>
+                <default>false</default>
+                <label>Meniscus Systems</label>
+            </value>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>Müller straight stem</fullName>
+                <default>false</default>
+                <label>Müller straight stem</label>
+            </value>
+            <value>
+                <fullName>mymobility</fullName>
+                <default>false</default>
+                <label>mymobility</label>
+            </value>
+            <value>
+                <fullName>Orthobiologics</fullName>
+                <default>false</default>
+                <label>Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>Other Trauma</fullName>
+                <default>false</default>
+                <label>Other Trauma</label>
+            </value>
+            <value>
+                <fullName>Outpatient Advantage</fullName>
+                <default>false</default>
+                <label>Outpatient Advantage</label>
+            </value>
+            <value>
+                <fullName>Partial Knee</fullName>
+                <default>false</default>
+                <label>Partial Knee</label>
+            </value>
+            <value>
+                <fullName>Perioperative Consulting</fullName>
+                <default>false</default>
+                <label>Perioperative Consulting</label>
+            </value>
+            <value>
+                <fullName>Personalized Solutions</fullName>
+                <default>false</default>
+                <label>Personalized Solutions</label>
+            </value>
+            <value>
+                <fullName>Persona Patella</fullName>
+                <default>false</default>
+                <label>Persona Patella</label>
+            </value>
+            <value>
+                <fullName>Plates &amp; Screws</fullName>
+                <default>false</default>
+                <label>Plates &amp; Screws</label>
+            </value>
+            <value>
+                <fullName>Power Tools &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Power Tools &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Power Tools and Consumables</fullName>
+                <default>false</default>
+                <label>Power Tools and Consumables</label>
+            </value>
+            <value>
+                <fullName>Practice Advantage</fullName>
+                <default>false</default>
+                <label>Practice Advantage</label>
+            </value>
+            <value>
+                <fullName>Primary Acetabular</fullName>
+                <default>false</default>
+                <label>Primary Acetabular</label>
+            </value>
+            <value>
+                <fullName>Primary Femoral</fullName>
+                <default>false</default>
+                <label>Primary Femoral</label>
+            </value>
+            <value>
+                <fullName>Primary Knee</fullName>
+                <default>false</default>
+                <label>Primary Knee</label>
+            </value>
+            <value>
+                <fullName>Proximal Biceps and Elbow</fullName>
+                <default>false</default>
+                <label>Proximal Biceps and Elbow</label>
+            </value>
+            <value>
+                <fullName>Pulse Lavage - Consumables</fullName>
+                <default>false</default>
+                <label>Pulse Lavage - Consumables</label>
+            </value>
+            <value>
+                <fullName>Reamers</fullName>
+                <default>false</default>
+                <label>Reamers</label>
+            </value>
+            <value>
+                <fullName>Rearfoot</fullName>
+                <default>false</default>
+                <label>Rearfoot</label>
+            </value>
+            <value>
+                <fullName>Revision Acetabular</fullName>
+                <default>false</default>
+                <label>Revision Acetabular</label>
+            </value>
+            <value>
+                <fullName>Revision Femoral</fullName>
+                <default>false</default>
+                <label>Revision Femoral</label>
+            </value>
+            <value>
+                <fullName>Revision Knee</fullName>
+                <default>false</default>
+                <label>Revision Knee</label>
+            </value>
+            <value>
+                <fullName>ROSA® Brain Capital</fullName>
+                <default>false</default>
+                <label>ROSA® Brain Capital</label>
+            </value>
+            <value>
+                <fullName>ROSA® Brain Consumable</fullName>
+                <default>false</default>
+                <label>ROSA® Brain Consumable</label>
+            </value>
+            <value>
+                <fullName>ROSA® Brain Service</fullName>
+                <default>false</default>
+                <label>ROSA® Brain Service</label>
+            </value>
+            <value>
+                <fullName>ROSA®  Brain Warranty</fullName>
+                <default>false</default>
+                <label>ROSA®  Brain Warranty</label>
+            </value>
+            <value>
+                <fullName>ROSA® Spine Capital</fullName>
+                <default>false</default>
+                <label>ROSA® Spine Capital</label>
+            </value>
+            <value>
+                <fullName>ROSA Brain - Service and Warranty</fullName>
+                <default>false</default>
+                <label>ROSA Brain - Service and Warranty</label>
+            </value>
+            <value>
+                <fullName>ROSA - Capital</fullName>
+                <default>false</default>
+                <label>ROSA - Capital</label>
+            </value>
+            <value>
+                <fullName>SAT</fullName>
+                <default>false</default>
+                <label>SAT</label>
+            </value>
+            <value>
+                <fullName>Service - Extended</fullName>
+                <default>false</default>
+                <label>Service - Extended</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Shoulder Systems</fullName>
+                <default>false</default>
+                <label>Shoulder Systems</label>
+            </value>
+            <value>
+                <fullName>Signature Solutions</fullName>
+                <default>false</default>
+                <label>Signature Solutions</label>
+            </value>
+            <value>
+                <fullName>Skin Graft Product</fullName>
+                <default>false</default>
+                <label>Skin Graft Product</label>
+            </value>
+            <value>
+                <fullName>Small Bone and Joint - Hand &amp; Wrist</fullName>
+                <default>false</default>
+                <label>Small Bone and Joint - Hand &amp; Wrist</label>
+            </value>
+            <value>
+                <fullName>Soft Goods, Braces &amp; Supports</fullName>
+                <default>false</default>
+                <label>Soft Goods, Braces &amp; Supports</label>
+            </value>
+            <value>
+                <fullName>Spine Biologics</fullName>
+                <default>false</default>
+                <label>Spine Biologics</label>
+            </value>
+            <value>
+                <fullName>Sports Med Biologics</fullName>
+                <default>false</default>
+                <label>Sports Med Biologics</label>
+            </value>
+            <value>
+                <fullName>Sports Medicine</fullName>
+                <default>false</default>
+                <label>Sports Medicine</label>
+            </value>
+            <value>
+                <fullName>SSC Pfanne</fullName>
+                <default>false</default>
+                <label>SSC Pfanne</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>Tourniquet - Capital</fullName>
+                <default>false</default>
+                <label>Tourniquet - Capital</label>
+            </value>
+            <value>
+                <fullName>Tourniquet - Consumables</fullName>
+                <default>false</default>
+                <label>Tourniquet - Consumables</label>
+            </value>
+            <value>
+                <fullName>Tourniquet Systems</fullName>
+                <default>false</default>
+                <label>Tourniquet Systems</label>
+            </value>
+            <value>
+                <fullName>Traction</fullName>
+                <default>false</default>
+                <label>Traction</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Trauma Biologics</fullName>
+                <default>false</default>
+                <label>Trauma Biologics</label>
+            </value>
+            <value>
+                <fullName>Trauma-Orthobiologics</fullName>
+                <default>false</default>
+                <label>Trauma-Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>TrueUp - Capital</fullName>
+                <default>false</default>
+                <label>TrueUp - Capital</label>
+            </value>
+            <value>
+                <fullName>VIDEO SYSTEMS - CAPITAL</fullName>
+                <default>false</default>
+                <label>VIDEO SYSTEMS - CAPITAL</label>
+            </value>
+            <value>
+                <fullName>Video Systems - Flat Repair</fullName>
+                <default>false</default>
+                <label>Video Systems - Flat Repair</label>
+            </value>
+            <value>
+                <fullName>Video Systems - Premium</fullName>
+                <default>false</default>
+                <label>Video Systems - Premium</label>
+            </value>
+            <value>
+                <fullName>Video Systems - Repair Replace</fullName>
+                <default>false</default>
+                <label>Video Systems - Repair Replace</label>
+            </value>
+            <value>
+                <fullName>Wagner SL RevisionStem</fullName>
+                <default>false</default>
+                <label>Wagner SL RevisionStem</label>
+            </value>
+            <value>
+                <fullName>Wound Debridement</fullName>
+                <default>false</default>
+                <label>Wound Debridement</label>
+            </value>
+            <value>
+                <fullName>Wrist</fullName>
+                <default>false</default>
+                <label>Wrist</label>
+            </value>
+            <value>
+                <fullName>Xentrax</fullName>
+                <default>false</default>
+                <label>Xentrax</label>
+            </value>
+            <value>
+                <fullName>X Power Tools Capital</fullName>
+                <default>false</default>
+                <label>X Power Tools Capital</label>
+            </value>
+            <value>
+                <fullName>X Power Tools Capital-Eval</fullName>
+                <default>false</default>
+                <label>X Power Tools Capital-Eval</label>
+            </value>
+            <value>
+                <fullName>ZEOS</fullName>
+                <default>false</default>
+                <label>ZEOS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <valueName>Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <valueName>Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMI</controllingFieldValue>
+            <controllingFieldValue>CAS</controllingFieldValue>
+            <valueName>Hip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMI</controllingFieldValue>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Cement</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Bone Cement &amp; Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>ROSA® Brain Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>ROSA® Brain Consumable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>ROSA® Brain Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>ROSA®  Brain Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>ROSA® Spine Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZB Connect</controllingFieldValue>
+            <valueName>SAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ROSA Brain</controllingFieldValue>
+            <valueName>ROSA Brain - Service and Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ROSA</controllingFieldValue>
+            <valueName>ROSA - Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>mymobility</controllingFieldValue>
+            <valueName>mymobility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental</controllingFieldValue>
+            <valueName>Dental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBT</controllingFieldValue>
+            <valueName>Bone Stimulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBT</controllingFieldValue>
+            <valueName>Injectables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <valueName>ALPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <valueName>Extremities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <valueName>Sports Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot &amp; Ankle</controllingFieldValue>
+            <valueName>Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Foot and Ankle Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Spine Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Sports Med Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Trauma Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Hospital Advantage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Outpatient Advantage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Perioperative Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Practice Advantage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Signature Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accelero</controllingFieldValue>
+            <valueName>Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS</controllingFieldValue>
+            <valueName>Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Ankle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Elbow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Personalized Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Wrist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Alloclassic SL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Avenir Complete Stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>JPN Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Müller straight stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Primary Acetabular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Primary Femoral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Revision Acetabular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Revision Femoral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>SSC Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Wagner SL RevisionStem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Xentrax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Early Intervention Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Gender Solutions PFJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>iAssist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Limb Salvage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Partial Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Persona Patella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Primary Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Revision Knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Blood Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Fluid Waste Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Fluid Waste Management - Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>MCS - Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>MCS - Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>MIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Power Tools &amp; Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Pulse Lavage - Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Service - Extended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Skin Graft Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Soft Goods, Braces &amp; Supports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tourniquet - Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tourniquet - Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Tourniquet Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Traction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>TrueUp - Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Wound Debridement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>X Power Tools Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>X Power Tools Capital-Eval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Cervical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Dynamic Stabilisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Lumbal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Thoracolumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>AC Joint Reconstruction/Reduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>C+TBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Hip Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Knees Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Knee Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Meniscus Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Orthobiologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Proximal Biceps and Elbow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Shoulder Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>Small Bone and Joint - Hand &amp; Wrist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cable Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>External Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>FastFrame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>IM Nails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Other Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Plates &amp; Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Reamers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Trauma-Orthobiologics</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

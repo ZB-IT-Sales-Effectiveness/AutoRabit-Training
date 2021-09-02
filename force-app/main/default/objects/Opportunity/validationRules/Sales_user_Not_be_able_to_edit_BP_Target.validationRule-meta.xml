@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_user_Not_be_able_to_edit_BP_Target</fullName>
+    <active>false</active>
+    <description>Sales user should not be able to edit the &apos;BP Target&apos; field only &apos;Brittany Malcolm&apos; user is able to edit</description>
+    <errorConditionFormula>AND(
+NOT($User.Id=&apos;005C000000A6s49&apos;),
+ISCHANGED(BP_Target__c),
+PRIORVALUE(BP_Target__c) == TRUE,
+BP_Target__c == FALSE,
+
+
+OR(
+RecordType.Id == &apos;012C0000000GaIO&apos;,
+RecordType.Id == &apos;012800000002ReS&apos;,
+RecordType.Id == &apos;012C0000000Ga1g&apos;,
+RecordType.Id == &apos;012C0000000Ga2F&apos;,
+RecordType.Id == &apos;0123b000000Qfs9&apos;,
+RecordType.Id == &apos;012C0000000GZza&apos;,
+RecordType.Id == &apos;012C0000000QEmM&apos;,
+RecordType.Id == &apos;012C0000000YQrE&apos;,
+RecordType.Id == &apos;0123b000000Qfrz&apos;
+
+)
+
+)</errorConditionFormula>
+    <errorMessage>Insufficient Privileges! You are not allowed to update the &apos;BP Target&apos; field.</errorMessage>
+</ValidationRule>

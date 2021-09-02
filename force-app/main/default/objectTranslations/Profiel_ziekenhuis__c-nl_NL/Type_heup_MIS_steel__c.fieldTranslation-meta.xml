@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type van de MIS heup steel. --></help>
+    <label><!-- Type heup MIS steel --></label>
+    <name>Type_heup_MIS_steel__c</name>
+    <picklistValues>
+        <masterLabel>Accolade</masterLabel>
+        <translation><!-- Accolade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anthology</masterLabel>
+        <translation><!-- Anthology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFP</masterLabel>
+        <translation><!-- CFP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finsbury</masterLabel>
+        <translation><!-- Finsbury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore</masterLabel>
+        <translation><!-- Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation><!-- Hybrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link korte steel</masterLabel>
+        <translation><!-- Link korte steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mayo</masterLabel>
+        <translation><!-- Mayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mia SL</masterLabel>
+        <translation><!-- Mia SL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onlay</masterLabel>
+        <translation><!-- Onlay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taperloc</masterLabel>
+        <translation><!-- Taperloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tri Lock bone preservation stem</masterLabel>
+        <translation><!-- Tri Lock bone preservation stem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

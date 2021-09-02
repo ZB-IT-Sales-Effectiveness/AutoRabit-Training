@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage at Close --></label>
+    <name>Stage_at_Close__c</name>
+    <picklistValues>
+        <masterLabel>Claim Appeal Level 1</masterLabel>
+        <translation><!-- Claim Appeal Level 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claim Appeal Level 2</masterLabel>
+        <translation><!-- Claim Appeal Level 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Review</masterLabel>
+        <translation><!-- External Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PA Appeal Level 1</masterLabel>
+        <translation><!-- PA Appeal Level 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PA Appeal Level 2</masterLabel>
+        <translation><!-- PA Appeal Level 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prior Authorization</masterLabel>
+        <translation><!-- Prior Authorization --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

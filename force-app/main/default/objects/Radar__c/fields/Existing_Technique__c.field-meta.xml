@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Technique__c</fullName>
+    <externalId>false</externalId>
+    <label>Existing Technique</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alif</fullName>
+                <default>false</default>
+                <label>Alif</label>
+            </value>
+            <value>
+                <fullName>All Lower Limb</fullName>
+                <default>false</default>
+                <label>All Lower Limb</label>
+            </value>
+            <value>
+                <fullName>All Upper Limb</fullName>
+                <default>false</default>
+                <label>All Upper Limb</label>
+            </value>
+            <value>
+                <fullName>Ankle</fullName>
+                <default>false</default>
+                <label>Ankle</label>
+            </value>
+            <value>
+                <fullName>Anterior Approach</fullName>
+                <default>false</default>
+                <label>Anterior Approach</label>
+            </value>
+            <value>
+                <fullName>Anterior Supine Approach</fullName>
+                <default>false</default>
+                <label>Anterior Supine Approach</label>
+            </value>
+            <value>
+                <fullName>Anterolateral Approach</fullName>
+                <default>false</default>
+                <label>Anterolateral Approach</label>
+            </value>
+            <value>
+                <fullName>Anterolateral-Supine (Al-S) Approach</fullName>
+                <default>false</default>
+                <label>Anterolateral-Supine (Al-S) Approach</label>
+            </value>
+            <value>
+                <fullName>Antero-Medial Approach</fullName>
+                <default>false</default>
+                <label>Antero-Medial Approach</label>
+            </value>
+            <value>
+                <fullName>Antero-Superior Approach</fullName>
+                <default>false</default>
+                <label>Antero-Superior Approach</label>
+            </value>
+            <value>
+                <fullName>Arm</fullName>
+                <default>false</default>
+                <label>Arm</label>
+            </value>
+            <value>
+                <fullName>Bearing Surfaces</fullName>
+                <default>false</default>
+                <label>Bearing Surfaces</label>
+            </value>
+            <value>
+                <fullName>Cmf</fullName>
+                <default>false</default>
+                <label>Cmf</label>
+            </value>
+            <value>
+                <fullName>Delto-Pectoral Approach</fullName>
+                <default>false</default>
+                <label>Delto-Pectoral Approach</label>
+            </value>
+            <value>
+                <fullName>Difficult Primaries Technique</fullName>
+                <default>false</default>
+                <label>Difficult Primaries Technique</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Femur</fullName>
+                <default>false</default>
+                <label>Femur</label>
+            </value>
+            <value>
+                <fullName>Femur Af</fullName>
+                <default>false</default>
+                <label>Femur Af</label>
+            </value>
+            <value>
+                <fullName>Femur Rf</fullName>
+                <default>false</default>
+                <label>Femur Rf</label>
+            </value>
+            <value>
+                <fullName>Fixation Technology</fullName>
+                <default>false</default>
+                <label>Fixation Technology</label>
+            </value>
+            <value>
+                <fullName>Foot</fullName>
+                <default>false</default>
+                <label>Foot</label>
+            </value>
+            <value>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+                <label>Fusion</label>
+            </value>
+            <value>
+                <fullName>Hand</fullName>
+                <default>false</default>
+                <label>Hand</label>
+            </value>
+            <value>
+                <fullName>Intelligent Instrumentation</fullName>
+                <default>false</default>
+                <label>Intelligent Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Knee Kinematic</fullName>
+                <default>false</default>
+                <label>Knee Kinematic</label>
+            </value>
+            <value>
+                <fullName>Lateral Approach</fullName>
+                <default>false</default>
+                <label>Lateral Approach</label>
+            </value>
+            <value>
+                <fullName>Lateral To Medial Triceps/Anconeal Flap</fullName>
+                <default>false</default>
+                <label>Lateral To Medial Triceps/Anconeal Flap</label>
+            </value>
+            <value>
+                <fullName>Lateral Transfibular Approach</fullName>
+                <default>false</default>
+                <label>Lateral Transfibular Approach</label>
+            </value>
+            <value>
+                <fullName>Medial To Lateral Triceps/Anconeal Flap</fullName>
+                <default>false</default>
+                <label>Medial To Lateral Triceps/Anconeal Flap</label>
+            </value>
+            <value>
+                <fullName>Mid Vastus</fullName>
+                <default>false</default>
+                <label>Mid Vastus</label>
+            </value>
+            <value>
+                <fullName>Mis</fullName>
+                <default>false</default>
+                <label>Mis</label>
+            </value>
+            <value>
+                <fullName>Navigation</fullName>
+                <default>false</default>
+                <label>Navigation</label>
+            </value>
+            <value>
+                <fullName>Olecranon Osteotomy</fullName>
+                <default>false</default>
+                <label>Olecranon Osteotomy</label>
+            </value>
+            <value>
+                <fullName>Osteotomies</fullName>
+                <default>false</default>
+                <label>Osteotomies</label>
+            </value>
+            <value>
+                <fullName>Periprosthetic</fullName>
+                <default>false</default>
+                <label>Periprosthetic</label>
+            </value>
+            <value>
+                <fullName>Plif</fullName>
+                <default>false</default>
+                <label>Plif</label>
+            </value>
+            <value>
+                <fullName>Posterior Approach</fullName>
+                <default>false</default>
+                <label>Posterior Approach</label>
+            </value>
+            <value>
+                <fullName>Qs</fullName>
+                <default>false</default>
+                <label>Qs</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Soft Tissue Balancing</fullName>
+                <default>false</default>
+                <label>Soft Tissue Balancing</label>
+            </value>
+            <value>
+                <fullName>Subvastus</fullName>
+                <default>false</default>
+                <label>Subvastus</label>
+            </value>
+            <value>
+                <fullName>Templating</fullName>
+                <default>false</default>
+                <label>Templating</label>
+            </value>
+            <value>
+                <fullName>Tibia</fullName>
+                <default>false</default>
+                <label>Tibia</label>
+            </value>
+            <value>
+                <fullName>Tlif</fullName>
+                <default>false</default>
+                <label>Tlif</label>
+            </value>
+            <value>
+                <fullName>Triceps Release</fullName>
+                <default>false</default>
+                <label>Triceps Release</label>
+            </value>
+            <value>
+                <fullName>Triceps Split And Reflection</fullName>
+                <default>false</default>
+                <label>Triceps Split And Reflection</label>
+            </value>
+            <value>
+                <fullName>Wrist</fullName>
+                <default>false</default>
+                <label>Wrist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

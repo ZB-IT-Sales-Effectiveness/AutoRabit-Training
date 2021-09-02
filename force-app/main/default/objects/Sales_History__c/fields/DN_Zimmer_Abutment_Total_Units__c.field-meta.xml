@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Zimmer_Abutment_Total_Units__c</fullName>
+    <description>Total Abutment units from related Sales History Detail records</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Includes TEHA and traditional healing collars</inlineHelpText>
+    <label>DN Zimmer Abutment Total Units</label>
+    <summarizedField>Sales_History_Details__c.Order_Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Sales_History_Details__c.Product_Code__c</field>
+        <operation>startsWith</operation>
+        <value>TEH, HC</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Sales_History_Details__c.Order_Number__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

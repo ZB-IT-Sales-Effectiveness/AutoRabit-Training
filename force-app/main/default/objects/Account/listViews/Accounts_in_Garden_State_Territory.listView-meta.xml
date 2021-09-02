@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_in_Garden_State_Territory</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Salesperson_ID__c</field>
+        <operation>contains</operation>
+        <value>1009,1013,1153,1100,1035,1014,1017</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Account</value>
+    </filters>
+    <label>Accounts in Garden State Territory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CP_SE_DDSS</group>
+        <group>DN_USA_Garden_State_Metro_NY_Regen</group>
+        <group>DN_USA_North_TX_Garden_St_ISR</group>
+    </sharedTo>
+</ListView>

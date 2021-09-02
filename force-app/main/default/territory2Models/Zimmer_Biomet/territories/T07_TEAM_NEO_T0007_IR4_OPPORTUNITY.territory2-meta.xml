@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>T07 TEAM NEO T0007 (IR4) OPPORTUNITY</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>T07_TEAM_NEO_T0007_IR4</parentTerritory>
+    <territory2Type>US_Ortho</territory2Type>
+</Territory2>

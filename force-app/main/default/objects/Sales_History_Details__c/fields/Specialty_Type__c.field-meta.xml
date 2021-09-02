@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialty_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Order_Number__r.Account__r.Speciality_Type__c,
+&quot;Centre mutualiste&quot;, &quot;Centre mutualiste&quot;,
+&quot;Denturist&quot;, &quot;Denturist&quot;,
+&quot;Dept of Defense&quot;, &quot;Dept of Defense&quot;,
+&quot;Dept of Justice&quot;, &quot;Dept of Justice&quot;,
+&quot;Endodontist&quot;, &quot;Endodontist&quot;,
+&quot;Etablissement de Santé privé&quot;, &quot;Etablissement de Santé privé&quot;,
+&quot;Etablissement de Santé public&quot;, &quot;Etablissement de Santé public&quot;,
+&quot;General Dentist&quot;, &quot;General Dentist&quot;,
+&quot;Hospital&quot;, &quot;Hospital&quot;,
+&quot;Implantologist&quot;, &quot;Implantologist&quot;,
+&quot;Institution&quot;, &quot;Institution&quot;,
+&quot;Lab&quot;, &quot;Lab&quot;,
+&quot;Medical Doctor&quot;, &quot;Medical Doctor&quot;,
+&quot;Multispecialty&quot;, &quot;Multispecialty&quot;,
+&quot;Oral Surgeon&quot;, &quot;Oral Surgeon&quot;,
+&quot;Orthodontist&quot;, &quot;Orthodontist&quot;,
+&quot;Other&quot;, &quot;Other&quot;,
+&quot;Pedodontist&quot;, &quot;Pedodontist&quot;,
+&quot;Periodontist&quot;, &quot;Periodontist&quot;,
+&quot;Pharmacy&quot;, &quot;Pharmacy&quot;,
+&quot;Prosthodontist&quot;, &quot;Prosthodontist&quot;,
+&quot;Restorative Dentist&quot;, &quot;Restorative Dentist&quot;,
+&quot;University&quot;, &quot;PharmacyUniversity&quot;,
+&quot;VA Account&quot;, &quot;VA Account&quot;,
+NULL)</formula>
+    <label>Specialty Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

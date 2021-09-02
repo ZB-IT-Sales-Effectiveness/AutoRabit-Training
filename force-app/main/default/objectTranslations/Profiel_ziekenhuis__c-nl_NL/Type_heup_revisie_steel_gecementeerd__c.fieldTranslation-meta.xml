@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type gecementeerde steel voor de revisie heup. --></help>
+    <label><!-- Type heup revisie steel gecementeerd --></label>
+    <name>Type_heup_revisie_steel_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>CPT</masterLabel>
+        <translation><!-- CPT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CS steel</masterLabel>
+        <translation><!-- CS steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSL steel</masterLabel>
+        <translation><!-- CSL steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exeter</masterLabel>
+        <translation><!-- Exeter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kent hip</masterLabel>
+        <translation><!-- Kent hip --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Term_Date_Changed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked when Term date changed on record</description>
+    <externalId>false</externalId>
+    <label>Term Date Changed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

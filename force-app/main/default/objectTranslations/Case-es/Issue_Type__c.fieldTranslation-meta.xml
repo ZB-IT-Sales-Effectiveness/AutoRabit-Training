@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Issue Type --></label>
+    <name>Issue_Type__c</name>
+    <picklistValues>
+        <masterLabel>Account Info category</masterLabel>
+        <translation><!-- Account Info category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical support</masterLabel>
+        <translation><!-- Clinical support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complaint category</masterLabel>
+        <translation><!-- Complaint category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demo Inquiry</masterLabel>
+        <translation><!-- Demo Inquiry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evaluation/Sample Product</masterLabel>
+        <translation><!-- Evaluation/Sample Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General/ Misc</masterLabel>
+        <translation><!-- General/ Misc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT Security</masterLabel>
+        <translation><!-- IT Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging/ Case Inquiry</masterLabel>
+        <translation><!-- Imaging/ Case Inquiry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation documentation/ paperwork</masterLabel>
+        <translation><!-- Installation documentation/ paperwork --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice category</masterLabel>
+        <translation><!-- Invoice category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Med Ed</masterLabel>
+        <translation><!-- Med Ed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Sales Activity</masterLabel>
+        <translation><!-- Non-Sales Activity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orders</masterLabel>
+        <translation><!-- Orders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROs Report</masterLabel>
+        <translation><!-- PROs Report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing category</masterLabel>
+        <translation><!-- Pricing category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Questions category</masterLabel>
+        <translation><!-- Product Questions category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quoting</masterLabel>
+        <translation><!-- Quoting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service</masterLabel>
+        <translation><!-- Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipping category</masterLabel>
+        <translation><!-- Shipping category --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Switchboard</masterLabel>
+        <translation><!-- Switchboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech Support/Engineering</masterLabel>
+        <translation><!-- Tech Support/Engineering --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

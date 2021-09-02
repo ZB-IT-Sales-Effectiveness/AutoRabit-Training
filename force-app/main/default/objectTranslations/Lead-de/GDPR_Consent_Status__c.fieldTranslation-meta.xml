@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- GDPR_Consent Status --></label>
+    <name>GDPR_Consent_Status__c</name>
+    <picklistValues>
+        <masterLabel>Compliant - Opt-in Confirmed</masterLabel>
+        <translation><!-- Compliant - Opt-in Confirmed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Consent Required</masterLabel>
+        <translation><!-- No Consent Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-compliant - Consent Not Obtained</masterLabel>
+        <translation><!-- Non-compliant - Consent Not Obtained --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Opt-in Confirmation</masterLabel>
+        <translation><!-- Pending Opt-in Confirmation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsubscribed - Opted Out</masterLabel>
+        <translation><!-- Unsubscribed - Opted Out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verbal Consent Given - Pending Opt-In Confirmation</masterLabel>
+        <translation><!-- Verbal Consent Given - Pending Opt-In Confirmation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

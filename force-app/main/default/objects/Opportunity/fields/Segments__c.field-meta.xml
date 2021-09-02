@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segments__c</fullName>
+    <externalId>false</externalId>
+    <label>Segments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hips</fullName>
+                <default>false</default>
+                <label>Hips</label>
+            </value>
+            <value>
+                <fullName>Knees</fullName>
+                <default>false</default>
+                <label>Knees</label>
+            </value>
+            <value>
+                <fullName>Bone Cement</fullName>
+                <default>false</default>
+                <label>Bone Cement</label>
+            </value>
+            <value>
+                <fullName>Shoulders</fullName>
+                <default>false</default>
+                <label>Shoulders</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Extremities</fullName>
+                <default>false</default>
+                <label>Extremities</label>
+            </value>
+            <value>
+                <fullName>Trauma/ORIF</fullName>
+                <default>false</default>
+                <label>Trauma/ORIF</label>
+            </value>
+            <value>
+                <fullName>Spine</fullName>
+                <default>false</default>
+                <label>Spine</label>
+            </value>
+            <value>
+                <fullName>Bio</fullName>
+                <default>false</default>
+                <label>Bio</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

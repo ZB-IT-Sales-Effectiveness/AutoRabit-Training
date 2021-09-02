@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_State_List_Validation</fullName>
+    <active>true</active>
+    <description>Validation for entering 2-digit valid Canada Province Code.</description>
+    <errorConditionFormula>AND(OR(
+And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),
+OR(MailingCountry = &quot;CA&quot;),
+OR(
+LEN(MailingCountry ) &lt; 2,
+NOT(
+CONTAINS(&quot;AB:BC:MB:NB:NL:NS:NT:NU:ON:PE:QC:SK:YT&quot;, MailingState)
+))),
+And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),
+OR(OtherCountry = &quot;CA&quot;),
+OR(
+LEN(OtherCountry ) &lt; 2,
+NOT(
+CONTAINS(&quot;AB:BC:MB:NB:NL:NS:NT:NU:ON:PE:QC:SK:YT&quot;, OtherState)
+)))),(RecordTypeId = &quot;012800000003ZTZ&quot;|| RecordTypeId = &apos;012800000002DoB&apos; || RecordTypeId = &apos;012800000002DoL&apos;))</errorConditionFormula>
+    <errorDisplayField>Abteilung_AT__c</errorDisplayField>
+    <errorMessage>You must provide a valid 2-digit Canada Province code.</errorMessage>
+</ValidationRule>

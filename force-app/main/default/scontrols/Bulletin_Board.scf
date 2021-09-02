@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<link href="/dCSS/Theme2/default/common.css" type="text/css" media="handheld,print,projection,screen,tty,tv" rel="stylesheet" > 
+<script src="/soap/ajax/10.0/connection.js" type="text/javascript"></script> 
+<script type="text/javascript" src="/js/functions.js"></script> 
+<script type="text/javascript" src="/js/session.js"></script> 
+<script src="/soap/ajax/15.0/apex.js" type="text/javascript"></script> 
+<script type="text/javascript" > 
+sforce.connection.sessionId ='{!$Api.Session_ID}'; 
+
+var refresh_prepare = 1 ; 
+
+function prepareForRefresh() 
+{ 
+
+	if( refresh_prepare > 0 ) 
+	{ 
+		// Turn refresh detection on so that if this 
+		// page gets quickly loaded, we know it's a refresh 
+		var today = new Date(); 
+		var now = today.getUTCSeconds(); 
+		document.cookie = 'SHTS=' + now + ';'; 
+		document.cookie = 'SHTSP=' + escape(window.location.href) + ';'; 
+		document.cookie = 'SHTSPs=' + sforce.connection.sessionId+ ';'; 
+	} 
+	else 
+	{ 
+		// Refresh detection has been disabled 
+		document.cookie = 'SHTS=;'; 
+		document.cookie = 'SHTSP=;'; 
+		document.cookie = 'SHTSPs=;'; 
+	} 
+} //end prepareForRefresh()
+
+
+
+function checkRefresh() 
+{ 
+	// Get the time now and convert to UTC seconds 
+	var today = new Date(); 
+	var now = today.getUTCSeconds(); 
+	var cookieTime ; 
+	var cookiestatus; 
+	var cookieName; 
+	// Get the cookie 
+	var cookie = document.cookie; 
+	var cookieArray = cookie.split('; '); 
+
+	// Parse the cookies: get the stored time 
+	for(var loop=0; loop < cookieArray.length; loop++) 
+	{ 
+		var nameValue = cookieArray[loop].split('='); 
+		// Get the cookie time stamp 
+		if( nameValue[0].toString() == 'SHTS' ) 
+		{ 
+			cookieTime = parseInt( nameValue[1] ); 
+		} 
+		// Get the cookie page 
+		else if( nameValue[0].toString() == 'SHTSP' ) 
+		{ 
+			cookieName = nameValue[1]; 
+		} 
+		else if( nameValue[0].toString() == 'SHTSPs' ) 
+		{ 
+			cookiestatus = nameValue[1]; 
+		} 
+
+	} 
+
+
+
+	if( cookieName && cookieTime && cookieName == escape(location.href)&& cookiestatus == sforce.connection.sessionId ) 
+	{ 
+		//Math.abs(now - cookieTime) > 5 
+		// Refresh detected 
+
+		// Insert code here representing what to do on 
+		// a refresh 
+
+		// If you would like to toggle so this refresh code 
+		// is executed on every OTHER refresh, then 
+		// uncomment the following line 
+		// refresh_prepare = 0; 
+	}	
+	else 
+	{ 
+		inits1() ; 
+		//popup('/apex/Bulletin_Board'); 
+	} 
+
+	// You may want to add code in an else here special 
+	// for fresh page loads 
+}// end checkRefresh() 
+
+function popup(url) 
+{ 
+
+	var strHref = window.parent.location.href; 
+
+	if (strHref.indexOf("home/home.jsp") > 0 && window.parent.document.referrer =='' ) 
+	{
+	 	var width =700; var height = 500; var left = (screen.width - width)/2; var top = (screen.height - height)/2; var params = 'width='+width+', height='+height; params += ', top='+top+', left='+left; params += ', directories=no'; params += ', location=no'; params += ', menubar=no'; params += ', resizable=no'; params += ', scrollbars=no'; params += ', status=no'; params += ', toolbar=no';
+	 	newwin=window.showModalDialog('/apex/Bulletin_Board','Message', 'dialogWidth:650px; dialogHeight:450px; center:yes;help:no;');
+		return true;
+	}
+}// end popup(url) 
+
+function inits1() 
+{ 
+	var allowBullet = false ; 
+	try 
+	{ 
+		var profilename = '{!$Profile.Name}'; 
+		//alert(profilename );
+
+		var RegionName ;
+		if( profilename.indexOf('EU') >= 0)
+		 {
+			RegionName  = 'EMEA';
+		 }
+		else if(profilename.indexOf('ANZ') >= 0 || profilename.indexOf('JPN') >= 0)
+		 {
+			RegionName   = 'APAC';
+		 }
+		else
+		 {
+			RegionName = 'Americas';
+		 }
+
+		//alert(RegionName);
+		var SearchString="Select LastModifiedDate, Bulletin_Board_Date__c FROM Discussion_Board__c where active__c = true and  region__c INCLUDES ('"+RegionName  +"'" + ") Limit 1"; 
+//alert(SearchString);
+		var queryResults = sforce.connection.query(SearchString); 
+		var queryRecords = queryResults.getArray('records'); 
+
+		var queryResults1 = sforce.connection.query("Select Bulletin_Board_Date__c FROM User where Id ='{!$User.Id}' "); 
+		var queryRecords1 = queryResults1.getArray('records');
+
+//alert(queryRecords.length); 
+
+
+		if (queryRecords.length==0 )
+		{ 
+			allowBullet = false; 
+		} 
+		else 
+		{ 
+			for (var i=0; i <queryRecords.length;i++) 
+			 { 
+					if ((queryRecords[i].LastModifiedDate>queryRecords1[i].Bulletin_Board_Date__c) || (queryRecords1[i].Bulletin_Board_Date__c =='') || (queryRecords1[i].Bulletin_Board_Date__c ==null)) 
+						{
+							allowBullet = true;
+						} 
+			 } 
+
+		} 
+
+	} 
+	catch(ex) 
+	{ 
+		alert(ex);
+		allowBullet = false;
+	} 
+
+
+	if((('{!$User.Bulletin_Board__c}' == 'false') && (allowBullet !=false))|| (allowBullet ==true)) 
+		{ 
+			popup('/apex/Bulletin_Board');
+		}	
+}//end inits1()
+
+
+checkRefresh(); 
+prepareForRefresh(); 
+//inits1() ;
+ 
+</script>

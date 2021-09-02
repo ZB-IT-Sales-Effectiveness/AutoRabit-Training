@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Invites_AVP__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Recurring invites (pipeline; hiring; LT call; 1:1s)</inlineHelpText>
+    <label>Recurring Invites</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

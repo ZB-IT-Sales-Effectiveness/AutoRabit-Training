@@ -1,0 +1,69 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="CarouselController">
+	<aura:attribute name="carouselName" type="string" default="CRSL - 00000"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="listOfAllImages" type="list"/> 
+    <lightning:carousel disableAutoRefresh="false" disableAutoScroll="false" scrollDuration="7">
+        <aura:iteration items="{!v.listOfAllImages}" var="obj">
+        <lightning:carouselImage class="cimg"
+            src = "{!obj.cloudx_cms__Image_URL__c}"
+            header = "{!obj.cloudx_cms__Title__c}"            
+            alternativeText = ""
+            href="{!obj.ImgLink__c}">
+        </lightning:carouselImage>
+        </aura:iteration>
+    </lightning:carousel>
+
+<!--
+    <lightning:carousel disableAutoRefresh="false" disableAutoScroll="false">
+        <lightning:carouselImage
+            src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Russ-Wright-002.jpg"
+            header = "First Card"
+            description = "Russ-Wright"
+            alternativeText = "First card accessible description."
+            href = "https://www.salesforce.com">
+        </lightning:carouselImage>
+        <lightning:carouselImage
+            src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Eric-Rubin.png"
+            header = "Second Card"
+            description = "Eric-Rubin"
+            alternativeText = "Second card accessible description."
+            href = "https://www.salesforce.com">
+        </lightning:carouselImage>
+        <lightning:carouselImage
+            src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Steve-Weck.png"
+            header = "Third Card"
+            description = "Third card description."
+            alternativeText = "Third card accessible description."
+            href = "https://www.salesforce.com">
+        </lightning:carouselImage>
+        <lightning:carouselImage
+    src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Robert-Berardi.png"
+    header = "4th Card"
+    description = "Third card description."
+    alternativeText = "Third card accessible description."
+    href = "https://www.salesforce.com">
+</lightning:carouselImage>
+<lightning:carouselImage
+    src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Matt-Nabors.jpg"
+    header = "5th Card"
+    description = "Third card description."
+    alternativeText = "Third card accessible description."
+    href = "https://www.salesforce.com">
+</lightning:carouselImage>
+<lightning:carouselImage
+    src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/David-Howard.jpg"
+    header = "6th Card"
+    description = "Third card description."
+    alternativeText = "Third card accessible description."
+    href = "https://www.salesforce.com">
+</lightning:carouselImage>
+<lightning:carouselImage
+    src = "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/image/Edmond-Davis.jpg"
+    header = "7th Card"
+    description = "Third card description."
+    alternativeText = "Third card accessible description."
+    href = "https://www.salesforce.com">
+</lightning:carouselImage>
+    </lightning:carousel>
+-->
+</aura:component>

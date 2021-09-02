@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source Details --></label>
+    <name>Source_Details__c</name>
+    <picklistValues>
+        <masterLabel>3700</masterLabel>
+        <translation><!-- 3700 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3750</masterLabel>
+        <translation><!-- 3750 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3751</masterLabel>
+        <translation><!-- 3751 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3752</masterLabel>
+        <translation><!-- 3752 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3753</masterLabel>
+        <translation><!-- 3753 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3754</masterLabel>
+        <translation><!-- 3754 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3755</masterLabel>
+        <translation><!-- 3755 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3756</masterLabel>
+        <translation><!-- 3756 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3757</masterLabel>
+        <translation><!-- 3757 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3760</masterLabel>
+        <translation><!-- 3760 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3762</masterLabel>
+        <translation><!-- 3762 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3765</masterLabel>
+        <translation><!-- 3765 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3766</masterLabel>
+        <translation><!-- 3766 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3767</masterLabel>
+        <translation><!-- 3767 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3768</masterLabel>
+        <translation><!-- 3768 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3769</masterLabel>
+        <translation><!-- 3769 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3770</masterLabel>
+        <translation><!-- 3770 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3771</masterLabel>
+        <translation><!-- 3771 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3772</masterLabel>
+        <translation><!-- 3772 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3773</masterLabel>
+        <translation><!-- 3773 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3774</masterLabel>
+        <translation><!-- 3774 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3790</masterLabel>
+        <translation><!-- 3790 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3791</masterLabel>
+        <translation><!-- 3791 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3794</masterLabel>
+        <translation><!-- 3794 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3795</masterLabel>
+        <translation><!-- 3795 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In The Groove</masterLabel>
+        <translation><!-- Back In The Groove --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biggs &amp; Gilmore</masterLabel>
+        <translation><!-- Biggs &amp; Gilmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contact Us</masterLabel>
+        <translation><!-- Contact Us --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contact Us Health Care Professionals</masterLabel>
+        <translation><!-- Contact Us Health Care Professionals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Knee</masterLabel>
+        <translation><!-- Gender Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Pain</masterLabel>
+        <translation><!-- Hip Pain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Pain</masterLabel>
+        <translation><!-- Knee Pain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MLC</masterLabel>
+        <translation><!-- MLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other-N/A</masterLabel>
+        <translation><!-- Other-N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFJ</masterLabel>
+        <translation><!-- PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI</masterLabel>
+        <translation><!-- PSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Educaiton Materials</masterLabel>
+        <translation><!-- Patient Educaiton Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Ads</masterLabel>
+        <translation><!-- Search Ads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uni</masterLabel>
+        <translation><!-- Uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WebMD</masterLabel>
+        <translation><!-- WebMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Internet</masterLabel>
+        <translation><!-- Zimmer Internet --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

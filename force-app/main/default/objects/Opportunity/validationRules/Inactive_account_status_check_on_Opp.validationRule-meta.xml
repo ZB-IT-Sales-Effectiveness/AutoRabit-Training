@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive_account_status_check_on_Opp</fullName>
+    <active>true</active>
+    <description>Alert user when creating an opportunity on an Inactive customer.</description>
+    <errorConditionFormula>IF(
+AND (OR(RecordType.Name = &apos;US Surgical&apos;, RecordType.Name = &apos;ROSA&apos;, RecordType.Name = &apos;MyMobility&apos;),
+IsNew(),(TEXT(Account.Status__c) = &apos;I&apos;)
+),TRUE,
+FALSE
+)</errorConditionFormula>
+    <errorMessage>You are creating an opportunity for an INACTIVE customer. Please select an ‘Active’ Account to create this opportunity.</errorMessage>
+</ValidationRule>

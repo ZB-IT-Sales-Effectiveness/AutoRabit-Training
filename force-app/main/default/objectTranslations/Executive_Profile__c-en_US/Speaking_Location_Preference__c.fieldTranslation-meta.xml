@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Speaking Location Preference --></label>
+    <name>Speaking_Location_Preference__c</name>
+    <picklistValues>
+        <masterLabel>Internationally</masterLabel>
+        <translation><!-- Internationally --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nationally</masterLabel>
+        <translation><!-- Nationally --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regionally</masterLabel>
+        <translation><!-- Regionally --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlimited</masterLabel>
+        <translation><!-- Unlimited --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

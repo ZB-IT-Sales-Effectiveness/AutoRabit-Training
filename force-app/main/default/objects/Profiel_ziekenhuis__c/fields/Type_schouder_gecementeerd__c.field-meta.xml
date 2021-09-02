@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_schouder_gecementeerd__c</fullName>
+    <description>Kies het type voor de gecementeerde schouder, primair en revisie.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type voor de gecementeerde schouder, primair en revisie.</inlineHelpText>
+    <label>Type schouder gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_schouder_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anatomical</fullName>
+                <default>false</default>
+                <label>Anatomical</label>
+            </value>
+            <value>
+                <fullName>Bigliani</fullName>
+                <default>false</default>
+                <label>Bigliani</label>
+            </value>
+            <value>
+                <fullName>Universe Eclipse</fullName>
+                <default>false</default>
+                <label>Universe Eclipse</label>
+            </value>
+            <value>
+                <fullName>Nottinghem</fullName>
+                <default>false</default>
+                <label>Nottinghem</label>
+            </value>
+            <value>
+                <fullName>TESS/Bio modular</fullName>
+                <default>false</default>
+                <label>TESS/Bio modular</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>SMR/ shoulder</fullName>
+                <default>false</default>
+                <label>SMR/ shoulder</label>
+            </value>
+            <value>
+                <fullName>Affinis</fullName>
+                <default>false</default>
+                <label>Affinis</label>
+            </value>
+            <value>
+                <fullName>Cofield</fullName>
+                <default>false</default>
+                <label>Cofield</label>
+            </value>
+            <value>
+                <fullName>Neer II</fullName>
+                <default>false</default>
+                <label>Neer II</label>
+            </value>
+            <value>
+                <fullName>Neer III</fullName>
+                <default>false</default>
+                <label>Neer III</label>
+            </value>
+            <value>
+                <fullName>EPOCA</fullName>
+                <default>false</default>
+                <label>EPOCA</label>
+            </value>
+            <value>
+                <fullName>Aequalis</fullName>
+                <default>false</default>
+                <label>Aequalis</label>
+            </value>
+            <value>
+                <fullName>Olympia</fullName>
+                <default>false</default>
+                <label>Olympia</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Anatomical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Bigliani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arthex</controllingFieldValue>
+            <valueName>Universe Eclipse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Nottinghem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>TESS/Bio modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lima</controllingFieldValue>
+            <valueName>SMR/ shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Affinis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Aequalis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Cofield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Neer II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Neer III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Synthes</controllingFieldValue>
+            <valueName>EPOCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Olympia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

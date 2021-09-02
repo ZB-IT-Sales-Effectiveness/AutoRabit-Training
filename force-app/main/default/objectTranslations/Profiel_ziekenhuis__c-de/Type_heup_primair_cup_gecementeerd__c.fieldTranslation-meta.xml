@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type gecementeerde cup voor de primaire heup. --></help>
+    <label><!-- Type heup primair cup gecementeerd --></label>
+    <name>Type_heup_primair_cup_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>CCM</masterLabel>
+        <translation><!-- CCM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CS steel</masterLabel>
+        <translation><!-- CS steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSL steel</masterLabel>
+        <translation><!-- CSL steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EndoCare cup</masterLabel>
+        <translation><!-- EndoCare cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exceter</masterLabel>
+        <translation><!-- Exceter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>J&amp;J cup</masterLabel>
+        <translation><!-- J&amp;J cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link cup</masterLabel>
+        <translation><!-- Link cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC Minn Pedestal</masterLabel>
+        <translation><!-- MC Minn Pedestal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mueller ring</masterLabel>
+        <translation><!-- Mueller ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Müller</masterLabel>
+        <translation><!-- Müller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opera</masterLabel>
+        <translation><!-- Opera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reflection</masterLabel>
+        <translation><!-- Reflection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHP</masterLabel>
+        <translation><!-- SHP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spectron</masterLabel>
+        <translation><!-- Spectron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZCA</masterLabel>
+        <translation><!-- ZCA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

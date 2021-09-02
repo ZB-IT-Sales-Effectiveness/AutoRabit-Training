@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fellowship Focus --></label>
+    <name>Fellowship_Focus__c</name>
+    <picklistValues>
+        <masterLabel>Adult Recon</masterLabel>
+        <translation><!-- Adult Recon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand</masterLabel>
+        <translation><!-- Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lower Extremity</masterLabel>
+        <translation><!-- Lower Extremity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Oncology</masterLabel>
+        <translation><!-- Orthopaedic Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatrics</masterLabel>
+        <translation><!-- Pediatrics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tumor</masterLabel>
+        <translation><!-- Tumor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Extremity</masterLabel>
+        <translation><!-- Upper Extremity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

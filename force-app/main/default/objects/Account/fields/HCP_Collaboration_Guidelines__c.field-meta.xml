@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HCP_Collaboration_Guidelines__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If the Check Box is Checked Presents a free Text memo area with Validation That Something is entered</description>
+    <externalId>false</externalId>
+    <label>HCP Collaboration Guidelines</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

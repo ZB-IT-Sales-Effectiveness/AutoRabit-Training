@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimally_Invasive_Sinus_Floor_Elevation__c</fullName>
+    <externalId>false</externalId>
+    <label>Minimally Invasive Sinus Floor Elevation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lateral Approach</fullName>
+                <default>false</default>
+                <label>Lateral Approach</label>
+            </value>
+            <value>
+                <fullName>Crestal Approach</fullName>
+                <default>false</default>
+                <label>Crestal Approach</label>
+            </value>
+            <value>
+                <fullName>Lateral &amp; Crestal Approach</fullName>
+                <default>false</default>
+                <label>Lateral &amp; Crestal Approach</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

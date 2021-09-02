@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Expertise --></label>
+    <name>Expertise__c</name>
+    <picklistValues>
+        <masterLabel>Anterior Supine</masterLabel>
+        <translation><!-- Anterior Supine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAS Hip</masterLabel>
+        <translation><!-- CAS Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeNovo NT</masterLabel>
+        <translation><!-- DeNovo NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore</masterLabel>
+        <translation><!-- Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hyaluronic Acid</masterLabel>
+        <translation><!-- Hyaluronic Acid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinectiv</masterLabel>
+        <translation><!-- Kinectiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Flex Mobile</masterLabel>
+        <translation><!-- LPS Flex Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NK ll Gender Flex</masterLabel>
+        <translation><!-- NK ll Gender Flex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFJ/ZUK</masterLabel>
+        <translation><!-- PFJ/ZUK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific</masterLabel>
+        <translation><!-- Patient Specific --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Hip</masterLabel>
+        <translation><!-- Revision Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knee</masterLabel>
+        <translation><!-- Revision Knee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

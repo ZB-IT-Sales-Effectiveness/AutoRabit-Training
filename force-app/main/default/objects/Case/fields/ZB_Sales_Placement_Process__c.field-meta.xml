@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Sales_Placement_Process__c</fullName>
+    <externalId>false</externalId>
+    <label>ZB Connect CapSol Sales Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Prospect</fullName>
+                <default>false</default>
+                <label>1. Prospect</label>
+            </value>
+            <value>
+                <fullName>2. Discover</fullName>
+                <default>false</default>
+                <label>2. Discover</label>
+            </value>
+            <value>
+                <fullName>3. Solve</fullName>
+                <default>false</default>
+                <label>3. Solve</label>
+            </value>
+            <value>
+                <fullName>4. Execute</fullName>
+                <default>false</default>
+                <label>4. Execute</label>
+            </value>
+            <value>
+                <fullName>5. Commit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5. Commit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

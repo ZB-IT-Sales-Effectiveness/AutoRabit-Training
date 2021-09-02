@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Biomet_Friendly_Competitive__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Would you consider this a Zimmer Biomet friendly surgeon or competetive surgeon?</inlineHelpText>
+    <label>Zimmer Biomet Friendly or Competitive?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Friendly</fullName>
+                <default>false</default>
+                <label>Friendly</label>
+            </value>
+            <value>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+                <label>Neutral</label>
+            </value>
+            <value>
+                <fullName>Competitive</fullName>
+                <default>false</default>
+                <label>Competitive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

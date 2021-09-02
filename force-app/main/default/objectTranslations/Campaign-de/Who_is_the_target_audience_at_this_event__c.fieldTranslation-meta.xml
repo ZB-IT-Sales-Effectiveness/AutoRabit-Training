@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Who is the target audience at this event --></label>
+    <name>Who_is_the_target_audience_at_this_event__c</name>
+    <picklistValues>
+        <masterLabel>Dental Hygienists</masterLabel>
+        <translation><!-- Dental Hygienists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Students</masterLabel>
+        <translation><!-- Dental Students --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endodontists</masterLabel>
+        <translation><!-- Endodontists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Dentists</masterLabel>
+        <translation><!-- General Dentists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Technicians</masterLabel>
+        <translation><!-- Lab Technicians --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Staff</masterLabel>
+        <translation><!-- Office Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral Surgeons</masterLabel>
+        <translation><!-- Oral Surgeons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periodontists</masterLabel>
+        <translation><!-- Periodontists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthodontists</masterLabel>
+        <translation><!-- Prosthodontists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Students</masterLabel>
+        <translation><!-- Students --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

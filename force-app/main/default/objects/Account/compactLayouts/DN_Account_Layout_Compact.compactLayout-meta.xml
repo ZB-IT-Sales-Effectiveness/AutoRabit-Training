@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Account_Layout_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Customer_Number__c</fields>
+    <fields>Account_Status__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Phone</fields>
+    <fields>Website</fields>
+    <fields>Address__c</fields>
+    <label>DN-Account Layout Compact</label>
+</CompactLayout>

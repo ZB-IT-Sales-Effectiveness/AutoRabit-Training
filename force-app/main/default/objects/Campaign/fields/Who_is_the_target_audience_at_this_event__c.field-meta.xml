@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_is_the_target_audience_at_this_event__c</fullName>
+    <externalId>false</externalId>
+    <label>Who is the target audience at this event</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dental Hygienists</fullName>
+                <default>false</default>
+                <label>Dental Hygienists</label>
+            </value>
+            <value>
+                <fullName>Dental Students</fullName>
+                <default>false</default>
+                <label>Dental Students</label>
+            </value>
+            <value>
+                <fullName>Endodontists</fullName>
+                <default>false</default>
+                <label>Endodontists</label>
+            </value>
+            <value>
+                <fullName>General Dentists</fullName>
+                <default>false</default>
+                <label>General Dentists</label>
+            </value>
+            <value>
+                <fullName>Lab Technicians</fullName>
+                <default>false</default>
+                <label>Lab Technicians</label>
+            </value>
+            <value>
+                <fullName>Office Staff</fullName>
+                <default>false</default>
+                <label>Office Staff</label>
+            </value>
+            <value>
+                <fullName>Oral Surgeons</fullName>
+                <default>false</default>
+                <label>Oral Surgeons</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Periodontists</fullName>
+                <default>false</default>
+                <label>Periodontists</label>
+            </value>
+            <value>
+                <fullName>Prosthodontists</fullName>
+                <default>false</default>
+                <label>Prosthodontists</label>
+            </value>
+            <value>
+                <fullName>Students</fullName>
+                <default>false</default>
+                <label>Students</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

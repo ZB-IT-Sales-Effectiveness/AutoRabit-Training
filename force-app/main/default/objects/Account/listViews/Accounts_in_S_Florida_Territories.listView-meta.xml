@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_in_S_Florida_Territories</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Salesperson_ID__c</field>
+        <operation>contains</operation>
+        <value>1142,1174,1032,1176,1057,1177,1172,1175</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Account</value>
+    </filters>
+    <label>Accounts in S. Florida Territories</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_ST_SFL_DDSS</group>
+        <group>DN_USA_South_Florida_ISR</group>
+        <group>DN_USA_Southern_NFL_SFL_Regen</group>
+    </sharedTo>
+</ListView>

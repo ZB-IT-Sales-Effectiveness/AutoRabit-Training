@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Contact&apos;s division --></help>
+    <label><!-- Division --></label>
+    <name>Division__c</name>
+    <picklistValues>
+        <masterLabel>CMF&amp;T</masterLabel>
+        <translation><!-- CMF&amp;T --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LATAM</masterLabel>
+        <translation><!-- LATAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ortho</masterLabel>
+        <translation><!-- Ortho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SET</masterLabel>
+        <translation><!-- SET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Connect</masterLabel>
+        <translation><!-- ZB Connect --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

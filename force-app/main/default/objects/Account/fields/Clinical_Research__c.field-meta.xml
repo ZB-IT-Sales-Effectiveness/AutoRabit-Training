@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clinical_Research__c</fullName>
+    <externalId>false</externalId>
+    <label>Clinical Research</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Denovo NT Prospective Knee Study</fullName>
+                <default>false</default>
+                <label>Denovo NT Prospective Knee Study</label>
+            </value>
+            <value>
+                <fullName>Denovo NT Prospective Ankle Study</fullName>
+                <default>false</default>
+                <label>Denovo NT Prospective Ankle Study</label>
+            </value>
+            <value>
+                <fullName>TM Humeral</fullName>
+                <default>false</default>
+                <label>TM Humeral</label>
+            </value>
+            <value>
+                <fullName>TM Primary Stem</fullName>
+                <default>false</default>
+                <label>TM Primary Stem</label>
+            </value>
+            <value>
+                <fullName>Continuum With ML Taper</fullName>
+                <default>false</default>
+                <label>Continuum With ML Taper</label>
+            </value>
+            <value>
+                <fullName>LDH CoC</fullName>
+                <default>false</default>
+                <label>LDH CoC</label>
+            </value>
+            <value>
+                <fullName>MIS Posterior Approach</fullName>
+                <default>false</default>
+                <label>MIS Posterior Approach</label>
+            </value>
+            <value>
+                <fullName>NexGen PFJ</fullName>
+                <default>false</default>
+                <label>NexGen PFJ</label>
+            </value>
+            <value>
+                <fullName>NK Flex Gender</fullName>
+                <default>false</default>
+                <label>NK Flex Gender</label>
+            </value>
+            <value>
+                <fullName>LPS Flex Porous Femur</fullName>
+                <default>false</default>
+                <label>LPS Flex Porous Femur</label>
+            </value>
+            <value>
+                <fullName>MIS Stemmed tibial base plate</fullName>
+                <default>false</default>
+                <label>MIS Stemmed tibial base plate</label>
+            </value>
+            <value>
+                <fullName>MIS Modular tibial tray</fullName>
+                <default>false</default>
+                <label>MIS Modular tibial tray</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

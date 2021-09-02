@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Job Function --></label>
+    <name>Job_Function__c</name>
+    <picklistValues>
+        <masterLabel>Corporate</masterLabel>
+        <translation><!-- Corporate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executive/Administrator</masterLabel>
+        <translation><!-- Executive/Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Professional</masterLabel>
+        <translation><!-- Healthcare Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Representative  </masterLabel>
+        <translation><!-- Sales Representative   --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

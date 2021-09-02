@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Surgeon Engagement</fullName>
+        <default>false</default>
+        <label>Surgeon Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiations</fullName>
+        <default>false</default>
+        <label>Negotiations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Level Presentations</fullName>
+        <default>false</default>
+        <label>Executive Level Presentations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Activate consignment</fullName>
+        <default>false</default>
+        <label>Activate consignment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bioskills training course</fullName>
+        <default>false</default>
+        <label>Bioskills training course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book CSD in-service</fullName>
+        <default>false</default>
+        <label>Book CSD in-service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book nurse in-service</fullName>
+        <default>false</default>
+        <label>Book nurse in-service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Evidence</fullName>
+        <default>false</default>
+        <label>Clinical Evidence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor Activity</fullName>
+        <default>false</default>
+        <label>Competitor Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive product comparison</fullName>
+        <default>false</default>
+        <label>Competitive product comparison</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom Instruments</fullName>
+        <default>false</default>
+        <label>Custom Instruments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Educational site visit</fullName>
+        <default>false</default>
+        <label>Educational site visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Identify Related Contacts</fullName>
+        <default>false</default>
+        <label>Identify Related Contacts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instrument Demo</fullName>
+        <default>false</default>
+        <label>Instrument Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instrument and implant inventory</fullName>
+        <default>false</default>
+        <label>Instrument and implant inventory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Local Physician Education Program</fullName>
+        <default>false</default>
+        <label>Local Physician Education Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Education Course</fullName>
+        <default>false</default>
+        <label>Medical Education Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing and contracting</fullName>
+        <default>false</default>
+        <label>Pricing and contracting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Clinical Evidence</fullName>
+        <default>false</default>
+        <label>Provide Clinical Evidence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Product Information</fullName>
+        <default>false</default>
+        <label>Provide Product Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Service Information</fullName>
+        <default>false</default>
+        <label>Provide Service Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Supply Proposal</fullName>
+        <default>false</default>
+        <label>Provide Supply Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report as regular user</fullName>
+        <default>false</default>
+        <label>Report as regular user</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter/Quote</fullName>
+        <default>false</default>
+        <label>Send Letter/Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon to surgeon Visit</fullName>
+        <default>false</default>
+        <label>Surgeon to surgeon Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial case request</fullName>
+        <default>false</default>
+        <label>Trial case request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vorbereitung - préparation</fullName>
+        <default>false</default>
+        <label>Vorbereitung - préparation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Executive visit</fullName>
+        <default>false</default>
+        <label>Zimmer Executive visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Marketing Visit</fullName>
+        <default>false</default>
+        <label>Zimmer Marketing Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Senior Executive Visit</fullName>
+        <default>false</default>
+        <label>Zimmer Senior Executive Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>情報収集</fullName>
+        <default>false</default>
+        <label>情報収集</label>
+    </standardValue>
+    <standardValue>
+        <fullName>製品説明</fullName>
+        <default>false</default>
+        <label>製品説明</label>
+    </standardValue>
+    <standardValue>
+        <fullName>オペ立会</fullName>
+        <default>false</default>
+        <label>オペ立会</label>
+    </standardValue>
+    <standardValue>
+        <fullName>勉強会</fullName>
+        <default>false</default>
+        <label>勉強会</label>
+    </standardValue>
+    <standardValue>
+        <fullName>デモ・ワークショップ</fullName>
+        <default>false</default>
+        <label>デモ・ワークショップ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>社内会議</fullName>
+        <default>false</default>
+        <label>社内会議</label>
+    </standardValue>
+    <standardValue>
+        <fullName>同行</fullName>
+        <default>false</default>
+        <label>同行</label>
+    </standardValue>
+    <standardValue>
+        <fullName>研修</fullName>
+        <default>false</default>
+        <label>研修</label>
+    </standardValue>
+    <standardValue>
+        <fullName>移動</fullName>
+        <default>false</default>
+        <label>移動</label>
+    </standardValue>
+    <standardValue>
+        <fullName>休暇</fullName>
+        <default>false</default>
+        <label>休暇</label>
+    </standardValue>
+    <standardValue>
+        <fullName>資料作成</fullName>
+        <default>false</default>
+        <label>資料作成</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met with Ortho Rep</fullName>
+        <default>false</default>
+        <label>Met with Ortho Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Support Meeting</fullName>
+        <default>false</default>
+        <label>Executive Support Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Alignment Meeting</fullName>
+        <default>false</default>
+        <label>Strategic Alignment Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation to Final Decision Maker Meeting</fullName>
+        <default>false</default>
+        <label>Presentation to Final Decision Maker Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>iTero</fullName>
+        <default>false</default>
+        <label>iTero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Concierge</fullName>
+        <default>false</default>
+        <label>Implant Concierge</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ</fullName>
+        <default>false</default>
+        <label>PartnerZ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regen</fullName>
+        <default>false</default>
+        <label>Regen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative</fullName>
+        <default>false</default>
+        <label>Restorative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant</fullName>
+        <default>false</default>
+        <label>Implant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Encode</fullName>
+        <default>false</default>
+        <label>Encode</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Orders</fullName>
+        <default>false</default>
+        <label>Orders</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBD Edu Program</fullName>
+        <default>false</default>
+        <label>ZBD Edu Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Demo</fullName>
+        <default>false</default>
+        <label>Product Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintaining Referral</fullName>
+        <default>false</default>
+        <label>Maintaining Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Opportunity</fullName>
+        <default>false</default>
+        <label>Competitive Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wellness Check</fullName>
+        <default>false</default>
+        <label>Wellness Check</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Help</fullName>
+        <default>false</default>
+        <label>Case Help</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative Case</fullName>
+        <default>false</default>
+        <label>Restorative Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical Case</fullName>
+        <default>false</default>
+        <label>Surgical Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lunch &amp; Learn</fullName>
+        <default>false</default>
+        <label>Lunch &amp; Learn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exchange</fullName>
+        <default>false</default>
+        <label>Exchange</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Session with iTero Rep</fullName>
+        <default>false</default>
+        <label>Session with iTero Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Return</fullName>
+        <default>false</default>
+        <label>Return</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance/Accounting</fullName>
+        <default>false</default>
+        <label>Finance/Accounting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ Target</fullName>
+        <default>false</default>
+        <label>PartnerZ Target</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ Swap Confirmed</fullName>
+        <default>false</default>
+        <label>PartnerZ Swap Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Study Club</fullName>
+        <default>false</default>
+        <label>Study Club</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote</fullName>
+        <default>false</default>
+        <label>Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WebEx</fullName>
+        <default>false</default>
+        <label>WebEx</label>
+    </standardValue>
+</StandardValueSet>

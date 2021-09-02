@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DACH</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DACH</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>DACH</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>DACH</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_DE_All_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DE-All Access</label>
+        <sharedTo>
+            <group>EU_DE_All_Access</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Germany</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

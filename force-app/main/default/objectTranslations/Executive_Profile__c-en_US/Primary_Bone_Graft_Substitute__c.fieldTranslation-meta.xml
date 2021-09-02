@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Bone Graft Substitute --></label>
+    <name>Primary_Bone_Graft_Substitute__c</name>
+    <picklistValues>
+        <masterLabel>Other Allograft</masterLabel>
+        <translation><!-- Other Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puros</masterLabel>
+        <translation><!-- Puros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synthetic</masterLabel>
+        <translation><!-- Synthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xenograft</masterLabel>
+        <translation><!-- Xenograft --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

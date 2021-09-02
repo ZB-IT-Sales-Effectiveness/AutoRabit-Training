@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Pipeline_Products_Hips</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Segment__c</columns>
+    <columns>Sub_Segment__c</columns>
+    <columns>List_Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Segment__c</field>
+        <operation>equals</operation>
+        <value>Hips</value>
+    </filters>
+    <label>Global Pipeline Products: Hips</label>
+    <language>en_US</language>
+    <sharedTo/>
+</ListView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_schouder_fractuur__c</fullName>
+    <description>Kies het type voor schouder fractuur.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type voor schouder fractuur.</inlineHelpText>
+    <label>Type schouder fractuur</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_schouder_fractuur__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anatomical fracture</fullName>
+                <default>false</default>
+                <label>Anatomical fracture</label>
+            </value>
+            <value>
+                <fullName>Bigliani fractuur</fullName>
+                <default>false</default>
+                <label>Bigliani fractuur</label>
+            </value>
+            <value>
+                <fullName>Universe fracture stem</fullName>
+                <default>false</default>
+                <label>Universe fracture stem</label>
+            </value>
+            <value>
+                <fullName>Comprehensive FX stem</fullName>
+                <default>false</default>
+                <label>Comprehensive FX stem</label>
+            </value>
+            <value>
+                <fullName>Global FX</fullName>
+                <default>false</default>
+                <label>Global FX</label>
+            </value>
+            <value>
+                <fullName>Reversed/Fx</fullName>
+                <default>false</default>
+                <label>Reversed/Fx</label>
+            </value>
+            <value>
+                <fullName>Affinis</fullName>
+                <default>false</default>
+                <label>Affinis</label>
+            </value>
+            <value>
+                <fullName>Articula</fullName>
+                <default>false</default>
+                <label>Articula</label>
+            </value>
+            <value>
+                <fullName>Promos</fullName>
+                <default>false</default>
+                <label>Promos</label>
+            </value>
+            <value>
+                <fullName>Aequalis Fx</fullName>
+                <default>false</default>
+                <label>Aequalis Fx</label>
+            </value>
+            <value>
+                <fullName>Olympia</fullName>
+                <default>false</default>
+                <label>Olympia</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Anatomical fracture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Bigliani fractuur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arthex</controllingFieldValue>
+            <valueName>Universe fracture stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Comprehensive FX stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Global FX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Reversed/Fx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Affinis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Articula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Promos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Aequalis Fx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Olympia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

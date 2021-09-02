@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Contract Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DL Agreement</fullName>
+                <default>false</default>
+                <label>DL Agreement</label>
+            </value>
+            <value>
+                <fullName>LA Agreement</fullName>
+                <default>false</default>
+                <label>LA Agreement</label>
+            </value>
+            <value>
+                <fullName>PC Agreement</fullName>
+                <default>false</default>
+                <label>PC Agreement</label>
+            </value>
+            <value>
+                <fullName>SC Agreement</fullName>
+                <default>false</default>
+                <label>SC Agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

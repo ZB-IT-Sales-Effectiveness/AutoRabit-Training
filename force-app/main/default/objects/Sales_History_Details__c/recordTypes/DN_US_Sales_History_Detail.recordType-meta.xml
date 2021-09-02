@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_US_Sales_History_Detail</fullName>
+    <active>true</active>
+    <label>DN-US-Sales History Detail</label>
+</RecordType>

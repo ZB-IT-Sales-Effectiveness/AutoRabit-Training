@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Opportunity --></label>
+    <name>Reason_for_Opportunity__c</name>
+    <picklistValues>
+        <masterLabel>Clinically Superior</masterLabel>
+        <translation><!-- Clinically Superior --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive Contract Expiring</masterLabel>
+        <translation><!-- Competitive Contract Expiring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Economic Value</masterLabel>
+        <translation><!-- Economic Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility Expansion</masterLabel>
+        <translation><!-- Facility Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Gap</masterLabel>
+        <translation><!-- Product Gap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon Unhappy</masterLabel>
+        <translation><!-- Surgeon Unhappy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unhappy with Competitor</masterLabel>
+        <translation><!-- Unhappy with Competitor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

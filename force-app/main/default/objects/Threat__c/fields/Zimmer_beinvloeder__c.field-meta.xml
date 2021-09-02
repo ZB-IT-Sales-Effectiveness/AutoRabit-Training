@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_beinvloeder__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Beïnvloeder vanuit Zimmer die helpt bij het oplossen van de bedreigingen.</description>
+    <externalId>false</externalId>
+    <label>Zimmer beinvloeder</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Threat</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

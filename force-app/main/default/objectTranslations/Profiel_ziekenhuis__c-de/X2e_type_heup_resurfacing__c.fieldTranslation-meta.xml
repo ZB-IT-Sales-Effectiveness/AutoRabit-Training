@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type heup resurfacing --></label>
+    <name>X2e_type_heup_resurfacing__c</name>
+    <picklistValues>
+        <masterLabel>ASR</masterLabel>
+        <translation><!-- ASR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adept</masterLabel>
+        <translation><!-- Adept --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Birmingham hip</masterLabel>
+        <translation><!-- Birmingham hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conserve BFH</masterLabel>
+        <translation><!-- Conserve BFH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conserve Plus</masterLabel>
+        <translation><!-- Conserve Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cormet</masterLabel>
+        <translation><!-- Cormet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom</masterLabel>
+        <translation><!-- Durom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finsbury</masterLabel>
+        <translation><!-- Finsbury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optimom</masterLabel>
+        <translation><!-- Optimom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Per mini hip implant</masterLabel>
+        <translation><!-- Per mini hip implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profemur Z modular hip</masterLabel>
+        <translation><!-- Profemur Z modular hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recap</masterLabel>
+        <translation><!-- Recap --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

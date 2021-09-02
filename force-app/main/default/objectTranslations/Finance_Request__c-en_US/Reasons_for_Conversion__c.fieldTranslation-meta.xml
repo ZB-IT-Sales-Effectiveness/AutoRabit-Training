@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reasons for Conversion --></label>
+    <name>Reasons_for_Conversion__c</name>
+    <picklistValues>
+        <masterLabel>Competitive Opportunity</masterLabel>
+        <translation><!-- Competitive Opportunity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Surgeon Requesting Technology</masterLabel>
+        <translation><!-- Current Surgeon Requesting Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Increase Hip Share With ZB Hip Surgeon</masterLabel>
+        <translation><!-- Increase Hip Share With ZB Hip Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reduce Risk of Competitive Threats</masterLabel>
+        <translation><!-- Reduce Risk of Competitive Threats --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convert_Lead_WebSupport</fullName>
+    <availability>online</availability>
+    <description>This button provides custom values to status, subject and email fields. This is used on Surgeon Locator and Distributor Visit leads.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Convert</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var rectype=&quot;{!Lead.RecordType}&quot;; 
+var URL=&quot;/lead/leadconvert.jsp?retURL=%2F{!Lead.Id}&amp;id={!Lead.Id}&amp;nooppti=1&amp;tsk12_fu=Completed&amp;IsReminderSet_fu=False&amp;email_followup=0&quot;; 
+
+location.replace(URL);</url>
+</WebLink>

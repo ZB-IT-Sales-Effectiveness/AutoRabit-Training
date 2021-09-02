@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Services__c</fullName>
+    <description>This field was added for the Dental DDSS team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What service(s) does this lab perform?</inlineHelpText>
+    <label>Service(s) Performed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Crown &amp; Bridge</fullName>
+                <default>false</default>
+                <label>Crown &amp; Bridge</label>
+            </value>
+            <value>
+                <fullName>Removable</fullName>
+                <default>false</default>
+                <label>Removable</label>
+            </value>
+            <value>
+                <fullName>Full Service</fullName>
+                <default>false</default>
+                <label>Full Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

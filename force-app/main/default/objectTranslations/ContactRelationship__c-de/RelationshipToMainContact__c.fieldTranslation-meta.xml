@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Beziehung zu Hauptkontakt --></label>
+    <name>RelationshipToMainContact__c</name>
+    <picklistValues>
+        <masterLabel>Sekretärin</masterLabel>
+        <translation><!-- Sekretärin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stellvertreter</masterLabel>
+        <translation><!-- Stellvertreter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>fixer Assistent</masterLabel>
+        <translation><!-- fixer Assistent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ranggleicher Mitarbeiter</masterLabel>
+        <translation><!-- ranggleicher Mitarbeiter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>unterstellter Mitarbeiter</masterLabel>
+        <translation><!-- unterstellter Mitarbeiter --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

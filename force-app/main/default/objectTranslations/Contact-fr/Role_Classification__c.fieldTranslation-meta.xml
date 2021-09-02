@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role Classification --></label>
+    <name>Role_Classification__c</name>
+    <picklistValues>
+        <masterLabel>CMF&amp;T</masterLabel>
+        <translation><!-- CMF&amp;T --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Admin</masterLabel>
+        <translation><!-- Office - Admin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Customer Service Leader</masterLabel>
+        <translation><!-- Office - Customer Service Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Customer Service Representative</masterLabel>
+        <translation><!-- Office - Customer Service Representative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Driver</masterLabel>
+        <translation><!-- Office - Driver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - HR/Compliance</masterLabel>
+        <translation><!-- Office - HR/Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Inventory Leader</masterLabel>
+        <translation><!-- Office - Inventory Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Inventory  Coordinator</masterLabel>
+        <translation><!-- Office - Inventory  Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Operations Leader</masterLabel>
+        <translation><!-- Office - Operations Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Pricing/Contracts</masterLabel>
+        <translation><!-- Office - Pricing/Contracts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Sourcing/Logistics Coordinator</masterLabel>
+        <translation><!-- Office - Sourcing/Logistics Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office - Sourcing/Logistics Leader</masterLabel>
+        <translation><!-- Office - Sourcing/Logistics Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Associate</masterLabel>
+        <translation><!-- Sales Associate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager with accounts</masterLabel>
+        <translation><!-- Sales Manager with accounts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager without accounts</masterLabel>
+        <translation><!-- Sales Manager without accounts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Case Specialist</masterLabel>
+        <translation><!-- Surgery Case Specialist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Canada Office</masterLabel>
+        <translation><!-- Zimmer Biomet Canada Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Canada Recon</masterLabel>
+        <translation><!-- Zimmer Biomet Canada Recon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Canada Spine</masterLabel>
+        <translation><!-- Zimmer Biomet Canada Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet OBT</masterLabel>
+        <translation><!-- Zimmer Biomet OBT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Spine</masterLabel>
+        <translation><!-- Zimmer Biomet Spine --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

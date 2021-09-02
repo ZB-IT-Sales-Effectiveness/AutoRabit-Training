@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Surgeon_Name__c</columns>
+    <columns>Distributor__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.US_Extremities</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Extremities Opportunities</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AM_VP_US_Sales</role>
+        <role>Bone_Healing_GM</role>
+        <role>CanadaGeneralManager</role>
+        <role>DirectorSalesTraining</role>
+        <role>Enterprise_Solutions</role>
+        <role>ExecutiveAdminUSSales</role>
+        <role>LatinAmerica</role>
+        <role>Management_Personalized_Solutions</role>
+        <role>Market_Access</role>
+        <role>Personlized_Solutions_Manager</role>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Extremities</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

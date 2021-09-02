@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Bearbeitungsstatus</label>
+    <name>Processing_Status__c</name>
+    <picklistValues>
+        <masterLabel>Abklärung Warenbeschaffung (6)</masterLabel>
+        <translation><!-- Abklärung Warenbeschaffung (6) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aus dem Markt bedienen (7)</masterLabel>
+        <translation><!-- Aus dem Markt bedienen (7) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAP zur Erfassung (8)</masterLabel>
+        <translation><!-- SAP zur Erfassung (8) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sets werden gerade gerichtet (11)</masterLabel>
+        <translation><!-- Sets werden gerade gerichtet (11) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storno (16)</masterLabel>
+        <translation><!-- Storno (16) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teillieferung versandbereit (12)</masterLabel>
+        <translation><!-- Teillieferung versandbereit (12) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teillieferung versendet (13)</masterLabel>
+        <translation><!-- Teillieferung versendet (13) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ware an Lager - bitte picken lassen (10)</masterLabel>
+        <translation><!-- Ware an Lager - bitte picken lassen (10) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ware komplett versandbereit (14)</masterLabel>
+        <translation><!-- Ware komplett versandbereit (14) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ware komplett versendet (15)</masterLabel>
+        <translation><!-- Ware komplett versendet (15) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ware nicht komplett an Lager (9)</masterLabel>
+        <translation><!-- Ware nicht komplett an Lager (9) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

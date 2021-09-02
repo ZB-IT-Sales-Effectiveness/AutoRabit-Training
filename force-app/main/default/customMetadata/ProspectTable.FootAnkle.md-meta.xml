@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FootAnkle</label>
+    <protected>false</protected>
+    <values>
+        <field>Product_Segments__c</field>
+        <value xsi:type="xsd:string">Foot &amp; Ankle</value>
+    </values>
+    <values>
+        <field>RecordTypeId__c</field>
+        <value xsi:type="xsd:string">012C0000000Ga2FIAS</value>
+    </values>
+</CustomMetadata>

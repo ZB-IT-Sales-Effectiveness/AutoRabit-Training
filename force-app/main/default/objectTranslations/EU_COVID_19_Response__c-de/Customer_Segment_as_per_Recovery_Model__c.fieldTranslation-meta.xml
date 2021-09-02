@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Kundensegment</label>
+    <name>Customer_Segment_as_per_Recovery_Model__c</name>
+    <picklistValues>
+        <masterLabel>Covid Hospital</masterLabel>
+        <translation><!-- Covid Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Covid Hub Private Ac..</masterLabel>
+        <translation><!-- Covid Hub Private Ac.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Covid Hub Public Acc..</masterLabel>
+        <translation><!-- Covid Hub Public Acc.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Covid-19 Centers</masterLabel>
+        <translation><!-- Covid-19 Centers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Covid19</masterLabel>
+        <translation><!-- Covid19 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elective</masterLabel>
+        <translation><!-- Elective --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elective &amp; Trauma</masterLabel>
+        <translation><!-- Elective &amp; Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elective / Trauma Private</masterLabel>
+        <translation><!-- Elective / Trauma Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elective Private</masterLabel>
+        <translation><!-- Elective Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elective Public</masterLabel>
+        <translation><!-- Elective Public --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Essential Covid-19 Hospitals</masterLabel>
+        <translation><!-- Essential Covid-19 Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expert Center</masterLabel>
+        <translation><!-- Expert Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fast Recov Speed</masterLabel>
+        <translation><!-- Fast Recov Speed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Hospitals First Wave</masterLabel>
+        <translation><!-- General Hospitals First Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Hospitals Second Wave</masterLabel>
+        <translation><!-- General Hospitals Second Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Hospitals Third Wave</masterLabel>
+        <translation><!-- General Hospitals Third Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High Covid Exposure</masterLabel>
+        <translation><!-- High Covid Exposure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Companies</masterLabel>
+        <translation><!-- Insurance Companies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Distributors</masterLabel>
+        <translation><!-- Large Distributors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Covid Exposure</masterLabel>
+        <translation><!-- Low Covid Exposure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium Recov Speed</masterLabel>
+        <translation><!-- Medium Recov Speed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-essential Covid-19 Hospitals</masterLabel>
+        <translation><!-- Non-essential Covid-19 Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North/Central General Hospitals</masterLabel>
+        <translation><!-- North/Central General Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North/Central Ortho-focused</masterLabel>
+        <translation><!-- North/Central Ortho-focused --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North/Central Ortho-strictly</masterLabel>
+        <translation><!-- North/Central Ortho-strictly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Centers</masterLabel>
+        <translation><!-- Orthopaedic Centers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Public Hospital</masterLabel>
+        <translation><!-- Other Public Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others (5 groups combined)</masterLabel>
+        <translation><!-- Others (5 groups combined) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private 1st Wave</masterLabel>
+        <translation><!-- Private 1st Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private 2nd Wave</masterLabel>
+        <translation><!-- Private 2nd Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Account No C..</masterLabel>
+        <translation><!-- Private Account No C.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Account Sup..</masterLabel>
+        <translation><!-- Private Account Sup.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private And Covid Center</masterLabel>
+        <translation><!-- Private And Covid Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private And Non Covid Center</masterLabel>
+        <translation><!-- Private And Non Covid Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Buying Groups</masterLabel>
+        <translation><!-- Private Buying Groups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Clinics First Wave</masterLabel>
+        <translation><!-- Private Clinics First Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Clinics Second Wave</masterLabel>
+        <translation><!-- Private Clinics Second Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private East</masterLabel>
+        <translation><!-- Private East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Hospital</masterLabel>
+        <translation><!-- Private Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Ortho Clinics</masterLabel>
+        <translation><!-- Private Ortho Clinics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Ortho Clinics Covid</masterLabel>
+        <translation><!-- Private Ortho Clinics Covid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Ortho Clinics Not Covid</masterLabel>
+        <translation><!-- Private Ortho Clinics Not Covid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private West</masterLabel>
+        <translation><!-- Private West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public 1st Wave</masterLabel>
+        <translation><!-- Public 1st Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public 2nd Wave</masterLabel>
+        <translation><!-- Public 2nd Wave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Account No Co..</masterLabel>
+        <translation><!-- Public Account No Co.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public And Covid Center</masterLabel>
+        <translation><!-- Public And Covid Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public And Non Covid Center</masterLabel>
+        <translation><!-- Public And Non Covid Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public East</masterLabel>
+        <translation><!-- Public East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospital</masterLabel>
+        <translation><!-- Public Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospital Region C</masterLabel>
+        <translation><!-- Public Hospital Region C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospital Region D</masterLabel>
+        <translation><!-- Public Hospital Region D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospitals Covid</masterLabel>
+        <translation><!-- Public Hospitals Covid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospitals Madrid</masterLabel>
+        <translation><!-- Public Hospitals Madrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Hospitals Not Covid</masterLabel>
+        <translation><!-- Public Hospitals Not Covid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Standard Acco..</masterLabel>
+        <translation><!-- Public Standard Acco.. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public West</masterLabel>
+        <translation><!-- Public West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional Hospitals Catalunya</masterLabel>
+        <translation><!-- Regional Hospitals Catalunya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semi-Private</masterLabel>
+        <translation><!-- Semi-Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slow Recov Speed</masterLabel>
+        <translation><!-- Slow Recov Speed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South General Hospitals</masterLabel>
+        <translation><!-- South General Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Ortho-focused</masterLabel>
+        <translation><!-- South Ortho-focused --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Ortho-strictly</masterLabel>
+        <translation><!-- South Ortho-strictly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma Public</masterLabel>
+        <translation><!-- Trauma Public --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uni</masterLabel>
+        <translation><!-- Uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University And Large Teaching Hospitals</masterLabel>
+        <translation><!-- University And Large Teaching Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University Clinic</masterLabel>
+        <translation><!-- University Clinic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University Hospital</masterLabel>
+        <translation><!-- University Hospital --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

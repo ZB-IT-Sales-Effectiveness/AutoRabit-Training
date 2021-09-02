@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#068110</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Certification Manager</label>
+    <navType>Standard</navType>
+    <tabs>Certification__c</tabs>
+    <tabs>Create_Certifications</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Healthcare_Surgeon_Relationship__c</tabs>
+    <tabs>HCF_Surgeon_Certification__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Certification_Manager_UtilityBar</utilityBar>
+</CustomApplication>

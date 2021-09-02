@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Medical Education Training Tracker</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Medical Education Training Trackers</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please add CVENT campaign before completing the Event --></errorMessage>
+        <name>Campaign_ID_required_to_complete_event</name>
+    </validationRules>
+</CustomObjectTranslation>

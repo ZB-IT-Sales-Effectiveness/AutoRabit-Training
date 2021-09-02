@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Customer_Return_Transaction_Total_Annual_Returns_Now_Greater_than_1_000</fullName>
+        <ccEmails>ron.cowan@zimmerbiomet.com</ccEmails>
+        <description>Customer Return Transaction (Total Annual Returns Now Greater than $1,000)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_Customer_Return_1K_Plus</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Dental_Customer</fullName>
+        <ccEmails>ron.cowan@zimmerbiomet.com</ccEmails>
+        <description>Brand New Dental Customer-Transaction Amount Over $1,000</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_Brand_New_Customer_1K_Plus</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Dental_Implant_Customer_Transaction_Amount_Over_1_000</fullName>
+        <ccEmails>ron.cowan@zimmerbiomet.com</ccEmails>
+        <description>New Dental Implant Customer-Transaction Amount Over $1,000</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_Brand_New_Implant_Customer_1K_Plus</template>
+    </alerts>
+    <alerts>
+        <fullName>Validation_Notification</fullName>
+        <description>Validation Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Requester_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>jill.wake@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>US_Sales_Operations/Validation_Completed_Custom</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Account_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>jordan.gilbert@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Account Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Account_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>DN_ACCT_RECORD_TYPE</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Account Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Account_owner_Field_Update</fullName>
+        <description>This will change the Account owner to DCS SFDC</description>
+        <field>OwnerId</field>
+        <lookupValue>surgeonmaster@zimmer.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Account owner Field Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Biomet_Surgeon_ID_Update</fullName>
+        <field>Biomet_Surgeon_ID__c</field>
+        <formula>Biomet_Account__c</formula>
+        <name>Biomet Surgeon ID Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Owner</fullName>
+        <description>Change Account owner to Gustavo Quijano</description>
+        <field>OwnerId</field>
+        <lookupValue>gustavo.quijano@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Change Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Owner_for_Person_Account_Creation</fullName>
+        <field>OwnerId</field>
+        <lookupValue>lori.mishler@zimmer.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Change Owner for Person Account Creation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_owner_for_Consumer_Account</fullName>
+        <field>OwnerId</field>
+        <lookupValue>consumer@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Change owner for Consumer Account</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_owner_for_surgeons_and_Hospitals</fullName>
+        <description>Changes owner to DCS SFDC when ever surgeon or hospital&apos;s are created/edited</description>
+        <field>OwnerId</field>
+        <lookupValue>surgeonmaster@zimmer.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Change owner for surgeons and Hospitals</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_HCF_Active_Status_Field</fullName>
+        <field>Inactive_Account__c</field>
+        <literalValue>0</literalValue>
+        <name>Check HCF Active Status Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_HCF_Inactive_Status_Field</fullName>
+        <field>Inactive_Account__c</field>
+        <literalValue>1</literalValue>
+        <name>Check HCF Inactive Status Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_Physician_Locator_on_Account</fullName>
+        <field>Physicians_Locator__c</field>
+        <literalValue>1</literalValue>
+        <name>Check Physician Locator on Account</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_ZAN_to_SourceZAN</fullName>
+        <field>SourceZAN__c</field>
+        <formula>MDM_SAP_ID__c</formula>
+        <name>Copy ZAN to SourceZAN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DeActive_Date</fullName>
+        <field>Deactive_Date__c</field>
+        <formula>IF( Inactive__pc = true &amp;&amp;  NOT(ISNULL(Deactive_Date__c)), Deactive_Date__c, 
+      IF(Inactive__pc = true &amp;&amp;  ISNULL(Deactive_Date__c),TODAY(),null )
+)</formula>
+        <name>DeActive Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_NotSync_False</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_BA</fullName>
+        <field>mkto71_Do_Not_Sync__c</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync -BA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_BANew</fullName>
+        <field>mkto71_Do_Not_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Sync -BA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_BA_False</fullName>
+        <field>mkto71_Do_Not_Sync__c</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync BA False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_False</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_PHY_False</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync -PHY- False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_True_BA</fullName>
+        <field>mkto71_Do_Not_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Sync True-BA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_True_PHY</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Sync True PHY</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_not_Sync_True</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>1</literalValue>
+        <name>Do not Sync True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Donot_Sync_True</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>1</literalValue>
+        <name>Do not Sync True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Dont_Sync_False_PHy</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>0</literalValue>
+        <name>Dont Sync False- PHy</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Update_Account_Site</fullName>
+        <field>Site</field>
+        <formula>BillingCity &amp; &quot;, &quot; &amp; BillingCountry</formula>
+        <name>EU-Update Account Site</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>HCF_Deactive_Date</fullName>
+        <field>Deactive_Date__c</field>
+        <formula>IF( Inactive_Account__c = true &amp;&amp; NOT(ISNULL(Deactive_Date__c)), Deactive_Date__c, 
+IF( Inactive_Account__c = true &amp;&amp; ISNULL(Deactive_Date__c),TODAY(),null ) 
+)</formula>
+        <name>HCF Deactive Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Inactivate_Physician_locator</fullName>
+        <field>Physicians_Locator__c</field>
+        <literalValue>0</literalValue>
+        <name>Inactivate Physician locator</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_Validation_requested_checked</fullName>
+        <description>Mark Validation requested checked</description>
+        <field>Validation_Requested__c</field>
+        <literalValue>1</literalValue>
+        <name>Mark Validation requested checked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Marketo_Dont_Sync_True_BA</fullName>
+        <field>mkto71_Do_Not_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Marketo Dont Sync True BA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Phy_Do_Not_Sync</fullName>
+        <field>Do_Not_Sync__pc</field>
+        <literalValue>0</literalValue>
+        <name>Phy Do Not Sync</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Record_Type_Change_to_Surgeon</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Physician</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Record Type Change to Surgeon</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Salesloft_URL</fullName>
+        <field>Salesloft_URL_ID__c</field>
+        <formula>Salesloft_ID__c</formula>
+        <name>Salesloft URL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Type_to_Non_Customer</fullName>
+        <field>Type</field>
+        <literalValue>Non-Customer</literalValue>
+        <name>Set Type to Non-Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UPDATING_STANDARD_EMAIL</fullName>
+        <description>UPDATING STANDARD EMAIL with Portal Username Field DATA</description>
+        <field>PersonEmail</field>
+        <formula>Portal_Username__pc</formula>
+        <name>UPDATING STANDARD EMAIL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Uncheck_Physician_Locator_on_Account</fullName>
+        <field>Physicians_Locator__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Physician Locator on Account</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Guidelines_Comments</fullName>
+        <description>Text Can be Entered in Guidelines Comments</description>
+        <field>Guidelines_Comments__c</field>
+        <name>Update Guidelines Comments</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Requester_Email</fullName>
+        <field>Requester_Email__c</field>
+        <formula>$User.Email</formula>
+        <name>Update Requester Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Shipping_City_to_Mailing_City</fullName>
+        <field>ShippingCity</field>
+        <formula>PersonMailingCity</formula>
+        <name>Update Shipping City to Mailing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Shipping_Country_to_Mailing_Count</fullName>
+        <description>Updates shipping country to mailing country</description>
+        <field>ShippingCountry</field>
+        <formula>PersonMailingCountry</formula>
+        <name>Update Shipping Country to Mailing Count</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Shipping_Postal_Code_to_Mailing</fullName>
+        <field>ShippingPostalCode</field>
+        <formula>PersonMailingPostalCode</formula>
+        <name>Update Shipping Postal Code to Mailing</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Shipping_State_to_Mailing_State</fullName>
+        <description>Updates the shipping state/province to the value of the mailing state/province field</description>
+        <field>ShippingState</field>
+        <formula>PersonMailingState</formula>
+        <name>Update Shipping State to Mailing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Shipping_Street_to_Mailing_Street</fullName>
+        <field>ShippingStreet</field>
+        <formula>PersonMailingStreet</formula>
+        <name>Update Shipping Street to Mailing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Validation_Last_Requested_Date</fullName>
+        <field>Validation_Last_Requested_Date__c</field>
+        <formula>LastModifiedDate</formula>
+        <name>Validation Last Requested Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Validation_Requested_Date</fullName>
+        <field>Last_Maint_Date__c</field>
+        <formula>Today()</formula>
+        <name>Validation Requested Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Validation_Requested_Updated</fullName>
+        <description>Automatically checks the Validation Requested field on account, if a record is created or edited by the user of AM-US-DCO profile.</description>
+        <field>Validation_Requested__c</field>
+        <literalValue>1</literalValue>
+        <name>Validation Requested Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AI%3A Field Addition Guidelines Comments</fullName>
+        <actions>
+            <name>Update_Guidelines_Comments</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.HCP_Collaboration_Guidelines__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>If the HCP Collaboration Check Box is Checked, Then free Text can be entered  on Guidelines Comments</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>AP-ANZ-Change owner of HCP</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.OwnerId</field>
+            <operation>equals</operation>
+            <value>Events Site Guest User</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PersonMailingCountry</field>
+            <operation>equals</operation>
+            <value>AU,NZ</value>
+        </criteriaItems>
+        <description>Changes the owner of accounts created through the GEM&apos;s process, with a mailing country of AU or NZ, to Ray Langenberg</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account Record Type Hidden</fullName>
+        <actions>
+            <name>Account_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.AccountRecord_Type_Hidden__c</field>
+            <operation>equals</operation>
+            <value>DN-ACCT-RECORD-TYPE</value>
+        </criteriaItems>
+        <description>To store Account record type value in record type hidden field for Lead converting process</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Account Owner to Gustavo Quijano</fullName>
+        <actions>
+            <name>Change_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Change account owner for physician records where country - BM, VI  and PR to Gustavo Quijano.</description>
+        <formula>AND( RecordType.Name == &apos;Physician&apos; ,  OR(PersonMailingCountry == &apos;BM&apos;,PersonMailingCountry == &apos;VI&apos;,PersonMailingCountry == &apos;PR&apos;, PersonMailingCountry == &apos;GU&apos;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Owner when Consumer Account is Created</fullName>
+        <actions>
+            <name>Change_owner_for_Consumer_Account</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule changes the owner when the Consumer is created or edited to Steve Barrett</description>
+        <formula>( RecordTypeId = &quot;012800000003YfK&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Physician Account Owner to DCS SFDC for US Accounts</fullName>
+        <actions>
+            <name>Change_owner_for_surgeons_and_Hospitals</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule changes the owner when the Physician is created or edited to DCS SFDC</description>
+        <formula>( RecordTypeId = &quot;012800000002C4g&quot; ) &amp;&amp; (PersonMailingCountry = &quot;US&quot; || ShippingCountry = &quot;US&quot; || BillingCountry = &quot;US&quot;  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Changes the owner to Meghan Forsey if the Surgeon and HCF records is created or edited for Canada</fullName>
+        <actions>
+            <name>Account_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule changes the owner when the Physician(Processing) or Physician or Healthcare Facility is created or edited to Meghan Forsey</description>
+        <formula>( RecordTypeId = &quot;012800000002C4g&quot; || RecordTypeId = &quot;012800000002AW5&quot;   || RecordTypeId = &quot;012800000003YRh&quot; || RecordTypeId = &quot;012800000003YRn&quot;  || RecordTypeId = &quot;012800000003YRc&quot;  ) &amp;&amp; (PersonMailingCountry = &quot;CA&quot; ||  ShippingCountry = &quot;CA&quot; ||  BillingCountry = &quot;CA&quot; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Copy ZAN to SourceZAN</fullName>
+        <actions>
+            <name>Copy_ZAN_to_SourceZAN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow copies value in Zimmer Account Number to SourceZAN field.</description>
+        <formula>ISNEW() || ISCHANGED(MDM_SAP_ID__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Date Validation Requested</fullName>
+        <actions>
+            <name>Validation_Requested_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Validation_Requested__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>EU-Update Account Site</fullName>
+        <actions>
+            <name>EU_Update_Account_Site</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-SAP Kunde Record Type</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>HCF Inactive Rule</fullName>
+        <actions>
+            <name>HCF_Deactive_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Healthcare Facility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.ShippingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <description>This rule will populate the deactivate date when the inactive check box is turned on</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mailing Address copy to Shipping Address</fullName>
+        <actions>
+            <name>Update_Shipping_Country_to_Mailing_Count</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Shipping_State_to_Mailing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.PersonMailingCountry</field>
+            <operation>equals</operation>
+            <value>AU,NZ,TW,HK,IN,SG,MY,CN,TH,KR</value>
+        </criteriaItems>
+        <description>When creating account sharing rules, it is not possible to set the criteria for the share based off of particular person account fields(eg: Mailing/office country).This workflow copies a person account address to standard account address field</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mark HCF Active</fullName>
+        <actions>
+            <name>Check_HCF_Active_Status_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Healthcare Facility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Status__c</field>
+            <operation>equals</operation>
+            <value>G,A</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.ShippingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <description>Mark HCF as Active when Status flag field coming from ETL is A OR G(Active)</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mark HCF Inactive</fullName>
+        <actions>
+            <name>Check_HCF_Inactive_Status_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Healthcare Facility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Status__c</field>
+            <operation>equals</operation>
+            <value>I</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.ShippingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <description>Mark HCF as Inactive when Status flag field coming from ETL is I (inactive)</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync False - BA</fullName>
+        <actions>
+            <name>Do_Not_Sync_BA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>(  AND ( BillingCountry = &quot;US&quot; , OR(  RecordTypeId = &quot;012800000003ZxK&quot;,  RecordTypeId = &quot;012800000002ByT&quot;,  RecordTypeId = &quot;012800000002AW5&quot;,  RecordTypeId = &quot;012800000002Bz9&quot;  ))  )  ||  AND ( NOT(ISBLANK(BillingCountry)),  RecordTypeId = &quot;01280000000Q0kc&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync False Phy</fullName>
+        <actions>
+            <name>Do_Not_Sync_PHY_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND  (BillingCountry = &quot;US&quot; ,  NOT(ISBLANK( PersonEmail )),  RecordTypeId = &quot;012800000002C4g&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync True PHY</fullName>
+        <actions>
+            <name>Do_Not_Sync_True_PHY</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>(AND( RecordTypeId = &quot;012800000002C4g&quot;, OR ( ISBLANK( PersonEmail ), ISBLANK( BillingCountry ), BillingCountry &lt;&gt; &quot;US&quot;))) || RecordTypeId=&quot;012800000003YfK&quot; || RecordTypeId= &quot;0123b000000IKQL&quot;</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync True- BA</fullName>
+        <actions>
+            <name>Do_Not_Sync_True_BA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(  ISBLANK(BillingCountry),  OR(RecordTypeId &lt;&gt; &quot;012800000003ZxK&quot;,  RecordTypeId &lt;&gt; &quot;012800000002ByT&quot;,  RecordTypeId &lt;&gt; &quot;012800000002AW5&quot;,  RecordTypeId &lt;&gt; &quot;012800000002Bz9&quot;,  RecordTypeId &lt;&gt; &quot;01280000000Q0kc&quot;))  || ISBLANK (BillingCountry)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify validation requestor</fullName>
+        <actions>
+            <name>Validation_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Validation_Requested__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Physician,Fellow,Resident</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Requester_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Person Mailing Address copy to Shipping Address- US %28Phy and Phy Proc%29</fullName>
+        <actions>
+            <name>Update_Shipping_City_to_Mailing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Shipping_Country_to_Mailing_Count</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Shipping_Postal_Code_to_Mailing</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Shipping_State_to_Mailing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Shipping_Street_to_Mailing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.PersonMailingCountry</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+        <description>When creating account sharing rules, it is not possible to set the criteria for the share based off of particular person account fields(eg: Mailing/office country).This workflow copies a person account address to standard account address field</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Physician Validation requested checked</fullName>
+        <actions>
+            <name>Mark_Validation_requested_checked</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This rule Validation requested checked when the account record is edited by someone other than the Data Administrator, and the key fields identified are changed by the user.</description>
+        <formula>AND (  RecordTypeId = &quot;012800000002C4g&quot;, $Profile.Id &lt;&gt;&quot;00e80000001SQMI&quot;, PersonMailingCountry = &quot;US&quot;,  OR (   ISCHANGED( PersonMailingStreet ) ||  ISCHANGED( PersonMailingCity ) ||  ISCHANGED( PersonMailingState ) ||  ISCHANGED( PersonMailingPostalCode ) ||  ISCHANGED( PersonMailingCountry ) ||    ISCHANGED( FirstName ) ||  ISCHANGED( LastName ) ||  ISCHANGED( NPI__c ) ||  ISNEW() ||  ISCHANGED( MiddleName ) ||  ISCHANGED( Suffix ) ||   ISCHANGED( Preferred_Name__c ) ||  ISCHANGED( Other_Name__pc ) ||  ISCHANGED( Office_Name__pc ) ||  ISCHANGED( External_ID__c ) ||  ISCHANGED( MDM_SAP_ID__c ) ||  ISCHANGED( Deactive_Date__c ) ||  ISCHANGED( Refer_To__c ) ||  ISCHANGED( Provider_s_DEA_Number__c ) ||  ISCHANGED( DEA_Exp_Date__c )   )	 )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Physician Validation requested field checked</fullName>
+        <actions>
+            <name>Mark_Validation_requested_checked</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>If a physician record is Created or modified (for any keyword like first &amp; last name, NPI,mailing address) via  any user manually or through Integration or converted from Lead, then automatically check the validation requested checkbox.</description>
+        <formula>AND( 
+RecordTypeId = &quot;012800000002C4g&quot;, 
+OR( 
+ISCHANGED( PersonMailingStreet ) || ISCHANGED( PersonMailingCity ) || ISCHANGED( PersonMailingState ) || ISCHANGED( PersonMailingPostalCode ) || ISCHANGED( PersonMailingCountry ) || ISCHANGED( FirstName ) || ISCHANGED( LastName ) ||ISCHANGED( NPI__c ) || ISNEW() 
+) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Surgeon Inactive Rule</fullName>
+        <actions>
+            <name>DeActive_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.IsPersonAccount</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Physician,Resident,Fellow,Physician(Processing),Fellow(Processing),Resident(Processing)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PersonMailingCountry</field>
+            <operation>equals</operation>
+            <value>US,VI,PR,BM,GU</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Requester Email</fullName>
+        <actions>
+            <name>Update_Requester_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( Validation_Requested__c=True, $User.ProfileId&lt;&gt;&quot;00e80000001SQMI&quot;, OR( RecordTypeId=&quot;012800000002C4g&quot;, RecordTypeId=&quot;012800000003YRm&quot;, RecordTypeId=&apos;012800000003YRc&apos;, RecordTypeId=&apos;012800000003YRh&apos;) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Validation Last Requested Date</fullName>
+        <actions>
+            <name>Validation_Last_Requested_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(AND(OR(RecordType.Id = &apos;012800000003YRm&apos;, RecordType.Id = &apos;012800000002C4g&apos;,RecordType.Id =&apos;012800000003YRh&apos;,RecordType.Id =&apos;012800000003YRc&apos;), AND(PRIORVALUE( Validation_Requested__c ) = false, Validation_Requested__c = true)), AND(OR(RecordType.Id = &apos;012800000003YRm&apos;, RecordType.Id = &apos;012800000002C4g&apos;,RecordType.Id =&apos;012800000003YRh&apos;,RecordType.Id =&apos;012800000003YRc&apos;), AND( ISNEW() , Validation_Requested__c = true)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Validation Requested Checked</fullName>
+        <actions>
+            <name>Validation_Requested_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>AM-US-DCO</value>
+        </criteriaItems>
+        <description>Automatically checks the Validation Requested field on account, if a record is created or edited by the user of AM-US-DCO profile.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

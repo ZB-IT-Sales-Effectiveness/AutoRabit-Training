@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Klik dit veld aan als het event/taak betrekking heeft op de hele maatschap en niet alleen de contactpersoon die is ingevuld. --></help>
+    <label><!-- Betreft maatschap --></label>
+    <name>Betreft_maatschap__c</name>
+</CustomFieldTranslation>

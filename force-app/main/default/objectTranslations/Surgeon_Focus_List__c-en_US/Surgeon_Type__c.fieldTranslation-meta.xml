@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon Type --></label>
+    <name>Surgeon_Type__c</name>
+    <picklistValues>
+        <masterLabel>CMF Surgeon</masterLabel>
+        <translation><!-- CMF Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DPM</masterLabel>
+        <translation><!-- DPM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ortho Surgeon</masterLabel>
+        <translation><!-- Ortho Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Non-Ortho Surgeon</masterLabel>
+        <translation><!-- Other Non-Ortho Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Surgeon</masterLabel>
+        <translation><!-- Spine Surgeon --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

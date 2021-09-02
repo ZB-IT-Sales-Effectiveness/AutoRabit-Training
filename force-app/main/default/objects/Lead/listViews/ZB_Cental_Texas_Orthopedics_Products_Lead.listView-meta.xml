@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Cental_Texas_Orthopedics_Products_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB Cental Texas Orthopedics Products</label>
+    <language>en_US</language>
+    <queue>ZB_Cental_Texas_Orthopedics_Products</queue>
+    <sharedTo>
+        <group>ZB_Central_Texas_Orthopedics_Products</group>
+    </sharedTo>
+</ListView>

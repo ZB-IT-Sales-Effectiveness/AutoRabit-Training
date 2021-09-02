@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_US_Service_Desk_not_able_to_create_Us</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+OR($Profile.Id=&quot;00eC0000001SlCf&quot;))</errorConditionFormula>
+    <errorMessage>You are not able to create new user&apos;s.</errorMessage>
+</ValidationRule>

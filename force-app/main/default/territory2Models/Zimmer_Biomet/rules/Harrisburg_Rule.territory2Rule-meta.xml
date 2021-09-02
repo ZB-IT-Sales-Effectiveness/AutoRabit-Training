@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <name>Harrisburg Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>001130,001330,006700,007499,007978,014155,015585,015661,015719,018478,023378,025158,027001,027905,029909,030205,030259,030606,031179,032632,035545,036981,040185,046885,050181,053475,054675,055416,057321,058188,059657,060409,061189,062660,065706,066030,066031,069555,071260,073151,073305,073512,079195,079251,080159,080282,085268,085288,085423,086560,088061,088367,088385,090999,092145,092753,093628,094022,095240,095422,097772,097773,097774,098138,099520,101795,107582,108462,109386</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

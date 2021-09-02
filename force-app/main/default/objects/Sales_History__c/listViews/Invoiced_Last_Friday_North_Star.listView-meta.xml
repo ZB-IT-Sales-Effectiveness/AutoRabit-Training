@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Last_Friday_North_Star</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>Salesperson_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1058,1104,1106,1107,1108,1109</value>
+    </filters>
+    <filters>
+        <field>Invoiced_Last_Friday__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Invoiced Last Friday North Star</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CEN_CL_NS_DDSS</group>
+        <group>DN_USA_Canada_ISR</group>
+        <group>DN_USA_Chicago_Land_NS_Regen</group>
+    </sharedTo>
+</ListView>

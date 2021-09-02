@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Own_Designation__c</fullName>
+    <externalId>false</externalId>
+    <label>Zimmer Bezeichnung</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Subgroup__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agenda</fullName>
+                <default>false</default>
+                <label>Agenda</label>
+            </value>
+            <value>
+                <fullName>Allegretto</fullName>
+                <default>false</default>
+                <label>Allegretto</label>
+            </value>
+            <value>
+                <fullName>Allgemeine Instrumente</fullName>
+                <default>false</default>
+                <label>Allgemeine Instrumente</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Pfanne</fullName>
+                <default>false</default>
+                <label>Alloclassic Pfanne</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Schaft</fullName>
+                <default>false</default>
+                <label>Alloclassic Schaft</label>
+            </value>
+            <value>
+                <fullName>Allofit</fullName>
+                <default>false</default>
+                <label>Allofit</label>
+            </value>
+            <value>
+                <fullName>Anatomical</fullName>
+                <default>false</default>
+                <label>Anatomical</label>
+            </value>
+            <value>
+                <fullName>Astrid Fusssystem</fullName>
+                <default>false</default>
+                <label>Astrid Fusssystem</label>
+            </value>
+            <value>
+                <fullName>ATS 1200</fullName>
+                <default>false</default>
+                <label>ATS 1200</label>
+            </value>
+            <value>
+                <fullName>ATS 3000</fullName>
+                <default>false</default>
+                <label>ATS 3000</label>
+            </value>
+            <value>
+                <fullName>Avenir</fullName>
+                <default>false</default>
+                <label>Avenir</label>
+            </value>
+            <value>
+                <fullName>Batory</fullName>
+                <default>false</default>
+                <label>Batory</label>
+            </value>
+            <value>
+                <fullName>Biolox forte</fullName>
+                <default>false</default>
+                <label>Biolox forte</label>
+            </value>
+            <value>
+                <fullName>Bioplug bioresorb.</fullName>
+                <default>false</default>
+                <label>Bioplug bioresorb.</label>
+            </value>
+            <value>
+                <fullName>Bipolar AP</fullName>
+                <default>false</default>
+                <label>Bipolar AP</label>
+            </value>
+            <value>
+                <fullName>Brunswick</fullName>
+                <default>false</default>
+                <label>Brunswick</label>
+            </value>
+            <value>
+                <fullName>Burch-Schneider</fullName>
+                <default>false</default>
+                <label>Burch-Schneider</label>
+            </value>
+            <value>
+                <fullName>Cable Ready</fullName>
+                <default>false</default>
+                <label>Cable Ready</label>
+            </value>
+            <value>
+                <fullName>CDH 22mm</fullName>
+                <default>false</default>
+                <label>CDH 22mm</label>
+            </value>
+            <value>
+                <fullName>Cement</fullName>
+                <default>false</default>
+                <label>Cement</label>
+            </value>
+            <value>
+                <fullName>Cemlock</fullName>
+                <default>false</default>
+                <label>Cemlock</label>
+            </value>
+            <value>
+                <fullName>Cerasul</fullName>
+                <default>false</default>
+                <label>Cerasul</label>
+            </value>
+            <value>
+                <fullName>CLS Schaft</fullName>
+                <default>false</default>
+                <label>CLS Schaft</label>
+            </value>
+            <value>
+                <fullName>CLS-Spreizschale</fullName>
+                <default>false</default>
+                <label>CLS-Spreizschale</label>
+            </value>
+            <value>
+                <fullName>Copi OS</fullName>
+                <default>false</default>
+                <label>Copi OS</label>
+            </value>
+            <value>
+                <fullName>CSF-Gamma Pfanne</fullName>
+                <default>false</default>
+                <label>CSF-Gamma Pfanne</label>
+            </value>
+            <value>
+                <fullName>Cuffs - Disposable</fullName>
+                <default>false</default>
+                <label>Cuffs - Disposable</label>
+            </value>
+            <value>
+                <fullName>Cuffs - Reusable</fullName>
+                <default>false</default>
+                <label>Cuffs - Reusable</label>
+            </value>
+            <value>
+                <fullName>DSP</fullName>
+                <default>false</default>
+                <label>DSP</label>
+            </value>
+            <value>
+                <fullName>DTO Implantat</fullName>
+                <default>false</default>
+                <label>DTO Implantat</label>
+            </value>
+            <value>
+                <fullName>Durasul 36</fullName>
+                <default>false</default>
+                <label>Durasul 36</label>
+            </value>
+            <value>
+                <fullName>Durasul P20</fullName>
+                <default>false</default>
+                <label>Durasul P20</label>
+            </value>
+            <value>
+                <fullName>Durchbohrte Schrauben</fullName>
+                <default>false</default>
+                <label>Durchbohrte Schrauben</label>
+            </value>
+            <value>
+                <fullName>Durom</fullName>
+                <default>false</default>
+                <label>Durom</label>
+            </value>
+            <value>
+                <fullName>Durom Acetabular Comp</fullName>
+                <default>false</default>
+                <label>Durom Acetabular Comp</label>
+            </value>
+            <value>
+                <fullName>Durom Large Diameter Head</fullName>
+                <default>false</default>
+                <label>Durom Large Diameter Head</label>
+            </value>
+            <value>
+                <fullName>Durom Resurfacing</fullName>
+                <default>false</default>
+                <label>Durom Resurfacing</label>
+            </value>
+            <value>
+                <fullName>Dynardi</fullName>
+                <default>false</default>
+                <label>Dynardi</label>
+            </value>
+            <value>
+                <fullName>Dynesys</fullName>
+                <default>false</default>
+                <label>Dynesys</label>
+            </value>
+            <value>
+                <fullName>Emeraude HA_unzementiert</fullName>
+                <default>false</default>
+                <label>Emeraude HA_unzementiert</label>
+            </value>
+            <value>
+                <fullName>Emeraude zementiert</fullName>
+                <default>false</default>
+                <label>Emeraude zementiert</label>
+            </value>
+            <value>
+                <fullName>Exafit Schaft zementiert</fullName>
+                <default>false</default>
+                <label>Exafit Schaft zementiert</label>
+            </value>
+            <value>
+                <fullName>Fitmore</fullName>
+                <default>false</default>
+                <label>Fitmore</label>
+            </value>
+            <value>
+                <fullName>Flachprofil Durasul</fullName>
+                <default>false</default>
+                <label>Flachprofil Durasul</label>
+            </value>
+            <value>
+                <fullName>Flachprofil Metasul</fullName>
+                <default>false</default>
+                <label>Flachprofil Metasul</label>
+            </value>
+            <value>
+                <fullName>Flachprofil-PE</fullName>
+                <default>false</default>
+                <label>Flachprofil-PE</label>
+            </value>
+            <value>
+                <fullName>Frakturkopf S 30</fullName>
+                <default>false</default>
+                <label>Frakturkopf S 30</label>
+            </value>
+            <value>
+                <fullName>Geradschaft Pt10</fullName>
+                <default>false</default>
+                <label>Geradschaft Pt10</label>
+            </value>
+            <value>
+                <fullName>Geradschaft S30 Eco</fullName>
+                <default>false</default>
+                <label>Geradschaft S30 Eco</label>
+            </value>
+            <value>
+                <fullName>Goonrad Morrey</fullName>
+                <default>false</default>
+                <label>Goonrad Morrey</label>
+            </value>
+            <value>
+                <fullName>Grossfragmente</fullName>
+                <default>false</default>
+                <label>Grossfragmente</label>
+            </value>
+            <value>
+                <fullName>GSB III Ellbogen</fullName>
+                <default>false</default>
+                <label>GSB III Ellbogen</label>
+            </value>
+            <value>
+                <fullName>Hemiprothese</fullName>
+                <default>false</default>
+                <label>Hemiprothese</label>
+            </value>
+            <value>
+                <fullName>Hope</fullName>
+                <default>false</default>
+                <label>Hope</label>
+            </value>
+            <value>
+                <fullName>HTO</fullName>
+                <default>false</default>
+                <label>HTO</label>
+            </value>
+            <value>
+                <fullName>Innex</fullName>
+                <default>false</default>
+                <label>Innex</label>
+            </value>
+            <value>
+                <fullName>Intrasys Marknagelsys</fullName>
+                <default>false</default>
+                <label>Intrasys Marknagelsys</label>
+            </value>
+            <value>
+                <fullName>Kleinfragmente</fullName>
+                <default>false</default>
+                <label>Kleinfragmente</label>
+            </value>
+            <value>
+                <fullName>Konusprothese</fullName>
+                <default>false</default>
+                <label>Konusprothese</label>
+            </value>
+            <value>
+                <fullName>LOR</fullName>
+                <default>false</default>
+                <label>LOR</label>
+            </value>
+            <value>
+                <fullName>M/L Taper</fullName>
+                <default>false</default>
+                <label>M/L Taper</label>
+            </value>
+            <value>
+                <fullName>Meshgraft</fullName>
+                <default>false</default>
+                <label>Meshgraft</label>
+            </value>
+            <value>
+                <fullName>Metabloc unzementiert</fullName>
+                <default>false</default>
+                <label>Metabloc unzementiert</label>
+            </value>
+            <value>
+                <fullName>Metabloc zementiert</fullName>
+                <default>false</default>
+                <label>Metabloc zementiert</label>
+            </value>
+            <value>
+                <fullName>Metasul P 21 WF</fullName>
+                <default>false</default>
+                <label>Metasul P 21 WF</label>
+            </value>
+            <value>
+                <fullName>Mixing Bowl</fullName>
+                <default>false</default>
+                <label>Mixing Bowl</label>
+            </value>
+            <value>
+                <fullName>Modular-Bipolar PTK</fullName>
+                <default>false</default>
+                <label>Modular-Bipolar PTK</label>
+            </value>
+            <value>
+                <fullName>MS-30</fullName>
+                <default>false</default>
+                <label>MS-30</label>
+            </value>
+            <value>
+                <fullName>NCB Femur</fullName>
+                <default>false</default>
+                <label>NCB Femur</label>
+            </value>
+            <value>
+                <fullName>NCB Humerus</fullName>
+                <default>false</default>
+                <label>NCB Humerus</label>
+            </value>
+            <value>
+                <fullName>NCB Tibia</fullName>
+                <default>false</default>
+                <label>NCB Tibia</label>
+            </value>
+            <value>
+                <fullName>NexGen</fullName>
+                <default>false</default>
+                <label>NexGen</label>
+            </value>
+            <value>
+                <fullName>NK II</fullName>
+                <default>false</default>
+                <label>NK II</label>
+            </value>
+            <value>
+                <fullName>Optan unzementiert</fullName>
+                <default>false</default>
+                <label>Optan unzementiert</label>
+            </value>
+            <value>
+                <fullName>Optima ZS</fullName>
+                <default>false</default>
+                <label>Optima ZS</label>
+            </value>
+            <value>
+                <fullName>Peri Locking</fullName>
+                <default>false</default>
+                <label>Peri Locking</label>
+            </value>
+            <value>
+                <fullName>PE Stühmer/Weber</fullName>
+                <default>false</default>
+                <label>PE Stühmer/Weber</label>
+            </value>
+            <value>
+                <fullName>Pfannendach mit Haken</fullName>
+                <default>false</default>
+                <label>Pfannendach mit Haken</label>
+            </value>
+            <value>
+                <fullName>Pfannendach mit Lappe</fullName>
+                <default>false</default>
+                <label>Pfannendach mit Lappe</label>
+            </value>
+            <value>
+                <fullName>Pfannendachsch. MEM</fullName>
+                <default>false</default>
+                <label>Pfannendachsch. MEM</label>
+            </value>
+            <value>
+                <fullName>Plus</fullName>
+                <default>false</default>
+                <label>Plus</label>
+            </value>
+            <value>
+                <fullName>Plus AC</fullName>
+                <default>false</default>
+                <label>Plus AC</label>
+            </value>
+            <value>
+                <fullName>Posterior (ARAS)</fullName>
+                <default>false</default>
+                <label>Posterior (ARAS)</label>
+            </value>
+            <value>
+                <fullName>PowerTools</fullName>
+                <default>false</default>
+                <label>PowerTools</label>
+            </value>
+            <value>
+                <fullName>Preisliste für Endoprothetik</fullName>
+                <default>false</default>
+                <label>Preisliste für Endoprothetik</label>
+            </value>
+            <value>
+                <fullName>Preisliste für Spine</fullName>
+                <default>false</default>
+                <label>Preisliste für Spine</label>
+            </value>
+            <value>
+                <fullName>Preisliste für Traumatologie</fullName>
+                <default>false</default>
+                <label>Preisliste für Traumatologie</label>
+            </value>
+            <value>
+                <fullName>Preisliste in Excel</fullName>
+                <default>false</default>
+                <label>Preisliste in Excel</label>
+            </value>
+            <value>
+                <fullName>Preisliste in PDF-Form</fullName>
+                <default>false</default>
+                <label>Preisliste in PDF-Form</label>
+            </value>
+            <value>
+                <fullName>Preisliste OSP</fullName>
+                <default>false</default>
+                <label>Preisliste OSP</label>
+            </value>
+            <value>
+                <fullName>Press-Fit cup Metasul</fullName>
+                <default>false</default>
+                <label>Press-Fit cup Metasul</label>
+            </value>
+            <value>
+                <fullName>Press-Fit cup PE</fullName>
+                <default>false</default>
+                <label>Press-Fit cup PE</label>
+            </value>
+            <value>
+                <fullName>ProNews</fullName>
+                <default>false</default>
+                <label>ProNews</label>
+            </value>
+            <value>
+                <fullName>Protasul S 30</fullName>
+                <default>false</default>
+                <label>Protasul S 30</label>
+            </value>
+            <value>
+                <fullName>Revisal M-Schaft</fullName>
+                <default>false</default>
+                <label>Revisal M-Schaft</label>
+            </value>
+            <value>
+                <fullName>Revitan</fullName>
+                <default>false</default>
+                <label>Revitan</label>
+            </value>
+            <value>
+                <fullName>RHK</fullName>
+                <default>false</default>
+                <label>RHK</label>
+            </value>
+            <value>
+                <fullName>SAL</fullName>
+                <default>false</default>
+                <label>SAL</label>
+            </value>
+            <value>
+                <fullName>Schule - Basel</fullName>
+                <default>false</default>
+                <label>Schule - Basel</label>
+            </value>
+            <value>
+                <fullName>Schule - Bern</fullName>
+                <default>false</default>
+                <label>Schule - Bern</label>
+            </value>
+            <value>
+                <fullName>Schule - Genf</fullName>
+                <default>false</default>
+                <label>Schule - Genf</label>
+            </value>
+            <value>
+                <fullName>Schule - Lausanne</fullName>
+                <default>false</default>
+                <label>Schule - Lausanne</label>
+            </value>
+            <value>
+                <fullName>Schule - Zürich</fullName>
+                <default>false</default>
+                <label>Schule - Zürich</label>
+            </value>
+            <value>
+                <fullName>Silhouette</fullName>
+                <default>false</default>
+                <label>Silhouette</label>
+            </value>
+            <value>
+                <fullName>Sirus Marknagel Femur</fullName>
+                <default>false</default>
+                <label>Sirus Marknagel Femur</label>
+            </value>
+            <value>
+                <fullName>Sirus Marknagel Tibia</fullName>
+                <default>false</default>
+                <label>Sirus Marknagel Tibia</label>
+            </value>
+            <value>
+                <fullName>SL-Titanschale II</fullName>
+                <default>false</default>
+                <label>SL-Titanschale II</label>
+            </value>
+            <value>
+                <fullName>Sport - Golf</fullName>
+                <default>false</default>
+                <label>Sport - Golf</label>
+            </value>
+            <value>
+                <fullName>Sulox forte</fullName>
+                <default>false</default>
+                <label>Sulox forte</label>
+            </value>
+            <value>
+                <fullName>SynPlug bioresorb.</fullName>
+                <default>false</default>
+                <label>SynPlug bioresorb.</label>
+            </value>
+            <value>
+                <fullName>TM Augments</fullName>
+                <default>false</default>
+                <label>TM Augments</label>
+            </value>
+            <value>
+                <fullName>TM Cage</fullName>
+                <default>false</default>
+                <label>TM Cage</label>
+            </value>
+            <value>
+                <fullName>TM Modular Pfanne</fullName>
+                <default>false</default>
+                <label>TM Modular Pfanne</label>
+            </value>
+            <value>
+                <fullName>Trilogy</fullName>
+                <default>false</default>
+                <label>Trilogy</label>
+            </value>
+            <value>
+                <fullName>Trinica Select</fullName>
+                <default>false</default>
+                <label>Trinica Select</label>
+            </value>
+            <value>
+                <fullName>Triosite</fullName>
+                <default>false</default>
+                <label>Triosite</label>
+            </value>
+            <value>
+                <fullName>TroFix</fullName>
+                <default>false</default>
+                <label>TroFix</label>
+            </value>
+            <value>
+                <fullName>Variall-Pfanne</fullName>
+                <default>false</default>
+                <label>Variall-Pfanne</label>
+            </value>
+            <value>
+                <fullName>Variall Schaft</fullName>
+                <default>false</default>
+                <label>Variall Schaft</label>
+            </value>
+            <value>
+                <fullName>Virtec</fullName>
+                <default>false</default>
+                <label>Virtec</label>
+            </value>
+            <value>
+                <fullName>Vollprofil-Pfanne</fullName>
+                <default>false</default>
+                <label>Vollprofil-Pfanne</label>
+            </value>
+            <value>
+                <fullName>Wagner SL Rev.schaft</fullName>
+                <default>false</default>
+                <label>Wagner SL Rev.schaft</label>
+            </value>
+            <value>
+                <fullName>Wallaby</fullName>
+                <default>false</default>
+                <label>Wallaby</label>
+            </value>
+            <value>
+                <fullName>Weber Pfanne</fullName>
+                <default>false</default>
+                <label>Weber Pfanne</label>
+            </value>
+            <value>
+                <fullName>Weber Schaft zementiert</fullName>
+                <default>false</default>
+                <label>Weber Schaft zementiert</label>
+            </value>
+            <value>
+                <fullName>Weihnachtskarte Persönlich</fullName>
+                <default>false</default>
+                <label>Weihnachtskarte Persönlich</label>
+            </value>
+            <value>
+                <fullName>Weihnachtskarte Versand</fullName>
+                <default>false</default>
+                <label>Weihnachtskarte Versand</label>
+            </value>
+            <value>
+                <fullName>Zemspritze</fullName>
+                <default>false</default>
+                <label>Zemspritze</label>
+            </value>
+            <value>
+                <fullName>ZUK</fullName>
+                <default>false</default>
+                <label>ZUK</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <valueName>Copi OS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <valueName>Triosite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Agenda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Hope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>ProNews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Schule - Basel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Schule - Bern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Schule - Genf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Schule - Lausanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Schule - Zürich</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Sport - Golf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Weihnachtskarte Persönlich</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <valueName>Weihnachtskarte Versand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste für Endoprothetik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste für Spine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste für Traumatologie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste in Excel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste in PDF-Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <valueName>Preisliste OSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <valueName>Posterior (ARAS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <valueName>Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <valueName>Plus AC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <valueName>ATS 1200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <valueName>ATS 3000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <valueName>Cuffs - Disposable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <valueName>Cuffs - Reusable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <valueName>Cement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <valueName>Mixing Bowl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <valueName>Meshgraft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Batory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Biolox forte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Bipolar AP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Cerasul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Durasul 36</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Durasul P20</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Durom Large Diameter Head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Frakturkopf S 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Metasul P 21 WF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Modular-Bipolar PTK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Protasul S 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <valueName>Sulox forte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <valueName>Bioplug bioresorb.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <valueName>Cemlock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <valueName>PE Stühmer/Weber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <valueName>SynPlug bioresorb.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Alloclassic Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Allofit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Brunswick</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Burch-Schneider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>CLS-Spreizschale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>CSF-Gamma Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Durom Acetabular Comp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Fitmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Flachprofil Durasul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Flachprofil Metasul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Flachprofil-PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>LOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Pfannendach mit Haken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Pfannendach mit Lappe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Pfannendachsch. MEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Press-Fit cup Metasul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Press-Fit cup PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>SL-Titanschale II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>TM Augments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>TM Modular Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Trilogy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Variall-Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Vollprofil-Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <valueName>Weber Pfanne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Alloclassic Schaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Avenir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>CDH 22mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>CLS Schaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>DSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Durom Resurfacing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Emeraude HA_unzementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Emeraude zementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Exafit Schaft zementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Geradschaft Pt10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Geradschaft S30 Eco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Hemiprothese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Konusprothese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>M/L Taper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Metabloc unzementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Metabloc zementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>MS-30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Optan unzementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Revisal M-Schaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Revitan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Variall Schaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Virtec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Wagner SL Rev.schaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <valueName>Weber Schaft zementiert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>Allegretto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>HTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>Innex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>NexGen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>NK II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>RHK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>SAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>Wallaby</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <valueName>ZUK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <valueName>Anatomical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <valueName>Durom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <valueName>Goonrad Morrey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <valueName>GSB III Ellbogen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <valueName>Zemspritze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <valueName>Optima ZS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <valueName>Silhouette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <valueName>TM Cage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <valueName>Trinica Select</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <valueName>Dynardi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <valueName>Dynesys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>PowerTools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Allgemeine Instrumente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Astrid Fusssystem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cable Ready</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Durchbohrte Schrauben</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Grossfragmente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Intrasys Marknagelsys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Kleinfragmente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>NCB Femur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>NCB Humerus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>NCB Tibia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Peri Locking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Sirus Marknagel Femur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Sirus Marknagel Tibia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>TroFix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transition</controllingFieldValue>
+            <valueName>DTO Implantat</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

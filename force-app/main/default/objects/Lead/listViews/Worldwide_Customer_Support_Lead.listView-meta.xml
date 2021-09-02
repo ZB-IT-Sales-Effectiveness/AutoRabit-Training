@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Worldwide_Customer_Support_Lead</fullName>
+    <booleanFilter>((1 AND 2) OR 3) AND 4</booleanFilter>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Source_Details__c</columns>
+    <columns>Primary_Country__c</columns>
+    <columns>Page_Tittle__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>Web Requests</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>ZUK Support</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>contains</operation>
+        <value>Distributor Site - Schedule a Visit</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Opt In</value>
+    </filters>
+    <label>Worldwide Customer Support Lead</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Worldwide_Customer_Support</group>
+    </sharedTo>
+</ListView>

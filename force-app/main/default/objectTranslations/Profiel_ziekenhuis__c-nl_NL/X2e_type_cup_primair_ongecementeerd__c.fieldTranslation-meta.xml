@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type cup primair ongecementeerd --></label>
+    <name>X2e_type_cup_primair_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>ABG cup</masterLabel>
+        <translation><!-- ABG cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allofit</masterLabel>
+        <translation><!-- Allofit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allofit IT</masterLabel>
+        <translation><!-- Allofit IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avantage</masterLabel>
+        <translation><!-- Avantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beta cup</masterLabel>
+        <translation><!-- Beta cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bicon cup</masterLabel>
+        <translation><!-- Bicon cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bionik</masterLabel>
+        <translation><!-- Bionik --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS expansie cup</masterLabel>
+        <translation><!-- CLS expansie cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSF cup</masterLabel>
+        <translation><!-- CSF cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cementless screw in</masterLabel>
+        <translation><!-- Cementless screw in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceracup</masterLabel>
+        <translation><!-- Ceracup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuum</masterLabel>
+        <translation><!-- Continuum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Converse</masterLabel>
+        <translation><!-- Converse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duraloc</masterLabel>
+        <translation><!-- Duraloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom LDH</masterLabel>
+        <translation><!-- Durom LDH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynasty</masterLabel>
+        <translation><!-- Dynasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EP fit</masterLabel>
+        <translation><!-- EP fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exceed</masterLabel>
+        <translation><!-- Exceed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ExpanSys</masterLabel>
+        <translation><!-- ExpanSys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore</masterLabel>
+        <translation><!-- Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gladiator (bipolair)</masterLabel>
+        <translation><!-- Gladiator (bipolair) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gription</masterLabel>
+        <translation><!-- Gription --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hofer imhoff</masterLabel>
+        <translation><!-- Hofer imhoff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lineage</masterLabel>
+        <translation><!-- Lineage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M2a</masterLabel>
+        <translation><!-- M2a --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mallory head</masterLabel>
+        <translation><!-- Mallory head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxera</masterLabel>
+        <translation><!-- Maxera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteonics cup</masterLabel>
+        <translation><!-- Osteonics cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pinnacle</masterLabel>
+        <translation><!-- Pinnacle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RM Classic</masterLabel>
+        <translation><!-- RM Classic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RM press fit</masterLabel>
+        <translation><!-- RM press fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reflection</masterLabel>
+        <translation><!-- Reflection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SeleXys</masterLabel>
+        <translation><!-- SeleXys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Monoblock</masterLabel>
+        <translation><!-- TM Monoblock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM modular</masterLabel>
+        <translation><!-- TM modular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOP</masterLabel>
+        <translation><!-- TOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trident cup</masterLabel>
+        <translation><!-- Trident cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trilogy cup</masterLabel>
+        <translation><!-- Trilogy cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tritanium Cup</masterLabel>
+        <translation><!-- Tritanium Cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ultamet</masterLabel>
+        <translation><!-- Ultamet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vario cup bipolair</masterLabel>
+        <translation><!-- Vario cup bipolair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vitek</masterLabel>
+        <translation><!-- Vitek --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

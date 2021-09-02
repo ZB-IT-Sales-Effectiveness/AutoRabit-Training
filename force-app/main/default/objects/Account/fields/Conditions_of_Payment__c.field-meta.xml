@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conditions_of_Payment__c</fullName>
+    <description>Allgemeine Zahlungsbedingungen, Zahlungsfrist und Skonto als Text</description>
+    <externalId>false</externalId>
+    <label>Zahlungsbedingungen-Schlüssel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Z006</fullName>
+                <default>true</default>
+                <label>Z006</label>
+            </value>
+            <value>
+                <fullName>Z010</fullName>
+                <default>false</default>
+                <label>Z010</label>
+            </value>
+            <value>
+                <fullName>Z015</fullName>
+                <default>false</default>
+                <label>Z015</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

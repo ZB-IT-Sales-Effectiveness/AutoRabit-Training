@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>T38 T0038 HOUSE REP (038) OPPORTUNITY</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>T38_T0038_HOUSE_REP_038</parentTerritory>
+    <territory2Type>US_Ortho</territory2Type>
+</Territory2>

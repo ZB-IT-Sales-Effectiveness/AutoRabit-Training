@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Mississippi Delta</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>142481,450193,383250,412505,254083,268147,459146,147794,382704,383061,383680,383709,422200,458596,365631,380912,102675,422484,383824,384738,448522,451511,120210,453014,374005,383067,384734,382880,153828,381136,453658,380911,387171,381387,380865,247895,403784,134094,315021,383219,384700,271610,383732,126521,256797,381353,169925,374309,422522,380864,374231,381153,332894,439774,365761,442151,381202,408260,420946,172405,381404,454328,383339,444870,454009,128352,114471,384475,374330,381039,386738,386782,281000,382867,422928,251181,456155,386684,383090,386798,338994,128687,126005,380776,114128,380947,113614,384637,167902,325805,236755,383827,459503,240510,348443,382714,374286,384608,387169,297435,354042,454137,181161,423323,384078,383712,427096,145720,135552,384888,381319,386893,438162,383286,100325,386662,395916,383695,384824,146971,392696,127414</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>418842,404336,381166,384704,387089,383910,446620,381038,173901,383033,380876,386968,364664,383858,353923,422703,381238,445887,412195,152421,104675,261466,380342,393141,374010,383733,135782,409679,120034,384090,384677,383183,389489,349751,383752,120019,362568,445127,384873,374287,166034,349511,382860,384604,248106,384837,336598,356684,386784,355857,381357,382895,384987,346156,232234,386746,422769,384079,384438,153481,381374,386802,346173,324444,381358,386832,421769,120038,447005,144753,380710,142838,386985,409370,348039,386668,396278,311280,430590,126398,142404,406084,383716,245661,383505,431866,126759,387024,424766,383493,113641,383890,382721,131368,406886,424840,357038,381259,334983,167334,391875,348931,131352,384486,386778,407226,335369,374216,384308,277613,381388,374007,126496,384895,382722,384643,382719,369723,383066,384732,342245,392532,384894,119891,382920,386915,124299,107833,110900,387204,128396,110985,253039,383092,231217,384642,383884,364949,442017,384767,308082</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 MSD</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emerging_Regenative_Tech_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Emerging Regenative Tech Used</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stem Cell</fullName>
+                <default>false</default>
+                <label>Stem Cell</label>
+            </value>
+            <value>
+                <fullName>Growth Factor</fullName>
+                <default>false</default>
+                <label>Growth Factor</label>
+            </value>
+            <value>
+                <fullName>Patient-Specific Products (3D Printing or Custom-Milled Grafts)</fullName>
+                <default>false</default>
+                <label>Patient-Specific Products (3D Printing or Custom-Milled Grafts)</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

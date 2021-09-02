@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- You are not able to create new user&apos;s. --></errorMessage>
+        <name>AM_US_Service_Desk_not_able_to_create_Us</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not able to reactivate this user. --></errorMessage>
+        <name>AM_US_Service_Desk_not_able_to_reactivat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit the following fields: First name, Last Name, Alias, Email, Company, Division, Region, Geography. --></errorMessage>
+        <name>Fields_no_permission_to_update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the correct format for suffix i.e, Jr.,Sr.,II,III,...... X --></errorMessage>
+        <name>Rule_for_the_standard_suffix</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone_User --></label>
+        <name>Clone_User</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Task_of_Legal_Notice --></label>
+        <name>New_Task_of_Legal_Notice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_User_Field_History --></label>
+        <name>USERHISTORY__View_User_Field_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Team --></label>
+        <name>Update_Team</name>
+    </webLinks>
+</CustomObjectTranslation>

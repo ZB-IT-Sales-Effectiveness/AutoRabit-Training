@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RSD_Regional_Sales_Director__c</fullName>
+    <externalId>false</externalId>
+    <label>RSD (Regional Sales Director)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sara Walma</fullName>
+                <default>false</default>
+                <label>Sara Walma</label>
+            </value>
+            <value>
+                <fullName>Adam Dutka</fullName>
+                <default>false</default>
+                <label>Adam Dutka</label>
+            </value>
+            <value>
+                <fullName>Bill McCarrick</fullName>
+                <default>false</default>
+                <label>Bill McCarrick</label>
+            </value>
+            <value>
+                <fullName>Scott Schwartz</fullName>
+                <default>false</default>
+                <label>Scott Schwartz</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

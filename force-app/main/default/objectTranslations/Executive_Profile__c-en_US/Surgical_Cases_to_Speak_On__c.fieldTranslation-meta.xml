@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgical Cases to Speak On --></label>
+    <name>Surgical_Cases_to_Speak_On__c</name>
+    <picklistValues>
+        <masterLabel>Anterior Aesthetics</masterLabel>
+        <translation><!-- Anterior Aesthetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Arch</masterLabel>
+        <translation><!-- Full Arch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multiple Unit</masterLabel>
+        <translation><!-- Multiple Unit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Interested</masterLabel>
+        <translation><!-- Not Interested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Tooth</masterLabel>
+        <translation><!-- Single Tooth --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

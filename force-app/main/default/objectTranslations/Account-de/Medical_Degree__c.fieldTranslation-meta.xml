@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the surgeon&apos;s medical degree --></help>
+    <label><!-- Medical Degree --></label>
+    <name>Medical_Degree__c</name>
+    <picklistValues>
+        <masterLabel>A.U.D.</masterLabel>
+        <translation><!-- A.U.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C.R.P.</masterLabel>
+        <translation><!-- C.R.P. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.D.M</masterLabel>
+        <translation><!-- D.D.M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.D.S.</masterLabel>
+        <translation><!-- D.D.S. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.M.D.</masterLabel>
+        <translation><!-- D.M.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.M.D., M.D.</masterLabel>
+        <translation><!-- D.M.D., M.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.O.</masterLabel>
+        <translation><!-- D.O. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.P.M.</masterLabel>
+        <translation><!-- D.P.M. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D.V.M</masterLabel>
+        <translation><!-- D.V.M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRACS</masterLabel>
+        <translation><!-- FRACS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRCS</masterLabel>
+        <translation><!-- FRCS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.D.</masterLabel>
+        <translation><!-- M.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.D., Ph.D.</masterLabel>
+        <translation><!-- M.D., Ph.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MB BS</masterLabel>
+        <translation><!-- MB BS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSc</masterLabel>
+        <translation><!-- MSc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N.P.</masterLabel>
+        <translation><!-- N.P. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O.D.</masterLabel>
+        <translation><!-- O.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P.A.</masterLabel>
+        <translation><!-- P.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P.H.R.</masterLabel>
+        <translation><!-- P.H.R. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P.S.Y.</masterLabel>
+        <translation><!-- P.S.Y. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ph.D.</masterLabel>
+        <translation><!-- Ph.D. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S.W.</masterLabel>
+        <translation><!-- S.W. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VM.D.</masterLabel>
+        <translation><!-- VM.D. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_cup_revisie_ongecementeerd__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type cup revisie ongecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_cup_revisie_ongecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Burchschneider</fullName>
+                <default>false</default>
+                <label>Burchschneider</label>
+            </value>
+            <value>
+                <fullName>ZCA Cage</fullName>
+                <default>false</default>
+                <label>ZCA Cage</label>
+            </value>
+            <value>
+                <fullName>Ganz ring</fullName>
+                <default>false</default>
+                <label>Ganz ring</label>
+            </value>
+            <value>
+                <fullName>Muller roof ring</fullName>
+                <default>false</default>
+                <label>Muller roof ring</label>
+            </value>
+            <value>
+                <fullName>TM Modular</fullName>
+                <default>false</default>
+                <label>TM Modular</label>
+            </value>
+            <value>
+                <fullName>Trilogy multi/cluster</fullName>
+                <default>false</default>
+                <label>Trilogy multi/cluster</label>
+            </value>
+            <value>
+                <fullName>Allofit S</fullName>
+                <default>false</default>
+                <label>Allofit S</label>
+            </value>
+            <value>
+                <fullName>TM revision</fullName>
+                <default>false</default>
+                <label>TM revision</label>
+            </value>
+            <value>
+                <fullName>Durom LDH</fullName>
+                <default>false</default>
+                <label>Durom LDH</label>
+            </value>
+            <value>
+                <fullName>Biomet cup</fullName>
+                <default>false</default>
+                <label>Biomet cup</label>
+            </value>
+            <value>
+                <fullName>Eska AC</fullName>
+                <default>false</default>
+                <label>Eska AC</label>
+            </value>
+            <value>
+                <fullName>Oblong</fullName>
+                <default>false</default>
+                <label>Oblong</label>
+            </value>
+            <value>
+                <fullName>Protusio cage</fullName>
+                <default>false</default>
+                <label>Protusio cage</label>
+            </value>
+            <value>
+                <fullName>S rom Oblong cup cage</fullName>
+                <default>false</default>
+                <label>S rom Oblong cup cage</label>
+            </value>
+            <value>
+                <fullName>Ultima reinforcement ring</fullName>
+                <default>false</default>
+                <label>Ultima reinforcement ring</label>
+            </value>
+            <value>
+                <fullName>Annanova</fullName>
+                <default>false</default>
+                <label>Annanova</label>
+            </value>
+            <value>
+                <fullName>Kerboull cross system</fullName>
+                <default>false</default>
+                <label>Kerboull cross system</label>
+            </value>
+            <value>
+                <fullName>Restoration gap cup</fullName>
+                <default>false</default>
+                <label>Restoration gap cup</label>
+            </value>
+            <value>
+                <fullName>Restoration gap ring</fullName>
+                <default>false</default>
+                <label>Restoration gap ring</label>
+            </value>
+            <value>
+                <fullName>Link Endo modell</fullName>
+                <default>false</default>
+                <label>Link Endo modell</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Burchschneider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZCA Cage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Ganz ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Muller roof ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>TM Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Trilogy multi/cluster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Allofit S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>TM revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Durom LDH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Biomet cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Eska AC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Oblong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Protusio cage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>S rom Oblong cup cage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Ultima reinforcement ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Annanova</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Kerboull cross system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Restoration gap cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Restoration gap ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Link Endo modell</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

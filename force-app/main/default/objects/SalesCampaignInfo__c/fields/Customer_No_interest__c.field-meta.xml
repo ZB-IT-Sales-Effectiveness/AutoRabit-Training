@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_No_interest__c</fullName>
+    <description>Customer has no need or no interest in this product</description>
+    <externalId>false</externalId>
+    <label>Kein Interesse</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>verwendet keine Cages</fullName>
+                <default>false</default>
+                <label>verwendet keine Cages</label>
+            </value>
+            <value>
+                <fullName>Instrumente sind schlecht</fullName>
+                <default>false</default>
+                <label>Instrumente sind schlecht</label>
+            </value>
+            <value>
+                <fullName>Implatation ist zu schwierig</fullName>
+                <default>false</default>
+                <label>Implatation ist zu schwierig</label>
+            </value>
+            <value>
+                <fullName>Implantat von Konkurrenz ist besser</fullName>
+                <default>false</default>
+                <label>Implantat von Konkurrenz ist besser</label>
+            </value>
+            <value>
+                <fullName>TM-Material überzeugt nicht</fullName>
+                <default>false</default>
+                <label>TM-Material überzeugt nicht</label>
+            </value>
+            <value>
+                <fullName>Konkurrenz-Set gekauft</fullName>
+                <default>false</default>
+                <label>Konkurrenz-Set gekauft</label>
+            </value>
+            <value>
+                <fullName>zu teuer</fullName>
+                <default>false</default>
+                <label>zu teuer</label>
+            </value>
+            <value>
+                <fullName>keine Entscheidungsbefugnis</fullName>
+                <default>false</default>
+                <label>keine Entscheidungsbefugnis</label>
+            </value>
+            <value>
+                <fullName>1-Absage</fullName>
+                <default>false</default>
+                <label>1-Absage</label>
+            </value>
+            <value>
+                <fullName>2-Zusage</fullName>
+                <default>false</default>
+                <label>2-Zusage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

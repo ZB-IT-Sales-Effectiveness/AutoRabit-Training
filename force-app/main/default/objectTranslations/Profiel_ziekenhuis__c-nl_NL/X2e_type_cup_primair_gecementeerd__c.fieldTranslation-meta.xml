@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type cup primair gecementeerd --></label>
+    <name>X2e_type_cup_primair_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>CCM</masterLabel>
+        <translation><!-- CCM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CS steel</masterLabel>
+        <translation><!-- CS steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSL steel</masterLabel>
+        <translation><!-- CSL steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC Minn Pedestal</masterLabel>
+        <translation><!-- MC Minn Pedestal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mueller ring</masterLabel>
+        <translation><!-- Mueller ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller</masterLabel>
+        <translation><!-- Muller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opera</masterLabel>
+        <translation><!-- Opera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reflection</masterLabel>
+        <translation><!-- Reflection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHP</masterLabel>
+        <translation><!-- SHP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spectron</masterLabel>
+        <translation><!-- Spectron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZCA</masterLabel>
+        <translation><!-- ZCA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

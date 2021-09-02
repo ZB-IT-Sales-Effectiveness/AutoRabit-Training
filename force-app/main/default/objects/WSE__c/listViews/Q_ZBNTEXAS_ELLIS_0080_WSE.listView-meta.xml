@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBNTEXAS_ELLIS_0080_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-NTEXAS (ELLIS) (0080) QUEUE</label>
+    <queue>Q_ZBNTEXAS_ELLIS_0080</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

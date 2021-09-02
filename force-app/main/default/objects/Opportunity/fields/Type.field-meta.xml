@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText>1.	Growth: Potential increase of sales/volume (new and existing customers)
+2.	Risk: Potential loss of future sales/volume (existing customers) 
+3.	Base: Historical 12 month sales/volume (existing customers)</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+</CustomField>

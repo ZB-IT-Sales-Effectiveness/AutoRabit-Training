@@ -1,0 +1,2475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Team Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>T0005 TEAM HAWAII</fullName>
+                <default>false</default>
+                <label>T0005 TEAM HAWAII</label>
+            </value>
+            <value>
+                <fullName>T0005 TEAM NORTH COUNTY</fullName>
+                <default>false</default>
+                <label>T0005 TEAM NORTH COUNTY</label>
+            </value>
+            <value>
+                <fullName>T0005 TEAM SAN DIEGO</fullName>
+                <default>false</default>
+                <label>T0005 TEAM SAN DIEGO</label>
+            </value>
+            <value>
+                <fullName>T0005 TEAM TRAUMA</fullName>
+                <default>false</default>
+                <label>T0005 TEAM TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM BUFFALO</fullName>
+                <default>false</default>
+                <label>T0007 TEAM BUFFALO</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM ELMIRA</fullName>
+                <default>false</default>
+                <label>T0007 TEAM ELMIRA</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM GENESEE</fullName>
+                <default>false</default>
+                <label>T0007 TEAM GENESEE</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM LEO</fullName>
+                <default>false</default>
+                <label>T0007 TEAM LEO</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM NIAGARA</fullName>
+                <default>false</default>
+                <label>T0007 TEAM NIAGARA</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM ROCHESTER</fullName>
+                <default>false</default>
+                <label>T0007 TEAM ROCHESTER</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM SAYRE</fullName>
+                <default>false</default>
+                <label>T0007 TEAM SAYRE</label>
+            </value>
+            <value>
+                <fullName>T0007 TEAM SOUTHERN TIER T07</fullName>
+                <default>false</default>
+                <label>T0007 TEAM SOUTHERN TIER T07</label>
+            </value>
+            <value>
+                <fullName>T0011TEAM ZB ABEL</fullName>
+                <default>false</default>
+                <label>T0011TEAM ZB ABEL</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB ALPHA</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB ALPHA</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB BLUE</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB BLUE</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB BRYNDAL</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB BRYNDAL</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB CARMEL</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB CARMEL</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB CLARK</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB CLARK</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB DOUGLASS</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB DOUGLASS</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB DOWNTOWN</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB DOWNTOWN</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB EAST</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB EAST</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB GREEN</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB GREEN</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB HAUTE</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB HAUTE</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB HERMAN</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB HERMAN</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB HUFFER</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB HUFFER</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB METRO</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB METRO</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB NORTHEAST</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB NORTHEAST</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB NORTHWEST</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB NORTHWEST</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB SOUTHWEST</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB SOUTHWEST</label>
+            </value>
+            <value>
+                <fullName>T0011 TEAM ZB WILLIAMS</fullName>
+                <default>false</default>
+                <label>T0011 TEAM ZB WILLIAMS</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM CINCI WEST</fullName>
+                <default>false</default>
+                <label>T0014 TEAM CINCI WEST</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM DAYTON</fullName>
+                <default>false</default>
+                <label>T0014 TEAM DAYTON</label>
+            </value>
+            <value>
+                <fullName>T0014_TEAM_DELTA</fullName>
+                <default>false</default>
+                <label>T0014 TEAM DELTA</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM KEELY-SARGENT</fullName>
+                <default>false</default>
+                <label>T0014 TEAM KEELY-SARGENT</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM SANSONE-ISAACK</fullName>
+                <default>false</default>
+                <label>T0014 TEAM SANSONE-ISAACK</label>
+            </value>
+            <value>
+                <fullName>T0014  TEAM SIFFORD-BARTON</fullName>
+                <default>false</default>
+                <label>T0014  TEAM SIFFORD-BARTON</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM SPRINGFIELD T14</fullName>
+                <default>false</default>
+                <label>T0014 TEAM SPRINGFIELD T14</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM WUNDER-SPRAGUE</fullName>
+                <default>false</default>
+                <label>T0014 TEAM WUNDER-SPRAGUE</label>
+            </value>
+            <value>
+                <fullName>T0014 TEAM ZB SOUTHWEST OHIO</fullName>
+                <default>false</default>
+                <label>T0014 TEAM ZB SOUTHWEST OHIO</label>
+            </value>
+            <value>
+                <fullName>T0015 TEAM ELKHART</fullName>
+                <default>false</default>
+                <label>T0015 TEAM ELKHART</label>
+            </value>
+            <value>
+                <fullName>T0015 TEAM LAKE</fullName>
+                <default>false</default>
+                <label>T0015 TEAM LAKE</label>
+            </value>
+            <value>
+                <fullName>T0015 TEAM PORTER</fullName>
+                <default>false</default>
+                <label>T0015 TEAM PORTER</label>
+            </value>
+            <value>
+                <fullName>T0015 TEAM SOUTH BEND</fullName>
+                <default>false</default>
+                <label>T0015 TEAM SOUTH BEND</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM ALBANY</fullName>
+                <default>false</default>
+                <label>T0016 TEAM ALBANY</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM AUGUSTA</fullName>
+                <default>false</default>
+                <label>T0016 TEAM AUGUSTA</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM CENTRAL GEORGIA</fullName>
+                <default>false</default>
+                <label>T0016 TEAM CENTRAL GEORGIA</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM HICKMAN/KING</fullName>
+                <default>false</default>
+                <label>T0016 TEAM HICKMAN/KING</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM SALT COAST</fullName>
+                <default>false</default>
+                <label>T0016 TEAM SALT COAST</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM SAVANNAH</fullName>
+                <default>false</default>
+                <label>T0016 TEAM SAVANNAH</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM TALLAHASSEE</fullName>
+                <default>false</default>
+                <label>T0016 TEAM TALLAHASSEE</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM THOMASVILLE</fullName>
+                <default>false</default>
+                <label>T0016 TEAM THOMASVILLE</label>
+            </value>
+            <value>
+                <fullName>T0016 TEAM VALDOSTA</fullName>
+                <default>false</default>
+                <label>T0016 TEAM VALDOSTA</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI BEST</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI BEST</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI BUBLICK</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI BUBLICK</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI EAST</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI EAST</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI GOODMAN</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI GOODMAN</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI NORTH</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI NORTH</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI SOUTH</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0017 TEAM CMI WEST</fullName>
+                <default>false</default>
+                <label>T0017 TEAM CMI WEST</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM BADGERLAND</fullName>
+                <default>false</default>
+                <label>T0018 TEAM BADGERLAND</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM BREW CITY-MKE</fullName>
+                <default>false</default>
+                <label>T0018 TEAM BREW CITY-MKE</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM DUPAGE EAST</fullName>
+                <default>false</default>
+                <label>T0018 TEAM DUPAGE EAST</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM DUPAGE WEST</fullName>
+                <default>false</default>
+                <label>T0018 TEAM DUPAGE WEST</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM GREEN BAY NORTH</fullName>
+                <default>false</default>
+                <label>T0018 TEAM GREEN BAY NORTH</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM GREEN BAY SOUTH</fullName>
+                <default>false</default>
+                <label>T0018 TEAM GREEN BAY SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM MADISON</fullName>
+                <default>false</default>
+                <label>T0018 TEAM MADISON</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM NORTHWEST WISCONSIN</fullName>
+                <default>false</default>
+                <label>T0018 TEAM NORTHWEST WISCONSIN</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM ROCK</fullName>
+                <default>false</default>
+                <label>T0018 TEAM ROCK</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM SAUK</fullName>
+                <default>false</default>
+                <label>T0018 TEAM SAUK</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM TOSA</fullName>
+                <default>false</default>
+                <label>T0018 TEAM TOSA</label>
+            </value>
+            <value>
+                <fullName>T0018 TEAM WI HEARTLAND</fullName>
+                <default>false</default>
+                <label>T0018 TEAM WI HEARTLAND</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM CENTRAL NEBRASKA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM CENTRAL NEBRASKA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM DULUTH</fullName>
+                <default>false</default>
+                <label>T0019 TEAM DULUTH</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM EMERGING TECH</fullName>
+                <default>false</default>
+                <label>T0019 TEAM EMERGING TECH</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM HOUSE</fullName>
+                <default>false</default>
+                <label>T0019 TEAM HOUSE</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM LAKES</fullName>
+                <default>false</default>
+                <label>T0019 TEAM LAKES</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM LINCOLN</fullName>
+                <default>false</default>
+                <label>T0019 TEAM LINCOLN</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM MN SPORTS</fullName>
+                <default>false</default>
+                <label>T0019 TEAM MN SPORTS</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM MN TRAUMA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM MN TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM MPLS METRO</fullName>
+                <default>false</default>
+                <label>T0019 TEAM MPLS METRO</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM ND EAST</fullName>
+                <default>false</default>
+                <label>T0019 TEAM ND EAST</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM ND WEST</fullName>
+                <default>false</default>
+                <label>T0019 TEAM ND WEST</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM NE SOUTH DAKOTA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM NE SOUTH DAKOTA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM NORTHERN MINNESOTA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM NORTHERN MINNESOTA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM NORTH METRO</fullName>
+                <default>false</default>
+                <label>T0019 TEAM NORTH METRO</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM NORTHWEST 19</fullName>
+                <default>false</default>
+                <label>T0019 TEAM NORTHWEST 19</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM OMAHA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM OMAHA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM ROCHESTER (19)</fullName>
+                <default>false</default>
+                <label>T0019 TEAM ROCHESTER (19)</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM SAATZER</fullName>
+                <default>false</default>
+                <label>T0019 TEAM SAATZER</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM SIOUX FALLS</fullName>
+                <default>false</default>
+                <label>T0019 TEAM SIOUX FALLS</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM ST PAUL</fullName>
+                <default>false</default>
+                <label>T0019 TEAM ST PAUL</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM SW METRO</fullName>
+                <default>false</default>
+                <label>T0019 TEAM SW METRO</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM TWIN CITIES EAST</fullName>
+                <default>false</default>
+                <label>T0019 TEAM TWIN CITIES EAST</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM UNIVERSITY (19)</fullName>
+                <default>false</default>
+                <label>T0019 TEAM UNIVERSITY (19)</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM WESTERN SOUTH DAKOTA</fullName>
+                <default>false</default>
+                <label>T0019 TEAM WESTERN SOUTH DAKOTA</label>
+            </value>
+            <value>
+                <fullName>T0019 TEAM WEST METRO</fullName>
+                <default>false</default>
+                <label>T0019 TEAM WEST METRO</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM BRUNETT/TYSKA</fullName>
+                <default>false</default>
+                <label>T0021 TEAM BRUNETT/TYSKA</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM BST UNIVERSITY NORTH</fullName>
+                <default>false</default>
+                <label>T0021 TEAM BST UNIVERSITY NORTH</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM BUSSARD/HALL</fullName>
+                <default>false</default>
+                <label>T0021 TEAM BUSSARD/HALL</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM DELAWARE (T21)</fullName>
+                <default>false</default>
+                <label>T0021 TEAM DELAWARE (T21)</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM DILLON-TYSKA</fullName>
+                <default>false</default>
+                <label>T0021 TEAM DILLON-TYSKA</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM DREW</fullName>
+                <default>false</default>
+                <label>T0021 TEAM DREW</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM JEFF</fullName>
+                <default>false</default>
+                <label>T0021 TEAM JEFF</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM JERSEY SHORE</fullName>
+                <default>false</default>
+                <label>T0021 TEAM JERSEY SHORE</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM MAINLINE</fullName>
+                <default>false</default>
+                <label>T0021 TEAM MAINLINE</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM NORTHERN MONMOUTH</fullName>
+                <default>false</default>
+                <label>T0021 TEAM NORTHERN MONMOUTH</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM PENN</fullName>
+                <default>false</default>
+                <label>T0021 TEAM PENN</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM PHILADELPHIA NORTH</fullName>
+                <default>false</default>
+                <label>T0021 TEAM PHILADELPHIA NORTH</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM PRIME</fullName>
+                <default>false</default>
+                <label>T0021 TEAM PRIME</label>
+            </value>
+            <value>
+                <fullName>T0021 TEAM UNIVERSITY T21</fullName>
+                <default>false</default>
+                <label>T0021 TEAM UNIVERSITY T21</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM ESSEX</fullName>
+                <default>false</default>
+                <label>T0022 TEAM ESSEX</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM NORTH JERSEY ASSOCS</fullName>
+                <default>false</default>
+                <label>T0022 TEAM NORTH JERSEY ASSOCS</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM OVERLOOK</fullName>
+                <default>false</default>
+                <label>T0022 TEAM OVERLOOK</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM ROCKLAND COUNTY</fullName>
+                <default>false</default>
+                <label>T0022 TEAM ROCKLAND COUNTY</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM SOUTH JERSEY</fullName>
+                <default>false</default>
+                <label>T0022 TEAM SOUTH JERSEY</label>
+            </value>
+            <value>
+                <fullName>T0022 TEAM WEST JERSEY</fullName>
+                <default>false</default>
+                <label>T0022 TEAM WEST JERSEY</label>
+            </value>
+            <value>
+                <fullName>T0023 TEAM DES MOINES CENTRAL</fullName>
+                <default>false</default>
+                <label>T0023 TEAM DES MOINES CENTRAL</label>
+            </value>
+            <value>
+                <fullName>T0023 TEAM DES MOINES NORTH</fullName>
+                <default>false</default>
+                <label>T0023 TEAM DES MOINES NORTH</label>
+            </value>
+            <value>
+                <fullName>T0023 TEAM EASTERN IOWA</fullName>
+                <default>false</default>
+                <label>T0023 TEAM EASTERN IOWA</label>
+            </value>
+            <value>
+                <fullName>T0023 TEAM IOWA CITY</fullName>
+                <default>false</default>
+                <label>T0023 TEAM IOWA CITY</label>
+            </value>
+            <value>
+                <fullName>T0023 TEAM SIOUX CITY</fullName>
+                <default>false</default>
+                <label>T0023 TEAM SIOUX CITY</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM CENTRAL ILLINOIS</fullName>
+                <default>false</default>
+                <label>T0024 TEAM CENTRAL ILLINOIS</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM EASTERN ILLINOIS</fullName>
+                <default>false</default>
+                <label>T0024 TEAM EASTERN ILLINOIS</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM GALESBURG</fullName>
+                <default>false</default>
+                <label>T0024 TEAM GALESBURG</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM MIDAMERICA</fullName>
+                <default>false</default>
+                <label>T0024 TEAM MIDAMERICA</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM NORTH CENTRAL IL</fullName>
+                <default>false</default>
+                <label>T0024 TEAM NORTH CENTRAL IL</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM NORTH EAST MISSOURI</fullName>
+                <default>false</default>
+                <label>T0024 TEAM NORTH EAST MISSOURI</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM QUAD CITIES IA-IL</fullName>
+                <default>false</default>
+                <label>T0024 TEAM QUAD CITIES IA-IL</label>
+            </value>
+            <value>
+                <fullName>T0024 TEAM SOUTHERN ILLINOIS</fullName>
+                <default>false</default>
+                <label>T0024 TEAM SOUTHERN ILLINOIS</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM CENTRAL COAST NORTH</fullName>
+                <default>false</default>
+                <label>T0025 TEAM CENTRAL COAST NORTH</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM CENTRAL COAST SOUTH</fullName>
+                <default>false</default>
+                <label>T0025 TEAM CENTRAL COAST SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM DESERT</fullName>
+                <default>false</default>
+                <label>T0025 TEAM DESERT</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM DESERT CENTRAL</fullName>
+                <default>false</default>
+                <label>T0025 TEAM DESERT CENTRAL</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM DOWNTOWN</fullName>
+                <default>false</default>
+                <label>T0025 TEAM DOWNTOWN</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM EAST LA</fullName>
+                <default>false</default>
+                <label>T0025 TEAM EAST LA</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM HIGH DESERT</fullName>
+                <default>false</default>
+                <label>T0025 TEAM HIGH DESERT</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM INLAND CENTRAL</fullName>
+                <default>false</default>
+                <label>T0025 TEAM INLAND CENTRAL</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM INLAND KAISER</fullName>
+                <default>false</default>
+                <label>T0025 TEAM INLAND KAISER</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM INLAND NORTH</fullName>
+                <default>false</default>
+                <label>T0025 TEAM INLAND NORTH</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM INLAND SOUTH</fullName>
+                <default>false</default>
+                <label>T0025 TEAM INLAND SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM INLAND WEST</fullName>
+                <default>false</default>
+                <label>T0025 TEAM INLAND WEST</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM IRVINE</fullName>
+                <default>false</default>
+                <label>T0025 TEAM IRVINE</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM LONG BEACH</fullName>
+                <default>false</default>
+                <label>T0025 TEAM LONG BEACH</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM MODERN ORTHO</fullName>
+                <default>false</default>
+                <label>T0025 TEAM MODERN ORTHO</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM NEWPORT</fullName>
+                <default>false</default>
+                <label>T0025 TEAM NEWPORT</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM NORTH OC</fullName>
+                <default>false</default>
+                <label>T0025 TEAM NORTH OC</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM NORTH VALLEY</fullName>
+                <default>false</default>
+                <label>T0025 TEAM NORTH VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM SOUTH BAY (T0025)</fullName>
+                <default>false</default>
+                <label>T0025 TEAM SOUTH BAY (T0025)</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM SOUTH OC</fullName>
+                <default>false</default>
+                <label>T0025 TEAM SOUTH OC</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM SOUTH VALLEY</fullName>
+                <default>false</default>
+                <label>T0025 TEAM SOUTH VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM VALLEY</fullName>
+                <default>false</default>
+                <label>T0025 TEAM VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0025 TEAM WEST LA</fullName>
+                <default>false</default>
+                <label>T0025 TEAM WEST LA</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM CHARLOTTESVILLE</fullName>
+                <default>false</default>
+                <label>T0026 TEAM CHARLOTTESVILLE</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM COOL</fullName>
+                <default>false</default>
+                <label>T0026 TEAM COOL</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM FREDERICKSBURG</fullName>
+                <default>false</default>
+                <label>T0026 TEAM FREDERICKSBURG</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM RICHMOND</fullName>
+                <default>false</default>
+                <label>T0026 TEAM RICHMOND</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM ROANOKE</fullName>
+                <default>false</default>
+                <label>T0026 TEAM ROANOKE</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM SOUTHERN MARYLAND</fullName>
+                <default>false</default>
+                <label>T0026 TEAM SOUTHERN MARYLAND</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM SOUTH RICHMOND</fullName>
+                <default>false</default>
+                <label>T0026 TEAM SOUTH RICHMOND</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM SOUTH VIRGINIA</fullName>
+                <default>false</default>
+                <label>T0026 TEAM SOUTH VIRGINIA</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM SOUTHWEST VIRGINIA</fullName>
+                <default>false</default>
+                <label>T0026 TEAM SOUTHWEST VIRGINIA</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM STAR CITY</fullName>
+                <default>false</default>
+                <label>T0026 TEAM STAR CITY</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM VABEACH PENINSULA</fullName>
+                <default>false</default>
+                <label>T0026 TEAM VABEACH PENINSULA</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM VB KINGS DAUGHTERS</fullName>
+                <default>false</default>
+                <label>T0026 TEAM VB KINGS DAUGHTERS</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM VIRGINIA BEACH</fullName>
+                <default>false</default>
+                <label>T0026 TEAM VIRGINIA BEACH</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM WINCHESTER NORTH</fullName>
+                <default>false</default>
+                <label>T0026 TEAM WINCHESTER NORTH</label>
+            </value>
+            <value>
+                <fullName>T0026 TEAM WINCHESTER SOUTH</fullName>
+                <default>false</default>
+                <label>T0026 TEAM WINCHESTER SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0027 TEAM HSS</fullName>
+                <default>false</default>
+                <label>T0027 TEAM HSS</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM 2 STATE</fullName>
+                <default>false</default>
+                <label>T0029 TEAM 2 STATE</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM BALTIMORE</fullName>
+                <default>false</default>
+                <label>T0029 TEAM BALTIMORE</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM BETHESDA</fullName>
+                <default>false</default>
+                <label>T0029 TEAM BETHESDA</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM CAPITAL CITY</fullName>
+                <default>false</default>
+                <label>T0029 TEAM CAPITAL CITY</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM CENTER CITY</fullName>
+                <default>false</default>
+                <label>T0029 TEAM CENTER CITY</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM CHESAPEAKE</fullName>
+                <default>false</default>
+                <label>T0029 TEAM CHESAPEAKE</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM DC</fullName>
+                <default>false</default>
+                <label>T0029 TEAM DC</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM EASTERN SHORE</fullName>
+                <default>false</default>
+                <label>T0029 TEAM EASTERN SHORE</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM ENOVA</fullName>
+                <default>false</default>
+                <label>T0029 TEAM ENOVA</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM FAIRFAX</fullName>
+                <default>false</default>
+                <label>T0029 TEAM FAIRFAX</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM INNER HARBOR</fullName>
+                <default>false</default>
+                <label>T0029 TEAM INNER HARBOR</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM MD</fullName>
+                <default>false</default>
+                <label>T0029 TEAM MD</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM TRI-COUNTY</fullName>
+                <default>false</default>
+                <label>T0029 TEAM TRI-COUNTY</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM UNION</fullName>
+                <default>false</default>
+                <label>T0029 TEAM UNION</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM WNOVA</fullName>
+                <default>false</default>
+                <label>T0029 TEAM WNOVA</label>
+            </value>
+            <value>
+                <fullName>T0029 TEAM ZBMA</fullName>
+                <default>false</default>
+                <label>T0029 TEAM ZBMA</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM ARENS</fullName>
+                <default>false</default>
+                <label>T0030 TEAM ARENS</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM BARBER CARDER</fullName>
+                <default>false</default>
+                <label>T0030 TEAM BARBER CARDER</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM CAPE</fullName>
+                <default>false</default>
+                <label>T0030 TEAM CAPE</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM CENTRAL MISSOURI</fullName>
+                <default>false</default>
+                <label>T0030 TEAM CENTRAL MISSOURI</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM FOOT &amp; ANKLE</fullName>
+                <default>false</default>
+                <label>T0030 TEAM FOOT &amp; ANKLE</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM HEATH &amp; HEPBURN</fullName>
+                <default>false</default>
+                <label>T0030 TEAM HEATH &amp; HEPBURN</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM KLEIN</fullName>
+                <default>false</default>
+                <label>T0030 TEAM KLEIN</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM METRO ST LOUIS</fullName>
+                <default>false</default>
+                <label>T0030 TEAM METRO ST LOUIS</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM NELSON</fullName>
+                <default>false</default>
+                <label>T0030 TEAM NELSON</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM POWELLS</fullName>
+                <default>false</default>
+                <label>T0030 TEAM POWELLS</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM SHOWME</fullName>
+                <default>false</default>
+                <label>T0030 TEAM SHOWME</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM SMS</fullName>
+                <default>false</default>
+                <label>T0030 TEAM SMS</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM SOUTHWEST MO</fullName>
+                <default>false</default>
+                <label>T0030 TEAM SOUTHWEST MO</label>
+            </value>
+            <value>
+                <fullName>T0030 TEAM TOD &amp; LITTLE</fullName>
+                <default>false</default>
+                <label>T0030 TEAM TOD &amp; LITTLE</label>
+            </value>
+            <value>
+                <fullName>T0031 TEAM HC (HORS CATÉGORIE)</fullName>
+                <default>false</default>
+                <label>T0031 TEAM HC (HORS CATÉGORIE)</label>
+            </value>
+            <value>
+                <fullName>T0031 TEAM MEMPHIS</fullName>
+                <default>false</default>
+                <label>T0031 TEAM MEMPHIS</label>
+            </value>
+            <value>
+                <fullName>T0031 TEAM ROCK SOLID</fullName>
+                <default>false</default>
+                <label>T0031 TEAM ROCK SOLID</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM BEAUFORT</fullName>
+                <default>false</default>
+                <label>T0033 TEAM BEAUFORT</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM BRODIE</fullName>
+                <default>false</default>
+                <label>T0033 TEAM BRODIE</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM CHARLESTON 1</fullName>
+                <default>false</default>
+                <label>T0033 TEAM CHARLESTON 1</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM CHARLESTON 2</fullName>
+                <default>false</default>
+                <label>T0033 TEAM CHARLESTON 2</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM COLUMBIA (0033)</fullName>
+                <default>false</default>
+                <label>T0033 TEAM COLUMBIA (0033)</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM DUKE</fullName>
+                <default>false</default>
+                <label>T0033 TEAM DUKE</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM HINSON</fullName>
+                <default>false</default>
+                <label>T0033 TEAM HINSON</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM PRICE</fullName>
+                <default>false</default>
+                <label>T0033 TEAM PRICE</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM SCHULTZ</fullName>
+                <default>false</default>
+                <label>T0033 TEAM SCHULTZ</label>
+            </value>
+            <value>
+                <fullName>T0033 TEAM UPSTATE</fullName>
+                <default>false</default>
+                <label>T0033 TEAM UPSTATE</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM 70 EAST</fullName>
+                <default>false</default>
+                <label>T0034 TEAM 70 EAST</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM BULL CITY</fullName>
+                <default>false</default>
+                <label>T0034 TEAM BULL CITY</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM OAK CITY</fullName>
+                <default>false</default>
+                <label>T0034 TEAM OAK CITY</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM OUTER BANX</fullName>
+                <default>false</default>
+                <label>T0034 TEAM OUTER BANX</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM PHILLIPS</fullName>
+                <default>false</default>
+                <label>T0034 TEAM PHILLIPS</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM PORT CITY</fullName>
+                <default>false</default>
+                <label>T0034 TEAM PORT CITY</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM RALEIGHWOOD</fullName>
+                <default>false</default>
+                <label>T0034 TEAM RALEIGHWOOD</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM SPECIAL FORCES</fullName>
+                <default>false</default>
+                <label>T0034 TEAM SPECIAL FORCES</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM STEAM</fullName>
+                <default>false</default>
+                <label>T0034 TEAM STEAM</label>
+            </value>
+            <value>
+                <fullName>T0034 TEAM SUZIK</fullName>
+                <default>false</default>
+                <label>T0034 TEAM SUZIK</label>
+            </value>
+            <value>
+                <fullName>T0035 TEAM GRANT</fullName>
+                <default>false</default>
+                <label>T0035 TEAM GRANT</label>
+            </value>
+            <value>
+                <fullName>T0035 TEAM LAKE NORMAN</fullName>
+                <default>false</default>
+                <label>T0035 TEAM LAKE NORMAN</label>
+            </value>
+            <value>
+                <fullName>T0035 TEAM SPORTS MEDICINE</fullName>
+                <default>false</default>
+                <label>T0035 TEAM SPORTS MEDICINE</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM BADGER</fullName>
+                <default>false</default>
+                <label>T0038 TEAM BADGER</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM HARRISBURG</fullName>
+                <default>false</default>
+                <label>T0038 TEAM HARRISBURG</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM HOLMAN</fullName>
+                <default>false</default>
+                <label>T0038 TEAM HOLMAN</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM LANCASTER</fullName>
+                <default>false</default>
+                <label>T0038 TEAM LANCASTER</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM LEHIGH VALLEY</fullName>
+                <default>false</default>
+                <label>T0038 TEAM LEHIGH VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM NEPA</fullName>
+                <default>false</default>
+                <label>T0038 TEAM NEPA</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM SHEALER</fullName>
+                <default>false</default>
+                <label>T0038 TEAM SHEALER</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM SHUTT</fullName>
+                <default>false</default>
+                <label>T0038 TEAM SHUTT</label>
+            </value>
+            <value>
+                <fullName>T0038 TEAM SOUTHERN WATCH</fullName>
+                <default>false</default>
+                <label>T0038 TEAM SOUTHERN WATCH</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM 24-7</fullName>
+                <default>false</default>
+                <label>T0039 TEAM 24-7</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM BOB BROWN</fullName>
+                <default>false</default>
+                <label>T0039 TEAM BOB BROWN</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM CONFLUENCE</fullName>
+                <default>false</default>
+                <label>T0039 TEAM CONFLUENCE</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM DROP THE HAMMER</fullName>
+                <default>false</default>
+                <label>T0039 TEAM DROP THE HAMMER</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM FOUST</fullName>
+                <default>false</default>
+                <label>T0039 TEAM FOUST</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM GILBERT</fullName>
+                <default>false</default>
+                <label>T0039 TEAM GILBERT</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM HALL OF FAME</fullName>
+                <default>false</default>
+                <label>T0039 TEAM HALL OF FAME</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM LIVELY</fullName>
+                <default>false</default>
+                <label>T0039 TEAM LIVELY</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM MERCHANT</fullName>
+                <default>false</default>
+                <label>T0039 TEAM MERCHANT</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM MILLER</fullName>
+                <default>false</default>
+                <label>T0039 TEAM MILLER</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM MOUNTAIN MEDICAL</fullName>
+                <default>false</default>
+                <label>T0039 TEAM MOUNTAIN MEDICAL</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM NITTANY</fullName>
+                <default>false</default>
+                <label>T0039 TEAM NITTANY</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM NORTHWEST GROUP</fullName>
+                <default>false</default>
+                <label>T0039 TEAM NORTHWEST GROUP</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM OSOLIN</fullName>
+                <default>false</default>
+                <label>T0039 TEAM OSOLIN</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM PETROLLA</fullName>
+                <default>false</default>
+                <label>T0039 TEAM PETROLLA</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM REED</fullName>
+                <default>false</default>
+                <label>T0039 TEAM REED</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM RENEGADE</fullName>
+                <default>false</default>
+                <label>T0039 TEAM RENEGADE</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM ROCK N ROLL</fullName>
+                <default>false</default>
+                <label>T0039 TEAM ROCK N ROLL</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM RUBBER CITY</fullName>
+                <default>false</default>
+                <label>T0039 TEAM RUBBER CITY</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM SNOWBELT</fullName>
+                <default>false</default>
+                <label>T0039 TEAM SNOWBELT</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM SOUTH HILLS</fullName>
+                <default>false</default>
+                <label>T0039 TEAM SOUTH HILLS</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM STEEL VALLEY</fullName>
+                <default>false</default>
+                <label>T0039 TEAM STEEL VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM THREE RIVERS</fullName>
+                <default>false</default>
+                <label>T0039 TEAM THREE RIVERS</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM TRIMBUR</fullName>
+                <default>false</default>
+                <label>T0039 TEAM TRIMBUR</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM VERTEX</fullName>
+                <default>false</default>
+                <label>T0039 TEAM VERTEX</label>
+            </value>
+            <value>
+                <fullName>T0039 TEAM ZAMAN</fullName>
+                <default>false</default>
+                <label>T0039 TEAM ZAMAN</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM BONE-SKELTON</fullName>
+                <default>false</default>
+                <label>T0040 TEAM BONE-SKELTON</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM EMERALD COAST</fullName>
+                <default>false</default>
+                <label>T0040 TEAM EMERALD COAST</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM HUNTSVILLE</fullName>
+                <default>false</default>
+                <label>T0040 TEAM HUNTSVILLE</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM MIKE HURRING</fullName>
+                <default>false</default>
+                <label>T0040 TEAM MIKE HURRING</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM MOBILE</fullName>
+                <default>false</default>
+                <label>T0040 TEAM MOBILE</label>
+            </value>
+            <value>
+                <fullName>T0040 TEAM WACHTER-BARBERIO</fullName>
+                <default>false</default>
+                <label>T0040 TEAM WACHTER-BARBERIO</label>
+            </value>
+            <value>
+                <fullName>T0042 TEAM EAST MI</fullName>
+                <default>false</default>
+                <label>T0042 TEAM EAST MI</label>
+            </value>
+            <value>
+                <fullName>T0042 TEAM GR</fullName>
+                <default>false</default>
+                <label>T0042 TEAM GR</label>
+            </value>
+            <value>
+                <fullName>T0042 TEAM NORTHERN MI</fullName>
+                <default>false</default>
+                <label>T0042 TEAM NORTHERN MI</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM ANN ARBOR</fullName>
+                <default>false</default>
+                <label>T0043 TEAM ANN ARBOR</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM FUMEI (CARLO)</fullName>
+                <default>false</default>
+                <label>T0043 TEAM FUMEI (CARLO)</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM JAM</fullName>
+                <default>false</default>
+                <label>T0043 TEAM JAM</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM LANSING</fullName>
+                <default>false</default>
+                <label>T0043 TEAM LANSING</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM SOUTH (T43)</fullName>
+                <default>false</default>
+                <label>T0043 TEAM SOUTH (T43)</label>
+            </value>
+            <value>
+                <fullName>T0043 TEAM THOMPSON</fullName>
+                <default>false</default>
+                <label>T0043 TEAM THOMPSON</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM CENTRAL WASHINGTON</fullName>
+                <default>false</default>
+                <label>T0044 TEAM CENTRAL WASHINGTON</label>
+            </value>
+            <value>
+                <fullName>T0044  TEAM EASTSIDE TRAUMA</fullName>
+                <default>false</default>
+                <label>T0044  TEAM EASTSIDE TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM EMERALD CITY</fullName>
+                <default>false</default>
+                <label>T0044 TEAM EMERALD CITY</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM NATURAL NAILERS</fullName>
+                <default>false</default>
+                <label>T0044 TEAM NATURAL NAILERS</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM NORTH CASCADES</fullName>
+                <default>false</default>
+                <label>T0044 TEAM NORTH CASCADES</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM RAINIER</fullName>
+                <default>false</default>
+                <label>T0044 TEAM RAINIER</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM SEATTLE</fullName>
+                <default>false</default>
+                <label>T0044 TEAM SEATTLE</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM SE WASHINGTON</fullName>
+                <default>false</default>
+                <label>T0044 TEAM SE WASHINGTON</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM SOUTH SOUND</fullName>
+                <default>false</default>
+                <label>T0044 TEAM SOUTH SOUND</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM SPOKANE</fullName>
+                <default>false</default>
+                <label>T0044 TEAM SPOKANE</label>
+            </value>
+            <value>
+                <fullName>T0044 TEAM TACOMA</fullName>
+                <default>false</default>
+                <label>T0044 TEAM TACOMA</label>
+            </value>
+            <value>
+                <fullName>T0044  TEAM TACOMA TRAUMA</fullName>
+                <default>false</default>
+                <label>T0044  TEAM TACOMA TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM COLUMBIA</fullName>
+                <default>false</default>
+                <label>T0045 TEAM COLUMBIA</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM MCKENZIE</fullName>
+                <default>false</default>
+                <label>T0045 TEAM MCKENZIE</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM MEDFORD</fullName>
+                <default>false</default>
+                <label>T0045 TEAM MEDFORD</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM MID-VALLEY</fullName>
+                <default>false</default>
+                <label>T0045 TEAM MID-VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM PDX TRAUMA</fullName>
+                <default>false</default>
+                <label>T0045 TEAM PDX TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM SOUTH PORTLAND</fullName>
+                <default>false</default>
+                <label>T0045 TEAM SOUTH PORTLAND</label>
+            </value>
+            <value>
+                <fullName>T0045 TEAM WILLAMETTE</fullName>
+                <default>false</default>
+                <label>T0045 TEAM WILLAMETTE</label>
+            </value>
+            <value>
+                <fullName>T0047 TEAM BR NS</fullName>
+                <default>false</default>
+                <label>T0047 TEAM BR NS</label>
+            </value>
+            <value>
+                <fullName>T0047 TEAM LAFAYETTE</fullName>
+                <default>false</default>
+                <label>T0047 TEAM LAFAYETTE</label>
+            </value>
+            <value>
+                <fullName>T0047 TEAM NEW ORLEANS</fullName>
+                <default>false</default>
+                <label>T0047 TEAM NEW ORLEANS</label>
+            </value>
+            <value>
+                <fullName>T0047 TEAM SHREVEPORT</fullName>
+                <default>false</default>
+                <label>T0047 TEAM SHREVEPORT</label>
+            </value>
+            <value>
+                <fullName>T0047 TEAM SMITH-STADDON</fullName>
+                <default>false</default>
+                <label>T0047 TEAM SMITH-STADDON</label>
+            </value>
+            <value>
+                <fullName>T0054 TEAM BIOMETONE</fullName>
+                <default>false</default>
+                <label>T0054 TEAM BIOMETONE</label>
+            </value>
+            <value>
+                <fullName>T0054 TEAM LAUDERDALE</fullName>
+                <default>false</default>
+                <label>T0054 TEAM LAUDERDALE</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM ASHLEY</fullName>
+                <default>false</default>
+                <label>T0057 TEAM ASHLEY</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM BRIAN</fullName>
+                <default>false</default>
+                <label>T0057 TEAM BRIAN</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM DANNY</fullName>
+                <default>false</default>
+                <label>T0057 TEAM DANNY</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM EAST VOLUSIA</fullName>
+                <default>false</default>
+                <label>T0057 TEAM EAST VOLUSIA</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM HENRY</fullName>
+                <default>false</default>
+                <label>T0057 TEAM HENRY</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM JASON</fullName>
+                <default>false</default>
+                <label>T0057 TEAM JASON</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM KC/JP</fullName>
+                <default>false</default>
+                <label>T0057 TEAM KC/JP</label>
+            </value>
+            <value>
+                <fullName>T0057 TEAM NICK</fullName>
+                <default>false</default>
+                <label>T0057 TEAM NICK</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM 400</fullName>
+                <default>false</default>
+                <label>T0058 TEAM 400</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM ATL</fullName>
+                <default>false</default>
+                <label>T0058 TEAM ATL</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM BLUE RIDGE</fullName>
+                <default>false</default>
+                <label>T0058 TEAM BLUE RIDGE</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM NORTHEAST GA</fullName>
+                <default>false</default>
+                <label>T0058 TEAM NORTHEAST GA</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM NORTHWEST GA</fullName>
+                <default>false</default>
+                <label>T0058 TEAM NORTHWEST GA</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM SANDERS</fullName>
+                <default>false</default>
+                <label>T0058 TEAM SANDERS</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM SOUTHSIDE</fullName>
+                <default>false</default>
+                <label>T0058 TEAM SOUTHSIDE</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM VERIZON</fullName>
+                <default>false</default>
+                <label>T0058 TEAM VERIZON</label>
+            </value>
+            <value>
+                <fullName>T0058 TEAM WESTSIDE</fullName>
+                <default>false</default>
+                <label>T0058 TEAM WESTSIDE</label>
+            </value>
+            <value>
+                <fullName>T0061 TEAM ALPHA</fullName>
+                <default>false</default>
+                <label>T0061 TEAM ALPHA</label>
+            </value>
+            <value>
+                <fullName>T0061 TEAM DAB</fullName>
+                <default>false</default>
+                <label>T0061 TEAM DAB</label>
+            </value>
+            <value>
+                <fullName>T0061 TEAM WORKAHOLICS</fullName>
+                <default>false</default>
+                <label>T0061 TEAM WORKAHOLICS</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM ADKINS</fullName>
+                <default>false</default>
+                <label>T0063 TEAM ADKINS</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM HDS</fullName>
+                <default>false</default>
+                <label>T0063 TEAM HDS</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM KANSAS</fullName>
+                <default>false</default>
+                <label>T0063 TEAM KANSAS</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM KC METRO</fullName>
+                <default>false</default>
+                <label>T0063 TEAM KC METRO</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM MONARCH</fullName>
+                <default>false</default>
+                <label>T0063 TEAM MONARCH</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM SKC</fullName>
+                <default>false</default>
+                <label>T0063 TEAM SKC</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM TOMAHAWK</fullName>
+                <default>false</default>
+                <label>T0063 TEAM TOMAHAWK</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM TORNQUIST</fullName>
+                <default>false</default>
+                <label>T0063 TEAM TORNQUIST</label>
+            </value>
+            <value>
+                <fullName>T0063 TEAM TRIDENT</fullName>
+                <default>false</default>
+                <label>T0063 TEAM TRIDENT</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM CHATTANOOGA</fullName>
+                <default>false</default>
+                <label>T0064 TEAM CHATTANOOGA</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM EAST NASHVILLE</fullName>
+                <default>false</default>
+                <label>T0064 TEAM EAST NASHVILLE</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM KNOXVILLE</fullName>
+                <default>false</default>
+                <label>T0064 TEAM KNOXVILLE</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM NASHVILLE</fullName>
+                <default>false</default>
+                <label>T0064 TEAM NASHVILLE</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM SPORTS MED</fullName>
+                <default>false</default>
+                <label>T0064 TEAM SPORTS MED</label>
+            </value>
+            <value>
+                <fullName>T0064 TEAM SPORTS NASHVILLE</fullName>
+                <default>false</default>
+                <label>T0064 TEAM SPORTS NASHVILLE</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM ASHLAND</fullName>
+                <default>false</default>
+                <label>T0065 TEAM ASHLAND</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM AUDUBON</fullName>
+                <default>false</default>
+                <label>T0065 TEAM AUDUBON</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM BAPTIST</fullName>
+                <default>false</default>
+                <label>T0065 TEAM BAPTIST</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM BECKLEY</fullName>
+                <default>false</default>
+                <label>T0065 TEAM BECKLEY</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM BROWNSBORO</fullName>
+                <default>false</default>
+                <label>T0065 TEAM BROWNSBORO</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM CHARLESTON</fullName>
+                <default>false</default>
+                <label>T0065 TEAM CHARLESTON</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM EASTERN KY</fullName>
+                <default>false</default>
+                <label>T0065 TEAM EASTERN KY</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM HJT</fullName>
+                <default>false</default>
+                <label>T0065 TEAM HJT</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM HURRICANE</fullName>
+                <default>false</default>
+                <label>T0065 TEAM HURRICANE</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM LEX</fullName>
+                <default>false</default>
+                <label>T0065 TEAM LEX</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM OUTBACK</fullName>
+                <default>false</default>
+                <label>T0065 TEAM OUTBACK</label>
+            </value>
+            <value>
+                <fullName>T0065 TEAM RIVER CITY</fullName>
+                <default>false</default>
+                <label>T0065 TEAM RIVER CITY</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM BELL</fullName>
+                <default>false</default>
+                <label>T0068 TEAM BELL</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM DARRIN</fullName>
+                <default>false</default>
+                <label>T0068 TEAM DARRIN</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM GREEN COUNTRY</fullName>
+                <default>false</default>
+                <label>T0068 TEAM GREEN COUNTRY</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM KARBER</fullName>
+                <default>false</default>
+                <label>T0068 TEAM KARBER</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM LUNA</fullName>
+                <default>false</default>
+                <label>T0068 TEAM LUNA</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM NEO</fullName>
+                <default>false</default>
+                <label>T0068 TEAM NEO</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM NW ARKANSAS</fullName>
+                <default>false</default>
+                <label>T0068 TEAM NW ARKANSAS</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM OKC</fullName>
+                <default>false</default>
+                <label>T0068 TEAM OKC</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM RICK ATCHISON</fullName>
+                <default>false</default>
+                <label>T0068 TEAM RICK ATCHISON</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM SJULIN</fullName>
+                <default>false</default>
+                <label>T0068 TEAM SJULIN</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM SOUTHWEST</fullName>
+                <default>false</default>
+                <label>T0068 TEAM SOUTHWEST</label>
+            </value>
+            <value>
+                <fullName>T0068 TEAM TULSA</fullName>
+                <default>false</default>
+                <label>T0068 TEAM TULSA</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM ANDERSON</fullName>
+                <default>false</default>
+                <label>T0070 TEAM ANDERSON</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM ASHLEY</fullName>
+                <default>false</default>
+                <label>T0070 TEAM ASHLEY</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM BEAUMONT</fullName>
+                <default>false</default>
+                <label>T0070 TEAM BEAUMONT</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM BP</fullName>
+                <default>false</default>
+                <label>T0070 TEAM BP</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM COLLEGE STATION</fullName>
+                <default>false</default>
+                <label>T0070 TEAM COLLEGE STATION</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM CORPUS CHRISTI</fullName>
+                <default>false</default>
+                <label>T0070 TEAM CORPUS CHRISTI</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM EAST TX T70</fullName>
+                <default>false</default>
+                <label>T0070 TEAM EAST TX T70</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM FNA</fullName>
+                <default>false</default>
+                <label>T0070 TEAM FNA</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM LAMBARD</fullName>
+                <default>false</default>
+                <label>T0070 TEAM LAMBARD</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM MED CTR</fullName>
+                <default>false</default>
+                <label>T0070 TEAM MED CTR</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM NSIDE</fullName>
+                <default>false</default>
+                <label>T0070 TEAM NSIDE</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM RUCKER</fullName>
+                <default>false</default>
+                <label>T0070 TEAM RUCKER</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM SHOTWELL</fullName>
+                <default>false</default>
+                <label>T0070 TEAM SHOTWELL</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM SOUTH (T70)</fullName>
+                <default>false</default>
+                <label>T0070 TEAM SOUTH (T70)</label>
+            </value>
+            <value>
+                <fullName>T0070 TEAM SULLIVAN</fullName>
+                <default>false</default>
+                <label>T0070 TEAM SULLIVAN</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM ADIRONDACK</fullName>
+                <default>false</default>
+                <label>T0071 TEAM ADIRONDACK</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM GREEN MT</fullName>
+                <default>false</default>
+                <label>T0071 TEAM GREEN MT</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM HARTFORD</fullName>
+                <default>false</default>
+                <label>T0071 TEAM HARTFORD</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM HUDSON VALLEY</fullName>
+                <default>false</default>
+                <label>T0071 TEAM HUDSON VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM MOHAWK VALLEY</fullName>
+                <default>false</default>
+                <label>T0071 TEAM MOHAWK VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM NORTH CONN</fullName>
+                <default>false</default>
+                <label>T0071 TEAM NORTH CONN</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM SOUTH CONN</fullName>
+                <default>false</default>
+                <label>T0071 TEAM SOUTH CONN</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM SOUTHERN TIER</fullName>
+                <default>false</default>
+                <label>T0071 TEAM SOUTHERN TIER</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM SYRACUSE</fullName>
+                <default>false</default>
+                <label>T0071 TEAM SYRACUSE</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM TRI-CITIES</fullName>
+                <default>false</default>
+                <label>T0071 TEAM TRI-CITIES</label>
+            </value>
+            <value>
+                <fullName>T0071 TEAM WEST MASS</fullName>
+                <default>false</default>
+                <label>T0071 TEAM WEST MASS</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM BOSTON</fullName>
+                <default>false</default>
+                <label>T0075 TEAM BOSTON</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM EASTERN MAINE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM EASTERN MAINE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM MASS GENERAL</fullName>
+                <default>false</default>
+                <label>T0075 TEAM MASS GENERAL</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM METRO NORTH</fullName>
+                <default>false</default>
+                <label>T0075 TEAM METRO NORTH</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM MISSION HILL</fullName>
+                <default>false</default>
+                <label>T0075 TEAM MISSION HILL</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM NORTHERN MAINE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM NORTHERN MAINE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM NORTH NEW HAMPSHIRE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM NORTH NEW HAMPSHIRE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM NORTHSHORE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM NORTHSHORE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM PROVIDENCE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM PROVIDENCE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM SOUTH BOSTON</fullName>
+                <default>false</default>
+                <label>T0075 TEAM SOUTH BOSTON</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM SOUTH NEW HAMPSHIRE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM SOUTH NEW HAMPSHIRE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM SOUTHSHORE</fullName>
+                <default>false</default>
+                <label>T0075 TEAM SOUTHSHORE</label>
+            </value>
+            <value>
+                <fullName>T0075 TEAM WORCESTER</fullName>
+                <default>false</default>
+                <label>T0075 TEAM WORCESTER</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM AMARILLO</fullName>
+                <default>false</default>
+                <label>T0077 TEAM AMARILLO</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM EAST VALLEY</fullName>
+                <default>false</default>
+                <label>T0077 TEAM EAST VALLEY</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM FREED</fullName>
+                <default>false</default>
+                <label>T0077 TEAM FREED</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM JASON FINE</fullName>
+                <default>false</default>
+                <label>T0077 TEAM JASON FINE</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM LOBO</fullName>
+                <default>false</default>
+                <label>T0077 TEAM LOBO</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM NORTHERN ARIZONA</fullName>
+                <default>false</default>
+                <label>T0077 TEAM NORTHERN ARIZONA</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM PETER EVERETT</fullName>
+                <default>false</default>
+                <label>T0077 TEAM PETER EVERETT</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM PHOENIX</fullName>
+                <default>false</default>
+                <label>T0077 TEAM PHOENIX</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM PRECISION MEDICAL</fullName>
+                <default>false</default>
+                <label>T0077 TEAM PRECISION MEDICAL</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM RANDY GARCIA</fullName>
+                <default>false</default>
+                <label>T0077 TEAM RANDY GARCIA</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM SANDIA</fullName>
+                <default>false</default>
+                <label>T0077 TEAM SANDIA</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM SKUNDRICH</fullName>
+                <default>false</default>
+                <label>T0077 TEAM SKUNDRICH</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM TUCSON</fullName>
+                <default>false</default>
+                <label>T0077 TEAM TUCSON</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM VALLEY SPORTS</fullName>
+                <default>false</default>
+                <label>T0077 TEAM VALLEY SPORTS</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM WILDCAT</fullName>
+                <default>false</default>
+                <label>T0077 TEAM WILDCAT</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM WILL WALKER</fullName>
+                <default>false</default>
+                <label>T0077 TEAM WILL WALKER</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM ZB TUCSON</fullName>
+                <default>false</default>
+                <label>T0077 TEAM ZB TUCSON</label>
+            </value>
+            <value>
+                <fullName>T0077 TEAM ZIA</fullName>
+                <default>false</default>
+                <label>T0077 TEAM ZIA</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM BILLINGS</fullName>
+                <default>false</default>
+                <label>T0079 TEAM BILLINGS</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM BOZEMAN</fullName>
+                <default>false</default>
+                <label>T0079 TEAM BOZEMAN</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM GREAT FALLS</fullName>
+                <default>false</default>
+                <label>T0079 TEAM GREAT FALLS</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM MEDPOINT KALISPELL</fullName>
+                <default>false</default>
+                <label>T0079 TEAM MEDPOINT KALISPELL</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM MISSOULA</fullName>
+                <default>false</default>
+                <label>T0079 TEAM MISSOULA</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM WESTERN MONTANA</fullName>
+                <default>false</default>
+                <label>T0079 TEAM WESTERN MONTANA</label>
+            </value>
+            <value>
+                <fullName>T0079 TEAM WYOMING</fullName>
+                <default>false</default>
+                <label>T0079 TEAM WYOMING</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM CENTEX</fullName>
+                <default>false</default>
+                <label>T0080 TEAM CENTEX</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM DALLAS</fullName>
+                <default>false</default>
+                <label>T0080 TEAM DALLAS</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM DALLAS TRAUMA</fullName>
+                <default>false</default>
+                <label>T0080 TEAM DALLAS TRAUMA</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM EAST TX</fullName>
+                <default>false</default>
+                <label>T0080 TEAM EAST TX</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM FOOT &amp; ANKLE</fullName>
+                <default>false</default>
+                <label>T0080 TEAM FOOT &amp; ANKLE</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM FORT WORTH</fullName>
+                <default>false</default>
+                <label>T0080 TEAM FORT WORTH</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM LUBBOCK</fullName>
+                <default>false</default>
+                <label>T0080 TEAM LUBBOCK</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM MIDCITIES</fullName>
+                <default>false</default>
+                <label>T0080 TEAM MIDCITIES</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM NACOGDOCHES</fullName>
+                <default>false</default>
+                <label>T0080 TEAM NACOGDOCHES</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM NORTH DALLAS</fullName>
+                <default>false</default>
+                <label>T0080 TEAM NORTH DALLAS</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM NORTH DALLAS SPECIAL</fullName>
+                <default>false</default>
+                <label>T0080 TEAM NORTH DALLAS SPECIAL</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM SOUTH DALLAS</fullName>
+                <default>false</default>
+                <label>T0080 TEAM SOUTH DALLAS</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM SOUTHWEST</fullName>
+                <default>false</default>
+                <label>T0080 TEAM SOUTHWEST</label>
+            </value>
+            <value>
+                <fullName>T0080 TEAM TYLER</fullName>
+                <default>false</default>
+                <label>T0080 TEAM TYLER</label>
+            </value>
+            <value>
+                <fullName>T0087 TEAM BOISE METRO</fullName>
+                <default>false</default>
+                <label>T0087 TEAM BOISE METRO</label>
+            </value>
+            <value>
+                <fullName>T0087 TEAM BOISE WEST</fullName>
+                <default>false</default>
+                <label>T0087 TEAM BOISE WEST</label>
+            </value>
+            <value>
+                <fullName>T0087 TEAM EASTERN IDAHO</fullName>
+                <default>false</default>
+                <label>T0087 TEAM EASTERN IDAHO</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM 5280</fullName>
+                <default>false</default>
+                <label>T0088 TEAM 5280</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM BEST</fullName>
+                <default>false</default>
+                <label>T0088 TEAM BEST</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM BORCHARD</fullName>
+                <default>false</default>
+                <label>T0088 TEAM BORCHARD</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM BOULDER</fullName>
+                <default>false</default>
+                <label>T0088 TEAM BOULDER</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM CENTRAL ROCKIES</fullName>
+                <default>false</default>
+                <label>T0088 TEAM CENTRAL ROCKIES</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM COLORADO SPRINGS</fullName>
+                <default>false</default>
+                <label>T0088 TEAM COLORADO SPRINGS</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM CORS 88</fullName>
+                <default>false</default>
+                <label>T0088 TEAM CORS 88</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM DENVER WEST</fullName>
+                <default>false</default>
+                <label>T0088 TEAM DENVER WEST</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM FORT COLLINS</fullName>
+                <default>false</default>
+                <label>T0088 TEAM FORT COLLINS</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM GRAND JUNCTION</fullName>
+                <default>false</default>
+                <label>T0088 TEAM GRAND JUNCTION</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM LITTLETON</fullName>
+                <default>false</default>
+                <label>T0088 TEAM LITTLETON</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM PETERSON-SYNCHEF</fullName>
+                <default>false</default>
+                <label>T0088 TEAM PETERSON-SYNCHEF</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM PUEBLO</fullName>
+                <default>false</default>
+                <label>T0088 TEAM PUEBLO</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM SCOTT BRADFORD</fullName>
+                <default>false</default>
+                <label>T0088 TEAM SCOTT BRADFORD</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM STEAMBOAT</fullName>
+                <default>false</default>
+                <label>T0088 TEAM STEAMBOAT</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM WRIGHT</fullName>
+                <default>false</default>
+                <label>T0088 TEAM WRIGHT</label>
+            </value>
+            <value>
+                <fullName>T0088 TEAM WYOMING OPEN</fullName>
+                <default>false</default>
+                <label>T0088 TEAM WYOMING OPEN</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM LAS CRUCES</fullName>
+                <default>false</default>
+                <label>T0090 TEAM LAS CRUCES</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM ROSWELL</fullName>
+                <default>false</default>
+                <label>T0090 TEAM ROSWELL</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM SAN ANGELO</fullName>
+                <default>false</default>
+                <label>T0090 TEAM SAN ANGELO</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM VICTORIA</fullName>
+                <default>false</default>
+                <label>T0090 TEAM VICTORIA</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM W</fullName>
+                <default>false</default>
+                <label>T0090 TEAM W</label>
+            </value>
+            <value>
+                <fullName>T0090 TEAM WEST TEXAS</fullName>
+                <default>false</default>
+                <label>T0090 TEAM WEST TEXAS</label>
+            </value>
+            <value>
+                <fullName>T0091 TEAM EAST BAY</fullName>
+                <default>false</default>
+                <label>T0091 TEAM EAST BAY</label>
+            </value>
+            <value>
+                <fullName>T0091 TEAM GOLDEN GATE</fullName>
+                <default>false</default>
+                <label>T0091 TEAM GOLDEN GATE</label>
+            </value>
+            <value>
+                <fullName>T0091 TEAM MONTEREY</fullName>
+                <default>false</default>
+                <label>T0091 TEAM MONTEREY</label>
+            </value>
+            <value>
+                <fullName>T0091 TEAM SOUTH BAY</fullName>
+                <default>false</default>
+                <label>T0091 TEAM SOUTH BAY</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM DOGS</fullName>
+                <default>false</default>
+                <label>T0092 TEAM DOGS</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM HENDERSON LV</fullName>
+                <default>false</default>
+                <label>T0092 TEAM HENDERSON LV</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM LAS VEGAS</fullName>
+                <default>false</default>
+                <label>T0092 TEAM LAS VEGAS</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM NORTHERN UTAH</fullName>
+                <default>false</default>
+                <label>T0092 TEAM NORTHERN UTAH</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM SLC NORTH</fullName>
+                <default>false</default>
+                <label>T0092 TEAM SLC NORTH</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM SLC SOUTH</fullName>
+                <default>false</default>
+                <label>T0092 TEAM SLC SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM UNIVERSITY</fullName>
+                <default>false</default>
+                <label>T0092 TEAM UNIVERSITY</label>
+            </value>
+            <value>
+                <fullName>T0092 TEAM UTAH COUNTY</fullName>
+                <default>false</default>
+                <label>T0092 TEAM UTAH COUNTY</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM CHICAGO - NORTH</fullName>
+                <default>false</default>
+                <label>T0093 TEAM CHICAGO - NORTH</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM CHICAGO - SOUTH</fullName>
+                <default>false</default>
+                <label>T0093 TEAM CHICAGO - SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM CITY</fullName>
+                <default>false</default>
+                <label>T0093 TEAM CITY</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM CITY NORTH</fullName>
+                <default>false</default>
+                <label>T0093 TEAM CITY NORTH</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM DUPAGE</fullName>
+                <default>false</default>
+                <label>T0093 TEAM DUPAGE</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM NORTH-NW SUBURBS</fullName>
+                <default>false</default>
+                <label>T0093 TEAM NORTH-NW SUBURBS</label>
+            </value>
+            <value>
+                <fullName>T0093 TEAM ROCKFORD NW</fullName>
+                <default>false</default>
+                <label>T0093 TEAM ROCKFORD NW</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM CENTRAL SIERRA</fullName>
+                <default>false</default>
+                <label>T0094 TEAM CENTRAL SIERRA</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM CENTRAL VALLEY NORTH</fullName>
+                <default>false</default>
+                <label>T0094 TEAM CENTRAL VALLEY NORTH</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM CENTRAL VALLEY SOUTH</fullName>
+                <default>false</default>
+                <label>T0094 TEAM CENTRAL VALLEY SOUTH</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM CHICO-REDDING</fullName>
+                <default>false</default>
+                <label>T0094 TEAM CHICO-REDDING</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM MODESTO</fullName>
+                <default>false</default>
+                <label>T0094 TEAM MODESTO</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM NAPA</fullName>
+                <default>false</default>
+                <label>T0094 TEAM NAPA</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM NORTH BAY</fullName>
+                <default>false</default>
+                <label>T0094 TEAM NORTH BAY</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM RENO</fullName>
+                <default>false</default>
+                <label>T0094 TEAM RENO</label>
+            </value>
+            <value>
+                <fullName>T0094 TEAM SACRAMENTO</fullName>
+                <default>false</default>
+                <label>T0094 TEAM SACRAMENTO</label>
+            </value>
+            <value>
+                <fullName>T0095 TEAM ALASKA</fullName>
+                <default>false</default>
+                <label>T0095 TEAM ALASKA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Merk Knie Patella Femoraal --></label>
+    <name>Merk_Knie_Patella_Femoraal__c</name>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johnson &amp; Johnson</masterLabel>
+        <translation><!-- Johnson &amp; Johnson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith Nephew</masterLabel>
+        <translation><!-- Smith Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

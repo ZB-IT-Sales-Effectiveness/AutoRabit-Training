@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salutation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Account__c != null, 
+	IF (ISPICKVAL(Account__r.Salutation, &apos;Mr.&apos;), &apos;Mr.&apos;, 
+		IF (ISPICKVAL(Account__r.Salutation, &apos;Ms.&apos;), &apos;Ms.&apos;,
+			IF (ISPICKVAL(Account__r.Salutation, &apos;Mrs.&apos;), &apos;Mrs.&apos;,
+				IF (ISPICKVAL(Account__r.Salutation, &apos;Dr.&apos;), &apos;Dr.&apos;,
+					IF (ISPICKVAL(Account__r.Salutation, &apos;Prof.&apos;), &apos;Prof.&apos;, null)
+				)
+			)
+		)
+	),
+	IF (Contact__c != null,
+		IF (ISPICKVAL(Contact__r.Salutation, &apos;Mr.&apos;), &apos;Mr.&apos;, 
+			IF (ISPICKVAL(Contact__r.Salutation, &apos;Ms.&apos;), &apos;Ms.&apos;,
+				IF (ISPICKVAL(Contact__r.Salutation, &apos;Mrs.&apos;), &apos;Mrs.&apos;,
+					IF (ISPICKVAL(Contact__r.Salutation, &apos;Dr.&apos;), &apos;Dr.&apos;,
+						IF (ISPICKVAL(Contact__r.Salutation, &apos;Prof.&apos;), &apos;Prof.&apos;, null)
+					)
+				)
+			)
+		), 
+		null
+	)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Salutation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

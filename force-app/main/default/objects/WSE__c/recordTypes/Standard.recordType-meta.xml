@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard</fullName>
+    <active>true</active>
+    <label>Standard</label>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>CEMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EARLY INTERVENTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXTREMITIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOOT %26 ANKLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KNEES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORTS MEDICINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRAUMA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

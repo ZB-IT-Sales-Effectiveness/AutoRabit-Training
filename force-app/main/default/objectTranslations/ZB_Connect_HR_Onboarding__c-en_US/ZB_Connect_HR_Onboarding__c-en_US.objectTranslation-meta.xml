@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ZB Connect HR Onboarding</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ZB Connect HR Onboardings</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- ROSA AVP --></label>
+        <name>ROSA_AVP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- ROSA PDM record type. --></description>
+        <label><!-- ROSA PDM --></label>
+        <name>ROSA_PDM</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- ROSA RSM record type. --></description>
+        <label><!-- ROSA RSM --></label>
+        <name>ROSA_RSM</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- ZB Surgical HR Onboardings --></description>
+        <label><!-- ZB Surgical --></label>
+        <name>ZB_Surgical</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

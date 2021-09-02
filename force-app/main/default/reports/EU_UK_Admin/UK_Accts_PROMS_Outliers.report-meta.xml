@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_11657062</developerName>
+        <masterLabel>Outlier Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account.Account_Status__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Negative outlier; Knees - Negative outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Negative outlier; Knees - Not an outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Not an outlier; Knees - Negative outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Positive outlier; Knees - Negative outlier</sourceValue>
+            </sourceValues>
+            <value>Negative Outliers</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - No information; Knees - Not an outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Not an outlier; Knees - No information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Not an outlier; Knees - Not an outlier</sourceValue>
+            </sourceValues>
+            <value>Not an Outlier</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Not an outlier; Knees - Positive outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Positive outlier; Knees - Not an outlier</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PROMS: Hips - Positive outlier; Knees - Positive outlier</sourceValue>
+            </sourceValues>
+            <value>Positive Outliers</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>BucketField_11657062</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Status__c</field>
+    </columns>
+    <currency>GBP</currency>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.SAPKunde</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Great Britain</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>PROMS: Hips - Not an outlier; Knees - Not an outlier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value/>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>UK Accts PROMS Outliers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

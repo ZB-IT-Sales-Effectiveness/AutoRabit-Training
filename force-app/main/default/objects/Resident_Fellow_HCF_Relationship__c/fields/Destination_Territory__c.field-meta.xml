@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Destination_Territory__c</fullName>
+    <externalId>false</externalId>
+    <label>Destination Territory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Boneafide Orthopaedics, Inc.</fullName>
+                <default>false</default>
+                <label>Boneafide Orthopaedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>Case Medical</fullName>
+                <default>false</default>
+                <label>Case Medical</label>
+            </value>
+            <value>
+                <fullName>Joint Medical Concepts</fullName>
+                <default>false</default>
+                <label>Joint Medical Concepts</label>
+            </value>
+            <value>
+                <fullName>Legacy Orthopedic, Inc.</fullName>
+                <default>false</default>
+                <label>Legacy Orthopedic, Inc.</label>
+            </value>
+            <value>
+                <fullName>Midark Surgical Inc.</fullName>
+                <default>false</default>
+                <label>Midark Surgical Inc.</label>
+            </value>
+            <value>
+                <fullName>Osteo1, Inc.</fullName>
+                <default>false</default>
+                <label>Osteo1, Inc.</label>
+            </value>
+            <value>
+                <fullName>Select Orthopedics, Inc.</fullName>
+                <default>false</default>
+                <label>Select Orthopedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>Summit Surgical</fullName>
+                <default>false</default>
+                <label>Summit Surgical</label>
+            </value>
+            <value>
+                <fullName>Test Distributor Account</fullName>
+                <default>false</default>
+                <label>Test Distributor Account</label>
+            </value>
+            <value>
+                <fullName>ZB APEX Surgical</fullName>
+                <default>false</default>
+                <label>ZB APEX Surgical</label>
+            </value>
+            <value>
+                <fullName>ZB Chicago</fullName>
+                <default>false</default>
+                <label>ZB Chicago</label>
+            </value>
+            <value>
+                <fullName>ZB Southeast</fullName>
+                <default>false</default>
+                <label>ZB Southeast</label>
+            </value>
+            <value>
+                <fullName>ZBOne</fullName>
+                <default>false</default>
+                <label>ZBOne</label>
+            </value>
+            <value>
+                <fullName>ZBWisco Inc</fullName>
+                <default>false</default>
+                <label>ZBWisco Inc</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Alaska</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Alaska</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Bay Area</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Bay Area</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Capital</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Capital</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Carolinas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Carolinas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Colorado</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Colorado</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Davis</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Davis</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Downstate New York</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Downstate New York</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Fegan, Inc.</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Fegan, Inc.</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Great Lakes</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Great Lakes</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Heartland-Omaha</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Heartland-Omaha</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Hibbard</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Hibbard</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Holzbach</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Holzbach</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Indiana</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Indiana</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mid-Ohio</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mid-Ohio</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet MidAmerica</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet MidAmerica</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Mokan</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Mokan</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet North Texas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet North Texas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Northeast</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Northeast</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Northwest</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Northwest</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Oregon</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Oregon</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet OrthoSolutions</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet OrthoSolutions</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Pacific</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Pacific</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Riccione</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Riccione</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Rio Grande</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Rio Grande</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet RxMedical</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet RxMedical</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Solutions</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Solutions</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet South Texas</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet South Texas</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southern California</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southern California</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southern Idaho</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southern Idaho</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southwest</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southwest</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Southwest Ohio</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Southwest Ohio</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet TN</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet TN</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Tri-State</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Tri-State</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet West, Inc.</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet West, Inc.</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Western New York</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Western New York</label>
+            </value>
+            <value>
+                <fullName>ZB Empire</fullName>
+                <default>false</default>
+                <label>ZB Empire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

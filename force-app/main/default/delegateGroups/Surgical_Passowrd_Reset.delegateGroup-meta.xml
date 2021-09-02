@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>ROSA</groups>
+    <label>Surgical Password Reset</label>
+    <loginAccess>true</loginAccess>
+    <permissionSets>Export or Download Report Permissions</permissionSets>
+    <permissionSets>Lightning Experience User</permissionSets>
+    <profiles>US Rosa Sales</profiles>
+    <profiles>Custom-My Mobility</profiles>
+    <profiles>AM-US-SU Sales</profiles>
+    <roles>Management - Surgical</roles>
+    <roles>Surgical RSM - Greg Muller</roles>
+    <roles>AM-Executive Sales Management</roles>
+    <roles>OBT - Director</roles>
+    <roles>Surgical RSM - Michael Calkins</roles>
+    <roles>Surgical RSM -  Tim Tooley</roles>
+    <roles>Surgical RSM - Darren Way</roles>
+    <roles>Surgical RSM - Topher Ewing</roles>
+</DelegateGroup>

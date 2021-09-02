@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Kampagneninfo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Kampagneninfos</value>
+    </caseValues>
+    <nameFieldLabel><!-- Kampagneninfo-AutoNr --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

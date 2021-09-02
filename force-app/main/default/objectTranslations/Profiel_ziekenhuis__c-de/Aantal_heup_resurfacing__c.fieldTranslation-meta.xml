@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Geef aan hoeveel heup resurfacing operaties in dit ziekenhuis op jaarbasis worden uitgevoerd. --></help>
+    <label><!-- Aantal heup resurfacing --></label>
+    <name>Aantal_heup_resurfacing__c</name>
+</CustomFieldTranslation>

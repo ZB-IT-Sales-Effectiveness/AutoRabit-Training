@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Star_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Lead_Rating__c , &quot;Cold&quot; ), IMAGE(&quot;https://zimmerbiometglobal--c.na104.visual.force.com/resource/1615539171000/Blue_Star?&quot;, &quot;NOT WORKING&quot;, 50, 50),
+IF (ISPICKVAL(Lead_Rating__c , &quot;Hot&quot; ), IMAGE( &quot;https://zimmerbiometglobal--c.na104.visual.force.com/resource/1615539171000/Orange_Star&quot; , &quot;NOT WORKING&quot; , 50 ,50),
+IF (ISPICKVAL (Lead_Rating__c , &quot;Warm&quot; ) , IMAGE( &quot;https://zimmerbiometglobal--c.na104.visual.force.com/resource/1615539171000/Yellow_Star?&quot;,&quot;NOT WORKING&quot; , 50 , 50 ), 
+IF  (ISPICKVAL (Lead_Rating__c , &quot;Urgent&quot; ), IMAGE( &quot;https://zimmerbiometglobal--c.na104.visual.force.com/resource/1615539171000/Red_Star?&quot; , &quot;NOT WORKING&quot; , 50 , 50 ),
+&quot;NOT LEAD RATING&quot; )
+			)
+			)
+			)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lead Star Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Eval Product Shipped --></label>
+    <name>Eval_Product_Shipped__c</name>
+    <picklistValues>
+        <masterLabel>Capital - MCS</masterLabel>
+        <translation><!-- Capital - MCS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Compression Therapy</masterLabel>
+        <translation><!-- Capital – Compression Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Fluid Waste Management</masterLabel>
+        <translation><!-- Capital – Fluid Waste Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Power</masterLabel>
+        <translation><!-- Capital – Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Skin Grafting</masterLabel>
+        <translation><!-- Capital – Skin Grafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Total Shield</masterLabel>
+        <translation><!-- Capital – Total Shield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Tourniquets</masterLabel>
+        <translation><!-- Capital – Tourniquets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Traction</masterLabel>
+        <translation><!-- Capital – Traction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital – Video Systems</masterLabel>
+        <translation><!-- Capital – Video Systems --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

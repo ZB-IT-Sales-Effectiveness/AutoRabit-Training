@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fachgebietstyp</label>
+    <name>Specialty_Type__c</name>
+    <picklistValues>
+        <masterLabel>Bone Grafting</masterLabel>
+        <translation><!-- Bone Grafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetic Dentistry</masterLabel>
+        <translation><!-- Cosmetic Dentistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endodontics</masterLabel>
+        <translation><!-- Endodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Dentistry</masterLabel>
+        <translation><!-- General Dentistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Dentistry</masterLabel>
+        <translation><!-- Implant Dentistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral Surgery</masterLabel>
+        <translation><!-- Oral Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periodontics</masterLabel>
+        <translation><!-- Periodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthodontics</masterLabel>
+        <translation><!-- Prosthodontics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ridge Augmentation</masterLabel>
+        <translation><!-- Ridge Augmentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sinus Lifts</masterLabel>
+        <translation><!-- Sinus Lifts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Preservation</masterLabel>
+        <translation><!-- Site Preservation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Zimmer Biomet Southern California - BP</name>
+    <queueMembers>
+        <users>
+            <user>alex.fisch@zimmerbiomet.com</user>
+            <user>brian.martin@zimmerbiomet.com</user>
+            <user>james.wallace@zimmerbiomet.com</user>
+            <user>kirk.rissinger@zimmerbiomet.com</user>
+            <user>ryan.poffenberger@zimmerbiomet.com</user>
+            <user>scott.k.holdsworth@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

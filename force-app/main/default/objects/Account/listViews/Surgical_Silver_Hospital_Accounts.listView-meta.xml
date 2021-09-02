@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgical_Silver_Hospital_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>MDM_SAP_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>Distributor_Name__c</columns>
+    <columns>Segmentation_Surgical__c</columns>
+    <columns>Coalition_Account__c</columns>
+    <columns>Class_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.HealthcareFacility</value>
+    </filters>
+    <filters>
+        <field>Segmentation_Surgical__c</field>
+        <operation>equals</operation>
+        <value>Silver</value>
+    </filters>
+    <filters>
+        <field>Distributor_Name__c</field>
+        <operation>notEqual</operation>
+        <value>HOUSE ACCOUNT</value>
+    </filters>
+    <filters>
+        <field>Distributor_Name__c</field>
+        <operation>notContain</operation>
+        <value>KHCP-PHYSICIANS</value>
+    </filters>
+    <filters>
+        <field>Distributor_Name__c</field>
+        <operation>notContain</operation>
+        <value>KHCP-CUST DISTRIBUTION WH</value>
+    </filters>
+    <filters>
+        <field>Distributor_Name__c</field>
+        <operation>notContain</operation>
+        <value>KHCP-MISC</value>
+    </filters>
+    <filters>
+        <field>Distributor_Name__c</field>
+        <operation>notEqual</operation>
+        <value>KHCP-PHYSICIANS</value>
+    </filters>
+    <label>Surgical Silver Hospital Accounts</label>
+    <sharedTo>
+        <group>TCS_SFDC_Admins</group>
+        <role>CRMAdministrator</role>
+    </sharedTo>
+</ListView>

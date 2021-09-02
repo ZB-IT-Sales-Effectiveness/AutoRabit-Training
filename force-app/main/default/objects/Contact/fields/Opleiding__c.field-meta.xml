@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opleiding__c</fullName>
+    <description>Beschrijf de opleiding van deze contactpersoon. Je kan hier ook invullen wanneer en met welk onderwerp de contactpersoon is gepromoveerd.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Beschrijf de opleiding van deze contactpersoon. Je kan hier ook invullen wanneer en met welk onderwerp de contactpersoon is gepromoveerd.</inlineHelpText>
+    <label>Opleiding</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

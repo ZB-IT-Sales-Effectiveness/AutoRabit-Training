@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce Access Request</fullName>
+                <default>false</default>
+                <label>Salesforce Access Request</label>
+            </value>
+            <value>
+                <fullName>Data Visibility Issue</fullName>
+                <default>false</default>
+                <label>Data Visibility Issue</label>
+            </value>
+            <value>
+                <fullName>SFDC Mobile Functional Issue</fullName>
+                <default>false</default>
+                <label>SFDC Mobile Functional Issue</label>
+            </value>
+            <value>
+                <fullName>Grid Buddy Functional Issue</fullName>
+                <default>false</default>
+                <label>Grid Buddy Functional Issue</label>
+            </value>
+            <value>
+                <fullName>Enhancement Request</fullName>
+                <default>false</default>
+                <label>Enhancement Request</label>
+            </value>
+            <value>
+                <fullName>Tableau Access</fullName>
+                <default>false</default>
+                <label>Tableau Access</label>
+            </value>
+            <value>
+                <fullName>Sales Reporting Issue</fullName>
+                <default>false</default>
+                <label>Sales Reporting Issue</label>
+            </value>
+            <value>
+                <fullName>JAMS Access</fullName>
+                <default>false</default>
+                <label>JAMS Access</label>
+            </value>
+            <value>
+                <fullName>JAMS Issue</fullName>
+                <default>false</default>
+                <label>JAMS Issue</label>
+            </value>
+            <value>
+                <fullName>JTM Access</fullName>
+                <default>false</default>
+                <label>JTM Access</label>
+            </value>
+            <value>
+                <fullName>Target Reporting Issue</fullName>
+                <default>false</default>
+                <label>Target Reporting Issue</label>
+            </value>
+            <value>
+                <fullName>Salesforce Issue</fullName>
+                <default>false</default>
+                <label>Salesforce Issue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Permission Set Update</fullName>
+                <default>false</default>
+                <label>Permission Set Update</label>
+            </value>
+            <value>
+                <fullName>JAMS Approval</fullName>
+                <default>false</default>
+                <label>JAMS Approval</label>
+            </value>
+            <value>
+                <fullName>Access Requests</fullName>
+                <default>false</default>
+                <label>Access Requests</label>
+            </value>
+            <value>
+                <fullName>Alignment Support</fullName>
+                <default>false</default>
+                <label>Alignment Support</label>
+            </value>
+            <value>
+                <fullName>Functional Issue</fullName>
+                <default>false</default>
+                <label>Functional Issue</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Data Visibility</fullName>
+                <default>false</default>
+                <label>Data Visibility</label>
+            </value>
+            <value>
+                <fullName>Sales Data Issue</fullName>
+                <default>false</default>
+                <label>Sales Data Issue</label>
+            </value>
+            <value>
+                <fullName>Field Support</fullName>
+                <default>false</default>
+                <label>Field Support</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>ZB Cup Race</fullName>
+                <default>false</default>
+                <label>ZB Cup Race</label>
+            </value>
+            <value>
+                <fullName>Surgeon Hand Off</fullName>
+                <default>false</default>
+                <label>Surgeon Hand Off</label>
+            </value>
+            <value>
+                <fullName>Business Plan</fullName>
+                <default>false</default>
+                <label>Business Plan</label>
+            </value>
+            <value>
+                <fullName>Data Visibility – JAMS Alignment</fullName>
+                <default>false</default>
+                <label>Data Visibility – JAMS Alignment</label>
+            </value>
+            <value>
+                <fullName>Data Visibility – Acct/Surgeon Missing</fullName>
+                <default>false</default>
+                <label>Data Visibility – Acct/Surgeon Missing</label>
+            </value>
+            <value>
+                <fullName>Login Issues</fullName>
+                <default>false</default>
+                <label>Login Issues</label>
+            </value>
+            <value>
+                <fullName>Clear Cache, Glitch, Browser</fullName>
+                <default>false</default>
+                <label>Clear Cache, Glitch, Browser</label>
+            </value>
+            <value>
+                <fullName>Permission Sets</fullName>
+                <default>false</default>
+                <label>Permission Sets</label>
+            </value>
+            <value>
+                <fullName>MTL Decks</fullName>
+                <default>false</default>
+                <label>MTL Decks</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>ZB Cup Race</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Surgeon Hand Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>MTL Decks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Avalanche Bell</controllingFieldValue>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <valueName>Field Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Salesforce Access Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>SFDC Mobile Functional Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Grid Buddy Functional Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Enhancement Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Business Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Data Visibility – JAMS Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Data Visibility – Acct/Surgeon Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Login Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Clear Cache, Glitch, Browser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Permission Sets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>Access Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>Functional Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>Training Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <valueName>Data Visibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tableau</controllingFieldValue>
+            <valueName>Sales Data Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>JAMS Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAMS</controllingFieldValue>
+            <valueName>Alignment Support</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

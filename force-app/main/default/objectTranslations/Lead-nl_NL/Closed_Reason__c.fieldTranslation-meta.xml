@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Closed Reason --></label>
+    <name>Closed_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Bad fit</masterLabel>
+        <translation><!-- Bad fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive takeover</masterLabel>
+        <translation><!-- Competitive takeover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error/Not Valid</masterLabel>
+        <translation><!-- Error/Not Valid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inventory Stocked</masterLabel>
+        <translation><!-- Inventory Stocked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Issue</masterLabel>
+        <translation><!-- Marketing Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Activity - 45 days</masterLabel>
+        <translation><!-- No Activity - 45 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation><!-- Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Performance</masterLabel>
+        <translation><!-- Product Performance --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_Titel</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( $User.Region__c , &quot;EU&quot;),
+
+OR(
+$User.UserRoleId = &quot;00E20000000iXKp&quot;,
+$User.UserRoleId = &quot;00E20000000jrYL&quot;, 
+$User.UserRoleId = &quot;00E20000000jrYM&quot;, 
+$User.UserRoleId = &quot;00E20000000jrYQ&quot;, 
+$User.UserRoleId = &quot;00E20000000jrcm&quot;, 
+$User.UserRoleId = &quot;00E20000000jrdB&quot;, 
+$User.UserRoleId = &quot;00E20000000jrYV&quot;, 
+$User.UserRoleId = &quot;00E20000000jrYR&quot;, 
+$User.UserRoleId = &quot;00E20000000jrcr&quot;, 
+$User.UserRoleId = &quot;00E20000000jrdG&quot;, 
+$User.UserRoleId = &quot;00E20000000jrcw&quot;, 
+$User.UserRoleId = &quot;00E20000000jrdL&quot;, 
+$User.UserRoleId = &quot;00E20000000jrd1&quot;, 
+$User.UserRoleId = &quot;00E20000000jrdQ&quot;, 
+$User.UserRoleId = &quot;00E20000000jrd6&quot;, 
+$User.UserRoleId = &quot;00E20000000jrdV&quot;
+),
+
+NOT(
+OR(
+CONTAINS(Title,&quot;Betriebswirt&quot;), 
+CONTAINS(Title,&quot;Dipl.-BW&quot;), 
+CONTAINS(Title,&quot;Dipl.-H. Oec.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Ing.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Ing.oec.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Kffr.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Kfm.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Med.&quot;), 
+CONTAINS(Title,&quot;Dipl.oec.&quot;), 
+CONTAINS(Title,&quot;Dipl.-Pharm.&quot;), 
+CONTAINS(Title,&quot;Dipl.-VW&quot;), 
+CONTAINS(Title,&quot;Dr.&quot;), 
+CONTAINS(Title,&quot;Dr. biol. hum.&quot;), 
+CONTAINS(Title,&quot;Dr. Dr. med.&quot;), 
+CONTAINS(Title,&quot;Dr. hum. biol.&quot;), 
+CONTAINS(Title,&quot;Dr. med.&quot;), 
+CONTAINS(Title,&quot;Dr. med. Dipl.- oec.&quot;), 
+CONTAINS(Title,&quot;Dr. med. Dr. h. c.&quot;), 
+CONTAINS(Title,&quot;Dr. med. Dr.-Ing.&quot;), 
+CONTAINS(Title,&quot;Dr. med. habil.&quot;), 
+CONTAINS(Title,&quot;Dr. nat. rer.&quot;), 
+CONTAINS(Title,&quot;Dr. nauk med.&quot;), 
+CONTAINS(Title,&quot;Dr. rer. nat.&quot;), 
+CONTAINS(Title,&quot;Dr. Dipl.Ing.Ökon.&quot;), 
+CONTAINS(Title,&quot;Dr. rer.oec.&quot;), 
+CONTAINS(Title,&quot;Dr. rer.pol.&quot;), 
+CONTAINS(Title,&quot;Dr. sc.pol.&quot;), 
+CONTAINS(Title,&quot;Dr. univ.(UA)&quot;), 
+CONTAINS(Title,&quot;Hauptfeldwebel&quot;), 
+CONTAINS(Title,&quot;Oberstabsfeldwebel&quot;), 
+CONTAINS(Title,&quot;Pfleger&quot;), 
+CONTAINS(Title,&quot;Prior&quot;), 
+CONTAINS(Title,&quot;Priv. Doz.&quot;), 
+CONTAINS(Title,&quot;Priv. Doz.Dr.med.&quot;), 
+CONTAINS(Title,&quot;Schwester&quot;),
+CONTAINS(Title,&quot;&quot;)
+)
+) 
+)</errorConditionFormula>
+    <errorMessage>Erlaubte Schreibweise:
+Dipl.-BW,Dipl.-Ing.,Dipl.-Kffr.,Dipl.-Kfm.,Dipl.-Med.,Dipl.oec.,Dipl.-VW,Dr.,Dr. biol. hum.,Dr. Dr. med.,Dr. med.,Dr. med. Dipl.- oec.,Dr. med. Dr. h. c.,Dr. med. habil.,Dr. rer. nat.,Priv. Doz.,Priv. Doz.Dr.med.,Schwester</errorMessage>
+</ValidationRule>

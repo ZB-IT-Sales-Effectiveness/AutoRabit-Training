@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Company</fullName>
+                <default>false</default>
+                <label>Company</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Personal</fullName>
+                <default>false</default>
+                <label>Personal</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Reciprocal</fullName>
+                <default>false</default>
+                <label>Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>EDI</fullName>
+                <default>false</default>
+                <label>EDI</label>
+            </value>
+            <value>
+                <fullName>CFS</fullName>
+                <default>false</default>
+                <label>CFS</label>
+            </value>
+            <value>
+                <fullName>EDI-GHX</fullName>
+                <default>false</default>
+                <label>EDI-GHX</label>
+            </value>
+            <value>
+                <fullName>Zahntechnikermeister</fullName>
+                <default>false</default>
+                <label>Zahntechnikermeister</label>
+            </value>
+            <value>
+                <fullName>Zahntechniker</fullName>
+                <default>false</default>
+                <label>Zahntechniker</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>PACS admin</fullName>
+                <default>false</default>
+                <label>PACS admin</label>
+            </value>
+            <value>
+                <fullName>Scan Tech</fullName>
+                <default>false</default>
+                <label>Scan Tech</label>
+            </value>
+            <value>
+                <fullName>Sales Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep</label>
+            </value>
+            <value>
+                <fullName>PDM</fullName>
+                <default>false</default>
+                <label>PDM</label>
+            </value>
+            <value>
+                <fullName>RSM</fullName>
+                <default>false</default>
+                <label>RSM</label>
+            </value>
+            <value>
+                <fullName>AVP</fullName>
+                <default>false</default>
+                <label>AVP</label>
+            </value>
+            <value>
+                <fullName>Surgeon</fullName>
+                <default>false</default>
+                <label>Surgeon</label>
+            </value>
+            <value>
+                <fullName>PCC</fullName>
+                <default>false</default>
+                <label>PCC</label>
+            </value>
+            <value>
+                <fullName>NAM Surgeon</fullName>
+                <default>false</default>
+                <label>NAM Surgeon</label>
+            </value>
+            <value>
+                <fullName>APAC Surgeon</fullName>
+                <default>false</default>
+                <label>APAC Surgeon</label>
+            </value>
+            <value>
+                <fullName>EMEA Surgeon</fullName>
+                <default>false</default>
+                <label>EMEA Surgeon</label>
+            </value>
+            <value>
+                <fullName>CT Scan Tech</fullName>
+                <default>false</default>
+                <label>CT Scan Tech</label>
+            </value>
+            <value>
+                <fullName>MRI Scan Tech</fullName>
+                <default>false</default>
+                <label>MRI Scan Tech</label>
+            </value>
+            <value>
+                <fullName>X-ray Scan Tech</fullName>
+                <default>false</default>
+                <label>X-ray Scan Tech</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

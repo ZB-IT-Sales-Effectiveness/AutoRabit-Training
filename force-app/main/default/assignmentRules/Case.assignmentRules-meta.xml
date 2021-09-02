@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Global Case Assignment Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>CAS_Optical</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS Optical Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_PSI</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS PSI Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_iAssist</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS iAssist Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS Support Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>My_Mobility_cases_lvl_1</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>mymobility</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>My_Mobility_Cases_2</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>mymobility level 2 cases</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CS_East</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Capital Solutions Team</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region_code__c</field>
+                <operation>equals</operation>
+                <value>1</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <template>All_Email_Templates/Support_Capital_Solutions_New_Case_assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CS_Central</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Capital Solutions Deal Desk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region_code__c</field>
+                <operation>equals</operation>
+                <value>2</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <template>All_Email_Templates/Support_Capital_Solutions_New_Case_assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CS_West</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Capital Solutions Deal Desk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region_code__c</field>
+                <operation>equals</operation>
+                <value>3</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <template>All_Email_Templates/Support_Capital_Solutions_New_Case_assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Capital_Solutions_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Capital Solutions Team</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Regional_Sales_Director</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Regional Sales Director</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Brand_Marketing_Manager_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Brand/Marketing/Product Manager</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Site_Visits</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Site Visit</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Connect_Solution_Center</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Sales Support Team</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Clinical_Excellence_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Clinical Excellence Team</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>GPO_Group</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>GPO Group</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>MarCom</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>MarCom</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Executive_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Request_Type__c</field>
+                <operation>equals</operation>
+                <value>Executive Support</value>
+            </criteriaItems>
+            <template>All_Email_Templates/SUPPORT_New_case_in_queue_Deal_Support_Queues_notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PS_Manager</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Personalized Solutions</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>kathy.miles@zimmer.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Americas Reimbursement Hotline – Standard Case</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>reimbursement@zimmer.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Americas Reimbursement Hotline- Access to Care</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PS_IT</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PS-PACS</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>TC_Import</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>TC Import</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>TC_Export</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>TC Export</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Persona_IQ_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Persona IQ</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Persona IQ</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Types of Cases</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>CAS_Optical</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS Optical Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_PSI</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS PSI Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_iAssist</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS iAssist Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CAS_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Zimmer CAS Support Call Center</value>
+            </criteriaItems>
+            <template>CAS_Call_Center/CAS_New_email_to_case</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

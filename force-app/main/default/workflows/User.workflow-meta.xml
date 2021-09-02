@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_check_User_s_Manager_Updated</fullName>
+        <field>User_s_Manager_Updated__c</field>
+        <literalValue>1</literalValue>
+        <name>Update check User&apos;s Manager Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CloudCraze New Account Trigger</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.CCZimDentalCustomerId__c</field>
+            <operation>greaterThan</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>CloudCraze High Volume Customer Portal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.CreatedById</field>
+            <operation>equals</operation>
+            <value>Scribe Integration</value>
+        </criteriaItems>
+        <description>Sends notification when a new CloudCraze User account is created.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update checkbox as true when Manager is updated</fullName>
+        <actions>
+            <name>Update_check_User_s_Manager_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+      OR(
+         Profile.Name = &apos;AM-US-SU Sales&apos;,
+         Profile.Name = &apos;US Rosa Sales&apos;
+        ),
+      ISCHANGED( ManagerId )
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

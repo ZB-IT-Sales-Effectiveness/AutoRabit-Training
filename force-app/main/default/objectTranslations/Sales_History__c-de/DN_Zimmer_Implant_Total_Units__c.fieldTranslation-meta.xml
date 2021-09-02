@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Includes TM and TSV family implants --></help>
+    <label><!-- DN Zimmer Implant Total Units --></label>
+    <name>DN_Zimmer_Implant_Total_Units__c</name>
+</CustomFieldTranslation>

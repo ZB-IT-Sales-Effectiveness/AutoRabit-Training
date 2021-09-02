@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Southeast_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB Southeast</label>
+    <language>en_US</language>
+    <queue>ZB_Southeast</queue>
+    <sharedTo>
+        <group>ZB_Southeast</group>
+    </sharedTo>
+</ListView>

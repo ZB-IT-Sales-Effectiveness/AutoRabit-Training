@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Assoc Prof.</masterLabel>
+        <translation><!-- Assoc Prof. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Associate Chief.</masterLabel>
+        <translation>副主任医师</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Attending/Visiting Dr.</masterLabel>
+        <translation>主治医师</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chief.</masterLabel>
+        <translation>主任医师</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Docteur</masterLabel>
+        <translation><!-- Docteur --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dr.</masterLabel>
+        <translation>医师</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau</masterLabel>
+        <translation><!-- Frau --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau Privatdozentin</masterLabel>
+        <translation><!-- Frau Privatdozentin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau Professorin</masterLabel>
+        <translation><!-- Frau Professorin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herrn</masterLabel>
+        <translation><!-- Herrn --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herrn Privatdozent</masterLabel>
+        <translation><!-- Herrn Privatdozent --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herrn Professor</masterLabel>
+        <translation><!-- Herrn Professor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intern.</masterLabel>
+        <translation>实习医生</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M.</masterLabel>
+        <translation><!-- M. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M. Le Doyen</masterLabel>
+        <translation><!-- M. Le Doyen --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Madame</masterLabel>
+        <translation><!-- Madame --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mme</masterLabel>
+        <translation><!-- Mme --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mme Le Doyen</masterLabel>
+        <translation><!-- Mme Le Doyen --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monsieur</masterLabel>
+        <translation><!-- Monsieur --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mr.</masterLabel>
+        <translation><!-- Mr. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mrs.</masterLabel>
+        <translation><!-- Mrs. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ms.</masterLabel>
+        <translation><!-- Ms. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>President.</masterLabel>
+        <translation>院长</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prof.</masterLabel>
+        <translation><!-- Prof. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Professeur</masterLabel>
+        <translation><!-- Professeur --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Resident Dr.</masterLabel>
+        <translation>住院医生</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Signor</masterLabel>
+        <translation><!-- Signor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Signora</masterLabel>
+        <translation><!-- Signora --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Student</masterLabel>
+        <translation><!-- Student --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vice-President.</masterLabel>
+        <translation>副院长</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zahntechniker</masterLabel>
+        <translation><!-- Zahntechniker --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>主任</masterLabel>
+        <translation><!-- 主任 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>主治醫師</masterLabel>
+        <translation><!-- 主治醫師 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>副院長</masterLabel>
+        <translation><!-- 副院長 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>教授</masterLabel>
+        <translation><!-- 教授 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>神外主任</masterLabel>
+        <translation><!-- 神外主任 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>神外部長</masterLabel>
+        <translation><!-- 神外部長 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>神外醫師</masterLabel>
+        <translation><!-- 神外醫師 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>院長</masterLabel>
+        <translation><!-- 院長 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>骨科主任</masterLabel>
+        <translation><!-- 骨科主任 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>骨科部長</masterLabel>
+        <translation><!-- 骨科部長 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>骨科醫師</masterLabel>
+        <translation><!-- 骨科醫師 --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

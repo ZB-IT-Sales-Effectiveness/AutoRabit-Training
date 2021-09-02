@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type steel primair ongecementeerd --></label>
+    <name>X2e_type_steel_primair_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Accolade</masterLabel>
+        <translation><!-- Accolade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Zweymüller</masterLabel>
+        <translation><!-- Alloclassic Zweymüller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir</masterLabel>
+        <translation><!-- Avenir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBC</masterLabel>
+        <translation><!-- CBC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBH (kopie Zweymuller)</masterLabel>
+        <translation><!-- CBH (kopie Zweymuller) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Brevius</masterLabel>
+        <translation><!-- CLS Brevius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Sportonno</masterLabel>
+        <translation><!-- CLS Sportonno --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corail</masterLabel>
+        <translation><!-- Corail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DB 10</masterLabel>
+        <translation><!-- DB 10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EndoCare steel</masterLabel>
+        <translation><!-- EndoCare steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML Taper</masterLabel>
+        <translation><!-- ML Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML Taper Kinective</masterLabel>
+        <translation><!-- ML Taper Kinective --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mallory head</masterLabel>
+        <translation><!-- Mallory head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc</masterLabel>
+        <translation><!-- Metabloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan</masterLabel>
+        <translation><!-- Optan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteonics</masterLabel>
+        <translation><!-- Osteonics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profemur</masterLabel>
+        <translation><!-- Profemur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SL Plus</masterLabel>
+        <translation><!-- SL Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SN steel</masterLabel>
+        <translation><!-- SN steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taperloc</masterLabel>
+        <translation><!-- Taperloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Twinsys</masterLabel>
+        <translation><!-- Twinsys --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

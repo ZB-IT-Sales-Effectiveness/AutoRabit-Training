@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Appalachian</fullName>
+                <default>false</default>
+                <label>Appalachian</label>
+            </value>
+            <value>
+                <fullName>Buckeye</fullName>
+                <default>false</default>
+                <label>Buckeye</label>
+            </value>
+            <value>
+                <fullName>Capitol</fullName>
+                <default>false</default>
+                <label>Capitol</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Central Canada</fullName>
+                <default>false</default>
+                <label>Central Canada</label>
+            </value>
+            <value>
+                <fullName>Chesapeake Bay</fullName>
+                <default>false</default>
+                <label>Chesapeake Bay</label>
+            </value>
+            <value>
+                <fullName>Chicago Land</fullName>
+                <default>false</default>
+                <label>Chicago Land</label>
+            </value>
+            <value>
+                <fullName>Corporate Sales</fullName>
+                <default>false</default>
+                <label>Corporate Sales</label>
+            </value>
+            <value>
+                <fullName>Corporate Sales &amp; Digital</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Corporate Sales &amp; Digital</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>East-Canada</fullName>
+                <default>false</default>
+                <label>East-Canada</label>
+            </value>
+            <value>
+                <fullName>Garden State</fullName>
+                <default>false</default>
+                <label>Garden State</label>
+            </value>
+            <value>
+                <fullName>Golden Gate</fullName>
+                <default>false</default>
+                <label>Golden Gate</label>
+            </value>
+            <value>
+                <fullName>Great Lakes</fullName>
+                <default>false</default>
+                <label>Great Lakes</label>
+            </value>
+            <value>
+                <fullName>Islands</fullName>
+                <default>false</default>
+                <label>Islands</label>
+            </value>
+            <value>
+                <fullName>Key Stone</fullName>
+                <default>false</default>
+                <label>Key Stone</label>
+            </value>
+            <value>
+                <fullName>Lone Star</fullName>
+                <default>false</default>
+                <label>Lone Star</label>
+            </value>
+            <value>
+                <fullName>Metro New York</fullName>
+                <default>false</default>
+                <label>Metro New York</label>
+            </value>
+            <value>
+                <fullName>Mississippi Delta</fullName>
+                <default>false</default>
+                <label>Mississippi Delta</label>
+            </value>
+            <value>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+                <label>Mountain</label>
+            </value>
+            <value>
+                <fullName>North New England</fullName>
+                <default>false</default>
+                <label>North New England</label>
+            </value>
+            <value>
+                <fullName>North Star</fullName>
+                <default>false</default>
+                <label>North Star</label>
+            </value>
+            <value>
+                <fullName>Pacific Northwest</fullName>
+                <default>false</default>
+                <label>Pacific Northwest</label>
+            </value>
+            <value>
+                <fullName>Southern</fullName>
+                <default>false</default>
+                <label>Southern</label>
+            </value>
+            <value>
+                <fullName>South Florida</fullName>
+                <default>false</default>
+                <label>South Florida</label>
+            </value>
+            <value>
+                <fullName>South New England</fullName>
+                <default>false</default>
+                <label>South New England</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

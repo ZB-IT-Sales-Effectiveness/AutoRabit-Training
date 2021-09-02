@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Are they interested in using rebates for Capital equipment placements? --></help>
+    <label><!-- Interest in Capital Equip Rebate --></label>
+    <name>Interest_in_Capital_Equip_Rebate__c</name>
+</CustomFieldTranslation>

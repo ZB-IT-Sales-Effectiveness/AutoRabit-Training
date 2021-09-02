@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>Contact__c</columns>
+    <columns>State__c</columns>
+    <columns>License_Number__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>Agreement__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>Massachusetts</value>
+    </filters>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>Vermont</value>
+    </filters>
+    <filters>
+        <field>Agreement__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Licensed Physicians-MA/VT</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>CenterofExcellence</group>
+    </sharedTo>
+</ListView>

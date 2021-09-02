@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compliance_Office_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Compliance Office Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Disputed transactions - Correction required</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Disputed transactions - Correction required</label>
+            </value>
+            <value>
+                <fullName>Disputed transactions - No Correction required</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Disputed transactions - No Correction required</label>
+            </value>
+            <value>
+                <fullName>Request for additional information</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Request for additional information</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

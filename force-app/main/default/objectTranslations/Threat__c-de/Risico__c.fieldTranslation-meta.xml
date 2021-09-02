@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Risico --></label>
+    <name>Risico__c</name>
+    <picklistValues>
+        <masterLabel>gemiddeld</masterLabel>
+        <translation><!-- gemiddeld --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>hoog</masterLabel>
+        <translation><!-- hoog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>laag</masterLabel>
+        <translation><!-- laag --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>zeer hoog</masterLabel>
+        <translation><!-- zeer hoog --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

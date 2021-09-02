@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_US_Service_Desk_not_able_to_reactivat</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(IsActive ),PRIORVALUE(IsActive)=False,
+OR($Profile.Id=&quot;00eC0000001SlCf&quot;), NOT(OR($User.Id=&apos;005C0000004omFF&apos;,$User.Id=&apos;005C0000004omDs&apos;, $User.Id=&apos;005C0000004ohcY&apos;,$User.Id=&apos;005C0000005b82E&apos;,$User.Id=&apos;005C0000005mQau&apos;, $User.Id=&apos;005C00000043DVk&apos;,$User.Id=&apos;005C0000005oUOd&apos;)))</errorConditionFormula>
+    <errorMessage>You are not able to reactivate this user.</errorMessage>
+</ValidationRule>

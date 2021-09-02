@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytics_Dont_Include__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To allow us to set a filter in Einstein so certain opps dont get included</description>
+    <externalId>false</externalId>
+    <label>Analytics Dont Include</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

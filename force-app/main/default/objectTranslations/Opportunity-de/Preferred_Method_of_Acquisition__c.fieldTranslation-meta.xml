@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Preferred Method of Acquisition --></label>
+    <name>Preferred_Method_of_Acquisition__c</name>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation><!-- Cash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRA</masterLabel>
+        <translation><!-- DRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lease</masterLabel>
+        <translation><!-- Lease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Placement</masterLabel>
+        <translation><!-- Placement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rental</masterLabel>
+        <translation><!-- Rental --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

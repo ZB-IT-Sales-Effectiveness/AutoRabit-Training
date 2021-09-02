@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>(1 AND 2)</booleanFilter>
+    <name>N. New Jersey Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>011534,015602,016857,017060,017321,017506,018641,018666,019496,019822,021003,021041,021516,022679,023371,024477,024628,025230,028973,032563,034129,034357,035675,035900,036076,036542,036584,036903,040051,040275,040410,046826,047008,047549,048404,050032,050283,050370,050745,052326,053266,053810,054833,055139,057201,059055,060395,060415,060917,061149,061743,061882,064166,064225,069281,069624,069819,070230,071766,072170,072300,072355,073104,077637,080052,084765,084834,086098,087490,088265,089380,090000,090999,092114,092838,095394,097517,107574,107610,107639,109409,109679,110789</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

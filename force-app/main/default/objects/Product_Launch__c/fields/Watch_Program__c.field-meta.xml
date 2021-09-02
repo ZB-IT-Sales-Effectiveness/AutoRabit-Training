@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Watch_Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Watch Program</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Program 1</fullName>
+                <default>false</default>
+                <label>Program 1</label>
+            </value>
+            <value>
+                <fullName>Program 2</fullName>
+                <default>false</default>
+                <label>Program 2</label>
+            </value>
+            <value>
+                <fullName>RPWS25 – ROSA Pair / Wear / Share ONLY</fullName>
+                <default>false</default>
+                <label>RPWS25 – ROSA Pair / Wear / Share ONLY</label>
+            </value>
+            <value>
+                <fullName>9H0G2M – 50% off MSRP</fullName>
+                <default>false</default>
+                <label>9H0G2M – 50% off MSRP</label>
+            </value>
+            <value>
+                <fullName>5B4PQD - $200 off at end</fullName>
+                <default>false</default>
+                <label>5B4PQD - $200 off at end</label>
+            </value>
+            <value>
+                <fullName>F72AGU - $100 off at beginning, no return</fullName>
+                <default>false</default>
+                <label>F72AGU - $100 off at beginning, no return</label>
+            </value>
+            <value>
+                <fullName>87GHTB - $100 off at end</fullName>
+                <default>false</default>
+                <label>87GHTB - $100 off at end</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

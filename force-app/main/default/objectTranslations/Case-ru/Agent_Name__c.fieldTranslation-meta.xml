@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Agent Name --></label>
+    <name>Agent_Name__c</name>
+    <picklistValues>
+        <masterLabel>Caudill,Laurie</masterLabel>
+        <translation><!-- Caudill,Laurie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crisp,Tammy</masterLabel>
+        <translation><!-- Crisp,Tammy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eaton,Jane</masterLabel>
+        <translation><!-- Eaton,Jane --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morris,Stacey</masterLabel>
+        <translation><!-- Morris,Stacey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Switch Board</masterLabel>
+        <translation><!-- Switch Board --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

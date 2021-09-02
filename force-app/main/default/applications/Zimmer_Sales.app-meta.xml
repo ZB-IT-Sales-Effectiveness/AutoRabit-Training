@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Zimmer Sales</label>
+    <logo>SharedDocuments/CRM_Logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Instrument_Request__c</tabs>
+    <tabs>ZBDSA__DSA</tabs>
+    <tabs>Account_Plan__c</tabs>
+    <tabs>Surgeon_Plan__c</tabs>
+    <tabs>Conversion_Tracker__c</tabs>
+    <tabs>Market_Segmentation__c</tabs>
+    <tabs>et4ae5__Configuration__c</tabs>
+</CustomApplication>

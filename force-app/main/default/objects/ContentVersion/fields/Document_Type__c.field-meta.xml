@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abstracts</fullName>
+                <default>false</default>
+                <label>Abstracts</label>
+            </value>
+            <value>
+                <fullName>Animations</fullName>
+                <default>false</default>
+                <label>Animations</label>
+            </value>
+            <value>
+                <fullName>Application Guides</fullName>
+                <default>false</default>
+                <label>Application Guides</label>
+            </value>
+            <value>
+                <fullName>Articles</fullName>
+                <default>false</default>
+                <label>Articles</label>
+            </value>
+            <value>
+                <fullName>Awareness</fullName>
+                <default>false</default>
+                <label>Awareness</label>
+            </value>
+            <value>
+                <fullName>Brochures</fullName>
+                <default>false</default>
+                <label>Brochures</label>
+            </value>
+            <value>
+                <fullName>Case Layouts</fullName>
+                <default>false</default>
+                <label>Case Layouts</label>
+            </value>
+            <value>
+                <fullName>Catalogs</fullName>
+                <default>false</default>
+                <label>Catalogs</label>
+            </value>
+            <value>
+                <fullName>Clinical Presentations</fullName>
+                <default>false</default>
+                <label>Clinical Presentations</label>
+            </value>
+            <value>
+                <fullName>Clinical Summary</fullName>
+                <default>false</default>
+                <label>Clinical Summary</label>
+            </value>
+            <value>
+                <fullName>Clinical Videos</fullName>
+                <default>false</default>
+                <label>Clinical Videos</label>
+            </value>
+            <value>
+                <fullName>Competitive Information</fullName>
+                <default>false</default>
+                <label>Competitive Information</label>
+            </value>
+            <value>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+                <label>Contracts</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Data Sheets</fullName>
+                <default>false</default>
+                <label>Data Sheets</label>
+            </value>
+            <value>
+                <fullName>Discounts &amp; Promos - General</fullName>
+                <default>false</default>
+                <label>Discounts &amp; Promos - General</label>
+            </value>
+            <value>
+                <fullName>Discounts &amp; Promos - Regenerative</fullName>
+                <default>false</default>
+                <label>Discounts &amp; Promos - Regenerative</label>
+            </value>
+            <value>
+                <fullName>Discounts &amp; Promos - Restorative</fullName>
+                <default>false</default>
+                <label>Discounts &amp; Promos - Restorative</label>
+            </value>
+            <value>
+                <fullName>Discounts &amp; Promos - Surgical</fullName>
+                <default>false</default>
+                <label>Discounts &amp; Promos - Surgical</label>
+            </value>
+            <value>
+                <fullName>Education Information</fullName>
+                <default>false</default>
+                <label>Education Information</label>
+            </value>
+            <value>
+                <fullName>Event Promotions</fullName>
+                <default>false</default>
+                <label>Event Promotions</label>
+            </value>
+            <value>
+                <fullName>FAQs</fullName>
+                <default>false</default>
+                <label>FAQs</label>
+            </value>
+            <value>
+                <fullName>Forms</fullName>
+                <default>false</default>
+                <label>Forms</label>
+            </value>
+            <value>
+                <fullName>Fulfillment - DTP Campaign</fullName>
+                <default>false</default>
+                <label>Fulfillment - DTP Campaign</label>
+            </value>
+            <value>
+                <fullName>Fulfillment - PR Material</fullName>
+                <default>false</default>
+                <label>Fulfillment - PR Material</label>
+            </value>
+            <value>
+                <fullName>Graphics</fullName>
+                <default>false</default>
+                <label>Graphics</label>
+            </value>
+            <value>
+                <fullName>IFUs</fullName>
+                <default>false</default>
+                <label>IFUs</label>
+            </value>
+            <value>
+                <fullName>Interactive Animations</fullName>
+                <default>false</default>
+                <label>Interactive Animations</label>
+            </value>
+            <value>
+                <fullName>Manuals</fullName>
+                <default>false</default>
+                <label>Manuals</label>
+            </value>
+            <value>
+                <fullName>Messaging</fullName>
+                <default>false</default>
+                <label>Messaging</label>
+            </value>
+            <value>
+                <fullName>Presentations</fullName>
+                <default>false</default>
+                <label>Presentations</label>
+            </value>
+            <value>
+                <fullName>Price Lists</fullName>
+                <default>false</default>
+                <label>Price Lists</label>
+            </value>
+            <value>
+                <fullName>Product Announcements</fullName>
+                <default>false</default>
+                <label>Product Announcements</label>
+            </value>
+            <value>
+                <fullName>Product Literature</fullName>
+                <default>false</default>
+                <label>Product Literature</label>
+            </value>
+            <value>
+                <fullName>Reference Guides</fullName>
+                <default>false</default>
+                <label>Reference Guides</label>
+            </value>
+            <value>
+                <fullName>Registration Certificates</fullName>
+                <default>false</default>
+                <label>Registration Certificates</label>
+            </value>
+            <value>
+                <fullName>Reimbursement</fullName>
+                <default>false</default>
+                <label>Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Scanner Protocols</fullName>
+                <default>false</default>
+                <label>Scanner Protocols</label>
+            </value>
+            <value>
+                <fullName>Set-up Tutorials 1 - Sales Rep</fullName>
+                <default>false</default>
+                <label>Set-up Tutorials 1 - Sales Rep</label>
+            </value>
+            <value>
+                <fullName>Set-up Tutorials 2 - Surgeon</fullName>
+                <default>false</default>
+                <label>Set-up Tutorials 2 - Surgeon</label>
+            </value>
+            <value>
+                <fullName>Set-up Tutorials 3 - Scan Center Technician</fullName>
+                <default>false</default>
+                <label>Set-up Tutorials 3 - Scan Center Technician</label>
+            </value>
+            <value>
+                <fullName>Surgical Technique</fullName>
+                <default>false</default>
+                <label>Surgical Technique</label>
+            </value>
+            <value>
+                <fullName>Surgical Technique Video</fullName>
+                <default>false</default>
+                <label>Surgical Technique Video</label>
+            </value>
+            <value>
+                <fullName>Tear Sheet</fullName>
+                <default>false</default>
+                <label>Tear Sheet</label>
+            </value>
+            <value>
+                <fullName>Technical Bulletins</fullName>
+                <default>false</default>
+                <label>Technical Bulletins</label>
+            </value>
+            <value>
+                <fullName>Technique Guides</fullName>
+                <default>false</default>
+                <label>Technique Guides</label>
+            </value>
+            <value>
+                <fullName>Video/DVD</fullName>
+                <default>false</default>
+                <label>Video/DVD</label>
+            </value>
+            <value>
+                <fullName>White Paper</fullName>
+                <default>false</default>
+                <label>White Paper</label>
+            </value>
+            <value>
+                <fullName>X-Rays</fullName>
+                <default>false</default>
+                <label>X-Rays</label>
+            </value>
+            <value>
+                <fullName>Zip Files (Hidden)</fullName>
+                <default>false</default>
+                <label>Zip Files (Hidden)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

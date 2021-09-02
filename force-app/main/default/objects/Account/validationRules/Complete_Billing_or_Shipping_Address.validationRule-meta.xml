@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Billing_or_Shipping_Address</fullName>
+    <active>false</active>
+    <description>Billing or Shipping Address should be complete for the Pricing Affiliation Record Type(Enterprise Solutions).</description>
+    <errorConditionFormula>AND((RecordTypeId = &apos;012800000002Byz&apos;), 
+
+AND((ISBLANK(BillingCity) || 
+ISBLANK(BillingState) || 
+ISBLANK(BillingStreet ) || 
+ISBLANK(BillingPostalCode) || 
+ISBLANK(BillingCountry)), 
+( ISBLANK(ShippingCity) || 
+ISBLANK(ShippingState) || 
+ISBLANK( ShippingStreet ) || 
+ISBLANK(ShippingPostalCode) || 
+ISBLANK(ShippingCountry))))</errorConditionFormula>
+    <errorMessage>Please provide complete address(Street, City, State, Postal Code, Country)</errorMessage>
+</ValidationRule>

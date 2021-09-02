@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Locator System Usage --></label>
+    <name>Locator_System_Usage__c</name>
+    <picklistValues>
+        <masterLabel>F-Tx</masterLabel>
+        <translation><!-- F-Tx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locator only</masterLabel>
+        <translation><!-- Locator only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R-Tx</masterLabel>
+        <translation><!-- R-Tx --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_Focus_Account__c</fullName>
+    <description>Looks at the &apos;rosa focus&apos; field on account and if equal to true , so is it</description>
+    <externalId>false</externalId>
+    <formula>IF(Account.Rosa_Focus_Account__c = true,true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ROSA Focus Account</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Office_Address_For_DNUSMKTG</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((RecordTypeId = &apos;01280000000Q0l6&apos;), 
+
+AND(ISBLANK(MailingCity) || 
+ISBLANK(MailingState) || 
+ISBLANK(MailingStreet ) || 
+ISBLANK(MailingPostalCode) || 
+ISBLANK(MailingCountry), $User.ProfileId =&apos;00eM0000000Dnm9&apos; ))</errorConditionFormula>
+    <errorMessage>Please provide complete office address(Office Street, Office City, Office State, Office Postal Code, Office Country)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_District__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead District</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>DN_Lead_Region_2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>South</fullName>
+                <default>false</default>
+                <label>South</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>South Florida</controllingFieldValue>
+            <controllingFieldValue>Southeast</controllingFieldValue>
+            <controllingFieldValue>Southern</controllingFieldValue>
+            <controllingFieldValue>Appalachian</controllingFieldValue>
+            <controllingFieldValue>Capitol</controllingFieldValue>
+            <controllingFieldValue>Chesapeake Bay</controllingFieldValue>
+            <controllingFieldValue>Keystone</controllingFieldValue>
+            <controllingFieldValue>Metro New York</controllingFieldValue>
+            <controllingFieldValue>North New England</controllingFieldValue>
+            <controllingFieldValue>South New England</controllingFieldValue>
+            <controllingFieldValue>Garden State</controllingFieldValue>
+            <controllingFieldValue>Mississippi Delta</controllingFieldValue>
+            <valueName>East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Canada</controllingFieldValue>
+            <controllingFieldValue>Western Canada</controllingFieldValue>
+            <controllingFieldValue>Central Canada</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands</controllingFieldValue>
+            <controllingFieldValue>Golden Gate</controllingFieldValue>
+            <controllingFieldValue>Lone Star</controllingFieldValue>
+            <controllingFieldValue>Los Angeles</controllingFieldValue>
+            <controllingFieldValue>Mountain</controllingFieldValue>
+            <controllingFieldValue>Pacific Northwest</controllingFieldValue>
+            <controllingFieldValue>South Bay</controllingFieldValue>
+            <controllingFieldValue>West</controllingFieldValue>
+            <controllingFieldValue>Buckeye</controllingFieldValue>
+            <controllingFieldValue>Chicago Land</controllingFieldValue>
+            <controllingFieldValue>Great Lakes</controllingFieldValue>
+            <controllingFieldValue>North Star</controllingFieldValue>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>West</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

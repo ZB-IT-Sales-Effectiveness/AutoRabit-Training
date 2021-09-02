@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select one attribute that you believe is the most important consideration in the purchase of scan equipment. --></help>
+    <label><!-- Purchase of scan equipment --></label>
+    <name>Purchase_of_scan_equipment__c</name>
+    <picklistValues>
+        <masterLabel>Lowest possible initial cost/outlay</masterLabel>
+        <translation><!-- Lowest possible initial cost/outlay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lowest possible ongoing cost of ownership (cost per milled part produced)</masterLabel>
+        <translation><!-- Lowest possible ongoing cost of ownership (cost per milled part produced) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

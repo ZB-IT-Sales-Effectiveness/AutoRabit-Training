@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Information</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AARP 2008</fullName>
+                <default>false</default>
+                <label>AARP 2008</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Arthritis Today</fullName>
+                <default>false</default>
+                <label>Arthritis Today</label>
+            </value>
+            <value>
+                <fullName>Back In The Groove 2008</fullName>
+                <default>false</default>
+                <label>Back In The Groove 2008</label>
+            </value>
+            <value>
+                <fullName>Back In The Groove 2009</fullName>
+                <default>false</default>
+                <label>Back In The Groove 2009</label>
+            </value>
+            <value>
+                <fullName>Back In The Groove 2010</fullName>
+                <default>false</default>
+                <label>Back In The Groove 2010</label>
+            </value>
+            <value>
+                <fullName>Back in the Groove 2011</fullName>
+                <default>false</default>
+                <label>Back in the Groove 2011</label>
+            </value>
+            <value>
+                <fullName>Back In The Groove 2012</fullName>
+                <default>false</default>
+                <label>Back In The Groove 2012</label>
+            </value>
+            <value>
+                <fullName>Business Week</fullName>
+                <default>false</default>
+                <label>Business Week</label>
+            </value>
+            <value>
+                <fullName>Commercial/Ad</fullName>
+                <default>false</default>
+                <label>Commercial/Ad</label>
+            </value>
+            <value>
+                <fullName>Community Seminar 2011</fullName>
+                <default>false</default>
+                <label>Community Seminar 2011</label>
+            </value>
+            <value>
+                <fullName>Community Seminar 2012</fullName>
+                <default>false</default>
+                <label>Community Seminar 2012</label>
+            </value>
+            <value>
+                <fullName>Community Seminars 2009</fullName>
+                <default>false</default>
+                <label>Community Seminars 2009</label>
+            </value>
+            <value>
+                <fullName>Community Seminars 2010</fullName>
+                <default>false</default>
+                <label>Community Seminars 2010</label>
+            </value>
+            <value>
+                <fullName>GKnee 11/2009</fullName>
+                <default>false</default>
+                <label>GKnee 11/2009</label>
+            </value>
+            <value>
+                <fullName>Knee 12/2010</fullName>
+                <default>false</default>
+                <label>Knee 12/2010</label>
+            </value>
+            <value>
+                <fullName>Knee Campaign 1Q 2011</fullName>
+                <default>false</default>
+                <label>Knee Campaign 1Q 2011</label>
+            </value>
+            <value>
+                <fullName>New Story</fullName>
+                <default>false</default>
+                <label>New Story</label>
+            </value>
+            <value>
+                <fullName>OBGYN</fullName>
+                <default>false</default>
+                <label>OBGYN</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Surgeon</fullName>
+                <default>false</default>
+                <label>Orthopaedic Surgeon</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other-N/A</fullName>
+                <default>false</default>
+                <label>Other-N/A</label>
+            </value>
+            <value>
+                <fullName>Prevention</fullName>
+                <default>false</default>
+                <label>Prevention</label>
+            </value>
+            <value>
+                <fullName>Primary Care Physician</fullName>
+                <default>false</default>
+                <label>Primary Care Physician</label>
+            </value>
+            <value>
+                <fullName>PSI Ad 12/2010</fullName>
+                <default>false</default>
+                <label>PSI Ad 12/2010</label>
+            </value>
+            <value>
+                <fullName>PSI Web Banner 12/2010</fullName>
+                <default>false</default>
+                <label>PSI Web Banner 12/2010</label>
+            </value>
+            <value>
+                <fullName>Recon Campaign Q2 2010</fullName>
+                <default>false</default>
+                <label>Recon Campaign Q2 2010</label>
+            </value>
+            <value>
+                <fullName>S/N Ad 12/2010</fullName>
+                <default>false</default>
+                <label>S/N Ad 12/2010</label>
+            </value>
+            <value>
+                <fullName>Search Engine</fullName>
+                <default>false</default>
+                <label>Search Engine</label>
+            </value>
+            <value>
+                <fullName>Story/Article</fullName>
+                <default>false</default>
+                <label>Story/Article</label>
+            </value>
+            <value>
+                <fullName>WebMD</fullName>
+                <default>false</default>
+                <label>WebMD</label>
+            </value>
+            <value>
+                <fullName>Zimmer Precision 2010</fullName>
+                <default>false</default>
+                <label>Zimmer Precision 2010</label>
+            </value>
+            <value>
+                <fullName>Zimmer Randall 2010</fullName>
+                <default>false</default>
+                <label>Zimmer Randall 2010</label>
+            </value>
+            <value>
+                <fullName>Zimmer Sites</fullName>
+                <default>false</default>
+                <label>Zimmer Sites</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

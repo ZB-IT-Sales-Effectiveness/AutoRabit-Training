@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_closed_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>Plan_of_Action__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>closed</value>
+    </filters>
+    <label>My Closed Opportunities</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>EU_CH_All_Users</group>
+        <roleAndSubordinatesInternal>Management_Personalized_Solutions</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Market_Access</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Extremities</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Foot_Ankle</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Hips_Cement</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Knees_Early_Intervention</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Sports_Medicine</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Segment_Marketing_Director_Trauma</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>ZimmerSurgicalPresident</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

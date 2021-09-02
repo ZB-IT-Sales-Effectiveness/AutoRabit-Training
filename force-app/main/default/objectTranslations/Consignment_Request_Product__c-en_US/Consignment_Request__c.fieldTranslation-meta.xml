@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consignment Request --></label>
+    <name>Consignment_Request__c</name>
+    <relationshipLabel><!-- Consignment Request Products --></relationshipLabel>
+</CustomFieldTranslation>

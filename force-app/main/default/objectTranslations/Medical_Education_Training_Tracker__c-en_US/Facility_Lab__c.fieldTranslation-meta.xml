@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Facility / Lab --></label>
+    <name>Facility_Lab__c</name>
+    <picklistValues>
+        <masterLabel>Mobile Lab</masterLabel>
+        <translation><!-- Mobile Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On-site Lab</masterLabel>
+        <translation><!-- On-site Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other ZB Lab</masterLabel>
+        <translation><!-- Other ZB Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parsippany Lab</masterLabel>
+        <translation><!-- Parsippany Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scottsdale Lab</masterLabel>
+        <translation><!-- Scottsdale Lab --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

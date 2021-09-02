@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Grant Login Thank You Notification</title>
+<link href="/sCSS/13.0/Theme2/maintenance.css" type="text/css" media="handheld,print,projection,screen,tty,tv" rel="stylesheet">
+</head>
+
+<body>
+<div id="red">
+	<div id="box">
+		<h1>Thank You!</h1>
+		<h2>- Updates have been made and saved -</h2>
+		<p>&nbsp;</p>
+		<p>Please be advised you have granted login access to your local Salesforce administrator.<BR><BR>Your admin will now be able to assist you with troubleshooting any Salesforce issues/questions you may have.<BR><BR></p>
+		<p class="input"><a href="/home/home.jsp" class="continue">Continue</a></p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+
+</body>
+</html>

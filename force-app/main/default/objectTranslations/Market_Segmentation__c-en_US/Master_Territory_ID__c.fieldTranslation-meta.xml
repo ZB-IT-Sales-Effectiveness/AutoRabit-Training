@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Master Territory ID --></label>
+    <name>Master_Territory_ID__c</name>
+    <relationshipLabel><!-- Market Segmentation (Master Territory ID) --></relationshipLabel>
+</CustomFieldTranslation>

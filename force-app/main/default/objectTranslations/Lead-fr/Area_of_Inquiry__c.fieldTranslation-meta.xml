@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Area of Inquiry --></label>
+    <name>Area_of_Inquiry__c</name>
+    <picklistValues>
+        <masterLabel>Accounts - Payable</masterLabel>
+        <translation><!-- Accounts - Payable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accounts - Receivable</masterLabel>
+        <translation><!-- Accounts - Receivable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Inquiry</masterLabel>
+        <translation><!-- General Inquiry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grants and Donations</masterLabel>
+        <translation><!-- Grants and Donations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Human Resources</masterLabel>
+        <translation><!-- Human Resources --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Community Grants</masterLabel>
+        <translation><!-- Local Community Grants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Education</masterLabel>
+        <translation><!-- Patient Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supplier Certifications</masterLabel>
+        <translation><!-- Supplier Certifications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Sales</masterLabel>
+        <translation><!-- Surgical Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Website Support</masterLabel>
+        <translation><!-- Website Support --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PS-ROSA EMEA</name>
+    <queueMembers>
+        <users>
+            <user>alexandria.griggs@zimmerbiomet.com</user>
+            <user>andrea.cira@zimmerbiomet.com</user>
+            <user>andrea.gyles@zimmerbiomet.com</user>
+            <user>ashley.vandurmen@zimmerbiomet.com</user>
+            <user>ben.flis@zimmerbiomet.com</user>
+            <user>ben.seidman@zimmerbiomet.com</user>
+            <user>christina.liberti@zimmerbiomet.com</user>
+            <user>debra.griggs@zimmerbiomet.com</user>
+            <user>juan.paz@zimmercas.com</user>
+            <user>kristy.meck@zimmerbiomet.com</user>
+            <user>laura.direnzo@zimmerbiomet.com</user>
+            <user>sally.geimer@zimmerbiomet.com</user>
+            <user>zackary.kisela@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

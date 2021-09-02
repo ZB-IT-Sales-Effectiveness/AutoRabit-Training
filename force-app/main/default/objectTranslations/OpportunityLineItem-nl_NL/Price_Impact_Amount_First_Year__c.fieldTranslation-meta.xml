@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please input the price impact amount for this product for the first year of the deal. --></help>
+    <label><!-- Price Impact Amount (First Year) --></label>
+    <name>Price_Impact_Amount_First_Year__c</name>
+</CustomFieldTranslation>

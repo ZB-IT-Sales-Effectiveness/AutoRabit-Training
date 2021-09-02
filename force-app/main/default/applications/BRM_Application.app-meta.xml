@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Used to manage BRM activities:
+  Content related to projects
+  Project Requests
+  Chatter
+  User/Contact and account engagements</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>BRM Application</label>
+    <logo>SharedDocuments/CRM_Logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Workspace</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>GPL_Profile__c</tabs>
+    <tabs>MyProfile</tabs>
+    <tabs>Sunshine_Payment__c</tabs>
+    <tabs>Conversion_Tracker__c</tabs>
+</CustomApplication>

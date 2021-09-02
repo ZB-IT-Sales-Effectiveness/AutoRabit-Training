@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ZB Account Segmentation --></label>
+    <name>ZB_Account_Segmentation__c</name>
+    <picklistValues>
+        <masterLabel>Bronze Mine</masterLabel>
+        <translation><!-- Bronze Mine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gold Mine</masterLabel>
+        <translation><!-- Gold Mine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platinum Mine</masterLabel>
+        <translation><!-- Platinum Mine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silver Mine</masterLabel>
+        <translation><!-- Silver Mine --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

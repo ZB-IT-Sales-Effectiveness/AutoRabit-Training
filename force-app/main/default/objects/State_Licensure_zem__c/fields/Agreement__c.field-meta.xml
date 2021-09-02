@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checking this box is indicative of a Master Agreement in place.</description>
+    <externalId>false</externalId>
+    <label>Agreement</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

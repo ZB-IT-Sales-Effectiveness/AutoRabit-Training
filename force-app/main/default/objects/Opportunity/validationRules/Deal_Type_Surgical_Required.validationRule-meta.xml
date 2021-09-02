@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type_Surgical_Required</fullName>
+    <active>false</active>
+    <description>Deal_Type_Surgical__c is required when stage is Solve, Execute or commit</description>
+    <errorConditionFormula>AND( 
+Opportunity_Record_Type__c = &apos;US Surgical&apos;, 
+OR(ISPICKVAL(StageName,&apos;Solve&apos;),ISPICKVAL(StageName,&apos;Execute&apos;),ISPICKVAL(StageName,&apos;Commit&apos;)),
+ISBLANK( TEXT(Deal_Type_Surgical__c) ) 
+)</errorConditionFormula>
+    <errorMessage>Please provide Deal Type</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Planning</fullName>
+    <availability>online</availability>
+    <description>Link to Financial Plannig next year on Account Level in Jedox</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Financial_Planning</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://lhr-vinf-jdxp1/ui/lnk/?_=eJxNj7EKwzAMRP9Fc8C00CVzh46lXb0oQdQGOzaynGBC%2Fr1yunTSPYnTSTtspcC4w%2BppI%2B5KvASCERoVGCDSUifUASxJUVIKf1gEpZYfHccAmHNUqkVXDbBNfXK9qfxwVs1aLkqOZyXX5SIt9zShmAMKaYufKE5b1ljzopxYijUPT4w8u2bNHX1obwznfav6pMEoXOnMV2N%2F6fgC0KxGcA%3D%3D&amp;user=admin&amp;pass=w37kWB40zZ0NK2O2sz%2FONQ%3D%3D
+&amp;var/SAP_number={!Account.SAP_Customer_ID__c}</url>
+</WebLink>

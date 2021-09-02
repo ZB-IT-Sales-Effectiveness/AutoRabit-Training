@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAS_iAssist_cases_Open</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Email_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Category__c</columns>
+    <columns>Sub_Catergory__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Zimmer_CAS_iAssist_Call_Center</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Opened,New,Pending</value>
+    </filters>
+    <label>CAS iAssist cases - Open</label>
+    <sharedTo>
+        <group>SMS_Team_for_cases</group>
+        <group>Sys_Admins</group>
+        <role>CAS_Call_Center</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ZBOS-Sales Rep-Team London &amp; Tri Cities</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>ZBOS_Sales_Manager_Team_London_Tri_Cities</parentRole>
+</Role>

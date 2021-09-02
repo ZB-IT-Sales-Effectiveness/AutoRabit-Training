@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sales Rep. Trauma AT</label>
+    <name>ADM_Trauma_AT__c</name>
+    <picklistValues>
+        <masterLabel>Günter Kerndler</masterLabel>
+        <translation><!-- Günter Kerndler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Martin Heigl</masterLabel>
+        <translation><!-- Martin Heigl --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

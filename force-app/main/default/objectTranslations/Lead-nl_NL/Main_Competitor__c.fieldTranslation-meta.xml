@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Main Competitor --></label>
+    <name>Main_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>ACE</masterLabel>
+        <translation><!-- ACE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astra</masterLabel>
+        <translation><!-- Astra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BEGO</masterLabel>
+        <translation><!-- BEGO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biohorizons</masterLabel>
+        <translation><!-- Biohorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camlog</masterLabel>
+        <translation><!-- Camlog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply</masterLabel>
+        <translation><!-- Dentsply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct</masterLabel>
+        <translation><!-- Direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geistlich</masterLabel>
+        <translation><!-- Geistlich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic</masterLabel>
+        <translation><!-- Generic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hiossen</masterLabel>
+        <translation><!-- Hiossen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICX</masterLabel>
+        <translation><!-- ICX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Direct</masterLabel>
+        <translation><!-- Implant Direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifenet</masterLabel>
+        <translation><!-- Lifenet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Little Implant Co</masterLabel>
+        <translation><!-- Little Implant Co --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxxeus</masterLabel>
+        <translation><!-- Maxxeus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Megagen</masterLabel>
+        <translation><!-- Megagen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEOSS</masterLabel>
+        <translation><!-- NEOSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel</masterLabel>
+        <translation><!-- Nobel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OsteoReady</masterLabel>
+        <translation><!-- OsteoReady --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteohealth</masterLabel>
+        <translation><!-- Osteohealth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIC</masterLabel>
+        <translation><!-- SIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salvin</masterLabel>
+        <translation><!-- Salvin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann</masterLabel>
+        <translation><!-- Straumann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thommen</masterLabel>
+        <translation><!-- Thommen --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

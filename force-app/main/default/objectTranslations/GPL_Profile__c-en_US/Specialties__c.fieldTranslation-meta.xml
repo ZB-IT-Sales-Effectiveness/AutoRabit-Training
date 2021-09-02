@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Specialties --></label>
+    <name>Specialties__c</name>
+    <picklistValues>
+        <masterLabel>Cardiothoracic</masterLabel>
+        <translation><!-- Cardiothoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle</masterLabel>
+        <translation><!-- Foot and Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery/Trauma</masterLabel>
+        <translation><!-- General Surgery/Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand and Wrist</masterLabel>
+        <translation><!-- Hand and Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heart Surgery</masterLabel>
+        <translation><!-- Heart Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips</masterLabel>
+        <translation><!-- Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Pain Injection</masterLabel>
+        <translation><!-- Knee Pain Injection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic Trauma</masterLabel>
+        <translation><!-- Orthopedic Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pectus Surgery</masterLabel>
+        <translation><!-- Pectus Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric</masterLabel>
+        <translation><!-- Pediatric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic</masterLabel>
+        <translation><!-- Plastic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee Robotics</masterLabel>
+        <translation><!-- ROSA Knee Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine/Back</masterLabel>
+        <translation><!-- Spine/Back --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic</masterLabel>
+        <translation><!-- Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

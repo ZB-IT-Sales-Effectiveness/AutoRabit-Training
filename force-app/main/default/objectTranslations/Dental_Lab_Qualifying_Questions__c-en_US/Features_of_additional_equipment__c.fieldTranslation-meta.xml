@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select one attribute that you believe is the most important consideration in the features/functionality of additional equipment. --></help>
+    <label><!-- Features of additional equipment --></label>
+    <name>Features_of_additional_equipment__c</name>
+    <picklistValues>
+        <masterLabel>Can be upgraded to support/create additional products/ materials easily</masterLabel>
+        <translation><!-- Can be upgraded to support/create additional products/ materials easily --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open System Architecture</masterLabel>
+        <translation><!-- Open System Architecture --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

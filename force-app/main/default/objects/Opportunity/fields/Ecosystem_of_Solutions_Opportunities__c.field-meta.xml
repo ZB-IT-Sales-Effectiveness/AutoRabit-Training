@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ecosystem_of_Solutions_Opportunities__c</fullName>
+    <externalId>false</externalId>
+    <label>Ecosystem of Solutions Opportunities</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accelero</fullName>
+                <default>false</default>
+                <label>Accelero</label>
+            </value>
+            <value>
+                <fullName>mymobility</fullName>
+                <default>false</default>
+                <label>mymobility</label>
+            </value>
+            <value>
+                <fullName>ROSA</fullName>
+                <default>false</default>
+                <label>ROSA</label>
+            </value>
+            <value>
+                <fullName>Efficient Care</fullName>
+                <default>false</default>
+                <label>Efficient Care</label>
+            </value>
+            <value>
+                <fullName>OneBill</fullName>
+                <default>false</default>
+                <label>OneBill</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

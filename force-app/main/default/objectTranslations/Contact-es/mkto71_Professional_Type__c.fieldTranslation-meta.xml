@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Professional Type --></label>
+    <name>mkto71_Professional_Type__c</name>
+    <picklistValues>
+        <masterLabel>ASC Executive/Administrator</masterLabel>
+        <translation><!-- ASC Executive/Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administrator</masterLabel>
+        <translation><!-- Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Executive/Administrator</masterLabel>
+        <translation><!-- Hospital Executive/Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-prescribing assistant</masterLabel>
+        <translation><!-- Non-prescribing assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation><!-- Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse-APRN</masterLabel>
+        <translation><!-- Nurse-APRN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse-RNLPN</masterLabel>
+        <translation><!-- Nurse-RNLPN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OR Manager/Director</masterLabel>
+        <translation><!-- OR Manager/Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OR Nurse</masterLabel>
+        <translation><!-- OR Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other non-prescribing HCP</masterLabel>
+        <translation><!-- Other non-prescribing HCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician</masterLabel>
+        <translation><!-- Physician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prescriber (non-Physician)</masterLabel>
+        <translation><!-- Prescriber (non-Physician) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student/Trainee</masterLabel>
+        <translation><!-- Student/Trainee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon in ASC Setting</masterLabel>
+        <translation><!-- Surgeon in ASC Setting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon in Hospital Setting</masterLabel>
+        <translation><!-- Surgeon in Hospital Setting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>non-prescribing Technician</masterLabel>
+        <translation><!-- non-prescribing Technician --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

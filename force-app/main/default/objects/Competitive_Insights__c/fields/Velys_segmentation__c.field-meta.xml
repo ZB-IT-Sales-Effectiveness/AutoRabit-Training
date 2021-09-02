@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Velys_segmentation__c</fullName>
+    <externalId>false</externalId>
+    <label>Velys Segmentation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>On the Fence</fullName>
+                <default>false</default>
+                <label>On the Fence</label>
+            </value>
+            <value>
+                <fullName>ROSA Advantage</fullName>
+                <default>false</default>
+                <label>ROSA Advantage</label>
+            </value>
+            <value>
+                <fullName>Velys Advantage</fullName>
+                <default>false</default>
+                <label>Velys Advantage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

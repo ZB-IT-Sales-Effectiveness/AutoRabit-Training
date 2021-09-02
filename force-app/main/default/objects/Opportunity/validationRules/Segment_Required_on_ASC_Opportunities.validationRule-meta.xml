@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_Required_on_ASC_Opportunities</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ RecordType.Id = &quot;0123b000000YQsq&quot;,
+ Probability  &gt;= 0.50,
+ ISBLANK(Segments__c),
+ DATEVALUE(CreatedDate) &gt; DATEVALUE(&quot;2021-01-01&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please complete the &apos;Segments&apos; field once the opportunity is in (or past) the &apos;Proposal/Negotiations&apos; stage.</errorMessage>
+</ValidationRule>

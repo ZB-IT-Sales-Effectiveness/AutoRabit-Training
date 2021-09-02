@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Profession --></label>
+    <name>Profession__c</name>
+    <picklistValues>
+        <masterLabel>Dental Tech</masterLabel>
+        <translation><!-- Dental Tech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GP</masterLabel>
+        <translation><!-- GP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periodontist</masterLabel>
+        <translation><!-- Periodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthodontist</masterLabel>
+        <translation><!-- Prosthodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation><!-- Surgeon --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

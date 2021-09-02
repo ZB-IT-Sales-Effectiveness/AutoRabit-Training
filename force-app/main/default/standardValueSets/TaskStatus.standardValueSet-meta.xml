@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <default>true</default>
+        <label>Not Started</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on someone else</fullName>
+        <default>false</default>
+        <label>Waiting on someone else</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deferred</fullName>
+        <default>false</default>
+        <label>Deferred</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Communication</fullName>
+        <default>false</default>
+        <label>No Communication</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Current Customer</fullName>
+        <default>false</default>
+        <label>Current Customer</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Retired</fullName>
+        <default>false</default>
+        <label>Retired</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No - Surgeon Doesn&apos;t want it</fullName>
+        <default>false</default>
+        <label>No - Surgeon Doesn&apos;t want it</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon Doesn&apos;t get CT Scans</fullName>
+        <default>false</default>
+        <label>Surgeon Doesn&apos;t get CT Scans</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Approved at Their Hospital</fullName>
+        <default>false</default>
+        <label>Not Approved at Their Hospital</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Need to go back to well</fullName>
+        <default>false</default>
+        <label>Need to go back to well</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Need to show surgeon (never shown)</fullName>
+        <default>false</default>
+        <label>Need to show surgeon (never shown)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No - Too Costly</fullName>
+        <default>false</default>
+        <label>No - Too Costly</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>sent</fullName>
+        <default>false</default>
+        <label>sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

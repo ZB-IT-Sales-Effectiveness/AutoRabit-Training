@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Synthetic_Bone_Cometitor__c</fullName>
+    <description>This Field is Created for All the Dental page Layout in both Customer and Non-customer record type</description>
+    <externalId>false</externalId>
+    <label>Primary Synthetic Bone Cometitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cerasorb (Curasan)</fullName>
+                <default>false</default>
+                <label>Cerasorb (Curasan)</label>
+            </value>
+            <value>
+                <fullName>Foundation Pug (Multiple)</fullName>
+                <default>false</default>
+                <label>Foundation Pug (Multiple)</label>
+            </value>
+            <value>
+                <fullName>NovaBone (Multiple)</fullName>
+                <default>false</default>
+                <label>NovaBone (Multiple)</label>
+            </value>
+            <value>
+                <fullName>OsteoGen Plug (Multiple)</fullName>
+                <default>false</default>
+                <label>OsteoGen Plug (Multiple)</label>
+            </value>
+            <value>
+                <fullName>SynOss (ACE)</fullName>
+                <default>false</default>
+                <label>SynOss (ACE)</label>
+            </value>
+            <value>
+                <fullName>Does not use Synthetic</fullName>
+                <default>false</default>
+                <label>Does not use Synthetic</label>
+            </value>
+            <value>
+                <fullName>Other Synthetic</fullName>
+                <default>false</default>
+                <label>Other Synthetic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Family --></label>
+    <name>Product_Family__c</name>
+    <picklistValues>
+        <masterLabel>AmnioRepair</masterLabel>
+        <translation><!-- AmnioRepair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GEL-ONE</masterLabel>
+        <translation><!-- GEL-ONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPS III</masterLabel>
+        <translation><!-- GPS III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jar Grips</masterLabel>
+        <translation><!-- Jar Grips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature One</masterLabel>
+        <translation><!-- Signature One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation><!-- Spanish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VISCO-3</masterLabel>
+        <translation><!-- VISCO-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VRS</masterLabel>
+        <translation><!-- VRS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

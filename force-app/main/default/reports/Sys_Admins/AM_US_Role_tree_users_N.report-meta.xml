@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USER_ID</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>ROLE</field>
+    </columns>
+    <columns>
+        <field>ACTIVE</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>Contact.Role_Classification__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Territory_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account.Class_Description__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales_Specialty__c</field>
+    </columns>
+    <columns>
+        <field>User.Business_Division__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16</booleanFilter>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>AM-Executive Sales Management,AM-VP US Sales,AVP - Great Lakes,ZB Blue Water Orthopedics,ZB Blue Water Orthopedics: Team GR,ZB Blue Water Orthopedics: Team Northern Michigan,ZB Blue Water Orthopedics: Team Saginaw,ZB Case Medical,ZB Case Medical : Team Bublick,ZB Case Medical : Team East,ZB Case Medical : Team Goodman,ZB Case Medical : Team North,ZB Case Medical : Team South,ZB Case Medical : Team West,ZB Case Medical Uncategorized,ZB Great Lakes,ZB Great Lakes Uncategorized,ZB Great Lakes: Team Ann Arbor,ZB Great Lakes: Team Fumei,ZB Great Lakes: Team Hetu,ZB Great Lakes: Team Jam,ZB Great Lakes: Team Lansing,ZB Great Lakes: Team Thompson,ZB Hibbard,ZB Hibbard Uncategorized,ZB Hibbard: Team Elkhart,ZB Hibbard: Team Elkhart Members,ZB Hibbard: Team Lake,ZB Hibbard: Team Lake Members,ZB Hibbard: Team Porter,ZB Hibbard: Team South Bend,ZB Hibbard: Team South Bend Members,ZB Indiana,ZB Indiana : Team Blue,ZB Indiana : Team Bryndal,ZB Indiana : Team Clark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Indiana : Team Southwest,ZB Indiana : Team Williams,ZB Indiana Uncategorized,ZB Mid-Ohio,ZB Mid-Ohio Sales Manager: Passen,ZB Mid-Ohio: Team Betts,ZB Mid-Ohio: Team Conley,ZB Mid-Ohio: Team Grisvard,ZB Mid-Ohio: Team Karlowicz,ZB Mid-Ohio: Team Morrison,ZB Mid-Ohio Uncategorized,ZB Mokan,ZB Mokan Uncategorized,ZB Mokan: Team Tomahawk,ZB Southwest Ohio,ZB Southwest Ohio Uncategorized,ZB Southwest Ohio: Mgr. Keely,ZB Southwest Ohio: Team Keely-Sargent,ZB Southwest Ohio: Team Mayo-Hurley,ZB Southwest Ohio: Team Phillips-Gill,ZB Southwest Ohio: Team Sifford-Barton,ZB Southwest Ohio: Team Springfield,ZB Southwest Ohio: Mgr. Lehmkuhl,ZB Southwest Ohio: Team Cinci West,ZB Southwest Ohio: Team Sansoni-Isaack,ZB Southwest Ohio: Mgr. Pohl,ZB Wisconsin,ZB Wisconsin : GM Chicago,ZB Wisconsin : Team Chicago North,ZB Wisconsin : Team Chicago South,ZB Wisconsin : Team City,ZB Wisconsin : Team City North,ZB Wisconsin : Team DuPage East</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Wisconsin : Team DuPage West,ZB Wisconsin : Team Rockford,ZB Wisconsin : Team Badgerland,ZB Wisconsin : Team Badgerland Members,ZB Wisconsin : Team Brew City,ZB Wisconsin : Team Green Bay North,ZB Wisconsin : Team Green Bay South,ZB Wisconsin : Team Northwest WI,ZB Wisconsin : Team Rock,ZB Wisconsin : Team Sauk,ZB Wisconsin : Team WI Heartland,ZB Wisconsin Uncategorized,AVP - Mid-Atlantic,ZB Central Florida,ZB Central Florida Uncategorized,ZB Team Camirand,ZB EverGen Surgical Inc.,ZB Evergen Surgical Uncategorized,ZB Holzbach,ZB Holzbach Uncategorized,ZB Mid-Atlantic,ZB Mid-Atlantic Uncategorized,ZB Mid-Atlantic: TM Brendan Kelly,ZB Mid-Atlantic: Team 2 State,ZB Mid-Atlantic: Team Baltimore,ZB Mid-Atlantic: Team Inner Harbor,ZB Mid-Atlantic: Team MD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Mid-Atlantic: Team Union,ZB Mid-Atlantic: TM Paul Cruz,ZB Mid-Atlantic: Team Capital City,ZB Mid-Atlantic: Team ENOVA,ZB Mid-Atlantic: Team Fairfax,ZB Mid-Atlantic: Team WNOVA,ZB Orthopedics Inc.,ZB Orthopedics Inc. Uncategorized,ZB OrthoSolutions,ZB OrthoSolutions Uncategorized,ZB OrthoSolutions: Sales Managers,ZB OrthoSolutions: Team Ashland,ZB OrthoSolutions: Team Audubon,ZB OrthoSolutions: Team Baptist,ZB OrthoSolutions: Team Eastern Kentucky,ZB OrthoSolutions: Team HJT,ZB OrthoSolutions: Team Hurricane,ZB OrthoSolutions: Team Lex,ZB OrthoSolutions: Team Outback,ZB OrthoSolutions: Team River City,ZB South Carolina,ZB South Carolina Uncategorized,ZB Southeast,ZB Southeast Uncategorized,ZB Summit Surgical,ZB Summit Surgical Uncategorized,ZB TN,ZB TN Uncategorized,AVP - Northeast,ZB Apex Surgical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Sales Manager: Eggerton,ZB Apex Surgical: Team WVU,Sales Manager: Hagg,VP Sales: Goson,ZB Apex Surgical: Team Bailey,ZB Apex Surgical: Team Hall of Fame,ZB Apex Surgical: Team Hall of Fame Members,ZB Apex Surgical: Team Zaranec,ZB APEX Surgical Uncategorized,ZB Capital,ZB Capital Uncategorized,ZB Downstate New York,ZB Downstate New York Uncategorized,ZB Legacy Orthopedic,Inc.,ZB Legacy Orthopedic Inc. Uncategorized,ZB Northeast,ZB Northeast Uncategorized,ZB Riccione,ZB Riccione Uncategorized,ZB Tri-State,ZB Tri-State Uncategorized,ZB Western New York,ZB Western NY Uncategorized,ZB Western NY: VP Sales,ZB Western NY: Team Buffalo,ZB Western NY: Team Buffalo Members,ZB Western NY: Team Leo,ZB Western NY: Team Rochester,ZB Western NY: Team Rochester Members,ZB Western NY: Team Russell Rich,ZB Western NY: Team Southern Tier,ZB Western NY: Team Southern Tier Members,AVP - Northern Plains,ZB Colorado,ZB Colorado Uncategorized,ZB Davis</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Davis Uncategorized,ZB Iowa,ZB Iowa Uncategorized,ZB MidAmerica,ZB MidAmerica Uncategorized,ZB MidAmerica: Team Bloomington,ZB MidAmerica: Team Central Illinois,ZB MidAmerica: Team Galesburg,ZB MidAmerica: Team North Central Illinois,ZB Osteo1,Inc.,ZB Osteo1 Uncategorized,ZB Select Orthopedics,Inc,Inc. Uncategorized,ZB West,ZB West Inc Uncategorized,AVP - South Central,ZB Atlanta,ZB Atlanta Uncategorized,ZB Atlanta: Team 400,ZB Atlanta: Team ATL,ZB Atlanta: Team Northeast GA,ZB Atlanta: Team Southside,ZB Atlanta: Team Westside,ZB Boneafide Orthopaedics,ZB Boneafide Orthopaedics Uncategorized,ZB Boneafide: Team Scott Brooks,ZB Boneafide:Team BR/NS,ZB Central Texas Ortho,ZB Central Texas Ortho: Manager Gregory,ZB Central Texas Ortho: Team San Angelo,ZB Central Texas Uncategorized,ZB Midark Surgical,ZB Midark Surgical: Sales Manager</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB North Texas,ZB North Texas : Team Centrex,ZB North Texas : Team Centrex Members,ZB North Texas : Team Dallas,ZB North Texas : Team East TX,ZB North Texas : Team Fort Worth,ZB North Texas : Team Goswick,ZB North Texas : Team Lubbock,ZB North Texas : Team Maxwell,ZB North Texas : Team MidCities,ZB North Texas : Team Nacogdoches,ZB North Texas : Team North Dallas,ZB North Texas : Team North Dallas Special,ZB North Texas : Team Smith,ZB North Texas : Team Southwest,ZB North Texas : Team Steen,ZB North Texas : Team Tyler,ZB North Texas : Team Varian,ZB North Texas Uncategorized,ZB Precision Ortho,ZB Precision Ortho Uncategorized,ZB Precision: David Davis,ZB Precision: Mark Alexander,ZB RX Medical,ZB RxMedical Uncategorized,ZB Solutions,ZB Solutions : Team Bone-Skelton,ZB Solutions : Team Ham Bates,ZB Solutions : Team Mike Smith,ZB Solutions Uncategorized,ZB Solutions: Manager Alonso,ZB Solutions : Team Chad Herod,ZB Solutions : Team Doug Regan,ZB Solution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Solutions : Team Huntsville,ZB Solutions : Team Paul Gonzalez,ZB Solutions : Team Shane Brasher,ZB Solutions : Team Shane Brasher Members,ZB Solutions : Team Wachter-Barberio,ZB Solutions: Team Justin Ivins,ZB Solutions: Manager Hass,ZB Solutions : Team Armstrong-Douglass,ZB Solutions : Team Jim Farmer,ZB Solutions : Team Joe Cope,ZB Solutions : Team John Allen-PNS,ZB Solutions : Team Jonah Polansky,ZB Solutions : Team Louie McMilion,ZB Solutions : Team Mike Hurring,ZB Solutions : Team Mobile,ZB Solutions : Team Trent Hendrix,ZB Solutions: Team Elliott Thompson,ZB South Texas,ZB South Texas Uncategorized,AVP - West,ZB Alaska,ZB Alaska Uncategorized,ZB Bay Area,ZB Bay Area : East Bay,ZB Bay Area : Golden Gate,ZB Bay Area : Monterey,ZB Bay Area : South Bay,ZB Bay Area Uncategorized,ZB Fegan,Inc.,Inc. : Greg Steinmetz,Inc. : Jeshua Richardson,Inc. : Julie Smith,Inc. : Lindsey White,Inc. : Laura Wilbourn</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Fegan,Inc. : Team Central Sierra,Inc. : Team Central Valley North,Inc. : Team Central Valley South,Inc. : Team Chico Redding,Inc. : Team Modesto,Inc. : Team Napa,Inc. : Team North Bay,Inc. : Team North Bay Members,Inc. : Team Reno,Inc. : Team Sacramento,Inc. : Thomas Knight,Inc. : Tyler Vance,Inc. Uncategorized,ZB Northwest,ZB Northwest: Team Central Washington,ZB Northwest: Team Emerald City,ZB Northwest: Team Henry Hunt,ZB Northwest: Team North Cascades,ZB Northwest: Team Rainier,ZB Northwest: Team SE Washington,ZB Northwest: Team Seattle,ZB Northwest: Team South Sound,ZB Northwest: Team Spokane,ZB Northwest: Team Tacoma,ZB Northwest: Uncategorized,ZB Oregon,ZB Oregon: Uncategorized,ZB Pacific,ZB Pacific Uncategorized,ZB Southern California,ZB Southern California Uncategorized,ZB Southern Idaho,ZB Southern Idaho Uncategorized,ZB</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Southwest: Alexandra Hermann,ZB Southwest: Benjamin Bower,ZB Southwest: Brandon Willis,ZB Southwest: Brian Houghton,ZB Southwest: Chris Chartier,ZB Southwest: Eric Immell,ZB Southwest: Ignacio Terrazas,ZB Southwest: Jason Fine,ZB Southwest: John Randolph,ZB Southwest: Justin Wright,ZB Southwest: Michael Murphy,ZB Southwest: Mike Carpenter,ZB Southwest: Pete Swanson,ZB Southwest: Peter Everett,ZB Southwest: Rachel Freed,ZB Southwest: Randy Garcia,ZB Southwest: Rich Herrin,ZB Southwest: Ryan Kennedy,ZB Southwest: Spencer Bishop,ZB Southwest: Susan Ross,ZB Southwest: Team Amarillo,ZB Southwest: Team East Valley,ZB Southwest: Team JP Richmond,ZB Southwest: Team Kacy Snyder,ZB Southwest: Team Las Cruces,ZB Southwest: Team Lobo,ZB Southwest: Team Manny Mandujano,ZB Southwest: Team Northern Arizona,ZB Southwest: Team Phoenix,ZB Southwest: Team Precision Medical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZB Southwest: Team Roswell,ZB Southwest: Team Sandia,ZB Southwest: Team Skundrich,ZB Southwest: Team Tri City,ZB Southwest: Team Tucson,ZB Southwest: Team Tyson Snyder,ZB Southwest: Team Valley Sports,ZB Southwest: Team Wildcat,ZB Southwest: Team Zia,ZB Southwest: Tullio Catino,ZB Southwest: Will Hopwood,ZB Southwest: Will Walker,Management - Biologics,Biologics CD: Hon,Biologics CD: Kalajian,Biologics CD: Kreider,Biologics CD: Luoma,Management - Extremities,Extremities CD: Great Lakes Region,Extremities CD: Mid-Atlantic Region,Extremities CD: MidAmerica,Extremities CD: Northeast,Extremities CD: Southeast Region,Extremities CD: Southwest Region,Extremities CD: West Region,Management - Foot &amp; Ankle,Foot &amp; Ankle CD: Long,Foot &amp; Ankle CD: Roche,Foot &amp; Ankle CD: Sutherland,Foot &amp; Ankle CD: Weaver,Management - Hips,Hip CD: Breeding,Hip CD: Cartwright</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Hip CD: Gabryluk,Hip CD: Hagen,Hip CD: Snyder,Hip CD: Walriven,Management - Knees,Knee CD: Blevins,Knee CD: Cowan,Knee CD: Dicken,Knee CD: Frankum,Knee CD: Harkinson,Knee CD: Scott,Knee CD: Smith,Knee CD: Vendrely,Management - Sports Medicine,Sports Medicine: Andrew Holst,Sports Medicine: Elvin Sotomayor,Sports Medicine: Jacob Wilson,Sports Medicine: James Strong,Sports Medicine: Jay Howard,Sports Medicine: John Dunstan,Sports Medicine: Lisa Rogers,Sports Medicine: Ryan Bush,Sports Medicine: Scott Waller,Sports Medicine: Seth Myers,Sports Medicine: Tom Kaufman,Management - Trauma,Trauma CD Central West Region,Trauma CD Mid Atlantic Region,Trauma CD MidAmerica Region,Trauma CD Midwest Region,Trauma CD Northeast Region,Trauma CD South Central Region,Trauma CD Southeast Region</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Trauma CD Western Region,Trauma Finance,Trauma Marketing,Canada General Manager,Canada Corporate,Canada Data Admin,RC-AM-CA-iPad,Zimmer Biomet Canada,Compass Orthopaedics-Distributor,Compass Orthopaedics-Sales Rep,Zimmer Biomet One,Zimmer Biomet Orthopaedic Solutions,Zimmer Biomet Quebec-Distributor,Zimmer Biomet Quebec-Sales Rep,Zimmer Biomet West-Distributor,Zimmer Biomet West – Sales Rep,Director Sales Training,Sales Academy,Sales Training Admin &amp; Coordinators,Sales Training Managers,Enterprise Solutions: VP,Enterprise Solutions Group Director-Brown,RSD-Allen,RSD-Hess,RSD-Kobley,RSD-Rastrelli,RSD-Sullivan,Enterprise Solutions Group Director-Kolbe,RSD-Burns,RSD-Kunkelmann,RSD-Meyer,RSD-Murphy,RSD-Williams,RSD-Zimmerman,National Sales Director,Executive Admin. US Sales,Latin America,Argentina,Management - Market Access,Director:Murphy,Clinical Liaison Manager,Regional Manager: Lacobee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Sales Rep: Green,Sales Rep: Harrold,Sales Rep: Johnson,Sales Rep: List,Sales Rep: Novorro,Sales Rep: Smith,Management - Personalized Solutions,Personalized Solutions CD: Rough,Personalized Solutions CD: Waluzak,Management - Signature Solutions,Director,Signature Solutions,Management - Surgical,Clinical Affairs - Candace Samudio,Clinical Associates - Surgical,Regional Service Manager - Surgical,Surgical,Surgical Marketing,Surgical RSM - Gavin Sontag,Surgical RSM - Jon Bostelman,Surgical Rep - Bryan Boardwell,Surgical Rep - Castle/Hauptman/Honzik,Surgical Rep - Darren Wilstead,Surgical Rep - Gatewood/Calkins,Surgical Rep - Hauptman,Surgical Rep - Joe Jacobitz,Surgical Rep - Jon Kates,Surgical Rep - Kelly/Ganoe,Surgical Rep - Lucas Albers,Surgical Rep - Lynn Erickson,Surgical Rep - Mike Donovan,Surgical Rep - Robert,Surgical Rep - Ronald Moody II,Surgical Rep - Russ Wright,Surgical Rep - Topher Ewing,Surgical RSM - Haydn Schwedland,Surgical Rep - Aaron</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Surgical Rep - Kyle Baker,Surgical Rep - Lauren Canlas,Surgical Rep - Lewis Heacker,Surgical Rep - Marcus Isom,Surgical Rep - Matthew Nabors,Surgical Rep - Mike Dolan,Surgical Rep - Mike Ganoe,Surgical Rep - Richard Baldwin III,Surgical Rep - Ryan Lively,Surgical Rep - Shamburger/Porter,Surgical RSM - Mike Ferris,Surgical Rep - Bryan Ross,Surgical Rep - Dan Holt,Surgical Rep - Ferris/Prodoehl,Surgical Rep - Haley Freeman,Surgical Rep - Joel Hale,Surgical Rep - John Fetchet,Surgical Rep - Kyle Smith,Surgical Rep - Lucas Swift,Surgical Rep - Mark Garrett,Surgical Rep - Meghan Petersen,Surgical Rep - Phil Bojc,Surgical Rep - Tim Patrick,Surgical Rep - Timothy Zietlow,Surgical Rep - TJ Sutton II,Surgical Rep - Tom McShane,Surgical RSM - Tim Smith,Surgical Rep - Bryan Cobb,Surgical Rep - Dennis Embry,Surgical Rep - Ethan Kilmer,Surgical Rep - Kim Coughlin,Surgical Rep - Kyle Robinette,Surgical Rep - Matthiesen/Patrick,Surgical Rep - Patrick McDuff,Surgical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Surgical Rep - Ryan Morstein,Surgical Rep - Tara Kahn,Surgical Rep – Adam Holmes,Surgical Rep – Brian Kilroy,Surgical RSM- Lancie Greenlee,Surgical Rep - Adam Poe,Surgical Rep - Alex Jenkins,Surgical Rep - Braud/Motter,Surgical Rep - Chris Nadeau,Surgical Rep - Cory Smith,Surgical Rep - Drew Thompson,Surgical Rep - Emily Lillystone,Surgical Rep - Jones/Adams,Surgical Rep - King/Hernandez,Surgical Rep - Matthew Kerkhoff,Surgical Rep - Nate Stimson,Surgical Rep - Ryan Jones,Surgical Rep - Tadd Farmer,Surgical Rep –Duff,OBT- GM,National Sales Director - OBT,Sales Training OBT,OBT- RSD I,OBT- RSD II,OBT- RSD III,OBT- RSD IV,OBT -270: Manager,OBT -270: Sales rep,OBT -572: Sales rep,OBT- RSD V,OBT -242: Manager,OBT -242: Sales rep,OBT -335: Sales rep,OBT -575: Sales rep,OBT- RSD VI,OBT -175: Sales rep,OBT -362: Sales rep,OBT -T233 : Manager,OBT -T233: Sales rep,OBT -T241: Manager,OBT -T241: Sales rep,OBT -T283: Manager,OBT -T570: Sales rep,Personali</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>AM US Role -tree users</name>
+    <params>
+        <name>active</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>User</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

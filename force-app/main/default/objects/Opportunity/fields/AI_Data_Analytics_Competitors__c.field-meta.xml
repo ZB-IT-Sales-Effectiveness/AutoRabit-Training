@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Data_Analytics_Competitors__c</fullName>
+    <description>MIS</description>
+    <externalId>false</externalId>
+    <label>AI/Data Analytics Competitors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6.	Stryker</fullName>
+                <default>false</default>
+                <label>6.	Stryker</label>
+            </value>
+            <value>
+                <fullName>7.	Storz</fullName>
+                <default>false</default>
+                <label>7.	Storz</label>
+            </value>
+            <value>
+                <fullName>8.	Arthrex</fullName>
+                <default>false</default>
+                <label>8.	Arthrex</label>
+            </value>
+            <value>
+                <fullName>9.	Smith &amp; Nephew</fullName>
+                <default>false</default>
+                <label>9.	Smith &amp; Nephew</label>
+            </value>
+            <value>
+                <fullName>10.	Steris</fullName>
+                <default>false</default>
+                <label>10.	Steris</label>
+            </value>
+            <value>
+                <fullName>11.	Skytron</fullName>
+                <default>false</default>
+                <label>11.	Skytron</label>
+            </value>
+            <value>
+                <fullName>12.	Trumpf</fullName>
+                <default>false</default>
+                <label>12.	Trumpf</label>
+            </value>
+            <value>
+                <fullName>13.	Olympus</fullName>
+                <default>false</default>
+                <label>13.	Olympus</label>
+            </value>
+            <value>
+                <fullName>14.	Conmed</fullName>
+                <default>false</default>
+                <label>14.	Conmed</label>
+            </value>
+            <value>
+                <fullName>15.	Gettinge</fullName>
+                <default>false</default>
+                <label>15.	Gettinge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

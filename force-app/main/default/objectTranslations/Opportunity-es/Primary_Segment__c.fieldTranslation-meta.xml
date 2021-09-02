@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Segment --></label>
+    <name>Primary_Segment__c</name>
+    <picklistValues>
+        <masterLabel>1.Knees</masterLabel>
+        <translation><!-- 1.Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10.Surgical Disposables</masterLabel>
+        <translation><!-- 10.Surgical Disposables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11.Surgical Capital</masterLabel>
+        <translation><!-- 11.Surgical Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12.Power Disposables</masterLabel>
+        <translation><!-- 12.Power Disposables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13.Power Capital</masterLabel>
+        <translation><!-- 13.Power Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14.ZB Connect</masterLabel>
+        <translation><!-- 14.ZB Connect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2.Hips</masterLabel>
+        <translation><!-- 2.Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3.Bone Cement</masterLabel>
+        <translation><!-- 3.Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4.Sports Medicine</masterLabel>
+        <translation><!-- 4.Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5.Extremities</masterLabel>
+        <translation><!-- 5.Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6.Upper Trauma</masterLabel>
+        <translation><!-- 6.Upper Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7.Lower Trauma</masterLabel>
+        <translation><!-- 7.Lower Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8.Foot and Ankle</masterLabel>
+        <translation><!-- 8.Foot and Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9.Early Intervention</masterLabel>
+        <translation><!-- 9.Early Intervention --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

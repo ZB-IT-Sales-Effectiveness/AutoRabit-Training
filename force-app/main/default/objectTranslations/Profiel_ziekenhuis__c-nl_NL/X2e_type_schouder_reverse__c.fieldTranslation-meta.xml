@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type schouder reverse --></label>
+    <name>X2e_type_schouder_reverse__c</name>
+    <picklistValues>
+        <masterLabel>Anatomical inverse</masterLabel>
+        <translation><!-- Anatomical inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bigliani inverse</masterLabel>
+        <translation><!-- Bigliani inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeltaExtended</masterLabel>
+        <translation><!-- DeltaExtended --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equalis rev.</masterLabel>
+        <translation><!-- Equalis rev. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promos</masterLabel>
+        <translation><!-- Promos --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

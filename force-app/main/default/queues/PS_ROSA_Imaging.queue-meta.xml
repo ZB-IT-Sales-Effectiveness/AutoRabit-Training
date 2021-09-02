@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PS-ROSA Imaging</name>
+    <queueMembers>
+        <roles>
+            <role>Personlized_Solutions_Agent</role>
+            <role>Personlized_Solutions_Manager</role>
+        </roles>
+        <users>
+            <user>andrea.thacker@zimmerbiomet.com</user>
+            <user>april.byrne@zimmerbiomet.com</user>
+            <user>deanna.spivey@zimmerbiomet.com</user>
+            <user>eliza.houston@zimmerbiomet.com</user>
+            <user>eric.starkweather@zimmerbiomet.com</user>
+            <user>jessica.beer@zimmerbiomet.com</user>
+            <user>julie.hasty@zimmerbiomet.com</user>
+            <user>michael.krochta@zimmerbiomet.com</user>
+            <user>tori.lanza@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

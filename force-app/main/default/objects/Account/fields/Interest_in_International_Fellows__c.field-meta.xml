@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_in_International_Fellows__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If the Check Box is Checked, Should Present a Free text Memo Area with Validation That Something Has to be entered</description>
+    <externalId>false</externalId>
+    <label>Interest in International Fellows</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Account - Trouble Brewing</fullName>
+        <default>false</default>
+        <label>Account - Trouble Brewing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account - Unhappy</fullName>
+        <default>false</default>
+        <label>Account - Unhappy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Activate consignment</fullName>
+        <default>false</default>
+        <label>Activate consignment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aged Repair Resolution</fullName>
+        <default>false</default>
+        <label>Aged Repair Resolution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Betreuung</fullName>
+        <default>false</default>
+        <label>Anruf Betreuung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Follow up/Betreu.</fullName>
+        <default>false</default>
+        <label>Anruf Follow up/Betreu.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Marktumfrage</fullName>
+        <default>false</default>
+        <label>Anruf Marktumfrage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Reklamation</fullName>
+        <default>false</default>
+        <label>Anruf Reklamation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Terminvereinbarung</fullName>
+        <default>false</default>
+        <label>Anruf Terminvereinbarung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anruf Verkaufssupport</fullName>
+        <default>false</default>
+        <label>Anruf Verkaufssupport</label>
+    </standardValue>
+    <standardValue>
+        <fullName>App in Stage = Commit</fullName>
+        <default>false</default>
+        <label>App in Stage = Commit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bioskills training course</fullName>
+        <default>false</default>
+        <label>Bioskills training course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book CSD in-service</fullName>
+        <default>false</default>
+        <label>Book CSD in-service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book nurse in-service</fullName>
+        <default>false</default>
+        <label>Book nurse in-service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brief Korresp.Allgemein</fullName>
+        <default>false</default>
+        <label>Brief Korresp.Allgemein</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brief Marketing-Mailing</fullName>
+        <default>false</default>
+        <label>Brief Marketing-Mailing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brief Offertwesen</fullName>
+        <default>false</default>
+        <label>Brief Offertwesen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brief Reklamation</fullName>
+        <default>false</default>
+        <label>Brief Reklamation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brief Veranst.Einladung</fullName>
+        <default>false</default>
+        <label>Brief Veranst.Einladung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Plan Presented</fullName>
+        <default>false</default>
+        <label>Business Plan Presented</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Called</fullName>
+        <default>false</default>
+        <label>Called</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Capital Solutions Deal Desk Document Status</fullName>
+        <default>false</default>
+        <label>Capital Solutions Deal Desk Document Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case attendance</fullName>
+        <default>false</default>
+        <label>Case attendance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Help</fullName>
+        <default>false</default>
+        <label>Case Help</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Evidence</fullName>
+        <default>false</default>
+        <label>Clinical Evidence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Hire</fullName>
+        <default>false</default>
+        <label>Competitive Hire</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Opportunity</fullName>
+        <default>false</default>
+        <label>Competitive Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive product comparison</fullName>
+        <default>false</default>
+        <label>Competitive product comparison</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor Activity</fullName>
+        <default>false</default>
+        <label>Competitor Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference Lead Follow-up</fullName>
+        <default>false</default>
+        <label>Conference Lead Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consignment -Installation</fullName>
+        <default>false</default>
+        <label>Consignment -Installation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consignment – Request</fullName>
+        <default>false</default>
+        <label>Consignment – Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Extension</fullName>
+        <default>false</default>
+        <label>Contract Extension</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Negotiation</fullName>
+        <default>false</default>
+        <label>Contract Negotiation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract_Statement</fullName>
+        <default>false</default>
+        <label>Contract Statement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CTC 2020 Options</fullName>
+        <default>false</default>
+        <label>CTC 2020 Options</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom Instruments</fullName>
+        <default>false</default>
+        <label>Custom Instruments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Doc Deficiencies MYM</fullName>
+        <default>false</default>
+        <label>Doc Deficiencies MYM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Doc Deficiencies ROSA</fullName>
+        <default>false</default>
+        <label>Doc Deficiencies ROSA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Doc Deficiencies SURGICAL</fullName>
+        <default>false</default>
+        <label>Doc Deficiencies SURGICAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Educational site visit</fullName>
+        <default>false</default>
+        <label>Educational site visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Betreuung</fullName>
+        <default>false</default>
+        <label>E-Mail Betreuung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Emailed</fullName>
+        <default>false</default>
+        <label>Emailed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Follow up/Betreu.</fullName>
+        <default>false</default>
+        <label>E-Mail Follow up/Betreu.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Korresp.Allgemein</fullName>
+        <default>false</default>
+        <label>E-Mail Korresp.Allgemein</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Marketing-Mailing</fullName>
+        <default>false</default>
+        <label>E-Mail Marketing-Mailing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Marktumfrage</fullName>
+        <default>false</default>
+        <label>E-Mail Marktumfrage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Offertwesen</fullName>
+        <default>false</default>
+        <label>E-Mail Offertwesen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Reklamation</fullName>
+        <default>false</default>
+        <label>E-Mail Reklamation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Terminvereinbarung</fullName>
+        <default>false</default>
+        <label>E-Mail Terminvereinbarung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Veranst.Einladung</fullName>
+        <default>false</default>
+        <label>E-Mail Veranst.Einladung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail Verkaufssupport</fullName>
+        <default>false</default>
+        <label>E-Mail Verkaufssupport</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Encode</fullName>
+        <default>false</default>
+        <label>Encode</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exchange</fullName>
+        <default>false</default>
+        <label>Exchange</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Support Meeting</fullName>
+        <default>false</default>
+        <label>Executive Support Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Faxed</fullName>
+        <default>false</default>
+        <label>Faxed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Feedback</fullName>
+        <default>false</default>
+        <label>Field Feedback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance/Accounting</fullName>
+        <default>false</default>
+        <label>Finance/Accounting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up</fullName>
+        <default>false</default>
+        <label>Follow Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up - Courtesy Letter</fullName>
+        <default>false</default>
+        <label>Follow Up - Courtesy Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up Distributor Meeting</fullName>
+        <default>false</default>
+        <label>Follow-up Distributor Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up - Send Clinical Evidence</fullName>
+        <default>false</default>
+        <label>Follow Up - Send Clinical Evidence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up - Send Product Information</fullName>
+        <default>false</default>
+        <label>Follow Up - Send Product Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up - Send Quote/Proposal</fullName>
+        <default>false</default>
+        <label>Follow Up - Send Quote/Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HEMCON SAMPLE SENT</fullName>
+        <default>false</default>
+        <label>HEMCON SAMPLE SENT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospital C-Suite Meeting</fullName>
+        <default>false</default>
+        <label>Hospital C-Suite Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Identify Related Contacts/Update Contact Roles</fullName>
+        <default>false</default>
+        <label>Identify Related Contacts/Update Contact Roles</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant</fullName>
+        <default>false</default>
+        <label>Implant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Concierge</fullName>
+        <default>false</default>
+        <label>Implant Concierge</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implants</fullName>
+        <default>false</default>
+        <label>Implants</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound</fullName>
+        <default>true</default>
+        <label>Inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial Distributor Meeting</fullName>
+        <default>false</default>
+        <label>Initial Distributor Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Initiate Product Launch</fullName>
+        <default>false</default>
+        <label>Initiate Product Launch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In Person</fullName>
+        <default>false</default>
+        <label>In Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In-Service – CSSD</fullName>
+        <default>false</default>
+        <label>In-Service – CSSD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In-Service – Nurses</fullName>
+        <default>false</default>
+        <label>In-Service – Nurses</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In-Service - Registrar(s)</fullName>
+        <default>false</default>
+        <label>In-Service - Registrar(s)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In-Service - Surgeon(s)</fullName>
+        <default>false</default>
+        <label>In-Service - Surgeon(s)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instrument Demo</fullName>
+        <default>false</default>
+        <label>Instrument Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments</fullName>
+        <default>false</default>
+        <label>Instruments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments – Custom Required</fullName>
+        <default>false</default>
+        <label>Instruments – Custom Required</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments – Find/Show Alternative</fullName>
+        <default>false</default>
+        <label>Instruments – Find/Show Alternative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments - Repair/Replace</fullName>
+        <default>false</default>
+        <label>Instruments - Repair/Replace</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Account Planning Review</fullName>
+        <default>false</default>
+        <label>Internal Account Planning Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>iTero</fullName>
+        <default>false</default>
+        <label>iTero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal Notice</fullName>
+        <default>false</default>
+        <label>Legal Notice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Local Education Program</fullName>
+        <default>false</default>
+        <label>Local Education Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Performance Review</fullName>
+        <default>false</default>
+        <label>LTC - Performance Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Extremities</fullName>
+        <default>false</default>
+        <label>LTC - Request - Extremities</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Hips</fullName>
+        <default>false</default>
+        <label>LTC - Request - Hips</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Knees</fullName>
+        <default>false</default>
+        <label>LTC - Request - Knees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Spine</fullName>
+        <default>false</default>
+        <label>LTC - Request - Spine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Surgical</fullName>
+        <default>false</default>
+        <label>LTC - Request - Surgical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTC - Request - Trauma</fullName>
+        <default>false</default>
+        <label>LTC - Request - Trauma</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lunch &amp; Learn</fullName>
+        <default>false</default>
+        <label>Lunch &amp; Learn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintaining Referral</fullName>
+        <default>false</default>
+        <label>Maintaining Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Course Attendance Follow Up</fullName>
+        <default>false</default>
+        <label>Med Ed - Course Attendance Follow Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Course Attendance Invitation</fullName>
+        <default>false</default>
+        <label>Med Ed - Course Attendance Invitation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Course Attendance Invite</fullName>
+        <default>false</default>
+        <label>Med Ed - Course Attendance Invite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Education Site Visit to Warsaw</fullName>
+        <default>false</default>
+        <label>Med Ed - Education Site Visit to Warsaw</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Mobile Lab</fullName>
+        <default>false</default>
+        <label>Med Ed - Mobile Lab</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Foot &amp; Ankle</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Foot &amp; Ankle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Hips</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Hips</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Knees</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Knees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Shoulder &amp; Elbow</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Shoulder &amp; Elbow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Spine</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Spine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Request - Trauma</fullName>
+        <default>false</default>
+        <label>Med Ed - Request - Trauma</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed - Surgeon to Surgeon</fullName>
+        <default>false</default>
+        <label>Med Ed - Surgeon to Surgeon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meet Related Contacts</fullName>
+        <default>false</default>
+        <label>Meet Related Contacts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Met with Ortho Rep</fullName>
+        <default>false</default>
+        <label>Met with Ortho Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Northern Hemisphere Fellow Meeting</fullName>
+        <default>false</default>
+        <label>Northern Hemisphere Fellow Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Orders</fullName>
+        <default>false</default>
+        <label>Orders</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound</fullName>
+        <default>false</default>
+        <label>Outbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound 1</fullName>
+        <default>false</default>
+        <label>Outbound 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound 2</fullName>
+        <default>false</default>
+        <label>Outbound 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound 3</fullName>
+        <default>false</default>
+        <label>Outbound 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound 4</fullName>
+        <default>false</default>
+        <label>Outbound 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ</fullName>
+        <default>false</default>
+        <label>PartnerZ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ Swap Confirmed</fullName>
+        <default>false</default>
+        <label>PartnerZ Swap Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerZ Target</fullName>
+        <default>false</default>
+        <label>PartnerZ Target</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone Call</fullName>
+        <default>false</default>
+        <label>Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - ASI</fullName>
+        <default>false</default>
+        <label>Playbook - ASI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook Attune</fullName>
+        <default>false</default>
+        <label>Playbook Attune</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook ConC</fullName>
+        <default>false</default>
+        <label>Playbook ConC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook iAssist</fullName>
+        <default>false</default>
+        <label>Playbook iAssist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook LONG PEG</fullName>
+        <default>false</default>
+        <label>Playbook LONG PEG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook MLRasps</fullName>
+        <default>false</default>
+        <label>Playbook MLRasps</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook Motionloc</fullName>
+        <default>false</default>
+        <label>Playbook Motionloc</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook NCB</fullName>
+        <default>false</default>
+        <label>Playbook NCB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - NCB PP</fullName>
+        <default>false</default>
+        <label>Playbook - NCB PP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - Optipac</fullName>
+        <default>false</default>
+        <label>Playbook - Optipac</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook Pathfinder</fullName>
+        <default>false</default>
+        <label>Playbook Pathfinder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook Poly</fullName>
+        <default>false</default>
+        <label>Playbook Poly</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook PROMS</fullName>
+        <default>false</default>
+        <label>Playbook PROMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook PSI</fullName>
+        <default>false</default>
+        <label>Playbook PSI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - S&amp;E Sports Med</fullName>
+        <default>false</default>
+        <label>Playbook - S&amp;E Sports Med</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook SIDUS</fullName>
+        <default>false</default>
+        <label>Playbook SIDUS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - Taperloc G7</fullName>
+        <default>false</default>
+        <label>Playbook - Taperloc G7</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook TM</fullName>
+        <default>false</default>
+        <label>Playbook TM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook TMG</fullName>
+        <default>false</default>
+        <label>Playbook TMG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook TMR</fullName>
+        <default>false</default>
+        <label>Playbook TMR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook TMSpine</fullName>
+        <default>false</default>
+        <label>Playbook TMSpine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - Total Shield</fullName>
+        <default>false</default>
+        <label>Playbook - Total Shield</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - Verasense</fullName>
+        <default>false</default>
+        <label>Playbook - Verasense</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook - X3</fullName>
+        <default>false</default>
+        <label>Playbook - X3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook ZADII</fullName>
+        <default>false</default>
+        <label>Playbook ZADII</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Playbook ZMR</fullName>
+        <default>false</default>
+        <label>Playbook ZMR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation to Final Decision Maker Complete</fullName>
+        <default>false</default>
+        <label>Presentation to Final Decision Maker Complete</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Approval Required</fullName>
+        <default>false</default>
+        <label>Pricing Approval Required</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Demo</fullName>
+        <default>false</default>
+        <label>Product Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Demonstration</fullName>
+        <default>false</default>
+        <label>Product Demonstration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proposal Meeting</fullName>
+        <default>false</default>
+        <label>Proposal Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Clinical Evidence</fullName>
+        <default>false</default>
+        <label>Provide Clinical Evidence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Product Information</fullName>
+        <default>false</default>
+        <label>Provide Product Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Service Information</fullName>
+        <default>false</default>
+        <label>Provide Service Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Supply Proposal</fullName>
+        <default>false</default>
+        <label>Provide Supply Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Q1 2016 Planning &amp; Execution</fullName>
+        <default>false</default>
+        <label>Q1 2016 Planning &amp; Execution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Q2 2016 Planning &amp; Execution</fullName>
+        <default>false</default>
+        <label>Q2 2016 Planning &amp; Execution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Q3 2016 Planning &amp; Execution</fullName>
+        <default>false</default>
+        <label>Q3 2016 Planning &amp; Execution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Q4 2016 Planning &amp; Execution</fullName>
+        <default>false</default>
+        <label>Q4 2016 Planning &amp; Execution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote</fullName>
+        <default>false</default>
+        <label>Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Delivered</fullName>
+        <default>false</default>
+        <label>Quote Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regen</fullName>
+        <default>false</default>
+        <label>Regen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Relocation</fullName>
+        <default>false</default>
+        <label>Relocation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report as regular user</fullName>
+        <default>false</default>
+        <label>Report as regular user</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative</fullName>
+        <default>false</default>
+        <label>Restorative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative Case</fullName>
+        <default>false</default>
+        <label>Restorative Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Return</fullName>
+        <default>false</default>
+        <label>Return</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter</fullName>
+        <default>false</default>
+        <label>Send Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service - Billing Issue</fullName>
+        <default>false</default>
+        <label>Service - Billing Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service - LTC Issue</fullName>
+        <default>false</default>
+        <label>Service - LTC Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service - STC Issue</fullName>
+        <default>false</default>
+        <label>Service - STC Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Session with iTero Rep</fullName>
+        <default>false</default>
+        <label>Session with iTero Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Alignment Meeting</fullName>
+        <default>false</default>
+        <label>Strategic Alignment Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Study Club</fullName>
+        <default>false</default>
+        <label>Study Club</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon Meeting</fullName>
+        <default>false</default>
+        <label>Surgeon Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon to surgeon Visit</fullName>
+        <default>false</default>
+        <label>Surgeon to surgeon Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon Training Complete</fullName>
+        <default>false</default>
+        <label>Surgeon Training Complete</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical Case</fullName>
+        <default>false</default>
+        <label>Surgical Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial case request</fullName>
+        <default>false</default>
+        <label>Trial case request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit - Other</fullName>
+        <default>false</default>
+        <label>Visit - Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit - Product Manager</fullName>
+        <default>false</default>
+        <label>Visit - Product Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit - Sales Associate</fullName>
+        <default>false</default>
+        <label>Visit - Sales Associate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit - Sales Manager</fullName>
+        <default>false</default>
+        <label>Visit - Sales Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit - Senior Management</fullName>
+        <default>false</default>
+        <label>Visit - Senior Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voicemail</fullName>
+        <default>false</default>
+        <label>Voicemail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wellness Check</fullName>
+        <default>false</default>
+        <label>Wellness Check</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBD Edu Program</fullName>
+        <default>false</default>
+        <label>ZBD Edu Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Executive visit</fullName>
+        <default>false</default>
+        <label>Zimmer Executive visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Marketing Visit</fullName>
+        <default>false</default>
+        <label>Zimmer Marketing Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer PSD Visit</fullName>
+        <default>false</default>
+        <label>Zimmer PSD Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Senior Executive Visit</fullName>
+        <default>false</default>
+        <label>Zimmer Senior Executive Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMR Instructions - Surgeon Briefing</fullName>
+        <default>false</default>
+        <label>ZMR Instructions - Surgeon Briefing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>その他</fullName>
+        <default>false</default>
+        <label>その他</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ボイスメール</fullName>
+        <default>false</default>
+        <label>ボイスメール</label>
+    </standardValue>
+    <standardValue>
+        <fullName>直接通知</fullName>
+        <default>false</default>
+        <label>直接通知</label>
+    </standardValue>
+    <standardValue>
+        <fullName>電子メール</fullName>
+        <default>false</default>
+        <label>電子メール</label>
+    </standardValue>
+    <standardValue>
+        <fullName>電話</fullName>
+        <default>false</default>
+        <label>電話</label>
+    </standardValue>
+</StandardValueSet>

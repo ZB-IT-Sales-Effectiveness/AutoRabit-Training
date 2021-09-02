@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ROSA Original Territory --></label>
+    <name>ROSA_Original_Territory__c</name>
+    <picklistValues>
+        <masterLabel>ROSA Great Lakes</masterLabel>
+        <translation><!-- ROSA Great Lakes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Territories</masterLabel>
+        <translation><!-- ROSA Territories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-APEX</masterLabel>
+        <translation><!-- ROSA-APEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Arizona</masterLabel>
+        <translation><!-- ROSA-Arizona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Boneafide</masterLabel>
+        <translation><!-- ROSA-Boneafide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Carolina</masterLabel>
+        <translation><!-- ROSA-Carolina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Florida</masterLabel>
+        <translation><!-- ROSA-Florida --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Indiana</masterLabel>
+        <translation><!-- ROSA-Indiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-MidAmerica</masterLabel>
+        <translation><!-- ROSA-MidAmerica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-MidAtlantic</masterLabel>
+        <translation><!-- ROSA-MidAtlantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-N.Texas</masterLabel>
+        <translation><!-- ROSA-N.Texas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-NE</masterLabel>
+        <translation><!-- ROSA-NE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-NW</masterLabel>
+        <translation><!-- ROSA-NW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-NY/NJ</masterLabel>
+        <translation><!-- ROSA-NY/NJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-NoCal</masterLabel>
+        <translation><!-- ROSA-NoCal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Ohio</masterLabel>
+        <translation><!-- ROSA-Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-RioGrande</masterLabel>
+        <translation><!-- ROSA-RioGrande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-S.Texas</masterLabel>
+        <translation><!-- ROSA-S.Texas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-SE</masterLabel>
+        <translation><!-- ROSA-SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Select</masterLabel>
+        <translation><!-- ROSA-Select --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-SoCal</masterLabel>
+        <translation><!-- ROSA-SoCal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA-Wisco</masterLabel>
+        <translation><!-- ROSA-Wisco --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

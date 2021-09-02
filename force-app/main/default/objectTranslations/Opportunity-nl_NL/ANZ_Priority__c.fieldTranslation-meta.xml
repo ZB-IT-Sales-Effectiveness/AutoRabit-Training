@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Priority --></label>
+    <name>ANZ_Priority__c</name>
+    <picklistValues>
+        <masterLabel>BLUE CHIP</masterLabel>
+        <translation><!-- BLUE CHIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WHITE CHIP</masterLabel>
+        <translation><!-- WHITE CHIP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

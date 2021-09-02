@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Product__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(Product__r.Provider__c, &apos;Zimmer Biomet&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ZB Product</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

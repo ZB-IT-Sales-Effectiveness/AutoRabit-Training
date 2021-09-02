@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Extremity Fellowship Program Attended --></label>
+    <name>Extremity_Fellowship_Program_Attended__c</name>
+    <picklistValues>
+        <masterLabel>Beaumont Health, Department of Orthopaedic Surgery -  Royal Oak, MI</masterLabel>
+        <translation><!-- Beaumont Health, Department of Orthopaedic Surgery -  Royal Oak, MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati Shoulder and Elbow Fellowship</masterLabel>
+        <translation><!-- Cincinnati Shoulder and Elbow Fellowship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleveland Clinic Foundation -  Cleveland, Ohio</masterLabel>
+        <translation><!-- Cleveland Clinic Foundation -  Cleveland, Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbia University New York Presbyterian Hospital – Shoulder and Elbow Fellowship -  New York, NY</masterLabel>
+        <translation><!-- Columbia University New York Presbyterian Hospital – Shoulder and Elbow Fellowship -  New York, NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Florida Orthopaedic Institute -  Tampa, FL</masterLabel>
+        <translation><!-- Florida Orthopaedic Institute -  Tampa, FL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holy Cross Orthopedic Institute -  Fort lauderdale, FL</masterLabel>
+        <translation><!-- Holy Cross Orthopedic Institute -  Fort lauderdale, FL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital for Special Surgery Shoulder Fellowship -  New York, NY</masterLabel>
+        <translation><!-- Hospital for Special Surgery Shoulder Fellowship -  New York, NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kerlan Jobe Adult Shoulder and Elbow Reconstructive Fellowship -  los angeles, CA</masterLabel>
+        <translation><!-- Kerlan Jobe Adult Shoulder and Elbow Reconstructive Fellowship -  los angeles, CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Massachusetts General Hospital &amp; New England Baptist Hospital -  boston, MA</masterLabel>
+        <translation><!-- Massachusetts General Hospital &amp; New England Baptist Hospital -  boston, MA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mayo Clinic, Department of Orthopedic Surgery -  rochester, mn</masterLabel>
+        <translation><!-- Mayo Clinic, Department of Orthopedic Surgery -  rochester, mn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedStar Union Hospital Shoulder and Elbow Fellowship -  baltimore, md</masterLabel>
+        <translation><!-- MedStar Union Hospital Shoulder and Elbow Fellowship -  baltimore, md --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montefiore Medical Center -  bronx, ny</masterLabel>
+        <translation><!-- Montefiore Medical Center -  bronx, ny --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mount Sinai Shoulder and Elbow Fellowship -  New York, NY</masterLabel>
+        <translation><!-- Mount Sinai Shoulder and Elbow Fellowship -  New York, NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYU Langone Orthopedic Hospital -  New York, NY</masterLabel>
+        <translation><!-- NYU Langone Orthopedic Hospital -  New York, NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oregon Shoulder Fellowship -  Medford, OR</masterLabel>
+        <translation><!-- Oregon Shoulder Fellowship -  Medford, OR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rhode Island Shoulder &amp; Elbow Service – Brown Shoulder and Elbow Fellowship, Warren Alpert Medical School, Brown University -  Providence, RI</masterLabel>
+        <translation><!-- Rhode Island Shoulder &amp; Elbow Service – Brown Shoulder and Elbow Fellowship, Warren Alpert Medical School, Brown University -  Providence, RI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rush University Medical Center, Midwest Orthopaedics -  Chicago, IL</masterLabel>
+        <translation><!-- Rush University Medical Center, Midwest Orthopaedics -  Chicago, IL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Francisco Shoulder and Elbow Fellowship -  San Francisco, CA</masterLabel>
+        <translation><!-- San Francisco Shoulder and Elbow Fellowship -  San Francisco, CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TERFSES (Texas Education and Research Foundation for Shoulder and Elbow Surgery) -  Houston, TX</masterLabel>
+        <translation><!-- TERFSES (Texas Education and Research Foundation for Shoulder and Elbow Surgery) -  Houston, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Johns Hopkins University, Division of Shoulder and Elbow Surgery -  Columbia, MD</masterLabel>
+        <translation><!-- The Johns Hopkins University, Division of Shoulder and Elbow Surgery -  Columbia, MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Jefferson University Hospital -  Philadelphia, PA</masterLabel>
+        <translation><!-- Thomas Jefferson University Hospital -  Philadelphia, PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPMC -Department of Orthopaedic Surgery, Shoulder and Elbow Fellowship -  Pittsburgh, PA</masterLabel>
+        <translation><!-- UPMC -Department of Orthopaedic Surgery, Shoulder and Elbow Fellowship -  Pittsburgh, PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UT Health San Antonio Rockwood Shoulder &amp; Elbow Fellowship -  San Antonio, TX</masterLabel>
+        <translation><!-- UT Health San Antonio Rockwood Shoulder &amp; Elbow Fellowship -  San Antonio, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University of Florida -  Gainsville, FL</masterLabel>
+        <translation><!-- University of Florida -  Gainsville, FL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University of Pennsylvania -  Philadelphia, PA</masterLabel>
+        <translation><!-- University of Pennsylvania -  Philadelphia, PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University of Utah -  Salt Lake City, UT</masterLabel>
+        <translation><!-- University of Utah -  Salt Lake City, UT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University of Washington Medical Center, Department of Orthopaedics and Sports Medicine -  Seattle, WA</masterLabel>
+        <translation><!-- University of Washington Medical Center, Department of Orthopaedics and Sports Medicine -  Seattle, WA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>W.B. Carrell Memorial Clinic -  Dallas, TX</masterLabel>
+        <translation><!-- W.B. Carrell Memorial Clinic -  Dallas, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Washington University School of Medicine, Department of Orthopaedic Surgery -  St Louis, MO</masterLabel>
+        <translation><!-- Washington University School of Medicine, Department of Orthopaedic Surgery -  St Louis, MO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Western Orthopaedics Research and Education Foundation Shoulder and Elbow Fellowship -  Denver, CO</masterLabel>
+        <translation><!-- Western Orthopaedics Research and Education Foundation Shoulder and Elbow Fellowship -  Denver, CO --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>DN_Assigned_Task_Completed</fullName>
+        <description>DN-Assigned Task Completed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_Assigned_Task_Completed</template>
+    </alerts>
+    <alerts>
+        <fullName>Dental_Task_is_overdue</fullName>
+        <description>Dental Task is overdue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DN_Tasks_overdue</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_for_Task_due_date</fullName>
+        <description>Email alert for Task due date</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>All_Email_Templates/Email_notifications_for_Task_Due_date1</template>
+    </alerts>
+    <alerts>
+        <fullName>Product_Launch_Handed_off_to_Recon</fullName>
+        <ccEmails>ROSA.Academy@zimmerbiomet.com</ccEmails>
+        <description>Product Launch - Handed off to Recon</description>
+        <protected>false</protected>
+        <senderAddress>webmaster@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Product_Launch_Handed_off_to_Recon_v3</template>
+    </alerts>
+    <alerts>
+        <fullName>Product_Launch_Recon_Launch_Meeting</fullName>
+        <ccEmails>personalizedsolutions@zimmerbiomet.com</ccEmails>
+        <description>Product Launch - Recon Launch Meeting</description>
+        <protected>false</protected>
+        <senderAddress>webmaster@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/Product_Launch_Recon_Launch_Meeting_Complete</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>AP_APJ_Delegated_Activity_False</fullName>
+        <description>Sets Is Delgated Activity to False</description>
+        <field>Is_Delegated_Task__c</field>
+        <literalValue>0</literalValue>
+        <name>AP-APJ-Delegated Activity False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AP_APJ_Delegated_Activity_True</fullName>
+        <description>Field update sets a custom field on Activity object to &quot;True&quot; if task created by &lt;&gt; assigned to</description>
+        <field>Is_Delegated_Task__c</field>
+        <literalValue>1</literalValue>
+        <name>AP-APJ - Delegated Activity True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Legal_Notice_Task_Close</fullName>
+        <description>Closes out the Legal Notice task when the user agrees to the use policy.</description>
+        <field>Status</field>
+        <literalValue>Completed</literalValue>
+        <name>Legal Notice Task Close</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updatetaskage</fullName>
+        <field>Task_Age_Days__c</field>
+        <formula>LastModifiedDate -  CreatedDate</formula>
+        <name>Update task age</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AP-APJ - Delegated Activity True</fullName>
+        <actions>
+            <name>AP_APJ_Delegated_Activity_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Checks to see if a tasks assigned to user &lt;&gt; created by user. This is a delegated task, and sets the Is Delegated Task? field to true</description>
+        <formula>CreatedBy.Username &lt;&gt; OwnerId</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>AP-APJ-Delegated Activity False</fullName>
+        <actions>
+            <name>AP_APJ_Delegated_Activity_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Checks to see if a tasks assigned to user = created by user. This is not a delegated task, and sets the Is Delegated Task? field to false</description>
+        <formula>CreatedBy.Id = OwnerId</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Closed task by different owner</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.Status</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Task: OwnerID</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Region__c</field>
+            <operation>notEqual</operation>
+            <value>EU</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Business_Division__c</field>
+            <operation>notEqual</operation>
+            <value>DN</value>
+        </criteriaItems>
+        <description>Ability to alert the task creator that a task is closed, notably when the task was assigned to a different person</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DN-Assigned Task Completed</fullName>
+        <actions>
+            <name>DN_Assigned_Task_Completed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( CreatedById &lt;&gt; OwnerId ,  ISPICKVAL(Status , &quot;Completed&quot;),  OR(RecordType.Name = &apos;DN-US-Task Record Type&apos;, RecordType.Name = &apos;DN-CA-Task Record Type&apos;))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email notifications for Task due date is within 1 Day</fullName>
+        <actions>
+            <name>Email_alert_for_Task_due_date</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( ISPICKVAL( $User.Region__c , &quot;AM&quot;) , ISPICKVAL( $User.Business_Division__c , &quot;RC&quot;),( Due_Days_Remaining__c =1) , TRUE )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email notifications for Task due date with in 30 Days</fullName>
+        <actions>
+            <name>Email_alert_for_Task_due_date</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( ISPICKVAL( $User.Region__c , &quot;AM&quot;) , ISPICKVAL( $User.Business_Division__c , &quot;RC&quot;),( Due_Days_Remaining__c =30) , TRUE )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email notifications for Task due date with in 7 Days</fullName>
+        <actions>
+            <name>Email_alert_for_Task_due_date</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( ISPICKVAL( $User.Region__c , &quot;AM&quot;) , ISPICKVAL( $User.Business_Division__c , &quot;RC&quot;),( Due_Days_Remaining__c =7) , TRUE )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Legal Notice Close Task</fullName>
+        <actions>
+            <name>Legal_Notice_Task_Close</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Legal Notice</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.I_agree_to_this_CRM_use_policy__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Closes the legal notice task once the user agrees to the use policy.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update task durations</fullName>
+        <actions>
+            <name>Updatetaskage</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates the task age (days) custom field each time the task is edited</description>
+        <formula>And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),(LastModifiedDate &gt;  CreatedDate))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>testtask1</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Inbound Consumer Task</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

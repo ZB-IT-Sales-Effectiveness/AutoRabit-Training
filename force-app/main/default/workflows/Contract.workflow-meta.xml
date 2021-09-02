@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>EU_DE_Contract_Expiration_Notice</fullName>
+        <description>EU-DE-Contract Expiration Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Contract_Expiration_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Contract_Next_Payment_Notice</fullName>
+        <description>EU-DE-Contract Next Payment Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Contract_Next_Payment_Notice</template>
+    </alerts>
+    <rules>
+        <fullName>EU-DE-Contract Expiration Notice 15</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contract.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Contract Layout</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>EU_DE_Contract_Expiration_Notice</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Contract.EndDate</offsetFromField>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Contract Expiration Notice 30</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contract.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Contract Layout</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>EU_DE_Contract_Expiration_Notice</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Contract.EndDate</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Contract Next Payment Notice 30</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contract.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Contract Layout</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>EU_DE_Contract_Next_Payment_Notice</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Contract.Next_Payment_Date__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Contract Next Payment Notice 7</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contract.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Contract Layout</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>EU_DE_Contract_Next_Payment_Notice</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Contract.Next_Payment_Date__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Vervallen contract</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Region__c</field>
+            <operation>equals</operation>
+            <value>EU</value>
+        </criteriaItems>
+        <description>Einddatum van contract is binnen 120 dagen.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

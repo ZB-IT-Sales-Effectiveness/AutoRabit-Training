@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Who are the people who influence the surgeon? How do they influence the surgeon? Why are they able to influence them? --></help>
+    <label><!-- People who influence the surgeon --></label>
+    <name>People_who_influence_the_surgeon__c</name>
+</CustomFieldTranslation>

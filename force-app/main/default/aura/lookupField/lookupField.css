@@ -1,0 +1,11 @@
+.THIS .slds-combobox__input-entity-icon + .slds-input-has-icon_left {
+    padding-left: 2rem;
+}
+
+.THIS .slds-form-element {
+    background-color: antiquewhite;
+}
+
+.THIS .full-size {
+    width:100%;
+}

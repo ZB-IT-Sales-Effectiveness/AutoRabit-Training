@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type__c</fullName>
+    <description>This field is used for the Dental Opportunity Type record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Picklist definitions: Select one IF:
+Acquire Implant: &amp; Expand Implant: &amp; Expand Implant: ≤ 5 units in last 12 months
+Acquire Regen: &amp; Acquire Rest/Digital: &amp; Expand Regen: $0 in last 12 months
+Retain Implant: foundational implant revenue,routine order</inlineHelpText>
+    <label>Deal Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Retain</fullName>
+                <default>false</default>
+                <label>Retain</label>
+            </value>
+            <value>
+                <fullName>Acquire DSUVIA</fullName>
+                <default>false</default>
+                <label>Acquire DSUVIA</label>
+            </value>
+            <value>
+                <fullName>Acquire Guided</fullName>
+                <default>false</default>
+                <label>Acquire Guided</label>
+            </value>
+            <value>
+                <fullName>Acquire Implant</fullName>
+                <default>false</default>
+                <label>Acquire Implant</label>
+            </value>
+            <value>
+                <fullName>Acquire Regen</fullName>
+                <default>false</default>
+                <label>Acquire Regen</label>
+            </value>
+            <value>
+                <fullName>Acquire Rest/Digital</fullName>
+                <default>false</default>
+                <label>Acquire Rest/Digital</label>
+            </value>
+            <value>
+                <fullName>Acquire Other</fullName>
+                <default>false</default>
+                <label>Acquire Other</label>
+            </value>
+            <value>
+                <fullName>Expand Implant</fullName>
+                <default>false</default>
+                <label>Expand Implant</label>
+            </value>
+            <value>
+                <fullName>Exception Implant Run Rate</fullName>
+                <default>false</default>
+                <label>Exception Implant Run Rate</label>
+            </value>
+            <value>
+                <fullName>Expand Regen</fullName>
+                <default>false</default>
+                <label>Expand Regen</label>
+            </value>
+            <value>
+                <fullName>Expand Rest/Digital</fullName>
+                <default>false</default>
+                <label>Expand Rest/Digital</label>
+            </value>
+            <value>
+                <fullName>Exception Regen Run Rate</fullName>
+                <default>false</default>
+                <label>Exception Regen Run Rate</label>
+            </value>
+            <value>
+                <fullName>Exception Rest/Digital Run Rate</fullName>
+                <default>false</default>
+                <label>Exception Rest/Digital Run Rate</label>
+            </value>
+            <value>
+                <fullName>Expand – Other</fullName>
+                <default>false</default>
+                <label>Expand – Other</label>
+            </value>
+            <value>
+                <fullName>Regen Share Gain</fullName>
+                <default>false</default>
+                <label>Regen Share Gain</label>
+            </value>
+            <value>
+                <fullName>Bulk Order</fullName>
+                <default>false</default>
+                <label>Bulk Order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

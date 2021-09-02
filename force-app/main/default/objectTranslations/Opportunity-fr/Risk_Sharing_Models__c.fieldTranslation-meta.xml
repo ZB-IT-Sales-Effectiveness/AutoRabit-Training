@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Product Guarantees could be Bactisure, Bone Cement, Oxford Knee --></help>
+    <label><!-- Risk Sharing Models --></label>
+    <name>Risk_Sharing_Models__c</name>
+    <picklistValues>
+        <masterLabel>Accelero</masterLabel>
+        <translation><!-- Accelero --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Guarantees</masterLabel>
+        <translation><!-- Product Guarantees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSAdvantage</masterLabel>
+        <translation><!-- ROSAdvantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility (within a bundle)</masterLabel>
+        <translation><!-- mymobility (within a bundle) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

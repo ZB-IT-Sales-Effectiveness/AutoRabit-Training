@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Kindly select a value in this field when &quot;PSI - K - Post-Delivery&quot;, &quot;CS - B - Technical Support&quot; or &quot;CS - C - Servicing&quot; is selected in the Category field.</inlineHelpText>
+    <label>Category Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not a Complaint</fullName>
+                <default>false</default>
+                <label>Not a Complaint</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PSI - K - Post-Delivery</controllingFieldValue>
+            <controllingFieldValue>CS - B- Technical Support</controllingFieldValue>
+            <controllingFieldValue>CS - C - Servicing</controllingFieldValue>
+            <valueName>Not a Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSI - K - Post-Delivery</controllingFieldValue>
+            <controllingFieldValue>CS - B- Technical Support</controllingFieldValue>
+            <controllingFieldValue>CS - C - Servicing</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSI - K - Post-Delivery</controllingFieldValue>
+            <controllingFieldValue>CS - B- Technical Support</controllingFieldValue>
+            <controllingFieldValue>CS - C - Servicing</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

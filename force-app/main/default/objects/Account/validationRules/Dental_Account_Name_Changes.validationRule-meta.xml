@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_Account_Name_Changes</fullName>
+    <active>true</active>
+    <description>to Disable Dental Profiles to edit Dental Account Name</description>
+    <errorConditionFormula>AND(
+   ISCHANGED( Name),
+   RecordType.Id  = &apos;012C0000000UlfO&apos;,
+   OR(  $User.ProfileId   =  &apos;00eC0000001D10B&apos;,
+        $User.ProfileId  =  &apos;00eC00000012RWy&apos;,
+        $User.ProfileId =  &apos;00e80000001SSl1&apos;,
+        $User.ProfileId =  &apos;00eC0000001D0xg&apos; )
+)</errorConditionFormula>
+    <errorMessage>You cannot edit the Account Name field.</errorMessage>
+</ValidationRule>

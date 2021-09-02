@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Physicians Twitter ID --></help>
+    <label><!-- Twitter ID --></label>
+    <name>Twitter_ID__c</name>
+</CustomFieldTranslation>

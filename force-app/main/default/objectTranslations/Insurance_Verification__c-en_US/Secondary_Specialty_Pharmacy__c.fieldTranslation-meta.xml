@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Secondary-Specialty Pharmacy --></label>
+    <name>Secondary_Specialty_Pharmacy__c</name>
+    <picklistValues>
+        <masterLabel>ACRO Pharmaceutical Services</masterLabel>
+        <translation><!-- ACRO Pharmaceutical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APS Pharmacy, Inc</masterLabel>
+        <translation><!-- APS Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accredo Health Group, Inc</masterLabel>
+        <translation><!-- Accredo Health Group, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aetna Specialty Pharmacy</masterLabel>
+        <translation><!-- Aetna Specialty Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allion Healthcare, Inc</masterLabel>
+        <translation><!-- Allion Healthcare, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambient HealthCare, Inc</masterLabel>
+        <translation><!-- Ambient HealthCare, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apex Therapeutic Care, Inc</masterLabel>
+        <translation><!-- Apex Therapeutic Care, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Armada Health Care, LLC</masterLabel>
+        <translation><!-- Armada Health Care, LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assured Pharmacy, Inc</masterLabel>
+        <translation><!-- Assured Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avia Partners, Inc</masterLabel>
+        <translation><!-- Avia Partners, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Axium Healthcare Pharmacy, Inc</masterLabel>
+        <translation><!-- Axium Healthcare Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioscrip, Inc</masterLabel>
+        <translation><!-- Bioscrip, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue Ridge Pharmacy, Inc</masterLabel>
+        <translation><!-- Blue Ridge Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CVS Corporation</masterLabel>
+        <translation><!-- CVS Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CanAm Pharmacy</masterLabel>
+        <translation><!-- CanAm Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caremark Rx, Inc</masterLabel>
+        <translation><!-- Caremark Rx, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caremark, Inc</masterLabel>
+        <translation><!-- Caremark, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Critical Care Systems, Inc</masterLabel>
+        <translation><!-- Critical Care Systems, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CuraScript, Inc</masterLabel>
+        <translation><!-- CuraScript, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Care Pharmacy, Inc</masterLabel>
+        <translation><!-- Custom Care Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diplomat Specialty Pharmacy</masterLabel>
+        <translation><!-- Diplomat Specialty Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DrugMax, Inc</masterLabel>
+        <translation><!-- DrugMax, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F &amp; M Specialty Pharmacy, Inc</masterLabel>
+        <translation><!-- F &amp; M Specialty Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Familymeds Group, Inc</masterLabel>
+        <translation><!-- Familymeds Group, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Familymeds, Inc</masterLabel>
+        <translation><!-- Familymeds, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freedom Drug</masterLabel>
+        <translation><!-- Freedom Drug --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Galloway Pharmacy</masterLabel>
+        <translation><!-- Galloway Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genoa Healthcare, LLC</masterLabel>
+        <translation><!-- Genoa Healthcare, LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guardian Pharmacy, LLC</masterLabel>
+        <translation><!-- Guardian Pharmacy, LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HomeCall Rx-Press</masterLabel>
+        <translation><!-- HomeCall Rx-Press --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICORE Healthcare, LLC</masterLabel>
+        <translation><!-- ICORE Healthcare, LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LDI Pharmacy Services, Inc</masterLabel>
+        <translation><!-- LDI Pharmacy Services, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIM Corporation</masterLabel>
+        <translation><!-- MIM Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>McKesson</masterLabel>
+        <translation><!-- McKesson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medco</masterLabel>
+        <translation><!-- Medco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicine Compounding Professionals</masterLabel>
+        <translation><!-- Medicine Compounding Professionals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medmark, a Walgreens Specialty Pharmacy</masterLabel>
+        <translation><!-- Medmark, a Walgreens Specialty Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Diabetic Pharmacies, Inc</masterLabel>
+        <translation><!-- National Diabetic Pharmacies, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nova Factor, Inc</masterLabel>
+        <translation><!-- Nova Factor, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCARE PHARMACY, INC</masterLabel>
+        <translation><!-- PROCARE PHARMACY, INC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PharmaCare</masterLabel>
+        <translation><!-- PharmaCare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmaca</masterLabel>
+        <translation><!-- Pharmaca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PrecisionRx Specialty Solutions</masterLabel>
+        <translation><!-- PrecisionRx Specialty Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PrescriptiCare, LLC</masterLabel>
+        <translation><!-- PrescriptiCare, LLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prescription City, Inc</masterLabel>
+        <translation><!-- Prescription City, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prescription Solutions</masterLabel>
+        <translation><!-- Prescription Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority Health Corporation</masterLabel>
+        <translation><!-- Priority Health Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority Pharmacy, Inc</masterLabel>
+        <translation><!-- Priority Pharmacy, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QoL Meds</masterLabel>
+        <translation><!-- QoL Meds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RegenceRx Walgreens Specialty Prescription</masterLabel>
+        <translation><!-- RegenceRx Walgreens Specialty Prescription --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RuralRx</masterLabel>
+        <translation><!-- RuralRx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rx Stat, Inc</masterLabel>
+        <translation><!-- Rx Stat, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schraft</masterLabel>
+        <translation><!-- Schraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solutions Specialty Pharmacy</masterLabel>
+        <translation><!-- Solutions Specialty Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Pharmacy</masterLabel>
+        <translation><!-- Specialty Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Pharmacy Networks, Inc</masterLabel>
+        <translation><!-- Specialty Pharmacy Networks, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Pharmacy Services, Inc</masterLabel>
+        <translation><!-- Specialty Pharmacy Services, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SunScript Pharmacy Corporation</masterLabel>
+        <translation><!-- SunScript Pharmacy Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vitality Pharmaceutical Services</masterLabel>
+        <translation><!-- Vitality Pharmaceutical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WHP Health Initiatives, Inc</masterLabel>
+        <translation><!-- WHP Health Initiatives, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walgreen Co</masterLabel>
+        <translation><!-- Walgreen Co --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wellmark Pharmacy Services</masterLabel>
+        <translation><!-- Wellmark Pharmacy Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>excelleRX, Inc</masterLabel>
+        <translation><!-- excelleRX, Inc --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

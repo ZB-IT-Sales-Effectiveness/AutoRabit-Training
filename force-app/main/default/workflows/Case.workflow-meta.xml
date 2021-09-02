@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Case_Approved</fullName>
+        <description>Case Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Case_Completed</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Rejected</fullName>
+        <description>Case Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Case_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Deal_Support_Case_Status_Changed</fullName>
+        <description>Deal Support Case Status Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ZB_Connect_Email_Templates/Case_Status_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Case_Approved</fullName>
+        <description>EU-DE Case Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Case_Approval_Result</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Case_Assignment</fullName>
+        <description>EU-DE-Case Assignment</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Case_Assignment</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Case_Closed</fullName>
+        <ccEmails>lars.michel@zimmerbiomet.com</ccEmails>
+        <description>EU-DE-Case Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <recipient>EU_DE_Buying_Groups_Management</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>EU_DE_Offer_and_Price_Management</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Case_Created</fullName>
+        <ccEmails>lars.michel@zimmerbiomet.com</ccEmails>
+        <description>EU-DE-Case Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>EU_DE_Buying_Groups_Management</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Case_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>EU_DE_Case_Rejected</fullName>
+        <description>EU-DE Case Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_DE_Case_Approval_Result</template>
+    </alerts>
+    <alerts>
+        <fullName>High_Priority_Case_Closed_with_SLA_Violation</fullName>
+        <description>High Priority Case Closed with - SLA Violation</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>imad.koleilat@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/High_Priorty_Case_with_Missed_SLA_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Insurance_Verification_Request_Notification</fullName>
+        <ccEmails>reimbursement@zimmer.com</ccEmails>
+        <description>Insurance Verification Request Notification</description>
+        <protected>false</protected>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>All_Email_Templates/Insurance_Verification_Request_Case_Opened</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_To_User</fullName>
+        <description>Notification_To_User</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Notify__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/ZMR_CaseNotifyUser</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_To_ZB_Connect_Case_Support</fullName>
+        <description>Notification_To_ZB Connect Case Support</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Case_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ZB_Connect_Email_Templates/ZBConnect_CaseNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_To_ZB_Connect_Customer_Support</fullName>
+        <description>Notification_To_ZB Connect Customer Support</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Customer_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ZB_Connect_Email_Templates/ZBConnect_CaseCreationNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Persona_IQ_case_response</fullName>
+        <description>Persona IQ case response</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>nick.tozzi@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>satya.sunkavalli@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>smartkneesupport@zimmerbiomet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/PersonaIQ_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>mymobility_case_response</fullName>
+        <description>mymobility case response</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>inboundhelpdesk@magna5global.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>steven.steier@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>donotreply@zbmymobilitysolutions.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/My_Mobility_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>mymobility_case_response_phone</fullName>
+        <description>mymobility case response phone</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>inboundhelpdesk@magna5global.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>steven.steier@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>donotreply@zbmymobilitysolutions.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/My_Mobility_Auto_Response</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Assign_Case_to_Customer_Support_Team</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Customer_Support</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign Case to Customer Support Team</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_case_to_PS_PACS_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PS_IT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign case to PS-PACS Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_case_to_TC_Export</fullName>
+        <field>OwnerId</field>
+        <lookupValue>TC_Export</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign case to TC Export</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_case_to_TC_Import</fullName>
+        <field>OwnerId</field>
+        <lookupValue>TC_Import</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign case to TC Import</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAS_Optical_Owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAS_Optical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAS-Optical Owner update</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAS_PSI_Owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAS_PSI</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAS-PSI Owner update</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAS_Support_Owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAS_Support</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Triage Owner update</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAS_iAssist_Owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAS_iAssist</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAS-iAssist  Owner update</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Approved</fullName>
+        <field>Case_rejected__c</field>
+        <literalValue>0</literalValue>
+        <name>Case Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Rejected</fullName>
+        <field>Case_rejected__c</field>
+        <literalValue>1</literalValue>
+        <name>Case Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Status_Approved</fullName>
+        <field>Status</field>
+        <literalValue>Approved</literalValue>
+        <name>Case Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Status_Rejected</fullName>
+        <field>Status</field>
+        <literalValue>Rejected</literalValue>
+        <name>Case Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Case_Rejected</fullName>
+        <field>Case_rejected__c</field>
+        <literalValue>0</literalValue>
+        <name>Clear Case Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Level_1_queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>My_Mobility_cases_lvl_1</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Level 1 queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Level_2_queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>My_Mobility_Cases_2</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Level 2 queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OpenCase</fullName>
+        <description>Change case status from closed or similar to open</description>
+        <field>Status</field>
+        <literalValue>Opened</literalValue>
+        <name>OpenCase</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Other_Sub_category_no_update</fullName>
+        <field>Other_Sub_Category__c</field>
+        <name>Other Sub category no update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_changes_to_PS_Knee_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PS_Knee</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Owner changes to PS-Knee</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Case_ownership_to_Debra</fullName>
+        <description>PS Case ownership to Debra</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_Manager</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS Case ownership to Debra</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Clinical_Graphic_Owner_update</fullName>
+        <description>Assign Clinical Graphics cases to Remy Turner as case owner.</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_Clinical_Graphics</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS- Clinical Graphic Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Image_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PS_Images</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS - Image Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_ROSA_Queue</fullName>
+        <description>Assign case owner to PS ROSA Imaging Queue</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_ROSA_Imaging</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS ROSA Imaging Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Shoulder_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PS_CT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS - Shoulder Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Personalized_Solutions_Case_Assignment</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PS_Shipping_or_tracking</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PS Shipping n Tracking</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SLA_Violated</fullName>
+        <field>SLA_Indicator__c</field>
+        <literalValue>Violated</literalValue>
+        <name>SLA- Violated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SLA_Warning</fullName>
+        <field>SLA_Indicator__c</field>
+        <literalValue>Warning</literalValue>
+        <name>SLA Warning</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Support_Level</fullName>
+        <field>Support_Team__c</field>
+        <literalValue>Case Support</literalValue>
+        <name>Set Support Level</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>mymobility_level_2</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>MyMobility_Level_2</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>mymobility level 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>mymobilty_record_type_change</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>My_Mobility</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>mymobilty record type change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Assign case to TC Export</fullName>
+        <actions>
+            <name>Assign_case_to_TC_Export</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TC Export</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign case to TC Import</fullName>
+        <actions>
+            <name>Assign_case_to_TC_Import</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TC Import</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto assignment of the Cases to PS-ROSA Imaging Queue</fullName>
+        <actions>
+            <name>PS_ROSA_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>ROSA,Robot,Robotic,Xray,X-Ray,Marker,Calibration</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <description>Auto assignment of the Cases to PS-ROSA Imaging Queue</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Clinical Graphics Case Assignment</fullName>
+        <actions>
+            <name>PS_Clinical_Graphic_Owner_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 5 )</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Clinical Graphics,Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Clinical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Graphics</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Hips</value>
+        </criteriaItems>
+        <description>This rule will assign all cases created with clinical or graphic keywords and origin as Personalized Solutions Call Center through PS Email (personalizedsolutions@zimmerbiomet.com / us.support@clinicalgraphics.com)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Case Assignment Changed</fullName>
+        <actions>
+            <name>EU_DE_Case_Assignment</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(OwnerId), (RecordTypeId = &apos;01280000000Q0mD&apos;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Case Closed</fullName>
+        <actions>
+            <name>EU_DE_Case_Closed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>EU-DE-Case Created</fullName>
+        <actions>
+            <name>EU_DE_Case_Created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>High Priorty Case with Missed SLA- Closed</fullName>
+        <actions>
+            <name>High_Priority_Case_Closed_with_SLA_Violation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>High</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SLA_Indicator__c</field>
+            <operation>equals</operation>
+            <value>Violated</value>
+        </criteriaItems>
+        <description>High Priorty Case with Missed SLA- Closed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Insurance Verification Request Case Opened</fullName>
+        <actions>
+            <name>Insurance_Verification_Request_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Americas Reimbursement Hotline – Insurance Verification Request</value>
+        </criteriaItems>
+        <description>Send notification when an insurance verification request case is opened.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Other SUb category Field Update Prevention</fullName>
+        <actions>
+            <name>Other_Sub_category_no_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Sub_Catergory__c</field>
+            <operation>notEqual</operation>
+            <value>Other,Other (please describe)</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PersonIQ case created</fullName>
+        <actions>
+            <name>Persona_IQ_case_response</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Persona IQ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Persona IQ</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment -  Image Queue</fullName>
+        <actions>
+            <name>PS_Image_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Images</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>notContain</operation>
+            <value>Rush ROSA,ROSA Rush</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment -  Knee Queue</fullName>
+        <actions>
+            <name>Owner_changes_to_PS_Knee_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 or 10 OR 11 OR 12 OR 13)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>MRI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Knee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>PSI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Biomet</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Comment</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Public</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>SR#</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>DRIVE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>DCMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Orthosize</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SuppliedEmail</field>
+            <operation>contains</operation>
+            <value>dcms-noreply@zimmerbiomet.com</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment -  PACS Queue</fullName>
+        <actions>
+            <name>Assign_case_to_PS_PACS_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PS-PACS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>PACS Call Center</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment -  PSI Case Queue</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>PSI</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment -  Shipping_Tracking</fullName>
+        <actions>
+            <name>Personalized_Solutions_Case_Assignment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 5 OR 6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Shipping</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Tracking</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>UPS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>PO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Purchase Order</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment - Shoulder Queue</fullName>
+        <actions>
+            <name>PS_Shoulder_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 5 OR 6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>CT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Shoulder</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>BiometOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>sig</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>shoulder</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Personalized Solutions Case Assignment - Xray Queue</fullName>
+        <active>false</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 )</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions Call Center</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Xray</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>X-Ray</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Template</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>ZBEC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Calibration</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Marker</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Exams</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>ReOpenCase</fullName>
+        <actions>
+            <name>OpenCase</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Indicator__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed,Closed Adjusted,Closed Agreed,Closed Disputed,On Hold,Rejected</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Sales Operations,TC Export,TC Import</value>
+        </criteriaItems>
+        <description>Re-open case if new email arrives in closed case</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Email Notification To Case Creator</fullName>
+        <actions>
+            <name>Deal_Support_Case_Status_Changed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>ZB Connect Deal Support Cases - when Status changes notification will go to Case Creator</description>
+        <formula>AND(
+RecordType.DeveloperName == &apos;ZB_Deal_Support_Placement_Request&apos;,
+ISCHANGED(Status)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Contract End Date</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Deal Support Request</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Support Level on ZB Connect Cases</fullName>
+        <actions>
+            <name>Set_Support_Level</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ZB Connect Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Case Support</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ZB Connect Case Assignment to Case Support</fullName>
+        <actions>
+            <name>Notification_To_ZB_Connect_Case_Support</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>ZB Connect Case Assignment to Case Support</description>
+        <formula>AND(RecordTypeId =&apos;0123b000000IKKXAA4&apos;, AND (ISCHANGED(OwnerId),  ISPICKVAL(Support_Team__c, &apos;Case Support&apos;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ZB Connect Case Assignment to Customer Support</fullName>
+        <actions>
+            <name>Notification_To_ZB_Connect_Customer_Support</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ZB Connect Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Distributor,Email,IM,In-house,Phone,Walk-in,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Support_Team__c</field>
+            <operation>equals</operation>
+            <value>Customer Support</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>Bailee Fitzgerald,Kyle Klein,Jackson Pfister,Kris Simonton</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>ZB Connect Case Assignment to Customer Support</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ZMR_NotifyUser</fullName>
+        <actions>
+            <name>Notification_To_User</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Deal Support Request,Capital Solutions Deal Desk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Notify__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility case created</fullName>
+        <actions>
+            <name>mymobility_case_response</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>mymobility level 2 cases,mymobility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility case created no email</fullName>
+        <actions>
+            <name>mymobility_case_response_phone</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>mymobility level 2 cases,mymobility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>notEqual</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility level1 RT</fullName>
+        <actions>
+            <name>mymobilty_record_type_change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Support_Level__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility level2 RT</fullName>
+        <actions>
+            <name>mymobility_level_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Support_Level__c</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility support level 1</fullName>
+        <actions>
+            <name>Level_1_queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Support_Level__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>mymobility</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>mymobility support level 2</fullName>
+        <actions>
+            <name>Level_2_queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>mymobility level 2 cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Support_Level__c</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

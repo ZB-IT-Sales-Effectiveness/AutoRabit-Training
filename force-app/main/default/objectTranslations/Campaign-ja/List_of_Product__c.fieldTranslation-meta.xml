@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Open Payments Program (Formerly Sunshine Act): Please list 1-4 product(s) related to the event you are submitting this request for. --></help>
+    <label><!-- List 1 to 4 ZB Products --></label>
+    <name>List_of_Product__c</name>
+</CustomFieldTranslation>

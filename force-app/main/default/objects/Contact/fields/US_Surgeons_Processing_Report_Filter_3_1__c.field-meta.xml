@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Surgeons_Processing_Report_Filter_3_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+MailingCountry= &quot; ,&quot;,
+MailingCountry= &quot;US&quot;,
+MailingCountry= &quot;USA&quot;,
+MailingCountry= &quot;GU&quot;,
+MailingCountry= &quot;BM&quot;,
+MailingCountry= &quot;PR&quot;,
+MailingCountry= &quot;VI&quot;,
+MailingCountry= &quot;U.S.A&quot;,
+MailingCountry= &quot;UNITED STATES&quot;,
+MailingCountry= &quot;PUERTO RICO&quot;),&quot;True&quot;,
+IF(
+AND(
+MailingCountry =&quot;&quot;,
+CEO__c = True),
+&quot;True&quot;,
+&quot;False&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>US Surgeons Processing Report Filter 3/1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

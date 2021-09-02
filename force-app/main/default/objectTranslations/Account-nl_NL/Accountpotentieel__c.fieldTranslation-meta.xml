@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Totaal van het verkoopspotentieel van alle concurrerende producten --></help>
+    <label>Accountpotentieel</label>
+    <name>Accountpotentieel__c</name>
+</CustomFieldTranslation>

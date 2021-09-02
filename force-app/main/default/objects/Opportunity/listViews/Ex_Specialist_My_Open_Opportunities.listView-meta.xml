@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ex_Specialist_My_Open_Opportunities</fullName>
+    <columns>Close_Date_and_Amount__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Ortho_Team__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Surgeon_Name__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.US_Extremities</value>
+    </filters>
+    <label>Ex Specialist : My Open Opportunities</label>
+    <sharedTo>
+        <group>Extremity_Specialist</group>
+    </sharedTo>
+</ListView>

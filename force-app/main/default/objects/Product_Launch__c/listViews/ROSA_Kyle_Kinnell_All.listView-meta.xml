@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_Kyle_Kinnell_All</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Product_Launch_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Account__c</columns>
+    <columns>Launch_Status__c</columns>
+    <columns>Assigned_PDM__c</columns>
+    <columns>Owner_Full_Name__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Product_Launch__c.ROSA_Brain,Product_Launch__c.ROSA_Knee,Product_Launch__c.ROSA_Spine</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Kyle Kinnell</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Daniel McKernan</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Meredith McEniff</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Robert Greene</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Josh Moster</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Blake Mooney</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Joe Hanson</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Trigun Soni</value>
+    </filters>
+    <filters>
+        <field>Assigned_PDM__c</field>
+        <operation>equals</operation>
+        <value>Tyler Harris</value>
+    </filters>
+    <label>ROSA - Kyle Kinnell - All</label>
+    <sharedTo>
+        <group>ROSA_PDD_PDMs</group>
+    </sharedTo>
+</ListView>

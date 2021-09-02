@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_US_Non_US_leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Contact_Us</value>
+    </filters>
+    <filters>
+        <field>Primary_Country__c</field>
+        <operation>notEqual</operation>
+        <value>US</value>
+    </filters>
+    <label>Contact US- Non US  leads</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Contact_Us</group>
+        <group>TCS_SFDC_Admins</group>
+    </sharedTo>
+</ListView>

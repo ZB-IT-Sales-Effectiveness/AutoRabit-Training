@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The checkbox signaling whether this healthcare facility is also a teaching institute --></help>
+    <label><!-- Teaching Institute --></label>
+    <name>Teaching_Institute__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Campaigns_AT</fullName>
+        <accessLevel>All</accessLevel>
+        <label>Campaigns AT</label>
+        <sharedTo>
+            <group>EU_AT_All_Access</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00580000003YIRP</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cvent_Campaigns</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>All Cvent Campaigns</description>
+        <label>Cvent Campaigns</label>
+        <sharedTo>
+            <role>AM_RC_Executive_Sales_Management</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Cvent Campaign</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Benelux_Campaigns</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Benelux Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Benelux</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Benelux</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Cvent_Campaigns_US</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares all Cvent campaigns with US Recon Sales Management and all subordinates.</description>
+        <label>Cvent Campaigns US</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>AM_RC_Executive_Sales_Management</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <group>Cvent_Campaign_Owners_US</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EUATAllUsers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-AT-All Users</label>
+        <sharedTo>
+            <group>EU_AT_All_Access</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_AT_All_Access</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EUCHUsers</fullName>
+        <accessLevel>All</accessLevel>
+        <label>EU-CH-Users</label>
+        <sharedTo>
+            <group>EU_CH_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_CH_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_Denmark</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-Denmark</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Denmark</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Denmark</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_NL_Marketing_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-NL-Marketing Services</label>
+        <sharedTo>
+            <group>EU_NL_Marketing_Services</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_NL_Marketing_Services</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_SE_Campaigns</fullName>
+        <accessLevel>All</accessLevel>
+        <label>EU-SE-Campaigns</label>
+        <sharedTo>
+            <group>EU_SE_Campaigns</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_SE_Campaigns</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Finland</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Finland</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Finland</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Finland</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surgical_Campaigns</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Surgical Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZimmerSurgicalPresident</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZimmerSurgicalPresident</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Surgical_MGT_campaigns_sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Surgical MGT campaigns sharing</label>
+        <sharedTo>
+            <group>Surgical_management</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>ZimmerSurgicalPresident</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Netherland</fullName>
+        <accessLevel>All</accessLevel>
+        <label>Zimmer Netherland</label>
+        <sharedTo>
+            <group>EU_NL_Power_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Netherlands</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Zimmer Netherlands</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

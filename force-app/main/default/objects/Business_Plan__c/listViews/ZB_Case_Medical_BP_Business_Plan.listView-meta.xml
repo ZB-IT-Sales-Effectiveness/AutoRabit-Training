@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Case_Medical_BP_Business_Plan</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB Case Medical - BP</label>
+    <queue>ZB_Case_Medical_BP</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

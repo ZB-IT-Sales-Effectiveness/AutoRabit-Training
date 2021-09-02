@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Region_Name__c = &quot;US No New England&quot; || Region_Name__c = &quot;US Buckeye&quot;, &quot;Susan Gilbert&quot;,
+IF(Region_Name__c = &quot;US Chesapeake Bay&quot;, &quot;Riley Nicholson&quot;,
+IF(Region_Name__c = &quot;US North Star&quot; || Region_Name__c = &quot;US SouthEast&quot; || Region_Name__c = &quot;US Southeast&quot;, &quot;Robert Marrero&quot;,
+IF(Region_Name__c = &quot;US Pacific NW&quot; , &quot;Thalia Frett&quot;,
+IF(Region_Name__c = &quot;US Key Stone&quot; || Region_Name__c = &quot;US Keystone&quot; || Region_Name__c = &quot;US Garden State&quot;, &quot;Ed Gifford&quot;,
+IF(Region_Name__c = &quot;US So New England&quot; || Region_Name__c = &quot;US Chicago Land&quot;, &quot;Susan Carlsen&quot;,
+IF(Region_Name__c = &quot;US Appalachian&quot; || Region_Name__c = &quot;US Lone Star&quot;, &quot;Stephen Rossi&quot;,
+IF(Region_Name__c = &quot;US South Florida&quot;, &quot;Jeff Lopez&quot;,
+IF(Region_Name__c = &quot;US Central&quot;, &quot;Thalia Frett&quot;,
+IF(Region_Name__c = &quot;US Great Lakes&quot;, &quot;Michele Richardson&quot;,
+IF(Region_Name__c = &quot;US Metro NY&quot;, &quot;Victoria Esposito&quot;,
+IF(Region_Name__c = &quot;US West&quot; || Region_Name__c = &quot;US Los Angeles&quot;, &quot;Open&quot;,
+IF(Region_Name__c = &quot;US Golden Gate&quot;  || Region_Name__c = &quot;US Islands&quot;, &quot;Stephanie Derra&quot;,
+IF(Region_Name__c = &quot;US Mountain&quot; || Region_Name__c = &quot;US Mississippi Delta&quot;, &quot;Danielle Wheatley&quot;,
+IF(Region_Name__c = &quot;US South Bay&quot;, &quot;Stephanie Derra&quot;,
+IF(Region_Name__c = &quot;US Southern&quot;, &quot;Summer Snead&quot;,
+IF(Region_Name__c = &quot;US Capitol&quot;, &quot;Open&quot;,
+IF(Region_Name__c = &quot;CA Western Canada&quot; || Region_Name__c = &quot;CA Central&quot; || Region_Name__c = &quot;US Western Canada&quot;, &quot;Kate Snellgrove&quot;,
+IF(Region_Name__c = &quot;CA Eastern Canada&quot;, &quot;Natalie Carson&quot;, NULL)))))))))))))))))))</formula>
+    <label>ISR</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

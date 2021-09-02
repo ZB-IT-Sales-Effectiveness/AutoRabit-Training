@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSA_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>TSA Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arthrex</fullName>
+                <default>false</default>
+                <label>Arthrex</label>
+            </value>
+            <value>
+                <fullName>Arthrosurface</fullName>
+                <default>false</default>
+                <label>Arthrosurface</label>
+            </value>
+            <value>
+                <fullName>Catalyst</fullName>
+                <default>false</default>
+                <label>Catalyst</label>
+            </value>
+            <value>
+                <fullName>DePuy</fullName>
+                <default>false</default>
+                <label>DePuy</label>
+            </value>
+            <value>
+                <fullName>DJO</fullName>
+                <default>false</default>
+                <label>DJO</label>
+            </value>
+            <value>
+                <fullName>Exactech</fullName>
+                <default>false</default>
+                <label>Exactech</label>
+            </value>
+            <value>
+                <fullName>Lima</fullName>
+                <default>false</default>
+                <label>Lima</label>
+            </value>
+            <value>
+                <fullName>Medacta</fullName>
+                <default>false</default>
+                <label>Medacta</label>
+            </value>
+            <value>
+                <fullName>S&amp;N/Integra</fullName>
+                <default>false</default>
+                <label>S&amp;N/Integra</label>
+            </value>
+            <value>
+                <fullName>Stryker/Wright Medical/Tornier</fullName>
+                <default>false</default>
+                <label>Stryker/Wright Medical/Tornier</label>
+            </value>
+            <value>
+                <fullName>FH Ortho</fullName>
+                <default>false</default>
+                <label>FH Ortho</label>
+            </value>
+            <value>
+                <fullName>FX Solutions</fullName>
+                <default>false</default>
+                <label>FX Solutions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

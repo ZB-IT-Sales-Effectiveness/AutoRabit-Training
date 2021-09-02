@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e merk schouder ongecementeerd --></label>
+    <name>X2e_merk_schouder_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Johnson &amp; Johnson</masterLabel>
+        <translation><!-- Johnson &amp; Johnson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith Nephew</masterLabel>
+        <translation><!-- Smith Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

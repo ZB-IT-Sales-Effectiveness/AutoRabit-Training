@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_ScribeModified_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Customer_Number__c</columns>
+    <columns>External_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UPDATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>scribe</value>
+    </filters>
+    <label>Scribe DN Modified Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Administrators</group>
+    </sharedTo>
+</ListView>

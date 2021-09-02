@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Surgeons_In_Process_Report_Filter_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+OR(
+RecordTypeId =&quot;012800000003YRr&quot;,
+RecordTypeId =&quot;012800000003YRm&quot;,
+RecordTypeId =&quot;012800000003YRn&quot;),
+Validation_Requested__c=True), &quot;True&quot;, &quot;False&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>US Surgeons - In Process Report Filter 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

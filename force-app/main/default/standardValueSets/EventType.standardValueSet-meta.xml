@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Acquisition</fullName>
+        <default>false</default>
+        <label>Acquisition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Booked</fullName>
+        <default>false</default>
+        <label>Case Booked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complaint</fullName>
+        <default>false</default>
+        <label>Complaint</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up / care</fullName>
+        <default>false</default>
+        <label>Follow Up / care</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GOP</fullName>
+        <default>false</default>
+        <label>GOP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holiday</fullName>
+        <default>false</default>
+        <label>Holiday</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitation</fullName>
+        <default>false</default>
+        <label>Hospitation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry Meeting (AAOS,AAHKS)</fullName>
+        <default>false</default>
+        <label>Industry Meeting (AAOS,AAHKS)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Logistic</fullName>
+        <default>false</default>
+        <label>Logistic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Med Ed Course</fullName>
+        <default>false</default>
+        <label>Med Ed Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Missed Surgery</fullName>
+        <default>false</default>
+        <label>Missed Surgery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiations</fullName>
+        <default>false</default>
+        <label>Negotiations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Office</fullName>
+        <default>false</default>
+        <label>Office</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OP-registration</fullName>
+        <default>false</default>
+        <label>OP-registration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OP-support primary</fullName>
+        <default>false</default>
+        <label>OP-support primary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OP-support revision</fullName>
+        <default>false</default>
+        <label>OP-support revision</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Private</fullName>
+        <default>false</default>
+        <label>Private</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Meeting Non-Office or Non-OR</fullName>
+        <default>false</default>
+        <label>Sales Meeting Non-Office or Non-OR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sick Leave</fullName>
+        <default>false</default>
+        <label>Sick Leave</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workshop</fullName>
+        <default>false</default>
+        <label>Workshop</label>
+    </standardValue>
+</StandardValueSet>

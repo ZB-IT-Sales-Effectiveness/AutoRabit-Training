@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fellow_Program_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>if(And(OwnerId == &apos;00580000003IVO9&apos;), false, And(RecordTypeId == &apos;012800000003YRh&apos;,  ISBLANK(Fellow_Program__c) ))</errorConditionFormula>
+    <errorDisplayField>of_Basic_Res_Publications__c</errorDisplayField>
+    <errorMessage>Please enter a Fellow Program.</errorMessage>
+</ValidationRule>

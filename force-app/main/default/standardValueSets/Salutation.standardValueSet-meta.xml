@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>M.</fullName>
+        <default>false</default>
+        <label>M.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mme</fullName>
+        <default>false</default>
+        <label>Mme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Docteur</fullName>
+        <default>false</default>
+        <label>Docteur</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Professeur</fullName>
+        <default>false</default>
+        <label>Professeur</label>
+    </standardValue>
+    <standardValue>
+        <fullName>M. Le Doyen</fullName>
+        <default>false</default>
+        <label>M. Le Doyen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mme Le Doyen</fullName>
+        <default>false</default>
+        <label>Mme Le Doyen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mr.</fullName>
+        <default>false</default>
+        <label>Mr.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ms.</fullName>
+        <default>false</default>
+        <label>Ms.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mrs.</fullName>
+        <default>false</default>
+        <label>Mrs.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dr.</fullName>
+        <default>false</default>
+        <label>Dr.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prof.</fullName>
+        <default>false</default>
+        <label>Prof.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assoc Prof.</fullName>
+        <default>false</default>
+        <label>Assoc Prof.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Frau</fullName>
+        <default>false</default>
+        <label>Frau</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Madame</fullName>
+        <default>false</default>
+        <label>Madame</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Monsieur</fullName>
+        <default>false</default>
+        <label>Monsieur</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signora</fullName>
+        <default>false</default>
+        <label>Signora</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signor</fullName>
+        <default>false</default>
+        <label>Signor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Frau Professorin</fullName>
+        <default>false</default>
+        <label>Frau Professorin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Frau Privatdozentin</fullName>
+        <default>false</default>
+        <label>Frau Privatdozentin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Herrn Professor</fullName>
+        <default>false</default>
+        <label>Herrn Professor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Herrn Privatdozent</fullName>
+        <default>false</default>
+        <label>Herrn Privatdozent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Herrn</fullName>
+        <default>false</default>
+        <label>Herrn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chief.</fullName>
+        <default>false</default>
+        <label>Chief.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Associate Chief.</fullName>
+        <default>false</default>
+        <label>Associate Chief.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attending/Visiting Dr.</fullName>
+        <default>false</default>
+        <label>Attending/Visiting Dr.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Resident Dr.</fullName>
+        <default>false</default>
+        <label>Resident Dr.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intern.</fullName>
+        <default>false</default>
+        <label>Intern.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>President.</fullName>
+        <default>false</default>
+        <label>President.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vice-President.</fullName>
+        <default>false</default>
+        <label>Vice-President.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>主任</fullName>
+        <default>false</default>
+        <label>主任</label>
+    </standardValue>
+    <standardValue>
+        <fullName>主治醫師</fullName>
+        <default>false</default>
+        <label>主治醫師</label>
+    </standardValue>
+    <standardValue>
+        <fullName>副院長</fullName>
+        <default>false</default>
+        <label>副院長</label>
+    </standardValue>
+    <standardValue>
+        <fullName>教授</fullName>
+        <default>false</default>
+        <label>教授</label>
+    </standardValue>
+    <standardValue>
+        <fullName>神外主任</fullName>
+        <default>false</default>
+        <label>神外主任</label>
+    </standardValue>
+    <standardValue>
+        <fullName>神外部長</fullName>
+        <default>false</default>
+        <label>神外部長</label>
+    </standardValue>
+    <standardValue>
+        <fullName>神外醫師</fullName>
+        <default>false</default>
+        <label>神外醫師</label>
+    </standardValue>
+    <standardValue>
+        <fullName>院長</fullName>
+        <default>false</default>
+        <label>院長</label>
+    </standardValue>
+    <standardValue>
+        <fullName>骨科主任</fullName>
+        <default>false</default>
+        <label>骨科主任</label>
+    </standardValue>
+    <standardValue>
+        <fullName>骨科部長</fullName>
+        <default>false</default>
+        <label>骨科部長</label>
+    </standardValue>
+    <standardValue>
+        <fullName>骨科醫師</fullName>
+        <default>false</default>
+        <label>骨科醫師</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zahntechniker</fullName>
+        <default>false</default>
+        <label>Zahntechniker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </standardValue>
+</StandardValueSet>

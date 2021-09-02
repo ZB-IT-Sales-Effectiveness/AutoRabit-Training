@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgical_Territory__c</fullName>
+    <externalId>false</externalId>
+    <label>Legacy Surgical Territory(Do Not Update)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Albany</fullName>
+                <default>false</default>
+                <label>Albany</label>
+            </value>
+            <value>
+                <fullName>Arizona North</fullName>
+                <default>false</default>
+                <label>Arizona North</label>
+            </value>
+            <value>
+                <fullName>Arizona South</fullName>
+                <default>false</default>
+                <label>Arizona South</label>
+            </value>
+            <value>
+                <fullName>Arkansas / Memphis</fullName>
+                <default>false</default>
+                <label>Arkansas / Memphis</label>
+            </value>
+            <value>
+                <fullName>Atlanta East</fullName>
+                <default>false</default>
+                <label>Atlanta East</label>
+            </value>
+            <value>
+                <fullName>Atlanta West</fullName>
+                <default>false</default>
+                <label>Atlanta West</label>
+            </value>
+            <value>
+                <fullName>Austin / San Antonio</fullName>
+                <default>false</default>
+                <label>Austin / San Antonio</label>
+            </value>
+            <value>
+                <fullName>Birmingham North</fullName>
+                <default>false</default>
+                <label>Birmingham North</label>
+            </value>
+            <value>
+                <fullName>Birmingham South</fullName>
+                <default>false</default>
+                <label>Birmingham South</label>
+            </value>
+            <value>
+                <fullName>Boise, ID</fullName>
+                <default>false</default>
+                <label>Boise, ID</label>
+            </value>
+            <value>
+                <fullName>Boston North</fullName>
+                <default>false</default>
+                <label>Boston North</label>
+            </value>
+            <value>
+                <fullName>Bronx</fullName>
+                <default>false</default>
+                <label>Bronx</label>
+            </value>
+            <value>
+                <fullName>Buffalo</fullName>
+                <default>false</default>
+                <label>Buffalo</label>
+            </value>
+            <value>
+                <fullName>Central / East Tennessee</fullName>
+                <default>false</default>
+                <label>Central / East Tennessee</label>
+            </value>
+            <value>
+                <fullName>Central Illinois</fullName>
+                <default>false</default>
+                <label>Central Illinois</label>
+            </value>
+            <value>
+                <fullName>Charlotte</fullName>
+                <default>false</default>
+                <label>Charlotte</label>
+            </value>
+            <value>
+                <fullName>Chicago North</fullName>
+                <default>false</default>
+                <label>Chicago North</label>
+            </value>
+            <value>
+                <fullName>Chicago South</fullName>
+                <default>false</default>
+                <label>Chicago South</label>
+            </value>
+            <value>
+                <fullName>Cincinnati / Dayton</fullName>
+                <default>false</default>
+                <label>Cincinnati / Dayton</label>
+            </value>
+            <value>
+                <fullName>Cleveland</fullName>
+                <default>false</default>
+                <label>Cleveland</label>
+            </value>
+            <value>
+                <fullName>Colorado</fullName>
+                <default>false</default>
+                <label>Colorado</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Connecticut</fullName>
+                <default>false</default>
+                <label>Connecticut</label>
+            </value>
+            <value>
+                <fullName>Dakota/N. MN</fullName>
+                <default>false</default>
+                <label>Dakota/N. MN</label>
+            </value>
+            <value>
+                <fullName>Dallas / East Texas</fullName>
+                <default>false</default>
+                <label>Dallas / East Texas</label>
+            </value>
+            <value>
+                <fullName>DC</fullName>
+                <default>false</default>
+                <label>DC</label>
+            </value>
+            <value>
+                <fullName>Detroit North</fullName>
+                <default>false</default>
+                <label>Detroit North</label>
+            </value>
+            <value>
+                <fullName>Detroit South</fullName>
+                <default>false</default>
+                <label>Detroit South</label>
+            </value>
+            <value>
+                <fullName>Ft. Lauderdale.Miami</fullName>
+                <default>false</default>
+                <label>Ft. Lauderdale.Miami</label>
+            </value>
+            <value>
+                <fullName>Ft. Wayne</fullName>
+                <default>false</default>
+                <label>Ft. Wayne</label>
+            </value>
+            <value>
+                <fullName>Ft Worth / West TX</fullName>
+                <default>false</default>
+                <label>Ft Worth / West TX</label>
+            </value>
+            <value>
+                <fullName>Harrisburg</fullName>
+                <default>false</default>
+                <label>Harrisburg</label>
+            </value>
+            <value>
+                <fullName>Houston Central</fullName>
+                <default>false</default>
+                <label>Houston Central</label>
+            </value>
+            <value>
+                <fullName>Houston North</fullName>
+                <default>false</default>
+                <label>Houston North</label>
+            </value>
+            <value>
+                <fullName>Indianapolis</fullName>
+                <default>false</default>
+                <label>Indianapolis</label>
+            </value>
+            <value>
+                <fullName>Inland/Desert</fullName>
+                <default>false</default>
+                <label>Inland/Desert</label>
+            </value>
+            <value>
+                <fullName>Iowa</fullName>
+                <default>false</default>
+                <label>Iowa</label>
+            </value>
+            <value>
+                <fullName>Jacksonville</fullName>
+                <default>false</default>
+                <label>Jacksonville</label>
+            </value>
+            <value>
+                <fullName>Kansas City</fullName>
+                <default>false</default>
+                <label>Kansas City</label>
+            </value>
+            <value>
+                <fullName>LA / IM</fullName>
+                <default>false</default>
+                <label>LA / IM</label>
+            </value>
+            <value>
+                <fullName>Long Island</fullName>
+                <default>false</default>
+                <label>Long Island</label>
+            </value>
+            <value>
+                <fullName>Louisiana</fullName>
+                <default>false</default>
+                <label>Louisiana</label>
+            </value>
+            <value>
+                <fullName>Louisville / Lexington</fullName>
+                <default>false</default>
+                <label>Louisville / Lexington</label>
+            </value>
+            <value>
+                <fullName>Manhattan</fullName>
+                <default>false</default>
+                <label>Manhattan</label>
+            </value>
+            <value>
+                <fullName>Maryland/Delaware</fullName>
+                <default>false</default>
+                <label>Maryland/Delaware</label>
+            </value>
+            <value>
+                <fullName>Mid Cities / North TX</fullName>
+                <default>false</default>
+                <label>Mid Cities / North TX</label>
+            </value>
+            <value>
+                <fullName>Minneapolis</fullName>
+                <default>false</default>
+                <label>Minneapolis</label>
+            </value>
+            <value>
+                <fullName>N. Cal - Central Valley</fullName>
+                <default>false</default>
+                <label>N. Cal - Central Valley</label>
+            </value>
+            <value>
+                <fullName>N. New Jersey</fullName>
+                <default>false</default>
+                <label>N. New Jersey</label>
+            </value>
+            <value>
+                <fullName>Nebraska</fullName>
+                <default>false</default>
+                <label>Nebraska</label>
+            </value>
+            <value>
+                <fullName>New Mexico</fullName>
+                <default>false</default>
+                <label>New Mexico</label>
+            </value>
+            <value>
+                <fullName>Oklahoma</fullName>
+                <default>false</default>
+                <label>Oklahoma</label>
+            </value>
+            <value>
+                <fullName>Orange County</fullName>
+                <default>false</default>
+                <label>Orange County</label>
+            </value>
+            <value>
+                <fullName>Oregon</fullName>
+                <default>false</default>
+                <label>Oregon</label>
+            </value>
+            <value>
+                <fullName>Orlando</fullName>
+                <default>false</default>
+                <label>Orlando</label>
+            </value>
+            <value>
+                <fullName>Philadelphia / S. New Jersey</fullName>
+                <default>false</default>
+                <label>Philadelphia / S. New Jersey</label>
+            </value>
+            <value>
+                <fullName>Pittsburgh</fullName>
+                <default>false</default>
+                <label>Pittsburgh</label>
+            </value>
+            <value>
+                <fullName>Raleigh</fullName>
+                <default>false</default>
+                <label>Raleigh</label>
+            </value>
+            <value>
+                <fullName>Rhode Island</fullName>
+                <default>false</default>
+                <label>Rhode Island</label>
+            </value>
+            <value>
+                <fullName>Richmond</fullName>
+                <default>false</default>
+                <label>Richmond</label>
+            </value>
+            <value>
+                <fullName>Sacramento/Reno/North Bay</fullName>
+                <default>false</default>
+                <label>Sacramento/Reno/North Bay</label>
+            </value>
+            <value>
+                <fullName>San Diego / Hawaii</fullName>
+                <default>false</default>
+                <label>San Diego / Hawaii</label>
+            </value>
+            <value>
+                <fullName>San Francisco</fullName>
+                <default>false</default>
+                <label>San Francisco</label>
+            </value>
+            <value>
+                <fullName>Seattle/Alaska</fullName>
+                <default>false</default>
+                <label>Seattle/Alaska</label>
+            </value>
+            <value>
+                <fullName>South Carolina</fullName>
+                <default>false</default>
+                <label>South Carolina</label>
+            </value>
+            <value>
+                <fullName>St. Louis</fullName>
+                <default>false</default>
+                <label>St. Louis</label>
+            </value>
+            <value>
+                <fullName>Tampa</fullName>
+                <default>false</default>
+                <label>Tampa</label>
+            </value>
+            <value>
+                <fullName>Utah / Las Vegas</fullName>
+                <default>false</default>
+                <label>Utah / Las Vegas</label>
+            </value>
+            <value>
+                <fullName>Western Michigan</fullName>
+                <default>false</default>
+                <label>Western Michigan</label>
+            </value>
+            <value>
+                <fullName>Wisconsin / Milwaukee</fullName>
+                <default>false</default>
+                <label>Wisconsin / Milwaukee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

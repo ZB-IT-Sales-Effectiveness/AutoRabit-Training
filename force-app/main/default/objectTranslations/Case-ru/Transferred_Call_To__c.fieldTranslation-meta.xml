@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Transferred Call To --></label>
+    <name>Transferred_Call_To__c</name>
+    <picklistValues>
+        <masterLabel>Accounts Payable/Accounts Receivable</masterLabel>
+        <translation><!-- Accounts Payable/Accounts Receivable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Axis Med Tech</masterLabel>
+        <translation><!-- Axis Med Tech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commerical</masterLabel>
+        <translation><!-- Commerical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance</masterLabel>
+        <translation><!-- Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distribution</masterLabel>
+        <translation><!-- Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance</masterLabel>
+        <translation><!-- Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GCO</masterLabel>
+        <translation><!-- GCO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GTPC</masterLabel>
+        <translation><!-- GTPC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Help Desk</masterLabel>
+        <translation><!-- Help Desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Education</masterLabel>
+        <translation><!-- Medical Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Particular Person</masterLabel>
+        <translation><!-- Particular Person --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Person/Department</masterLabel>
+        <translation><!-- Person/Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality</masterLabel>
+        <translation><!-- Quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory</masterLabel>
+        <translation><!-- Regulatory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rep</masterLabel>
+        <translation><!-- Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repairs</masterLabel>
+        <translation><!-- Repairs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scourcing</masterLabel>
+        <translation><!-- Scourcing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service</masterLabel>
+        <translation><!-- Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Switchboard</masterLabel>
+        <translation><!-- Switchboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Support</masterLabel>
+        <translation><!-- Technical Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation><!-- Transportation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Contracted_company__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Contracted company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Biomet</fullName>
+                <default>false</default>
+                <label>Biomet</label>
+            </value>
+            <value>
+                <fullName>Biomet,Z</fullName>
+                <default>false</default>
+                <label>Biomet,Z</label>
+            </value>
+            <value>
+                <fullName>Exactech</fullName>
+                <default>false</default>
+                <label>Exactech</label>
+            </value>
+            <value>
+                <fullName>J&amp;J / Depuy</fullName>
+                <default>false</default>
+                <label>J&amp;J / Depuy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Smoth &amp; Nephew</fullName>
+                <default>false</default>
+                <label>Smoth &amp; Nephew</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Synthes</fullName>
+                <default>false</default>
+                <label>Synthes</label>
+            </value>
+            <value>
+                <fullName>Synthes,A</fullName>
+                <default>false</default>
+                <label>Synthes,A</label>
+            </value>
+            <value>
+                <fullName>Tornier</fullName>
+                <default>false</default>
+                <label>Tornier</label>
+            </value>
+            <value>
+                <fullName>Wright</fullName>
+                <default>false</default>
+                <label>Wright</label>
+            </value>
+            <value>
+                <fullName>Zimmer</fullName>
+                <default>false</default>
+                <label>Zimmer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_Classification__c</fullName>
+    <description>This field is used to identify distributor personnel for manpower reporting purposes.</description>
+    <externalId>false</externalId>
+    <label>Role Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CMF&amp;T</fullName>
+                <default>false</default>
+                <label>CMF&amp;T</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Office - Admin</fullName>
+                <default>false</default>
+                <label>Office - Admin</label>
+            </value>
+            <value>
+                <fullName>Office - Customer Service Leader</fullName>
+                <default>false</default>
+                <label>Office - Customer Service Leader</label>
+            </value>
+            <value>
+                <fullName>Office - Customer Service Representative</fullName>
+                <default>false</default>
+                <label>Office - Customer Service Representative</label>
+            </value>
+            <value>
+                <fullName>Office - Driver</fullName>
+                <default>false</default>
+                <label>Office - Driver</label>
+            </value>
+            <value>
+                <fullName>Office - HR/Compliance</fullName>
+                <default>false</default>
+                <label>Office - HR/Compliance</label>
+            </value>
+            <value>
+                <fullName>Office - Inventory  Coordinator</fullName>
+                <default>false</default>
+                <label>Office - Inventory  Coordinator</label>
+            </value>
+            <value>
+                <fullName>Office - Inventory Leader</fullName>
+                <default>false</default>
+                <label>Office - Inventory Leader</label>
+            </value>
+            <value>
+                <fullName>Office - Operations Leader</fullName>
+                <default>false</default>
+                <label>Office - Operations Leader</label>
+            </value>
+            <value>
+                <fullName>Office - Pricing/Contracts</fullName>
+                <default>false</default>
+                <label>Office - Pricing/Contracts</label>
+            </value>
+            <value>
+                <fullName>Office - Sourcing/Logistics Coordinator</fullName>
+                <default>false</default>
+                <label>Office - Sourcing/Logistics Coordinator</label>
+            </value>
+            <value>
+                <fullName>Office - Sourcing/Logistics Leader</fullName>
+                <default>false</default>
+                <label>Office - Sourcing/Logistics Leader</label>
+            </value>
+            <value>
+                <fullName>Sales Associate</fullName>
+                <default>false</default>
+                <label>Sales Associate</label>
+            </value>
+            <value>
+                <fullName>Sales Manager with accounts</fullName>
+                <default>false</default>
+                <label>Sales Manager with accounts</label>
+            </value>
+            <value>
+                <fullName>Sales Manager without accounts</fullName>
+                <default>false</default>
+                <label>Sales Manager without accounts</label>
+            </value>
+            <value>
+                <fullName>Surgery Case Specialist</fullName>
+                <default>false</default>
+                <label>Surgery Case Specialist</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Canada Office</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Canada Office</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Canada Recon</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Canada Recon</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Canada Spine</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Canada Spine</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet OBT</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet OBT</label>
+            </value>
+            <value>
+                <fullName>Zimmer Biomet Spine</fullName>
+                <default>false</default>
+                <label>Zimmer Biomet Spine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

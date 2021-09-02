@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Surgeon360 Rating Influence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Surgeon360 Rating Influences</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Range fields must be populated if operation is Range --></errorMessage>
+        <name>Range_Fields_Required_If_Operation_is_Ra</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value needed for RHS field when operation is not a Range --></errorMessage>
+        <name>Required_RHS_value_if_operation_not_rang</name>
+    </validationRules>
+</CustomObjectTranslation>

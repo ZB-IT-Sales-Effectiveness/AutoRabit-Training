@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Relevant Competitive Capital Product(s) --></label>
+    <name>Relevant_Competitive_Capital_Product_s__c</name>
+    <picklistValues>
+        <masterLabel>LVT HALL 50</masterLabel>
+        <translation><!-- LVT HALL 50 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LVT MPOWER2</masterLabel>
+        <translation><!-- LVT MPOWER2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK 6</masterLabel>
+        <translation><!-- SYK 6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK 7</masterLabel>
+        <translation><!-- SYK 7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK 8</masterLabel>
+        <translation><!-- SYK 8 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK CORDLESS DRIVER (CD)</masterLabel>
+        <translation><!-- SYK CORDLESS DRIVER (CD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK FLYTE</masterLabel>
+        <translation><!-- SYK FLYTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK PRECISION</masterLabel>
+        <translation><!-- SYK PRECISION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYK T5</masterLabel>
+        <translation><!-- SYK T5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYNTHES</masterLabel>
+        <translation><!-- SYNTHES --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

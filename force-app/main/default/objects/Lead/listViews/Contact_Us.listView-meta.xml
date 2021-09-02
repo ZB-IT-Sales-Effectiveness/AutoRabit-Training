@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Us</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Area_of_Inquiry__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Contact_Us</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Primary_Country__c</field>
+        <operation>equals</operation>
+        <value>US</value>
+    </filters>
+    <label>Contact Us - United States</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>CallCenterRepresentative</role>
+        <role>CoordinatorInteractiveComm</role>
+    </sharedTo>
+</ListView>

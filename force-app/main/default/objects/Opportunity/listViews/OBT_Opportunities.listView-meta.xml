@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OBT_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Enterprise_Alignment__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Bone_Healing</value>
+    </filters>
+    <label>All OBT Opportunities</label>
+    <sharedTo>
+        <role>Bone_Healing_GM</role>
+        <role>Sales_Training_OBT</role>
+        <roleAndSubordinatesInternal>OBT_RSD_Central_Region</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>OBT_RSD_Northeast_Region</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>OBT_RSD_Southeast_Region</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>OBT_RSD_West_Region</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

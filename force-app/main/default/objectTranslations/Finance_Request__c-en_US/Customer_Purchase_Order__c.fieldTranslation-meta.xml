@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Only one PO should be entered in this field. If you have multiple PO&apos;s then create multiple Entries --></help>
+    <label><!-- Customer Purchase Order --></label>
+    <name>Customer_Purchase_Order__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Access_to_CAS_PSI_and_Support_Call_Center</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Access to CAS PSI and Support  Call Center</label>
+        <sharedTo>
+            <roleAndSubordinates>Personlized_Solutions_Manager</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Zimmer CAS Support Call Center,Zimmer CAS PSI Call Center</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Access_to_ZB_Connect_Cases_to_Emily_Lauren_Kyle</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>All the ZB Connect cases will be shared with Kyle, Lauren and Emily</description>
+        <label>Access to ZB Connect Cases to Emily, Lauren, Kyle</label>
+        <sharedTo>
+            <group>Customer_Support</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ZB Connect Case</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Buying_Groups_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Buying Groups Management</label>
+        <sharedTo>
+            <group>EU_DE_Buying_Groups_Management</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>DS_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Giving access to a public group members to Deal Support Cases.</description>
+        <label>DS Cases</label>
+        <sharedTo>
+            <group>Access_to_Deal_Support_Cases</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Deal Support Request</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EMEA_HQ</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>EMEA HQ</label>
+        <sharedTo>
+            <role>EMEA_Headquarter</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>notEqual</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EU_DE_Bonus_and_Contract_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DE Bonus and Contract Management</label>
+        <sharedTo>
+            <group>EU_DE_Bonus_and_Contract_Management</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EU_DE_Offer_and_Price_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DE Offer and Price Management</label>
+        <sharedTo>
+            <group>EU_DE_Offer_and_Price_Management</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EU-Case Record Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Contract Request</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_access_on_Capital_Solution_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit access on Capital Solution Cases</label>
+        <sharedTo>
+            <group>Edit_Access_on_Capital_Solutions_Cases</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Deal Support Request,Capital Solutions Deal Desk</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PS_cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Cases owned by Debra Griggs shared with  all PS agents</description>
+        <label>PS cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Personlized_Solutions_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions,PS-PACS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Case_with_TC_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Case with TC Manager</description>
+        <label>Share Case with TC Manager</label>
+        <sharedTo>
+            <role>Trade_Compliance_Manager</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TC Export,TC Import</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Personalized_case_with_sms_team</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Cases owned by Debra Griggs (Personalized Solutions Call Center Manager) shared with  SMS Call Center team</description>
+        <label>Share Personalized</label>
+        <sharedTo>
+            <group>SMS_Team_for_cases</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Personalized Solutions</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_TC_Export_Cases_with_TC_Export_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share TC Export Cases with TC Export Team</label>
+        <sharedTo>
+            <role>TC_Export_Agent</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TC Export</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_TC_Import_Cases_with_TC_Import_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share TC Import Cases with TC Import Team</label>
+        <sharedTo>
+            <role>TC_Import_Agent</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TC Import</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>mymobility_level_2_cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>mymobility level 2 cases</label>
+        <sharedTo>
+            <group>mymobility_support</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>mymobility,mymobility level 2 cases</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>CAS_Case_sharing_with_SMS_Team</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>CAS Case sharing with SMS Team</description>
+        <label>CAS Case sharing with SMS Team</label>
+        <sharedTo>
+            <group>SMS_Team_for_cases</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>CAS_Call_Center</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Biomet_Austria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zimmer Biomet Austria</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Austria</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Austria</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Biomet_Netherlands</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Zimmer Biomet Netherlands</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Zimmer_Biomet_Switzerland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zimmer Biomet Switzerland</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Switzerland</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Switzerland</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

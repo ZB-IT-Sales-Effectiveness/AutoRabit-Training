@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the sales rep who collected the lead. You may want to reach out for more information --></help>
+    <label><!-- Collected By --></label>
+    <name>Collected_By__c</name>
+    <relationshipLabel><!-- Prospects (Collected By) --></relationshipLabel>
+</CustomFieldTranslation>

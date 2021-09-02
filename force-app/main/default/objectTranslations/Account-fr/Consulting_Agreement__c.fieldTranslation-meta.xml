@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this box is a consulting agreement is in place with this surgeon --></help>
+    <label><!-- Consulting Agreement? --></label>
+    <name>Consulting_Agreement__c</name>
+    <picklistValues>
+        <masterLabel>PC Agrmnt.</masterLabel>
+        <translation><!-- PC Agrmnt. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Royalty Agrmnt.</masterLabel>
+        <translation><!-- Royalty Agrmnt. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC Agrmnt</masterLabel>
+        <translation><!-- SC Agrmnt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

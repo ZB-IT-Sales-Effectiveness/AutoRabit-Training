@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_lab_size__c</fullName>
+    <description>What is your Dental lab size?</description>
+    <externalId>false</externalId>
+    <label>Dental lab size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Employee</fullName>
+                <default>false</default>
+                <label>1 Employee</label>
+            </value>
+            <value>
+                <fullName>2-4 Employees</fullName>
+                <default>false</default>
+                <label>2-4 Employees</label>
+            </value>
+            <value>
+                <fullName>5-9 Employees</fullName>
+                <default>false</default>
+                <label>5-9 Employees</label>
+            </value>
+            <value>
+                <fullName>10-19 Employees</fullName>
+                <default>false</default>
+                <label>10-19 Employees</label>
+            </value>
+            <value>
+                <fullName>20 or more Employees</fullName>
+                <default>false</default>
+                <label>20 or more Employees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

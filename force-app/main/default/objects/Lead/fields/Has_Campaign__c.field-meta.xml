@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Campaign__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Dental Campaign is selected on the Lead then this is TRUE</description>
+    <externalId>false</externalId>
+    <label>Has Campaign</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

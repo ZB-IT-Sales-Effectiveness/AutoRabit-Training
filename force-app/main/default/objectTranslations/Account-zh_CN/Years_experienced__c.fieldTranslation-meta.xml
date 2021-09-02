@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The number of years of experience a surgeon has since their medical school graduation --></help>
+    <label><!-- Years of experience --></label>
+    <name>Years_experienced__c</name>
+</CustomFieldTranslation>

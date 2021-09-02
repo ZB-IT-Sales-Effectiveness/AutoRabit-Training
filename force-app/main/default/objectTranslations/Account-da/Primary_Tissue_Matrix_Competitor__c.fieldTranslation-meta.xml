@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Tissue Matrix Competitor --></label>
+    <name>Primary_Tissue_Matrix_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Alloderm (Biohorizons)</masterLabel>
+        <translation><!-- Alloderm (Biohorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloderm GBR (Biohorizons)</masterLabel>
+        <translation><!-- Alloderm GBR (Biohorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioxlude (Snoasis)</masterLabel>
+        <translation><!-- Bioxlude (Snoasis) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DynaMatrix Plus (Keystone)</masterLabel>
+        <translation><!-- DynaMatrix Plus (Keystone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mucograft (Osteohealth)</masterLabel>
+        <translation><!-- Mucograft (Osteohealth) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRP/PRF</masterLabel>
+        <translation><!-- PRP/PRF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PerioDerm (Dentsply)</masterLabel>
+        <translation><!-- PerioDerm (Dentsply) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_Brain_Spine_Opportunity_Health_Per__c</fullName>
+    <description>ROSA_Brain_Spine_Opportunity_Health_Percentage</description>
+    <externalId>false</externalId>
+    <formula>IF(!Executive_Support__c , 0, 0.05) + 
+IF(!VP_Of_Neurosciences__c , 0, 0.05) + 
+IF(!Strategic_Alignment__c, 0, 0.05) + 
+IF(ISBLANK(Quote_Delivered__c), 0, 0.05) +
+IF(ISBLANK(Customer_Form_Completed__c), 0, 0.05) +
+IF(ISBLANK(Qualification_Documentation_Complete__c), 0, 0.05) + 
+IF(ISBLANK(PO_Received__c), 0, 0.05) + 
+IF(!Delivery_Note__c, 0, 0.10) + 
+IF(ISBLANK(Executive_Presentation_Performed__c), 0, 0.05) + 
+IF(ISBLANK(Business_Plan_Presented__c), 0, 0.05) + 
+IF(ISBLANK(External_IT_Sign_Off_Copy__c), 0, 0.05) + 
+IF(ISBLANK(FIN_601_B_Customer_Req_Supp_Form__c), 0, 0.05) +
+IF(ISBLANK(T_s_C_s_Redline_Complete__c), 0, 0.05) +
+IF(!Installation_Documents__c, 0, 0.05) +
+IF(ISBLANK(Requested_Delivery_Date__c), 0, 0.05)+
+IF(!Account_Confirmation__c, 0, 0.05)+
+IF(ISBLANK(Receiving_Doc_Details__c), 0, 0.05)+
+IF(ISBLANK(Surgeon_Training_Complete_for_Rev_Rec__c), 0, 0.10)</formula>
+    <label>ROSA Brain/Spine Opp Health %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

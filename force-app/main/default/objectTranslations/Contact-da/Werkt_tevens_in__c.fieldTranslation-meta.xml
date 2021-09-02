@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Dit is de niet-hoofdlocatie waar de arts werkzaam is. Dit veld is om te voorkomen dat artsen meerdere keren worden ingevoerd (is vervuiling van de database). --></help>
+    <label><!-- Werkt tevens in --></label>
+    <name>Werkt_tevens_in__c</name>
+    <relationshipLabel><!-- Contactpersonen --></relationshipLabel>
+</CustomFieldTranslation>

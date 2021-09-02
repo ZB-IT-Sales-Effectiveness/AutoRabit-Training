@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Intraoral Scanner Used --></label>
+    <name>Intraoral_Scanner_Used__c</name>
+    <picklistValues>
+        <masterLabel>3M</masterLabel>
+        <translation><!-- 3M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3Shape</masterLabel>
+        <translation><!-- 3Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carestream</masterLabel>
+        <translation><!-- Carestream --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero</masterLabel>
+        <translation><!-- iTero --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

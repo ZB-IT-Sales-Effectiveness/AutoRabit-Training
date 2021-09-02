@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_End_Date_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( ISNULL(Commencement_Date__c),
+ADDMONTHS( DATE(YEAR(ADDMONTHS(Installation_Date__c,1)),MONTH(ADDMONTHS(Installation_Date__c,1)),01) ,Term_of_Agreement_in_Months_Number__c), ADDMONTHS( Commencement_Date__c ,  Term_of_Agreement_in_Months_Number__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contract End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

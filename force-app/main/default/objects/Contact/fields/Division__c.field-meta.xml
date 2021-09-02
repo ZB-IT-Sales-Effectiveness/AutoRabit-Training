@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <description>The division of the hospital the contact is working in.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the division of the hospital the contact is working in.</inlineHelpText>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Anaesthesia</fullName>
+                <default>false</default>
+                <label>Anaesthesia</label>
+            </value>
+            <value>
+                <fullName>Cardiac Surgery</fullName>
+                <default>false</default>
+                <label>Cardiac Surgery</label>
+            </value>
+            <value>
+                <fullName>Cardiothoracic Surgery</fullName>
+                <default>false</default>
+                <label>Cardiothoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Central Sterile Services Department (CSSD)</fullName>
+                <default>false</default>
+                <label>Central Sterile Services Department (CSSD)</label>
+            </value>
+            <value>
+                <fullName>Communications</fullName>
+                <default>false</default>
+                <label>Communications</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Emergency Room</fullName>
+                <default>false</default>
+                <label>Emergency Room</label>
+            </value>
+            <value>
+                <fullName>Foot and Ankle Surgery</fullName>
+                <default>false</default>
+                <label>Foot and Ankle Surgery</label>
+            </value>
+            <value>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+                <label>General Surgery</label>
+            </value>
+            <value>
+                <fullName>Geriatrics</fullName>
+                <default>false</default>
+                <label>Geriatrics</label>
+            </value>
+            <value>
+                <fullName>Hand Surgery</fullName>
+                <default>false</default>
+                <label>Hand Surgery</label>
+            </value>
+            <value>
+                <fullName>Hospital Hygiene</fullName>
+                <default>false</default>
+                <label>Hospital Hygiene</label>
+            </value>
+            <value>
+                <fullName>Hospital Management</fullName>
+                <default>false</default>
+                <label>Hospital Management</label>
+            </value>
+            <value>
+                <fullName>Internal Medicine</fullName>
+                <default>false</default>
+                <label>Internal Medicine</label>
+            </value>
+            <value>
+                <fullName>Laboratory</fullName>
+                <default>false</default>
+                <label>Laboratory</label>
+            </value>
+            <value>
+                <fullName>Medical Controlling</fullName>
+                <default>false</default>
+                <label>Medical Controlling</label>
+            </value>
+            <value>
+                <fullName>Medical Product Safety</fullName>
+                <default>false</default>
+                <label>Medical Product Safety</label>
+            </value>
+            <value>
+                <fullName>Medical Technology</fullName>
+                <default>false</default>
+                <label>Medical Technology</label>
+            </value>
+            <value>
+                <fullName>Neurosurgery</fullName>
+                <default>false</default>
+                <label>Neurosurgery</label>
+            </value>
+            <value>
+                <fullName>Nursing</fullName>
+                <default>false</default>
+                <label>Nursing</label>
+            </value>
+            <value>
+                <fullName>Operating Room</fullName>
+                <default>false</default>
+                <label>Operating Room</label>
+            </value>
+            <value>
+                <fullName>Oral and Maxillofacial Surgery</fullName>
+                <default>false</default>
+                <label>Oral and Maxillofacial Surgery</label>
+            </value>
+            <value>
+                <fullName>Orthopaedics</fullName>
+                <default>false</default>
+                <label>Orthopaedics</label>
+            </value>
+            <value>
+                <fullName>Paediatric Surgery</fullName>
+                <default>false</default>
+                <label>Paediatric Surgery</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physiotherapy</fullName>
+                <default>false</default>
+                <label>Physiotherapy</label>
+            </value>
+            <value>
+                <fullName>Plastic Surgery</fullName>
+                <default>false</default>
+                <label>Plastic Surgery</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Quality Management</fullName>
+                <default>false</default>
+                <label>Quality Management</label>
+            </value>
+            <value>
+                <fullName>Radiology</fullName>
+                <default>false</default>
+                <label>Radiology</label>
+            </value>
+            <value>
+                <fullName>Rehabilitation</fullName>
+                <default>false</default>
+                <label>Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Spine Surgery</fullName>
+                <default>false</default>
+                <label>Spine Surgery</label>
+            </value>
+            <value>
+                <fullName>Sports Surgery</fullName>
+                <default>false</default>
+                <label>Sports Surgery</label>
+            </value>
+            <value>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+                <label>Technical Services</label>
+            </value>
+            <value>
+                <fullName>Thoracic Surgery</fullName>
+                <default>false</default>
+                <label>Thoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Trauma Surgery</fullName>
+                <default>false</default>
+                <label>Trauma Surgery</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

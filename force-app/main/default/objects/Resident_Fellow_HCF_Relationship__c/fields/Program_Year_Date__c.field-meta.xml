@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Year_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+
+ OR(
+    AND (MONTH(DATEVALUE(CreatedDate)) &gt; 6,
+    YEAR(DATEVALUE(CreatedDate)) ==  YEAR(TODAY())-1,
+    OR(YEAR(Completion_date__c) ==  YEAR(TODAY()),
+    YEAR(Completion_date__c) ==  YEAR(TODAY())+1)
+    ),
+  
+    AND(MONTH(DATEVALUE(CreatedDate)) &lt;=6,
+    YEAR(DATEVALUE(CreatedDate)) ==  YEAR(TODAY()),
+    OR(YEAR(Completion_date__c) ==  YEAR(TODAY()),
+    YEAR(Completion_date__c) ==  YEAR(TODAY())+1)
+    )
+ )   
+, 
+TRUE, 
+FALSE
+)</formula>
+    <label>Program Year Date</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

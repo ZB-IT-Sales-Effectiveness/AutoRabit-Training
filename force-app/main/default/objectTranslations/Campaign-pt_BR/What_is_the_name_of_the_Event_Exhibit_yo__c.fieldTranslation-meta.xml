@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the name of the Event/Exhibit you are planning to attend? --></help>
+    <label><!-- What is the name of the Event/Exhibit --></label>
+    <name>What_is_the_name_of_the_Event_Exhibit_yo__c</name>
+</CustomFieldTranslation>

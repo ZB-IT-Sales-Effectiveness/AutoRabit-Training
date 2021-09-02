@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colossus</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <height>1024</height>
+    <linkType>page</linkType>
+    <masterLabel>Colossus (nur mit VPN)</masterLabel>
+    <openType>noSidebar</openType>
+    <page>Colossus</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_Setup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field was created for the Dental DDSS team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this lab set up on the Portal?</inlineHelpText>
+    <label>Portal Setup</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

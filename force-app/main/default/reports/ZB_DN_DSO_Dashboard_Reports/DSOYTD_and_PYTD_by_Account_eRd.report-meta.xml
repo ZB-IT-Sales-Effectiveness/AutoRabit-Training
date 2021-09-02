@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.DSO1__c</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.YTD_Total__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Previous_Year_To_Date_Sales__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Institution,Smile Brands,GREAT EXPRESSIONS,Western Dental,Dental Care Alliance,Pacific Dental,CLEAR CHOICE,Aspen Dental,Comfort Dental,Collective Care Dental,WEST COAST DENTAL,HEARTLAND DENTAL,GENESIS DENTAL,GENTLE DENTAL NEW ENG,Advantage,Refresh,Perfect Dental,GLACIER DENTAL,Louisiana Dental,United,Willamette Dental,Dental Works,Midwest Dental,Kaiser Permanente,ELITE DENTAL,BRIGHT NOW,Coast Dental,Perfect Teeth,Interdent Gentle Dental,Eastern Dental,I Smiles (Jason Barton),Hospital,University,Access Dental Services,Banner Health,DSO PERFECT TEETH,DSO DENTAL CARE ALLIANCE,DSO ASPEN DENTAL,DSO GREAT EXPRESSIONS,DSO WEST COAST DENTAL,DSO PACIFIC DENTAL SVCS,DSO CLEAR CHOICE,Interdent,DSO HUDEC DENTAL,DSO ELITE - CWA,DSO WESTERN DENTAL,DSO BRIGHT NOW,DSO COAST-SMILECARE,DSO DDS DENTURES &amp; IMPLANTS,DSO DAG,DSO KAISER PERMANENTE,DSO LOUISIANA DENTAL,DSO ACCESS DENTAL SERVICES,DSO KNOXVILLE DENTAL CENTERS,DSO GREAT HILL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DN_Implant_YTD_Manual_Rollup__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>USD 2000</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DSO-YTD and PYTD by Account</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

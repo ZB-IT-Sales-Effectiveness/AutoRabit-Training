@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Opportunity__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Tray_Code__c</columns>
+    <columns>Requested_Qty__c</columns>
+    <columns>Approved_Qty__c</columns>
+    <columns>Kit__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Administrators</group>
+        <group>TCS_SFDC_Admins</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Certification Type --></label>
+    <name>Certification_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cert 1</masterLabel>
+        <translation><!-- Cert 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cert 2</masterLabel>
+        <translation><!-- Cert 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cert 3</masterLabel>
+        <translation><!-- Cert 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cert 4</masterLabel>
+        <translation><!-- Cert 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Brain Certification</masterLabel>
+        <translation><!-- ROSA Brain Certification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Hip</masterLabel>
+        <translation><!-- ROSA Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Partial Knee</masterLabel>
+        <translation><!-- ROSA Partial Knee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

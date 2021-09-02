@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Support Level --></label>
+    <name>Support_Team__c</name>
+    <picklistValues>
+        <masterLabel>Case Support</masterLabel>
+        <translation><!-- Case Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Support</masterLabel>
+        <translation><!-- Customer Support --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

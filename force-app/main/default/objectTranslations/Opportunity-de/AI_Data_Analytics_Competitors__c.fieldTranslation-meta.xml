@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- AI/Data Analytics Competitors --></label>
+    <name>AI_Data_Analytics_Competitors__c</name>
+    <picklistValues>
+        <masterLabel>10.	Steris</masterLabel>
+        <translation><!-- 10.	Steris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11.	Skytron</masterLabel>
+        <translation><!-- 11.	Skytron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12.	Trumpf</masterLabel>
+        <translation><!-- 12.	Trumpf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13.	Olympus</masterLabel>
+        <translation><!-- 13.	Olympus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14.	Conmed</masterLabel>
+        <translation><!-- 14.	Conmed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15.	Gettinge</masterLabel>
+        <translation><!-- 15.	Gettinge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6.	Stryker</masterLabel>
+        <translation><!-- 6.	Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7.	Storz</masterLabel>
+        <translation><!-- 7.	Storz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8.	Arthrex</masterLabel>
+        <translation><!-- 8.	Arthrex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9.	Smith &amp; Nephew</masterLabel>
+        <translation><!-- 9.	Smith &amp; Nephew --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

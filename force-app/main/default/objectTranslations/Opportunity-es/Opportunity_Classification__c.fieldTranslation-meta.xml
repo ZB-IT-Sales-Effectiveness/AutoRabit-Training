@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Opportunity Classification --></label>
+    <name>Opportunity_Classification__c</name>
+    <picklistValues>
+        <masterLabel>ASC New</masterLabel>
+        <translation><!-- ASC New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASC Renovation</masterLabel>
+        <translation><!-- ASC Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amend Existing</masterLabel>
+        <translation><!-- Amend Existing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Buy - Consumables</masterLabel>
+        <translation><!-- Bulk Buy - Consumables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conversion</masterLabel>
+        <translation><!-- Conversion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Business Addition</masterLabel>
+        <translation><!-- Existing Business Addition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Customer New Product</masterLabel>
+        <translation><!-- Existing Customer New Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Prod Addition + Conversion</masterLabel>
+        <translation><!-- Existing Prod Addition + Conversion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Product Addition</masterLabel>
+        <translation><!-- Existing Product Addition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Product Upgrade</masterLabel>
+        <translation><!-- Existing Product Upgrade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Existing Product Upgrade + Addition</masterLabel>
+        <translation><!-- Existing Product Upgrade + Addition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth</masterLabel>
+        <translation><!-- Growth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital New</masterLabel>
+        <translation><!-- Hospital New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Renovation</masterLabel>
+        <translation><!-- Hospital Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEW CTC BUSINESS</masterLabel>
+        <translation><!-- NEW CTC BUSINESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Business</masterLabel>
+        <translation><!-- New Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Facility</masterLabel>
+        <translation><!-- New Facility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPA</masterLabel>
+        <translation><!-- PPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protection</masterLabel>
+        <translation><!-- Protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Agreement</masterLabel>
+        <translation><!-- Service Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Agreement - Case Pack</masterLabel>
+        <translation><!-- Service Agreement - Case Pack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Repair/Replace</masterLabel>
+        <translation><!-- Service Repair/Replace --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>EU_Consignment_Request_Approval_Result</fullName>
+        <ccEmails>lars.michel@zimmerbiomet.com</ccEmails>
+        <description>EU-Consignment Request Approval Result</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>StandardEMailVorlagen/EU_Consignment_Request_Approval_Result</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_1</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Antragsstellung</literalValue>
+        <name>EU-Change Approval Status #1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_2</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Prüfung PM</literalValue>
+        <name>EU-Change Approval Status #2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_3</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Genehmigungsprüfung RVL</literalValue>
+        <name>EU-Change Approval Status #3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_4</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Genehmigungsprüfung Finanzen</literalValue>
+        <name>EU-Change Approval Status #4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_6</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Genehmigt</literalValue>
+        <name>EU-Change Approval Status #6</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EU_Change_Approval_Status_7</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Abgelehnt oder Storno</literalValue>
+        <name>EU-Change Approval Status #7</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

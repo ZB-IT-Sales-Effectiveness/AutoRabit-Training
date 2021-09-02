@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Premier Orthopedics, Inc.</name>
+    <queueMembers>
+        <users>
+            <user>harry.fegan@zbfegan.com</user>
+            <user>jason.cartwright@zbpremier.com</user>
+            <user>karl.vonsavoye@zbpremier.com</user>
+            <user>steve.blank@zbpremier.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

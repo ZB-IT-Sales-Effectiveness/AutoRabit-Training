@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_RICCIONE_0038_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>RICCIONE (0038) QUEUE</label>
+    <queue>Q_RICCIONE_0038</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

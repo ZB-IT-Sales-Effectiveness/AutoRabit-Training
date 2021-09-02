@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_B__c</fullName>
+    <externalId>false</externalId>
+    <label>Category B</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bone-Allograft</fullName>
+                <default>false</default>
+                <label>Bone-Allograft</label>
+            </value>
+            <value>
+                <fullName>Bone-Xenograft</fullName>
+                <default>false</default>
+                <label>Bone-Xenograft</label>
+            </value>
+            <value>
+                <fullName>Certain</fullName>
+                <default>false</default>
+                <label>Certain</label>
+            </value>
+            <value>
+                <fullName>Dermal Matrix</fullName>
+                <default>false</default>
+                <label>Dermal Matrix</label>
+            </value>
+            <value>
+                <fullName>Digital Abutments</fullName>
+                <default>false</default>
+                <label>Digital Abutments</label>
+            </value>
+            <value>
+                <fullName>Drills</fullName>
+                <default>false</default>
+                <label>Drills</label>
+            </value>
+            <value>
+                <fullName>Eztetic</fullName>
+                <default>false</default>
+                <label>Eztetic</label>
+            </value>
+            <value>
+                <fullName>Hybrid Abutments</fullName>
+                <default>false</default>
+                <label>Hybrid Abutments</label>
+            </value>
+            <value>
+                <fullName>Implants-Other</fullName>
+                <default>false</default>
+                <label>Implants-Other</label>
+            </value>
+            <value>
+                <fullName>Lab Designed Abutment</fullName>
+                <default>false</default>
+                <label>Lab Designed Abutment</label>
+            </value>
+            <value>
+                <fullName>Membrane-Allograft</fullName>
+                <default>false</default>
+                <label>Membrane-Allograft</label>
+            </value>
+            <value>
+                <fullName>Membrane-Xenograft</fullName>
+                <default>false</default>
+                <label>Membrane-Xenograft</label>
+            </value>
+            <value>
+                <fullName>Other Implants</fullName>
+                <default>false</default>
+                <label>Other Implants</label>
+            </value>
+            <value>
+                <fullName>Removable Abutments</fullName>
+                <default>false</default>
+                <label>Removable Abutments</label>
+            </value>
+            <value>
+                <fullName>Restorative Tools</fullName>
+                <default>false</default>
+                <label>Restorative Tools</label>
+            </value>
+            <value>
+                <fullName>Std Abutment</fullName>
+                <default>false</default>
+                <label>Std Abutment</label>
+            </value>
+            <value>
+                <fullName>Surgical Kits</fullName>
+                <default>false</default>
+                <label>Surgical Kits</label>
+            </value>
+            <value>
+                <fullName>T3</fullName>
+                <default>false</default>
+                <label>T3</label>
+            </value>
+            <value>
+                <fullName>TMM</fullName>
+                <default>false</default>
+                <label>TMM</label>
+            </value>
+            <value>
+                <fullName>TSV/T/M</fullName>
+                <default>false</default>
+                <label>TSV/T/M</label>
+            </value>
+            <value>
+                <fullName>Woundcare</fullName>
+                <default>false</default>
+                <label>Woundcare</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

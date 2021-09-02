@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Numeric_and_5_to_8_digit</fullName>
+    <active>true</active>
+    <description>SAP Number should be 5/6/7/8  digit number only</description>
+    <errorConditionFormula>If(	
+	OR(
+			(NOT($Permission.Custom_Permission_for_SAP_Field) || $User.Id=&quot;005C0000009SZVQ&quot; || $User.Id=&quot;005C0000009QipC&quot; || $User.Id=&quot;005C0000009SZaf&quot;),
+			ISPICKVAL(Employee_Non_Employee__c,&quot;No&quot;)							
+		),false,(	
+					IF(  RecordTypeId!=&apos;012800000002DoB&apos;,false,
+						OR 
+						(
+						  NOT(ISNUMBER(SAP__c )), 
+						  AND(ISNUMBER(SAP__c),OR((LEN(SAP__c) &lt; 5),(LEN(SAP__c) &gt;8)))
+						)
+					)
+				)
+)</errorConditionFormula>
+    <errorMessage>SAP Number should be between 5 to 8  digit number only</errorMessage>
+</ValidationRule>

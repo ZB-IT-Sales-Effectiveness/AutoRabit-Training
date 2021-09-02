@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub Type --></label>
+    <name>Sub_Type__c</name>
+    <picklistValues>
+        <masterLabel>Access Requests</masterLabel>
+        <translation><!-- Access Requests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alignment Support</masterLabel>
+        <translation><!-- Alignment Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Plan</masterLabel>
+        <translation><!-- Business Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clear Cache, Glitch, Browser</masterLabel>
+        <translation><!-- Clear Cache, Glitch, Browser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Visibility</masterLabel>
+        <translation><!-- Data Visibility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Visibility Issue</masterLabel>
+        <translation><!-- Data Visibility Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Visibility – Acct/Surgeon Missing</masterLabel>
+        <translation><!-- Data Visibility – Acct/Surgeon Missing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Visibility – JAMS Alignment</masterLabel>
+        <translation><!-- Data Visibility – JAMS Alignment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enhancement Request</masterLabel>
+        <translation><!-- Enhancement Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Support</masterLabel>
+        <translation><!-- Field Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional Issue</masterLabel>
+        <translation><!-- Functional Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grid Buddy Functional Issue</masterLabel>
+        <translation><!-- Grid Buddy Functional Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAMS Access</masterLabel>
+        <translation><!-- JAMS Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAMS Approval</masterLabel>
+        <translation><!-- JAMS Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAMS Issue</masterLabel>
+        <translation><!-- JAMS Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JTM Access</masterLabel>
+        <translation><!-- JTM Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Login Issues</masterLabel>
+        <translation><!-- Login Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTL Decks</masterLabel>
+        <translation><!-- MTL Decks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permission Set Update</masterLabel>
+        <translation><!-- Permission Set Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permission Sets</masterLabel>
+        <translation><!-- Permission Sets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC Mobile Functional Issue</masterLabel>
+        <translation><!-- SFDC Mobile Functional Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Data Issue</masterLabel>
+        <translation><!-- Sales Data Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Reporting Issue</masterLabel>
+        <translation><!-- Sales Reporting Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Access Request</masterLabel>
+        <translation><!-- Salesforce Access Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Issue</masterLabel>
+        <translation><!-- Salesforce Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon Hand Off</masterLabel>
+        <translation><!-- Surgeon Hand Off --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tableau Access</masterLabel>
+        <translation><!-- Tableau Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Target Reporting Issue</masterLabel>
+        <translation><!-- Target Reporting Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation><!-- Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training Request</masterLabel>
+        <translation><!-- Training Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Cup Race</masterLabel>
+        <translation><!-- ZB Cup Race --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

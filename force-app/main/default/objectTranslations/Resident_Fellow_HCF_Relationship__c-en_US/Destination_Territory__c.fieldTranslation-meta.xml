@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Destination Territory --></label>
+    <name>Destination_Territory__c</name>
+    <picklistValues>
+        <masterLabel>Boneafide Orthopaedics, Inc.</masterLabel>
+        <translation><!-- Boneafide Orthopaedics, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Medical</masterLabel>
+        <translation><!-- Case Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Medical Concepts</masterLabel>
+        <translation><!-- Joint Medical Concepts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legacy Orthopedic, Inc.</masterLabel>
+        <translation><!-- Legacy Orthopedic, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midark Surgical Inc.</masterLabel>
+        <translation><!-- Midark Surgical Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteo1, Inc.</masterLabel>
+        <translation><!-- Osteo1, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Select Orthopedics, Inc.</masterLabel>
+        <translation><!-- Select Orthopedics, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summit Surgical</masterLabel>
+        <translation><!-- Summit Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Distributor Account</masterLabel>
+        <translation><!-- Test Distributor Account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB APEX Surgical</masterLabel>
+        <translation><!-- ZB APEX Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Chicago</masterLabel>
+        <translation><!-- ZB Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Empire</masterLabel>
+        <translation><!-- ZB Empire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Southeast</masterLabel>
+        <translation><!-- ZB Southeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBOne</masterLabel>
+        <translation><!-- ZBOne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBWisco Inc</masterLabel>
+        <translation><!-- ZBWisco Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Alaska</masterLabel>
+        <translation><!-- Zimmer Biomet Alaska --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Bay Area</masterLabel>
+        <translation><!-- Zimmer Biomet Bay Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Capital</masterLabel>
+        <translation><!-- Zimmer Biomet Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Carolinas</masterLabel>
+        <translation><!-- Zimmer Biomet Carolinas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Colorado</masterLabel>
+        <translation><!-- Zimmer Biomet Colorado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Davis</masterLabel>
+        <translation><!-- Zimmer Biomet Davis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Downstate New York</masterLabel>
+        <translation><!-- Zimmer Biomet Downstate New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Fegan, Inc.</masterLabel>
+        <translation><!-- Zimmer Biomet Fegan, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Great Lakes</masterLabel>
+        <translation><!-- Zimmer Biomet Great Lakes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Heartland-Omaha</masterLabel>
+        <translation><!-- Zimmer Biomet Heartland-Omaha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Hibbard</masterLabel>
+        <translation><!-- Zimmer Biomet Hibbard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Holzbach</masterLabel>
+        <translation><!-- Zimmer Biomet Holzbach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Indiana</masterLabel>
+        <translation><!-- Zimmer Biomet Indiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Mid-Atlantic</masterLabel>
+        <translation><!-- Zimmer Biomet Mid-Atlantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Mid-Ohio</masterLabel>
+        <translation><!-- Zimmer Biomet Mid-Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet MidAmerica</masterLabel>
+        <translation><!-- Zimmer Biomet MidAmerica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Mokan</masterLabel>
+        <translation><!-- Zimmer Biomet Mokan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet North Texas</masterLabel>
+        <translation><!-- Zimmer Biomet North Texas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Northeast</masterLabel>
+        <translation><!-- Zimmer Biomet Northeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Northwest</masterLabel>
+        <translation><!-- Zimmer Biomet Northwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Oregon</masterLabel>
+        <translation><!-- Zimmer Biomet Oregon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet OrthoSolutions</masterLabel>
+        <translation><!-- Zimmer Biomet OrthoSolutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Pacific</masterLabel>
+        <translation><!-- Zimmer Biomet Pacific --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Riccione</masterLabel>
+        <translation><!-- Zimmer Biomet Riccione --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Rio Grande</masterLabel>
+        <translation><!-- Zimmer Biomet Rio Grande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet RxMedical</masterLabel>
+        <translation><!-- Zimmer Biomet RxMedical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Solutions</masterLabel>
+        <translation><!-- Zimmer Biomet Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet South Texas</masterLabel>
+        <translation><!-- Zimmer Biomet South Texas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Southern California</masterLabel>
+        <translation><!-- Zimmer Biomet Southern California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Southern Idaho</masterLabel>
+        <translation><!-- Zimmer Biomet Southern Idaho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Southwest</masterLabel>
+        <translation><!-- Zimmer Biomet Southwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Southwest Ohio</masterLabel>
+        <translation><!-- Zimmer Biomet Southwest Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet TN</masterLabel>
+        <translation><!-- Zimmer Biomet TN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Tri-State</masterLabel>
+        <translation><!-- Zimmer Biomet Tri-State --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet West, Inc.</masterLabel>
+        <translation><!-- Zimmer Biomet West, Inc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Western New York</masterLabel>
+        <translation><!-- Zimmer Biomet Western New York --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

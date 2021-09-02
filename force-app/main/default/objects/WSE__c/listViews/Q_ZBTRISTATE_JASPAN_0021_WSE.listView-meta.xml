@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBTRISTATE_JASPAN_0021_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-TRI-STATE (JASPAN) (0021) QUEUE</label>
+    <queue>Q_ZBTRISTATE_JASPAN_0021</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

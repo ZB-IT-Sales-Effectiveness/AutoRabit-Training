@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>connectsolutioncenter@zimmerbiomet.com</email>
+    <name>GPO Group</name>
+    <queueMembers>
+        <users>
+            <user>andrew.freeh@zimmerbiomet.com</user>
+            <user>jackson.pfister@zimmerbiomet.com</user>
+            <user>jake.nimmo@zimmerbiomet.com</user>
+            <user>kaylee.kaczmark@zimmerbiomet.com</user>
+            <user>kelsey.ketcham@zimmerbiomet.com</user>
+            <user>kris.simonton@zimmerbiomet.com</user>
+            <user>kyle.smith@zimmerbiomet.com</user>
+            <user>mindy.apperson@zimmer.com</user>
+            <user>todd.balduf@zimmer.com</user>
+            <user>troy.watson@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPL_Doctor_Profiles</fullName>
+    <columns>NAME</columns>
+    <columns>FirstName__c</columns>
+    <columns>LastName__c</columns>
+    <columns>Account__c</columns>
+    <columns>Fellowship__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>GPL_Profile__c.GPL_PhysicianProfile,GPL_Profile__c.GPL_ClinicProfile</value>
+    </filters>
+    <label>GPL Doctor Profiles</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Zimmer_Locator_Website_Administrator</group>
+        <role>CRMAdministrator</role>
+        <role>InformationTechnology</role>
+    </sharedTo>
+</ListView>

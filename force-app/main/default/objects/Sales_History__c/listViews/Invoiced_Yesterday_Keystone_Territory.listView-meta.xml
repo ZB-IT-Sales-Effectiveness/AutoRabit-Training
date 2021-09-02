@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Yesterday_Keystone_Territory</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>Salesperson_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1026,1129,1004,1023,1024,1025</value>
+    </filters>
+    <filters>
+        <field>Invoice_Date__c</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Invoiced Yesterday Keystone Territory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_KS_GL_BUC_MW_DDSS</group>
+        <group>DN_USA_Key_Stone_GL_Buckeye_Regen</group>
+        <group>DN_USA_Metro_NY_ISR</group>
+    </sharedTo>
+</ListView>

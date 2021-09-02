@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type ongecementeerde steel voor de revisie heup. --></help>
+    <label><!-- Type heup revisie steel ongecementeerd --></label>
+    <name>Type_heup_revisie_steel_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Acumatch</masterLabel>
+        <translation><!-- Acumatch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aura</masterLabel>
+        <translation><!-- Aura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBK Revisionsschaft</masterLabel>
+        <translation><!-- CBK Revisionsschaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GHE</masterLabel>
+        <translation><!-- GHE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Limb preservation system</masterLabel>
+        <translation><!-- LPS Limb preservation system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link MP</masterLabel>
+        <translation><!-- Link MP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link MP reconstruction hip</masterLabel>
+        <translation><!-- Link MP reconstruction hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mallory head calcar</masterLabel>
+        <translation><!-- Mallory head calcar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modulaire revisiesteel</masterLabel>
+        <translation><!-- Modulaire revisiesteel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P.F.R. Total hip system</masterLabel>
+        <translation><!-- P.F.R. Total hip system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profemur R</masterLabel>
+        <translation><!-- Profemur R --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reach modular revision sytem</masterLabel>
+        <translation><!-- Reach modular revision sytem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restoration HAC</masterLabel>
+        <translation><!-- Restoration HAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restoration Modular</masterLabel>
+        <translation><!-- Restoration Modular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revitan</masterLabel>
+        <translation><!-- Revitan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S-Rom</masterLabel>
+        <translation><!-- S-Rom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SLL</masterLabel>
+        <translation><!-- SLL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner</masterLabel>
+        <translation><!-- Wagner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZMR</masterLabel>
+        <translation><!-- ZMR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zweymüller SLL</masterLabel>
+        <translation><!-- Zweymüller SLL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

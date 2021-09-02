@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Provider --></label>
+    <name>Provider__c</name>
+    <picklistValues>
+        <masterLabel>2Med</masterLabel>
+        <translation><!-- 2Med --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3di</masterLabel>
+        <translation><!-- 3di --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AAP</masterLabel>
+        <translation><!-- AAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AECUOS</masterLabel>
+        <translation><!-- AECUOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AESCULAP</masterLabel>
+        <translation><!-- AESCULAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AESCULAP Anatomics</masterLabel>
+        <translation><!-- AESCULAP Anatomics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALPHANORM</masterLabel>
+        <translation><!-- ALPHANORM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMPLITUDE</masterLabel>
+        <translation><!-- AMPLITUDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AQ Implants</masterLabel>
+        <translation><!-- AQ Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARD</masterLabel>
+        <translation><!-- ARD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARGOMEDICAL</masterLabel>
+        <translation><!-- ARGOMEDICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARTHREX</masterLabel>
+        <translation><!-- ARTHREX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARTIQO</masterLabel>
+        <translation><!-- ARTIQO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ackermann</masterLabel>
+        <translation><!-- Ackermann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ad Mirabiles</masterLabel>
+        <translation><!-- Ad Mirabiles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alphatec Spine</masterLabel>
+        <translation><!-- Alphatec Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ascension</masterLabel>
+        <translation><!-- Ascension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREHM</masterLabel>
+        <translation><!-- BREHM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baxter</masterLabel>
+        <translation><!-- Baxter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bluerock Medical</masterLabel>
+        <translation><!-- Bluerock Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Support</masterLabel>
+        <translation><!-- Bone Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAD Skills</masterLabel>
+        <translation><!-- CAD Skills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERAMTEC</masterLabel>
+        <translation><!-- CERAMTEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERAVER</masterLabel>
+        <translation><!-- CERAVER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHIROPLANT</masterLabel>
+        <translation><!-- CHIROPLANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHIROPRO</masterLabel>
+        <translation><!-- CHIROPRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CL Instruments</masterLabel>
+        <translation><!-- CL Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONFORMIS</masterLabel>
+        <translation><!-- CONFORMIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CORIN</masterLabel>
+        <translation><!-- CORIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CREMASCOLI</masterLabel>
+        <translation><!-- CREMASCOLI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charly Jakob</masterLabel>
+        <translation><!-- Charly Jakob --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmos</masterLabel>
+        <translation><!-- Cosmos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cranos</masterLabel>
+        <translation><!-- Cranos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDI Bochum</masterLabel>
+        <translation><!-- DDI Bochum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDS ex Cranioconstruct</masterLabel>
+        <translation><!-- DDS ex Cranioconstruct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIZG</masterLabel>
+        <translation><!-- DIZG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO Surgical</masterLabel>
+        <translation><!-- DJO Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De Soutter</masterLabel>
+        <translation><!-- De Soutter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DePuy Synthes</masterLabel>
+        <translation><!-- DePuy Synthes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENDOPRO</masterLabel>
+        <translation><!-- ENDOPRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXACTECH</masterLabel>
+        <translation><!-- EXACTECH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eckart Klobe</masterLabel>
+        <translation><!-- Eckart Klobe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evonos</masterLabel>
+        <translation><!-- Evonos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evotech</masterLabel>
+        <translation><!-- Evotech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALCON</masterLabel>
+        <translation><!-- FALCON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FINSBURY</masterLabel>
+        <translation><!-- FINSBURY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finceramica</masterLabel>
+        <translation><!-- Finceramica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geistlich</masterLabel>
+        <translation><!-- Geistlich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Globus Medical</masterLabel>
+        <translation><!-- Globus Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heraeus Medical</masterLabel>
+        <translation><!-- Heraeus Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMPLANT INDUSTRIES</masterLabel>
+        <translation><!-- IMPLANT INDUSTRIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMPLANT SERVICE</masterLabel>
+        <translation><!-- IMPLANT SERVICE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMPLANTCAST</masterLabel>
+        <translation><!-- IMPLANTCAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTRAPLANT</masterLabel>
+        <translation><!-- INTRAPLANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IS</masterLabel>
+        <translation><!-- IS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integra</masterLabel>
+        <translation><!-- Integra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interatio MediTec</masterLabel>
+        <translation><!-- Interatio MediTec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JRI</masterLabel>
+        <translation><!-- JRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K-Implant</masterLabel>
+        <translation><!-- K-Implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KLS Martin</masterLabel>
+        <translation><!-- KLS Martin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KMU</masterLabel>
+        <translation><!-- KMU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KRAUT TIMMERMANN</masterLabel>
+        <translation><!-- KRAUT TIMMERMANN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Komet</masterLabel>
+        <translation><!-- Komet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LANDOS</masterLabel>
+        <translation><!-- LANDOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIMA</masterLabel>
+        <translation><!-- LIMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LINK</masterLabel>
+        <translation><!-- LINK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LITHOS WOLTER</masterLabel>
+        <translation><!-- LITHOS WOLTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linvatec</masterLabel>
+        <translation><!-- Linvatec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MATHYS</masterLabel>
+        <translation><!-- MATHYS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDACTA</masterLabel>
+        <translation><!-- MEDACTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MERETE</masterLabel>
+        <translation><!-- MERETE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MERIO PLANT</masterLabel>
+        <translation><!-- MERIO PLANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedXpert</masterLabel>
+        <translation><!-- MedXpert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicon</masterLabel>
+        <translation><!-- Medicon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medtronic</masterLabel>
+        <translation><!-- Medtronic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MicroAire</masterLabel>
+        <translation><!-- MicroAire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MicroPort</masterLabel>
+        <translation><!-- MicroPort --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mondeal</masterLabel>
+        <translation><!-- Mondeal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neo Medical</masterLabel>
+        <translation><!-- Neo Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nicolai</masterLabel>
+        <translation><!-- Nicolai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuvasive</masterLabel>
+        <translation><!-- Nuvasive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OEKA</masterLabel>
+        <translation><!-- OEKA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OssDsign</masterLabel>
+        <translation><!-- OssDsign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PENTAMEDICAL</masterLabel>
+        <translation><!-- PENTAMEDICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRIVELOP</masterLabel>
+        <translation><!-- PRIVELOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROTAMED</masterLabel>
+        <translation><!-- PROTAMED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pionira Medical</masterLabel>
+        <translation><!-- Pionira Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promedics</masterLabel>
+        <translation><!-- Promedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RATIO MEDITEC</masterLabel>
+        <translation><!-- RATIO MEDITEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNUS</masterLabel>
+        <translation><!-- SIGNUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPEETEC</masterLabel>
+        <translation><!-- SPEETEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STEMCUP</masterLabel>
+        <translation><!-- STEMCUP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SYMBIOS</masterLabel>
+        <translation><!-- SYMBIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serf</masterLabel>
+        <translation><!-- Serf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skulle Implants</masterLabel>
+        <translation><!-- Skulle Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone Innovations</masterLabel>
+        <translation><!-- Small Bone Innovations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith &amp; Nephew</masterLabel>
+        <translation><!-- Smith &amp; Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spectromed</masterLabel>
+        <translation><!-- Spectromed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spinal Kinetics</masterLabel>
+        <translation><!-- Spinal Kinetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spineart</masterLabel>
+        <translation><!-- Spineart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stellenbosch</masterLabel>
+        <translation><!-- Stellenbosch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker Howmedica Wright Tornier</masterLabel>
+        <translation><!-- Stryker Howmedica Wright Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgalign</masterLabel>
+        <translation><!-- Surgalign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TANTUM</masterLabel>
+        <translation><!-- TANTUM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMJ Concepts</masterLabel>
+        <translation><!-- TMJ Concepts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tasarimed</masterLabel>
+        <translation><!-- Tasarimed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telos</masterLabel>
+        <translation><!-- Telos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tricomed PL</masterLabel>
+        <translation><!-- Tricomed PL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ulrich Medical</masterLabel>
+        <translation><!-- Ulrich Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xilloc</masterLabel>
+        <translation><!-- Xilloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet</masterLabel>
+        <translation><!-- Zimmer Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>alloPlus</masterLabel>
+        <translation><!-- alloPlus --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

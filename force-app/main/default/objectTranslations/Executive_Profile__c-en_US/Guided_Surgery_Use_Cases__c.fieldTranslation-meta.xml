@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Guided Surgery Use Cases --></label>
+    <name>Guided_Surgery_Use_Cases__c</name>
+    <picklistValues>
+        <masterLabel>Full Arch</masterLabel>
+        <translation><!-- Full Arch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi Unit</masterLabel>
+        <translation><!-- Multi Unit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Unit</masterLabel>
+        <translation><!-- Single Unit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

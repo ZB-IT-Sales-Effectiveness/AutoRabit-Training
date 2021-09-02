@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Competitor-Global</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Competitors-Global</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- DN-CA-Opportunity Record Type --></label>
+        <name>DN_CA_Opportunity_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-US-Opportunity Record Type --></label>
+        <name>DN_US_Opportunity_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- benutzerdefinierte Opportunity --></description>
+        <label><!-- EU-Standard --></label>
+        <name>EU_Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Global Generic Competitor --></description>
+        <label><!-- Global Generic Competitor --></label>
+        <name>Global_Generic_Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- US Recon SPMT used for sales prospects entered in the Distributor Channel --></description>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

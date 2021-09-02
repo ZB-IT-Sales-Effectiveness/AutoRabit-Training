@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_Product__c</fullName>
+    <externalId>false</externalId>
+    <formula>Parent_Opportunity__r.SurgeonName__c  +&apos; &apos;+ TEXT( Product__c )</formula>
+    <inlineHelpText>The combination of the surgeon and product</inlineHelpText>
+    <label>Surgeon &amp; Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

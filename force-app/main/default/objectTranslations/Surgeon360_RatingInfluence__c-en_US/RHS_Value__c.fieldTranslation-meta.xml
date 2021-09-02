@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Right hand side of comparison equation. 
+
+Eg:
+if (LHS &lt; RHS) return Return Value --></help>
+    <label><!-- Single Operator RHS Value --></label>
+    <name>RHS_Value__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_revisie_steel_ongecementeerd__c</fullName>
+    <description>Kies het type ongecementeerde steel voor de revisie heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type ongecementeerde steel voor de revisie heup.</inlineHelpText>
+    <label>Type heup revisie steel ongecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_revisie_steel_ongecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Revitan</fullName>
+                <default>false</default>
+                <label>Revitan</label>
+            </value>
+            <value>
+                <fullName>ZMR</fullName>
+                <default>false</default>
+                <label>ZMR</label>
+            </value>
+            <value>
+                <fullName>Wagner</fullName>
+                <default>false</default>
+                <label>Wagner</label>
+            </value>
+            <value>
+                <fullName>Zweymüller SLL</fullName>
+                <default>false</default>
+                <label>Zweymüller SLL</label>
+            </value>
+            <value>
+                <fullName>Aura</fullName>
+                <default>false</default>
+                <label>Aura</label>
+            </value>
+            <value>
+                <fullName>Mallory head calcar</fullName>
+                <default>false</default>
+                <label>Mallory head calcar</label>
+            </value>
+            <value>
+                <fullName>GHE</fullName>
+                <default>false</default>
+                <label>GHE</label>
+            </value>
+            <value>
+                <fullName>S-Rom</fullName>
+                <default>false</default>
+                <label>S-Rom</label>
+            </value>
+            <value>
+                <fullName>SLL</fullName>
+                <default>false</default>
+                <label>SLL</label>
+            </value>
+            <value>
+                <fullName>Reach modular revision sytem</fullName>
+                <default>false</default>
+                <label>Reach modular revision sytem</label>
+            </value>
+            <value>
+                <fullName>LPS Limb preservation system</fullName>
+                <default>false</default>
+                <label>LPS Limb preservation system</label>
+            </value>
+            <value>
+                <fullName>P.F.R. Total hip system</fullName>
+                <default>false</default>
+                <label>P.F.R. Total hip system</label>
+            </value>
+            <value>
+                <fullName>CBK Revisionsschaft</fullName>
+                <default>false</default>
+                <label>CBK Revisionsschaft</label>
+            </value>
+            <value>
+                <fullName>Acumatch</fullName>
+                <default>false</default>
+                <label>Acumatch</label>
+            </value>
+            <value>
+                <fullName>Restoration Modular</fullName>
+                <default>false</default>
+                <label>Restoration Modular</label>
+            </value>
+            <value>
+                <fullName>Restoration HAC</fullName>
+                <default>false</default>
+                <label>Restoration HAC</label>
+            </value>
+            <value>
+                <fullName>Link MP</fullName>
+                <default>false</default>
+                <label>Link MP</label>
+            </value>
+            <value>
+                <fullName>Profemur R</fullName>
+                <default>false</default>
+                <label>Profemur R</label>
+            </value>
+            <value>
+                <fullName>Link MP reconstruction hip</fullName>
+                <default>false</default>
+                <label>Link MP reconstruction hip</label>
+            </value>
+            <value>
+                <fullName>Modulaire revisiesteel</fullName>
+                <default>false</default>
+                <label>Modulaire revisiesteel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Revitan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Wagner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Zweymüller SLL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Aura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Mallory head calcar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Reach modular revision sytem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>GHE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>S-Rom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>LPS Limb preservation system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>P.F.R. Total hip system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SLL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CBK Revisionsschaft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Modulaire revisiesteel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oudshoorn</controllingFieldValue>
+            <valueName>Acumatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Restoration Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Restoration HAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Link MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Profemur R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Link MP reconstruction hip</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

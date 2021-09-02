@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Sales_Name_Validation</fullName>
+    <active>false</active>
+    <description>First name &amp; Last Name in Zimmer Sales record should not be &quot;First Name&quot; and &quot;Last Name&quot; respectively.</description>
+    <errorConditionFormula>and(or(FirstName = &apos;First Name&apos;, FirstName = &apos;&apos;, LastName = &apos;Last Name&apos;, Email=&apos;&apos;), RecordTypeId = &apos;012800000002DoB&apos;)</errorConditionFormula>
+    <errorMessage>First Name, Last Name &amp; Email can&apos;t be blank and should be in valid format.</errorMessage>
+</ValidationRule>

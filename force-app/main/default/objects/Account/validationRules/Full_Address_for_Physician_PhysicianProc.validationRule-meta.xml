@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Address_for_Physician_PhysicianProc</fullName>
+    <active>true</active>
+    <description>This validation rule makes sure that all the fields in the address info is filled</description>
+    <errorConditionFormula>AND ((RecordTypeId = &apos;012800000002C4g&apos; || RecordTypeId = &apos;012800000003YRm&apos; || RecordTypeId = &apos;012800000003YRh&apos; || RecordTypeId = &apos;012800000003YRc&apos; ), (ISBLANK( PersonMailingCity ) || ISBLANK( PersonMailingState ) || ISBLANK( PersonMailingStreet ) || ISBLANK( PersonMailingPostalCode) || ISBLANK( PersonMailingCountry)),(PersonMailingCountry=&quot;US&quot;|| PersonMailingCountry=&quot;GU&quot;|| PersonMailingCountry=&quot;PR&quot;|| PersonMailingCountry=&quot;BM&quot;|| PersonMailingCountry=&quot;VI&quot;|| PersonMailingCountry=&quot;CA&quot;))</errorConditionFormula>
+    <errorMessage>Please Provide Complete Office address</errorMessage>
+</ValidationRule>

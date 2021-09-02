@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM-US_ASC</fullName>
+    <description>ZB Connect ASC Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1%2E New Lead</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2%2E Approved Target</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3%2E Due Dilligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4%2E Proposal%2FNegotiations</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5%2E Legal Documents</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Competitive Contract</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Duplicate Opportunity</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed No Opportunity</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed-Current Customer</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

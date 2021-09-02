@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategy_1__c</fullName>
+    <description>Select 1 Strategy</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select 1</inlineHelpText>
+    <label>Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ASC - Intra-Operative Solutions</fullName>
+                <default>false</default>
+                <label>ASC - Intra-Operative Solutions</label>
+            </value>
+            <value>
+                <fullName>ASC Solutions _ Management Series</fullName>
+                <default>false</default>
+                <label>ASC Solutions _ Management Series</label>
+            </value>
+            <value>
+                <fullName>ASC Solutions - Care Optimization</fullName>
+                <default>false</default>
+                <label>ASC Solutions - Care Optimization</label>
+            </value>
+            <value>
+                <fullName>ASC Solutions Post-Operative Solutions</fullName>
+                <default>false</default>
+                <label>ASC Solutions Post-Operative Solutions</label>
+            </value>
+            <value>
+                <fullName>Bulk Order</fullName>
+                <default>false</default>
+                <label>Bulk Order</label>
+            </value>
+            <value>
+                <fullName>Bulk Order + ROSA(cash)</fullName>
+                <default>false</default>
+                <label>Bulk Order + ROSA(cash)</label>
+            </value>
+            <value>
+                <fullName>Capitation Program - Bulk Buy</fullName>
+                <default>false</default>
+                <label>Capitation Program - Bulk Buy</label>
+            </value>
+            <value>
+                <fullName>Capitation Program - Rebate</fullName>
+                <default>false</default>
+                <label>Capitation Program - Rebate</label>
+            </value>
+            <value>
+                <fullName>Contracting - Existing Business/No Commitment</fullName>
+                <default>false</default>
+                <label>Contracting - Existing Business/No Commitment</label>
+            </value>
+            <value>
+                <fullName>Contracting - New Business/Commitment</fullName>
+                <default>false</default>
+                <label>Contracting - New Business/Commitment</label>
+            </value>
+            <value>
+                <fullName>Exchange of Value</fullName>
+                <default>false</default>
+                <label>Exchange of Value</label>
+            </value>
+            <value>
+                <fullName>Extend/Reset</fullName>
+                <default>false</default>
+                <label>Extend/Reset</label>
+            </value>
+            <value>
+                <fullName>Extend/Reset - Pricing</fullName>
+                <default>false</default>
+                <label>Extend/Reset - Pricing</label>
+            </value>
+            <value>
+                <fullName>Extend/Reset - Rebate</fullName>
+                <default>false</default>
+                <label>Extend/Reset - Rebate</label>
+            </value>
+            <value>
+                <fullName>Fast Start - Balanced Caseload</fullName>
+                <default>false</default>
+                <label>Fast Start - Balanced Caseload</label>
+            </value>
+            <value>
+                <fullName>Fast Start - Extend 12 Months</fullName>
+                <default>false</default>
+                <label>Fast Start - Extend 12 Months</label>
+            </value>
+            <value>
+                <fullName>Multi-Segment Agreement</fullName>
+                <default>false</default>
+                <label>Multi-Segment Agreement</label>
+            </value>
+            <value>
+                <fullName>mymobility LE</fullName>
+                <default>false</default>
+                <label>mymobility LE</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Payment Terms</fullName>
+                <default>false</default>
+                <label>Payment Terms</label>
+            </value>
+            <value>
+                <fullName>Price Extension</fullName>
+                <default>false</default>
+                <label>Price Extension</label>
+            </value>
+            <value>
+                <fullName>Raptor</fullName>
+                <default>false</default>
+                <label>Raptor</label>
+            </value>
+            <value>
+                <fullName>RFP Response</fullName>
+                <default>false</default>
+                <label>RFP Response</label>
+            </value>
+            <value>
+                <fullName>Risk Management</fullName>
+                <default>false</default>
+                <label>Risk Management</label>
+            </value>
+            <value>
+                <fullName>ROSA</fullName>
+                <default>false</default>
+                <label>ROSA</label>
+            </value>
+            <value>
+                <fullName>ROSA Advantage</fullName>
+                <default>false</default>
+                <label>ROSA Advantage</label>
+            </value>
+            <value>
+                <fullName>Standardization - Increase%</fullName>
+                <default>false</default>
+                <label>Standardization - Increase%</label>
+            </value>
+            <value>
+                <fullName>Standardization - Pull Through Category</fullName>
+                <default>false</default>
+                <label>Standardization - Pull Through Category</label>
+            </value>
+            <value>
+                <fullName>Walter</fullName>
+                <default>false</default>
+                <label>Walter</label>
+            </value>
+            <value>
+                <fullName>ZB1</fullName>
+                <default>false</default>
+                <label>ZB1</label>
+            </value>
+            <value>
+                <fullName>ZB Technology Pull Through</fullName>
+                <default>false</default>
+                <label>ZB Technology Pull Through</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

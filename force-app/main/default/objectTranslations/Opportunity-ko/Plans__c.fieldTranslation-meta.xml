@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Plans --></label>
+    <name>Plans__c</name>
+    <picklistValues>
+        <masterLabel>Foot Ankle Plans</masterLabel>
+        <translation><!-- Foot Ankle Plans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Plans</masterLabel>
+        <translation><!-- Joint Plans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Plans</masterLabel>
+        <translation><!-- Spine Plans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Plans</masterLabel>
+        <translation><!-- Sports Plans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UE Plans</masterLabel>
+        <translation><!-- UE Plans --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

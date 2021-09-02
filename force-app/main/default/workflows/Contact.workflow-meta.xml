@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>KontaktBenachrichtigungCKontaktnichtbearbeitetseit120Tagen</fullName>
+        <description>EU-Kontakt: Benachrichtigung, &apos;C&apos;-Kontakt nicht bearbeitet seit 120 Tagen</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>CH_Sales</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>WorkflowEMailVorlagen/KontaktBenachrichtigungCKontaktnichtbearbeitetseit120Tagen</template>
+    </alerts>
+    <alerts>
+        <fullName>KontaktBenachrichtigungCKontaktnichtbearbeitetseit90Tagen</fullName>
+        <description>EU-Kontakt: Benachrichtigung, &apos;C&apos;-Kontakt nicht bearbeitet seit 90 Tagen</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>WorkflowEMailVorlagen/KontaktBenachrichtigungCKontaktnichtbearbeitetseit90Tagen</template>
+    </alerts>
+    <alerts>
+        <fullName>Notice_of_Separation_Email_Alert</fullName>
+        <ccEmails>yavonna.dotson@zimmerbiomet.com</ccEmails>
+        <description>Notice of Separation Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>yavonna.dotson@zimmerbiomet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>US_Sales_Operations/Separation_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>OPS_CALLS_MEETINGS</fullName>
+        <description>OPS CALLS/MEETINGS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>susan.walters@zimmer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>All_Email_Templates/OPS_CALLS_MEETINGS_Field_Modified</template>
+    </alerts>
+    <alerts>
+        <fullName>Orphaned_Contact_Record</fullName>
+        <description>Orphaned Contact Record</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>arun.singh@zimmerbiomet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Zimmer_GEM/Orphaned_Contacts</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Check_Rehire</fullName>
+        <field>Rehire__c</field>
+        <literalValue>1</literalValue>
+        <name>Check Rehire</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_LMS_Required_Field</fullName>
+        <description>This field update will clear the value of LMS Required field whenever the corresponding Sales Contact is deactivated.</description>
+        <field>LMS_Required__c</field>
+        <literalValue>0</literalValue>
+        <name>Clear LMS Required Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_SAP_field</fullName>
+        <description>This field update will clear the value of SAP field whenever the corresponding Sales Contact is deactivated.</description>
+        <field>SAP__c</field>
+        <name>Clear SAP field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Country_Update</fullName>
+        <field>MailingCountry</field>
+        <formula>Account.BillingCountry</formula>
+        <name>Contact Country Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Office_City_Update</fullName>
+        <field>MailingCity</field>
+        <formula>Account.BillingCity</formula>
+        <name>Contact Office City Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Record_type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>DN_Global_Contact_Record_Type</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Contact Record type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_State_Update</fullName>
+        <field>MailingState</field>
+        <formula>Account.BillingState</formula>
+        <name>Contact State Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Street_Address_Update</fullName>
+        <field>MailingStreet</field>
+        <formula>Account.BillingStreet</formula>
+        <name>Contact Street Address Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Zip_Update</fullName>
+        <field>MailingPostalCode</field>
+        <formula>Account.BillingPostalCode</formula>
+        <name>Contact Zip Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_False</fullName>
+        <field>Do_Not_Sync__c</field>
+        <literalValue>0</literalValue>
+        <name>Do Not Sync False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Sync_True</fullName>
+        <field>Do_Not_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Sync True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Edit_Status_Update</fullName>
+        <field>Record_Edit_Status__c</field>
+        <literalValue>Modified</literalValue>
+        <name>Edit Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mailing_City</fullName>
+        <field>MailingCity</field>
+        <formula>Account.ShippingCity</formula>
+        <name>Mailing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Office_City</fullName>
+        <field>MailingCity</field>
+        <name>Office City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Office_Street</fullName>
+        <field>MailingStreet</field>
+        <name>Office Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Original_Hire_date_update</fullName>
+        <field>Original_Hire_date__c</field>
+        <formula>Hire_Date__c</formula>
+        <name>Original Hire date update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Is_Reported_To_FALSE</fullName>
+        <field>Is_Reported__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Is Reported To FALSE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Legacy_Company_Code_as_ZB</fullName>
+        <field>Legacy_Company_Code__c</field>
+        <literalValue>ZB</literalValue>
+        <name>Set Legacy Company Code as &quot;ZB&quot;</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Modified_Date_to_Now</fullName>
+        <field>Term_Date_Modified_On__c</field>
+        <formula>NOW()</formula>
+        <name>Set Modified Date to Now</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Term_Date_Changed_To_TRUE</fullName>
+        <field>Term_Date_Changed__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Term Date Changed To TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Novo_Field_Status_Created</fullName>
+        <field>Record_Edit_Status__c</field>
+        <literalValue>Created</literalValue>
+        <name>Update Novo Field Status Created</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sales_Contact_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>jayme.price@zimmerbiomet.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Sales Contact Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Zimmer_Sales_Email</fullName>
+        <description>Removes the email address from the email address field.</description>
+        <field>Email</field>
+        <formula>&apos;NA@zimmerbiomet.com&apos;</formula>
+        <name>Update Zimmer Sales Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Check If Term Date Is Changed</fullName>
+        <actions>
+            <name>Set_Is_Reported_To_FALSE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Modified_Date_to_Now</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Term_Date_Changed_To_TRUE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( RecordType.Id == &apos;012800000002DoB&apos;, ISCHANGED( Term_Date__c ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Check rehire if Sales Contact is re-activated</fullName>
+        <actions>
+            <name>Check_Rehire</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Check rehire if Sales Contact is re-activated</description>
+        <formula>AND(RecordType.Name=&apos;Sales Contact&apos;,
+     ISCHANGED(Inactive__c),
+      PRIORVALUE(Inactive__c) = TRUE,
+       Inactive__c = FALSE
+     )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Edit Status for Created Date</fullName>
+        <actions>
+            <name>Update_Novo_Field_Status_Created</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Age__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Edit Status for Modified</fullName>
+        <actions>
+            <name>Edit_Status_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK(NOVO_Contact_Id__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do Not Sync False</fullName>
+        <actions>
+            <name>Do_Not_Sync_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Account.mkto71_Do_Not_Sync__c = False 
+
+&amp;&amp; 
+
+
+( 
+NOT(ISBLANK( Email )) 
+&amp;&amp; 
+CONTAINS(Email,&apos;@&apos;) 
+&amp;&amp; 
+NOT(ISBLANK( MailingCountry)) 
+&amp;&amp; 
+RecordTypeId = &quot;012C0000000Q7mz&quot;) 
+
+|| 
+
+( 
+NOT(ISBLANK( Email )) 
+&amp;&amp; 
+CONTAINS(Email,&apos;@&apos;) 
+&amp;&amp; 
+MailingCountry = &quot;US&quot; 
+&amp;&amp; 
+OR( 
+RecordTypeId =&quot;012800000003ZTZ&quot;, 
+RecordTypeId = &quot;012800000002DoL&quot;, 
+RecordTypeId = &quot;012800000002DoB&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Marketo Do not sync True</fullName>
+        <actions>
+            <name>Do_Not_Sync_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Account.mkto71_Do_Not_Sync__c =True 
+|| 
+OR 
+( 
+ISBLANK( Email ), 
+NOT(CONTAINS(Email,&apos;@&apos;)), 
+ISBLANK(MailingCountry), 
+(OR(RecordTypeId &lt;&gt; &quot;012800000003ZTZ&quot;, 
+RecordTypeId &lt;&gt; &quot;012800000002DoL&quot;, 
+RecordTypeId &lt;&gt; &quot;012C0000000Q7mz&quot;, 
+RecordTypeId &lt;&gt; &quot;012800000002DoB&quot;)) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notice of Separation</fullName>
+        <actions>
+            <name>Notice_of_Separation_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Zimmer Sales Contact</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Inactive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Role_Classification__c</field>
+            <operation>notEqual</operation>
+            <value>Zimmer Spine,Zimmer  Canada,Zimmer Canada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Transfer__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <description>US Distributor Sales employee separation notification.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SAP and LMS Required field clear rule</fullName>
+        <actions>
+            <name>Clear_LMS_Required_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Clear_SAP_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Record_Type__c</field>
+            <operation>equals</operation>
+            <value>Sales Contact</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Inactive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Legacy Company Code as %22ZB%22</fullName>
+        <actions>
+            <name>Set_Legacy_Company_Code_as_ZB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Legacy_Company_Code__c</field>
+            <operation>notEqual</operation>
+            <value>ZB</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Contact Owner</fullName>
+        <actions>
+            <name>Update_Sales_Contact_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Role_Classification__c</field>
+            <operation>equals</operation>
+            <value>Zimmer Biomet Spine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sales Contact</value>
+        </criteriaItems>
+        <description>This workflow will assign Kelley komula as the contact owner if the Role Classification is Zimmer Spine, Office Country is US and the record type is Zimmer Sales Contact</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Contact record Type Hidden</fullName>
+        <actions>
+            <name>Contact_Record_type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.ContactRecord_Type_Hidden__c</field>
+            <operation>equals</operation>
+            <value>DN-Global-Contact Record Type</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Zimmer Sales Email</fullName>
+        <actions>
+            <name>Update_Zimmer_Sales_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When a Zimmer Sales record is marked as inactive, this will remove the email address from the email address field.</description>
+        <formula>AND(Inactive__c  = TRUE, RecordTypeId =&apos;012800000002DoB&apos;, not(INCLUDES( Account.Distributor_Specialties__c,&apos;Reconstructive&apos;)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>All Other</masterLabel>
+        <translation><!-- All Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bestehendes Geschäft</masterLabel>
+        <translation><!-- Bestehendes Geschäft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Care Coordination</masterLabel>
+        <translation><!-- Care Coordination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disease Specific Certification</masterLabel>
+        <translation><!-- Disease Specific Certification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Bulk Implant Order</masterLabel>
+        <translation><!-- Implant Placement- Bulk Implant Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Drill Stops</masterLabel>
+        <translation><!-- Implant Placement- Drill Stops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- ERA Mini</masterLabel>
+        <translation><!-- Implant Placement- ERA Mini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Guided Surgery Drills</masterLabel>
+        <translation><!-- Implant Placement- Guided Surgery Drills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Motor/Handpiece</masterLabel>
+        <translation><!-- Implant Placement- Motor/Handpiece --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Spoons</masterLabel>
+        <translation><!-- Implant Placement- Spoons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement- Surgical Kit</masterLabel>
+        <translation><!-- Implant Placement- Surgical Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement-Bulk Implant Order</masterLabel>
+        <translation><!-- Implant Placement-Bulk Implant Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement-Tube Adapters</masterLabel>
+        <translation><!-- Implant Placement-Tube Adapters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement-ZI Restorative Deal</masterLabel>
+        <translation><!-- Implant Placement-ZI Restorative Deal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Placement-ZI Surgical Deal</masterLabel>
+        <translation><!-- Implant Placement-ZI Surgical Deal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implants</masterLabel>
+        <translation><!-- Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instruments and Tools</masterLabel>
+        <translation><!-- Instruments and Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Assess</masterLabel>
+        <translation><!-- Joint Assess --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Implementation</masterLabel>
+        <translation><!-- Joint Implementation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSK - LTA</masterLabel>
+        <translation><!-- MSK - LTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSK - SLDP</masterLabel>
+        <translation><!-- MSK - SLDP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neues Geschäft</masterLabel>
+        <translation><!-- Neues Geschäft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity</masterLabel>
+        <translation><!-- Opportunity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perioperative - LTA</masterLabel>
+        <translation><!-- Perioperative - LTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perioperative Assess</masterLabel>
+        <translation><!-- Perioperative Assess --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Practice</masterLabel>
+        <translation><!-- Physician Practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative</masterLabel>
+        <translation><!-- Regenerative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Capsule</masterLabel>
+        <translation><!-- Regenerative- Capsule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- DBM Putty</masterLabel>
+        <translation><!-- Regenerative- DBM Putty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Hemcon</masterLabel>
+        <translation><!-- Regenerative- Hemcon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Membranes</masterLabel>
+        <translation><!-- Regenerative- Membranes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Other</masterLabel>
+        <translation><!-- Regenerative- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Puros Bulk Order</masterLabel>
+        <translation><!-- Regenerative- Puros Bulk Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative- Sinus Balloon</masterLabel>
+        <translation><!-- Regenerative- Sinus Balloon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative</masterLabel>
+        <translation><!-- Restorative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative- ERA Mini</masterLabel>
+        <translation><!-- Restorative- ERA Mini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative- PSA</masterLabel>
+        <translation><!-- Restorative- PSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative- Short Abutment (NEW)</masterLabel>
+        <translation><!-- Restorative- Short Abutment (NEW) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative-New Tools</masterLabel>
+        <translation><!-- Restorative-New Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk</masterLabel>
+        <translation><!-- Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special Project</masterLabel>
+        <translation><!-- Special Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology- Simplant</masterLabel>
+        <translation><!-- Technology- Simplant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZFX</masterLabel>
+        <translation><!-- ZFX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>シェアアップ</masterLabel>
+        <translation><!-- シェアアップ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>リスク</masterLabel>
+        <translation><!-- リスク --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新規</masterLabel>
+        <translation><!-- 新規 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>既存</masterLabel>
+        <translation><!-- 既存 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

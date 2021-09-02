@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_All_Time</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>Sales_Manager__c</columns>
+    <columns>Sales_Team_Name__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Created All Time</label>
+</ListView>

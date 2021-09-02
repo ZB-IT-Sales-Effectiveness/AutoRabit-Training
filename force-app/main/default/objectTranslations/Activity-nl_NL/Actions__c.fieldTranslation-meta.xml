@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Actions --></label>
+    <name>Actions__c</name>
+    <picklistValues>
+        <masterLabel>AI Advisory Groups</masterLabel>
+        <translation><!-- AI Advisory Groups --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beyond the Exam Room</masterLabel>
+        <translation><!-- Beyond the Exam Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Book Program</masterLabel>
+        <translation><!-- Book Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educational Grants</masterLabel>
+        <translation><!-- Educational Grants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellowship Alumni Program</masterLabel>
+        <translation><!-- Fellowship Alumni Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellowships</masterLabel>
+        <translation><!-- Fellowships --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grand Rounds</masterLabel>
+        <translation><!-- Grand Rounds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Surgeon to Surgeon</masterLabel>
+        <translation><!-- International Surgeon to Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Journal Clubs</masterLabel>
+        <translation><!-- Journal Clubs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local cadaveric workshop</masterLabel>
+        <translation><!-- Local cadaveric workshop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mentorships</masterLabel>
+        <translation><!-- Mentorships --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Fellowships</masterLabel>
+        <translation><!-- Mini Fellowships --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre/Post ZI session</masterLabel>
+        <translation><!-- Pre/Post ZI session --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sawbones</masterLabel>
+        <translation><!-- Sawbones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Visit -  Parsippany</masterLabel>
+        <translation><!-- Site Visit -  Parsippany --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Visit - Austin</masterLabel>
+        <translation><!-- Site Visit - Austin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Visit - Warsaw</masterLabel>
+        <translation><!-- Site Visit - Warsaw --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z Business Segment to Institution</masterLabel>
+        <translation><!-- Z Business Segment to Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z Clinicals to Institution</masterLabel>
+        <translation><!-- Z Clinicals to Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z H ealth Economies to Institution</masterLabel>
+        <translation><!-- Z H ealth Economies to Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z Research to Institution</masterLabel>
+        <translation><!-- Z Research to Institution --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

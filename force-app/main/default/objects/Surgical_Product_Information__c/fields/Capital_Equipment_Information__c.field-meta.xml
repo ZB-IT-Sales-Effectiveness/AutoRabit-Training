@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capital_Equipment_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Capital/Disposable Equipment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fluid Waste Management</fullName>
+                <default>false</default>
+                <label>Fluid Waste Management</label>
+            </value>
+            <value>
+                <fullName>Power Equipment</fullName>
+                <default>false</default>
+                <label>Power Equipment</label>
+            </value>
+            <value>
+                <fullName>Tourniquets</fullName>
+                <default>false</default>
+                <label>Tourniquets</label>
+            </value>
+            <value>
+                <fullName>Surgical Helmet</fullName>
+                <default>false</default>
+                <label>Surgical Helmet</label>
+            </value>
+            <value>
+                <fullName>Traction</fullName>
+                <default>false</default>
+                <label>Traction</label>
+            </value>
+            <value>
+                <fullName>Wound Debridement</fullName>
+                <default>false</default>
+                <label>Wound Debridement</label>
+            </value>
+            <value>
+                <fullName>Saw Blades</fullName>
+                <default>false</default>
+                <label>Saw Blades</label>
+            </value>
+            <value>
+                <fullName>Disposable Tourniquets</fullName>
+                <default>false</default>
+                <label>Disposable Tourniquets</label>
+            </value>
+            <value>
+                <fullName>Blood Management</fullName>
+                <default>false</default>
+                <label>Blood Management</label>
+            </value>
+            <value>
+                <fullName>Bone Cement Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement Accessories</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

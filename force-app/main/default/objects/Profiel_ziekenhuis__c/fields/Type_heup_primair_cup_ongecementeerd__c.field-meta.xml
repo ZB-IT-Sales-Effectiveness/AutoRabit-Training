@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_primair_cup_ongecementeerd__c</fullName>
+    <description>Kies het type ongecementeerde cup voor de primaire heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type ongecementeerde cup voor de primaire heup.</inlineHelpText>
+    <label>Type heup primair cup ongecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_primair_cup_ongecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allofit</fullName>
+                <default>false</default>
+                <label>Allofit</label>
+            </value>
+            <value>
+                <fullName>Allofit IT</fullName>
+                <default>false</default>
+                <label>Allofit IT</label>
+            </value>
+            <value>
+                <fullName>CLS expansie cup</fullName>
+                <default>false</default>
+                <label>CLS expansie cup</label>
+            </value>
+            <value>
+                <fullName>Continuum</fullName>
+                <default>false</default>
+                <label>Continuum</label>
+            </value>
+            <value>
+                <fullName>CSF cup</fullName>
+                <default>false</default>
+                <label>CSF cup</label>
+            </value>
+            <value>
+                <fullName>Durom LDH</fullName>
+                <default>false</default>
+                <label>Durom LDH</label>
+            </value>
+            <value>
+                <fullName>Fitmore</fullName>
+                <default>false</default>
+                <label>Fitmore</label>
+            </value>
+            <value>
+                <fullName>Maxera</fullName>
+                <default>false</default>
+                <label>Maxera</label>
+            </value>
+            <value>
+                <fullName>TM modular</fullName>
+                <default>false</default>
+                <label>TM modular</label>
+            </value>
+            <value>
+                <fullName>TM Monobloc</fullName>
+                <default>false</default>
+                <label>TM Monobloc</label>
+            </value>
+            <value>
+                <fullName>Trilogy cup</fullName>
+                <default>false</default>
+                <label>Trilogy cup</label>
+            </value>
+            <value>
+                <fullName>Vitek</fullName>
+                <default>false</default>
+                <label>Vitek</label>
+            </value>
+            <value>
+                <fullName>Ceracup</fullName>
+                <default>false</default>
+                <label>Ceracup</label>
+            </value>
+            <value>
+                <fullName>Mallory head</fullName>
+                <default>false</default>
+                <label>Mallory head</label>
+            </value>
+            <value>
+                <fullName>M2a</fullName>
+                <default>false</default>
+                <label>M2a</label>
+            </value>
+            <value>
+                <fullName>Avantage</fullName>
+                <default>false</default>
+                <label>Avantage</label>
+            </value>
+            <value>
+                <fullName>Exceed</fullName>
+                <default>false</default>
+                <label>Exceed</label>
+            </value>
+            <value>
+                <fullName>Bionik</fullName>
+                <default>false</default>
+                <label>Bionik</label>
+            </value>
+            <value>
+                <fullName>Duraloc</fullName>
+                <default>false</default>
+                <label>Duraloc</label>
+            </value>
+            <value>
+                <fullName>Gription</fullName>
+                <default>false</default>
+                <label>Gription</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Ultamet</fullName>
+                <default>false</default>
+                <label>Ultamet</label>
+            </value>
+            <value>
+                <fullName>ExpanSys</fullName>
+                <default>false</default>
+                <label>ExpanSys</label>
+            </value>
+            <value>
+                <fullName>Mathys cup</fullName>
+                <default>false</default>
+                <label>Mathys cup</label>
+            </value>
+            <value>
+                <fullName>RM Classic</fullName>
+                <default>false</default>
+                <label>RM Classic</label>
+            </value>
+            <value>
+                <fullName>RM press fit</fullName>
+                <default>false</default>
+                <label>RM press fit</label>
+            </value>
+            <value>
+                <fullName>SeleXys</fullName>
+                <default>false</default>
+                <label>SeleXys</label>
+            </value>
+            <value>
+                <fullName>Bicon cup</fullName>
+                <default>false</default>
+                <label>Bicon cup</label>
+            </value>
+            <value>
+                <fullName>EP fit</fullName>
+                <default>false</default>
+                <label>EP fit</label>
+            </value>
+            <value>
+                <fullName>Hofer imhoff</fullName>
+                <default>false</default>
+                <label>Hofer imhoff</label>
+            </value>
+            <value>
+                <fullName>Reflection</fullName>
+                <default>false</default>
+                <label>Reflection</label>
+            </value>
+            <value>
+                <fullName>ABD cup</fullName>
+                <default>false</default>
+                <label>ABD cup</label>
+            </value>
+            <value>
+                <fullName>Osteonics cup</fullName>
+                <default>false</default>
+                <label>Osteonics cup</label>
+            </value>
+            <value>
+                <fullName>Trident cup</fullName>
+                <default>false</default>
+                <label>Trident cup</label>
+            </value>
+            <value>
+                <fullName>Tritanium Cup</fullName>
+                <default>false</default>
+                <label>Tritanium Cup</label>
+            </value>
+            <value>
+                <fullName>Converse</fullName>
+                <default>false</default>
+                <label>Converse</label>
+            </value>
+            <value>
+                <fullName>Dynasty</fullName>
+                <default>false</default>
+                <label>Dynasty</label>
+            </value>
+            <value>
+                <fullName>Gladiator (bipolair)</fullName>
+                <default>false</default>
+                <label>Gladiator (bipolair)</label>
+            </value>
+            <value>
+                <fullName>Lineage</fullName>
+                <default>false</default>
+                <label>Lineage</label>
+            </value>
+            <value>
+                <fullName>beta cup</fullName>
+                <default>false</default>
+                <label>beta cup</label>
+            </value>
+            <value>
+                <fullName>TOP</fullName>
+                <default>false</default>
+                <label>TOP</label>
+            </value>
+            <value>
+                <fullName>cementless screw in</fullName>
+                <default>false</default>
+                <label>cementless screw in</label>
+            </value>
+            <value>
+                <fullName>vario cup bipolair</fullName>
+                <default>false</default>
+                <label>vario cup bipolair</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Allofit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Allofit IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CLS expansie cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Continuum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CSF cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Durom LDH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Fitmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Maxera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>TM modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>TM Monobloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Trilogy cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Vitek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Ceracup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Mallory head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>M2a</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Avantage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Exceed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Bionik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Duraloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Gription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Pinnacle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Ultamet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>ExpanSys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Mathys cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>RM Classic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>RM press fit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>SeleXys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Bicon cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>EP fit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Hofer imhoff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Reflection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>ABD cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Osteonics cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Trident cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Tritanium Cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Converse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Dynasty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Gladiator (bipolair)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Lineage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>beta cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>TOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>cementless screw in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>vario cup bipolair</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

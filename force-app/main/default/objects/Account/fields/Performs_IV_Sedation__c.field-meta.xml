@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Performs_IV_Sedation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Performs IV Sedation</description>
+    <externalId>false</externalId>
+    <label>Performs IV Sedation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

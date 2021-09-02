@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Connection Type --></label>
+    <name>Connection_Type__c</name>
+    <picklistValues>
+        <masterLabel>Ambra</masterLabel>
+        <translation><!-- Ambra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDs</masterLabel>
+        <translation><!-- CDs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Citrix ShareFile</masterLabel>
+        <translation><!-- Citrix ShareFile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compass</masterLabel>
+        <translation><!-- Compass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FTP Assistance</masterLabel>
+        <translation><!-- FTP Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facilities Gateway</masterLabel>
+        <translation><!-- Facilities Gateway --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IEP</masterLabel>
+        <translation><!-- IEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LifeImage</masterLabel>
+        <translation><!-- LifeImage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuance</masterLabel>
+        <translation><!-- Nuance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nucleus</masterLabel>
+        <translation><!-- Nucleus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VPN</masterLabel>
+        <translation><!-- VPN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtual Image Exchange (DataCard)</masterLabel>
+        <translation><!-- Virtual Image Exchange (DataCard) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

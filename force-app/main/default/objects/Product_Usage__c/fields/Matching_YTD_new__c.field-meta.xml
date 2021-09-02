@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matching_YTD_new__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(
+	OR(
+		AND	(
+			Date__c &lt; TODAY(),
+			Date__c&gt;= DATE( YEAR( TODAY() ),01,01)
+			),
+		AND	(
+			Date__c &lt; DATE( YEAR( TODAY())-1 ,MONTH(TODAY()),DAY(TODAY())),
+			Date__c&gt;= DATE( YEAR( TODAY())-1 ,01,01)
+			)
+		), 
+	TRUE,
+	FALSE
+	)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Matching YTD</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

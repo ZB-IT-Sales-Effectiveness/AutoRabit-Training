@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Meeting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Meetings</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- DN-CA-Event Record Type --></label>
+        <name>DN_CA_Event_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU-Event Record Type --></label>
+        <name>DN_EU_Event_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-US-Event Record Type --></label>
+        <name>DN_US_Event_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DO-NOT-USE --></label>
+        <name>DO_NOT_USE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Event Record Type --></label>
+        <name>EU_Event_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TDCMobileLayout2 --></label>
+        <name>TDCMobileLayout2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is used by the US Ortho sales group to log meetings --></description>
+        <label><!-- US Ortho Sales --></label>
+        <name>US_Ortho_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zimmer Standard Meeting --></label>
+        <name>Zimmer_Standard_Meeting</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only Account, Opportunity or Campaign allowed. --></errorMessage>
+        <name>Related_To_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

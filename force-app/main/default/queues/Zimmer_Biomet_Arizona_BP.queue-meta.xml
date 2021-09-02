@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Zimmer Biomet Arizona - BP</name>
+    <queueMembers>
+        <users>
+            <user>abel.shepherd@zimmerbiomet.com</user>
+            <user>mark.a.smith@zimmerbiomet.com</user>
+            <user>terrance.sheridan@zimmerbiomet.com</user>
+            <user>tim.scott1@zimmerbiomet.com</user>
+            <user>vince.abram@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

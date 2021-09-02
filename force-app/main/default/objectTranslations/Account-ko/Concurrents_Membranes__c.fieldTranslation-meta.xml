@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Concurrents Membranes --></label>
+    <name>Concurrents_Membranes__c</name>
+    <picklistValues>
+        <masterLabel>Bio-Gide (Geistlich)</masterLabel>
+        <translation><!-- Bio-Gide (Geistlich) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaguide (Curasan)</masterLabel>
+        <translation><!-- Collaguide (Curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collprotect (Botiss)</masterLabel>
+        <translation><!-- Collprotect (Botiss) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conform (Ace)</masterLabel>
+        <translation><!-- Conform (Ace) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos xeno protect (Nobel)</masterLabel>
+        <translation><!-- Creos xeno protect (Nobel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cytoplast (Curasan)</masterLabel>
+        <translation><!-- Cytoplast (Curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cytoplast RTM (Osteogenics)</masterLabel>
+        <translation><!-- Cytoplast RTM (Osteogenics) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamatrix (Keystone)</masterLabel>
+        <translation><!-- Dynamatrix (Keystone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Epiguide (Curasan)</masterLabel>
+        <translation><!-- Epiguide (Curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frios Boneshield (Dentsply)</masterLabel>
+        <translation><!-- Frios Boneshield (Dentsply) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason (Botiss)</masterLabel>
+        <translation><!-- Jason (Botiss) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membragel (Straumann)</masterLabel>
+        <translation><!-- Membragel (Straumann) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Memlok (Biohorizon)</masterLabel>
+        <translation><!-- Memlok (Biohorizon) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osseoguard (Biomet3i)</masterLabel>
+        <translation><!-- Osseoguard (Biomet3i) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ossix Plus (Regedent)</masterLabel>
+        <translation><!-- Ossix Plus (Regedent) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remotis (Thommen)</masterLabel>
+        <translation><!-- Remotis (Thommen) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

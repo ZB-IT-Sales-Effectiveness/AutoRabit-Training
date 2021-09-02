@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Yesterday_Chicagoland_Territory</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>Salesperson_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1081,1083,1082,1084,1010,1086,1087,1167,1094</value>
+    </filters>
+    <filters>
+        <field>Invoice_Date__c</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Invoiced Yesterday Chicagoland Territory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CEN_CL_NS_DDSS</group>
+        <group>DN_USA_Chicago_Land_NS_Regen</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Conference calls/meetings with Operation Leaders --></help>
+    <label><!-- Ops Calls/Meetings --></label>
+    <name>Ops_Calls_Meetings__c</name>
+</CustomFieldTranslation>

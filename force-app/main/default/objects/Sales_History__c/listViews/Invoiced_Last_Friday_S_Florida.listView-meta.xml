@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Last_Friday_S_Florida</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1142,1174,1032,1176,1057,1177,1172,1175</value>
+    </filters>
+    <filters>
+        <field>Invoiced_Last_Friday__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Invoiced Last Friday S. Florida</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_ST_SFL_DDSS</group>
+        <group>DN_USA_South_Florida_ISR</group>
+        <group>DN_USA_Southern_NFL_SFL_Regen</group>
+    </sharedTo>
+</ListView>

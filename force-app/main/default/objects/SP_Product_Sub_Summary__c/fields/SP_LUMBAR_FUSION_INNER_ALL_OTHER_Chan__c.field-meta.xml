@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_LUMBAR_FUSION_INNER_ALL_OTHER_Chan__c</fullName>
+    <externalId>false</externalId>
+    <formula>( SP_YTD_LUMBAR_FUSION_INNER_ALL_OTHER__c - SP_PYTD_LUMBAR_FUSION_INNER_ALL_OTHER__c ) / SP_PYTD_LUMBAR_FUSION_INNER_ALL_OTHER__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SP  LUMBAR FUSION INNER-ALL OTHER % Chan</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Communication_Engagement_Preference__c</fullName>
+    <externalId>false</externalId>
+    <label>Communication Engagement Preference</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Cell Phone</fullName>
+                <default>false</default>
+                <label>Cell Phone</label>
+            </value>
+            <value>
+                <fullName>Office Line</fullName>
+                <default>false</default>
+                <label>Office Line</label>
+            </value>
+            <value>
+                <fullName>Office Staff</fullName>
+                <default>false</default>
+                <label>Office Staff</label>
+            </value>
+            <value>
+                <fullName>Handler (Manager, Spouse, etc.)</fullName>
+                <default>false</default>
+                <label>Handler (Manager, Spouse, etc.)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

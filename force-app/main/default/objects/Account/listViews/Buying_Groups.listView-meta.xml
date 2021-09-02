@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buying_Groups</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_Name__c</columns>
+    <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
+    <columns>SAP_Customer_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.SAPKunde</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>Deutschland</value>
+    </filters>
+    <filters>
+        <field>Customer_Type__c</field>
+        <operation>equals</operation>
+        <value>Buying Group</value>
+    </filters>
+    <label>Buying Groups</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>EU_DE_Bonus_and_Contract_Management</group>
+        <group>EU_DE_Buying_Groups_Management</group>
+    </sharedTo>
+</ListView>

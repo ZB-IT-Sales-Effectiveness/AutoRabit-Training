@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_no_permission_to_update</fullName>
+    <active>true</active>
+    <description>SFDC Case# 08265676, validation rule has been tested in sandbox</description>
+    <errorConditionFormula>($Profile.Id = &quot;00eC0000001SlCf&quot;) &amp;&amp; (ISCHANGED(Email) || ISCHANGED(Division ) || ISCHANGED(Business_Division__c ) || ISCHANGED( FirstName) || ISCHANGED( LastName) || ISCHANGED( Alias) || ISCHANGED( CompanyName ) || ISCHANGED( Region__c ) || ISCHANGED( Geography__c ) || ISCHANGED(Username))</errorConditionFormula>
+    <errorMessage>You do not have permission to edit the following fields: First name, Last Name, Alias, Email, Company, Division, Region, Geography.</errorMessage>
+</ValidationRule>

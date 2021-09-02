@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Information_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Information Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Related_Information__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Discovery Health</fullName>
+                <default>false</default>
+                <label>Discovery Health</label>
+            </value>
+            <value>
+                <fullName>Fine Living</fullName>
+                <default>false</default>
+                <label>Fine Living</label>
+            </value>
+            <value>
+                <fullName>Hallmark</fullName>
+                <default>false</default>
+                <label>Hallmark</label>
+            </value>
+            <value>
+                <fullName>Lifetime</fullName>
+                <default>false</default>
+                <label>Lifetime</label>
+            </value>
+            <value>
+                <fullName>Lifetime Movie Network</fullName>
+                <default>false</default>
+                <label>Lifetime Movie Network</label>
+            </value>
+            <value>
+                <fullName>TV Land</fullName>
+                <default>false</default>
+                <label>TV Land</label>
+            </value>
+            <value>
+                <fullName>WE</fullName>
+                <default>false</default>
+                <label>WE</label>
+            </value>
+            <value>
+                <fullName>Memorial Baptist Church</fullName>
+                <default>false</default>
+                <label>Memorial Baptist Church</label>
+            </value>
+            <value>
+                <fullName>Full Gospel Baptist Fellowship Conference</fullName>
+                <default>false</default>
+                <label>Full Gospel Baptist Fellowship Conference</label>
+            </value>
+            <value>
+                <fullName>Beltway Church of Christ</fullName>
+                <default>false</default>
+                <label>Beltway Church of Christ</label>
+            </value>
+            <value>
+                <fullName>National Baptist Convention USA</fullName>
+                <default>false</default>
+                <label>National Baptist Convention USA</label>
+            </value>
+            <value>
+                <fullName>Hinesville, GA</fullName>
+                <default>false</default>
+                <label>Hinesville, GA</label>
+            </value>
+            <value>
+                <fullName>Baltimore, MD</fullName>
+                <default>false</default>
+                <label>Baltimore, MD</label>
+            </value>
+            <value>
+                <fullName>Ennis, TX</fullName>
+                <default>false</default>
+                <label>Ennis, TX</label>
+            </value>
+            <value>
+                <fullName>Rockwell, TX</fullName>
+                <default>false</default>
+                <label>Rockwell, TX</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lafayette, IN</fullName>
+                <default>false</default>
+                <label>Lafayette, IN</label>
+            </value>
+            <value>
+                <fullName>Union City, TN</fullName>
+                <default>false</default>
+                <label>Union City, TN</label>
+            </value>
+            <value>
+                <fullName>Pryor, OK</fullName>
+                <default>false</default>
+                <label>Pryor, OK</label>
+            </value>
+            <value>
+                <fullName>Indianapolis, IN</fullName>
+                <default>false</default>
+                <label>Indianapolis, IN</label>
+            </value>
+            <value>
+                <fullName>Mt. Summit, MI</fullName>
+                <default>false</default>
+                <label>Mt. Summit, MI</label>
+            </value>
+            <value>
+                <fullName>Windham, NH</fullName>
+                <default>false</default>
+                <label>Windham, NH</label>
+            </value>
+            <value>
+                <fullName>West Chester, OH</fullName>
+                <default>false</default>
+                <label>West Chester, OH</label>
+            </value>
+            <value>
+                <fullName>Towson, MD</fullName>
+                <default>false</default>
+                <label>Towson, MD</label>
+            </value>
+            <value>
+                <fullName>Raleigh, NC</fullName>
+                <default>false</default>
+                <label>Raleigh, NC</label>
+            </value>
+            <value>
+                <fullName>St. Petersburg, FL</fullName>
+                <default>false</default>
+                <label>St. Petersburg, FL</label>
+            </value>
+            <value>
+                <fullName>Atlanta, GA</fullName>
+                <default>false</default>
+                <label>Atlanta, GA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Back In the Groove</controllingFieldValue>
+            <valueName>Memorial Baptist Church</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In the Groove</controllingFieldValue>
+            <valueName>Full Gospel Baptist Fellowship Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In the Groove</controllingFieldValue>
+            <valueName>Beltway Church of Christ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In the Groove</controllingFieldValue>
+            <valueName>National Baptist Convention USA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars</controllingFieldValue>
+            <valueName>Hinesville, GA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars</controllingFieldValue>
+            <valueName>Baltimore, MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars</controllingFieldValue>
+            <valueName>Ennis, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars</controllingFieldValue>
+            <valueName>Rockwell, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Discovery Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Fine Living</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Hallmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Lifetime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Lifetime Movie Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>TV Land</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>WE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

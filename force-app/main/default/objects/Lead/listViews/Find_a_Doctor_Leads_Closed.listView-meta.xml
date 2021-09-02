@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Find_a_Doctor_Leads_Closed</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Practice_City_1__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Practice_State_1__c</columns>
+    <columns>Physician_Email__c</columns>
+    <columns>Zimmer_Distributor__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Surgeon_Leads</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Physician Locator</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <label>Find a Doctor Leads - CLOSED</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>CallCenterRepresentative</role>
+        <role>CoordinatorInteractiveComm</role>
+    </sharedTo>
+</ListView>

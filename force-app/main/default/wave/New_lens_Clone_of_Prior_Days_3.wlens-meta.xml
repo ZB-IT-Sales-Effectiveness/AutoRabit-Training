@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveLens xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>DN_RSM_PTQ</application>
+    <datasets>PerformanceToQuota</datasets>
+    <masterLabel>New lens: Clone_of_Prior_Days__3</masterLabel>
+    <visualizationType>hbar</visualizationType>
+</WaveLens>

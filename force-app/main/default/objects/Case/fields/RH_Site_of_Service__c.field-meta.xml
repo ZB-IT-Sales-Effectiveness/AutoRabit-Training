@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RH_Site_of_Service__c</fullName>
+    <externalId>false</externalId>
+    <label>RH Site of Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ambulatory Surgery Center</fullName>
+                <default>false</default>
+                <label>Ambulatory Surgery Center</label>
+            </value>
+            <value>
+                <fullName>Clinic</fullName>
+                <default>false</default>
+                <label>Clinic</label>
+            </value>
+            <value>
+                <fullName>Hospital Inpatient</fullName>
+                <default>false</default>
+                <label>Hospital Inpatient</label>
+            </value>
+            <value>
+                <fullName>Hospital Outpatient</fullName>
+                <default>false</default>
+                <label>Hospital Outpatient</label>
+            </value>
+            <value>
+                <fullName>Physician Office Practice</fullName>
+                <default>false</default>
+                <label>Physician Office Practice</label>
+            </value>
+            <value>
+                <fullName>Imaging Center</fullName>
+                <default>false</default>
+                <label>Imaging Center</label>
+            </value>
+            <value>
+                <fullName>Laboratory</fullName>
+                <default>false</default>
+                <label>Laboratory</label>
+            </value>
+            <value>
+                <fullName>Diagnostic</fullName>
+                <default>false</default>
+                <label>Diagnostic</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>Patient</fullName>
+                <default>false</default>
+                <label>Patient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

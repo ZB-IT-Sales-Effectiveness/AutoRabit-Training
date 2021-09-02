@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Customer = Purchased in the last 2 years
+Dormant Customer = Purchased 2-4 years ago
+Non-Customer = Purchased more than 4 years ago or has never purchased --></help>
+    <label>客户类型</label>
+    <name>Account_Type__c</name>
+</CustomFieldTranslation>

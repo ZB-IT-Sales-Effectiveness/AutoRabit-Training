@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Yesterday_Southeast_Territory</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1132,1122,1019,1190,1191,1103,1050,1192,1059</value>
+    </filters>
+    <filters>
+        <field>Invoice_Date__c</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Invoiced Yesterday Southeast Territory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CB_Capitol_Southeast_Regen</group>
+        <group>DN_USA_CP_SE_DDSS</group>
+        <group>DN_USA_Mountain_MSD_ISR</group>
+    </sharedTo>
+</ListView>

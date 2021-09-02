@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_Task_Record_Type</fullName>
+    <active>true</active>
+    <label>EU-Task Record Type</label>
+    <picklistValues>
+        <picklist>Actions__c</picklist>
+        <values>
+            <fullName>Educational Grants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fellowships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Surgeon to Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentorships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mini Fellowships</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Call_Disposition2__c</picklist>
+        <values>
+            <fullName>Busy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not in Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C-Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Director of Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EventState__c</picklist>
+        <values>
+            <fullName>called off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>postponed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objectives__c</picklist>
+        <values>
+            <fullName>Better Customer connectivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create an Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perform an Inventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produce Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule a Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Family__c</picklist>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jar Grips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>Biologics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Cement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Substitutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAS Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMF-T Neuro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cervical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dynamic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Fixation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extremities Instruments %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foot %26 Ankle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip Instruments %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee Creations Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee Instruments %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR Efficiency Program %28OREP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Planner Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personalized Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plates and Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Equipment %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proms Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA ONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spine Instruments %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thoraco-Lumbal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourniquets %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma Instruments %28Capital%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iASSIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mymobility</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Information_Details__c</picklist>
+        <values>
+            <fullName>Altoona%2C PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlanta%2C GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baldwin Hills%2C CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baltimore%2C MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beltway Church of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discovery Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ennis%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fine Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Gospel Baptist Fellowship Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hallmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanover%2C PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hinesville%2C GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis%2C IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lafayette%2C IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifetime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifetime Movie Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial Baptist Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memphis%2C TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mt%2E Summit%2C MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Baptist Convention 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Baptist Convention 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Baptist Convention 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York%2CNY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other-N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pryor%2C OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh%2C NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockwell%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Petersburg%2C FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV Land</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tampa State Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Towson%2C MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Union City%2C TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vero Beach%2C FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Chester%2C OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windham%2C NH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Information__c</picklist>
+        <values>
+            <fullName>AARP 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arthritis Today</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial%2FAd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Seminars 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Seminars 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GKnee 11%2F2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBGYN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthopaedic Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other-N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prevention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Care Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recon Campaign Q2 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Story%2FArticle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Precision 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Randall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Sites</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Results__c</picklist>
+        <values>
+            <fullName>big problem%2C solve immedeately</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>little problem but solved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>no problem customer constant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>urgent problem%2C must be solved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shoreisu__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on someone else</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Activate consignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bioskills training course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book CSD in-service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book nurse in-service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case attendance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Evidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive product comparison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Extension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Negotiation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational site visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Identify Related Contacts%2FUpdate Contact Roles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrument Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Notice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Education Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed - Course Attendance Invitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meet Related Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Clinical Evidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Product Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Service Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Supply Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon to surgeon Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial case request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject_Source__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

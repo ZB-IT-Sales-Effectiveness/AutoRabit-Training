@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_ROSA_Imaging_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Indicator__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed Adjusted,Closed Agreed,Closed Disputed,Closed</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>spark,areth,dhetr,athac,PS-ROSA Imaging</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Personalized_Solution</value>
+    </filters>
+    <label>PS-ROSA Imaging</label>
+    <sharedTo>
+        <group>Administrators</group>
+        <role>My_Mobility_Support_Agent</role>
+        <role>My_Mobility_Support_Manager</role>
+        <roleAndSubordinatesInternal>CAS_Call_Center</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Management_Personalized_Solutions</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Personlized_Solutions_Agent</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Personlized_Solutions_Manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

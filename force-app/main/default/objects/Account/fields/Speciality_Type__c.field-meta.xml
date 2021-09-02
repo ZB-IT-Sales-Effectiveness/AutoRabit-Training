@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speciality_Type__c</fullName>
+    <description>Specialty Type - Custom Picklist</description>
+    <externalId>false</externalId>
+    <label>Specialty Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CA DOD</fullName>
+                <default>false</default>
+                <label>CA DOD</label>
+            </value>
+            <value>
+                <fullName>Centre mutualiste</fullName>
+                <default>false</default>
+                <label>Centre mutualiste</label>
+            </value>
+            <value>
+                <fullName>Denturist</fullName>
+                <default>false</default>
+                <label>Denturist</label>
+            </value>
+            <value>
+                <fullName>Denturist CA</fullName>
+                <default>false</default>
+                <label>Denturist CA</label>
+            </value>
+            <value>
+                <fullName>Dept of Defense</fullName>
+                <default>false</default>
+                <label>Dept of Defense</label>
+            </value>
+            <value>
+                <fullName>Dept of Justice</fullName>
+                <default>false</default>
+                <label>Dept of Justice</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Endodontist</fullName>
+                <default>false</default>
+                <label>Endodontist</label>
+            </value>
+            <value>
+                <fullName>Etablissement de Santé privé</fullName>
+                <default>false</default>
+                <label>Etablissement de Santé privé</label>
+            </value>
+            <value>
+                <fullName>Etablissement de Santé public</fullName>
+                <default>false</default>
+                <label>Etablissement de Santé public</label>
+            </value>
+            <value>
+                <fullName>General Dentist</fullName>
+                <default>false</default>
+                <label>General Dentist</label>
+            </value>
+            <value>
+                <fullName>Government CA</fullName>
+                <default>false</default>
+                <label>Government CA</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Implantologist</fullName>
+                <default>false</default>
+                <label>Implantologist</label>
+            </value>
+            <value>
+                <fullName>Institution</fullName>
+                <default>false</default>
+                <label>Institution</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>Medical Doctor</fullName>
+                <default>false</default>
+                <label>Medical Doctor</label>
+            </value>
+            <value>
+                <fullName>Military CA</fullName>
+                <default>false</default>
+                <label>Military CA</label>
+            </value>
+            <value>
+                <fullName>Multispecialty</fullName>
+                <default>false</default>
+                <label>Multispecialty</label>
+            </value>
+            <value>
+                <fullName>Oral Surgeon</fullName>
+                <default>false</default>
+                <label>Oral Surgeon</label>
+            </value>
+            <value>
+                <fullName>Orthodontist</fullName>
+                <default>false</default>
+                <label>Orthodontist</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pedodontist</fullName>
+                <default>false</default>
+                <label>Pedodontist</label>
+            </value>
+            <value>
+                <fullName>Periodontist</fullName>
+                <default>false</default>
+                <label>Periodontist</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Prosthodontist</fullName>
+                <default>false</default>
+                <label>Prosthodontist</label>
+            </value>
+            <value>
+                <fullName>Restorative Dentist</fullName>
+                <default>false</default>
+                <label>Restorative Dentist</label>
+            </value>
+            <value>
+                <fullName>University</fullName>
+                <default>false</default>
+                <label>University</label>
+            </value>
+            <value>
+                <fullName>VA Account</fullName>
+                <default>false</default>
+                <label>VA Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

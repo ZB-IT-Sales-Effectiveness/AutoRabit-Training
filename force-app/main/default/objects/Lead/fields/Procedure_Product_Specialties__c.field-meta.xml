@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procedure_Product_Specialties__c</fullName>
+    <externalId>false</externalId>
+    <label>Procedure/Product Specialties</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adkins Strut</fullName>
+                <default>false</default>
+                <label>Adkins Strut</label>
+            </value>
+            <value>
+                <fullName>Anterior Spine</fullName>
+                <default>false</default>
+                <label>Anterior Spine</label>
+            </value>
+            <value>
+                <fullName>Anterior Supine</fullName>
+                <default>false</default>
+                <label>Anterior Supine</label>
+            </value>
+            <value>
+                <fullName>Computer Assisted Solutions/Navigation</fullName>
+                <default>false</default>
+                <label>Computer Assisted Solutions/Navigation</label>
+            </value>
+            <value>
+                <fullName>Continuum</fullName>
+                <default>false</default>
+                <label>Continuum</label>
+            </value>
+            <value>
+                <fullName>Continuum Metal on Metal</fullName>
+                <default>false</default>
+                <label>Continuum Metal on Metal</label>
+            </value>
+            <value>
+                <fullName>Denovo NT</fullName>
+                <default>false</default>
+                <label>Denovo NT</label>
+            </value>
+            <value>
+                <fullName>Early Intervention</fullName>
+                <default>false</default>
+                <label>Early Intervention</label>
+            </value>
+            <value>
+                <fullName>Fitmore</fullName>
+                <default>false</default>
+                <label>Fitmore</label>
+            </value>
+            <value>
+                <fullName>Gel-One</fullName>
+                <default>false</default>
+                <label>Gel-One</label>
+            </value>
+            <value>
+                <fullName>Gender Knee</fullName>
+                <default>false</default>
+                <label>Gender Knee</label>
+            </value>
+            <value>
+                <fullName>Kinectiv</fullName>
+                <default>false</default>
+                <label>Kinectiv</label>
+            </value>
+            <value>
+                <fullName>LPS Flex Mobile</fullName>
+                <default>false</default>
+                <label>LPS Flex Mobile</label>
+            </value>
+            <value>
+                <fullName>Minimally Invasive Solutions (MIS)</fullName>
+                <default>false</default>
+                <label>Minimally Invasive Solutions (MIS)</label>
+            </value>
+            <value>
+                <fullName>Orthobiologics</fullName>
+                <default>false</default>
+                <label>Orthobiologics</label>
+            </value>
+            <value>
+                <fullName>Partial Knee, Patello-Femoral Joint</fullName>
+                <default>false</default>
+                <label>Partial Knee, Patello-Femoral Joint</label>
+            </value>
+            <value>
+                <fullName>Partial Knee, Unicompartmental Knee</fullName>
+                <default>false</default>
+                <label>Partial Knee, Unicompartmental Knee</label>
+            </value>
+            <value>
+                <fullName>Patient Specific Instruments</fullName>
+                <default>false</default>
+                <label>Patient Specific Instruments</label>
+            </value>
+            <value>
+                <fullName>Pectus Bar</fullName>
+                <default>false</default>
+                <label>Pectus Bar</label>
+            </value>
+            <value>
+                <fullName>Persona</fullName>
+                <default>false</default>
+                <label>Persona</label>
+            </value>
+            <value>
+                <fullName>Persona Knee System</fullName>
+                <default>false</default>
+                <label>Persona Knee System</label>
+            </value>
+            <value>
+                <fullName>Revision Hip</fullName>
+                <default>false</default>
+                <label>Revision Hip</label>
+            </value>
+            <value>
+                <fullName>Revision Knee</fullName>
+                <default>false</default>
+                <label>Revision Knee</label>
+            </value>
+            <value>
+                <fullName>Ribfix Blu</fullName>
+                <default>false</default>
+                <label>RibFix Blu</label>
+            </value>
+            <value>
+                <fullName>SternaLock 360</fullName>
+                <default>false</default>
+                <label>SternaLock 360</label>
+            </value>
+            <value>
+                <fullName>SternaLock Blu</fullName>
+                <default>false</default>
+                <label>SternaLock Blu</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal</fullName>
+                <default>false</default>
+                <label>Trabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal Total Ankle</fullName>
+                <default>false</default>
+                <label>Trabecular Metal Total Ankle</label>
+            </value>
+            <value>
+                <fullName>Vivacit-E</fullName>
+                <default>false</default>
+                <label>Vivacit-E</label>
+            </value>
+            <value>
+                <fullName>Vivacit-E-Hip Construct</fullName>
+                <default>false</default>
+                <label>Vivacit-E-Hip Construct</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Professione o funzione</label>
+    <name>Function__c</name>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation>Aiuto chirurgo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Primario</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation>Aiuto Primario</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation>Capo chirurgo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP-Lead</masterLabel>
+        <translation>Vice Caposala</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation>Direttore</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation>General Manager</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Responsabile dell’amministrazione</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing Department</masterLabel>
+        <translation>Responsabile dell’ufficio acquisti</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Chirurgo esperto di riferimento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation>Chirurgo esperto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Male OP Nurse</masterLabel>
+        <translation>Strumentista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Direttore Medico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>Strumentista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP-Lead</masterLabel>
+        <translation>OP-Caposala</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation>Proprietario</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Farmacista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Department</masterLabel>
+        <translation>Ufficio acquisti</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation>Segretario</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation>Aiuto chirurgo esperto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Chirurgo esperto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Chirurgo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Service</masterLabel>
+        <translation>Servizio tecnico</translation>
+    </picklistValues>
+</CustomFieldTranslation>

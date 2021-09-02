@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_MIDARK_SURGICAL_NIPPS_0031_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MIDARK SURGICAL (NIPPS) (0031) QUEUE</label>
+    <queue>Q_MIDARK_SURGICAL_NIPPS_0031</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

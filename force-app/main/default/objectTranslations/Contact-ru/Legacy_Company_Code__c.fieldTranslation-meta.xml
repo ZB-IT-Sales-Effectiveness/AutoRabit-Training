@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Z: Zimmer
+B: Biomet
+ZB: Zimmer Biomet --></help>
+    <label><!-- Legacy Company Code --></label>
+    <name>Legacy_Company_Code__c</name>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation><!-- B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z</masterLabel>
+        <translation><!-- Z --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB</masterLabel>
+        <translation><!-- ZB --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

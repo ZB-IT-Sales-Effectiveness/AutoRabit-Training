@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Region --></label>
+    <name>Region__c</name>
+    <picklistValues>
+        <masterLabel>Appalachian</masterLabel>
+        <translation><!-- Appalachian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buckeye</masterLabel>
+        <translation><!-- Buckeye --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capitol</masterLabel>
+        <translation><!-- Capitol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central</masterLabel>
+        <translation><!-- Central --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Canada</masterLabel>
+        <translation><!-- Central Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chesapeake Bay</masterLabel>
+        <translation><!-- Chesapeake Bay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chicago Land</masterLabel>
+        <translation><!-- Chicago Land --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Sales</masterLabel>
+        <translation><!-- Corporate Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital</masterLabel>
+        <translation><!-- Digital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East-Canada</masterLabel>
+        <translation><!-- East-Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden State</masterLabel>
+        <translation><!-- Garden State --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden Gate</masterLabel>
+        <translation><!-- Golden Gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Great Lakes</masterLabel>
+        <translation><!-- Great Lakes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Islands</masterLabel>
+        <translation><!-- Islands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Stone</masterLabel>
+        <translation><!-- Key Stone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lone Star</masterLabel>
+        <translation><!-- Lone Star --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metro New York</masterLabel>
+        <translation><!-- Metro New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mississippi Delta</masterLabel>
+        <translation><!-- Mississippi Delta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mountain</masterLabel>
+        <translation><!-- Mountain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North New England</masterLabel>
+        <translation><!-- North New England --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Star</masterLabel>
+        <translation><!-- North Star --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pacific Northwest</masterLabel>
+        <translation><!-- Pacific Northwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Florida</masterLabel>
+        <translation><!-- South Florida --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South New England</masterLabel>
+        <translation><!-- South New England --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern</masterLabel>
+        <translation><!-- Southern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West</masterLabel>
+        <translation><!-- West --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

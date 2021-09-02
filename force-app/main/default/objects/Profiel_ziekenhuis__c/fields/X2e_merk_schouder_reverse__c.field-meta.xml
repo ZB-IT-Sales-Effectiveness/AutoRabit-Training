@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_merk_schouder_reverse__c</fullName>
+    <externalId>false</externalId>
+    <label>2e merk schouder reverse</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Zimmer</fullName>
+                <default>false</default>
+                <label>Zimmer</label>
+            </value>
+            <value>
+                <fullName>Johnson &amp; Johnson</fullName>
+                <default>false</default>
+                <label>Johnson &amp; Johnson</label>
+            </value>
+            <value>
+                <fullName>Smith Nephew</fullName>
+                <default>false</default>
+                <label>Smith Nephew</label>
+            </value>
+            <value>
+                <fullName>Tornier</fullName>
+                <default>false</default>
+                <label>Tornier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

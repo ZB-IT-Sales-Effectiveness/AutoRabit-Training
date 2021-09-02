@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Americas Reimbursement Hotline- Access to Care --></label>
+        <name>Americas_Reimbursement_Hotline_Access_to_Care</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Americas Reimbursement Hotline – Insurance Verification Request --></label>
+        <name>Americas_Reimbursement_Hotline_Insurance_Verification_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the standard record type for reimbursement hotline cases. --></description>
+        <label><!-- Americas Reimbursement Hotline – Standard Case --></label>
+        <name>Americas_Reimbursement_Hotline_Standard_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deal Support Request --></label>
+        <name>Deal_Support_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Case Record Type --></label>
+        <name>EU_Case_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Historical Case --></label>
+        <name>Historical_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- mymobility level 2 cases --></label>
+        <name>MyMobility_Level_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- mymobility --></label>
+        <name>My_Mobility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type has been created for PS-PACS Cases --></description>
+        <label><!-- PS-PACS --></label>
+        <name>PS_PACS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Persona IQ --></label>
+        <name>Persona_IQ</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Personalized Solutions --></label>
+        <name>Personalized_Solution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PS-ROSA Sites --></label>
+        <name>ROSA_Sites</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Operations --></label>
+        <name>Sales_Operations</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TC Export --></label>
+        <name>TC_Export</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TC Import --></label>
+        <name>TC_Import</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ZB Connect Case --></label>
+        <name>ZB_Connect_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Capital Solutions Deal Desk --></label>
+        <name>ZB_Deal_Support_Placement_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- cases created for Zimmer Cas Optical Call Center --></description>
+        <label><!-- Zimmer CAS Optical Call Center --></label>
+        <name>Zimmer_CAS_Optical_Call_Center</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cases Created for Zimmer CAS PSI Call Center --></description>
+        <label><!-- Zimmer CAS PSI Call Center --></label>
+        <name>Zimmer_CAS_PSI_Call_Center</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cases created for Zimmer CAS Support Call Center --></description>
+        <label><!-- Zimmer CAS Support Call Center --></label>
+        <name>Zimmer_CAS_Support_Call_Center</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- cases created for Zimmer CAS iAssist Call Center --></description>
+        <label><!-- Zimmer CAS iAssist Call Center --></label>
+        <name>Zimmer_CAS_iAssist_Call_Center</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Other reason is required as Case Reason is selected is &quot;Other&quot; --></errorMessage>
+        <name>Case_Reason_Other_Field_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Category Type. --></errorMessage>
+        <name>Category_Type_required_Picklist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Remove &quot;EtQ number CMP&quot; Field value for selected field values for- Category,Sub-Category, Category Type and CAS Solutions fields. --></errorMessage>
+        <name>ETQ_values_NOT_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter EtQ number. --></errorMessage>
+        <name>EtQ_Required_For_CAS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter EtQ number. --></errorMessage>
+        <name>EtQ_Required_for_Personalized_Solutions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Execute, Legal name is mandatory --></errorMessage>
+        <name>Legal_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other(Sub-Category) is required as Sub-category is selected is &quot;Other&quot;. --></errorMessage>
+        <name>Other_Subcategory_Field_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter CAS Solution Description. --></errorMessage>
+        <name>PSI_Solution_Description_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed with Category =&quot;- - None- - &quot; --></errorMessage>
+        <name>PS_Close_case_error_NONE_cate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Uncheck &apos;New Email&apos; to close the case. --></errorMessage>
+        <name>PS_Close_case_error_for_new_email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Personalized Solutions cases can only be assigned to Personalized Solutions users and CAS Agents and PS-queues. --></errorMessage>
+        <name>PS_Owner_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Person Name is required as Particular Person is selected --></errorMessage>
+        <name>Person_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the details in Persona IQ Complaint # or RMA # field. --></errorMessage>
+        <name>Persona_IQ_Complaint_field_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a Specific Date for which this case must be closed --></errorMessage>
+        <name>Priority_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose ZBConnect Employee to notify for Site Visit, Regional Sales Director, GPO/Strategic Account Requests. --></errorMessage>
+        <name>Zimmer_RequireNotifyField</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the following fields before closure: mymobility User Id, Category, Sub-Category and change the Owner to Individual User --></errorMessage>
+        <name>mymobility_validation_rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Segment_as_per_Recovery_Model__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Segment (as per Recovery Model)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Private East</fullName>
+                <default>false</default>
+                <label>Private East</label>
+            </value>
+            <value>
+                <fullName>Private West</fullName>
+                <default>false</default>
+                <label>Private West</label>
+            </value>
+            <value>
+                <fullName>Public East</fullName>
+                <default>false</default>
+                <label>Public East</label>
+            </value>
+            <value>
+                <fullName>Public West</fullName>
+                <default>false</default>
+                <label>Public West</label>
+            </value>
+            <value>
+                <fullName>Private And Covid Center</fullName>
+                <default>false</default>
+                <label>Private And Covid Center</label>
+            </value>
+            <value>
+                <fullName>Private And Non Covid Center</fullName>
+                <default>false</default>
+                <label>Private And Non Covid Center</label>
+            </value>
+            <value>
+                <fullName>Public And Covid Center</fullName>
+                <default>false</default>
+                <label>Public And Covid Center</label>
+            </value>
+            <value>
+                <fullName>Public And Non Covid Center</fullName>
+                <default>false</default>
+                <label>Public And Non Covid Center</label>
+            </value>
+            <value>
+                <fullName>Uni</fullName>
+                <default>false</default>
+                <label>Uni</label>
+            </value>
+            <value>
+                <fullName>Covid Hospital</fullName>
+                <default>false</default>
+                <label>Covid Hospital</label>
+            </value>
+            <value>
+                <fullName>Private Hospital</fullName>
+                <default>false</default>
+                <label>Private Hospital</label>
+            </value>
+            <value>
+                <fullName>Public Hospital</fullName>
+                <default>false</default>
+                <label>Public Hospital</label>
+            </value>
+            <value>
+                <fullName>University Hospital</fullName>
+                <default>false</default>
+                <label>University Hospital</label>
+            </value>
+            <value>
+                <fullName>North/Central General Hospitals</fullName>
+                <default>false</default>
+                <label>North/Central General Hospitals</label>
+            </value>
+            <value>
+                <fullName>North/Central Ortho-focused</fullName>
+                <default>false</default>
+                <label>North/Central Ortho-focused</label>
+            </value>
+            <value>
+                <fullName>North/Central Ortho-strictly</fullName>
+                <default>false</default>
+                <label>North/Central Ortho-strictly</label>
+            </value>
+            <value>
+                <fullName>South General Hospitals</fullName>
+                <default>false</default>
+                <label>South General Hospitals</label>
+            </value>
+            <value>
+                <fullName>South Ortho-focused</fullName>
+                <default>false</default>
+                <label>South Ortho-focused</label>
+            </value>
+            <value>
+                <fullName>South Ortho-strictly</fullName>
+                <default>false</default>
+                <label>South Ortho-strictly</label>
+            </value>
+            <value>
+                <fullName>Covid-19 Centers</fullName>
+                <default>false</default>
+                <label>Covid-19 Centers</label>
+            </value>
+            <value>
+                <fullName>Fast Recov Speed</fullName>
+                <default>false</default>
+                <label>Fast Recov Speed</label>
+            </value>
+            <value>
+                <fullName>Medium Recov Speed</fullName>
+                <default>false</default>
+                <label>Medium Recov Speed</label>
+            </value>
+            <value>
+                <fullName>Private Ortho Clinics</fullName>
+                <default>false</default>
+                <label>Private Ortho Clinics</label>
+            </value>
+            <value>
+                <fullName>Slow Recov Speed</fullName>
+                <default>false</default>
+                <label>Slow Recov Speed</label>
+            </value>
+            <value>
+                <fullName>Insurance Companies</fullName>
+                <default>false</default>
+                <label>Insurance Companies</label>
+            </value>
+            <value>
+                <fullName>Large Distributors</fullName>
+                <default>false</default>
+                <label>Large Distributors</label>
+            </value>
+            <value>
+                <fullName>Others (5 groups combined)</fullName>
+                <default>false</default>
+                <label>Others (5 groups combined)</label>
+            </value>
+            <value>
+                <fullName>Public Hospital Region C</fullName>
+                <default>false</default>
+                <label>Public Hospital Region C</label>
+            </value>
+            <value>
+                <fullName>Public Hospital Region D</fullName>
+                <default>false</default>
+                <label>Public Hospital Region D</label>
+            </value>
+            <value>
+                <fullName>Public Hospitals Madrid</fullName>
+                <default>false</default>
+                <label>Public Hospitals Madrid</label>
+            </value>
+            <value>
+                <fullName>Regional Hospitals Catalunya</fullName>
+                <default>false</default>
+                <label>Regional Hospitals Catalunya</label>
+            </value>
+            <value>
+                <fullName>Private 1st Wave</fullName>
+                <default>false</default>
+                <label>Private 1st Wave</label>
+            </value>
+            <value>
+                <fullName>Private 2nd Wave</fullName>
+                <default>false</default>
+                <label>Private 2nd Wave</label>
+            </value>
+            <value>
+                <fullName>Private Buying Groups</fullName>
+                <default>false</default>
+                <label>Private Buying Groups</label>
+            </value>
+            <value>
+                <fullName>Public 1st Wave</fullName>
+                <default>false</default>
+                <label>Public 1st Wave</label>
+            </value>
+            <value>
+                <fullName>Public 2nd Wave</fullName>
+                <default>false</default>
+                <label>Public 2nd Wave</label>
+            </value>
+            <value>
+                <fullName>Elective</fullName>
+                <default>false</default>
+                <label>Elective</label>
+            </value>
+            <value>
+                <fullName>Elective &amp; Trauma</fullName>
+                <default>false</default>
+                <label>Elective &amp; Trauma</label>
+            </value>
+            <value>
+                <fullName>Elective Private</fullName>
+                <default>false</default>
+                <label>Elective Private</label>
+            </value>
+            <value>
+                <fullName>Elective / Trauma Private</fullName>
+                <default>false</default>
+                <label>Elective / Trauma Private</label>
+            </value>
+            <value>
+                <fullName>Elective Public</fullName>
+                <default>false</default>
+                <label>Elective Public</label>
+            </value>
+            <value>
+                <fullName>Trauma Public</fullName>
+                <default>false</default>
+                <label>Trauma Public</label>
+            </value>
+            <value>
+                <fullName>Covid Hub Private Ac..</fullName>
+                <default>false</default>
+                <label>Covid Hub Private Ac..</label>
+            </value>
+            <value>
+                <fullName>Covid Hub Public Acc..</fullName>
+                <default>false</default>
+                <label>Covid Hub Public Acc..</label>
+            </value>
+            <value>
+                <fullName>Private Account No C..</fullName>
+                <default>false</default>
+                <label>Private Account No C..</label>
+            </value>
+            <value>
+                <fullName>Private Account Sup..</fullName>
+                <default>false</default>
+                <label>Private Account Sup..</label>
+            </value>
+            <value>
+                <fullName>Public Account No Co..</fullName>
+                <default>false</default>
+                <label>Public Account No Co..</label>
+            </value>
+            <value>
+                <fullName>Public Standard Acco..</fullName>
+                <default>false</default>
+                <label>Public Standard Acco..</label>
+            </value>
+            <value>
+                <fullName>General Hospitals First Wave</fullName>
+                <default>false</default>
+                <label>General Hospitals First Wave</label>
+            </value>
+            <value>
+                <fullName>General Hospitals Second Wave</fullName>
+                <default>false</default>
+                <label>General Hospitals Second Wave</label>
+            </value>
+            <value>
+                <fullName>General Hospitals Third Wave</fullName>
+                <default>false</default>
+                <label>General Hospitals Third Wave</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Private Clinics First Wave</fullName>
+                <default>false</default>
+                <label>Private Clinics First Wave</label>
+            </value>
+            <value>
+                <fullName>Private Clinics Second Wave</fullName>
+                <default>false</default>
+                <label>Private Clinics Second Wave</label>
+            </value>
+            <value>
+                <fullName>University And Large Teaching Hospitals</fullName>
+                <default>false</default>
+                <label>University And Large Teaching Hospitals</label>
+            </value>
+            <value>
+                <fullName>Essential Covid-19 Hospitals</fullName>
+                <default>false</default>
+                <label>Essential Covid-19 Hospitals</label>
+            </value>
+            <value>
+                <fullName>Non-essential Covid-19 Hospitals</fullName>
+                <default>false</default>
+                <label>Non-essential Covid-19 Hospitals</label>
+            </value>
+            <value>
+                <fullName>Semi-Private</fullName>
+                <default>false</default>
+                <label>Semi-Private</label>
+            </value>
+            <value>
+                <fullName>Covid19</fullName>
+                <default>false</default>
+                <label>Covid19</label>
+            </value>
+            <value>
+                <fullName>Orthopaedic Centers</fullName>
+                <default>false</default>
+                <label>Orthopaedic Centers</label>
+            </value>
+            <value>
+                <fullName>Other Public Hospital</fullName>
+                <default>false</default>
+                <label>Other Public Hospital</label>
+            </value>
+            <value>
+                <fullName>University Clinic</fullName>
+                <default>false</default>
+                <label>University Clinic</label>
+            </value>
+            <value>
+                <fullName>Private Ortho Clinics Covid</fullName>
+                <default>false</default>
+                <label>Private Ortho Clinics Covid</label>
+            </value>
+            <value>
+                <fullName>Private Ortho Clinics Not Covid</fullName>
+                <default>false</default>
+                <label>Private Ortho Clinics Not Covid</label>
+            </value>
+            <value>
+                <fullName>Public Hospitals Covid</fullName>
+                <default>false</default>
+                <label>Public Hospitals Covid</label>
+            </value>
+            <value>
+                <fullName>Public Hospitals Not Covid</fullName>
+                <default>false</default>
+                <label>Public Hospitals Not Covid</label>
+            </value>
+            <value>
+                <fullName>Low Covid Exposure</fullName>
+                <default>false</default>
+                <label>Low Covid Exposure</label>
+            </value>
+            <value>
+                <fullName>High Covid Exposure</fullName>
+                <default>false</default>
+                <label>High Covid Exposure</label>
+            </value>
+            <value>
+                <fullName>Expert Center</fullName>
+                <default>false</default>
+                <label>Expert Center</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>General Hospitals First Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>General Hospitals Second Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>General Hospitals Third Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Private Clinics First Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Private Clinics Second Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>University And Large Teaching Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Essential Covid-19 Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Non-essential Covid-19 Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Semi-Private</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovakia</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <valueName>Private Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <valueName>Covid19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <valueName>Orthopaedic Centers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <valueName>Other Public Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <valueName>University Clinic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Private Ortho Clinics Covid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Private Ortho Clinics Not Covid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Public Hospitals Covid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Public Hospitals Not Covid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Slovakia</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <valueName>Covid Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Slovakia</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <valueName>Public Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Slovakia</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <valueName>University Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Insurance Companies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Large Distributors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Others (5 groups combined)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Public Hospital Region C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Public Hospital Region D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Public Hospitals Madrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Regional Hospitals Catalunya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <valueName>Fast Recov Speed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <valueName>Medium Recov Speed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <valueName>Private Ortho Clinics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Private And Covid Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Private And Non Covid Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Public And Covid Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Public And Non Covid Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Elective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Elective &amp; Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Elective Private</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Private East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Private West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Public East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Public West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Low Covid Exposure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>High Covid Exposure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Expert Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <valueName>Covid-19 Centers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <valueName>Slow Recov Speed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Private 1st Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Private 2nd Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Private Buying Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Public 1st Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Public 2nd Wave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>North/Central General Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>North/Central Ortho-focused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>North/Central Ortho-strictly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>South General Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>South Ortho-focused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>South Ortho-strictly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Elective / Trauma Private</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Elective Public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Trauma Public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Covid Hub Private Ac..</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Covid Hub Public Acc..</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Private Account No C..</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Private Account Sup..</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Public Account No Co..</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Public Standard Acco..</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,92 @@
+<apex:page standardController="Opportunity" showHeader="false" sidebar="false" title="Territory Opp pipeline">
+	<GBLite:TabbedPageComponent pageAPIName="GBTabs_Territory_Opp_pipeline" customJsIds="" customCssIds="">
+	<GBLite:EmbedComponent baseGridUrl="{!$Page.GBLite__Grid}" />
+		<script>
+			var pageDefinition = {
+	"name": "Territory Opp pipeline",
+	"tabs": [
+		{
+			"name": "Summary",
+			"content": "{!gridPage}gname=Territory Opportunity Pipeline&amp;sh=0&amp;sfname=default",
+			"id": 1580326694728
+		},
+		{
+			"name": "Knees",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Knees&amp;sh=0&amp;sfname=default",
+			"id": 1580326753170
+		},
+		{
+			"name": "Hips",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Hips&amp;sh=0&amp;sfname=default",
+			"id": 1580326741124
+		},
+		{
+			"name": "Extremities",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Extrem&amp;sh=0&amp;sfname=default",
+			"id": 1580326763309
+		},
+		{
+			"name": "Foot &amp; Ankle",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Foot and&amp;sh=0&amp;sfname=default",
+			"id": 1580326808388
+		},
+		{
+			"name": "Cement",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Cement&amp;sh=0&amp;sfname=default",
+			"id": 1580326824698
+		},
+		{
+			"name": "Sports Medicine",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Sports M&amp;sh=0&amp;sfname=default",
+			"id": 1580326836976
+		},
+		{
+			"name": "Trauma",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Trauma&amp;sh=0&amp;sfname=default",
+			"id": 1580326860186
+		},
+		{
+			"name": "Early Intervention",
+			"content": "{!gridPage}gname=Territory Opp Pipeline for Early In&amp;sh=0&amp;sfname=default",
+			"id": 1580326881473
+		},
+		{
+			"name": "Closed Won/Closed Lost",
+			"content": "{!gridPage}gname=Territory Closed Won-Closed Lost&amp;sh=0&amp;sfname=default",
+			"id": 1586202695990
+		},
+		{
+			"id": 1595442811039,
+			"content": "{!gridPage}gname=Territory Opp Pipeline ROSA&amp;sh=0&amp;sfname=default",
+			"name": "ROSA"
+		},
+		{
+			"id": 1595442811757,
+			"content": "{!gridPage}gname=Terr Opp Pipeline mymobility-TOP&amp;sh=0&amp;sfname=default",
+			"name": "mymobility"
+		},
+		{
+			"id": 1595442812498,
+			"content": "{!gridPage}gname=Territory Opp Pipeline ASC&amp;sh=0&amp;sfname=default",
+			"name": "ASC"
+		},
+		{
+			"id": 1595442813301,
+			"content": "{!gridPage}gname=Territory Opp Pipeline US Surgical&amp;sh=0&amp;sfname=default",
+			"name": "Surgical"
+		}
+	],
+	"id": 1580326694727,
+	"selectedCustomCSSIds": [],
+	"selectedCustomJSIds": [],
+	"description": "",
+	"globalButtons": true,
+	"object": "Opportunity",
+	"height": "",
+	"showHeader": false,
+	"showSidebar": false,
+	"pageAPIName": "GBTabs_Territory_Opp_pipeline"
+};
+		</script>
+	</GBLite:TabbedPageComponent>
+</apex:page>

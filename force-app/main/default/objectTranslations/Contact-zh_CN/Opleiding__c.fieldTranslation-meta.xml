@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Beschrijf de opleiding van deze contactpersoon. Je kan hier ook invullen wanneer en met welk onderwerp de contactpersoon is gepromoveerd. --></help>
+    <label><!-- Opleiding --></label>
+    <name>Opleiding__c</name>
+</CustomFieldTranslation>

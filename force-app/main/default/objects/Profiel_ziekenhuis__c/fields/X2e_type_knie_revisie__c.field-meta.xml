@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_knie_revisie__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type knie revisie</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_knie_revisie__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NexGen LCCK</fullName>
+                <default>false</default>
+                <label>NexGen LCCK</label>
+            </value>
+            <value>
+                <fullName>NexGen RHK</fullName>
+                <default>false</default>
+                <label>NexGen RHK</label>
+            </value>
+            <value>
+                <fullName>Innex SC</fullName>
+                <default>false</default>
+                <label>Innex SC</label>
+            </value>
+            <value>
+                <fullName>Vanguard SSK revision</fullName>
+                <default>false</default>
+                <label>Vanguard SSK revision</label>
+            </value>
+            <value>
+                <fullName>Maxim revision</fullName>
+                <default>false</default>
+                <label>Maxim revision</label>
+            </value>
+            <value>
+                <fullName>Ascent revision</fullName>
+                <default>false</default>
+                <label>Ascent revision</label>
+            </value>
+            <value>
+                <fullName>OSS segemental</fullName>
+                <default>false</default>
+                <label>OSS segemental</label>
+            </value>
+            <value>
+                <fullName>LCS revision</fullName>
+                <default>false</default>
+                <label>LCS revision</label>
+            </value>
+            <value>
+                <fullName>S-rom hinge knee</fullName>
+                <default>false</default>
+                <label>S-rom hinge knee</label>
+            </value>
+            <value>
+                <fullName>PFC sigma TC3</fullName>
+                <default>false</default>
+                <label>PFC sigma TC3</label>
+            </value>
+            <value>
+                <fullName>Multigen revision</fullName>
+                <default>false</default>
+                <label>Multigen revision</label>
+            </value>
+            <value>
+                <fullName>Optetrak revision</fullName>
+                <default>false</default>
+                <label>Optetrak revision</label>
+            </value>
+            <value>
+                <fullName>Legion revision</fullName>
+                <default>false</default>
+                <label>Legion revision</label>
+            </value>
+            <value>
+                <fullName>Scorpio TC revision</fullName>
+                <default>false</default>
+                <label>Scorpio TC revision</label>
+            </value>
+            <value>
+                <fullName>GMRS segmental</fullName>
+                <default>false</default>
+                <label>GMRS segmental</label>
+            </value>
+            <value>
+                <fullName>Duracon TC</fullName>
+                <default>false</default>
+                <label>Duracon TC</label>
+            </value>
+            <value>
+                <fullName>Advance revision</fullName>
+                <default>false</default>
+                <label>Advance revision</label>
+            </value>
+            <value>
+                <fullName>TC plus revision</fullName>
+                <default>false</default>
+                <label>TC plus revision</label>
+            </value>
+            <value>
+                <fullName>RT plus Hinge</fullName>
+                <default>false</default>
+                <label>RT plus Hinge</label>
+            </value>
+            <value>
+                <fullName>Link endo model</fullName>
+                <default>false</default>
+                <label>Link endo model</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>NexGen LCCK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>NexGen RHK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Innex SC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Vanguard SSK revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Maxim revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Ascent revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>OSS segemental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>LCS revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>S-rom hinge knee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>PFC sigma TC3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lima</controllingFieldValue>
+            <valueName>Multigen revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Link endo model</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oudshoorn</controllingFieldValue>
+            <valueName>Optetrak revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Legion revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>TC plus revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>RT plus Hinge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Scorpio TC revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>GMRS segmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Duracon TC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Advance revision</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

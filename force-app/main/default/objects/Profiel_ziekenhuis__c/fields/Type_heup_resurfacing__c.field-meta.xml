@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_resurfacing__c</fullName>
+    <description>Kies het type van de resurfacing heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type van de resurfacing heup.</inlineHelpText>
+    <label>Type heup resurfacing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_resurfacing__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Durom</fullName>
+                <default>false</default>
+                <label>Durom</label>
+            </value>
+            <value>
+                <fullName>Recap</fullName>
+                <default>false</default>
+                <label>Recap</label>
+            </value>
+            <value>
+                <fullName>Cormet</fullName>
+                <default>false</default>
+                <label>Cormet</label>
+            </value>
+            <value>
+                <fullName>Optimom</fullName>
+                <default>false</default>
+                <label>Optimom</label>
+            </value>
+            <value>
+                <fullName>ASR</fullName>
+                <default>false</default>
+                <label>ASR</label>
+            </value>
+            <value>
+                <fullName>Birmingham hip</fullName>
+                <default>false</default>
+                <label>Birmingham hip</label>
+            </value>
+            <value>
+                <fullName>Adept</fullName>
+                <default>false</default>
+                <label>Adept</label>
+            </value>
+            <value>
+                <fullName>Per mini hip implant</fullName>
+                <default>false</default>
+                <label>Per mini hip implant</label>
+            </value>
+            <value>
+                <fullName>Finsbury</fullName>
+                <default>false</default>
+                <label>Finsbury</label>
+            </value>
+            <value>
+                <fullName>Conserve plus</fullName>
+                <default>false</default>
+                <label>Conserve plus</label>
+            </value>
+            <value>
+                <fullName>Conserve BFH</fullName>
+                <default>false</default>
+                <label>Conserve BFH</label>
+            </value>
+            <value>
+                <fullName>Profemur Z modular hip</fullName>
+                <default>false</default>
+                <label>Profemur Z modular hip</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Durom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Recap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endo Care</controllingFieldValue>
+            <valueName>Cormet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endo Care</controllingFieldValue>
+            <valueName>Optimom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finsbury</controllingFieldValue>
+            <valueName>Finsbury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>ASR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Birmingham hip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oudshoorn</controllingFieldValue>
+            <valueName>Adept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Per mini hip implant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright</controllingFieldValue>
+            <valueName>Conserve plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright</controllingFieldValue>
+            <valueName>Conserve BFH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright</controllingFieldValue>
+            <valueName>Profemur Z modular hip</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- OBT Lead --></label>
+        <name>Bone_Healing_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Find a Clinic requests --></description>
+        <label><!-- Clinic Lead --></label>
+        <name>Clinic_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type to capture Consumer Leads --></description>
+        <label><!-- Consumer --></label>
+        <name>Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contact Us --></label>
+        <name>Contact_Us</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cvent Leads --></label>
+        <name>Cvent_Leads</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU-Lead --></label>
+        <name>DN_EU_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-Industry Publication Lead --></label>
+        <name>DN_Industry_Publication_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-NAM-Lead --></label>
+        <name>DN_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Distributor Visit Request --></label>
+        <name>Distributor_Visitation_Request2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GPL Physician Lead --></label>
+        <name>GPL_Physician_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HCF Lead --></label>
+        <name>HCF_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- It will be assigned to the Italian leads created from Web-To-Lead for HCP --></description>
+        <label><!-- HCP Italian Leads --></label>
+        <name>HCP_Italian_Leads</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Japan Contact Us --></label>
+        <name>Japan_Contact_Us</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Legal Contact Us --></label>
+        <name>Legal_Contact_Us</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Types used for Marketing Campaign/Lead Generation --></description>
+        <label><!-- Marketing Leads --></label>
+        <name>Marketing_Leads</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Surgeon Leads --></label>
+        <name>Surgeon_Leads</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Zimmer Biomet Contact Us --></description>
+        <label><!-- Zimmer Biomet Contact Us --></label>
+        <name>Zimmer_Biomet_Contact_Us</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please fill the Closed Reason as Lead Status is Closed Lost. --></errorMessage>
+        <name>Closed_Reason_must_be_filled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Lead District and Lead Region as lead type is National. --></errorMessage>
+        <name>DN_NAM_Lead_Required_fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Related Information Details must be filled out as &quot;Other&quot; is selected in Related Information Details. --></errorMessage>
+        <name>Other_Relate_Info_Det_Must_Be_Filled_Out</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Related Information must be filled out as &quot;Other&quot; is selected in Related Information. --></errorMessage>
+        <name>Other_Related_Info_Must_Be_Filled_Out</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Source must be filled out as &quot;Other&quot; is selected in Source Details. --></errorMessage>
+        <name>Other_Source_Must_Be_Filled_Out</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert --></label>
+        <name>Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_Lead --></label>
+        <name>Convert_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_Lead_WebSupport --></label>
+        <name>Convert_Lead_WebSupport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_Lead_to_GPL_Physician_profile --></label>
+        <name>Convert_Lead_to_GPL_Physician_profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_To_Profile --></label>
+        <name>Convert_To_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_WebToLead --></label>
+        <name>Convert_WebToLead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CustomConvert --></label>
+        <name>CustomConvert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Selected_to_Salesloft --></label>
+        <name>Import_Selected_to_Salesloft</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_SMS --></label>
+        <name>et4ae5__Send_ExactTarget_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

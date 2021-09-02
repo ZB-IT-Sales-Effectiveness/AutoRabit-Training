@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Event/Exhibit Type --></label>
+    <name>Event_Exhibit_Type__c</name>
+    <picklistValues>
+        <masterLabel>Association</masterLabel>
+        <translation><!-- Association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Combined Virtual/Onsite Event</masterLabel>
+        <translation><!-- Combined Virtual/Onsite Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event</masterLabel>
+        <translation><!-- Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Society</masterLabel>
+        <translation><!-- Society --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Study Club</masterLabel>
+        <translation><!-- Study Club --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University</masterLabel>
+        <translation><!-- University --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtual Event</masterLabel>
+        <translation><!-- Virtual Event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

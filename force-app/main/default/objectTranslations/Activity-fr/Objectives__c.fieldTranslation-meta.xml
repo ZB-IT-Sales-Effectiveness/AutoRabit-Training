@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Purpose --></label>
+    <name>Objectives__c</name>
+    <picklistValues>
+        <masterLabel>Better Customer connectivity</masterLabel>
+        <translation>Une meilleure connectivité des clients</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create an Offer</masterLabel>
+        <translation><!-- Create an Offer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perform an Inventory</masterLabel>
+        <translation><!-- Perform an Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produce Interest</masterLabel>
+        <translation><!-- Produce Interest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule a Meeting</masterLabel>
+        <translation>Organisation de meeting</translation>
+    </picklistValues>
+</CustomFieldTranslation>

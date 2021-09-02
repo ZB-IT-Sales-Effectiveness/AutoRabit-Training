@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dental lab size --></label>
+    <name>Dental_lab_size__c</name>
+    <picklistValues>
+        <masterLabel>1 Employee</masterLabel>
+        <translation><!-- 1 Employee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10-19 Employees</masterLabel>
+        <translation><!-- 10-19 Employees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2-4 Employees</masterLabel>
+        <translation><!-- 2-4 Employees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20 or more Employees</masterLabel>
+        <translation><!-- 20 or more Employees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5-9 Employees</masterLabel>
+        <translation><!-- 5-9 Employees --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

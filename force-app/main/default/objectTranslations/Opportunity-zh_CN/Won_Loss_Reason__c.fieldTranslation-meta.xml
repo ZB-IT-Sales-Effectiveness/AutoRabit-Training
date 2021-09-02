@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Won/Loss Reason --></label>
+    <name>Won_Loss_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Budget</masterLabel>
+        <translation><!-- Budget --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical</masterLabel>
+        <translation><!-- Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical - not enough data</masterLabel>
+        <translation><!-- Clinical - not enough data --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinically Superior</masterLabel>
+        <translation><!-- Clinically Superior --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive Contract Expiring</masterLabel>
+        <translation><!-- Competitive Contract Expiring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Customer</masterLabel>
+        <translation><!-- Current Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Economic Value</masterLabel>
+        <translation><!-- Economic Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility Expansion</masterLabel>
+        <translation><!-- Facility Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPO/IDN contract</masterLabel>
+        <translation><!-- GPO/IDN contract --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local contract</masterLabel>
+        <translation><!-- Local contract --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation><!-- Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Gap</masterLabel>
+        <translation><!-- Product Gap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relationship</masterLabel>
+        <translation><!-- Relationship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon Unhappy</masterLabel>
+        <translation><!-- Surgeon Unhappy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Features</masterLabel>
+        <translation><!-- Technical Features --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unhappy with Competitor</masterLabel>
+        <translation><!-- Unhappy with Competitor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

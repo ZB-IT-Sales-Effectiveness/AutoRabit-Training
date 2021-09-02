@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Documentation Received --></label>
+    <name>Documentation_Received__c</name>
+    <picklistValues>
+        <masterLabel>ATC Forms</masterLabel>
+        <translation><!-- ATC Forms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letter of Denial</masterLabel>
+        <translation><!-- Letter of Denial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Documentation</masterLabel>
+        <translation><!-- Medical Documentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PT Notes</masterLabel>
+        <translation><!-- PT Notes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

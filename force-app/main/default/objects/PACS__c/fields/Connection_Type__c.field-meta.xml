@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connection_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Connection Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compass</fullName>
+                <default>false</default>
+                <label>Compass</label>
+            </value>
+            <value>
+                <fullName>VPN</fullName>
+                <default>false</default>
+                <label>VPN</label>
+            </value>
+            <value>
+                <fullName>Nuance</fullName>
+                <default>false</default>
+                <label>Nuance</label>
+            </value>
+            <value>
+                <fullName>LifeImage</fullName>
+                <default>false</default>
+                <label>LifeImage</label>
+            </value>
+            <value>
+                <fullName>Ambra</fullName>
+                <default>false</default>
+                <label>Ambra</label>
+            </value>
+            <value>
+                <fullName>Nucleus</fullName>
+                <default>false</default>
+                <label>Nucleus</label>
+            </value>
+            <value>
+                <fullName>IEP</fullName>
+                <default>false</default>
+                <label>IEP</label>
+            </value>
+            <value>
+                <fullName>Citrix ShareFile</fullName>
+                <default>false</default>
+                <label>Citrix ShareFile</label>
+            </value>
+            <value>
+                <fullName>Virtual Image Exchange (DataCard)</fullName>
+                <default>false</default>
+                <label>Virtual Image Exchange (DataCard)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>CDs</fullName>
+                <default>false</default>
+                <label>CDs</label>
+            </value>
+            <value>
+                <fullName>FTP Assistance</fullName>
+                <default>false</default>
+                <label>FTP Assistance</label>
+            </value>
+            <value>
+                <fullName>Facilities Gateway</fullName>
+                <default>false</default>
+                <label>Facilities Gateway</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

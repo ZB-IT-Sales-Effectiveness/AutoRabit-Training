@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Empire_Conversion_Tracker</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB Empire</label>
+    <queue>ZB_Empire</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

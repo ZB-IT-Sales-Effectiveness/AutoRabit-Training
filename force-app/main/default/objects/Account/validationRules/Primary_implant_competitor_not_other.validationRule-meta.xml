@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_implant_competitor_not_other</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$RecordType.Name = &quot;DN-ACCT-RECORD-TYPE&quot;,
+ NOT(ISPICKVAL(Primary_Implant_Competitor__c, &apos;Other&apos;)),ISCHANGED(Other_Implant_Competitor__c)
+)</errorConditionFormula>
+    <errorMessage>Other Implant Competitor Value Cannot be changed. Please select &apos;Other&apos; in Primary Implant Competitor to change this field value</errorMessage>
+</ValidationRule>

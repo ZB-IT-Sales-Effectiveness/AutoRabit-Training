@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insert_Picture</fullName>
+    <availability>online</availability>
+    <description>A fix to the Picture Uploader v2.1 code because the free app had the hardcoded S-Control ID of 01N30000000DK7m. So I had to fix it by placing the ID at 01N800000002zSH instead.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Insert Picture</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>parent.window.location.href=&quot;/p/attach/NoteAttach?pid={!Contact.Id}&amp;retURL=%2Fservlet%2Fservlet.Integration%3Flid=01N800000002zSH%26eid={!Contact.Id}%26ic=1%26autoMapValues=1&quot;</url>
+</WebLink>

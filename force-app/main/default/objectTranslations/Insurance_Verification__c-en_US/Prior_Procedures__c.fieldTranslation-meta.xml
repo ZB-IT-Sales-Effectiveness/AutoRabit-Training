@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prior Procedures --></label>
+    <name>Prior_Procedures__c</name>
+    <picklistValues>
+        <masterLabel>ACI</masterLabel>
+        <translation><!-- ACI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chondroplasty</masterLabel>
+        <translation><!-- Chondroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Microfracture</masterLabel>
+        <translation><!-- Microfracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OAT</masterLabel>
+        <translation><!-- OAT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

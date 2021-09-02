@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TL_MBR_Report__c</fullName>
+    <description>This denotes whether or not to include a report in the monthly TL calls</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When this is set to &apos;include&apos; it will be included in the monthly territory slide decks each territory reviews</inlineHelpText>
+    <label>TL-MBR Report</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Include</fullName>
+                <default>false</default>
+                <label>Include</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

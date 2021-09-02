@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Entry is required for Hip product only --></help>
+    <label><!-- Hip surgery type (JPN Only) --></label>
+    <name>Hip_surgery_type_JPN_Only__c</name>
+    <picklistValues>
+        <masterLabel>BHP</masterLabel>
+        <translation><!-- BHP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THA</masterLabel>
+        <translation><!-- THA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

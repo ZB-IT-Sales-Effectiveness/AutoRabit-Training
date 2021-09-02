@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_67395530</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$Region_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>US Key Stone</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US No New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US So New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chesapeake Bay</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Garden State</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Upstate New York</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Metro New York</sourceValue>
+            </sourceValues>
+            <value>Northeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Mississippi Delta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Southern</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Appalachian</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Capitol</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Florida</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US SouthEast</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Florida</sourceValue>
+            </sourceValues>
+            <value>Southeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Buckeye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Central</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Midwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Great Lakes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chicago Land</sourceValue>
+            </sourceValues>
+            <value>Central</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US North Star</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Mountain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Golden Gate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Los Angeles</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Pacific NW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Bay</sourceValue>
+            </sourceValues>
+            <value>West</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Order_Quantity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$rss__c</field>
+    </columns>
+    <columns>
+        <field>Account$Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$ISR__c</field>
+    </columns>
+    <columns>
+        <field>Account$Speciality_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account$Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>REport of current customers</description>
+    <filter>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>RPROP10,RPROP10Z,RPROPD,RPROS10,RPROS10Z,RPROSD,RPROT10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>RPROT10Z,RPROTD</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>RegenePro</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Owner</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_PREVCURY</interval>
+    </timeFrameFilter>
+</Report>

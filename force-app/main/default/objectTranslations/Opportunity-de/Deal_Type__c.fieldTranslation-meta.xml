@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Picklist definitions: Select one IF:
+Acquire Implant: &amp; Expand Implant: &amp; Expand Implant: ≤ 5 units in last 12 months
+Acquire Regen: &amp; Acquire Rest/Digital: &amp; Expand Regen: $0 in last 12 months
+Retain Implant: foundational implant revenue,routine order --></help>
+    <label><!-- Deal Type --></label>
+    <name>Deal_Type__c</name>
+    <picklistValues>
+        <masterLabel>Acquire DSUVIA</masterLabel>
+        <translation><!-- Acquire DSUVIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire Guided</masterLabel>
+        <translation><!-- Acquire Guided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire Implant</masterLabel>
+        <translation>Akquise Implantate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire Other</masterLabel>
+        <translation>Akquise</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire Regen</masterLabel>
+        <translation>Akquise Regenerativ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire Rest/Digital</masterLabel>
+        <translation>Akquise Rest/Digital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Order</masterLabel>
+        <translation><!-- Bulk Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exception Implant Run Rate</masterLabel>
+        <translation><!-- Exception Implant Run Rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exception Regen Run Rate</masterLabel>
+        <translation><!-- Exception Regen Run Rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exception Rest/Digital Run Rate</masterLabel>
+        <translation><!-- Exception Rest/Digital Run Rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expand Implant</masterLabel>
+        <translation>Erweitern Implantate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expand Regen</masterLabel>
+        <translation>Erweitern Regenerativ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expand Rest/Digital</masterLabel>
+        <translation>Erweitern Rest/Digital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expand – Other</masterLabel>
+        <translation>Erweitern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regen Share Gain</masterLabel>
+        <translation><!-- Regen Share Gain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retain</masterLabel>
+        <translation>Halten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Products</fullName>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Company__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Category_A__c</columns>
+    <columns>Category_B__c</columns>
+    <columns>USA_List__c</columns>
+    <columns>CAN_List__c</columns>
+    <columns>EURO_List__c</columns>
+    <columns>France_List__c</columns>
+    <columns>Germany_List__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>contains</operation>
+        <value>ROSA,Rosa</value>
+    </filters>
+    <label>Master Products</label>
+</ListView>

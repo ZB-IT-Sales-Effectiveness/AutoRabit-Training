@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prospect Type --></label>
+    <name>Prospect_Type__c</name>
+    <picklistValues>
+        <masterLabel>Medical Professional</masterLabel>
+        <translation><!-- Medical Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient or Caregiver</masterLabel>
+        <translation><!-- Patient or Caregiver --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

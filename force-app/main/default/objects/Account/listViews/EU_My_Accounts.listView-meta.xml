@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_My_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SAP_Customer_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Belgium</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

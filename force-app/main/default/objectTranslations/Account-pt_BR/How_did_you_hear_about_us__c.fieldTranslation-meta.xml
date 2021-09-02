@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- How did you hear about us? --></label>
+    <name>How_did_you_hear_about_us__c</name>
+    <picklistValues>
+        <masterLabel>Billboard</masterLabel>
+        <translation><!-- Billboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brochure/Flyer</masterLabel>
+        <translation><!-- Brochure/Flyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Campaigns</masterLabel>
+        <translation><!-- Campaigns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friend or Relative (Word of Mouth)</masterLabel>
+        <translation><!-- Friend or Relative (Word of Mouth) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet</masterLabel>
+        <translation><!-- Internet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MLC</masterLabel>
+        <translation><!-- MLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Magazine</masterLabel>
+        <translation><!-- Magazine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation><!-- Newspaper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other-N/A</masterLabel>
+        <translation><!-- Other-N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Referral</masterLabel>
+        <translation><!-- Physician Referral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radio</masterLabel>
+        <translation><!-- Radio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repeat Caller</masterLabel>
+        <translation><!-- Repeat Caller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seminar</masterLabel>
+        <translation><!-- Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TV</masterLabel>
+        <translation><!-- TV --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_List_Billing_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),IF(LEN( MailingCountry)=0, false,
+OR(
+LEN(MailingCountry) &lt;2,
+NOT(
+CONTAINS(&quot;AD:AE:AF:AG:AI:AL:AM:AN:AO:AQ:AR:AS:AT:AU:AW:AZ:&quot;&amp;
+&quot;BA:BB:BD:BE:BF:BG:BH:BI:BJ:BM:BN:BO:BR:BS:BT:BV:BW:BY:BZ:&quot;&amp;
+&quot;CA:CC:CD:CF:CG:CH:CI:CK:CL:CM:CN:CO:CR:CS:CU:CV:CX:CY:CZ:&quot;&amp;
+&quot;DE:DJ:DK:DM:DO:DZ:EC:EE:EG:EH:ER:ES:ET:FI:FJ:FK:FM:FO:FR:&quot;&amp;
+&quot;GA:GB:GD:GE:GF:GH:GI:GL:GM:GN:GP:GQ:GR:GS:GT:GU:GW:GY:&quot;&amp;
+&quot;HK:HM:HN:HR:HT:HU:ID:IE:IL:IN:IO:IQ:IR:IS:IT:JM:JO:JP:&quot;&amp;
+&quot;KE:KG:KH:KI:KM:KN:KP:KR:KW:KY:KZ:LA:LB:LC:LI:LK:LR:LS:LT:LU:LV:LY:&quot;&amp;
+&quot;MA:MC:MD:MG:MH:MK:ML:MM:MN:MO:MP:MQ:MR:MS:MT:MU:MV:MW:MX:MY:MZ:&quot;&amp;
+&quot;NA:NC:NE:NF:NG:NI:NL:NO:NP:NR:NU:NZ:OM:&quot;&amp;
+&quot;PA:PE:PF:PG:PH:PK:PL:PM:PN:PR:PS:PT:PW:PY:QA:RE:RO:RU:RW:&quot;&amp;
+&quot;SA:SB:SC:SD:SE:SG:SH:SI:SJ:SK:SL:SM:SN:SO:SR:ST:SV:SY:SZ:&quot;&amp;
+&quot;TC:TD:TF:TG:TH:TJ:TK:TL:TM:TN:TO:TP:TR:TT:TV:TW:TZ:&quot;&amp;
+&quot;UA:UG:UK:UM:US:UY:UZ:VA:VC:VE:VG:VI:VN:VU:WF:WS:YE:YT:YU:ZA:ZM:ZW&quot;,
+MailingCountry))))),(RecordTypeId = &quot;012800000003ZTZ&quot;|| RecordTypeId = &apos;012800000002DoB&apos; || RecordTypeId = &apos;012800000002DoL&apos;))</errorConditionFormula>
+    <errorDisplayField>Abteilung_AT__c</errorDisplayField>
+    <errorMessage>You must provide a valid 2-digit Billing Country code (ALL CAPS).</errorMessage>
+</ValidationRule>

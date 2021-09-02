@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Follow_Up_Check</fullName>
+    <active>true</active>
+    <description>Last Follow-Up not blank with Value in Follow Up Reminder (Days)</description>
+    <errorConditionFormula>AND(
+ ISBLANK( Last_Follow_Up__c ),
+ NOT(ISPICKVAL( Last_Follow_Up_in_Hours__c ,&apos;&apos;) )
+)</errorConditionFormula>
+    <errorDisplayField>Last_Follow_Up__c</errorDisplayField>
+    <errorMessage>Enter Last Follow-Up Field Value</errorMessage>
+</ValidationRule>

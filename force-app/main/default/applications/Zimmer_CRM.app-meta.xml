@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>CRM for Zimmer Dental USA</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>DN-US-Zimmer CRM</label>
+    <logo>SharedDocuments/CRM_Logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Sales_History__c</tabs>
+    <tabs>Sales_History_Details__c</tabs>
+    <tabs>Sales_Order__c</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Commissions</tabs>
+    <tabs>Sales_Order_Details__c</tabs>
+    <tabs>SalesArea__c</tabs>
+    <tabs>BillingDoc__c</tabs>
+    <tabs>Banner_Ads__c</tabs>
+    <tabs>Thumbnail__c</tabs>
+    <tabs>GPL_Profile__c</tabs>
+    <tabs>MyProfile</tabs>
+    <tabs>Sunshine_Payment__c</tabs>
+    <tabs>Conversion_Tracker__c</tabs>
+</CustomApplication>

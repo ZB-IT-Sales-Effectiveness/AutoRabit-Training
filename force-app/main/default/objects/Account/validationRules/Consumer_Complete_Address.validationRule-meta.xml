@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumer_Complete_Address</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((RecordTypeId = &apos;012800000003YfK&apos;), 
+
+AND(ISBLANK(PersonMailingCity) || 
+ISBLANK(PersonMailingState) || 
+ISBLANK(PersonMailingStreet ) || 
+ISBLANK(PersonMailingPostalCode) || 
+ISBLANK(PersonMailingCountry),   $User.ProfileId =&apos;00ec0000000HiEN&apos; ))</errorConditionFormula>
+    <errorMessage>Please provide complete address(Street, City, State, Postal Code, Country)</errorMessage>
+</ValidationRule>

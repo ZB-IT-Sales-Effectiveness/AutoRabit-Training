@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ALASKA (BARTOW) (0095) QUEUE</name>
+    <queueMembers>
+        <users>
+            <user>brennen.jenkins@zimmerbiomet.com</user>
+            <user>skip@zimmerak.com</user>
+            <user>manish.vashistha@zimmerbiomet.com</user>
+            <user>ryan.sobecki@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>WSE__c</sobjectType>
+    </queueSobject>
+</Queue>

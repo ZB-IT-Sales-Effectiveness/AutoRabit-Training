@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Read Only field driven from MIS Product Launch --></help>
+    <label><!-- Committed PO Date --></label>
+    <name>Committed_PO_Date__c</name>
+</CustomFieldTranslation>

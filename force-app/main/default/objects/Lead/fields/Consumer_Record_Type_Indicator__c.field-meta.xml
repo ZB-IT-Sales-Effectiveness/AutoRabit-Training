@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumer_Record_Type_Indicator__c</fullName>
+    <description>This is the field that identifies the Consumer Record Type. The value for consumer record type is &apos;1&apos; and is set up in the Web 2 Lead HTML file.</description>
+    <externalId>false</externalId>
+    <label>Consumer Record Type Indicator</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source --></label>
+    <name>Source__c</name>
+    <picklistValues>
+        <masterLabel>BRC</masterLabel>
+        <translation><!-- BRC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inbound 800#’s</masterLabel>
+        <translation><!-- Inbound 800#’s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voice Mail</masterLabel>
+        <translation><!-- Voice Mail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web Requests</masterLabel>
+        <translation><!-- Web Requests --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

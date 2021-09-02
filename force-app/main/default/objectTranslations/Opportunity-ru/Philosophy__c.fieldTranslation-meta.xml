@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Philosophy --></label>
+    <name>Philosophy__c</name>
+    <picklistValues>
+        <masterLabel>All Play (Price)</masterLabel>
+        <translation><!-- All Play (Price) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategic Partner (Accelero, ROSA, mymobility, Efficient Care)</masterLabel>
+        <translation><!-- Strategic Partner (Accelero, ROSA, mymobility, Efficient Care) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

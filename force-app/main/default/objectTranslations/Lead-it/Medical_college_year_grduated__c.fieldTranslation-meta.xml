@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Medical (college/year grduated) --></label>
+    <name>Medical_college_year_grduated__c</name>
+</CustomFieldTranslation>

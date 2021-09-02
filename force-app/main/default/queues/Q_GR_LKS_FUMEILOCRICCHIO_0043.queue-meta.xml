@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>GR LKS (FUMEI-LOCRICCHIO) (0043) QUEUE</name>
+    <queueMembers>
+        <users>
+            <user>adrienne.leone@zbgreatlakes.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>WSE__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concurrents_Membranes__c</fullName>
+    <externalId>false</externalId>
+    <label>Concurrents Membranes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bio-Gide (Geistlich)</fullName>
+                <default>false</default>
+                <label>Bio-Gide (Geistlich)</label>
+            </value>
+            <value>
+                <fullName>Collaguide (Curasan)</fullName>
+                <default>false</default>
+                <label>Collaguide (Curasan)</label>
+            </value>
+            <value>
+                <fullName>Collprotect (Botiss)</fullName>
+                <default>false</default>
+                <label>Collprotect (Botiss)</label>
+            </value>
+            <value>
+                <fullName>Conform (Ace)</fullName>
+                <default>false</default>
+                <label>Conform (Ace)</label>
+            </value>
+            <value>
+                <fullName>Creos xeno protect (Nobel)</fullName>
+                <default>false</default>
+                <label>Creos xeno protect (Nobel)</label>
+            </value>
+            <value>
+                <fullName>Cytoplast (Curasan)</fullName>
+                <default>false</default>
+                <label>Cytoplast (Curasan)</label>
+            </value>
+            <value>
+                <fullName>Cytoplast RTM (Osteogenics)</fullName>
+                <default>false</default>
+                <label>Cytoplast RTM (Osteogenics)</label>
+            </value>
+            <value>
+                <fullName>Dynamatrix (Keystone)</fullName>
+                <default>false</default>
+                <label>Dynamatrix (Keystone)</label>
+            </value>
+            <value>
+                <fullName>Epiguide (Curasan)</fullName>
+                <default>false</default>
+                <label>Epiguide (Curasan)</label>
+            </value>
+            <value>
+                <fullName>Frios Boneshield (Dentsply)</fullName>
+                <default>false</default>
+                <label>Frios Boneshield (Dentsply)</label>
+            </value>
+            <value>
+                <fullName>Jason (Botiss)</fullName>
+                <default>false</default>
+                <label>Jason (Botiss)</label>
+            </value>
+            <value>
+                <fullName>Membragel (Straumann)</fullName>
+                <default>false</default>
+                <label>Membragel (Straumann)</label>
+            </value>
+            <value>
+                <fullName>Memlok (Biohorizon)</fullName>
+                <default>false</default>
+                <label>Memlok (Biohorizon)</label>
+            </value>
+            <value>
+                <fullName>Osseoguard (Biomet3i)</fullName>
+                <default>false</default>
+                <label>Osseoguard (Biomet3i)</label>
+            </value>
+            <value>
+                <fullName>Ossix Plus (Regedent)</fullName>
+                <default>false</default>
+                <label>Ossix Plus (Regedent)</label>
+            </value>
+            <value>
+                <fullName>Remotis (Thommen)</fullName>
+                <default>false</default>
+                <label>Remotis (Thommen)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

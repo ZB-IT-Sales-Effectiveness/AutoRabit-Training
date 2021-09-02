@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_knie_uni_condylair__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type knie uni-condylair</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_knie_uni_condylair__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZUK</fullName>
+                <default>false</default>
+                <label>ZUK</label>
+            </value>
+            <value>
+                <fullName>Allegretto</fullName>
+                <default>false</default>
+                <label>Allegretto</label>
+            </value>
+            <value>
+                <fullName>NK II uni</fullName>
+                <default>false</default>
+                <label>NK II uni</label>
+            </value>
+            <value>
+                <fullName>Oxford</fullName>
+                <default>false</default>
+                <label>Oxford</label>
+            </value>
+            <value>
+                <fullName>Vanguard uni</fullName>
+                <default>false</default>
+                <label>Vanguard uni</label>
+            </value>
+            <value>
+                <fullName>Repicci</fullName>
+                <default>false</default>
+                <label>Repicci</label>
+            </value>
+            <value>
+                <fullName>Uni glide</fullName>
+                <default>false</default>
+                <label>Uni glide</label>
+            </value>
+            <value>
+                <fullName>Preservation</fullName>
+                <default>false</default>
+                <label>Preservation</label>
+            </value>
+            <value>
+                <fullName>PFC sigma uni</fullName>
+                <default>false</default>
+                <label>PFC sigma uni</label>
+            </value>
+            <value>
+                <fullName>Balancys uni</fullName>
+                <default>false</default>
+                <label>Balancys uni</label>
+            </value>
+            <value>
+                <fullName>Optetrak uni</fullName>
+                <default>false</default>
+                <label>Optetrak uni</label>
+            </value>
+            <value>
+                <fullName>Accuris</fullName>
+                <default>false</default>
+                <label>Accuris</label>
+            </value>
+            <value>
+                <fullName>Triathon uni</fullName>
+                <default>false</default>
+                <label>Triathon uni</label>
+            </value>
+            <value>
+                <fullName>Elius</fullName>
+                <default>false</default>
+                <label>Elius</label>
+            </value>
+            <value>
+                <fullName>Avon</fullName>
+                <default>false</default>
+                <label>Avon</label>
+            </value>
+            <value>
+                <fullName>Advance uni</fullName>
+                <default>false</default>
+                <label>Advance uni</label>
+            </value>
+            <value>
+                <fullName>UC plus</fullName>
+                <default>false</default>
+                <label>UC plus</label>
+            </value>
+            <value>
+                <fullName>Mitus</fullName>
+                <default>false</default>
+                <label>Mitus</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZUK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Allegretto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>NK II uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Oxford</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Vanguard uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Repicci</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Uni glide</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Preservation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>PFC sigma uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Mitus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Balancys uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oudshoorn</controllingFieldValue>
+            <valueName>Optetrak uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Accuris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>UC plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Triathon uni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Elius</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Avon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Advance uni</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

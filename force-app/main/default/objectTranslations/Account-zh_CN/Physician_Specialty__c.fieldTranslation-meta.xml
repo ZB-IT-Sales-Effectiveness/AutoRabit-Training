@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select Zimmer specialty for this surgeon --></help>
+    <label>专业</label>
+    <name>Physician_Specialty__c</name>
+    <picklistValues>
+        <masterLabel>ADULT RECONSTRUCTIVE ORTHOPEDICS</masterLabel>
+        <translation><!-- ADULT RECONSTRUCTIVE ORTHOPEDICS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthroplasty</masterLabel>
+        <translation><!-- Arthroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthroscopy</masterLabel>
+        <translation><!-- Arthroscopy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAS</masterLabel>
+        <translation><!-- CAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand &amp; Wrist</masterLabel>
+        <translation><!-- Hand &amp; Wrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEUROLOGICAL SURGERY</masterLabel>
+        <translation><!-- NEUROLOGICAL SURGERY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurosurgical</masterLabel>
+        <translation><!-- Neurosurgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORTHOPEDIC SURGERY OF THE SPINE</masterLabel>
+        <translation><!-- ORTHOPEDIC SURGERY OF THE SPINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSP</masterLabel>
+        <translation><!-- OSP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology</masterLabel>
+        <translation><!-- Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthobiologics</masterLabel>
+        <translation><!-- Orthobiologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic Surgery</masterLabel>
+        <translation><!-- Orthopedic Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEDIATRIC ORTHOPEDICS</masterLabel>
+        <translation><!-- PEDIATRIC ORTHOPEDICS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paediatric</masterLabel>
+        <translation><!-- Paediatric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific</masterLabel>
+        <translation><!-- Patient Specific --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

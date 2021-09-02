@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zip_Code_Validation_for_Canada</fullName>
+    <active>true</active>
+    <description>Validates that the account Billing Zip/Postal Code is in the correct format if Billing Country is Canada</description>
+    <errorConditionFormula>AND(AND(
+OR(MailingCountry = &quot;CAN&quot;, MailingCountry = &quot;CA&quot;, MailingCountry = &quot;Canada&quot;,OtherCountry = &quot;CAN&quot;, OtherCountry = &quot;CA&quot;, OtherCountry = &quot;Canada&quot;),
+NOT(REGEX(MailingPostalCode, &quot;((?i)[ABCEGHJKLMNPRSTVXY]\\d[A-Z]?\\s?\\d[A-Z]\\d)?&quot;)),NOT(REGEX(OtherPostalCode, &quot;((?i)[ABCEGHJKLMNPRSTVXY]\\d[A-Z]?\\s?\\d[A-Z]\\d)?&quot;))),
+(RecordTypeId = &quot;012800000003ZTZ&quot;|| RecordTypeId = &apos;012800000002DoB&apos; || RecordTypeId = &apos;012800000002DoL&apos;))</errorConditionFormula>
+    <errorMessage>The Canadian postal code must be in A9A 9A9 format</errorMessage>
+</ValidationRule>

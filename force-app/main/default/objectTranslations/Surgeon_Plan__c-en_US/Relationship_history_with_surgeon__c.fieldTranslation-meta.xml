@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What&apos;s the history of your relationship? --></help>
+    <label><!-- Relationship History with surgeon --></label>
+    <name>Relationship_history_with_surgeon__c</name>
+</CustomFieldTranslation>

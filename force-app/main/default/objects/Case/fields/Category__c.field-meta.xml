@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>APAC</fullName>
+                <default>false</default>
+                <label>APAC</label>
+            </value>
+            <value>
+                <fullName>Base Station Return</fullName>
+                <default>false</default>
+                <label>Base Station Return</label>
+            </value>
+            <value>
+                <fullName>Broker Requests</fullName>
+                <default>false</default>
+                <label>Broker Requests</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Case ID &amp; Recon Request</fullName>
+                <default>false</default>
+                <label>Case ID &amp; Recon Request</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>CS - A - Logistics &amp; Sales Support</fullName>
+                <default>false</default>
+                <label>CS - A - Logistics &amp; Sales Support</label>
+            </value>
+            <value>
+                <fullName>CS - B- Technical Support</fullName>
+                <default>false</default>
+                <label>CS - B- Technical Support</label>
+            </value>
+            <value>
+                <fullName>CS - C - Servicing</fullName>
+                <default>false</default>
+                <label>CS - C - Servicing</label>
+            </value>
+            <value>
+                <fullName>CS - D - Complaint</fullName>
+                <default>false</default>
+                <label>CS - D - Complaint</label>
+            </value>
+            <value>
+                <fullName>DCMS Technical Support</fullName>
+                <default>false</default>
+                <label>DCMS Technical Support</label>
+            </value>
+            <value>
+                <fullName>Deactivation Request</fullName>
+                <default>false</default>
+                <label>Deactivation Request</label>
+            </value>
+            <value>
+                <fullName>Disposables</fullName>
+                <default>false</default>
+                <label>Disposables</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+                <label>EMEA</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Extremities</fullName>
+                <default>false</default>
+                <label>Extremities</label>
+            </value>
+            <value>
+                <fullName>Follow Up/Feedback</fullName>
+                <default>false</default>
+                <label>Follow Up/Feedback</label>
+            </value>
+            <value>
+                <fullName>General Case Info</fullName>
+                <default>false</default>
+                <label>General Case Info</label>
+            </value>
+            <value>
+                <fullName>General Information</fullName>
+                <default>false</default>
+                <label>General Information</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Hardware &amp; Software</fullName>
+                <default>false</default>
+                <label>Hardware &amp; Software</label>
+            </value>
+            <value>
+                <fullName>Historical</fullName>
+                <default>false</default>
+                <label>Historical</label>
+            </value>
+            <value>
+                <fullName>Home Base Station Activation</fullName>
+                <default>false</default>
+                <label>Home Base Station Activation</label>
+            </value>
+            <value>
+                <fullName>I.T. Technical Issues</fullName>
+                <default>false</default>
+                <label>I.T. Technical Issues</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Import</fullName>
+                <default>false</default>
+                <label>Import</label>
+            </value>
+            <value>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+                <label>Info Only</label>
+            </value>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>Junk</fullName>
+                <default>false</default>
+                <label>Junk/SPAM</label>
+            </value>
+            <value>
+                <fullName>Knees</fullName>
+                <default>false</default>
+                <label>Knees</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+            <value>
+                <fullName>Materialise Case Comments/Info</fullName>
+                <default>false</default>
+                <label>Materialise Case Comments/Info</label>
+            </value>
+            <value>
+                <fullName>Mymobility – Android</fullName>
+                <default>false</default>
+                <label>mymobility – Android</label>
+            </value>
+            <value>
+                <fullName>mymobility – CWE</fullName>
+                <default>false</default>
+                <label>mymobility – CWE</label>
+            </value>
+            <value>
+                <fullName>mymobility – Internal Support</fullName>
+                <default>false</default>
+                <label>mymobility – Internal Support</label>
+            </value>
+            <value>
+                <fullName>Mymobility – iOS</fullName>
+                <default>false</default>
+                <label>mymobility – iOS</label>
+            </value>
+            <value>
+                <fullName>Mymobility – IWE</fullName>
+                <default>false</default>
+                <label>mymobility – IWE</label>
+            </value>
+            <value>
+                <fullName>N/A or Junk</fullName>
+                <default>false</default>
+                <label>N/A or Junk</label>
+            </value>
+            <value>
+                <fullName>One Planner Hip/ROSA Hip</fullName>
+                <default>false</default>
+                <label>One Planner Hip/ROSA Hip</label>
+            </value>
+            <value>
+                <fullName>OR App</fullName>
+                <default>false</default>
+                <label>OR App</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PACS</fullName>
+                <default>false</default>
+                <label>PACS</label>
+            </value>
+            <value>
+                <fullName>Persona IQ Complaint</fullName>
+                <default>false</default>
+                <label>Persona IQ Complaint</label>
+            </value>
+            <value>
+                <fullName>Persona IQ - iOS</fullName>
+                <default>false</default>
+                <label>Persona IQ - iOS</label>
+            </value>
+            <value>
+                <fullName>Persona IQ – PC</fullName>
+                <default>false</default>
+                <label>Persona IQ – PC</label>
+            </value>
+            <value>
+                <fullName>Pre Alert</fullName>
+                <default>false</default>
+                <label>Pre Alert</label>
+            </value>
+            <value>
+                <fullName>Product Data Base</fullName>
+                <default>false</default>
+                <label>Product Data Base</label>
+            </value>
+            <value>
+                <fullName>Production follow up</fullName>
+                <default>false</default>
+                <label>Production follow up</label>
+            </value>
+            <value>
+                <fullName>Product Technical Issue</fullName>
+                <default>false</default>
+                <label>Product Technical Issue</label>
+            </value>
+            <value>
+                <fullName>PSI - A - Production follow-up</fullName>
+                <default>false</default>
+                <label>PSI - A - Production follow-up</label>
+            </value>
+            <value>
+                <fullName>PSI - B - SMS &amp; PSI Setup</fullName>
+                <default>false</default>
+                <label>PSI - B - SMS &amp; PSI Setup</label>
+            </value>
+            <value>
+                <fullName>PSI - C - Rejected/Cancelled case</fullName>
+                <default>false</default>
+                <label>PSI - C - Rejected/Cancelled case</label>
+            </value>
+            <value>
+                <fullName>PSI - D - Case ID &amp; Recon Request</fullName>
+                <default>false</default>
+                <label>PSI - D - Case ID &amp; Recon Request</label>
+            </value>
+            <value>
+                <fullName>PSI - E - Shipping</fullName>
+                <default>false</default>
+                <label>PSI - E - Shipping</label>
+            </value>
+            <value>
+                <fullName>PSI - F - Follow-Up/Feedback</fullName>
+                <default>false</default>
+                <label>PSI - F - Follow-Up/Feedback</label>
+            </value>
+            <value>
+                <fullName>PSI - G - Complaint</fullName>
+                <default>false</default>
+                <label>PSI - G - Complaint</label>
+            </value>
+            <value>
+                <fullName>PSI - H - Product Technical Issues</fullName>
+                <default>false</default>
+                <label>PSI - H - Product Technical Issues</label>
+            </value>
+            <value>
+                <fullName>PSI - I - Templating</fullName>
+                <default>false</default>
+                <label>PSI - I - Templating</label>
+            </value>
+            <value>
+                <fullName>PSI - J - Other</fullName>
+                <default>false</default>
+                <label>PSI - J - Other</label>
+            </value>
+            <value>
+                <fullName>PSI - K - Post-Delivery</fullName>
+                <default>false</default>
+                <label>PSI - K - Post-Delivery</label>
+            </value>
+            <value>
+                <fullName>Quality Compliant</fullName>
+                <default>false</default>
+                <label>Quality Compliant</label>
+            </value>
+            <value>
+                <fullName>Rejected/Canceled Case</fullName>
+                <default>false</default>
+                <label>Rejected/Canceled Case</label>
+            </value>
+            <value>
+                <fullName>Rejected/Cancelled case</fullName>
+                <default>false</default>
+                <label>Rejected/Cancelled case</label>
+            </value>
+            <value>
+                <fullName>RGA</fullName>
+                <default>false</default>
+                <label>RGA</label>
+            </value>
+            <value>
+                <fullName>ROSA</fullName>
+                <default>false</default>
+                <label>ROSA</label>
+            </value>
+            <value>
+                <fullName>Scan Center</fullName>
+                <default>false</default>
+                <label>Scan Center</label>
+            </value>
+            <value>
+                <fullName>Scheduling Home Base Station Appt</fullName>
+                <default>false</default>
+                <label>Scheduling Home Base Station Appt</label>
+            </value>
+            <value>
+                <fullName>Set up - New User</fullName>
+                <default>false</default>
+                <label>Set up - New User</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Shipping/Tracking information –Delivery Date</fullName>
+                <default>false</default>
+                <label>Shipping/Tracking information –Delivery Date</label>
+            </value>
+            <value>
+                <fullName>SMS&amp; PSI Setup</fullName>
+                <default>false</default>
+                <label>SMS&amp; PSI Setup</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Surgeon Training</fullName>
+                <default>false</default>
+                <label>Surgeon Training</label>
+            </value>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+                <label>Technical Support</label>
+            </value>
+            <value>
+                <fullName>Templating</fullName>
+                <default>false</default>
+                <label>Templating</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting</fullName>
+                <default>false</default>
+                <label>Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Unsuccessful Activation</fullName>
+                <default>false</default>
+                <label>Unsuccessful Activation</label>
+            </value>
+            <value>
+                <fullName>XRayTemplating/Efficient Care</fullName>
+                <default>false</default>
+                <label>XRayTemplating/Efficient Care</label>
+            </value>
+            <value>
+                <fullName>ZB IT Ticket</fullName>
+                <default>false</default>
+                <label>ZB IT Ticket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

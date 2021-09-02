@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type steel primair gecementeerd --></label>
+    <name>X2e_type_steel_primair_gecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>C stem</masterLabel>
+        <translation><!-- C stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CPS Plus stem</masterLabel>
+        <translation><!-- CPS Plus stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CPT</masterLabel>
+        <translation><!-- CPT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CS Plus stem</masterLabel>
+        <translation><!-- CS Plus stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Centris</masterLabel>
+        <translation><!-- Centris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerima</masterLabel>
+        <translation><!-- Cerima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cone</masterLabel>
+        <translation><!-- Cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emeraude</masterLabel>
+        <translation><!-- Emeraude --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exceter</masterLabel>
+        <translation><!-- Exceter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extend steel</masterLabel>
+        <translation><!-- Extend steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lubinus SP II</masterLabel>
+        <translation><!-- Lubinus SP II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lubinus classic plus</masterLabel>
+        <translation><!-- Lubinus classic plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MS30</masterLabel>
+        <translation><!-- MS30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller</masterLabel>
+        <translation><!-- Muller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller straight stem cca</masterLabel>
+        <translation><!-- Muller straight stem cca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olympia</masterLabel>
+        <translation><!-- Olympia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan</masterLabel>
+        <translation><!-- Optan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perfecta</masterLabel>
+        <translation><!-- Perfecta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP 2</masterLabel>
+        <translation><!-- SP 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spectron</masterLabel>
+        <translation><!-- Spectron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stanmore</masterLabel>
+        <translation><!-- Stanmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summit</masterLabel>
+        <translation><!-- Summit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taperlock</masterLabel>
+        <translation><!-- Taperlock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Twinsys cemented</masterLabel>
+        <translation><!-- Twinsys cemented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vario</masterLabel>
+        <translation><!-- Vario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>charnley</masterLabel>
+        <translation><!-- charnley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>metabloc</masterLabel>
+        <translation><!-- metabloc --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

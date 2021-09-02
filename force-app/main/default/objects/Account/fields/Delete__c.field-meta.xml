@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Delete this Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This will delete the Account from SFDC and from the Integration internal tables.  See Ron Cowan or Rob Moulton for more information.</inlineHelpText>
+    <label>Delete</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Completed By --></label>
+    <name>Completed_By_CustomPoint_Access__c</name>
+    <picklistValues>
+        <masterLabel>Jackson Pfister</masterLabel>
+        <translation><!-- Jackson Pfister --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jake Nimmo</masterLabel>
+        <translation><!-- Jake Nimmo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jessica Napka</masterLabel>
+        <translation><!-- Jessica Napka --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kelsey Ketcham</masterLabel>
+        <translation><!-- Kelsey Ketcham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kris Simonton</masterLabel>
+        <translation><!-- Kris Simonton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kyle Smith</masterLabel>
+        <translation><!-- Kyle Smith --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lee Gillett</masterLabel>
+        <translation><!-- Lee Gillett --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mindy Apperson</masterLabel>
+        <translation><!-- Mindy Apperson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rachael Gilardi</masterLabel>
+        <translation><!-- Rachael Gilardi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Troy Watson</masterLabel>
+        <translation><!-- Troy Watson --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

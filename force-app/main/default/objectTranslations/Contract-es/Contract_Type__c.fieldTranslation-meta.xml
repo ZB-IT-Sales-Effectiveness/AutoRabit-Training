@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contract Type --></label>
+    <name>Contract_Type__c</name>
+    <picklistValues>
+        <masterLabel>DL Agreement</masterLabel>
+        <translation><!-- DL Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA Agreement</masterLabel>
+        <translation><!-- LA Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC Agreement</masterLabel>
+        <translation><!-- PC Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC Agreement</masterLabel>
+        <translation><!-- SC Agreement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_steel_primair_ongecementeerd__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type steel primair ongecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_steel_primair_ongecemteerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avenir</fullName>
+                <default>false</default>
+                <label>Avenir</label>
+            </value>
+            <value>
+                <fullName>Alloclassic Zweymüller</fullName>
+                <default>false</default>
+                <label>Alloclassic Zweymüller</label>
+            </value>
+            <value>
+                <fullName>CLS Sportonno</fullName>
+                <default>false</default>
+                <label>CLS Sportonno</label>
+            </value>
+            <value>
+                <fullName>CLS Brevius</fullName>
+                <default>false</default>
+                <label>CLS Brevius</label>
+            </value>
+            <value>
+                <fullName>Metabloc</fullName>
+                <default>false</default>
+                <label>Metabloc</label>
+            </value>
+            <value>
+                <fullName>ML Taper</fullName>
+                <default>false</default>
+                <label>ML Taper</label>
+            </value>
+            <value>
+                <fullName>ML Taper Kinective</fullName>
+                <default>false</default>
+                <label>ML Taper Kinective</label>
+            </value>
+            <value>
+                <fullName>Optan</fullName>
+                <default>false</default>
+                <label>Optan</label>
+            </value>
+            <value>
+                <fullName>DB 10</fullName>
+                <default>false</default>
+                <label>DB 10</label>
+            </value>
+            <value>
+                <fullName>Mallory head</fullName>
+                <default>false</default>
+                <label>Mallory head</label>
+            </value>
+            <value>
+                <fullName>Taperloc</fullName>
+                <default>false</default>
+                <label>Taperloc</label>
+            </value>
+            <value>
+                <fullName>EndoCare steel</fullName>
+                <default>false</default>
+                <label>EndoCare steel</label>
+            </value>
+            <value>
+                <fullName>Corail</fullName>
+                <default>false</default>
+                <label>Corail</label>
+            </value>
+            <value>
+                <fullName>CBH (kopie Zweymuller)</fullName>
+                <default>false</default>
+                <label>CBH (kopie Zweymuller)</label>
+            </value>
+            <value>
+                <fullName>CBC</fullName>
+                <default>false</default>
+                <label>CBC</label>
+            </value>
+            <value>
+                <fullName>Twinsys</fullName>
+                <default>false</default>
+                <label>Twinsys</label>
+            </value>
+            <value>
+                <fullName>SN steel</fullName>
+                <default>false</default>
+                <label>SN steel</label>
+            </value>
+            <value>
+                <fullName>SL Plus</fullName>
+                <default>false</default>
+                <label>SL Plus</label>
+            </value>
+            <value>
+                <fullName>Accolade</fullName>
+                <default>false</default>
+                <label>Accolade</label>
+            </value>
+            <value>
+                <fullName>Osteonics</fullName>
+                <default>false</default>
+                <label>Osteonics</label>
+            </value>
+            <value>
+                <fullName>Profemur</fullName>
+                <default>false</default>
+                <label>Profemur</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Avenir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Alloclassic Zweymüller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CLS Sportonno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CLS Brevius</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Metabloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ML Taper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ML Taper Kinective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Optan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>DB 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Mallory head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Taperloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>EndoCare steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Corail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CBH (kopie Zweymuller)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Twinsys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SN steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SL Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Accolade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Osteonics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Profemur</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

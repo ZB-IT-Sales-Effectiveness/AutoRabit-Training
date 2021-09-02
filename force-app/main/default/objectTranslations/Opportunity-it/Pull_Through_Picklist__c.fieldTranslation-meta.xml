@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pull Through Picklist --></label>
+    <name>Pull_Through_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>CMF</masterLabel>
+        <translation><!-- CMF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement</masterLabel>
+        <translation><!-- Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Effecient Care</masterLabel>
+        <translation><!-- Effecient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hips</masterLabel>
+        <translation><!-- Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation><!-- Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lower Extremities</masterLabel>
+        <translation><!-- Lower Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyMobility</masterLabel>
+        <translation><!-- MyMobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personalized Solutions</masterLabel>
+        <translation><!-- Personalized Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAT</masterLabel>
+        <translation><!-- SAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Med</masterLabel>
+        <translation><!-- Sports Med --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Products</masterLabel>
+        <translation><!-- Surgical Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic</masterLabel>
+        <translation><!-- Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Extremities</masterLabel>
+        <translation><!-- Upper Extremities --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

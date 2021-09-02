@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Field to look up a user record that will &apos;own&apos; this Prospect record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select a user to assign this record to (Sales Managers or Terr. Leaders ONLY).</inlineHelpText>
+    <label>Assigned To</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Assigned user must be a Sales Manager or higher level.</errorMessage>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>notEqual</operation>
+            <value>US Ortho SF Platform User</value>
+        </filterItems>
+        <infoMessage>Select a Sales Manager or higher user.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Prospects</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

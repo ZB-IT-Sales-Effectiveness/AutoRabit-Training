@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Id</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Contracts$ContractNumber</field>
+    </columns>
+    <columns>
+        <field>Account.Contracts$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Contracts$EndDate</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Contracts$ContractTerm</field>
+    </columns>
+    <columns>
+        <field>Account.Contracts$OwnerExpirationNotice</field>
+    </columns>
+    <columns>
+        <field>Account$Parent</field>
+    </columns>
+    <currency>USD</currency>
+    <description>FWM CONTRACT EXPIRING 2019</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Contracts$EndDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessThan</operator>
+            <value>12/31/2019</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Contracts$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>FLUID WASTE</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Copy of FLUID WASTE MANAGEMENT CONTRACTS</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Contracts__c</reportType>
+    <scope>accountteamteam</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

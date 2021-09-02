@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Address</fullName>
+    <active>true</active>
+    <description>This validation rule makes sure that all the fields in the address info is filled</description>
+    <errorConditionFormula>AND ((RecordTypeId = &quot;012800000003ZTZ&quot;|| RecordTypeId = &apos;012800000002DoB&apos; || RecordTypeId = &apos;012800000002DoL&apos;),  (ISBLANK( MailingCity ) || ISBLANK( MailingState ) || ISBLANK( MailingStreet ) || ISBLANK( MailingPostalCode) || ISBLANK( MailingCountry)),(MailingCountry=&quot;CA&quot;  || OtherCountry=&quot;CA&quot;))</errorConditionFormula>
+    <errorDisplayField>Abteilung_AT__c</errorDisplayField>
+    <errorMessage>Please Provide Complete Office address</errorMessage>
+</ValidationRule>

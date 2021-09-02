@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Foot &amp; Ankle Target Category --></label>
+    <name>Foot_Ankle_Target_Category__c</name>
+    <picklistValues>
+        <masterLabel>Arcus</masterLabel>
+        <translation><!-- Arcus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus Triad</masterLabel>
+        <translation><!-- Bonus Triad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannulated Screws</masterLabel>
+        <translation><!-- Cannulated Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InCore</masterLabel>
+        <translation><!-- InCore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juggerloc</masterLabel>
+        <translation><!-- Juggerloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSP</masterLabel>
+        <translation><!-- MSP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nextra</masterLabel>
+        <translation><!-- Nextra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ReLine</masterLabel>
+        <translation><!-- ReLine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCP</masterLabel>
+        <translation><!-- SCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stratum</masterLabel>
+        <translation><!-- Stratum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Ankle</masterLabel>
+        <translation><!-- TM Ankle --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

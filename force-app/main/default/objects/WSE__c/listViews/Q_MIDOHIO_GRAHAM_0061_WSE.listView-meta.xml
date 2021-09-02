@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_MIDOHIO_GRAHAM_0061_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MID-OHIO (GRAHAM) (0061) QUEUE</label>
+    <queue>Q_MIDOHIO_GRAHAM_0061</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

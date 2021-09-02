@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Academic Institution &amp; Surgeon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Academic Institutions &amp; Surgeons</value>
+    </caseValues>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

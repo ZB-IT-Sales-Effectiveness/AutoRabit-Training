@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Brand_Flag_Update</fullName>
+        <field>Brand_Flag__c</field>
+        <literalValue>1</literalValue>
+        <name>Brand Flag Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Knee_Territory_Flag_Update</fullName>
+        <field>Territory_Flag__c</field>
+        <literalValue>1</literalValue>
+        <name>Knee Territory Flag Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Procedure_update</fullName>
+        <field>ZB_Procedure__c</field>
+        <literalValue>1</literalValue>
+        <name>Procedure update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Territory_Flag_Update</fullName>
+        <field>Territory_Flag__c</field>
+        <literalValue>1</literalValue>
+        <name>Territory Flag Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Uncheck_Procedure</fullName>
+        <field>ZB_Procedure__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Procedure</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

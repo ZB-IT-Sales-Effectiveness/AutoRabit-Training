@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Validation_For_DNUSMKTG</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR( 
+And($User.ProfileId =&apos;00eM0000000Dnm9&apos;,OR(MailingCountry = &quot;US&quot;),
+OR( 
+LEN(MailingState) &lt; 2, NOT(CONTAINS(&quot;AL:AK:AZ:AR:CA:CO:CT:DE:DC:FL:GA:HI:ID:&quot; &amp; 
+&quot;IL:IN:IA:KS:KY:LA:ME:MD:MA:MI:MN:MS:MO:MT:NE:NV:NH:&quot; &amp; 
+&quot;NJ:NM:NY:NC:ND:OH:OK:OR:PA:RI:SC:SD:TN:TX:UT:VT:VA:&quot; &amp; 
+&quot;WA:WV:WI:WY:GU:VI:PR&quot;, MailingState)))),
+
+And($User.ProfileId =&apos;00ec0000000Hkbs&apos;,OR(MailingCountry = &quot;CA&quot;),
+OR( 
+LEN(MailingState) &lt; 2, NOT(CONTAINS(&quot;AB:BC:MB:NB:NL:NS:NT:NU:ON:PE:QC:SK:YT&quot;, MailingState))))),
+(RecordTypeId = &quot;01280000000Q0l6&quot;))</errorConditionFormula>
+    <errorMessage>You must provide a valid 2-digit State code.</errorMessage>
+</ValidationRule>

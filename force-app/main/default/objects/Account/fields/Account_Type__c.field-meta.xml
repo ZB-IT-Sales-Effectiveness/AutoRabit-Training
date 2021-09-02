@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordTypeId = &quot;012C0000000UlfO&quot; &amp;&amp;(TODAY()- Last_Invoice_Date__c &lt; 730), &quot;Customer&quot;,
+      IF (RecordTypeId = &quot;012C0000000UlfO&quot; &amp;&amp; (TODAY()- Last_Invoice_Date__c &lt; 1460), &quot;Dormant Customer&quot;,&quot;Non-Customer&quot;
+         )
+      )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Customer = Purchased in the last 2 years
+Dormant Customer = Purchased 2-4 years ago
+Non-Customer = Purchased more than 4 years ago or has never purchased</inlineHelpText>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grow_Recapture__c</fullName>
+    <externalId>false</externalId>
+    <label>Cement Target Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grow</fullName>
+                <default>false</default>
+                <label>Grow</label>
+            </value>
+            <value>
+                <fullName>Recapture</fullName>
+                <default>false</default>
+                <label>Recapture</label>
+            </value>
+            <value>
+                <fullName>Palacos Priorities</fullName>
+                <default>false</default>
+                <label>Palacos Priorities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

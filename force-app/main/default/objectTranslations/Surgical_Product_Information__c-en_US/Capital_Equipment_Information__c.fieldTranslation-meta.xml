@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Capital/Disposable Equipment --></label>
+    <name>Capital_Equipment_Information__c</name>
+    <picklistValues>
+        <masterLabel>Blood Management</masterLabel>
+        <translation><!-- Blood Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement Accessories</masterLabel>
+        <translation><!-- Bone Cement Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disposable Tourniquets</masterLabel>
+        <translation><!-- Disposable Tourniquets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fluid Waste Management</masterLabel>
+        <translation><!-- Fluid Waste Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Equipment</masterLabel>
+        <translation><!-- Power Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saw Blades</masterLabel>
+        <translation><!-- Saw Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Helmet</masterLabel>
+        <translation><!-- Surgical Helmet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquets</masterLabel>
+        <translation><!-- Tourniquets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction</masterLabel>
+        <translation><!-- Traction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Debridement</masterLabel>
+        <translation><!-- Wound Debridement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

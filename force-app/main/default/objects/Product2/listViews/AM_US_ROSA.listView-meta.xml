@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_US_ROSA</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Amount_categories__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Global_Product</value>
+    </filters>
+    <filters>
+        <field>Segment__c</field>
+        <operation>equals</operation>
+        <value>ROSA</value>
+    </filters>
+    <label>AM-US-ROSA</label>
+    <sharedTo>
+        <group>TCS_SFDC_Admins</group>
+    </sharedTo>
+</ListView>

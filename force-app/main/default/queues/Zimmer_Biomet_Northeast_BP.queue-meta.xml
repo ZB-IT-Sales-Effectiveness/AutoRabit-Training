@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZB North Atlantic- BP</name>
+    <queueMembers>
+        <users>
+            <user>anne.newell@zimmerbiomet.com</user>
+            <user>david.brooks2@zimmerbiomet.com</user>
+            <user>david.kelleher@zimmerbiomet.com</user>
+            <user>david.liptak@zimmerbiomet.com</user>
+            <user>kilcommons@zbnortheast.com</user>
+            <user>jarett.mendoza@zimmerbiomet.com</user>
+            <user>kevin.cunningham@zimmerbiomet.com</user>
+            <user>nick.almeida@zimmerbiomet.com</user>
+            <user>silva@zbnortheast.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

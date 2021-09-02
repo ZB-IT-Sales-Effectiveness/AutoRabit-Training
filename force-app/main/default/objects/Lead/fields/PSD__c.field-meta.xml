@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSD__c</fullName>
+    <description>PSD for your area</description>
+    <externalId>false</externalId>
+    <label>PSD(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buzz VanArsdale</fullName>
+                <default>false</default>
+                <label>Buzz VanArsdale</label>
+            </value>
+            <value>
+                <fullName>David Lorenzi</fullName>
+                <default>false</default>
+                <label>David Lorenzi</label>
+            </value>
+            <value>
+                <fullName>Don Madson</fullName>
+                <default>false</default>
+                <label>Don Madson</label>
+            </value>
+            <value>
+                <fullName>John Barrette</fullName>
+                <default>false</default>
+                <label>John Barrette</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Steve Daniel</fullName>
+                <default>false</default>
+                <label>Steve Daniel</label>
+            </value>
+            <value>
+                <fullName>Steven Morris</fullName>
+                <default>false</default>
+                <label>Steven Morris</label>
+            </value>
+            <value>
+                <fullName>Terry O&apos;Donnell</fullName>
+                <default>false</default>
+                <label>Terry O&apos;Donnell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

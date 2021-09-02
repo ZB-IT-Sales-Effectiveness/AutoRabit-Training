@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBRIO_GRANDE_VICTOR_0078_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-RIO GRANDE (VICTOR) (0078) QUEUE</label>
+    <queue>Q_ZBRIO_GRANDE_VICTOR_0078</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_ID_required_to_complete_event</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(CVENT_Campaign__c )  &amp;&amp;  Training_Completed__c = TRUE</errorConditionFormula>
+    <errorMessage>Please add CVENT campaign before completing the Event</errorMessage>
+</ValidationRule>

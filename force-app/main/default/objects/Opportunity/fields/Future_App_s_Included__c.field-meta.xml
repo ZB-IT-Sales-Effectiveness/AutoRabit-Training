@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future_App_s_Included__c</fullName>
+    <externalId>false</externalId>
+    <label>Future App(s) Included</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NO</fullName>
+                <default>false</default>
+                <label>NO</label>
+            </value>
+            <value>
+                <fullName>YES, 1 within 24 months of Install</fullName>
+                <default>false</default>
+                <label>YES, 1 within 24 months of Install</label>
+            </value>
+            <value>
+                <fullName>YES, 2 within 24 months of Install</fullName>
+                <default>false</default>
+                <label>YES, 2 within 24 months of Install</label>
+            </value>
+            <value>
+                <fullName>YES, Custom Structure</fullName>
+                <default>false</default>
+                <label>YES, Custom Structure</label>
+            </value>
+            <value>
+                <fullName>YES, 1 when commercially available</fullName>
+                <default>false</default>
+                <label>YES, 1 when commercially available</label>
+            </value>
+            <value>
+                <fullName>YES, 2 when commercially available</fullName>
+                <default>false</default>
+                <label>YES, 2 when commercially available</label>
+            </value>
+            <value>
+                <fullName>YES, included in CASH Purchase</fullName>
+                <default>false</default>
+                <label>YES, included in CASH Purchase</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

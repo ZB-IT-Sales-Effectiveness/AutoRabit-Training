@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Intraoral Scanner Used --></label>
+    <name>Intraoral_Scanner_Used__c</name>
+    <picklistValues>
+        <masterLabel>3M</masterLabel>
+        <translation><!-- 3M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3Shape (Trios)</masterLabel>
+        <translation><!-- 3Shape (Trios) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caresteam</masterLabel>
+        <translation><!-- Caresteam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Wings (DWOS)</masterLabel>
+        <translation><!-- Dental Wings (DWOS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medit</masterLabel>
+        <translation><!-- Medit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planmeca (Emerald)</masterLabel>
+        <translation><!-- Planmeca (Emerald) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirona (Older)</masterLabel>
+        <translation><!-- Sirona (Older) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirona (Primescan)</masterLabel>
+        <translation><!-- Sirona (Primescan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero (Element series)</masterLabel>
+        <translation><!-- iTero (Element series) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero (Older)</masterLabel>
+        <translation><!-- iTero (Older) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

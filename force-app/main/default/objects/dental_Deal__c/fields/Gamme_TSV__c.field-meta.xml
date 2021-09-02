@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gamme_TSV__c</fullName>
+    <externalId>false</externalId>
+    <label>Gamme TSV</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_d_offre__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Offre install - 15 imp</fullName>
+                <default>false</default>
+                <label>Offre install - 15 imp</label>
+            </value>
+            <value>
+                <fullName>Offre install - 25 imp</fullName>
+                <default>false</default>
+                <label>Offre install - 25 imp</label>
+            </value>
+            <value>
+                <fullName>Offre install - 40 imp</fullName>
+                <default>false</default>
+                <label>Offre install - 40 imp</label>
+            </value>
+            <value>
+                <fullName>Réassort</fullName>
+                <default>false</default>
+                <label>Réassort</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TSV</controllingFieldValue>
+            <controllingFieldValue>TSVM - TSVT</controllingFieldValue>
+            <valueName>Offre install - 15 imp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSV</controllingFieldValue>
+            <controllingFieldValue>TSVM - TSVT</controllingFieldValue>
+            <valueName>Offre install - 25 imp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSV</controllingFieldValue>
+            <controllingFieldValue>TSVM - TSVT</controllingFieldValue>
+            <valueName>Offre install - 40 imp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSV</controllingFieldValue>
+            <controllingFieldValue>TSVM - TSVT</controllingFieldValue>
+            <valueName>Réassort</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Notify_Opportunity_owner_to_update_Product_name</fullName>
+        <description>Notify Opportunity owner to update Product name</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderAddress>websupport@zimmer.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Surgical_Product_Due_Date</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Segment_Hips</fullName>
+        <field>Opp_Product_Segment__c</field>
+        <formula>TEXT(Product2.Segment__c)</formula>
+        <name>Segment Hips</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ServiceDateUpdate</fullName>
+        <field>ServiceDate</field>
+        <formula>Opportunity.CloseDate</formula>
+        <name>ServiceDateUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Segment Hips</fullName>
+        <actions>
+            <name>Segment_Hips</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Product2.Segment__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ServiceDateUpdate</fullName>
+        <actions>
+            <name>ServiceDateUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow is to update service date with close date update.</description>
+        <formula>ServiceDate  &lt;&gt;  Opportunity.CloseDate</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Surgical Opportunity Product</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Surgical,US Surgical Leads</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Description</field>
+            <operation>contains</operation>
+            <value>Misc</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Name</field>
+            <operation>contains</operation>
+            <value>Misc</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>notEqual</operation>
+            <value>Closed Won,Closed Lost</value>
+        </criteriaItems>
+        <description>ask the opportunity owner to please update their opportunity with a valid product name and inform them they can no longer use Misc in the product name</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Notify_Opportunity_owner_to_update_Product_name</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>OpportunityLineItem.CreatedDate</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

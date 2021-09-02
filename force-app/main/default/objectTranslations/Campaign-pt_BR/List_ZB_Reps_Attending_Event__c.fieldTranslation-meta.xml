@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If no additional reps attending, please put N/A --></help>
+    <label><!-- List ZB Reps Attending Event --></label>
+    <name>List_ZB_Reps_Attending_Event__c</name>
+</CustomFieldTranslation>

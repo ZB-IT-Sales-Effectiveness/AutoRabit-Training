@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TSA Competitor --></label>
+    <name>TSA_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Arthrex</masterLabel>
+        <translation><!-- Arthrex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthrosurface</masterLabel>
+        <translation><!-- Arthrosurface --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalyst</masterLabel>
+        <translation><!-- Catalyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJO</masterLabel>
+        <translation><!-- DJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DePuy</masterLabel>
+        <translation><!-- DePuy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exactech</masterLabel>
+        <translation><!-- Exactech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FH Ortho</masterLabel>
+        <translation><!-- FH Ortho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FX Solutions</masterLabel>
+        <translation><!-- FX Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lima</masterLabel>
+        <translation><!-- Lima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medacta</masterLabel>
+        <translation><!-- Medacta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S&amp;N/Integra</masterLabel>
+        <translation><!-- S&amp;N/Integra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker/Wright Medical/Tornier</masterLabel>
+        <translation><!-- Stryker/Wright Medical/Tornier --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

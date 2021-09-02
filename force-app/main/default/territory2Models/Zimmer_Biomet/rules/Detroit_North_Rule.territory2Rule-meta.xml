@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Detroit North Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>013589,019693,020318,023521,025159,027812,031168,031187,031596,033490,035054,035674,036703,036719,037143,040712,042828,050232,054065,055282,055575,057273,059052,060279,060569,061098,061217,065102,065755,068299,069060,072000,073025,073230,073327,074105,078267,090000,092147,095266,096270,107574,073075,003875,004524,007484,007540,008775,009146,009179,010561,015897,029055,030616,032420,033429,036789,039356,039879,040558,050772</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.Record_Type__pc</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

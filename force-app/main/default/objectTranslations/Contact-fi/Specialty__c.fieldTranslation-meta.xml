@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the specialties of the contact related to the products of Zimmer Biomet. --></help>
+    <label><!-- Specialty --></label>
+    <name>Specialty__c</name>
+    <picklistValues>
+        <masterLabel>Capital Equipment</masterLabel>
+        <translation><!-- Capital Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cranial</masterLabel>
+        <translation><!-- Cranial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostics</masterLabel>
+        <translation><!-- Diagnostics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand</masterLabel>
+        <translation><!-- Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heart</masterLabel>
+        <translation><!-- Heart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxillofacial</masterLabel>
+        <translation><!-- Maxillofacial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMI</masterLabel>
+        <translation><!-- PMI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Care</masterLabel>
+        <translation><!-- Patient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatrics</masterLabel>
+        <translation><!-- Pediatrics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Hip</masterLabel>
+        <translation><!-- Primary Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Knee</masterLabel>
+        <translation><!-- Primary Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Hip</masterLabel>
+        <translation><!-- ROSA Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Shoulder</masterLabel>
+        <translation><!-- ROSA Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Spine</masterLabel>
+        <translation><!-- ROSA Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Hip</masterLabel>
+        <translation><!-- Revision Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knee</masterLabel>
+        <translation><!-- Revision Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Grafting</masterLabel>
+        <translation><!-- Skin Grafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solutions</masterLabel>
+        <translation><!-- Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Deformity</masterLabel>
+        <translation><!-- Spine Deformity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical</masterLabel>
+        <translation><!-- Surgical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic</masterLabel>
+        <translation><!-- Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Connect</masterLabel>
+        <translation><!-- ZB Connect --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

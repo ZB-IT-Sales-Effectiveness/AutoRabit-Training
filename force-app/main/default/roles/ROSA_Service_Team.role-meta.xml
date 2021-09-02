@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ROSA-Service Team</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ROSA-Service Team</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ROSA_Service</parentRole>
+</Role>

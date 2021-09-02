@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Puros_Block_Change__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(Puros_Block_PYTD__c &gt;0,(Puros_Block_YTD__c -Puros_Block_PYTD__c  )/Puros_Block_PYTD__c , 1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Puros Block% Change</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

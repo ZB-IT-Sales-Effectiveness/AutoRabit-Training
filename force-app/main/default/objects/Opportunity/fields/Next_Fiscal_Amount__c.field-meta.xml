@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Fiscal_Amount__c</fullName>
+    <description>Field used for Next Fiscal year revenue Amount</description>
+    <externalId>false</externalId>
+    <formula>/* Close Date is next year */ 
+IF( YEAR( CloseDate ) = YEAR(TODAY())+1, 
+(365 - (CloseDate - DATE(YEAR(TODAY())+1,01,01))) / 365 * Amount, 
+
+/* Close Date is this year */ 
+IF( YEAR( CloseDate ) = YEAR(TODAY()), 
+(365-(DATE(YEAR(TODAY()),12,31) - CloseDate)) / 365 * Amount, 
+0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Next Fiscal Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

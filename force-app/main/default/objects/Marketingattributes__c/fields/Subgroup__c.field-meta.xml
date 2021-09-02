@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subgroup__c</fullName>
+    <externalId>false</externalId>
+    <label>Untergruppe</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Köpfe</fullName>
+                <default>false</default>
+                <label>Köpfe</label>
+            </value>
+            <value>
+                <fullName>Markraumsperre</fullName>
+                <default>false</default>
+                <label>Markraumsperre</label>
+            </value>
+            <value>
+                <fullName>Pfannensysteme</fullName>
+                <default>false</default>
+                <label>Pfannensysteme</label>
+            </value>
+            <value>
+                <fullName>Schaftsysteme</fullName>
+                <default>false</default>
+                <label>Schaftsysteme</label>
+            </value>
+            <value>
+                <fullName>Kniesysteme</fullName>
+                <default>false</default>
+                <label>Kniesysteme</label>
+            </value>
+            <value>
+                <fullName>Extremitäten</fullName>
+                <default>false</default>
+                <label>Extremitäten</label>
+            </value>
+            <value>
+                <fullName>Support Systems</fullName>
+                <default>false</default>
+                <label>Support Systems</label>
+            </value>
+            <value>
+                <fullName>Fusion Systems</fullName>
+                <default>false</default>
+                <label>Fusion Systems</label>
+            </value>
+            <value>
+                <fullName>Non Fusion Systems</fullName>
+                <default>false</default>
+                <label>Non Fusion Systems</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Knochenersatz</fullName>
+                <default>false</default>
+                <label>Knochenersatz</label>
+            </value>
+            <value>
+                <fullName>Interessen</fullName>
+                <default>false</default>
+                <label>Interessen</label>
+            </value>
+            <value>
+                <fullName>Kataloge</fullName>
+                <default>false</default>
+                <label>Kataloge</label>
+            </value>
+            <value>
+                <fullName>Preislisten</fullName>
+                <default>false</default>
+                <label>Preislisten</label>
+            </value>
+            <value>
+                <fullName>Retraktoren</fullName>
+                <default>false</default>
+                <label>Retraktoren</label>
+            </value>
+            <value>
+                <fullName>Pulsavac</fullName>
+                <default>false</default>
+                <label>Pulsavac</label>
+            </value>
+            <value>
+                <fullName>ATS</fullName>
+                <default>false</default>
+                <label>ATS</label>
+            </value>
+            <value>
+                <fullName>Cement &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Cement &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Skin Graft Products</fullName>
+                <default>false</default>
+                <label>Skin Graft Products</label>
+            </value>
+            <value>
+                <fullName>Power Tools</fullName>
+                <default>false</default>
+                <label>Power Tools</label>
+            </value>
+            <value>
+                <fullName>Transition</fullName>
+                <default>false</default>
+                <label>Transition</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hüfte</controllingFieldValue>
+            <valueName>Köpfe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hüfte</controllingFieldValue>
+            <valueName>Markraumsperre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hüfte</controllingFieldValue>
+            <valueName>Pfannensysteme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hüfte</controllingFieldValue>
+            <valueName>Schaftsysteme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knie</controllingFieldValue>
+            <valueName>Kniesysteme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <valueName>Extremitäten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Support Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Pulsavac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>ATS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Cement &amp; Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Skin Graft Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Power Tools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Fusion Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Non Fusion Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Retraktoren</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spine</controllingFieldValue>
+            <valueName>Transition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Knochenersatz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sonstiges</controllingFieldValue>
+            <valueName>Interessen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sonstiges</controllingFieldValue>
+            <valueName>Kataloge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sonstiges</controllingFieldValue>
+            <valueName>Preislisten</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

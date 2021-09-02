@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_primair_steel_ongecementeerd__c</fullName>
+    <description>Kies het type ongecementeerde steel voor de primaire heup.</description>
+    <externalId>false</externalId>
+    <label>Type heup primair steel ongecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_primair_steel_ongecement__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alloclassic Zweymüller</fullName>
+                <default>false</default>
+                <label>Alloclassic Zweymüller</label>
+            </value>
+            <value>
+                <fullName>Avenir</fullName>
+                <default>false</default>
+                <label>Avenir</label>
+            </value>
+            <value>
+                <fullName>CLS Brevius</fullName>
+                <default>false</default>
+                <label>CLS Brevius</label>
+            </value>
+            <value>
+                <fullName>CLS Sportorno</fullName>
+                <default>false</default>
+                <label>CLS Sportorno</label>
+            </value>
+            <value>
+                <fullName>Emeraude</fullName>
+                <default>false</default>
+                <label>Emeraude</label>
+            </value>
+            <value>
+                <fullName>Metabloc</fullName>
+                <default>false</default>
+                <label>Metabloc</label>
+            </value>
+            <value>
+                <fullName>ML Taper</fullName>
+                <default>false</default>
+                <label>ML Taper</label>
+            </value>
+            <value>
+                <fullName>ML Taper Kinective</fullName>
+                <default>false</default>
+                <label>ML Taper Kinective</label>
+            </value>
+            <value>
+                <fullName>Optan</fullName>
+                <default>false</default>
+                <label>Optan</label>
+            </value>
+            <value>
+                <fullName>DB 10</fullName>
+                <default>false</default>
+                <label>DB 10</label>
+            </value>
+            <value>
+                <fullName>Mallory head</fullName>
+                <default>false</default>
+                <label>Mallory head</label>
+            </value>
+            <value>
+                <fullName>Taperloc</fullName>
+                <default>false</default>
+                <label>Taperloc</label>
+            </value>
+            <value>
+                <fullName>EndoCare steel</fullName>
+                <default>false</default>
+                <label>EndoCare steel</label>
+            </value>
+            <value>
+                <fullName>Corail</fullName>
+                <default>false</default>
+                <label>Corail</label>
+            </value>
+            <value>
+                <fullName>CBC (kopie cls)</fullName>
+                <default>false</default>
+                <label>CBC (kopie cls)</label>
+            </value>
+            <value>
+                <fullName>CBH (kopie Zweymuller)</fullName>
+                <default>false</default>
+                <label>CBH (kopie Zweymuller)</label>
+            </value>
+            <value>
+                <fullName>Twinsys (kopie avenir)</fullName>
+                <default>false</default>
+                <label>Twinsys (kopie avenir)</label>
+            </value>
+            <value>
+                <fullName>SL Plus</fullName>
+                <default>false</default>
+                <label>SL Plus</label>
+            </value>
+            <value>
+                <fullName>SN steel</fullName>
+                <default>false</default>
+                <label>SN steel</label>
+            </value>
+            <value>
+                <fullName>Osteonics</fullName>
+                <default>false</default>
+                <label>Osteonics</label>
+            </value>
+            <value>
+                <fullName>Profemur</fullName>
+                <default>false</default>
+                <label>Profemur</label>
+            </value>
+            <value>
+                <fullName>Quadra</fullName>
+                <default>false</default>
+                <label>Quadra</label>
+            </value>
+            <value>
+                <fullName>S rom modular hip system</fullName>
+                <default>false</default>
+                <label>S rom modular hip system</label>
+            </value>
+            <value>
+                <fullName>AML Total hip system</fullName>
+                <default>false</default>
+                <label>AML Total hip system</label>
+            </value>
+            <value>
+                <fullName>Prodigy</fullName>
+                <default>false</default>
+                <label>Prodigy</label>
+            </value>
+            <value>
+                <fullName>Summit</fullName>
+                <default>false</default>
+                <label>Summit</label>
+            </value>
+            <value>
+                <fullName>Trilock</fullName>
+                <default>false</default>
+                <label>Trilock</label>
+            </value>
+            <value>
+                <fullName>GSS</fullName>
+                <default>false</default>
+                <label>GSS</label>
+            </value>
+            <value>
+                <fullName>Furlong</fullName>
+                <default>false</default>
+                <label>Furlong</label>
+            </value>
+            <value>
+                <fullName>Synergy</fullName>
+                <default>false</default>
+                <label>Synergy</label>
+            </value>
+            <value>
+                <fullName>CBG</fullName>
+                <default>false</default>
+                <label>CBG</label>
+            </value>
+            <value>
+                <fullName>Symax</fullName>
+                <default>false</default>
+                <label>Symax</label>
+            </value>
+            <value>
+                <fullName>Hipstar</fullName>
+                <default>false</default>
+                <label>Hipstar</label>
+            </value>
+            <value>
+                <fullName>Omnifit</fullName>
+                <default>false</default>
+                <label>Omnifit</label>
+            </value>
+            <value>
+                <fullName>Accolade</fullName>
+                <default>false</default>
+                <label>Accolade</label>
+            </value>
+            <value>
+                <fullName>Perfecta</fullName>
+                <default>false</default>
+                <label>Perfecta</label>
+            </value>
+            <value>
+                <fullName>CFP</fullName>
+                <default>false</default>
+                <label>CFP</label>
+            </value>
+            <value>
+                <fullName>Beta cone</fullName>
+                <default>false</default>
+                <label>Beta cone</label>
+            </value>
+            <value>
+                <fullName>Ribbed system</fullName>
+                <default>false</default>
+                <label>Ribbed system</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Alloclassic Zweymüller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Avenir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CLS Brevius</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CLS Sportorno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Emeraude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Metabloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ML Taper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ML Taper Kinective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Optan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>DB 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Mallory head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Taperloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>EndoCare steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Quadra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Corail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>S rom modular hip system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>AML Total hip system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Prodigy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Summit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Trilock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CBC (kopie cls)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>CBH (kopie Zweymuller)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Twinsys (kopie avenir)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>GSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SL Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SN steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Synergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>CBG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Osteonics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Symax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Hipstar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Omnifit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Accolade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oudshoorn</controllingFieldValue>
+            <valueName>Furlong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Profemur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Perfecta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>CFP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Beta cone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Ribbed system</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

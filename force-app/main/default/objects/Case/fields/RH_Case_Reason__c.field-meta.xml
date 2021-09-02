@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RH_Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>RH Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Question: Coding</fullName>
+                <default>false</default>
+                <label>Question: Coding</label>
+            </value>
+            <value>
+                <fullName>Question: Coverage</fullName>
+                <default>false</default>
+                <label>Question: Coverage</label>
+            </value>
+            <value>
+                <fullName>Question: Payment</fullName>
+                <default>false</default>
+                <label>Question: Payment</label>
+            </value>
+            <value>
+                <fullName>Question: Prior Authorization</fullName>
+                <default>false</default>
+                <label>Question: Prior Authorization</label>
+            </value>
+            <value>
+                <fullName>Question: Prior Authorization Denial</fullName>
+                <default>false</default>
+                <label>Question: Prior Authorization Denial</label>
+            </value>
+            <value>
+                <fullName>Question: Claims Denial</fullName>
+                <default>false</default>
+                <label>Question: Claims Denial</label>
+            </value>
+            <value>
+                <fullName>Question: General Reimbursement</fullName>
+                <default>false</default>
+                <label>Question: General Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Request: Assist with Prior Authorization</fullName>
+                <default>false</default>
+                <label>Request: Assist with Prior Authorization</label>
+            </value>
+            <value>
+                <fullName>Request: Assist with Prior Auth Denial</fullName>
+                <default>false</default>
+                <label>Request: Assist with Prior Auth Denial</label>
+            </value>
+            <value>
+                <fullName>Request: Assist with Claims Denial</fullName>
+                <default>false</default>
+                <label>Request: Assist with Claims Denial</label>
+            </value>
+            <value>
+                <fullName>Request: Medical Necessity Letter (PA)</fullName>
+                <default>false</default>
+                <label>Request: Medical Necessity Letter (PA)</label>
+            </value>
+            <value>
+                <fullName>Request: Prior Auth Appeal Letter</fullName>
+                <default>false</default>
+                <label>Request: Prior Auth Appeal Letter</label>
+            </value>
+            <value>
+                <fullName>Request: Claims Appeal Letter</fullName>
+                <default>false</default>
+                <label>Request: Claims Appeal Letter</label>
+            </value>
+            <value>
+                <fullName>Request: Coding Guide</fullName>
+                <default>false</default>
+                <label>Request: Coding Guide</label>
+            </value>
+            <value>
+                <fullName>Request: Other</fullName>
+                <default>false</default>
+                <label>Request: Other</label>
+            </value>
+            <value>
+                <fullName>Follow Up: Prior Auth/Pre-D Outcome</fullName>
+                <default>false</default>
+                <label>Follow Up: Prior Auth/Pre-D Outcome</label>
+            </value>
+            <value>
+                <fullName>Follow Up: Claims Payment</fullName>
+                <default>false</default>
+                <label>Follow Up: Claims Payment</label>
+            </value>
+            <value>
+                <fullName>Follow Up: PA Appeal Outcome</fullName>
+                <default>false</default>
+                <label>Follow Up: PA Appeal Outcome</label>
+            </value>
+            <value>
+                <fullName>Question: Claims Appeal</fullName>
+                <default>false</default>
+                <label>Question: Claims Appeal</label>
+            </value>
+            <value>
+                <fullName>Question: Insurance Verification</fullName>
+                <default>false</default>
+                <label>Question: Insurance Verification</label>
+            </value>
+            <value>
+                <fullName>Request: Clinical Data Request</fullName>
+                <default>false</default>
+                <label>Request: Clinical Data Request</label>
+            </value>
+            <value>
+                <fullName>Request: Insurance Verification</fullName>
+                <default>false</default>
+                <label>Request: Insurance Verification</label>
+            </value>
+            <value>
+                <fullName>Request: Medical Necessity Letter</fullName>
+                <default>false</default>
+                <label>Request: Medical Necessity Letter</label>
+            </value>
+            <value>
+                <fullName>Request: Prior Authorization Appeal Letter</fullName>
+                <default>false</default>
+                <label>Request: Prior Authorization Appeal Letter</label>
+            </value>
+            <value>
+                <fullName>Request: Prior Authorization Letter</fullName>
+                <default>false</default>
+                <label>Request: Prior Authorization Letter</label>
+            </value>
+            <value>
+                <fullName>Request: Reimbursement Kit</fullName>
+                <default>false</default>
+                <label>Request: Reimbursement Kit</label>
+            </value>
+            <value>
+                <fullName>Request: Site Visit</fullName>
+                <default>false</default>
+                <label>Request: Site Visit</label>
+            </value>
+            <value>
+                <fullName>Webcast</fullName>
+                <default>false</default>
+                <label>Webcast</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Follow Up: Claims Appeal Outcome</fullName>
+                <default>false</default>
+                <label>Follow Up: Claims Appeal Outcome</label>
+            </value>
+            <value>
+                <fullName>Follow Up: External Review Outcome</fullName>
+                <default>false</default>
+                <label>Follow Up: External Review Outcome</label>
+            </value>
+            <value>
+                <fullName>Follow Up: Other</fullName>
+                <default>false</default>
+                <label>Follow Up: Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

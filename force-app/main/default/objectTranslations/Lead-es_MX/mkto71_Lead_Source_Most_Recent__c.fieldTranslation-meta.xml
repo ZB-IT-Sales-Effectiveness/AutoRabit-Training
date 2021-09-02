@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Source Most Recent --></label>
+    <name>mkto71_Lead_Source_Most_Recent__c</name>
+    <picklistValues>
+        <masterLabel>Advertisement Offline</masterLabel>
+        <translation><!-- Advertisement Offline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Advertisement</masterLabel>
+        <translation><!-- Digital Advertisement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Mail</masterLabel>
+        <translation><!-- Direct Mail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event</masterLabel>
+        <translation><!-- Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incoming Call/Email/Chat</masterLabel>
+        <translation><!-- Incoming Call/Email/Chat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Import</masterLabel>
+        <translation><!-- List Import --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Relations</masterLabel>
+        <translation><!-- Public Relations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referral</masterLabel>
+        <translation><!-- Referral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Prospecting</masterLabel>
+        <translation><!-- Sales Prospecting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Media</masterLabel>
+        <translation><!-- Social Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Website</masterLabel>
+        <translation><!-- Website --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

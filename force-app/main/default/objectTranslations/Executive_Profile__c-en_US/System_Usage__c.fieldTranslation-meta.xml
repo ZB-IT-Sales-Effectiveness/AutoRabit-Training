@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- System Usage --></label>
+    <name>System_Usage__c</name>
+    <picklistValues>
+        <masterLabel>Astra</masterLabel>
+        <translation><!-- Astra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biohorizon</masterLabel>
+        <translation><!-- Biohorizon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dantsply</masterLabel>
+        <translation><!-- Dantsply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel</masterLabel>
+        <translation><!-- Nobel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann</masterLabel>
+        <translation><!-- Straumann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet</masterLabel>
+        <translation><!-- Zimmer Biomet --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

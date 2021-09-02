@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Potential</label>
+    <name>Potential__c</name>
+    <picklistValues>
+        <masterLabel>Robotics Ja</masterLabel>
+        <translation><!-- Robotics Ja --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics Nein</masterLabel>
+        <translation><!-- Robotics Nein --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

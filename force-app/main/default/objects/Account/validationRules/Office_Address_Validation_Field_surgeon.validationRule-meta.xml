@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office_Address_Validation_Field_surgeon</fullName>
+    <active>true</active>
+    <description>This validation Rule is For the Profile AM-US-Field Updates for Filling the Ofiice Address only for the Physician Processind Record type</description>
+    <errorConditionFormula>AND( (ISBLANK( PersonMailingCity  ) || 
+ISBLANK( PersonMailingCountry ) || 
+ISBLANK( PersonMailingState ) || 
+ISBLANK( PersonMailingStreet ) || 
+ISBLANK( PersonMailingPostalCode ) ),
+RecordTypeId  = &quot;012800000003YRm&quot;,
+$Profile.Id = &quot;00eC0000001Skq9&quot;)</errorConditionFormula>
+    <errorMessage>You must provide a street address for your account.
+
+ You must provide a valid 2-digit Person mailing Country code (ALL CAPS).</errorMessage>
+</ValidationRule>

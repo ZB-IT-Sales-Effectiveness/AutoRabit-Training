@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_requested_checkbox_editable</fullName>
+    <active>true</active>
+    <description>It is not necessary to check the Validation Requested box on surgeon records assigned a 005 Zimmer Account Number. To submit your changes, please uncheck the Validation Requested box and click ‘Save’.</description>
+    <errorConditionFormula>AND( 
+ISCHANGED( Validation_Requested__c ), 
+Validation_Requested__c= TRUE, 
+MDM_SAP_ID__c &lt;&gt;&apos;&apos;, 
+NPI__c &lt;&gt;&apos;&apos; 
+
+)</errorConditionFormula>
+    <errorMessage>It is not necessary to check the Validation Requested box on surgeon records assigned a 005 Zimmer Account Number. To submit your changes, please uncheck the Validation Requested box and click ‘Save’.</errorMessage>
+</ValidationRule>

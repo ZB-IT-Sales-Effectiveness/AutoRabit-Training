@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Beschrijf kenmerken van deze contactpersoon. Bijv. bevriende collega&apos;s, hobby&apos;s en interesse gebieden. --></help>
+    <label><!-- Profiel --></label>
+    <name>Profiel__c</name>
+</CustomFieldTranslation>

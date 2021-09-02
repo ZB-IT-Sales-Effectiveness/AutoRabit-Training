@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Processing_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Processing Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abklärung Warenbeschaffung</fullName>
+                <default>false</default>
+                <label>Abklärung Warenbeschaffung (6)</label>
+            </value>
+            <value>
+                <fullName>Aus dem Markt bedienen</fullName>
+                <default>false</default>
+                <label>Aus dem Markt bedienen (7)</label>
+            </value>
+            <value>
+                <fullName>SAP zur Erfassung</fullName>
+                <default>false</default>
+                <label>SAP zur Erfassung (8)</label>
+            </value>
+            <value>
+                <fullName>Ware nicht komplett an Lager</fullName>
+                <default>false</default>
+                <label>Ware nicht komplett an Lager (9)</label>
+            </value>
+            <value>
+                <fullName>Ware an Lager - bitte picken lassen</fullName>
+                <default>false</default>
+                <label>Ware an Lager - bitte picken lassen (10)</label>
+            </value>
+            <value>
+                <fullName>Sets werden gerade gerichtet</fullName>
+                <default>false</default>
+                <label>Sets werden gerade gerichtet (11)</label>
+            </value>
+            <value>
+                <fullName>Teillieferung versandbereit</fullName>
+                <default>false</default>
+                <label>Teillieferung versandbereit (12)</label>
+            </value>
+            <value>
+                <fullName>Teillieferung versendet</fullName>
+                <default>false</default>
+                <label>Teillieferung versendet (13)</label>
+            </value>
+            <value>
+                <fullName>Ware komplett versandbereit</fullName>
+                <default>false</default>
+                <label>Ware komplett versandbereit (14)</label>
+            </value>
+            <value>
+                <fullName>Ware komplett versendet</fullName>
+                <default>false</default>
+                <label>Ware komplett versendet (15)</label>
+            </value>
+            <value>
+                <fullName>Storno</fullName>
+                <default>false</default>
+                <label>Storno (16)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

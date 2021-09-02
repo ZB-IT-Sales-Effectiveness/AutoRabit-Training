@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Certification Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cert 1</fullName>
+                <default>false</default>
+                <label>Cert 1</label>
+            </value>
+            <value>
+                <fullName>Cert 2</fullName>
+                <default>false</default>
+                <label>Cert 2</label>
+            </value>
+            <value>
+                <fullName>Cert 3</fullName>
+                <default>false</default>
+                <label>Cert 3</label>
+            </value>
+            <value>
+                <fullName>Cert 4</fullName>
+                <default>false</default>
+                <label>Cert 4</label>
+            </value>
+            <value>
+                <fullName>ROSA Knee</fullName>
+                <default>false</default>
+                <label>ROSA Knee</label>
+            </value>
+            <value>
+                <fullName>ROSA Partial Knee</fullName>
+                <default>false</default>
+                <label>ROSA Partial Knee</label>
+            </value>
+            <value>
+                <fullName>ROSA Hip</fullName>
+                <default>false</default>
+                <label>ROSA Hip</label>
+            </value>
+            <value>
+                <fullName>ROSA Brain Certification</fullName>
+                <default>false</default>
+                <label>ROSA Brain Certification</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

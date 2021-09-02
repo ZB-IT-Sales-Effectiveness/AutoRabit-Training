@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Admins_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>Email_Status__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Queue</filterScope>
+    <label>System Admins</label>
+    <language>en_US</language>
+    <queue>System_Admins</queue>
+    <sharedTo>
+        <role>CRMAdministrator</role>
+    </sharedTo>
+</ListView>

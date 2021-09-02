@@ -1,0 +1,17 @@
+<script language="JavaScript">
+
+function redirect()
+{
+var str=parent.location.href;
+if(str.indexOf('/sp/')!=-1)
+{
+parent.location.replace('/sp/apex/SurgeonPortalFirstPage?surgeonId={!User.ContactId}');
+}
+else
+{
+parent.location.replace('/apex/SurgeonPortalFirstPage?surgeonId={!User.ContactId}');
+}
+}
+redirect();
+
+</script >

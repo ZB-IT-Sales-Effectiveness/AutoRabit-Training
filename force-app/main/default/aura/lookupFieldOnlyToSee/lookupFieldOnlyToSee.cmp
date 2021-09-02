@@ -1,0 +1,135 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-27-2021
+  @last modified by  : hugodhm@icloud.com
+-->
+<aura:component controller="lookupFieldOnlyToSeeController" implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    <aura:attribute name="varFirstName" type="String" />
+    <aura:attribute name="varLastName" type="String" default=""/>
+    <aura:attribute name="varLocation" type="String" default=""/>
+    <aura:attribute name="varRows" type="String" default="10"/>
+    <aura:attribute name="data" type="List"/>
+    <!-- <aura:attribute name="State" type="List"/> -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <div class="contPrincipal">
+      <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_3-of-3">
+          <h2 id="element-with-table-label" class="slds-text-heading_medium slds-m-bottom_xx-small">Manage Surgeon Profiles</h2>
+        </div>
+      </div>
+      <div class="contPrincipal">
+        <div class="contForm">
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-3">
+              <div class="slds-grid slds-wrap">
+                
+                <div class="slds-col slds-size_5-of-12">
+                    <c:lookupField 
+                    objectAPIName="Account" 
+                    label="{!$Label.c.FirstName}"
+                    returnFields="['Name']" 
+                    queryFields="['Name']"
+                    selectedId="{!v.selectedId}"
+                    searchText="{!v.varFirstName}"
+                    />
+                  </div>
+                  <div class="slds-col slds-size_5-of-12">
+                    <c:lookupField 
+                    objectAPIName="Account" 
+                    label="{!$Label.c.LastName}"
+                    returnFields="['Name']" 
+                    queryFields="['Name']"
+                    selectedId="{!v.selectedId}"
+                    searchText="{!v.varLastName}"
+                    />
+                  </div>
+                  <div class="slds-col slds-size_10-of-12">
+                    <c:lookupField 
+                    objectAPIName="GPL_Profile__c" 
+                    label="{!$Label.c.Location}"
+                    returnFields="['Address__c']" 
+                    queryFields="['Address__c']"
+                    selectedId="{!v.selectedId}"
+                    searchText="{!v.varLocation}"
+                    />
+                </div>
+                <div class="slds-col slds-size_10-of-12">
+                      <lightning:select name="select1" label="{!$Label.c.SearchRadius}" value="{!v.varRows}">
+                        <option value="10">10 miles</option>
+                        <option value="25">25 miles</option>
+                        <option value="50">50 miles</option>
+                        <option value="100">100 miles</option>
+                    </lightning:select>
+                    <!-- <c:lookupField 
+                    objectAPIName="Account" 
+                    label="{!$Label.c.SearchRadius}"
+                    returnFields="['Name']" 
+                    queryFields="['Name']"
+                    selectedId="{!v.selectedId}"
+                    /> -->
+                </div>
+                <div class="slds-col slds-size_10-of-12">
+                    <br />
+                    <lightning:button variant="brand" label="{!$Label.c.SearchBtn}" title="Brand action" onclick="{!c.saveRecord}" />
+                </div> 
+
+              </div>
+            </div>
+      
+            <div class="slds-col slds-size_1-of-3 text-center">
+                <h2 id="other-element-with-table-label" class="slds-text-heading_medium slds-m-bottom_small">Can't fine a listing for your doctor? </h2>
+                <c:modalRequestNew/>
+                <!-- <lightning:button variant="brand" label="{!$Label.c.RequestNewListingBtn}" title="Brand action" onclick="{! c.handleClick }" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contDatos">
+        <aura:iteration items="{!v.data}" var="row" indexVar="index">
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_1-of-3"> 
+              <h2 id="element-with-table-label" class="slds-text-heading_medium slds-m-bottom_xx-small">{!index+1} &nbsp; {!row.Name__c}</h2>
+              <div>
+                <p>
+                  Woodlands Physician Group <br/>
+                </p>
+                <p>
+                  <aura:if isTrue="{!row.Address__c}">
+                      <aura:unescapedHtml value="{!row.Address__c}"/>
+                    <aura:set attribute="else">
+                      False
+                    </aura:set>
+                  </aura:if> 
+                </p>
+              </div>
+            </div>
+            <div class="slds-col slds-size_1-of-3"> 
+              <h2 id="element-with-table-label" class="slds-text-heading_medium slds-m-bottom_xx-small">Specialties</h2>
+              <div>
+                <p>
+                  {!row.Specialties__c}
+                </p>
+              </div>
+            </div>
+            <div class="slds-col slds-size_1-of-3"> 
+              <div>
+                <p>
+                  <h3>
+                    TBD
+                  </h3>
+                  <br/>
+                  <c:modalField childValue="{!row}"/>
+                  <!-- <lightning:button variant="brand" label="{!$Label.c.ViewFullListingBtn}" title="Brand action" onclick="{! c.handleClick }" />  -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </aura:iteration>
+      </div>
+
+    </div>
+</aura:component>

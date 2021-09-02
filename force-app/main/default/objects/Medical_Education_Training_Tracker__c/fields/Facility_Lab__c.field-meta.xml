@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Lab__c</fullName>
+    <externalId>false</externalId>
+    <label>Facility / Lab</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scottsdale Lab</fullName>
+                <default>false</default>
+                <label>Scottsdale Lab</label>
+            </value>
+            <value>
+                <fullName>Parsippany Lab</fullName>
+                <default>false</default>
+                <label>Parsippany Lab</label>
+            </value>
+            <value>
+                <fullName>Mobile Lab</fullName>
+                <default>false</default>
+                <label>Mobile Lab</label>
+            </value>
+            <value>
+                <fullName>On-site Lab</fullName>
+                <default>false</default>
+                <label>On-site Lab</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Other ZB Lab</fullName>
+                <default>false</default>
+                <label>Other ZB Lab</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

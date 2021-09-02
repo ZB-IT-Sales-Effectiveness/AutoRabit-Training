@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Value_for_ATC</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(ISBLANK(X1st_Level_Prior_Auth_Initiate_Hold__c), NOT(ISPICKVAL(On_Hold__c,&apos;&apos;) )),
+AND(ISBLANK(X2nd_Level_Prior_Auth_Initiate_Hold__c), NOT(ISPICKVAL(X2nd_Level_Prior_Auth_On_Hold__c,&apos;&apos;) )),
+AND(ISBLANK(External_Review_Initiate_Hold__c), NOT(ISPICKVAL(External_Review_On_Hold__c,&apos;&apos;) )),
+AND(ISBLANK(Prior_Auth_Initiate_Hold__c), NOT(ISPICKVAL(Prior_Auth_On_Hold__c,&apos;&apos;) ))
+
+)</errorConditionFormula>
+    <errorMessage>Please enter -&quot;Initiate Hold&quot;  Date</errorMessage>
+</ValidationRule>

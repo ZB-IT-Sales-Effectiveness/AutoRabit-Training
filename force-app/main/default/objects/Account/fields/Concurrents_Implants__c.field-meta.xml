@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concurrents_Implants__c</fullName>
+    <externalId>false</externalId>
+    <label>Concurrents Implants</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alpha Bio</fullName>
+                <default>false</default>
+                <label>Alpha Bio</label>
+            </value>
+            <value>
+                <fullName>Anthogyr</fullName>
+                <default>false</default>
+                <label>Anthogyr</label>
+            </value>
+            <value>
+                <fullName>Biohorizons</fullName>
+                <default>false</default>
+                <label>Biohorizons</label>
+            </value>
+            <value>
+                <fullName>Biomet 3i</fullName>
+                <default>false</default>
+                <label>Biomet 3i</label>
+            </value>
+            <value>
+                <fullName>Biotech</fullName>
+                <default>false</default>
+                <label>Biotech</label>
+            </value>
+            <value>
+                <fullName>Bredent</fullName>
+                <default>false</default>
+                <label>Bredent</label>
+            </value>
+            <value>
+                <fullName>Camlog</fullName>
+                <default>false</default>
+                <label>Camlog</label>
+            </value>
+            <value>
+                <fullName>Denstply implants - Astra</fullName>
+                <default>false</default>
+                <label>Denstply implants - Astra</label>
+            </value>
+            <value>
+                <fullName>Dentsply implants</fullName>
+                <default>false</default>
+                <label>Dentsply implants</label>
+            </value>
+            <value>
+                <fullName>Easy implant</fullName>
+                <default>false</default>
+                <label>Easy implant</label>
+            </value>
+            <value>
+                <fullName>Euroteknica</fullName>
+                <default>false</default>
+                <label>Euroteknica</label>
+            </value>
+            <value>
+                <fullName>Global D - Serf</fullName>
+                <default>false</default>
+                <label>Global D - Serf</label>
+            </value>
+            <value>
+                <fullName>Global D - Tekka</fullName>
+                <default>false</default>
+                <label>Global D - Tekka</label>
+            </value>
+            <value>
+                <fullName>IDI</fullName>
+                <default>false</default>
+                <label>IDI</label>
+            </value>
+            <value>
+                <fullName>Implant direct</fullName>
+                <default>false</default>
+                <label>Implant direct</label>
+            </value>
+            <value>
+                <fullName>Keystone</fullName>
+                <default>false</default>
+                <label>Keystone</label>
+            </value>
+            <value>
+                <fullName>Medical Production</fullName>
+                <default>false</default>
+                <label>Medical Production</label>
+            </value>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>Nobel Biocare</fullName>
+                <default>false</default>
+                <label>Nobel Biocare</label>
+            </value>
+            <value>
+                <fullName>Straumann ITI</fullName>
+                <default>false</default>
+                <label>Straumann ITI</label>
+            </value>
+            <value>
+                <fullName>Sweden &amp; Martina</fullName>
+                <default>false</default>
+                <label>Sweden &amp; Martina</label>
+            </value>
+            <value>
+                <fullName>TBR</fullName>
+                <default>false</default>
+                <label>TBR</label>
+            </value>
+            <value>
+                <fullName>Thommen</fullName>
+                <default>false</default>
+                <label>Thommen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Premier Orthopedics, Inc. - BP</name>
+    <queueMembers>
+        <users>
+            <user>george.birdsong@zbpremier.com</user>
+            <user>jason.cartwright@zbpremier.com</user>
+            <user>karl.vonsavoye@zbpremier.com</user>
+            <user>nick.seefeldt@zbpremier.com</user>
+            <user>steve.blank@zbpremier.com</user>
+            <user>thomas.ray@zbpremier.com</user>
+            <user>tony.franchi@zbpremier.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

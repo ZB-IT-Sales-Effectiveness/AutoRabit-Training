@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Distributor --></label>
+    <name>CanadaDistributor__c</name>
+    <picklistValues>
+        <masterLabel>Compass</masterLabel>
+        <translation><!-- Compass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>McCarthy</masterLabel>
+        <translation><!-- McCarthy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West</masterLabel>
+        <translation><!-- West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBEAST</masterLabel>
+        <translation><!-- ZBEAST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBONE</masterLabel>
+        <translation><!-- ZBONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBOS</masterLabel>
+        <translation><!-- ZBOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBQUEBEC</masterLabel>
+        <translation><!-- ZBQUEBEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBWEST</masterLabel>
+        <translation><!-- ZBWEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZONE</masterLabel>
+        <translation><!-- ZONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZOS</masterLabel>
+        <translation><!-- ZOS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

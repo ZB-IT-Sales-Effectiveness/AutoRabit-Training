@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documentation_Received__c</fullName>
+    <externalId>false</externalId>
+    <label>Documentation Received</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ATC Forms</fullName>
+                <default>false</default>
+                <label>ATC Forms</label>
+            </value>
+            <value>
+                <fullName>Letter of Denial</fullName>
+                <default>false</default>
+                <label>Letter of Denial</label>
+            </value>
+            <value>
+                <fullName>Medical Documentation</fullName>
+                <default>false</default>
+                <label>Medical Documentation</label>
+            </value>
+            <value>
+                <fullName>PT Notes</fullName>
+                <default>false</default>
+                <label>PT Notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

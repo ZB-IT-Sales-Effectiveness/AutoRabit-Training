@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Contacts_Norway</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Inactive__c</columns>
+    <columns>Division__c</columns>
+    <columns>JobDescription__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Specialty__c</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.EU_Contact_Record_Type</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>NO,Norway</value>
+    </filters>
+    <label>All Contacts Norway</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>Nordics</role>
+        <roleAndSubordinatesInternal>Norway</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

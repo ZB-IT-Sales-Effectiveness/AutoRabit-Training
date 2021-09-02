@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Zimmer_Implant_Total_Units__c</fullName>
+    <description>Total Implant units from related Sales History Detail records</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Includes TM and TSV family implants</inlineHelpText>
+    <label>DN Zimmer Implant Total Units</label>
+    <summarizedField>Sales_History_Details__c.Order_Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Sales_History_Details__c.Product_Code__c</field>
+        <operation>startsWith</operation>
+        <value>TSV, TM</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Sales_History_Details__c.Product_Code__c</field>
+        <operation>notEqual</operation>
+        <value>TSVKIT,TSVTRAY,TSVTRAYD,TSV3DSN,TSV3DN,TSV3.8DSN,TSV3.8DN,TSV4DSN,TSV4DN,TSV6DSN,TSV6DN,TSVBLK,TSV5.1DSN,TSV5.1DN</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Sales_History_Details__c.Order_Number__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPI_Read_Only_If_ZAN_is_not_blank</fullName>
+    <active>true</active>
+    <description>If ZAN is not blank then make NPI a read-Only field</description>
+    <errorConditionFormula>AND( 
+
+$Profile.Id &lt;&gt; &quot;00e80000001SQMI&quot;, 
+RecordTypeId = &quot;012800000002C4g&quot;, 
+Validation_Requested__c=FALSE, 
+MDM_SAP_ID__c&lt;&gt;&quot;&quot;, 
+ISCHANGED(NPI__c) 
+
+)</errorConditionFormula>
+    <errorMessage>NPI field is locked when surgeon record is Validated and ZAN is assigned</errorMessage>
+</ValidationRule>

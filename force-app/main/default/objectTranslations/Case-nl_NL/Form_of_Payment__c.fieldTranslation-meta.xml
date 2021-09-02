@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Form of Payment --></label>
+    <name>Form_of_Payment__c</name>
+    <picklistValues>
+        <masterLabel>Cash or cash equivalent</masterLabel>
+        <translation><!-- Cash or cash equivalent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-kind items and services</masterLabel>
+        <translation><!-- In-kind items and services --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

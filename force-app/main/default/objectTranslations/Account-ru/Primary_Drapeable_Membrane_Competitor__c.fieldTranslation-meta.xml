@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Drapeable Membrane Competitor --></label>
+    <name>Primary_Drapeable_Membrane_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Bego Collagen Membrane (Bego)</masterLabel>
+        <translation><!-- Bego Collagen Membrane (Bego) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bio-Gide (Geistlich)</masterLabel>
+        <translation><!-- Bio-Gide (Geistlich) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioxlude (Snoasis)</masterLabel>
+        <translation><!-- Bioxlude (Snoasis) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BoneProtect Membrane (dentegris)</masterLabel>
+        <translation><!-- BoneProtect Membrane (dentegris) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Citagenix</masterLabel>
+        <translation><!-- Citagenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaguide (curasan)</masterLabel>
+        <translation><!-- Collaguide (curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collprotect (botiss)</masterLabel>
+        <translation><!-- Collprotect (botiss) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conform (Ace)</masterLabel>
+        <translation><!-- Conform (Ace) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conform (Henry Schein)</masterLabel>
+        <translation><!-- Conform (Henry Schein) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos Xenoprotect (Nobel)</masterLabel>
+        <translation><!-- Creos Xenoprotect (Nobel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos xeno.protect (Nobel)</masterLabel>
+        <translation><!-- Creos xeno.protect (Nobel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cytoplast (curasan)</masterLabel>
+        <translation><!-- Cytoplast (curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamatrix (Keystone)</masterLabel>
+        <translation><!-- Dynamatrix (Keystone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamatrix (Multiple)</masterLabel>
+        <translation><!-- Dynamatrix (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Epiguide (curasan)</masterLabel>
+        <translation><!-- Epiguide (curasan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frios Boneshield (Dentsply)</masterLabel>
+        <translation><!-- Frios Boneshield (Dentsply) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason (botiss)</masterLabel>
+        <translation><!-- Jason (botiss) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mem-lok Pliable (Biohorizons)</masterLabel>
+        <translation><!-- Mem-lok Pliable (Biohorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membragel (Strauman)</masterLabel>
+        <translation><!-- Membragel (Strauman) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ossix Plus (Multiple)</masterLabel>
+        <translation><!-- Ossix Plus (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ossix Plus (Regedent)</masterLabel>
+        <translation><!-- Ossix Plus (Regedent) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRGF (Autogenous)</masterLabel>
+        <translation><!-- PRGF (Autogenous) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pericardium (Exactech)</masterLabel>
+        <translation><!-- Pericardium (Exactech) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pericardium (Multiple)</masterLabel>
+        <translation><!-- Pericardium (Multiple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RCM6 (Henry Schein)</masterLabel>
+        <translation><!-- RCM6 (Henry Schein) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remotis (Thommen)</masterLabel>
+        <translation><!-- Remotis (Thommen) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resodont Membrane (Resorba)</masterLabel>
+        <translation><!-- Resodont Membrane (Resorba) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smartbrane (Regedent)</masterLabel>
+        <translation><!-- Smartbrane (Regedent) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann Flex (Straumann)</masterLabel>
+        <translation><!-- Straumann Flex (Straumann) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xymphony (Salvin)</masterLabel>
+        <translation><!-- Xymphony (Salvin) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

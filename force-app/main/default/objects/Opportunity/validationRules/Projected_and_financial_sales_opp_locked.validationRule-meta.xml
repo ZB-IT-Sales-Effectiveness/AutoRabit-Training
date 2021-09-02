@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_and_financial_sales_opp_locked</fullName>
+    <active>true</active>
+    <description>opportunity record type used for projected and financial sales should be locked down, so only the integration profile(s) and system admin profile can create/modify/delete. It should be read only access for all other profiles.</description>
+    <errorConditionFormula>IF(  RecordTypeId!=&apos;012C0000000QFqY&apos;,false,
+	AND(   $Profile.Id &lt;&gt; &quot;00e80000000sptd&quot;, $Profile.Id &lt;&gt;&quot;00eC0000001SZiN&quot;)
+)</errorConditionFormula>
+    <errorMessage>Opportunities in Projected and financial sales are not editable</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Beschrijf de derde actie om de bedreiging(en) weg te nemen. --></help>
+    <label><!-- Actie 3 --></label>
+    <name>Actie_3__c</name>
+</CustomFieldTranslation>

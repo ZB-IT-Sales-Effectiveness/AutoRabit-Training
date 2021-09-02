@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Xenograft Bone Competitor --></label>
+    <name>Primary_Xenograft_Bone_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>BioOss (Geistlich)</masterLabel>
+        <translation><!-- BioOss (Geistlich) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creos Xenograft (Nobel)</masterLabel>
+        <translation><!-- Creos Xenograft (Nobel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Does not use Xenograft</masterLabel>
+        <translation><!-- Does not use Xenograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MinerOss X/XP (BioHorizons)</masterLabel>
+        <translation><!-- MinerOss X/XP (BioHorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NuOss (ACE)</masterLabel>
+        <translation><!-- NuOss (ACE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Xenograft</masterLabel>
+        <translation><!-- Other Xenograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SalvinOss (Salvin)</masterLabel>
+        <translation><!-- SalvinOss (Salvin) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann Xenograft</masterLabel>
+        <translation><!-- Straumann Xenograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Symbios Xenograft (Dentsply)</masterLabel>
+        <translation><!-- Symbios Xenograft (Dentsply) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zcore (Osteogenics)</masterLabel>
+        <translation><!-- Zcore (Osteogenics) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

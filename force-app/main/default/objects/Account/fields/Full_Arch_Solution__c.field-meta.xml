@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Arch_Solution__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Does this specialist offer full arch rehab? If so, what solution does he/she use?</inlineHelpText>
+    <label>Full Arch Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DIEM</fullName>
+                <default>false</default>
+                <label>DIEM</label>
+            </value>
+            <value>
+                <fullName>Revitalize</fullName>
+                <default>false</default>
+                <label>Revitalize</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

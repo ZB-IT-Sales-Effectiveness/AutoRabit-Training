@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related Object Name --></label>
+    <name>Related_Object_Name__c</name>
+    <picklistValues>
+        <masterLabel>% Zimmer Usage</masterLabel>
+        <translation><!-- % Zimmer Usage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Campaigns</masterLabel>
+        <translation><!-- Campaigns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Facility Relationships</masterLabel>
+        <translation><!-- Healthcare Facility Relationships --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunities</masterLabel>
+        <translation><!-- Opportunities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payors</masterLabel>
+        <translation><!-- Payors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peer Networks</masterLabel>
+        <translation><!-- Peer Networks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Usage - Market</masterLabel>
+        <translation><!-- Product Usage - Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Usage - ZB</masterLabel>
+        <translation><!-- Product Usage - ZB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Engagements</masterLabel>
+        <translation><!-- Public Engagements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedules</masterLabel>
+        <translation><!-- Schedules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sunshine Payments</masterLabel>
+        <translation><!-- Sunshine Payments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tasks</masterLabel>
+        <translation><!-- Tasks --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

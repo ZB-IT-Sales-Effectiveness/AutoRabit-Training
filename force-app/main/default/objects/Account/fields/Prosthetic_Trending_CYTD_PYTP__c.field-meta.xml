@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prosthetic_Trending_CYTD_PYTP__c</fullName>
+    <description>Prosthetic % Change - YofY</description>
+    <externalId>false</externalId>
+    <formula>IF(AND( FlagProsthetic_On__c =&quot;Y&quot;, Prosthetic_PYTD__c &gt; 0,Prosthetic_YTD__c &lt;&gt;0),
+((Prosthetic_YTD__c - Prosthetic_PYTD__c ) / Prosthetic_PYTD__c),
+
+IF(AND( FlagProsthetic_On__c =&quot;Y&quot;, Prosthetic_PYTD__c &lt; 0, Prosthetic_YTD__c &lt;&gt;0) ,
+((Prosthetic_YTD__c - Prosthetic_PYTD__c ) / Prosthetic_PYTD__c * -1),
+
+IF(AND( FlagProsthetic_On__c =&quot;Y&quot;, Prosthetic_PYTD__c = 0, Prosthetic_YTD__c &lt;&gt;0) ,
+((Prosthetic_YTD__c)/100),
+
+IF(AND( FlagProsthetic_On__c =&quot;Y&quot;, Prosthetic_PYTD__c &gt; 0,Prosthetic_YTD__c =0),
+(Prosthetic_YTD__c - Prosthetic_PYTD__c /Prosthetic_PYTD__c) ,
+
+
+IF(AND( FlagProsthetic_On__c =&quot;Y&quot;, Prosthetic_PYTD__c &lt; 0,Prosthetic_YTD__c =0),
+0 ,
+
+
+0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Prosthetic % Change - YofY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

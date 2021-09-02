@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Email from SST to New Hire --></help>
+    <label><!-- Completed By --></label>
+    <name>Completed_By_SST_Email__c</name>
+    <relationshipLabel><!-- ZB Connect HR Onboardings (Completed By) --></relationshipLabel>
+</CustomFieldTranslation>

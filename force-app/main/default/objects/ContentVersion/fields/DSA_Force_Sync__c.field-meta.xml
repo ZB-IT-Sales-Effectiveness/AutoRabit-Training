@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DSA_Force_Sync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check to override selective sync option and force this content to be pulled to user&apos;s devices.</description>
+    <externalId>false</externalId>
+    <label>DSA Force Sync</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Zimmer type</label>
+    <name>Own_Designation__c</name>
+    <picklistValues>
+        <masterLabel>ATS 1200</masterLabel>
+        <translation><!-- ATS 1200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATS 3000</masterLabel>
+        <translation><!-- ATS 3000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agenda</masterLabel>
+        <translation><!-- Agenda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allegretto</masterLabel>
+        <translation><!-- Allegretto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allgemeine Instrumente</masterLabel>
+        <translation><!-- Allgemeine Instrumente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Pfanne</masterLabel>
+        <translation><!-- Alloclassic Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Schaft</masterLabel>
+        <translation><!-- Alloclassic Schaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allofit</masterLabel>
+        <translation><!-- Allofit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical</masterLabel>
+        <translation><!-- Anatomical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astrid Fusssystem</masterLabel>
+        <translation><!-- Astrid Fusssystem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir</masterLabel>
+        <translation><!-- Avenir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Batory</masterLabel>
+        <translation><!-- Batory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biolox forte</masterLabel>
+        <translation><!-- Biolox forte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioplug bioresorb.</masterLabel>
+        <translation><!-- Bioplug bioresorb. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bipolar AP</masterLabel>
+        <translation><!-- Bipolar AP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brunswick</masterLabel>
+        <translation><!-- Brunswick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burch-Schneider</masterLabel>
+        <translation><!-- Burch-Schneider --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDH 22mm</masterLabel>
+        <translation><!-- CDH 22mm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Schaft</masterLabel>
+        <translation><!-- CLS Schaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS-Spreizschale</masterLabel>
+        <translation><!-- CLS-Spreizschale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSF-Gamma Pfanne</masterLabel>
+        <translation><!-- CSF-Gamma Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Ready</masterLabel>
+        <translation><!-- Cable Ready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement</masterLabel>
+        <translation><!-- Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cemlock</masterLabel>
+        <translation><!-- Cemlock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerasul</masterLabel>
+        <translation><!-- Cerasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copi OS</masterLabel>
+        <translation><!-- Copi OS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cuffs - Disposable</masterLabel>
+        <translation><!-- Cuffs - Disposable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cuffs - Reusable</masterLabel>
+        <translation><!-- Cuffs - Reusable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSP</masterLabel>
+        <translation><!-- DSP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DTO Implantat</masterLabel>
+        <translation><!-- DTO Implantat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durasul 36</masterLabel>
+        <translation><!-- Durasul 36 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durasul P20</masterLabel>
+        <translation><!-- Durasul P20 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durchbohrte Schrauben</masterLabel>
+        <translation><!-- Durchbohrte Schrauben --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom</masterLabel>
+        <translation><!-- Durom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Acetabular Comp</masterLabel>
+        <translation><!-- Durom Acetabular Comp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Large Diameter Head</masterLabel>
+        <translation><!-- Durom Large Diameter Head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom Resurfacing</masterLabel>
+        <translation><!-- Durom Resurfacing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynardi</masterLabel>
+        <translation><!-- Dynardi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys</masterLabel>
+        <translation><!-- Dynesys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emeraude HA_unzementiert</masterLabel>
+        <translation><!-- Emeraude HA_unzementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emeraude zementiert</masterLabel>
+        <translation><!-- Emeraude zementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exafit Schaft zementiert</masterLabel>
+        <translation><!-- Exafit Schaft zementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitmore</masterLabel>
+        <translation><!-- Fitmore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flachprofil Durasul</masterLabel>
+        <translation><!-- Flachprofil Durasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flachprofil Metasul</masterLabel>
+        <translation><!-- Flachprofil Metasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flachprofil-PE</masterLabel>
+        <translation><!-- Flachprofil-PE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frakturkopf S 30</masterLabel>
+        <translation><!-- Frakturkopf S 30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSB III Ellbogen</masterLabel>
+        <translation><!-- GSB III Ellbogen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geradschaft Pt10</masterLabel>
+        <translation><!-- Geradschaft Pt10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geradschaft S30 Eco</masterLabel>
+        <translation><!-- Geradschaft S30 Eco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goonrad Morrey</masterLabel>
+        <translation><!-- Goonrad Morrey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grossfragmente</masterLabel>
+        <translation><!-- Grossfragmente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HTO</masterLabel>
+        <translation><!-- HTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hemiprothese</masterLabel>
+        <translation><!-- Hemiprothese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hope</masterLabel>
+        <translation><!-- Hope --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex</masterLabel>
+        <translation><!-- Innex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys Marknagelsys</masterLabel>
+        <translation><!-- Intrasys Marknagelsys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kleinfragmente</masterLabel>
+        <translation><!-- Kleinfragmente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Konusprothese</masterLabel>
+        <translation><!-- Konusprothese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOR</masterLabel>
+        <translation><!-- LOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/L Taper</masterLabel>
+        <translation><!-- M/L Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MS-30</masterLabel>
+        <translation><!-- MS-30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meshgraft</masterLabel>
+        <translation><!-- Meshgraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc unzementiert</masterLabel>
+        <translation><!-- Metabloc unzementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc zementiert</masterLabel>
+        <translation><!-- Metabloc zementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metasul P 21 WF</masterLabel>
+        <translation><!-- Metasul P 21 WF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mixing Bowl</masterLabel>
+        <translation><!-- Mixing Bowl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular-Bipolar PTK</masterLabel>
+        <translation><!-- Modular-Bipolar PTK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Femur</masterLabel>
+        <translation><!-- NCB Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Humerus</masterLabel>
+        <translation><!-- NCB Humerus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB Tibia</masterLabel>
+        <translation><!-- NCB Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NK II</masterLabel>
+        <translation><!-- NK II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen</masterLabel>
+        <translation><!-- NexGen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan unzementiert</masterLabel>
+        <translation><!-- Optan unzementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optima ZS</masterLabel>
+        <translation><!-- Optima ZS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE Stühmer/Weber</masterLabel>
+        <translation><!-- PE Stühmer/Weber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peri Locking</masterLabel>
+        <translation><!-- Peri Locking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfannendach mit Haken</masterLabel>
+        <translation><!-- Pfannendach mit Haken --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfannendach mit Lappe</masterLabel>
+        <translation><!-- Pfannendach mit Lappe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfannendachsch. MEM</masterLabel>
+        <translation><!-- Pfannendachsch. MEM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plus</masterLabel>
+        <translation><!-- Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plus AC</masterLabel>
+        <translation><!-- Plus AC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Posterior (ARAS)</masterLabel>
+        <translation><!-- Posterior (ARAS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PowerTools</masterLabel>
+        <translation><!-- PowerTools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste OSP</masterLabel>
+        <translation><!-- Preisliste OSP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste für Endoprothetik</masterLabel>
+        <translation><!-- Preisliste für Endoprothetik --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste für Spine</masterLabel>
+        <translation><!-- Preisliste für Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste für Traumatologie</masterLabel>
+        <translation><!-- Preisliste für Traumatologie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste in Excel</masterLabel>
+        <translation><!-- Preisliste in Excel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preisliste in PDF-Form</masterLabel>
+        <translation><!-- Preisliste in PDF-Form --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Press-Fit cup Metasul</masterLabel>
+        <translation><!-- Press-Fit cup Metasul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Press-Fit cup PE</masterLabel>
+        <translation><!-- Press-Fit cup PE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ProNews</masterLabel>
+        <translation><!-- ProNews --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protasul S 30</masterLabel>
+        <translation><!-- Protasul S 30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RHK</masterLabel>
+        <translation><!-- RHK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revisal M-Schaft</masterLabel>
+        <translation><!-- Revisal M-Schaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revitan</masterLabel>
+        <translation><!-- Revitan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAL</masterLabel>
+        <translation><!-- SAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SL-Titanschale II</masterLabel>
+        <translation><!-- SL-Titanschale II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schule - Basel</masterLabel>
+        <translation><!-- Schule - Basel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schule - Bern</masterLabel>
+        <translation><!-- Schule - Bern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schule - Genf</masterLabel>
+        <translation><!-- Schule - Genf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schule - Lausanne</masterLabel>
+        <translation><!-- Schule - Lausanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schule - Zürich</masterLabel>
+        <translation><!-- Schule - Zürich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silhouette</masterLabel>
+        <translation><!-- Silhouette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Marknagel Femur</masterLabel>
+        <translation><!-- Sirus Marknagel Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus Marknagel Tibia</masterLabel>
+        <translation><!-- Sirus Marknagel Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sport - Golf</masterLabel>
+        <translation><!-- Sport - Golf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sulox forte</masterLabel>
+        <translation><!-- Sulox forte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SynPlug bioresorb.</masterLabel>
+        <translation><!-- SynPlug bioresorb. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Augments</masterLabel>
+        <translation><!-- TM Augments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Cage</masterLabel>
+        <translation><!-- TM Cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Modular Pfanne</masterLabel>
+        <translation><!-- TM Modular Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trilogy</masterLabel>
+        <translation><!-- Trilogy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Select</masterLabel>
+        <translation><!-- Trinica Select --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Triosite</masterLabel>
+        <translation><!-- Triosite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TroFix</masterLabel>
+        <translation><!-- TroFix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variall Schaft</masterLabel>
+        <translation><!-- Variall Schaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variall-Pfanne</masterLabel>
+        <translation><!-- Variall-Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtec</masterLabel>
+        <translation><!-- Virtec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vollprofil-Pfanne</masterLabel>
+        <translation><!-- Vollprofil-Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wagner SL Rev.schaft</masterLabel>
+        <translation><!-- Wagner SL Rev.schaft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wallaby</masterLabel>
+        <translation><!-- Wallaby --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weber Pfanne</masterLabel>
+        <translation><!-- Weber Pfanne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weber Schaft zementiert</masterLabel>
+        <translation><!-- Weber Schaft zementiert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weihnachtskarte Persönlich</masterLabel>
+        <translation><!-- Weihnachtskarte Persönlich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weihnachtskarte Versand</masterLabel>
+        <translation><!-- Weihnachtskarte Versand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZUK</masterLabel>
+        <translation><!-- ZUK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zemspritze</masterLabel>
+        <translation><!-- Zemspritze --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

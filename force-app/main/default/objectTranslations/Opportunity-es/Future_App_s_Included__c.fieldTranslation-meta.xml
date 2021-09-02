@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Future App(s) Included --></label>
+    <name>Future_App_s_Included__c</name>
+    <picklistValues>
+        <masterLabel>NO</masterLabel>
+        <translation><!-- NO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, 1 when commercially available</masterLabel>
+        <translation><!-- YES, 1 when commercially available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, 1 within 24 months of Install</masterLabel>
+        <translation><!-- YES, 1 within 24 months of Install --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, 2 when commercially available</masterLabel>
+        <translation><!-- YES, 2 when commercially available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, 2 within 24 months of Install</masterLabel>
+        <translation><!-- YES, 2 within 24 months of Install --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, Custom Structure</masterLabel>
+        <translation><!-- YES, Custom Structure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YES, included in CASH Purchase</masterLabel>
+        <translation><!-- YES, included in CASH Purchase --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DDSS__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Region_Name__c = &quot;US No New England&quot; || Region_Name__c = &quot;US So New England&quot; || Region_Name__c = &quot;US Metro NY&quot;, &quot;Evan Krouse&quot;,
+IF(Region_Name__c = &quot;US SouthEast&quot; || Region_Name__c = &quot;US Southeast&quot; || Region_Name__c = &quot;US Capitol&quot;, &quot;Chad Ladd&quot;,
+IF(Region_Name__c = &quot;US North Star&quot; || Region_Name__c = &quot;US Central&quot; || Region_Name__c = &quot;US Chicago Land&quot;, &quot;Joe Dardis&quot;,
+IF(Region_Name__c = &quot;US Pacific NW&quot; || Region_Name__c = &quot;US Islands&quot; || Region_Name__c = &quot;US Golden Gate&quot;, &quot;Lonny Abrams&quot;,
+IF(Region_Name__c = &quot;US Key Stone&quot; || Region_Name__c = &quot;US Keystone&quot; || Region_Name__c = &quot;US Great Lakes&quot; || Region_Name__c = &quot;US Buckeye&quot;, &quot;Steve Kauffmann&quot;,
+IF(Region_Name__c = &quot;US Appalachian&quot; || Region_Name__c = &quot;US Mississippi Delta&quot; || Region_Name__c = &quot;US Lone Star&quot;, &quot;Nate Powell&quot;,
+IF(Region_Name__c = &quot;US South Florida&quot; || Region_Name__c = &quot;US Southern&quot;, &quot;Matt Garis&quot;,
+IF(Region_Name__c = &quot;US Chesapeake Bay&quot; || Region_Name__c = &quot;US Garden State&quot;, &quot;Tiffany Schreppler&quot;,
+IF(Region_Name__c = &quot;US West&quot; || Region_Name__c = &quot;US Mountain&quot; || Region_Name__c = &quot;US Los Angeles&quot;, &quot;Ryan Heidrich&quot;,
+NULL) ) ) ) ) ) ) ) )</formula>
+    <label>DDSS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

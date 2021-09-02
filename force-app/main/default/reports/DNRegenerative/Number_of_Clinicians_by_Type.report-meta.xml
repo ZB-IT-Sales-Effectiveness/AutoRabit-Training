@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_67395530</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$Region_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>US Key Stone</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US No New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US So New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chesapeake Bay</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Garden State</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Upstate New York</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Metro New York</sourceValue>
+            </sourceValues>
+            <value>Northeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Mississippi Delta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Southern</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Appalachian</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Capitol</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Florida</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US SouthEast</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Florida</sourceValue>
+            </sourceValues>
+            <value>Southeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Buckeye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Central</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Midwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Great Lakes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chicago Land</sourceValue>
+            </sourceValues>
+            <value>Central</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US North Star</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Mountain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Golden Gate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Los Angeles</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Pacific NW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Bay</sourceValue>
+            </sourceValues>
+            <value>West</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Unique</aggregateTypes>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Unique</aggregateTypes>
+        <field>Account$Customer_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account$BillingCountry</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Number_of_Clinicians_by_type</description>
+    <filter>
+        <criteriaItems>
+            <column>Account$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.DN_ACCT_RECORD_TYPE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Speciality_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>CA DOD,Centre mutualiste,Denturist,Denturist CA,Dept of Justice,Distributor,Etablissement de Santé privé,Etablissement de Santé public,Government CA,Institution,Medical Doctor,Military CA,Multispecialty,Other,Pedodontist,Pharmacy</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Speciality_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Number of Clinicians by Type</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <endDate>2020-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-01-01</startDate>
+    </timeFrameFilter>
+</Report>

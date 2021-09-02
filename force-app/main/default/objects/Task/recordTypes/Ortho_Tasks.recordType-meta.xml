@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ortho_Tasks</fullName>
+    <active>true</active>
+    <label>Ortho Tasks</label>
+    <picklistValues>
+        <picklist>Call_Disposition2__c</picklist>
+        <values>
+            <fullName>Busy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not in Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C-Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Director of Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Family__c</picklist>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jar Grips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Information_Details__c</picklist>
+        <values>
+            <fullName>Altoona%2C PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlanta%2C GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baldwin Hills%2C CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baltimore%2C MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beltway Church of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discovery Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ennis%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fine Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Gospel Baptist Fellowship Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hallmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanover%2C PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hinesville%2C GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis%2C IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lafayette%2C IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifetime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifetime Movie Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial Baptist Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memphis%2C TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mt%2E Summit%2C MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Baptist Convention 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Baptist Convention 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York%2CNY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other-N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pryor%2C OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh%2C NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockwell%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Petersburg%2C FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV Land</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tampa State Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Towson%2C MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Union City%2C TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vero Beach%2C FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Chester%2C OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windham%2C NH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Information__c</picklist>
+        <values>
+            <fullName>AARP 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arthritis Today</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back In The Groove 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial%2FAd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Seminar 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Seminars 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Seminars 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GKnee 11%2F2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBGYN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthopaedic Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other-N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prevention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Care Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Story%2FArticle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Precision 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Randall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Sites</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shoreisu__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on someone else</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Capital Solutions Deal Desk Document Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Hire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract_Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doc Deficiencies MYM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doc Deficiencies ROSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doc Deficiencies SURGICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Education Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed - Course Attendance Invite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed - Education Site Visit to Warsaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed - Mobile Lab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed - Surgeon to Surgeon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Met with Ortho Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Executive visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Marketing Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer PSD Visit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject_Source__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Closed Won - Call weekly for schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won - Ensure Deal Desk%2C Price Desk load and activates in ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won - Ensure inventory deployed for use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won - Request Corporate Leadership Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Call for follow up appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Conduct a Personal Visit - Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Evaluate PROS pricing%2E Approve or reject pricing requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Initiate inventory set needs with local field office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Request business%2Ftrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consider - Schedule a Medical Education event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Call for follow up appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Conduct Product Demo %28samples%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Conduct a Personal Visit - Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Conduct a Saw Bones Lab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Confirm the product is on contract or add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Drop off a Corporate Aid%2Fleave behind%2FThank You</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Educate a surgeon via a sales aid %28demos%2C tech guides%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Invite to meet at Industry Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Present a Journal%2FWhite Paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Solidify Implant%2FInstrument availability with AMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover - Submit for Pricing review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Call for follow up appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Conduct a Cadaveric Workshop %28CPW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Conduct a Personal Visit - Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Execute Personal Visit - Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Execute a Site Visit%2FWarsaw %28ESP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Execute a Surgeon to Surgeon Visit %28S2S%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Finalize inventory needs and Initiate request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Finalize remaining contract points and set timeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluate - Request Communication from Territory Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Deal - Call for follow up appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Deal - Conduct a Personal Visit - Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Deal - Contract PPA%2C quote and submit%2C obtain customer signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Deal - Execute Trial case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Deal - Negotiate and execute Shelf Stock%2FConsignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead - Scrub AAOS %28Meetings%29 and Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead - Scrub Leads from Cross-Sells</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Assess if Implants%2FInstruments are on limited roll-out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Call office to work an appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Drop off a Leave Behind %28sell sheet%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Evaluate current contract details and pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Network a connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualify - Qualify Surgeon usage%2Fbio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

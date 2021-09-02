@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BP_Opportunity_Product_Group__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(RecordType.Name 
+,&quot;US Hip&quot;, &quot;Hips&quot;, 
+&quot;US Knee&quot;, &quot;Knees&quot;, 
+&quot;US Extremities&quot;, &quot;Extremities&quot;, 
+&quot;US Cement&quot;, &quot;Cement&quot;, 
+&quot;US Sports Medicine&quot;, &quot;Sports Medicine&quot;, 
+&quot;US Trauma&quot;, &quot;Trauma&quot;, 
+&quot;US Early Intervention&quot;, &quot;Early Intervention&quot;,
+&quot;US Foot and Ankle&quot;, &quot;Foot &amp; Ankle&quot;, 
+&quot;US Ortho Surgical&quot;, &quot;Surgical&quot;,
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BP Opportunity Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

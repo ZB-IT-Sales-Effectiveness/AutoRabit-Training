@@ -1,0 +1,18 @@
+.THIS .text-center {
+    text-align: center;
+}
+.THIS {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.THIS .contPrincipal {
+    background-color: rgb(242 242 242);
+    padding: 20px;
+    margin-top: 12px;
+}
+.THIS .contForm {
+    margin-bottom: 12px;
+}
+.THIS .contDatos {
+    padding: 20px;
+}

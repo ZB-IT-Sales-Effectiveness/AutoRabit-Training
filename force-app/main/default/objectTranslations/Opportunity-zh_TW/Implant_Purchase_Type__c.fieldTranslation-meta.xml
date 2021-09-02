@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Implant Purchase Type --></label>
+    <name>Implant_Purchase_Type__c</name>
+    <picklistValues>
+        <masterLabel>PPA w/Cash Rebate (Coupled to Implant)</masterLabel>
+        <translation><!-- PPA w/Cash Rebate (Coupled to Implant) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPA w/Cash Rebate (Coupled to Total Spend)</masterLabel>
+        <translation><!-- PPA w/Cash Rebate (Coupled to Total Spend) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPA w/o Rebate</masterLabel>
+        <translation><!-- PPA w/o Rebate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPA with Credit Rebate (coupled to implant)</masterLabel>
+        <translation><!-- PPA with Credit Rebate (coupled to implant) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPA with Credit Rebate (coupled to total spend)</masterLabel>
+        <translation><!-- PPA with Credit Rebate (coupled to total spend) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

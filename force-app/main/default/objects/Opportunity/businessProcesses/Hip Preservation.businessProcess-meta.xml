@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hip Preservation</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Account Creation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contracting</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Free Trial</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualify</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Scan Center Onboarding</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

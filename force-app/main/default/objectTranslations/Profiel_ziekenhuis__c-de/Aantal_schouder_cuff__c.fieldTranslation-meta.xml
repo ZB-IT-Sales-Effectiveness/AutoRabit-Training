@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Geef aan hoeveel schouder cuff operaties op jaarbasis in het ziekenhuis worden uitgevoerd. --></help>
+    <label><!-- Aantal schouder cuff --></label>
+    <name>Aantal_schouder_cuff__c</name>
+</CustomFieldTranslation>

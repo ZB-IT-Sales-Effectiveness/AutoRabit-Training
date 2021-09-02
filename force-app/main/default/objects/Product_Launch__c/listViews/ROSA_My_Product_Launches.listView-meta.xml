@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROSA_My_Product_Launches</fullName>
+    <columns>NAME</columns>
+    <columns>Product_Launch_Name__c</columns>
+    <columns>Account__c</columns>
+    <columns>Launch_Status__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Product_Launch__c.ROSA_Brain,Product_Launch__c.ROSA_Knee,Product_Launch__c.ROSA_Spine</value>
+    </filters>
+    <label>ROSA - My Product Launches</label>
+    <sharedTo>
+        <territory>Zimmer_Biomet.ROSA_Territories</territory>
+    </sharedTo>
+</ListView>

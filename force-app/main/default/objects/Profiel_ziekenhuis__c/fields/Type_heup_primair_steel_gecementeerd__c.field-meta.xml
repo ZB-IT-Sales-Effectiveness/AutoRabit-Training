@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_heup_primair_steel_gecementeerd__c</fullName>
+    <description>Kies het type gecementeerde steel voor de primaire heup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type gecementeerde steel voor de primaire heup.</inlineHelpText>
+    <label>Type heup primair steel gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_heup_primair_steel_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPT</fullName>
+                <default>false</default>
+                <label>CPT</label>
+            </value>
+            <value>
+                <fullName>Emeraude</fullName>
+                <default>false</default>
+                <label>Emeraude</label>
+            </value>
+            <value>
+                <fullName>Metabloc</fullName>
+                <default>false</default>
+                <label>Metabloc</label>
+            </value>
+            <value>
+                <fullName>MS30</fullName>
+                <default>false</default>
+                <label>MS30</label>
+            </value>
+            <value>
+                <fullName>Müller</fullName>
+                <default>false</default>
+                <label>Müller</label>
+            </value>
+            <value>
+                <fullName>Optan</fullName>
+                <default>false</default>
+                <label>Optan</label>
+            </value>
+            <value>
+                <fullName>Olympia</fullName>
+                <default>false</default>
+                <label>Olympia</label>
+            </value>
+            <value>
+                <fullName>SP 2</fullName>
+                <default>false</default>
+                <label>SP 2</label>
+            </value>
+            <value>
+                <fullName>Stanmore</fullName>
+                <default>false</default>
+                <label>Stanmore</label>
+            </value>
+            <value>
+                <fullName>Taperloc</fullName>
+                <default>false</default>
+                <label>Taperloc</label>
+            </value>
+            <value>
+                <fullName>Cone</fullName>
+                <default>false</default>
+                <label>Cone</label>
+            </value>
+            <value>
+                <fullName>C Stem</fullName>
+                <default>false</default>
+                <label>C Stem</label>
+            </value>
+            <value>
+                <fullName>Charnley</fullName>
+                <default>false</default>
+                <label>Charnley</label>
+            </value>
+            <value>
+                <fullName>Summit</fullName>
+                <default>false</default>
+                <label>Summit</label>
+            </value>
+            <value>
+                <fullName>Lubinus Classic plus</fullName>
+                <default>false</default>
+                <label>Lubinus Classic plus</label>
+            </value>
+            <value>
+                <fullName>Lubinus SP II</fullName>
+                <default>false</default>
+                <label>Lubinus SP II</label>
+            </value>
+            <value>
+                <fullName>Vario</fullName>
+                <default>false</default>
+                <label>Vario</label>
+            </value>
+            <value>
+                <fullName>Centris</fullName>
+                <default>false</default>
+                <label>Centris</label>
+            </value>
+            <value>
+                <fullName>Cerima</fullName>
+                <default>false</default>
+                <label>Cerima</label>
+            </value>
+            <value>
+                <fullName>Müller straight stem cca</fullName>
+                <default>false</default>
+                <label>Müller straight stem cca</label>
+            </value>
+            <value>
+                <fullName>Twinsys cemented</fullName>
+                <default>false</default>
+                <label>Twinsys cemented</label>
+            </value>
+            <value>
+                <fullName>CS Plus stem</fullName>
+                <default>false</default>
+                <label>CS Plus stem</label>
+            </value>
+            <value>
+                <fullName>CPS Plus Stem</fullName>
+                <default>false</default>
+                <label>CPS Plus Stem</label>
+            </value>
+            <value>
+                <fullName>Spectron</fullName>
+                <default>false</default>
+                <label>Spectron</label>
+            </value>
+            <value>
+                <fullName>Exceter</fullName>
+                <default>false</default>
+                <label>Exceter</label>
+            </value>
+            <value>
+                <fullName>Extend steel</fullName>
+                <default>false</default>
+                <label>Extend steel</label>
+            </value>
+            <value>
+                <fullName>Perfecta</fullName>
+                <default>false</default>
+                <label>Perfecta</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>CPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Emeraude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Metabloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>MS30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Müller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Optan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Olympia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>SP 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Stanmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Taperloc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EndoCare</controllingFieldValue>
+            <valueName>Cone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>C Stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Charnley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Summit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Lubinus Classic plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Lubinus SP II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Vario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Centris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Cerima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Müller straight stem cca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Twinsys cemented</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Exceter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>CS Plus stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>CPS Plus Stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smit Nephew</controllingFieldValue>
+            <valueName>Spectron</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Extend steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Perfecta</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Functie</label>
+    <name>JobDescription__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation>Medewerker afdeling radiologie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthetist</masterLabel>
+        <translation><!-- Anaesthetist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation>Arts assistent in opleiding</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Manager</masterLabel>
+        <translation><!-- CSSD Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Technician</masterLabel>
+        <translation><!-- CSSD Technician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Manager</masterLabel>
+        <translation><!-- Case Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Medewerker afdeling anesthesie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation>Physician assistant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP Lead</masterLabel>
+        <translation>Kaakchirurg</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation>Medewerker afdeling OK</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation><!-- General Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Overig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Laboratory</masterLabel>
+        <translation><!-- Head of Laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Pharmacy</masterLabel>
+        <translation><!-- Head of Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing</masterLabel>
+        <translation>Hoofd afdeling inkoop</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygienist</masterLabel>
+        <translation><!-- Hospital Hygienist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Neurochirurg</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation>Algemeen chirurg</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Orthopedisch chirurg</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation><!-- Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Lead</masterLabel>
+        <translation>Hoofd afdeling OK</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Manager</masterLabel>
+        <translation><!-- OP Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>OK - spec. oudste</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Overig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation>Raad van bestuur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Apotheker</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapist</masterLabel>
+        <translation>Fysiotherapeut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Manager</masterLabel>
+        <translation><!-- Project Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchaser</masterLabel>
+        <translation>Medewerker afdeling inkoop</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QM Lead</masterLabel>
+        <translation>Kwaliteitsfunctionaris</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsible Implants/Instruments</masterLabel>
+        <translation><!-- Responsible Implants/Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Manager</masterLabel>
+        <translation><!-- Safety Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation>Secretaresse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation>Chef de clinique</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Plastisch chirurg</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Study Nurse</masterLabel>
+        <translation><!-- Study Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Medewerker afdeling DSMH (Dienst Steriele Medische Hulpmiddelen)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician</masterLabel>
+        <translation>Technische dienst</translation>
+    </picklistValues>
+</CustomFieldTranslation>

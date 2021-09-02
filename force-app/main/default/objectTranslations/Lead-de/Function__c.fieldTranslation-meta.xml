@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Funktion</label>
+    <name>Function__c</name>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation>Assistenzarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Chefarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation>Co. Chefarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation>Stelv. Chefarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP-Lead</masterLabel>
+        <translation>Stelv. OP-Leitung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation>Direktor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation>Geschäftsführer/in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Verwaltungsleitung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing Department</masterLabel>
+        <translation>Einkaufsleitung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Leitender Oberarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation>Leitender Arzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Male OP Nurse</masterLabel>
+        <translation>OP-Pfleger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Ärztlicher Direktor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>OP-Schwester</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP-Lead</masterLabel>
+        <translation>OP-Leitung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation>Inhaber</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Apotheker/in</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing Department</masterLabel>
+        <translation>Einkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation>Sekretärin</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation>Oberassistenzarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Oberarzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Arzt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Service</masterLabel>
+        <translation>Technischer Dienst</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RelationshipToSubContact__c</fullName>
+    <externalId>false</externalId>
+    <label>Beziehung zu Nebenkontakt</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stellvertreter</fullName>
+                <default>false</default>
+                <label>Stellvertreter</label>
+            </value>
+            <value>
+                <fullName>Vorgesetzter</fullName>
+                <default>false</default>
+                <label>Vorgesetzter</label>
+            </value>
+            <value>
+                <fullName>fixer Assistent</fullName>
+                <default>false</default>
+                <label>fixer Assistent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

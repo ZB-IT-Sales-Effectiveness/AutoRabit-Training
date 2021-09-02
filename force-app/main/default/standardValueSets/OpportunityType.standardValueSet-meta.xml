@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>All Other</fullName>
+        <default>false</default>
+        <label>All Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Base</fullName>
+        <default>false</default>
+        <label>Base</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Care Coordination</fullName>
+        <default>false</default>
+        <label>Care Coordination</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conversion</fullName>
+        <default>false</default>
+        <label>Conversion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disease Specific Certification</fullName>
+        <default>false</default>
+        <label>Disease Specific Certification</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Growth</fullName>
+        <default>false</default>
+        <label>Growth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement-Bulk Implant Order</fullName>
+        <default>false</default>
+        <label>Implant Placement-Bulk Implant Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Bulk Implant Order</fullName>
+        <default>false</default>
+        <label>Implant Placement- Bulk Implant Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Drill Stops</fullName>
+        <default>false</default>
+        <label>Implant Placement- Drill Stops</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- ERA Mini</fullName>
+        <default>false</default>
+        <label>Implant Placement- ERA Mini</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Guided Surgery Drills</fullName>
+        <default>false</default>
+        <label>Implant Placement- Guided Surgery Drills</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Motor/Handpiece</fullName>
+        <default>false</default>
+        <label>Implant Placement- Motor/Handpiece</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Spoons</fullName>
+        <default>false</default>
+        <label>Implant Placement- Spoons</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement- Surgical Kit</fullName>
+        <default>false</default>
+        <label>Implant Placement- Surgical Kit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement-Tube Adapters</fullName>
+        <default>false</default>
+        <label>Implant Placement-Tube Adapters</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement-ZI Restorative Deal</fullName>
+        <default>false</default>
+        <label>Implant Placement-ZI Restorative Deal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implant Placement-ZI Surgical Deal</fullName>
+        <default>false</default>
+        <label>Implant Placement-ZI Surgical Deal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implants</fullName>
+        <default>false</default>
+        <label>Implants</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments and Tools</fullName>
+        <default>false</default>
+        <label>Instruments and Tools</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Joint Assess</fullName>
+        <default>false</default>
+        <label>Joint Assess</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Joint Implementation</fullName>
+        <default>false</default>
+        <label>Joint Implementation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MSK - LTA</fullName>
+        <default>false</default>
+        <label>MSK - LTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MSK - SLDP</fullName>
+        <default>false</default>
+        <label>MSK - SLDP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity</fullName>
+        <color>#006600</color>
+        <default>false</default>
+        <label>Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perioperative Assess</fullName>
+        <default>false</default>
+        <label>Perioperative Assess</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perioperative - LTA</fullName>
+        <default>false</default>
+        <label>Perioperative - LTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Physician Practice</fullName>
+        <default>false</default>
+        <label>Physician Practice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative</fullName>
+        <default>false</default>
+        <label>Regenerative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Capsule</fullName>
+        <default>false</default>
+        <label>Regenerative- Capsule</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- DBM Putty</fullName>
+        <default>false</default>
+        <label>Regenerative- DBM Putty</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Hemcon</fullName>
+        <default>false</default>
+        <label>Regenerative- Hemcon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Membranes</fullName>
+        <default>false</default>
+        <label>Regenerative- Membranes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Other</fullName>
+        <default>false</default>
+        <label>Regenerative- Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Puros Bulk Order</fullName>
+        <default>false</default>
+        <label>Regenerative- Puros Bulk Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regenerative- Sinus Balloon</fullName>
+        <default>false</default>
+        <label>Regenerative- Sinus Balloon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative</fullName>
+        <default>false</default>
+        <label>Restorative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative- ERA Mini</fullName>
+        <default>false</default>
+        <label>Restorative- ERA Mini</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative-New Tools</fullName>
+        <default>false</default>
+        <label>Restorative-New Tools</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative- PSA</fullName>
+        <default>false</default>
+        <label>Restorative- PSA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restorative- Short Abutment (NEW)</fullName>
+        <default>false</default>
+        <label>Restorative- Short Abutment (NEW)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Risk</fullName>
+        <color>#CC0000</color>
+        <default>false</default>
+        <label>Risk</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Special Project</fullName>
+        <default>false</default>
+        <label>Special Project</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Substitution</fullName>
+        <default>false</default>
+        <label>Substitution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology- Simplant</fullName>
+        <default>false</default>
+        <label>Technology- Simplant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZFX</fullName>
+        <default>false</default>
+        <label>ZFX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>シェアアップ</fullName>
+        <default>false</default>
+        <label>シェアアップ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>リスク</fullName>
+        <color>#CC0000</color>
+        <default>false</default>
+        <label>リスク</label>
+    </standardValue>
+    <standardValue>
+        <fullName>新規</fullName>
+        <default>false</default>
+        <label>新規</label>
+    </standardValue>
+    <standardValue>
+        <fullName>既存</fullName>
+        <default>false</default>
+        <label>既存</label>
+    </standardValue>
+</StandardValueSet>

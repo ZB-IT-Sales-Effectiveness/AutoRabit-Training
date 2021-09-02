@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Rigid_Membrane_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Rigid Membrane Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RCM6 (Ace)</fullName>
+                <default>false</default>
+                <label>RCM6 (Ace)</label>
+            </value>
+            <value>
+                <fullName>Cytoplast RTM (Osteogenics)</fullName>
+                <default>false</default>
+                <label>Cytoplast RTM (Osteogenics)</label>
+            </value>
+            <value>
+                <fullName>HeliMend (PuraGraft)</fullName>
+                <default>false</default>
+                <label>HeliMend (PuraGraft)</label>
+            </value>
+            <value>
+                <fullName>MemLok (Biohorizons)</fullName>
+                <default>false</default>
+                <label>MemLok (Biohorizons)</label>
+            </value>
+            <value>
+                <fullName>OraMEM (Salvin)</fullName>
+                <default>false</default>
+                <label>OraMEM (Salvin)</label>
+            </value>
+            <value>
+                <fullName>Citagenix</fullName>
+                <default>false</default>
+                <label>Citagenix</label>
+            </value>
+            <value>
+                <fullName>PRP/PRF</fullName>
+                <default>false</default>
+                <label>PRP/PRF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

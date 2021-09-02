@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>ROSA_Hip_Joint_Visualization</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>ROSA Hip Joint Visualization.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

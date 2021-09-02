@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Reason_for_Service_Opp_Rec</fullName>
+    <active>false</active>
+    <description>For Closed Lost Stage please provide Closed Reason for MyMobility record type</description>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+$RecordType.Name = &quot;MyMobility&quot;,
+ISPICKVAL( Closed_Reason__c,&quot;&quot; )
+)</errorConditionFormula>
+    <errorMessage>For Closed Lost Stage please provide Closed Reason</errorMessage>
+</ValidationRule>

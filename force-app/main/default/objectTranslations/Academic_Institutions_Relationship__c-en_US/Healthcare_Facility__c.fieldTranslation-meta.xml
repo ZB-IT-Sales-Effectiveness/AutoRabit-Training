@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Healthcare Facility --></label>
+    <name>Healthcare_Facility__c</name>
+    <relationshipLabel><!-- Academic Institutions --></relationshipLabel>
+</CustomFieldTranslation>

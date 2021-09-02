@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>CAS Triage</name>
+    <queueMembers>
+        <users>
+            <user>bryan.moya@zimmerbiomet.com</user>
+            <user>chantal.theroux@zimmer.com</user>
+            <user>eric.trudel@zimmer.com</user>
+            <user>imad.koleilat@zimmer.com</user>
+            <user>juan.paz@zimmer.com</user>
+            <user>maana.javadi@zimmer.com</user>
+            <user>michel.boivin@zimmer.com</user>
+            <user>olivemae.bato@zimmerbiomet.com</user>
+            <user>patrick.rochon@zimmer.com</user>
+            <user>pol.lebourdonnec@zimmer.com</user>
+            <user>sabrinakelsey.alves@zimmerbiomet.com</user>
+            <user>stephanie.andrieux@zimmer.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

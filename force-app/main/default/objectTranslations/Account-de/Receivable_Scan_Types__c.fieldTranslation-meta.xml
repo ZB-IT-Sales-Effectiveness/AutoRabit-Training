@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Which type of scan(s) is this lab set up to receive? --></help>
+    <label>CAD Software</label>
+    <name>Receivable_Scan_Types__c</name>
+    <picklistValues>
+        <masterLabel>3M</masterLabel>
+        <translation><!-- 3M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3Shape</masterLabel>
+        <translation><!-- 3Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEREC</masterLabel>
+        <translation><!-- CEREC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carestream</masterLabel>
+        <translation><!-- Carestream --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Densply Sirona InLab</masterLabel>
+        <translation><!-- Densply Sirona InLab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Wings</masterLabel>
+        <translation><!-- Dental Wings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ExoCad</masterLabel>
+        <translation><!-- ExoCad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>Keine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Anderes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planmeca</masterLabel>
+        <translation><!-- Planmeca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prime Scan</masterLabel>
+        <translation><!-- Prime Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iMedit</masterLabel>
+        <translation><!-- iMedit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero</masterLabel>
+        <translation><!-- iTero --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

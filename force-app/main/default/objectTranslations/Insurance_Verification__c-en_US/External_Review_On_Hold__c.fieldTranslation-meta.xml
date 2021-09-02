@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- External Review On Hold --></label>
+    <name>External_Review_On_Hold__c</name>
+    <picklistValues>
+        <masterLabel>F – ATC Forms</masterLabel>
+        <translation><!-- F – ATC Forms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MR – Medical Records</masterLabel>
+        <translation><!-- MR – Medical Records --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O – Office Nonresponse</masterLabel>
+        <translation><!-- O – Office Nonresponse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P – Patient Nonresponse</masterLabel>
+        <translation><!-- P – Patient Nonresponse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>V – Vacation / Known Absence</masterLabel>
+        <translation><!-- V – Vacation / Known Absence --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

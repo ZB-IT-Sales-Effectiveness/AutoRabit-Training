@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Credit Check with Warsaw Finance Service Manager (John Kahlow)  574-373-3795 --></help>
+    <label><!-- Credit Check --></label>
+    <name>Credit_Check__c</name>
+</CustomFieldTranslation>

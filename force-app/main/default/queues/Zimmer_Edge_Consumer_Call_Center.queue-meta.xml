@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Edge</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Contact_Us</publicGroup>
+        </publicGroups>
+        <users>
+            <user>gary.schomburger@zimmerbiomet.com</user>
+            <user>sandra.smith@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Surgeon Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ConsultantRelationship</fullName>
+                <default>false</default>
+                <label>ConsultantRelationship</label>
+            </value>
+            <value>
+                <fullName>Retired/Death</fullName>
+                <default>false</default>
+                <label>Retired/Death</label>
+            </value>
+            <value>
+                <fullName>LeftIndustry</fullName>
+                <default>false</default>
+                <label>LeftIndustry</label>
+            </value>
+            <value>
+                <fullName>AvailableTarget</fullName>
+                <default>false</default>
+                <label>AvailableTarget</label>
+            </value>
+            <value>
+                <fullName>ApproachingRetirement</fullName>
+                <default>false</default>
+                <label>ApproachingRetirement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

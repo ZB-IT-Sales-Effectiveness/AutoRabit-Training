@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>mkto-zimmer-sandbox@pedowitzgroup.com</email>
+    <name>Marketo Physicians</name>
+    <queueMembers>
+        <users>
+            <user>bekah.whetstone@zimmer.com</user>
+            <user>caitlinp@pedowitzgroup.com</user>
+            <user>steven.steier@zimmerbiomet.com</user>
+            <user>tyson.baker@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

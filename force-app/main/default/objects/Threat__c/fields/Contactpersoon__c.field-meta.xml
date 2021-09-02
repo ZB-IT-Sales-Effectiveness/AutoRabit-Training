@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contactpersoon__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Als de bedreiging betrekking heeft op één bepaald contactpersoon in het ziekenhuis, voeg deze dan toe.</description>
+    <externalId>false</externalId>
+    <label>Contactpersoon</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipName>Threat</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

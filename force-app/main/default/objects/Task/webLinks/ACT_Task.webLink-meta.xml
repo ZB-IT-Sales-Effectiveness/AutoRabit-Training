@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACT_Task</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>ACT Task</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://cs7.salesforce.com/00T/e?title=Call&amp;who_id={!User.Id}&amp;what_id=a0vM0000000vwCj&amp;tsk5=Call&amp;retURL=%2F{!User.Id}&amp;RecordType=012M00000004a1X&amp;ent=Task</url>
+</WebLink>

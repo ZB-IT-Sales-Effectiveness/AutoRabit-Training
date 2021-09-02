@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_ED__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>UE</fullName>
+                <default>false</default>
+                <label>UE</label>
+            </value>
+            <value>
+                <fullName>LE</fullName>
+                <default>false</default>
+                <label>LE</label>
+            </value>
+            <value>
+                <fullName>EI</fullName>
+                <default>false</default>
+                <label>EI</label>
+            </value>
+            <value>
+                <fullName>Rosa</fullName>
+                <default>false</default>
+                <label>Rosa</label>
+            </value>
+            <value>
+                <fullName>ZB Connect</fullName>
+                <default>false</default>
+                <label>ZB Connect</label>
+            </value>
+            <value>
+                <fullName>Outpatient</fullName>
+                <default>false</default>
+                <label>Outpatient</label>
+            </value>
+            <value>
+                <fullName>Efficient Care</fullName>
+                <default>false</default>
+                <label>Efficient Care</label>
+            </value>
+            <value>
+                <fullName>My Mobility</fullName>
+                <default>false</default>
+                <label>My Mobility</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

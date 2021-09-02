@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>All Other</masterLabel>
+        <translation>ANDERES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Base</masterLabel>
+        <translation><!-- Base --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Care Coordination</masterLabel>
+        <translation><!-- Care Coordination --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conversion</masterLabel>
+        <translation><!-- Conversion --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Service</masterLabel>
+        <translation><!-- Customer Service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Disease Specific Certification</masterLabel>
+        <translation><!-- Disease Specific Certification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Growth</masterLabel>
+        <translation><!-- Growth --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Bulk Implant Order</masterLabel>
+        <translation>Implantatplatzierung – Implantat-Großauftrag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Drill Stops</masterLabel>
+        <translation>Implantatplatzierung - Bohrstopps</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- ERA Mini</masterLabel>
+        <translation>Implantatplatzierung - ERA Mini</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Guided Surgery Drills</masterLabel>
+        <translation>Implantatplatzierung - Guided Surgery-Bohrer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Motor/Handpiece</masterLabel>
+        <translation>Implantatplatzierung - Motor/Handstück</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Spoons</masterLabel>
+        <translation>Implantatplatzierung - Löffel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement- Surgical Kit</masterLabel>
+        <translation>Implantatplatzierung - Chirurgie-Kit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement-Bulk Implant Order</masterLabel>
+        <translation>Implantatplatzierung – Implantat-Großauftrag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement-Tube Adapters</masterLabel>
+        <translation><!-- Implant Placement-Tube Adapters --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement-ZI Restorative Deal</masterLabel>
+        <translation><!-- Implant Placement-ZI Restorative Deal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implant Placement-ZI Surgical Deal</masterLabel>
+        <translation><!-- Implant Placement-ZI Surgical Deal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Implants</masterLabel>
+        <translation>IMPLANTATPLATZIERUNG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instruments and Tools</masterLabel>
+        <translation>CHIRUGIE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Joint Assess</masterLabel>
+        <translation><!-- Joint Assess --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Joint Implementation</masterLabel>
+        <translation><!-- Joint Implementation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MSK - LTA</masterLabel>
+        <translation><!-- MSK - LTA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MSK - SLDP</masterLabel>
+        <translation><!-- MSK - SLDP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opportunity</masterLabel>
+        <translation><!-- Opportunity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Perioperative - LTA</masterLabel>
+        <translation><!-- Perioperative - LTA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Perioperative Assess</masterLabel>
+        <translation><!-- Perioperative Assess --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physician Practice</masterLabel>
+        <translation><!-- Physician Practice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative</masterLabel>
+        <translation>REGENERATIV</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Capsule</masterLabel>
+        <translation><!-- Regenerative- Capsule --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- DBM Putty</masterLabel>
+        <translation>Regenerativ - Kapsel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Hemcon</masterLabel>
+        <translation>Regenerativ - Membranen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Membranes</masterLabel>
+        <translation>Regenerativ - Sonstiges</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Other</masterLabel>
+        <translation><!-- Regenerative- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Puros Bulk Order</masterLabel>
+        <translation><!-- Regenerative- Puros Bulk Order --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regenerative- Sinus Balloon</masterLabel>
+        <translation><!-- Regenerative- Sinus Balloon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative</masterLabel>
+        <translation>RESTORATIV</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative- ERA Mini</masterLabel>
+        <translation>Versuch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative- PSA</masterLabel>
+        <translation><!-- Restorative- PSA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative- Short Abutment (NEW)</masterLabel>
+        <translation><!-- Restorative- Short Abutment (NEW) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Restorative-New Tools</masterLabel>
+        <translation><!-- Restorative-New Tools --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Risk</masterLabel>
+        <translation><!-- Risk --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Special Project</masterLabel>
+        <translation><!-- Special Project --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Substitution</masterLabel>
+        <translation><!-- Substitution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technology- Simplant</masterLabel>
+        <translation><!-- Technology- Simplant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFX</masterLabel>
+        <translation>ZFX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>シェアアップ</masterLabel>
+        <translation><!-- シェアアップ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>リスク</masterLabel>
+        <translation><!-- リスク --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>新規</masterLabel>
+        <translation><!-- 新規 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>既存</masterLabel>
+        <translation><!-- 既存 --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

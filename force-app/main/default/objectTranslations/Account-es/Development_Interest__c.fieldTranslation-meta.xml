@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Development Interest --></label>
+    <name>Development_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Advisory Group</masterLabel>
+        <translation><!-- Advisory Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement Spacer</masterLabel>
+        <translation><!-- Cement Spacer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fracture Stem Project</masterLabel>
+        <translation><!-- Fracture Stem Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZMR LE Larger sizes only</masterLabel>
+        <translation><!-- ZMR LE Larger sizes only --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

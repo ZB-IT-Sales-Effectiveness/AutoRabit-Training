@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Application used for Center of Excellence Team</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Center of Excellence</label>
+    <logo>SharedDocuments/CRM_Logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Workspace</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Idea</tabs>
+    <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Banner_Ads__c</tabs>
+    <tabs>Thumbnail__c</tabs>
+    <tabs>IC_Scorecard</tabs>
+    <tabs>GPL_Profile__c</tabs>
+    <tabs>MyProfile</tabs>
+    <tabs>SalesTeamMember__c</tabs>
+    <tabs>Sunshine_Payment__c</tabs>
+    <tabs>Conversion_Tracker__c</tabs>
+</CustomApplication>

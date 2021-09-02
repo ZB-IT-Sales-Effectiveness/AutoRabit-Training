@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Hips Target Category --></label>
+    <name>Hips_Target_Category__c</name>
+    <picklistValues>
+        <masterLabel>Avenir Complete Target</masterLabel>
+        <translation><!-- Avenir Complete Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary &amp; Revision Target</masterLabel>
+        <translation><!-- Primary &amp; Revision Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Target, Uses ZB Revision</masterLabel>
+        <translation><!-- Primary Target, Uses ZB Revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Target, Uses ZB Primary</masterLabel>
+        <translation><!-- Revision Target, Uses ZB Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uses ZB Dual Mobility Only</masterLabel>
+        <translation><!-- Uses ZB Dual Mobility Only --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

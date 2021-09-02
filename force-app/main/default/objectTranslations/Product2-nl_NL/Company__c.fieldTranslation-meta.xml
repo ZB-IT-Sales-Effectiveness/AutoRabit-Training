@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Company --></label>
+    <name>Company__c</name>
+    <picklistValues>
+        <masterLabel>B3i</masterLabel>
+        <translation><!-- B3i --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZD</masterLabel>
+        <translation><!-- ZD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

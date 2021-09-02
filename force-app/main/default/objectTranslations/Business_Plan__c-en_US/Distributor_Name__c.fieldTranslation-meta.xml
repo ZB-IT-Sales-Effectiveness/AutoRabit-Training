@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Distributor Name --></label>
+    <name>Distributor_Name__c</name>
+    <picklistValues>
+        <masterLabel>BONEAFIDE ORTHO(ZERINGUE)</masterLabel>
+        <translation><!-- BONEAFIDE ORTHO(ZERINGUE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAVIS</masterLabel>
+        <translation><!-- DAVIS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

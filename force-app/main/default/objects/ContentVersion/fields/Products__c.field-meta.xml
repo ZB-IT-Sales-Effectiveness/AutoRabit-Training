@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Products</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Family__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stem</fullName>
+                <default>false</default>
+                <label>Stem</label>
+            </value>
+            <value>
+                <fullName>Cups</fullName>
+                <default>false</default>
+                <label>Cups</label>
+            </value>
+            <value>
+                <fullName>Femorals</fullName>
+                <default>false</default>
+                <label>Femorals</label>
+            </value>
+            <value>
+                <fullName>Tibials</fullName>
+                <default>false</default>
+                <label>Tibials</label>
+            </value>
+            <value>
+                <fullName>I/M Nails</fullName>
+                <default>false</default>
+                <label>I/M Nails</label>
+            </value>
+            <value>
+                <fullName>Compression Hip Screws</fullName>
+                <default>false</default>
+                <label>Compression Hip Screws</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Medical Products</fullName>
+                <default>false</default>
+                <label>Medical Products</label>
+            </value>
+            <value>
+                <fullName>Surgical Products</fullName>
+                <default>false</default>
+                <label>Surgical Products</label>
+            </value>
+            <value>
+                <fullName>Liners</fullName>
+                <default>false</default>
+                <label>Liners</label>
+            </value>
+            <value>
+                <fullName>Heads</fullName>
+                <default>false</default>
+                <label>Heads</label>
+            </value>
+            <value>
+                <fullName>Bipolar</fullName>
+                <default>false</default>
+                <label>Bipolar</label>
+            </value>
+            <value>
+                <fullName>Other Hip Products</fullName>
+                <default>false</default>
+                <label>Other Hip Products</label>
+            </value>
+            <value>
+                <fullName>Hip Instruments</fullName>
+                <default>false</default>
+                <label>Hip Instruments</label>
+            </value>
+            <value>
+                <fullName>Articulating Surfaces</fullName>
+                <default>false</default>
+                <label>Articulating Surfaces</label>
+            </value>
+            <value>
+                <fullName>Patella</fullName>
+                <default>false</default>
+                <label>Patella</label>
+            </value>
+            <value>
+                <fullName>Knee Instruments</fullName>
+                <default>false</default>
+                <label>Knee Instruments</label>
+            </value>
+            <value>
+                <fullName>Other Knees</fullName>
+                <default>false</default>
+                <label>Other Knees</label>
+            </value>
+            <value>
+                <fullName>Segmental Implants</fullName>
+                <default>false</default>
+                <label>Segmental Implants</label>
+            </value>
+            <value>
+                <fullName>Sports Medicine</fullName>
+                <default>false</default>
+                <label>Sports Medicine</label>
+            </value>
+            <value>
+                <fullName>Reamers</fullName>
+                <default>false</default>
+                <label>Reamers</label>
+            </value>
+            <value>
+                <fullName>Bone Substitutions</fullName>
+                <default>false</default>
+                <label>Bone Substitutions</label>
+            </value>
+            <value>
+                <fullName>Cable Products</fullName>
+                <default>false</default>
+                <label>Cable Products</label>
+            </value>
+            <value>
+                <fullName>Plates/Screws</fullName>
+                <default>false</default>
+                <label>Plates/Screws</label>
+            </value>
+            <value>
+                <fullName>Soft Tissue Attachment</fullName>
+                <default>false</default>
+                <label>Soft Tissue Attachment</label>
+            </value>
+            <value>
+                <fullName>External Fixation</fullName>
+                <default>false</default>
+                <label>External Fixation</label>
+            </value>
+            <value>
+                <fullName>Bone Drills</fullName>
+                <default>false</default>
+                <label>Bone Drills</label>
+            </value>
+            <value>
+                <fullName>Pins/Wires</fullName>
+                <default>false</default>
+                <label>Pins/Wires</label>
+            </value>
+            <value>
+                <fullName>Manual Instruments</fullName>
+                <default>false</default>
+                <label>Manual Instruments</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Trabecular Metal</fullName>
+                <default>false</default>
+                <label>Trabecular Metal</label>
+            </value>
+            <value>
+                <fullName>Other Extremities</fullName>
+                <default>false</default>
+                <label>Other Extremities</label>
+            </value>
+            <value>
+                <fullName>Surgical Equipment</fullName>
+                <default>false</default>
+                <label>Surgical Equipment</label>
+            </value>
+            <value>
+                <fullName>Bone Cement &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Bone Cement &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Thoracolumbar</fullName>
+                <default>false</default>
+                <label>Thoracolumbar</label>
+            </value>
+            <value>
+                <fullName>Cervical</fullName>
+                <default>false</default>
+                <label>Cervical</label>
+            </value>
+            <value>
+                <fullName>Dynamic Stabilisation</fullName>
+                <default>false</default>
+                <label>Dynamic Stabilisation</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+            <value>
+                <fullName>DeNovo</fullName>
+                <default>false</default>
+                <label>DeNovo</label>
+            </value>
+            <value>
+                <fullName>Osteochondral Defect</fullName>
+                <default>false</default>
+                <label>Osteochondral Defect</label>
+            </value>
+            <value>
+                <fullName>Porous Metal</fullName>
+                <default>false</default>
+                <label>Porous Metal</label>
+            </value>
+            <value>
+                <fullName>Autologous Therapy</fullName>
+                <default>false</default>
+                <label>Autologous Therapy</label>
+            </value>
+            <value>
+                <fullName>Foot and Ankle</fullName>
+                <default>false</default>
+                <label>Foot and Ankle</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sports Medicine</controllingFieldValue>
+            <valueName>DeNovo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Elbow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremities</controllingFieldValue>
+            <valueName>Other Extremities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surgical</controllingFieldValue>
+            <valueName>Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Stem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Cups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Heads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Bipolar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Other Hip Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Hip Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hips</controllingFieldValue>
+            <valueName>Porous Metal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Osteochondral Defect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics</controllingFieldValue>
+            <valueName>Autologous Therapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Femorals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Tibials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Articulating Surfaces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Patella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Knee Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Other Knees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Segmental Implants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knees</controllingFieldValue>
+            <valueName>Sports Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foot and Ankle</controllingFieldValue>
+            <valueName>Foot and Ankle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>I/M Nails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Compression Hip Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Reamers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Bone Substitutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Cable Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Plates/Screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Soft Tissue Attachment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>External Fixation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Bone Drills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Pins/Wires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Manual Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Trabecular Metal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spinal</controllingFieldValue>
+            <valueName>Thoracolumbar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spinal</controllingFieldValue>
+            <valueName>Cervical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spinal</controllingFieldValue>
+            <valueName>Dynamic Stabilisation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

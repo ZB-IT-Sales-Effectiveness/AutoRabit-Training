@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profiel__c</fullName>
+    <description>Beschrijf kenmerken van deze contactpersoon. Bijv. bevriende collega&apos;s, hobby&apos;s en interesse gebieden.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Beschrijf kenmerken van deze contactpersoon. Bijv. bevriende collega&apos;s, hobby&apos;s en interesse gebieden.</inlineHelpText>
+    <label>Profiel</label>
+    <length>500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

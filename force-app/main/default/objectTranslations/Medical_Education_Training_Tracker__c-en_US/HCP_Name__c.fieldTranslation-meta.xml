@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- HCP Name --></label>
+    <name>HCP_Name__c</name>
+    <picklistValues>
+        <masterLabel>Birmingham</masterLabel>
+        <translation><!-- Birmingham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cafferky</masterLabel>
+        <translation><!-- Cafferky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannova</masterLabel>
+        <translation><!-- Cannova --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foran</masterLabel>
+        <translation><!-- Foran --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Klein</masterLabel>
+        <translation><!-- Klein --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Levine</masterLabel>
+        <translation><!-- Levine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miller</masterLabel>
+        <translation><!-- Miller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ogden</masterLabel>
+        <translation><!-- Ogden --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sekundiak</masterLabel>
+        <translation><!-- Sekundiak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanous</masterLabel>
+        <translation><!-- Tanous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toulson</masterLabel>
+        <translation><!-- Toulson --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

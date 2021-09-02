@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Sub_Type__c</fullName>
+    <description>IF(Last_Year_Sales__c&gt;90000,&quot;A1&quot;,
+  IF(AND(Last_Year_Sales__c&lt;90000, Last_Year_Sales__c&gt;60000), &quot;A2&quot;,
+    IF(AND(Last_Year_Sales__c&lt;60000, Last_Year_Sales__c&gt;30000), &quot;A3&quot;,
+       IF(AND(Last_Year_Sales__c&lt;30000, Last_Year_Sales__c&gt;15000), &quot;A4&quot;,
+          IF(AND(Last_Year_Sales__c&lt;15000, Last_Year_Sales__c&gt;5000), &quot;B&quot;, 
+             IF(AND(Last_Year_Sales__c&lt;5000, Last_Year_Sales__c&gt;1500), &quot;C&quot;, 
+               IF(AND(Last_Year_Sales__c&lt;1500, Last_Year_Sales__c&gt;0), &quot;D&quot;, Null
+)
+  )
+    )
+      )
+        )
+          )
+            )</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+AND( 
+RecordTypeId = &quot;012C0000000UlfO&quot;, 
+OR(BillingCountry = &quot;United States&quot;, 
+BillingCountry = &quot;Canada&quot;) 
+), 
+IF( Total_Sales_Full_Previous_Year__c&gt;15000, &quot;A&quot;, 
+IF( Total_Sales_Full_Previous_Year__c&gt;5000, &quot;B&quot;, 
+IF( Total_Sales_Full_Previous_Year__c&gt;1500, &quot;C&quot;, 
+IF( Total_Sales_Full_Previous_Year__c&gt;0, &quot;D&quot;, 
+NULL)))), 
+IF( 
+AND( 
+OR (Dental_Org_ABC__c =&quot;DNDE&quot;, 
+Dental_Org_ABC__c =&quot;DNFR&quot;) 
+), 
+IF(Last_Year_Sales__c&gt;50000,&quot;A1&quot;, 
+IF( Last_Year_Sales__c&gt;25000, &quot;A2&quot;, 
+IF(Last_Year_Sales__c&gt;15000, &quot;A3&quot;, 
+IF(Last_Year_Sales__c&gt;10000, &quot;A4&quot;, 
+IF(Last_Year_Sales__c&gt;5000, &quot;B&quot;, 
+IF(Last_Year_Sales__c&gt;1000, &quot;C&quot;, 
+IF(Last_Year_Sales__c&gt;0, &quot;D&quot;, 
+NULL))))))), 
+NULL))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Sub Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

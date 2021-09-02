@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PREMIER ORTH (VON SAVOYE) (0094) QUEUE</name>
+    <queueMembers>
+        <users>
+            <user>cindi.coover@zbpremier.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>WSE__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_in_Mountain_Territories</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>YTD_Total__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Salesperson_ID__c</field>
+        <operation>contains</operation>
+        <value>1111,1016,1112,1113,1007,1115,1210,1065</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Account</value>
+    </filters>
+    <label>Accounts in Mountain Territories</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_Mountain_MSD_ISR</group>
+        <group>DN_USA_Mountain_Pacific_NW_Regen</group>
+        <group>DN_USA_WEST_LA_MT_DDSS</group>
+    </sharedTo>
+</ListView>

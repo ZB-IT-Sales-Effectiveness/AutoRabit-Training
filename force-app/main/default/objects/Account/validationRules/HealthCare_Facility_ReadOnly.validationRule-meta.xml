@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCare_Facility_ReadOnly</fullName>
+    <active>true</active>
+    <description>Some of the fields of HCF Accounts should only be editable for Data Admin team for the regions US, GU, PR, BM, and VI.</description>
+    <errorConditionFormula>And(( PRIORVALUE(ShippingCountry) = &quot;US&quot; || PRIORVALUE(ShippingCountry) = &quot;VI&quot; || PRIORVALUE(ShippingCountry) = &quot;BM&quot; || PRIORVALUE(ShippingCountry) = &quot;PR&quot; || PRIORVALUE(ShippingCountry) = &quot;GU&quot;|| PRIORVALUE(BillingCountry) = &quot;US&quot; || PRIORVALUE(BillingCountry) = &quot;VI&quot; || PRIORVALUE(BillingCountry) = &quot;BM&quot; || PRIORVALUE(BillingCountry) = &quot;PR&quot; || PRIORVALUE(BillingCountry) = &quot;GU&quot;), NOT(OR($User.ProfileId = &apos;00e80000001SQMI&apos;, $User.ProfileId =&apos;00eC0000001Sjw9&apos;, $User.ProfileId =&apos;00e80000000sptd&apos;,  $User.ProfileId =&apos;00eC0000001SZiN&apos;)),RecordTypeId =&apos;012800000002AW5&apos;, OR(ISCHANGED(Name), ISCHANGED(MDM_SAP_ID__c), ISCHANGED(ShippingStreet), ISCHANGED(ShippingCity), ISCHANGED(ShippingState), ISCHANGED(ShippingPostalCode), ISCHANGED(ShippingCountry),ISCHANGED(BillingStreet), ISCHANGED(BillingCity), ISCHANGED(BillingState), ISCHANGED(BillingPostalCode), ISCHANGED(BillingCountry)))</errorConditionFormula>
+    <errorMessage>Following Healthcare Facility Account fields cannot be edited: Name, Zimmer Account Number, Billing Address, Shipping Address</errorMessage>
+</ValidationRule>

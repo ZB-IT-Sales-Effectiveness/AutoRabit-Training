@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Relevant Competitive Consumable Prod(s) --></label>
+    <name>Relevant_Competitive_Consumable_Prod_s__c</name>
+    <picklistValues>
+        <masterLabel>2108 Series Sawblade Blades</masterLabel>
+        <translation><!-- 2108 Series Sawblade Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4000 Series Sawblade Blades</masterLabel>
+        <translation><!-- 4000 Series Sawblade Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6000 Series Sawblade Blades</masterLabel>
+        <translation><!-- 6000 Series Sawblade Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Falcon Blade</masterLabel>
+        <translation><!-- Falcon Blade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hood</masterLabel>
+        <translation><!-- Hood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hood - Peel Away</masterLabel>
+        <translation><!-- Hood - Peel Away --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toga Pullover</masterLabel>
+        <translation><!-- Toga Pullover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toga Zippered</masterLabel>
+        <translation><!-- Toga Zippered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toga Zippered - Peel Away</masterLabel>
+        <translation><!-- Toga Zippered - Peel Away --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Togo Pullover - Peel Away</masterLabel>
+        <translation><!-- Togo Pullover - Peel Away --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

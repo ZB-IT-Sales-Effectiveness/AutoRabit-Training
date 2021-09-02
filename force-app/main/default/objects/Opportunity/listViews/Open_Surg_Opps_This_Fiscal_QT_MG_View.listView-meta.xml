@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Surg_Opps_This_Fiscal_QT_MG_View</fullName>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Capital_Amount__c</columns>
+    <columns>Manager_Forecast_Judgement__c</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AM_US_SU_Sales</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>notEqual</operation>
+        <value>Omitted,Closed</value>
+    </filters>
+    <label>Open Surg Opps This Fiscal QT MG View</label>
+    <sharedTo>
+        <role>Surgical_RSM_Darren_Way</role>
+        <role>Surgical_RSM_Greg_Muller</role>
+        <role>Surgical_RSM_Tim_Tooley</role>
+        <role>Surgical_RSM_Topher_Ewing</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- mymobility Level 2 Process --></label>
+    <name>My_Mobility_Level2_Process__c</name>
+    <picklistValues>
+        <masterLabel>Assigned</masterLabel>
+        <translation><!-- Assigned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation><!-- Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Response</masterLabel>
+        <translation><!-- Customer Response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Escalated</masterLabel>
+        <translation><!-- Escalated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation><!-- New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Release</masterLabel>
+        <translation><!-- Pending Release --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Vendor</masterLabel>
+        <translation><!-- Pending Vendor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reopened</masterLabel>
+        <translation><!-- Reopened --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support Response</masterLabel>
+        <translation><!-- Support Response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

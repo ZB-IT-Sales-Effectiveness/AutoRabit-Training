@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_of_Competitors__c</fullName>
+    <externalId>false</externalId>
+    <label>Competitors Attending</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BioHorizons</fullName>
+                <default>false</default>
+                <label>BioHorizons</label>
+            </value>
+            <value>
+                <fullName>Dentsply Sirona</fullName>
+                <default>false</default>
+                <label>Dentsply Sirona</label>
+            </value>
+            <value>
+                <fullName>Hiossen</fullName>
+                <default>false</default>
+                <label>Hiossen</label>
+            </value>
+            <value>
+                <fullName>Implant Direct</fullName>
+                <default>false</default>
+                <label>Implant Direct</label>
+            </value>
+            <value>
+                <fullName>Keystone Dental</fullName>
+                <default>false</default>
+                <label>Keystone Dental</label>
+            </value>
+            <value>
+                <fullName>Nobel Biocare</fullName>
+                <default>false</default>
+                <label>Nobel Biocare</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Southern Implants</fullName>
+                <default>false</default>
+                <label>Southern Implants</label>
+            </value>
+            <value>
+                <fullName>Straumann</fullName>
+                <default>false</default>
+                <label>Straumann</label>
+            </value>
+            <value>
+                <fullName>Thommen</fullName>
+                <default>false</default>
+                <label>Thommen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

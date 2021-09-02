@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status of Site --></label>
+    <name>Status_of_Site__c</name>
+    <picklistValues>
+        <masterLabel>Connection Established</masterLabel>
+        <translation><!-- Connection Established --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execution</masterLabel>
+        <translation><!-- Execution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation><!-- Failed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation><!-- Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reserved</masterLabel>
+        <translation><!-- Reserved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Response</masterLabel>
+        <translation><!-- Response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security/Privacy</masterLabel>
+        <translation><!-- Security/Privacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Testing</masterLabel>
+        <translation><!-- Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket Created</masterLabel>
+        <translation><!-- Ticket Created --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

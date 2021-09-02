@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Foot_and_Ankle_Total_Refinement</fullName>
+    <active>true</active>
+    <errorConditionFormula>Foot_and_Ankle_Total_Refinement__c &lt;&gt; 0</errorConditionFormula>
+    <errorMessage>Total Refinement for Foot &amp; Ankle should be Zero</errorMessage>
+</ValidationRule>

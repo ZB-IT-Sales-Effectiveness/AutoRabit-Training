@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies de fabrikant voor de schouder cuff. --></help>
+    <label><!-- Merk schouder cuff --></label>
+    <name>Merk_schouder_cuff__c</name>
+    <picklistValues>
+        <masterLabel>Arthex</masterLabel>
+        <translation><!-- Arthex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet</masterLabel>
+        <translation><!-- Biomet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johnson &amp; Johnson</masterLabel>
+        <translation><!-- Johnson &amp; Johnson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lima</masterLabel>
+        <translation><!-- Lima --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mathys</masterLabel>
+        <translation><!-- Mathys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith Nephew</masterLabel>
+        <translation><!-- Smith Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synthes</masterLabel>
+        <translation><!-- Synthes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tornier</masterLabel>
+        <translation><!-- Tornier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wright Medical</masterLabel>
+        <translation><!-- Wright Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

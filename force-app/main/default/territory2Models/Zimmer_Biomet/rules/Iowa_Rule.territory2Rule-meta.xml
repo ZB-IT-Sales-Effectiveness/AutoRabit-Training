@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Iowa Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>000315,004034,012026,013820,018840,020540,023715,027275,031069,032322,032950,033877,035865,035885,036836,037067,037565,040268,043377,045586,047290,049349,059269,062605,065564,069100,073080,073344,075285,077117,078090,083285,084944,085250,092512,092673,094675,101845,104013</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Subgroup__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aesculap</fullName>
+                <default>false</default>
+                <label>Aesculap</label>
+            </value>
+            <value>
+                <fullName>Corin</fullName>
+                <default>false</default>
+                <label>Corin</label>
+            </value>
+            <value>
+                <fullName>DePuy Synthes</fullName>
+                <default>false</default>
+                <label>DePuy Synthes</label>
+            </value>
+            <value>
+                <fullName>Lima</fullName>
+                <default>false</default>
+                <label>Lima</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>Mathys</fullName>
+                <default>false</default>
+                <label>Mathys</label>
+            </value>
+            <value>
+                <fullName>Medacta</fullName>
+                <default>false</default>
+                <label>Medacta</label>
+            </value>
+            <value>
+                <fullName>Medtronic</fullName>
+                <default>false</default>
+                <label>Medtronic</label>
+            </value>
+            <value>
+                <fullName>Smith &amp; Nephew</fullName>
+                <default>false</default>
+                <label>Smith &amp; Nephew</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Symbios</fullName>
+                <default>false</default>
+                <label>Symbios</label>
+            </value>
+            <value>
+                <fullName>Tornier</fullName>
+                <default>false</default>
+                <label>Tornier</label>
+            </value>
+            <value>
+                <fullName>Wright Medical</fullName>
+                <default>false</default>
+                <label>Wright Medical</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Aesculap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Corin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>DePuy Synthes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Lima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Mathys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Medacta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Medtronic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Smith &amp; Nephew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Stryker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Symbios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Tornier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knochenersatz</controllingFieldValue>
+            <controllingFieldValue>Interessen</controllingFieldValue>
+            <controllingFieldValue>Kataloge</controllingFieldValue>
+            <controllingFieldValue>Preislisten</controllingFieldValue>
+            <controllingFieldValue>Retraktoren</controllingFieldValue>
+            <controllingFieldValue>Pulsavac</controllingFieldValue>
+            <controllingFieldValue>ATS</controllingFieldValue>
+            <controllingFieldValue>Cement &amp; Accessories</controllingFieldValue>
+            <controllingFieldValue>Skin Graft Products</controllingFieldValue>
+            <controllingFieldValue>Köpfe</controllingFieldValue>
+            <controllingFieldValue>Markraumsperre</controllingFieldValue>
+            <controllingFieldValue>Pfannensysteme</controllingFieldValue>
+            <controllingFieldValue>Schaftsysteme</controllingFieldValue>
+            <controllingFieldValue>Kniesysteme</controllingFieldValue>
+            <controllingFieldValue>Extremitäten</controllingFieldValue>
+            <controllingFieldValue>Support Systems</controllingFieldValue>
+            <controllingFieldValue>Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Non Fusion Systems</controllingFieldValue>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <controllingFieldValue>Trauma</controllingFieldValue>
+            <valueName>Wright Medical</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Remediation Target Date(s) --></label>
+    <name>Remediation_Target_Date_s__c</name>
+</CustomFieldTranslation>

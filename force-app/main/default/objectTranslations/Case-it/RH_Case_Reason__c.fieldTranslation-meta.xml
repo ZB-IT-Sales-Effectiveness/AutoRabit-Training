@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RH Case Reason --></label>
+    <name>RH_Case_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Follow Up: Claims Appeal Outcome</masterLabel>
+        <translation><!-- Follow Up: Claims Appeal Outcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up: Claims Payment</masterLabel>
+        <translation><!-- Follow Up: Claims Payment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up: External Review Outcome</masterLabel>
+        <translation><!-- Follow Up: External Review Outcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up: Other</masterLabel>
+        <translation><!-- Follow Up: Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up: PA Appeal Outcome</masterLabel>
+        <translation><!-- Follow Up: PA Appeal Outcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up: Prior Auth/Pre-D Outcome</masterLabel>
+        <translation><!-- Follow Up: Prior Auth/Pre-D Outcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Claims Appeal</masterLabel>
+        <translation><!-- Question: Claims Appeal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Claims Denial</masterLabel>
+        <translation><!-- Question: Claims Denial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Coding</masterLabel>
+        <translation><!-- Question: Coding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Coverage</masterLabel>
+        <translation><!-- Question: Coverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: General Reimbursement</masterLabel>
+        <translation><!-- Question: General Reimbursement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Insurance Verification</masterLabel>
+        <translation><!-- Question: Insurance Verification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Payment</masterLabel>
+        <translation><!-- Question: Payment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Prior Authorization</masterLabel>
+        <translation><!-- Question: Prior Authorization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question: Prior Authorization Denial</masterLabel>
+        <translation><!-- Question: Prior Authorization Denial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Assist with Claims Denial</masterLabel>
+        <translation><!-- Request: Assist with Claims Denial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Assist with Prior Auth Denial</masterLabel>
+        <translation><!-- Request: Assist with Prior Auth Denial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Assist with Prior Authorization</masterLabel>
+        <translation><!-- Request: Assist with Prior Authorization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Claims Appeal Letter</masterLabel>
+        <translation><!-- Request: Claims Appeal Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Clinical Data Request</masterLabel>
+        <translation><!-- Request: Clinical Data Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Coding Guide</masterLabel>
+        <translation><!-- Request: Coding Guide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Insurance Verification</masterLabel>
+        <translation><!-- Request: Insurance Verification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Medical Necessity Letter</masterLabel>
+        <translation><!-- Request: Medical Necessity Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Medical Necessity Letter (PA)</masterLabel>
+        <translation><!-- Request: Medical Necessity Letter (PA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Other</masterLabel>
+        <translation><!-- Request: Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Prior Auth Appeal Letter</masterLabel>
+        <translation><!-- Request: Prior Auth Appeal Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Prior Authorization Appeal Letter</masterLabel>
+        <translation><!-- Request: Prior Authorization Appeal Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Prior Authorization Letter</masterLabel>
+        <translation><!-- Request: Prior Authorization Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Reimbursement Kit</masterLabel>
+        <translation><!-- Request: Reimbursement Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request: Site Visit</masterLabel>
+        <translation><!-- Request: Site Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Webcast</masterLabel>
+        <translation><!-- Webcast --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

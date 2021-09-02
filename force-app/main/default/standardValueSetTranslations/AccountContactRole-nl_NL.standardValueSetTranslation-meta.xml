@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Approves Products Used</masterLabel>
+        <translation><!-- Approves Products Used --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Billing Contact</masterLabel>
+        <translation><!-- Billing Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blocker</masterLabel>
+        <translation><!-- Blocker --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business User</masterLabel>
+        <translation><!-- Business User --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CSSD Contact</masterLabel>
+        <translation><!-- CSSD Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Champion</masterLabel>
+        <translation><!-- Champion --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clinician</masterLabel>
+        <translation><!-- Clinician --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coach</masterLabel>
+        <translation><!-- Coach --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consignment Contact</masterLabel>
+        <translation><!-- Consignment Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Decision Maker</masterLabel>
+        <translation><!-- Decision Maker --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation>gebruiker</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation><!-- EDI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loan Set Contact</masterLabel>
+        <translation><!-- Loan Set Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mentor</masterLabel>
+        <translation><!-- Mentor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Neutral</masterLabel>
+        <translation><!-- Neutral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physician</masterLabel>
+        <translation><!-- Physician --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Registrar – Set 1</masterLabel>
+        <translation><!-- Registrar – Set 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Registrar – Set 2</masterLabel>
+        <translation><!-- Registrar – Set 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Registrar – Set 3</masterLabel>
+        <translation><!-- Registrar – Set 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Registrar – Set 4</masterLabel>
+        <translation><!-- Registrar – Set 4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Registrar – Set 5</masterLabel>
+        <translation><!-- Registrar – Set 5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Roaming Specialist Visits Practice</masterLabel>
+        <translation><!-- Roaming Specialist Visits Practice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Associate</masterLabel>
+        <translation>economisch inkoper</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

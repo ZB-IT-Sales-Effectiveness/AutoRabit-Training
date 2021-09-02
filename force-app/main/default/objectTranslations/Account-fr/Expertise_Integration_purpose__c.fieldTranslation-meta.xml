@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Enterprise Integration purpose --></label>
+    <name>Expertise_Integration_purpose__c</name>
+    <picklistValues>
+        <masterLabel>Anterior Supine</masterLabel>
+        <translation><!-- Anterior Supine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chondrofix</masterLabel>
+        <translation><!-- Chondrofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel-One</masterLabel>
+        <translation><!-- Gel-One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oxford Partial Knee</masterLabel>
+        <translation><!-- Oxford Partial Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFJ</masterLabel>
+        <translation><!-- PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Knee</masterLabel>
+        <translation><!-- Partial Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific Instruments</masterLabel>
+        <translation><!-- Patient Specific Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona Knee System</masterLabel>
+        <translation><!-- Persona Knee System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal Total Ankle</masterLabel>
+        <translation><!-- Trabecular Metal Total Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard</masterLabel>
+        <translation><!-- Vanguard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VitaminE</masterLabel>
+        <translation><!-- VitaminE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vivacit-E Hip Construct</masterLabel>
+        <translation><!-- Vivacit-E Hip Construct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XP</masterLabel>
+        <translation><!-- XP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Signature Solutions</masterLabel>
+        <translation><!-- Zimmer Biomet Signature Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Unicompartmental Knee</masterLabel>
+        <translation><!-- Zimmer Unicompartmental Knee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

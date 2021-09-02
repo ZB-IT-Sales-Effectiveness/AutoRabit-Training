@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_schouder_resurfacing__c</fullName>
+    <description>Kies het type voor schouder resurfacing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type voor schouder resurfacing.</inlineHelpText>
+    <label>Type schouder resurfacing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_schouder_resurfacing__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Durom</fullName>
+                <default>false</default>
+                <label>Durom</label>
+            </value>
+            <value>
+                <fullName>Copeland</fullName>
+                <default>false</default>
+                <label>Copeland</label>
+            </value>
+            <value>
+                <fullName>CAP</fullName>
+                <default>false</default>
+                <label>CAP</label>
+            </value>
+            <value>
+                <fullName>Affinis</fullName>
+                <default>false</default>
+                <label>Affinis</label>
+            </value>
+            <value>
+                <fullName>Aequalis res head</fullName>
+                <default>false</default>
+                <label>Aequalis res head</label>
+            </value>
+            <value>
+                <fullName>Conserve/Conv.Plus</fullName>
+                <default>false</default>
+                <label>Conserve/Conv.Plus</label>
+            </value>
+            <value>
+                <fullName>Olympia</fullName>
+                <default>false</default>
+                <label>Olympia</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Durom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Copeland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>CAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>Affinis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Aequalis res head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Conserve/Conv.Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Olympia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

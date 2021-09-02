@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Account.Territory_Name__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>CDF1</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Surgeon_Focus_List__c.Surgeon_Type__c</field>
+    </columns>
+    <columns>
+        <field>Surgeon_Focus_List__c.Surgeon_Status__c</field>
+    </columns>
+    <columns>
+        <field>Surgeon_Focus_List__c.Assigned_Team__c</field>
+    </columns>
+    <columns>
+        <field>Account.Territory_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(
+    AND(
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Status__c) = &quot;&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;&quot;)
+        ),
+&quot;Not Touched&quot;,
+(IF(
+    (OR(
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Status__c) = &quot;Retired&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Status__c) = &quot;Deceased&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;Spine Surgeon&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;CMF Surgeon&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;Dental&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;DPM&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;Dental&quot;),
+        (TEXT(Surgeon_Focus_List__c.Surgeon_Type__c) = &quot;Other Non-Ortho Surgeon&quot;)
+        ) 
+    ),
+&quot;Deactivated&quot;, 
+&quot;Activated&quot;)
+)
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Activated or Deactivated</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>Account.Territory_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value/>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Territory_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Surgeon Status Completion Tracking Rpt.</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Surgeon_Focus_List__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Devices --></label>
+    <name>Devices__c</name>
+    <picklistValues>
+        <masterLabel>Adkins Strut</masterLabel>
+        <translation><!-- Adkins Strut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chondrofix</masterLabel>
+        <translation><!-- Chondrofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Intervention</masterLabel>
+        <translation><!-- Early Intervention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel-One</masterLabel>
+        <translation><!-- Gel-One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oxford Partial Knee</masterLabel>
+        <translation><!-- Oxford Partial Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFJ</masterLabel>
+        <translation><!-- PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific Instruments</masterLabel>
+        <translation><!-- Patient Specific Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pectus Bar</masterLabel>
+        <translation><!-- Pectus Bar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persona Knee System</masterLabel>
+        <translation><!-- Persona Knee System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RibFix Blu</masterLabel>
+        <translation><!-- RibFix Blu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SternaLock 360</masterLabel>
+        <translation><!-- SternaLock 360 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SternaLock Blu</masterLabel>
+        <translation><!-- SternaLock Blu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal Total Ankle</masterLabel>
+        <translation><!-- Trabecular Metal Total Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard</masterLabel>
+        <translation><!-- Vanguard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VitaminE</masterLabel>
+        <translation><!-- VitaminE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vivacit-E-Hip Construct</masterLabel>
+        <translation><!-- Vivacit-E-Hip Construct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XP</masterLabel>
+        <translation><!-- XP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Biomet Signature Solutions</masterLabel>
+        <translation><!-- Zimmer Biomet Signature Solutions --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_Lead_Region_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>APL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>APL</label>
+            </value>
+            <value>
+                <fullName>Appalachian</fullName>
+                <default>false</default>
+                <label>Appalachian</label>
+            </value>
+            <value>
+                <fullName>BUC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BUC</label>
+            </value>
+            <value>
+                <fullName>Buckeye</fullName>
+                <default>false</default>
+                <label>Buckeye</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Capitol</fullName>
+                <default>false</default>
+                <label>Capitol</label>
+            </value>
+            <value>
+                <fullName>CB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CB</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Central Canada</fullName>
+                <default>false</default>
+                <label>Central Canada</label>
+            </value>
+            <value>
+                <fullName>Chesapeake Bay</fullName>
+                <default>false</default>
+                <label>Chesapeake Bay</label>
+            </value>
+            <value>
+                <fullName>CHI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CHI</label>
+            </value>
+            <value>
+                <fullName>Chicago Land</fullName>
+                <default>false</default>
+                <label>Chicago Land</label>
+            </value>
+            <value>
+                <fullName>CP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP</label>
+            </value>
+            <value>
+                <fullName>CTL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CTL</label>
+            </value>
+            <value>
+                <fullName>East Canada</fullName>
+                <default>false</default>
+                <label>East Canada</label>
+            </value>
+            <value>
+                <fullName>Garden State</fullName>
+                <default>false</default>
+                <label>Garden State</label>
+            </value>
+            <value>
+                <fullName>GG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GG</label>
+            </value>
+            <value>
+                <fullName>GL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GL</label>
+            </value>
+            <value>
+                <fullName>Golden Gate</fullName>
+                <default>false</default>
+                <label>Golden Gate</label>
+            </value>
+            <value>
+                <fullName>GRD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRD</label>
+            </value>
+            <value>
+                <fullName>Great Lakes</fullName>
+                <default>false</default>
+                <label>Great Lakes</label>
+            </value>
+            <value>
+                <fullName>Islands</fullName>
+                <default>false</default>
+                <label>Islands</label>
+            </value>
+            <value>
+                <fullName>KEY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>KEY</label>
+            </value>
+            <value>
+                <fullName>Keystone</fullName>
+                <default>false</default>
+                <label>Keystone</label>
+            </value>
+            <value>
+                <fullName>LA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LA</label>
+            </value>
+            <value>
+                <fullName>Lone Star</fullName>
+                <default>false</default>
+                <label>Lone Star</label>
+            </value>
+            <value>
+                <fullName>Los Angeles</fullName>
+                <default>false</default>
+                <label>Los Angeles</label>
+            </value>
+            <value>
+                <fullName>LS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LS</label>
+            </value>
+            <value>
+                <fullName>Metro New York</fullName>
+                <default>false</default>
+                <label>Metro New York</label>
+            </value>
+            <value>
+                <fullName>Mississippi Delta</fullName>
+                <default>false</default>
+                <label>Mississippi Delta</label>
+            </value>
+            <value>
+                <fullName>MNY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MNY</label>
+            </value>
+            <value>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+                <label>Mountain</label>
+            </value>
+            <value>
+                <fullName>MSD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MSD</label>
+            </value>
+            <value>
+                <fullName>MT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MT</label>
+            </value>
+            <value>
+                <fullName>NNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NNE</label>
+            </value>
+            <value>
+                <fullName>North New England</fullName>
+                <default>false</default>
+                <label>North New England</label>
+            </value>
+            <value>
+                <fullName>North Star</fullName>
+                <default>false</default>
+                <label>North Star</label>
+            </value>
+            <value>
+                <fullName>NST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NST</label>
+            </value>
+            <value>
+                <fullName>Pacific Northwest</fullName>
+                <default>false</default>
+                <label>Pacific Northwest</label>
+            </value>
+            <value>
+                <fullName>PNW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PNW</label>
+            </value>
+            <value>
+                <fullName>SB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SB</label>
+            </value>
+            <value>
+                <fullName>SE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SE</label>
+            </value>
+            <value>
+                <fullName>SFL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SFL</label>
+            </value>
+            <value>
+                <fullName>SNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SNE</label>
+            </value>
+            <value>
+                <fullName>South Bay</fullName>
+                <default>false</default>
+                <label>South Bay</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Southern</fullName>
+                <default>false</default>
+                <label>Southern</label>
+            </value>
+            <value>
+                <fullName>South Florida</fullName>
+                <default>false</default>
+                <label>South Florida</label>
+            </value>
+            <value>
+                <fullName>South New England</fullName>
+                <default>false</default>
+                <label>South New England</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ST</label>
+            </value>
+            <value>
+                <fullName>WE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WE</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>Western Canada</fullName>
+                <default>false</default>
+                <label>Western Canada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

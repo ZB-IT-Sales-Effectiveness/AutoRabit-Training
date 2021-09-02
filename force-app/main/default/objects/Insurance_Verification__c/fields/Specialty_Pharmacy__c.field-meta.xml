@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialty_Pharmacy__c</fullName>
+    <externalId>false</externalId>
+    <label>Specialty Pharmacy</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accredo Health Group, Inc</fullName>
+                <default>false</default>
+                <label>Accredo Health Group, Inc</label>
+            </value>
+            <value>
+                <fullName>ACRO Pharmaceutical Services</fullName>
+                <default>false</default>
+                <label>ACRO Pharmaceutical Services</label>
+            </value>
+            <value>
+                <fullName>Aetna Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Aetna Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Allion Healthcare, Inc</fullName>
+                <default>false</default>
+                <label>Allion Healthcare, Inc</label>
+            </value>
+            <value>
+                <fullName>Ambient HealthCare, Inc</fullName>
+                <default>false</default>
+                <label>Ambient HealthCare, Inc</label>
+            </value>
+            <value>
+                <fullName>Apex Therapeutic Care, Inc</fullName>
+                <default>false</default>
+                <label>Apex Therapeutic Care, Inc</label>
+            </value>
+            <value>
+                <fullName>APS Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>APS Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>Armada Health Care, LLC</fullName>
+                <default>false</default>
+                <label>Armada Health Care, LLC</label>
+            </value>
+            <value>
+                <fullName>Assured Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>Assured Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>Avia Partners, Inc</fullName>
+                <default>false</default>
+                <label>Avia Partners, Inc</label>
+            </value>
+            <value>
+                <fullName>Axium Healthcare Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>Axium Healthcare Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>Bioscrip, Inc</fullName>
+                <default>false</default>
+                <label>Bioscrip, Inc</label>
+            </value>
+            <value>
+                <fullName>Blue Ridge Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>Blue Ridge Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>CanAm Pharmacy</fullName>
+                <default>false</default>
+                <label>CanAm Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Caremark, Inc</fullName>
+                <default>false</default>
+                <label>Caremark, Inc</label>
+            </value>
+            <value>
+                <fullName>Caremark Rx, Inc</fullName>
+                <default>false</default>
+                <label>Caremark Rx, Inc</label>
+            </value>
+            <value>
+                <fullName>Critical Care Systems, Inc</fullName>
+                <default>false</default>
+                <label>Critical Care Systems, Inc</label>
+            </value>
+            <value>
+                <fullName>CuraScript, Inc</fullName>
+                <default>false</default>
+                <label>CuraScript, Inc</label>
+            </value>
+            <value>
+                <fullName>Custom Care Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>Custom Care Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>CVS/Caremark</fullName>
+                <default>false</default>
+                <label>CVS/Caremark</label>
+            </value>
+            <value>
+                <fullName>CVS Corporation</fullName>
+                <default>false</default>
+                <label>CVS Corporation</label>
+            </value>
+            <value>
+                <fullName>Diplomat Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Diplomat Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>DrugMax, Inc</fullName>
+                <default>false</default>
+                <label>DrugMax, Inc</label>
+            </value>
+            <value>
+                <fullName>excelleRX, Inc</fullName>
+                <default>false</default>
+                <label>excelleRX, Inc</label>
+            </value>
+            <value>
+                <fullName>F &amp; M Specialty Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>F &amp; M Specialty Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>Familymeds, Inc</fullName>
+                <default>false</default>
+                <label>Familymeds, Inc</label>
+            </value>
+            <value>
+                <fullName>Familymeds Group, Inc</fullName>
+                <default>false</default>
+                <label>Familymeds Group, Inc</label>
+            </value>
+            <value>
+                <fullName>Freedom Drug</fullName>
+                <default>false</default>
+                <label>Freedom Drug</label>
+            </value>
+            <value>
+                <fullName>Galloway Pharmacy</fullName>
+                <default>false</default>
+                <label>Galloway Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Genoa Healthcare, LLC</fullName>
+                <default>false</default>
+                <label>Genoa Healthcare, LLC</label>
+            </value>
+            <value>
+                <fullName>Guardian Pharmacy, LLC</fullName>
+                <default>false</default>
+                <label>Guardian Pharmacy, LLC</label>
+            </value>
+            <value>
+                <fullName>HomeCall Rx-Press</fullName>
+                <default>false</default>
+                <label>HomeCall Rx-Press</label>
+            </value>
+            <value>
+                <fullName>ICORE Healthcare, LLC</fullName>
+                <default>false</default>
+                <label>ICORE Healthcare, LLC</label>
+            </value>
+            <value>
+                <fullName>LDI Pharmacy Services, Inc</fullName>
+                <default>false</default>
+                <label>LDI Pharmacy Services, Inc</label>
+            </value>
+            <value>
+                <fullName>McKesson</fullName>
+                <default>false</default>
+                <label>McKesson</label>
+            </value>
+            <value>
+                <fullName>Medco</fullName>
+                <default>false</default>
+                <label>Medco</label>
+            </value>
+            <value>
+                <fullName>Medicine Compounding Professionals</fullName>
+                <default>false</default>
+                <label>Medicine Compounding Professionals</label>
+            </value>
+            <value>
+                <fullName>Medmark, a Walgreens Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Medmark, a Walgreens Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>MIM Corporation</fullName>
+                <default>false</default>
+                <label>MIM Corporation</label>
+            </value>
+            <value>
+                <fullName>National Diabetic Pharmacies, Inc</fullName>
+                <default>false</default>
+                <label>National Diabetic Pharmacies, Inc</label>
+            </value>
+            <value>
+                <fullName>Nova Factor, Inc</fullName>
+                <default>false</default>
+                <label>Nova Factor, Inc</label>
+            </value>
+            <value>
+                <fullName>OptumRX</fullName>
+                <default>false</default>
+                <label>OptumRX</label>
+            </value>
+            <value>
+                <fullName>Pharmaca</fullName>
+                <default>false</default>
+                <label>Pharmaca</label>
+            </value>
+            <value>
+                <fullName>PharmaCare</fullName>
+                <default>false</default>
+                <label>PharmaCare</label>
+            </value>
+            <value>
+                <fullName>PrecisionRx Specialty Solutions</fullName>
+                <default>false</default>
+                <label>PrecisionRx Specialty Solutions</label>
+            </value>
+            <value>
+                <fullName>PrescriptiCare, LLC</fullName>
+                <default>false</default>
+                <label>PrescriptiCare, LLC</label>
+            </value>
+            <value>
+                <fullName>Prescription City, Inc</fullName>
+                <default>false</default>
+                <label>Prescription City, Inc</label>
+            </value>
+            <value>
+                <fullName>Prescription Solutions</fullName>
+                <default>false</default>
+                <label>Prescription Solutions</label>
+            </value>
+            <value>
+                <fullName>Priority Health Corporation</fullName>
+                <default>false</default>
+                <label>Priority Health Corporation</label>
+            </value>
+            <value>
+                <fullName>Priority Pharmacy, Inc</fullName>
+                <default>false</default>
+                <label>Priority Pharmacy, Inc</label>
+            </value>
+            <value>
+                <fullName>PROCARE PHARMACY, INC</fullName>
+                <default>false</default>
+                <label>PROCARE PHARMACY, INC</label>
+            </value>
+            <value>
+                <fullName>QoL Meds</fullName>
+                <default>false</default>
+                <label>QoL Meds</label>
+            </value>
+            <value>
+                <fullName>RegenceRx Walgreens Specialty Prescription</fullName>
+                <default>false</default>
+                <label>RegenceRx Walgreens Specialty Prescription</label>
+            </value>
+            <value>
+                <fullName>RuralRx</fullName>
+                <default>false</default>
+                <label>RuralRx</label>
+            </value>
+            <value>
+                <fullName>Rx Stat, Inc</fullName>
+                <default>false</default>
+                <label>Rx Stat, Inc</label>
+            </value>
+            <value>
+                <fullName>Schraft</fullName>
+                <default>false</default>
+                <label>Schraft</label>
+            </value>
+            <value>
+                <fullName>Solutions Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Solutions Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy Networks, Inc</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy Networks, Inc</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy Services, Inc</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy Services, Inc</label>
+            </value>
+            <value>
+                <fullName>SunScript Pharmacy Corporation</fullName>
+                <default>false</default>
+                <label>SunScript Pharmacy Corporation</label>
+            </value>
+            <value>
+                <fullName>Vitality Pharmaceutical Services</fullName>
+                <default>false</default>
+                <label>Vitality Pharmaceutical Services</label>
+            </value>
+            <value>
+                <fullName>Walgreen Co</fullName>
+                <default>false</default>
+                <label>Walgreen Co</label>
+            </value>
+            <value>
+                <fullName>Wellmark Pharmacy Services</fullName>
+                <default>false</default>
+                <label>Wellmark Pharmacy Services</label>
+            </value>
+            <value>
+                <fullName>WHP Health Initiatives, Inc</fullName>
+                <default>false</default>
+                <label>WHP Health Initiatives, Inc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

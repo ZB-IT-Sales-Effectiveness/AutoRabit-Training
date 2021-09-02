@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select Reason --></help>
+    <label><!-- Denial Review Denied-Reason --></label>
+    <name>Denial_Review_Denied_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Non-coverage</masterLabel>
+        <translation><!-- Non-coverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-formulary</masterLabel>
+        <translation><!-- Non-formulary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-preferred brand</masterLabel>
+        <translation><!-- Non-preferred brand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>other</masterLabel>
+        <translation><!-- other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

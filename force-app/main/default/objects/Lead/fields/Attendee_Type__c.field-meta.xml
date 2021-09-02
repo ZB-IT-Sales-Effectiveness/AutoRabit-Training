@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendee_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Attendee Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AAOS Candidate Member</fullName>
+                <default>false</default>
+                <label>AAOS Candidate Member</label>
+            </value>
+            <value>
+                <fullName>AAOS Fellow</fullName>
+                <default>false</default>
+                <label>AAOS Fellow</label>
+            </value>
+            <value>
+                <fullName>AAOS Member</fullName>
+                <default>false</default>
+                <label>AAOS Member</label>
+            </value>
+            <value>
+                <fullName>AAOS Resident Mbr</fullName>
+                <default>false</default>
+                <label>AAOS Resident Mbr</label>
+            </value>
+            <value>
+                <fullName>Allied Health</fullName>
+                <default>false</default>
+                <label>Allied Health</label>
+            </value>
+            <value>
+                <fullName>Commercial Rep</fullName>
+                <default>false</default>
+                <label>Commercial Rep</label>
+            </value>
+            <value>
+                <fullName>Exhibitor</fullName>
+                <default>false</default>
+                <label>Exhibitor</label>
+            </value>
+            <value>
+                <fullName>Homeosp Admin</fullName>
+                <default>false</default>
+                <label>Homeosp Admin</label>
+            </value>
+            <value>
+                <fullName>International Attendee</fullName>
+                <default>false</default>
+                <label>International Attendee</label>
+            </value>
+            <value>
+                <fullName>International Member</fullName>
+                <default>false</default>
+                <label>International Member</label>
+            </value>
+            <value>
+                <fullName>Participant MD</fullName>
+                <default>false</default>
+                <label>Participant MD</label>
+            </value>
+            <value>
+                <fullName>Physician Non-Mbr</fullName>
+                <default>false</default>
+                <label>Physician Non-Mbr</label>
+            </value>
+            <value>
+                <fullName>Prog Participant--MD</fullName>
+                <default>false</default>
+                <label>Prog Participant--MD</label>
+            </value>
+            <value>
+                <fullName>Program Participant</fullName>
+                <default>false</default>
+                <label>Program Participant</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>US Resdnt/Fellowship</fullName>
+                <default>false</default>
+                <label>US Resdnt/Fellowship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

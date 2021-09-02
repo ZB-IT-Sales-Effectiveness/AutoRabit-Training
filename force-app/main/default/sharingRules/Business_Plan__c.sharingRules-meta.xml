@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Business_plans_sharing_with_AVPs_and_Commercial_Directors</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Business plans sharing with AVPs and Commercial Directors</description>
+        <label>Business plans sharing with AVPs and Commercial Directors</label>
+        <sharedTo>
+            <group>AVP_Sales</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>AM_RC_Executive_Sales_Management</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

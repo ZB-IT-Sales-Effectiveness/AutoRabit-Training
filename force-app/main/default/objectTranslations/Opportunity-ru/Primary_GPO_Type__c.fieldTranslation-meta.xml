@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary GPO Type --></label>
+    <name>Primary_GPO_Type__c</name>
+    <picklistValues>
+        <masterLabel>GPO Unknown</masterLabel>
+        <translation><!-- GPO Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HPG</masterLabel>
+        <translation><!-- HPG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intalere</masterLabel>
+        <translation><!-- Intalere --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Premier</masterLabel>
+        <translation><!-- Premier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROI</masterLabel>
+        <translation><!-- ROI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SharedClarity</masterLabel>
+        <translation><!-- SharedClarity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Resource Group</masterLabel>
+        <translation><!-- The Resource Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vizient</masterLabel>
+        <translation><!-- Vizient --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

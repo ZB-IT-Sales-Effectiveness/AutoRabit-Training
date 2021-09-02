@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Ankle</masterLabel>
+        <translation><!-- Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antegrade Femur</masterLabel>
+        <translation><!-- Antegrade Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antegrade Humerus</masterLabel>
+        <translation><!-- Antegrade Humerus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Artifical Disc</masterLabel>
+        <translation><!-- Artifical Disc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Astrid</masterLabel>
+        <translation><!-- Astrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bailey</masterLabel>
+        <translation><!-- Bailey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band</masterLabel>
+        <translation><!-- Band --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bar</masterLabel>
+        <translation><!-- Bar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Battery</masterLabel>
+        <translation><!-- Battery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Substitute</masterLabel>
+        <translation><!-- Bone Substitute --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP</masterLabel>
+        <translation><!-- CEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cage</masterLabel>
+        <translation><!-- Cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cannulated Screws</masterLabel>
+        <translation><!-- Cannulated Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cemented</masterLabel>
+        <translation><!-- Cemented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clamp</masterLabel>
+        <translation><!-- Clamp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Made System</masterLabel>
+        <translation><!-- Custom Made System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deformity</masterLabel>
+        <translation><!-- Deformity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermatomes</masterLabel>
+        <translation><!-- Dermatomes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distal Femur</masterLabel>
+        <translation><!-- Distal Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distal Tibia</masterLabel>
+        <translation><!-- Distal Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamic Stabilization</masterLabel>
+        <translation><!-- Dynamic Stabilization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECT</masterLabel>
+        <translation><!-- ECT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow</masterLabel>
+        <translation><!-- Elbow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electric</masterLabel>
+        <translation><!-- Electric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fingergrundgelenk-Prothese</masterLabel>
+        <translation><!-- Fingergrundgelenk-Prothese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fingermittelgelenk-Prothese</masterLabel>
+        <translation><!-- Fingermittelgelenk-Prothese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot</masterLabel>
+        <translation><!-- Foot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forte Screws</masterLabel>
+        <translation><!-- Forte Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fracture</masterLabel>
+        <translation><!-- Fracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gekoppelt</masterLabel>
+        <translation><!-- Gekoppelt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gen P/S</masterLabel>
+        <translation><!-- Gen P/S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guide</masterLabel>
+        <translation><!-- Guide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand</masterLabel>
+        <translation><!-- Hand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High speed</masterLabel>
+        <translation><!-- High speed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Humeral</masterLabel>
+        <translation><!-- Humeral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation><!-- Hybrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ITST</masterLabel>
+        <translation><!-- ITST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inlay</masterLabel>
+        <translation><!-- Inlay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interbody</masterLabel>
+        <translation><!-- Interbody --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interbody/VBR</masterLabel>
+        <translation><!-- Interbody/VBR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interlocking</masterLabel>
+        <translation><!-- Interlocking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interspinous Spacer</masterLabel>
+        <translation><!-- Interspinous Spacer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intrasys</masterLabel>
+        <translation><!-- Intrasys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inverse</masterLabel>
+        <translation><!-- Inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laminoplasty</masterLabel>
+        <translation><!-- Laminoplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Bone</masterLabel>
+        <translation><!-- Large Bone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M/V Nails</masterLabel>
+        <translation><!-- M/V Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MDN</masterLabel>
+        <translation><!-- MDN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS PSS</masterLabel>
+        <translation><!-- MIS PSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meshers</masterLabel>
+        <translation><!-- Meshers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular Hip System</masterLabel>
+        <translation><!-- Modular Hip System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCB</masterLabel>
+        <translation><!-- NCB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigation</masterLabel>
+        <translation><!-- Navigation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oberflächenersatz</masterLabel>
+        <translation><!-- Oberflächenersatz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omarthrose</masterLabel>
+        <translation><!-- Omarthrose --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omarthrose/Inverse</masterLabel>
+        <translation><!-- Omarthrose/Inverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onlay</masterLabel>
+        <translation><!-- Onlay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other IM Nails</masterLabel>
+        <translation><!-- Other IM Nails --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outerbody</masterLabel>
+        <translation><!-- Outerbody --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSS</masterLabel>
+        <translation><!-- PSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periarticular</masterLabel>
+        <translation><!-- Periarticular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plate</masterLabel>
+        <translation><!-- Plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plug</masterLabel>
+        <translation><!-- Plug --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pneumatic</masterLabel>
+        <translation><!-- Pneumatic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Porous</masterLabel>
+        <translation><!-- Porous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Posterior Fixation</masterLabel>
+        <translation><!-- Posterior Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary</masterLabel>
+        <translation><!-- Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthesis</masterLabel>
+        <translation><!-- Prosthesis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximal Femur</masterLabel>
+        <translation><!-- Proximal Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximal Humerus</masterLabel>
+        <translation><!-- Proximal Humerus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximal Tibia</masterLabel>
+        <translation><!-- Proximal Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radius</masterLabel>
+        <translation><!-- Radius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resurfacing</masterLabel>
+        <translation><!-- Resurfacing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrograde Femur</masterLabel>
+        <translation><!-- Retrograde Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrograde Humerus</masterLabel>
+        <translation><!-- Retrograde Humerus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision</masterLabel>
+        <translation><!-- Revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision cem.</masterLabel>
+        <translation><!-- Revision cem. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics</masterLabel>
+        <translation><!-- Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sacroiliac Fixation</masterLabel>
+        <translation><!-- Sacroiliac Fixation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sehnenersatzmaterial</masterLabel>
+        <translation><!-- Sehnenersatzmaterial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirus</masterLabel>
+        <translation><!-- Sirus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bone</masterLabel>
+        <translation><!-- Small Bone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid</masterLabel>
+        <translation><!-- Solid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialized Screws</masterLabel>
+        <translation><!-- Specialized Screws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stemless</masterLabel>
+        <translation><!-- Stemless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tibia</masterLabel>
+        <translation><!-- Tibia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquet Systems</masterLabel>
+        <translation><!-- Tourniquet Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ulnar</masterLabel>
+        <translation><!-- Ulnar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncemented Press Fit</masterLabel>
+        <translation><!-- Uncemented Press Fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ungekoppelt</masterLabel>
+        <translation><!-- Ungekoppelt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uni</masterLabel>
+        <translation><!-- Uni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universal</masterLabel>
+        <translation><!-- Universal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universal Locking</masterLabel>
+        <translation><!-- Universal Locking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VBR</masterLabel>
+        <translation><!-- VBR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZGN</masterLabel>
+        <translation><!-- ZGN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZPS</masterLabel>
+        <translation><!-- ZPS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

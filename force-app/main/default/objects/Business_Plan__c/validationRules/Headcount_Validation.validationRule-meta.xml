@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Headcount_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Total_Headcount__c = 0 &amp;&amp;ISCHANGED( Status__c ) &amp;&amp; ISPICKVAL(Status__c , &quot;Pending AVP Approval&quot;) &amp;&amp;  !ISNEW()</errorConditionFormula>
+    <errorMessage>Please add Headcount Records before submitting for approval</errorMessage>
+</ValidationRule>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary__c</fullName>
+    <description>This Field is Created for All the Dental page Layout in both Costomer and Non-customer record type</description>
+    <externalId>false</externalId>
+    <label>Primary Bone Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lifenet</fullName>
+                <default>false</default>
+                <label>Lifenet (Private Label)</label>
+            </value>
+            <value>
+                <fullName>MinerOss</fullName>
+                <default>false</default>
+                <label>MinerOss</label>
+            </value>
+            <value>
+                <fullName>AlloOss</fullName>
+                <default>false</default>
+                <label>AlloOss</label>
+            </value>
+            <value>
+                <fullName>MTF</fullName>
+                <default>false</default>
+                <label>MTF</label>
+            </value>
+            <value>
+                <fullName>BioOss</fullName>
+                <default>false</default>
+                <label>BioOss</label>
+            </value>
+            <value>
+                <fullName>Keystone</fullName>
+                <default>false</default>
+                <label>Keystone</label>
+            </value>
+            <value>
+                <fullName>Citagenix</fullName>
+                <default>false</default>
+                <label>Citagenix</label>
+            </value>
+            <value>
+                <fullName>Ceros (EU)</fullName>
+                <default>false</default>
+                <label>Creos</label>
+            </value>
+            <value>
+                <fullName>Maxxeus Allograft</fullName>
+                <default>false</default>
+                <label>Maxxeus Allograft</label>
+            </value>
+            <value>
+                <fullName>Other Bone Bank</fullName>
+                <default>false</default>
+                <label>Other Allograft</label>
+            </value>
+            <value>
+                <fullName>Other Xenograft</fullName>
+                <default>false</default>
+                <label>Other Xenograft</label>
+            </value>
+            <value>
+                <fullName>Cerabone (EU)</fullName>
+                <default>false</default>
+                <label>Cerabone Xenograft (Straumann)</label>
+            </value>
+            <value>
+                <fullName>BoneCeramic (EU)</fullName>
+                <default>false</default>
+                <label>BoneCeramic</label>
+            </value>
+            <value>
+                <fullName>Osteograft (EU)</fullName>
+                <default>false</default>
+                <label>Osteograft</label>
+            </value>
+            <value>
+                <fullName>Cerasorb (EU)</fullName>
+                <default>false</default>
+                <label>Cerasorb</label>
+            </value>
+            <value>
+                <fullName>Osteobiol (EU)</fullName>
+                <default>false</default>
+                <label>Osteobiol</label>
+            </value>
+            <value>
+                <fullName>Nanobone (EU)</fullName>
+                <default>false</default>
+                <label>Nanobone</label>
+            </value>
+            <value>
+                <fullName>Easygraft (EU)</fullName>
+                <default>false</default>
+                <label>Easygraft</label>
+            </value>
+            <value>
+                <fullName>BegoOss (EU)</fullName>
+                <default>false</default>
+                <label>BegoOss</label>
+            </value>
+            <value>
+                <fullName>BegoOss-S (EU)</fullName>
+                <default>false</default>
+                <label>BegoOss-S</label>
+            </value>
+            <value>
+                <fullName>Bio-Oss Collagen</fullName>
+                <default>false</default>
+                <label>Bio-Oss Collagen</label>
+            </value>
+            <value>
+                <fullName>OsteoGen Plug</fullName>
+                <default>false</default>
+                <label>OsteoGen Plug</label>
+            </value>
+            <value>
+                <fullName>Foundation Plug</fullName>
+                <default>false</default>
+                <label>Foundation Plug</label>
+            </value>
+            <value>
+                <fullName>Botiss Maxgraft (Straumann)</fullName>
+                <default>false</default>
+                <label>Botiss Maxgraft (Straumann)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

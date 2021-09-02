@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Equipment_Quanity_Field_Required</fullName>
+    <active>false</active>
+    <description>Making field New_Equipment_Quantity__c required to be filled in on any opp at the Solve stage or beyond for Surgical Record types</description>
+    <errorConditionFormula>AND( 
+OR(	RecordTypeId=&apos;012C0000000QLX0&apos;,	
+RecordTypeId=&apos;012C0000000Urae&apos;), 
+OR( 
+ISPICKVAL( StageName ,&quot;Solve&quot;) , 
+ISPICKVAL( StageName ,&quot;Execute&quot; ) , 
+ISPICKVAL( StageName ,&quot;Closed Won&quot; ) 
+), 
+(ISBLANK( New_Equipment_Quantity__c )	
+
+)	
+)</errorConditionFormula>
+    <errorDisplayField>New_Equipment_Quantity__c</errorDisplayField>
+    <errorMessage>&quot;New Equipment Quantity&quot; is required for this Opportunity Stage</errorMessage>
+</ValidationRule>

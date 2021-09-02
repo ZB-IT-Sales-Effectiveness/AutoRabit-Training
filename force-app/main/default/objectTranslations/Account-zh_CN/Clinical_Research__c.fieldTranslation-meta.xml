@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Clinical Research --></label>
+    <name>Clinical_Research__c</name>
+    <picklistValues>
+        <masterLabel>Continuum With ML Taper</masterLabel>
+        <translation><!-- Continuum With ML Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denovo NT Prospective Ankle Study</masterLabel>
+        <translation><!-- Denovo NT Prospective Ankle Study --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denovo NT Prospective Knee Study</masterLabel>
+        <translation><!-- Denovo NT Prospective Knee Study --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LDH CoC</masterLabel>
+        <translation><!-- LDH CoC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LPS Flex Porous Femur</masterLabel>
+        <translation><!-- LPS Flex Porous Femur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS Modular tibial tray</masterLabel>
+        <translation><!-- MIS Modular tibial tray --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS Posterior Approach</masterLabel>
+        <translation><!-- MIS Posterior Approach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS Stemmed tibial base plate</masterLabel>
+        <translation><!-- MIS Stemmed tibial base plate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NK Flex Gender</masterLabel>
+        <translation><!-- NK Flex Gender --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen PFJ</masterLabel>
+        <translation><!-- NexGen PFJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Humeral</masterLabel>
+        <translation><!-- TM Humeral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Primary Stem</masterLabel>
+        <translation><!-- TM Primary Stem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

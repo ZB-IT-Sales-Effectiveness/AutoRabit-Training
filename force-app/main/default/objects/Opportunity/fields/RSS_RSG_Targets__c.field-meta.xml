@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RSS_RSG_Targets__c</fullName>
+    <externalId>false</externalId>
+    <label>RSS RSG Targets</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Xenograft</fullName>
+                <default>false</default>
+                <label>Xenograft</label>
+            </value>
+            <value>
+                <fullName>Allograft</fullName>
+                <default>false</default>
+                <label>Allograft</label>
+            </value>
+            <value>
+                <fullName>Membranes</fullName>
+                <default>false</default>
+                <label>Membranes</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

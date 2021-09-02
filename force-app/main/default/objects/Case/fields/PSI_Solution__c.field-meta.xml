@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSI_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>CAS Conclusions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Catergory__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complaint - Forward to EtQ</fullName>
+                <default>false</default>
+                <label>Complaint - Forward to EtQ</label>
+            </value>
+            <value>
+                <fullName>Delay scan</fullName>
+                <default>false</default>
+                <label>Delay scan</label>
+            </value>
+            <value>
+                <fullName>Discrepancy in SMS</fullName>
+                <default>false</default>
+                <label>Discrepancy in SMS</label>
+            </value>
+            <value>
+                <fullName>DOB discrepancy</fullName>
+                <default>false</default>
+                <label>DOB discrepancy</label>
+            </value>
+            <value>
+                <fullName>Gender discrepancy</fullName>
+                <default>false</default>
+                <label>Gender discrepancy</label>
+            </value>
+            <value>
+                <fullName>Incomplete image uploaded</fullName>
+                <default>false</default>
+                <label>Incomplete image uploaded</label>
+            </value>
+            <value>
+                <fullName>Laterality Discrepancy</fullName>
+                <default>false</default>
+                <label>Laterality Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Other (please describe)</fullName>
+                <default>false</default>
+                <label>Other (please describe)</label>
+            </value>
+            <value>
+                <fullName>Patient name discrepancy</fullName>
+                <default>false</default>
+                <label>Patient name discrepancy</label>
+            </value>
+            <value>
+                <fullName>Planning ready or to schedule</fullName>
+                <default>false</default>
+                <label>Planning ready or to schedule</label>
+            </value>
+            <value>
+                <fullName>Rejection=Existing implant</fullName>
+                <default>false</default>
+                <label>Rejection=Existing implant</label>
+            </value>
+            <value>
+                <fullName>Rejection=HITACHI scanner</fullName>
+                <default>false</default>
+                <label>Rejection=HITACHI scanner</label>
+            </value>
+            <value>
+                <fullName>Rejection=HKA bigger than 15 degrees</fullName>
+                <default>false</default>
+                <label>Rejection=HKA bigger than 15 degrees</label>
+            </value>
+            <value>
+                <fullName>Rejection=Image quality</fullName>
+                <default>false</default>
+                <label>Rejection=Image quality</label>
+            </value>
+            <value>
+                <fullName>Rejection=Incorrect acquisition</fullName>
+                <default>false</default>
+                <label>Rejection=Incorrect acquisition</label>
+            </value>
+            <value>
+                <fullName>Rejection = Lossy compression</fullName>
+                <default>false</default>
+                <label>Rejection = Lossy compression</label>
+            </value>
+            <value>
+                <fullName>Rejection=Metal artifact</fullName>
+                <default>false</default>
+                <label>Rejection=Metal artifact</label>
+            </value>
+            <value>
+                <fullName>Rejection=Motion artifact</fullName>
+                <default>false</default>
+                <label>Rejection=Motion artifact</label>
+            </value>
+            <value>
+                <fullName>Rejection=Other (please describe below)</fullName>
+                <default>false</default>
+                <label>Rejection=Other (please describe below)</label>
+            </value>
+            <value>
+                <fullName>Rejection=Protocol not followed</fullName>
+                <default>false</default>
+                <label>Rejection=Protocol not followed</label>
+            </value>
+            <value>
+                <fullName>Rejection=Rotated FOV</fullName>
+                <default>false</default>
+                <label>Rejection=Rotated FOV</label>
+            </value>
+            <value>
+                <fullName>Scan Qualification</fullName>
+                <default>false</default>
+                <label>Scan Qualification</label>
+            </value>
+            <value>
+                <fullName>SMS New User</fullName>
+                <default>false</default>
+                <label>SMS New User</label>
+            </value>
+            <value>
+                <fullName>SMS Password issues</fullName>
+                <default>false</default>
+                <label>SMS Password issues</label>
+            </value>
+            <value>
+                <fullName>Surg input (IMAGE SITUATION)</fullName>
+                <default>false</default>
+                <label>Surg input (IMAGE SITUATION)</label>
+            </value>
+            <value>
+                <fullName>Surg input (JIG)</fullName>
+                <default>false</default>
+                <label>Surg input (JIG)</label>
+            </value>
+            <value>
+                <fullName>Surg input (SEGMENTATION)</fullName>
+                <default>false</default>
+                <label>Surg input (SEGMENTATION)</label>
+            </value>
+            <value>
+                <fullName>Training  -  iAssist  -  Product Knowledge</fullName>
+                <default>false</default>
+                <label>Training  -  iAssist  -  Product Knowledge</label>
+            </value>
+            <value>
+                <fullName>Training  -  Optical  -  Product Knowledge</fullName>
+                <default>false</default>
+                <label>Training  -  Optical  -  Product Knowledge</label>
+            </value>
+            <value>
+                <fullName>Training  -  PSI  -  Product Knowledge</fullName>
+                <default>false</default>
+                <label>Training  -  PSI  -  Product Knowledge</label>
+            </value>
+            <value>
+                <fullName>Trainining  -  iAssist  -  Clinical</fullName>
+                <default>false</default>
+                <label>Trainining  -  iAssist  -  Clinical</label>
+            </value>
+            <value>
+                <fullName>Trainining  -  Optical  -  Clinical</fullName>
+                <default>false</default>
+                <label>Trainining  -  Optical  -  Clinical</label>
+            </value>
+            <value>
+                <fullName>Trainining  -  PSI  -  Clinical</fullName>
+                <default>false</default>
+                <label>Trainining  -  PSI  -  Clinical</label>
+            </value>
+            <value>
+                <fullName>Wrong patient</fullName>
+                <default>false</default>
+                <label>Wrong patient</label>
+            </value>
+            <value>
+                <fullName>Tracking information</fullName>
+                <default>false</default>
+                <label>Tracking information</label>
+            </value>
+            <value>
+                <fullName>Customs</fullName>
+                <default>false</default>
+                <label>Customs</label>
+            </value>
+            <value>
+                <fullName>Order released</fullName>
+                <default>false</default>
+                <label>Order released</label>
+            </value>
+            <value>
+                <fullName>Order refused</fullName>
+                <default>false</default>
+                <label>Order refused</label>
+            </value>
+            <value>
+                <fullName>Order Entered</fullName>
+                <default>false</default>
+                <label>Order Entered</label>
+            </value>
+            <value>
+                <fullName>Request Fulfilled</fullName>
+                <default>false</default>
+                <label>Request Fulfilled</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Field Action</fullName>
+                <default>false</default>
+                <label>Field Action</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Junk/SPAM</fullName>
+                <default>false</default>
+                <label>Junk/SPAM</label>
+            </value>
+            <value>
+                <fullName>Case ID request</fullName>
+                <default>false</default>
+                <label>Case ID request</label>
+            </value>
+            <value>
+                <fullName>Rush case Accepted</fullName>
+                <default>false</default>
+                <label>Rush case Accepted</label>
+            </value>
+            <value>
+                <fullName>Images Recieved</fullName>
+                <default>false</default>
+                <label>Images Recieved</label>
+            </value>
+            <value>
+                <fullName>case tracking/follow up</fullName>
+                <default>false</default>
+                <label>case tracking/follow up</label>
+            </value>
+            <value>
+                <fullName>Case Cancelled</fullName>
+                <default>false</default>
+                <label>Case Cancelled</label>
+            </value>
+            <value>
+                <fullName>Team B follow up</fullName>
+                <default>false</default>
+                <label>Team B follow up</label>
+            </value>
+            <value>
+                <fullName>Team C follow up</fullName>
+                <default>false</default>
+                <label>Team C follow up</label>
+            </value>
+            <value>
+                <fullName>Delay Plan</fullName>
+                <default>false</default>
+                <label>Delay Plan</label>
+            </value>
+            <value>
+                <fullName>Planning to schedule</fullName>
+                <default>false</default>
+                <label>Planning to schedule</label>
+            </value>
+            <value>
+                <fullName>PDF to approve</fullName>
+                <default>false</default>
+                <label>PDF to approve</label>
+            </value>
+            <value>
+                <fullName>Surgery date change</fullName>
+                <default>false</default>
+                <label>Surgery date change</label>
+            </value>
+            <value>
+                <fullName>SMS assisted change</fullName>
+                <default>false</default>
+                <label>SMS assisted change</label>
+            </value>
+            <value>
+                <fullName>Disclaimer Request</fullName>
+                <default>false</default>
+                <label>Disclaimer Request</label>
+            </value>
+            <value>
+                <fullName>Surgeon input Request</fullName>
+                <default>false</default>
+                <label>Surgeon input Request</label>
+            </value>
+            <value>
+                <fullName>Surgeon acknowledgement</fullName>
+                <default>false</default>
+                <label>Surgeon acknowledgement</label>
+            </value>
+            <value>
+                <fullName>Credentials requested</fullName>
+                <default>false</default>
+                <label>Credentials requested</label>
+            </value>
+            <value>
+                <fullName>Surgeon preferences</fullName>
+                <default>false</default>
+                <label>Surgeon preferences</label>
+            </value>
+            <value>
+                <fullName>Linkages</fullName>
+                <default>false</default>
+                <label>Linkages</label>
+            </value>
+            <value>
+                <fullName>Test images received</fullName>
+                <default>false</default>
+                <label>Test images received</label>
+            </value>
+            <value>
+                <fullName>Scan protocol sent</fullName>
+                <default>false</default>
+                <label>Scan protocol sent</label>
+            </value>
+            <value>
+                <fullName>Add/change address or techs</fullName>
+                <default>false</default>
+                <label>Add/change address or techs</label>
+            </value>
+            <value>
+                <fullName>SMS training</fullName>
+                <default>false</default>
+                <label>SMS training</label>
+            </value>
+            <value>
+                <fullName>PSI software training</fullName>
+                <default>false</default>
+                <label>PSI software training</label>
+            </value>
+            <value>
+                <fullName>ZARF Request</fullName>
+                <default>false</default>
+                <label>ZARF Request</label>
+            </value>
+            <value>
+                <fullName>CITRIX issues</fullName>
+                <default>false</default>
+                <label>CITRIX issues</label>
+            </value>
+            <value>
+                <fullName>Passing scan Qualification</fullName>
+                <default>false</default>
+                <label>Passing scan Qualification</label>
+            </value>
+            <value>
+                <fullName>Rejection=Missing series/slices</fullName>
+                <default>false</default>
+                <label>Rejection=Missing series/slices</label>
+            </value>
+            <value>
+                <fullName>Rejection=Laterality in series</fullName>
+                <default>false</default>
+                <label>Rejection=Laterality in series</label>
+            </value>
+            <value>
+                <fullName>Recon case</fullName>
+                <default>false</default>
+                <label>Recon case</label>
+            </value>
+            <value>
+                <fullName>Sent tracking information</fullName>
+                <default>false</default>
+                <label>Sent tracking information</label>
+            </value>
+            <value>
+                <fullName>Received tracking information</fullName>
+                <default>false</default>
+                <label>Received tracking information</label>
+            </value>
+            <value>
+                <fullName>PO request</fullName>
+                <default>false</default>
+                <label>PO request</label>
+            </value>
+            <value>
+                <fullName>Delivery Confirmation</fullName>
+                <default>false</default>
+                <label>Delivery Confirmation</label>
+            </value>
+            <value>
+                <fullName>Pre-op questions</fullName>
+                <default>false</default>
+                <label>Pre-op questions</label>
+            </value>
+            <value>
+                <fullName>Pre-op feedback</fullName>
+                <default>false</default>
+                <label>Pre-op feedback</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+            <value>
+                <fullName>Templating</fullName>
+                <default>false</default>
+                <label>Templating</label>
+            </value>
+            <value>
+                <fullName>Post-op feedback</fullName>
+                <default>false</default>
+                <label>Post-op feedback</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Returned Merchandise (RMA)</controllingFieldValue>
+            <valueName>Field Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returned Merchandise (RMA)</controllingFieldValue>
+            <valueName>Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>SMS Password issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Credentials requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Surgeon preferences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Linkages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Test images received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Scan protocol sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>Add/change address or techs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>SMS training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>PSI software training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>ZARF Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scan Center</controllingFieldValue>
+            <controllingFieldValue>Set Up</controllingFieldValue>
+            <controllingFieldValue>Field Support</controllingFieldValue>
+            <valueName>CITRIX issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Tracking information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Customs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Order released</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Order refused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Order Entered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Request Fulfilled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <valueName>Sent tracking information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <valueName>Received tracking information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <valueName>PO request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment information</controllingFieldValue>
+            <controllingFieldValue>Order follow-up</controllingFieldValue>
+            <controllingFieldValue>Purchase Order</controllingFieldValue>
+            <valueName>Delivery Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Delay scan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>DOB discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Gender discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Laterality Discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Patient name discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Case ID request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Rush case Accepted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Images Recieved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>case tracking/follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Case Cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Team B follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Team C follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Delay Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Planning to schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>PDF to approve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Surgery date change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>SMS assisted change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Disclaimer Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Surgeon input Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS New case</controllingFieldValue>
+            <controllingFieldValue>Delay Scan</controllingFieldValue>
+            <controllingFieldValue>Case Status</controllingFieldValue>
+            <controllingFieldValue>Patient Info discrepancy</controllingFieldValue>
+            <controllingFieldValue>Plan Ready</controllingFieldValue>
+            <controllingFieldValue>Plans ready for Approval</controllingFieldValue>
+            <controllingFieldValue>Case details change</controllingFieldValue>
+            <controllingFieldValue>Patient Anatomy</controllingFieldValue>
+            <valueName>Surgeon acknowledgement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Complaint - Forward to EtQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duplicate</controllingFieldValue>
+            <valueName>Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other (please describe)</controllingFieldValue>
+            <valueName>Other (please describe)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other (please describe)</controllingFieldValue>
+            <valueName>Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other (please describe)</controllingFieldValue>
+            <valueName>Voicemail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Templating</controllingFieldValue>
+            <valueName>Templating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Training  -  iAssist  -  Product Knowledge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Training  -  Optical  -  Product Knowledge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Training  -  PSI  -  Product Knowledge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Trainining  -  iAssist  -  Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Trainining  -  Optical  -  Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training - iAssist</controllingFieldValue>
+            <controllingFieldValue>Training - Optical</controllingFieldValue>
+            <controllingFieldValue>Training - PSI</controllingFieldValue>
+            <controllingFieldValue>User Guide</controllingFieldValue>
+            <valueName>Trainining  -  PSI  -  Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Junk</controllingFieldValue>
+            <valueName>Junk/SPAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Existing implant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=HITACHI scanner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=HKA bigger than 15 degrees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Image quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Incorrect acquisition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection = Lossy compression</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Metal artifact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Motion artifact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Other (please describe below)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Rotated FOV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Passing scan Qualification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Missing series/slices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scanner</controllingFieldValue>
+            <controllingFieldValue>Rejection</controllingFieldValue>
+            <valueName>Rejection=Laterality in series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Case</controllingFieldValue>
+            <valueName>Recon case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Pre-op questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Post-op feedback</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

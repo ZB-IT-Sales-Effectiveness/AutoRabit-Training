@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Year_Estimated_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( YEAR(CloseDate) = Product_Sales_Summary__r.Business_Plan__r.Year__c - 1
+, IF( ASP__c * Competitive_Units__c &gt;0 , IF( At_Risk__c , - ASP__c * Competitive_Units__c, ASP__c * Competitive_Units__c) , Amount )* (MONTH(CloseDate )-1)/12 
+, IF( YEAR(CloseDate) = Product_Sales_Summary__r.Business_Plan__r.Year__c 
+, IF( ASP__c * Competitive_Units__c &gt;0 , IF( At_Risk__c , - ASP__c * Competitive_Units__c, ASP__c * Competitive_Units__c) , Amount )* ( 13 - MONTH(CloseDate ))/12
+, 0)
+)</formula>
+    <label>Next Year Estimated Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How many years, approximately, has the surgeon been operating? --></help>
+    <label><!-- Number of years of experience --></label>
+    <name>Number_of_years_of_experience__c</name>
+</CustomFieldTranslation>

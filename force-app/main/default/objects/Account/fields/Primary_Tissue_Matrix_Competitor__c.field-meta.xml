@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Tissue_Matrix_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Tissue Matrix Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alloderm (Biohorizons)</fullName>
+                <default>false</default>
+                <label>Alloderm (Biohorizons)</label>
+            </value>
+            <value>
+                <fullName>Alloderm GBR (Biohorizons)</fullName>
+                <default>false</default>
+                <label>Alloderm GBR (Biohorizons)</label>
+            </value>
+            <value>
+                <fullName>PerioDerm (Dentsply)</fullName>
+                <default>false</default>
+                <label>PerioDerm (Dentsply)</label>
+            </value>
+            <value>
+                <fullName>DynaMatrix Plus (Keystone)</fullName>
+                <default>false</default>
+                <label>DynaMatrix Plus (Keystone)</label>
+            </value>
+            <value>
+                <fullName>Mucograft (Osteohealth)</fullName>
+                <default>false</default>
+                <label>Mucograft (Osteohealth)</label>
+            </value>
+            <value>
+                <fullName>Bioxlude (Snoasis)</fullName>
+                <default>false</default>
+                <label>Bioxlude (Snoasis)</label>
+            </value>
+            <value>
+                <fullName>PRP/PRF</fullName>
+                <default>false</default>
+                <label>PRP/PRF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

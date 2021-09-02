@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- National Service disruptions from major carriers (FedEx, UPS) that impact outbound shipments from our primary warehouses due to carrier or processing constraints --></help>
+    <label><!-- Freight Carrier Interruptions --></label>
+    <name>Freight_Carrier_Interruptions__c</name>
+</CustomFieldTranslation>

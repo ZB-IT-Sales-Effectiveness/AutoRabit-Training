@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>None_rejection</fullName>
+    <active>true</active>
+    <description>Linda and Yavonna can&apos;t save values with None selection</description>
+    <errorConditionFormula>( $User.Id = &apos;005C0000009SZVQ&apos; ||   $User.Id   = &apos;005C0000009SZaf&apos;)  &amp;&amp;  (ISPICKVAL( Role_Classification__c , &apos;Sales Associate&apos;)||ISPICKVAL( Role_Classification__c , &apos;Surgery Case Specialist&apos;) || ISPICKVAL( Role_Classification__c , &apos;Sales Manager with accounts&apos;) || ISPICKVAL( Role_Classification__c , &apos;Sales Manager without accounts&apos;)) &amp;&amp;   ISPICKVAL(Sales_Specialty__c, &apos;None&apos;)</errorConditionFormula>
+    <errorDisplayField>Sales_Specialty__c</errorDisplayField>
+    <errorMessage>Please select correct sales specialty</errorMessage>
+</ValidationRule>

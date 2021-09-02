@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Area of Interest --></label>
+    <name>Area_of_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Advisory Boards</masterLabel>
+        <translation><!-- Advisory Boards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Research</masterLabel>
+        <translation><!-- Clinical Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development</masterLabel>
+        <translation><!-- Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellowship &amp; Residents</masterLabel>
+        <translation><!-- Fellowship &amp; Residents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Consulting</masterLabel>
+        <translation><!-- Project Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T&amp;E</masterLabel>
+        <translation><!-- T&amp;E --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

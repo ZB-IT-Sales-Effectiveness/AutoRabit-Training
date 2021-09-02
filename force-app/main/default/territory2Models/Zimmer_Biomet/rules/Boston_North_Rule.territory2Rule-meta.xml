@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Boston North Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>000851,002546,008058,008621,014692,015897,017437,020638,022795,024106,027069,035146,036000,039842,040408,040689,042022,048613,048620,050745,052873,054050,055030,055485,056814,060328,061025,062981,063080,071834,072970,073760,080172,086725,087238,088674,095412,096761,098371,103820,096058,010630,109315,075465,046775</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Competitor_Required_for_Growth</fullName>
+    <active>true</active>
+    <description>Select Primary Competitor details.</description>
+    <errorConditionFormula>And(
+ISPICKVAL(Type__c , &quot;Growth&quot;),
+ISBLANK(Primary_Competitor__c)
+)</errorConditionFormula>
+    <errorMessage>For Growth, Primary Competitor(s) should be selected.</errorMessage>
+</ValidationRule>

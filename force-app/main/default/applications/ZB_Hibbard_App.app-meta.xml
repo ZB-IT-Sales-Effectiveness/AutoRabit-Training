@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Territory CRM App</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Customer Portal Manager Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Cvent Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>dental Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-EMEA-Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Events Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Practice</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Practice</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Hip_Preservation_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom - Personalized Solutions Call Center Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Hip_Preservation_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom - Personalized Solutions Call Center Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Active</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Active</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Active</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Practice</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-FA Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Data Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Force.com - DSA</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Force.com - One App User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Hip Preservation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC Distributors</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-Marketing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-EMEA GLBL-Sales &amp; Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-EMEA-Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.HealthcareFacility</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Physician</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.HealthcareFacility</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.HealthcareFacility</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Distributor</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Distributor</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.HealthcareFacility</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.HealthcareFacility</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Distributor</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Distributor</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Distributor</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Practice</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC Data Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Service Desk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Surgeon Portal Australia Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Surgeon Portal Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Trailhead Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>US Rosa Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Canadal_Home_Page12</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC-Sales Managers</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Academic Institutions</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Active</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>High Volume Customer Portal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Canadal_Home_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC Data Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Submit_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Target_Refinement_Required</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Target_adjustment_Required</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Target_Refinement_Required</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Target_adjustment_Required</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-HCP Distributor Principal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Personalized Solutions Call Center Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Submit_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-HCP Distributor Principal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Personalized Solutions Call Center Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - CRM Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Physician</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Physician</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Physician</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Partner Community User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Reimbursement Hotline - Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-DK-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Sales Support Call Center</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Zimmer Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>XA2DCS Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-GLBL-Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-GLBL-Sales &amp; Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-DK-Power User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>SalesforceIQ Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Insights Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Marketo-Salesforce Sync_v2</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Overage High Volume Customer Portal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>OBT</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Premier Support User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-System Administrator (US &amp; EMEA)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>DN-US-Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-HCP Distributor Principal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-Helpdesk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-AT-Power User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC-Sales Managers</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Gold Partner User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-My Mobility</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Physician Locator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Surgeon Portal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-CH-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-GO Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Canadal_Home_Page11</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-CA-RC Distributors</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Surgical_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>AM-US-SU Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Customer Community Plus User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Ready_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US- Surgeon Maintenance Users</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-SU Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Submit_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Submit_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>FORCE-AM-US Service Desk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Force.com - One App User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Ready_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-HCP Distributor Principal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Target_Refinement_Required</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Target_adjustment_Required</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Target_Refinement_Required</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Target_adjustment_Required</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Ready_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-Sales Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Territory_Master_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Territory_Name__c</pageOrSobjectType>
+        <recordType>Territory_Name__c.Ready_for_approval</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Zimmer Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-DE-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Security User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free (No group or owner)</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-AU Surgeon portal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom- OpCom/Legal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-RC Site Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Call Center Manager Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Event Builder</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Event Planner</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>CloudCraze High Volume Customer Portal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Physician</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Corporate</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>AM-US-HCP Corporate Compliance Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-NL-Power User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-NL-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Trade Compliance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>EU-AT-Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>US_Recon_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Practice</recordType>
+        <type>Flexipage</type>
+        <profile>Custom - Zimmer Commercial</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Admin_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Layout_Locked</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Business_Plan__c</pageOrSobjectType>
+        <recordType>Business_Plan__c.Locked</recordType>
+        <type>Flexipage</type>
+        <profile>Custom-Event Super Admin</profile>
+    </profileActionOverrides>
+    <setupExperience>all</setupExperience>
+    <tabs>Territory_Opportunity_Pipeline</tabs>
+    <tabs>Instrument_Requests</tabs>
+    <tabs>Top_150</tabs>
+    <tabs>Top_Targets</tabs>
+    <tabs>Drive_to_92</tabs>
+    <tabs>ROSA_Lead_Collection</tabs>
+    <tabs>Surgeon_Focus_List</tabs>
+    <tabs>Review_Process_Desktop</tabs>
+    <tabs>Product_Interest</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Prospect__c</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>Admin</tabs>
+    <tabs>ZB_Sales_Hub</tabs>
+    <tabs>SMS</tabs>
+    <tabs>Business_Plan__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>ZB_Hibbard_App_UtilityBar</utilityBar>
+</CustomApplication>

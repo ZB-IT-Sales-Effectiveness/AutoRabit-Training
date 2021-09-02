@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBINDIANA_SCHMAHL_0011_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-INDIANA (SCHMAHL) (0011) QUEUE</label>
+    <queue>Q_ZBINDIANA_SCHMAHL_0011</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

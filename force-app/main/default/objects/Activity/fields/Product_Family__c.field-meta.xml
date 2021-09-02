@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <description>Integration</description>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Knee</fullName>
+                <default>false</default>
+                <label>Knee</label>
+            </value>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Elbow</fullName>
+                <default>false</default>
+                <label>Elbow</label>
+            </value>
+            <value>
+                <fullName>Shoulder</fullName>
+                <default>false</default>
+                <label>Shoulder</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Jar Grips</fullName>
+                <default>false</default>
+                <label>Jar Grips</label>
+            </value>
+            <value>
+                <fullName>Signature One</fullName>
+                <default>false</default>
+                <label>Signature One</label>
+            </value>
+            <value>
+                <fullName>VRS</fullName>
+                <default>false</default>
+                <label>VRS</label>
+            </value>
+            <value>
+                <fullName>GEL-ONE</fullName>
+                <default>false</default>
+                <label>GEL-ONE</label>
+            </value>
+            <value>
+                <fullName>VISCO-3</fullName>
+                <default>false</default>
+                <label>VISCO-3</label>
+            </value>
+            <value>
+                <fullName>GPS III</fullName>
+                <default>false</default>
+                <label>GPS III</label>
+            </value>
+            <value>
+                <fullName>AmnioRepair</fullName>
+                <default>false</default>
+                <label>AmnioRepair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

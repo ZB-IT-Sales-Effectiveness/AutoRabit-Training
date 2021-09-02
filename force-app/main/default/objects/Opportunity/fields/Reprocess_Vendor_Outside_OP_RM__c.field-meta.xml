@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reprocess_Vendor_Outside_OP_RM__c</fullName>
+    <externalId>false</externalId>
+    <label>Reprocess Vendor Outside OP RM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardinal/Covidien</fullName>
+                <default>false</default>
+                <label>Cardinal/Covidien</label>
+            </value>
+            <value>
+                <fullName>Hygia</fullName>
+                <default>false</default>
+                <label>Hygia</label>
+            </value>
+            <value>
+                <fullName>Medline</fullName>
+                <default>false</default>
+                <label>Medline</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sterilmed</fullName>
+                <default>false</default>
+                <label>Sterilmed</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

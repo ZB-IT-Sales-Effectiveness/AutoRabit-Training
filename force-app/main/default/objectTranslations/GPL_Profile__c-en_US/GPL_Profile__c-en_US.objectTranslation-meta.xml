@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GPL Profile</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GPL Profiles</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- GPL Clinic Profile --></label>
+        <name>GPL_ClinicProfile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GPL Dentist Profile --></label>
+        <name>GPL_DentistProfile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GPL Physician Profile --></label>
+        <name>GPL_PhysicianProfile</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Upload_Physician_Picture --></label>
+        <name>Upload_Physician_Picture</name>
+    </webLinks>
+</CustomObjectTranslation>

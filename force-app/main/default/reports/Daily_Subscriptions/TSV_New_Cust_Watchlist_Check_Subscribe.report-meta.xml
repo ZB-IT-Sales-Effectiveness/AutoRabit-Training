@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND (2 or 3)</booleanFilter>
+        <criteriaItems>
+            <column>Account.ISR_New_Customer_TSV_Watchlist__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>101152,120076,134130,146847,153939,239631,287419,346104,350069,368087,369384,371082,373342,376184,376188,377420,377604,377698,377975,378079,379444,382452,383354,385642,386968,387740,388317,388460,389113,389140,390710,396124,406018,419148,427767,430966,431039,431235,431371,431807,431984,432149,432172,432379,432391,432510,432547,432761,437580,437613,437725,437812,437838,382355,385279,341209,225775,238318,376724,335987,365023,387111,403094,404312,438898,424662,429490,375222,375313,407375,31010520,277357,385145,440644,439830,239271,363185,189282,31007346,378117,376546,383884,383218,439409,439440,233166,386548,389380,389174,136674,164772,192662,205796,252236,363388,373725,384018,385984,408108,409762,420355,422328,441104,441276,441661,441821</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>31005843,31010492,31010634,31010738,31010798,31007440,31007611,444380,443950,369118,377543,387243,403082,444522,444410,301895,376997,438061,135141,369693,385309,408284,376546,346536,171968,430058,283722,432250,131847,212705,443930,443988,374838,430050</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>TSV New Cust Watchlist Check Subscribe</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Base_Customer_Number__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Action Resides With --></label>
+    <name>Action_Resides_With__c</name>
+    <picklistValues>
+        <masterLabel>Rep</masterLabel>
+        <translation><!-- Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Connect Capital Solutions</masterLabel>
+        <translation><!-- ZB Connect Capital Solutions --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

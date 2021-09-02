@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Territory Target Refinement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Territory Target Refinements</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Round 1 --></label>
+        <name>Ready_for_approval</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Locked --></label>
+        <name>Submit_for_approval</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Target adjustment Required - Editable --></description>
+        <label><!-- Round 2 --></label>
+        <name>Target_adjustment_Required</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Biologics should be Zero --></errorMessage>
+        <name>Biologics_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Cement should be Zero --></errorMessage>
+        <name>Cement_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Extremities should be Zero --></errorMessage>
+        <name>Extremities_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Foot &amp; Ankle should be Zero --></errorMessage>
+        <name>Foot_and_Ankle_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Hips should be Zero --></errorMessage>
+        <name>Hips_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Knees should be Zero --></errorMessage>
+        <name>Knees_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement Should be Zero --></errorMessage>
+        <name>Refinement_Total_Zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Sports Medicine should be Zero --></errorMessage>
+        <name>Sports_Medicine_Total_Refinement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Refinement for Trauma should be Zero --></errorMessage>
+        <name>Trauma_Total_Refinement</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>State Licensure</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Licensed States</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You do not have access to update the agreement status.  Please contact the Salesforce.com systems administrator. --></errorMessage>
+        <name>User_Accessibility</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Massachusetts_Lookup --></label>
+        <name>Massachusetts_Lookup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Vermont_Lookup --></label>
+        <name>Vermont_Lookup</name>
+    </webLinks>
+</CustomObjectTranslation>

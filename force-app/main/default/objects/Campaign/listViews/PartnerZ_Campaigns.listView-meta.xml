@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerZ_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Campaign_Member_Count__c</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>CAMPAIGN.ID</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.Historical_Campaign</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>partnerz</value>
+    </filters>
+    <label>PartnerZ Campaigns</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>DN_Canada_All</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>DN_NORTHAMER_All</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>DN_USA_All</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

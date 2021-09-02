@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_350__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether this surgeon is on the Top 350 list</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if the surgeon is assigned a key account executive contact team member from the Zimmer Coporate organization.</inlineHelpText>
+    <label>Key Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Delegated_Task__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to indicate if a task has been delegated. Set via Field Update workflow</description>
+    <externalId>false</externalId>
+    <label>Is Delegated Task?</label>
+    <type>Checkbox</type>
+</CustomField>

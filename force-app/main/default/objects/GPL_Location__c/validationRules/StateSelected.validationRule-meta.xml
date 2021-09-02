@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StateSelected</fullName>
+    <active>true</active>
+    <description>Ensures that a state is selected from the State picklist</description>
+    <errorConditionFormula>ISPICKVAL(State__c, &apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>State__c</errorDisplayField>
+    <errorMessage>A state must be specified</errorMessage>
+</ValidationRule>

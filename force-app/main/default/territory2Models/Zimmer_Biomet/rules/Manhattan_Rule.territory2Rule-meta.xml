@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Manhattan Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>005135,005340,006045,007481,012464,015739,015924,016314,020403,020468,023644,024524,026734,027569,029899,030093,031614,034498,034916,035488,037259,037330,040354,045705,046392,047125,048404,048527,049834,050646,050787,050891,052950,053453,054561,055867,057315,057370,057815,057846,057847,059015,059025,059050,064932,066280,066282,066787,073653,079530,081838,087554,087575,088506,088526,094091,100552,109348,109745,032555,008800,019598,021854,033365,045470,050972,059786,071760,089090,093431,115412,115456,117447,117560</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

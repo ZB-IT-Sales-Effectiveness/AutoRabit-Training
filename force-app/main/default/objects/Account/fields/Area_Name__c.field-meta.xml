@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( Region_Name__c ), null, 
+ 
+IF(CONTAINS(&apos;US Buckeye:US Chicago Land:US Great Lakes:US Central:US Lone Star:US Mountain:US West:US Los Angeles:US South Bay:US Golden Gate:US North Star:US Pacific Northwest:US Pacific NW:US Islands&apos;, Region_Name__c ), &apos;West&apos;, 
+ 
+IF(CONTAINS(&apos;US No New England:US So New England:US Key Stone:US Garden State:US South Florida:US North Florida:US Southern:US Southeast:US SouthEast:US Capitol:US Chesapeake Bay:US Appalachian:US Metro NY:US Mississippi Delta&apos;, Region_Name__c ), &apos;East&apos;, 
+IF(CONTAINS(&apos;CA Eastern Canada&apos;, Region_Name__c ), &apos;Canada East&apos;, 
+IF(CONTAINS(&apos;CA Western Canada&apos;, Region_Name__c ), &apos;Canada West&apos;, 
+IF(CONTAINS(&apos;CA Central&apos;, Region_Name__c ), &apos;Canada Central&apos;, 
+IF(CONTAINS(&apos;CA Ontario&apos;, Region_Name__c ), &apos;Canada East&apos;, 
+null)))))))</formula>
+    <label>District Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>brand</label>
+    <name>Subgroup__c</name>
+    <picklistValues>
+        <masterLabel>ATS</masterLabel>
+        <translation><!-- ATS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cement &amp; Accessories</masterLabel>
+        <translation><!-- Cement &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremitäten</masterLabel>
+        <translation><!-- Extremitäten --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fusion Systems</masterLabel>
+        <translation><!-- Fusion Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interessen</masterLabel>
+        <translation><!-- Interessen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kataloge</masterLabel>
+        <translation><!-- Kataloge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kniesysteme</masterLabel>
+        <translation><!-- Kniesysteme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knochenersatz</masterLabel>
+        <translation><!-- Knochenersatz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Köpfe</masterLabel>
+        <translation><!-- Köpfe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markraumsperre</masterLabel>
+        <translation><!-- Markraumsperre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Fusion Systems</masterLabel>
+        <translation><!-- Non Fusion Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfannensysteme</masterLabel>
+        <translation><!-- Pfannensysteme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Tools</masterLabel>
+        <translation><!-- Power Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preislisten</masterLabel>
+        <translation><!-- Preislisten --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulsavac</masterLabel>
+        <translation><!-- Pulsavac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retraktoren</masterLabel>
+        <translation><!-- Retraktoren --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schaftsysteme</masterLabel>
+        <translation><!-- Schaftsysteme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Graft Products</masterLabel>
+        <translation><!-- Skin Graft Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support Systems</masterLabel>
+        <translation><!-- Support Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transition</masterLabel>
+        <translation><!-- Transition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

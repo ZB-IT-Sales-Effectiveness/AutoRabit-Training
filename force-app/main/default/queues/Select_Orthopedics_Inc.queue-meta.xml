@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Select Orthopedics, Inc.</name>
+    <queueMembers>
+        <users>
+            <user>aalford@selectortho.com</user>
+            <user>brodgers@selectortho.com</user>
+            <user>dwilkinson@selectortho.com</user>
+            <user>burkejd@aol.com</user>
+            <user>davidwhitman@ymail.com</user>
+            <user>keithl@selectortho.com</user>
+            <user>tgericke@midarksurg.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

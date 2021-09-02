@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What scanner(s) does this lab use? --></help>
+    <label><!-- Scanner(s) --></label>
+    <name>Scanner_s__c</name>
+    <picklistValues>
+        <masterLabel>3M ESPE</masterLabel>
+        <translation><!-- 3M ESPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3Shape</masterLabel>
+        <translation><!-- 3Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CareStream</masterLabel>
+        <translation><!-- CareStream --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerec - Dentsply Sirona</masterLabel>
+        <translation><!-- Cerec - Dentsply Sirona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Wings</masterLabel>
+        <translation><!-- Dental Wings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primescan - Dentsply Sirona</masterLabel>
+        <translation><!-- Primescan - Dentsply Sirona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trios - 3Shape</masterLabel>
+        <translation><!-- Trios - 3Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZFX</masterLabel>
+        <translation><!-- ZFX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iMedit</masterLabel>
+        <translation><!-- iMedit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero - Aligntech</masterLabel>
+        <translation><!-- iTero - Aligntech --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

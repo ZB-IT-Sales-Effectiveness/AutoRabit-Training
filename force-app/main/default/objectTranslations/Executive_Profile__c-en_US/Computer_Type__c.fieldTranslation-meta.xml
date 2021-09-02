@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Computer Type --></label>
+    <name>Computer_Type__c</name>
+    <picklistValues>
+        <masterLabel>MAC</masterLabel>
+        <translation><!-- MAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC</masterLabel>
+        <translation><!-- PC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

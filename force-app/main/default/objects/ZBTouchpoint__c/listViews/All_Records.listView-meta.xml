@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Records</fullName>
+    <columns>NAME</columns>
+    <columns>Point_of_Contact__c</columns>
+    <columns>Name__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Phone__c</columns>
+    <columns>City__c</columns>
+    <columns>State__c</columns>
+    <columns>Spoke_with_customer__c</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Elective_Surgery_Start_Date__c</columns>
+    <columns>Percentage_of_Normal_Volume__c</columns>
+    <columns>Help_Required__c</columns>
+    <columns>Recommendations__c</columns>
+    <columns>NPI_TEXT__c</columns>
+    <columns>Assignee__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Spoke_with_customer__c</field>
+        <operation>equals</operation>
+        <value>Yes,No,Pending</value>
+    </filters>
+    <label>All Touchpoints</label>
+    <sharedTo>
+        <group>ZB_Touchpoint_Leadership</group>
+    </sharedTo>
+</ListView>

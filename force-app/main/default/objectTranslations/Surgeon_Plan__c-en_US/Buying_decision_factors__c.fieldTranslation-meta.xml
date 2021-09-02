@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the most important to the surgeon while making a buying decision (Technical Information, relationship with rep, cost, etc)? --></help>
+    <label><!-- Buying decision factors --></label>
+    <name>Buying_decision_factors__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>matthew.corridoni@zimmerbiomet.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>DN_USA_Key_Stone_GL_Buckeye_Regen</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>DN - Key Stone, GL &amp; Buckeye RSS</name>
+</ReportFolder>

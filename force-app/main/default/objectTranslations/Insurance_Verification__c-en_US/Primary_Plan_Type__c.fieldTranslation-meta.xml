@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary_Plan Type --></label>
+    <name>Primary_Plan_Type__c</name>
+    <picklistValues>
+        <masterLabel>EPO</masterLabel>
+        <translation><!-- EPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fee-For-Service</masterLabel>
+        <translation><!-- Fee-For-Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HMO</masterLabel>
+        <translation><!-- HMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Care Savings Account</masterLabel>
+        <translation><!-- Health Care Savings Account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indemnity</masterLabel>
+        <translation><!-- Indemnity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicaid</masterLabel>
+        <translation><!-- Medicaid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicaid HMO</masterLabel>
+        <translation><!-- Medicaid HMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicare</masterLabel>
+        <translation><!-- Medicare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicare Advantage</masterLabel>
+        <translation><!-- Medicare Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POS</masterLabel>
+        <translation><!-- POS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPO</masterLabel>
+        <translation><!-- PPO --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

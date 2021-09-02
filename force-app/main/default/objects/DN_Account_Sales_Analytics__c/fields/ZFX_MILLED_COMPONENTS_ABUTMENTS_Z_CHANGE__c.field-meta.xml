@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZFX_MILLED_COMPONENTS_ABUTMENTS_Z_CHANGE__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( ZFX_MILLED_COMPONENTS_ABUTMENTS_Z_PYTD__c &gt;0,( ZFX_MILLED_COMPONENTS_ABUTMENTS_Z_YTD__c-ZFX_MILLED_COMPONENTS_ABUTMENTS_Z_PYTD__c)/ ZFX_MILLED_COMPONENTS_ABUTMENTS_Z_PYTD__c, 1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ZFX MILLED COMPONENTS-ABUTMENTS Z%CHANGE</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

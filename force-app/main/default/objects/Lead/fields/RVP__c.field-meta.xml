@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RVP__c</fullName>
+    <description>RVP for your area</description>
+    <externalId>false</externalId>
+    <label>RVP</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Don Thomas</fullName>
+                <default>false</default>
+                <label>Don Thomas</label>
+            </value>
+            <value>
+                <fullName>Jim Colbourne</fullName>
+                <default>false</default>
+                <label>Jim Colbourne</label>
+            </value>
+            <value>
+                <fullName>Scott Gunnigle</fullName>
+                <default>false</default>
+                <label>Scott Gunnigle</label>
+            </value>
+            <value>
+                <fullName>Thomas Bartnicki</fullName>
+                <default>false</default>
+                <label>Thomas Bartnicki</label>
+            </value>
+            <value>
+                <fullName>Tim Kan</fullName>
+                <default>false</default>
+                <label>Tim Kan</label>
+            </value>
+            <value>
+                <fullName>Vincent Fath</fullName>
+                <default>false</default>
+                <label>Vincent Fath</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

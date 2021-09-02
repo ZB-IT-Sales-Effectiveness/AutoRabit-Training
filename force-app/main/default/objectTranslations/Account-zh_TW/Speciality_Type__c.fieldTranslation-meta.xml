@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Specialty Type --></label>
+    <name>Speciality_Type__c</name>
+    <picklistValues>
+        <masterLabel>CA DOD</masterLabel>
+        <translation><!-- CA DOD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Centre mutualiste</masterLabel>
+        <translation><!-- Centre mutualiste --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denturist</masterLabel>
+        <translation><!-- Denturist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denturist CA</masterLabel>
+        <translation><!-- Denturist CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dept of Defense</masterLabel>
+        <translation><!-- Dept of Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dept of Justice</masterLabel>
+        <translation><!-- Dept of Justice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endodontist</masterLabel>
+        <translation><!-- Endodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etablissement de Santé privé</masterLabel>
+        <translation><!-- Etablissement de Santé privé --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etablissement de Santé public</masterLabel>
+        <translation><!-- Etablissement de Santé public --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Dentist</masterLabel>
+        <translation><!-- General Dentist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government CA</masterLabel>
+        <translation><!-- Government CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation><!-- Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implantologist</masterLabel>
+        <translation><!-- Implantologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institution</masterLabel>
+        <translation><!-- Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab</masterLabel>
+        <translation><!-- Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Doctor</masterLabel>
+        <translation><!-- Medical Doctor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Military CA</masterLabel>
+        <translation><!-- Military CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multispecialty</masterLabel>
+        <translation><!-- Multispecialty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral Surgeon</masterLabel>
+        <translation><!-- Oral Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthodontist</masterLabel>
+        <translation><!-- Orthodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pedodontist</masterLabel>
+        <translation><!-- Pedodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Periodontist</masterLabel>
+        <translation><!-- Periodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation><!-- Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthodontist</masterLabel>
+        <translation><!-- Prosthodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative Dentist</masterLabel>
+        <translation><!-- Restorative Dentist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University</masterLabel>
+        <translation><!-- University --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VA Account</masterLabel>
+        <translation><!-- VA Account --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

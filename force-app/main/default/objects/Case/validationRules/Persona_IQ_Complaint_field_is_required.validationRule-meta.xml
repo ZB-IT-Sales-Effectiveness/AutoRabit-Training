@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_IQ_Complaint_field_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     RecordType.Name = &quot;Persona IQ&quot;,
+     OR(
+        (ISPICKVAL(Category__c,&quot;Persona IQ Complaint&quot;)),
+        (ISPICKVAL(Category__c,&quot;Base Station Return&quot;))
+       ),
+     ISBLANK(Persona_IQ_Complaint_or_RMA__c)
+   )</errorConditionFormula>
+    <errorMessage>Please enter the details in Persona IQ Complaint # or RMA # field.</errorMessage>
+</ValidationRule>

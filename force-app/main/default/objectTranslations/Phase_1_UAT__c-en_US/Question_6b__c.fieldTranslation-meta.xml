@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please describe why you came to your rating in 6a. --></help>
+    <label><!-- Question #6b --></label>
+    <name>Question_6b__c</name>
+</CustomFieldTranslation>

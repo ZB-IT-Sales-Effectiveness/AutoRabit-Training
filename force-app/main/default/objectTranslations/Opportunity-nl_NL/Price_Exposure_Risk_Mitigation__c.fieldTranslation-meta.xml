@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Limit # of systems/segments. Market Share %. P.O, in 24 hours --></help>
+    <label><!-- Price Exposure Risk Mitigation --></label>
+    <name>Price_Exposure_Risk_Mitigation__c</name>
+</CustomFieldTranslation>

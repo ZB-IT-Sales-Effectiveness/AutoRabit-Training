@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Rep Action Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Rep Action Plan</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- AT Risk --></label>
+        <name>AT_Risk</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Competitive Sales --></label>
+        <name>Competitive_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Future Leaders --></label>
+        <name>Future_Leaders</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Under Performing --></label>
+        <name>Under_Performing</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

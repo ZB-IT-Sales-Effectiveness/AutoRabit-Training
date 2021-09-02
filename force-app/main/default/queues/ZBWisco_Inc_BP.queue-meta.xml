@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZBWisco, Inc. - BP</name>
+    <queueMembers>
+        <users>
+            <user>matt.taylor@zbwisco.com</user>
+            <user>paul.soltwedel@zbwisco.com</user>
+            <user>tom.thomson@zbwisco.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Business_Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

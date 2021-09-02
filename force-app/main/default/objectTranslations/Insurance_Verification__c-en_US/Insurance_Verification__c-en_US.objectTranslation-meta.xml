@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Insurance Verification/Access to Care</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Insurance Verification/Access to Care</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- This record type will be used to created AM-US-RC Access to Care Verification Requests --></description>
+        <label><!-- AM-US-RC Access to Care --></label>
+        <name>AM_US_RC_Access_to_Care</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the standard insurance verification used by the Reimbursement Hotline Team. --></description>
+        <label><!-- Standard Insurance Verification --></label>
+        <name>Standard_Insurance_Verification</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Kindly select ATC Close Reason Value. --></errorMessage>
+        <name>Check_Close_Date_and_Close_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Last Follow-Up Field Value --></errorMessage>
+        <name>Last_Follow_Up_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter -&quot;Initiate Hold&quot;  Date --></errorMessage>
+        <name>On_Hold_Value_for_ATC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter -&quot;Initiate Hold&quot; Date --></errorMessage>
+        <name>Release_hold_without_On_hold_date_check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type schouder fractuur --></label>
+    <name>X2e_type_schouder_fractuur__c</name>
+    <picklistValues>
+        <masterLabel>Anatomical fracture</masterLabel>
+        <translation><!-- Anatomical fracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Articula</masterLabel>
+        <translation><!-- Articula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comprhensive Fx stem</masterLabel>
+        <translation><!-- Comprhensive Fx stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equalis Fx</masterLabel>
+        <translation><!-- Equalis Fx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Fx</masterLabel>
+        <translation><!-- Global Fx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promos</masterLabel>
+        <translation><!-- Promos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universe Facture stem</masterLabel>
+        <translation><!-- Universe Facture stem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Target_Audience_is_Other</fullName>
+    <active>true</active>
+    <description>If Target Audience is Other, provide details in &apos;Target Audience Other&apos; field</description>
+    <errorConditionFormula>IF(
+ AND(
+ INCLUDES(Who_is_the_target_audience_at_this_event__c , &apos;Other&apos;),
+ ISBLANK( Target_Audience_Other__c ) 
+),
+TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Target_Audience_Other__c</errorDisplayField>
+    <errorMessage>If Target Audience is Other, please provide details in &apos;Target Audience Other&apos; field</errorMessage>
+</ValidationRule>

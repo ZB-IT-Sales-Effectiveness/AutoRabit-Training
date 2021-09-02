@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If Academic Program is not present then provide this details --></help>
+    <label><!-- Other Academic Program Name --></label>
+    <name>Other_Academic_Program_Name__c</name>
+</CustomFieldTranslation>

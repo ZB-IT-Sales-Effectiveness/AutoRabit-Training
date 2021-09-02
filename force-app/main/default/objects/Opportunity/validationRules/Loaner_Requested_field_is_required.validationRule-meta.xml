@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loaner_Requested_field_is_required</fullName>
+    <active>true</active>
+    <description>If RGA # is populated, then Loaner Requested field is required or must be filled in before saving record.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(RGA__c)),
+Loaner_Requested__c == FALSE)</errorConditionFormula>
+    <errorMessage>If RGA # is populated, then Loaner Requested field is required.</errorMessage>
+</ValidationRule>

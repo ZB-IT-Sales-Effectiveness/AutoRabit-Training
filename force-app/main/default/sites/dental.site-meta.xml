@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>TestSitePage</authorizationRequiredPage>
+    <bandwidthExceededPage>TestSitePage</bandwidthExceededPage>
+    <browserXssProtection>false</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
+    <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <contentSniffingProtection>false</contentSniffingProtection>
+    <description>Zimmer Dental eCommerce Site</description>
+    <enableAuraRequests>true</enableAuraRequests>
+    <fileNotFoundPage>TestSitePage</fileNotFoundPage>
+    <genericErrorPage>TestSitePage</genericErrorPage>
+    <inMaintenancePage>TestSitePage</inMaintenancePage>
+    <inactiveIndexPage>TestSitePage</inactiveIndexPage>
+    <indexPage>TestSitePage</indexPage>
+    <masterLabel>dental</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
+    <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
+    <siteAdmin>thomas.jones@edlconsulting.com.zimmer</siteAdmin>
+    <siteGuestRecordDefaultOwner>lori.mishler@zimmer.com</siteGuestRecordDefaultOwner>
+    <siteTemplate>SiteTemplate</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>zimmer</subdomain>
+    <urlPathPrefix>dental</urlPathPrefix>
+</CustomSite>

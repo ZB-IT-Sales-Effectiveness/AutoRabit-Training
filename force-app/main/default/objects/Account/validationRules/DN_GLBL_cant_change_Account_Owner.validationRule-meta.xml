@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_GLBL_cant_change_Account_Owner</fullName>
+    <active>true</active>
+    <description>User Profile DN-GLBL-Sales (2016) cannot change record ownership</description>
+    <errorConditionFormula>AND(
+	$Profile.Id = &quot;00e80000001SSl1&quot;,
+	ISCHANGED(OwnerId)
+	)</errorConditionFormula>
+    <errorMessage>DN-GLBL-Sales (2016) Users can&apos;t change ownership of accounts</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Event__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Who is organising the event</description>
+    <externalId>false</externalId>
+    <label>Zimmer Event</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

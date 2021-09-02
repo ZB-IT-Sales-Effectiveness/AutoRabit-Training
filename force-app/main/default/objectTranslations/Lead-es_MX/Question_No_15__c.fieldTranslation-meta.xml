@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How frequently does the pain you have in your knee and/or hip wake you from sleep at night? --></help>
+    <label><!-- Question No. 15 --></label>
+    <name>Question_No_15__c</name>
+    <picklistValues>
+        <masterLabel>1-3 nights per week</masterLabel>
+        <translation><!-- 1-3 nights per week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4-6 nights per week</masterLabel>
+        <translation><!-- 4-6 nights per week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every night</masterLabel>
+        <translation><!-- Every night --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than once a week</masterLabel>
+        <translation><!-- Less than once a week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Once a week</masterLabel>
+        <translation><!-- Once a week --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

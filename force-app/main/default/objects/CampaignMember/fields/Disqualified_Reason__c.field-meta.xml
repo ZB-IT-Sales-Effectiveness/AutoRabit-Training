@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disqualified_Reason__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( 
+ISBLANK(ContactId), 
+TEXT(Lead.Disqualified_Reason__c), 
+TEXT(Contact.Disqualified_Reason__c) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Disqualified Reason</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

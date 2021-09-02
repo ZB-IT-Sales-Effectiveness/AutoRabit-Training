@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Concurrents Implants --></label>
+    <name>Concurrents_Implants__c</name>
+    <picklistValues>
+        <masterLabel>Alpha Bio</masterLabel>
+        <translation><!-- Alpha Bio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anthogyr</masterLabel>
+        <translation><!-- Anthogyr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biohorizons</masterLabel>
+        <translation><!-- Biohorizons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet 3i</masterLabel>
+        <translation><!-- Biomet 3i --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biotech</masterLabel>
+        <translation><!-- Biotech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bredent</masterLabel>
+        <translation><!-- Bredent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camlog</masterLabel>
+        <translation><!-- Camlog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denstply implants - Astra</masterLabel>
+        <translation><!-- Denstply implants - Astra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentsply implants</masterLabel>
+        <translation><!-- Dentsply implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Easy implant</masterLabel>
+        <translation><!-- Easy implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Euroteknica</masterLabel>
+        <translation><!-- Euroteknica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global D - Serf</masterLabel>
+        <translation><!-- Global D - Serf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global D - Tekka</masterLabel>
+        <translation><!-- Global D - Tekka --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDI</masterLabel>
+        <translation><!-- IDI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant direct</masterLabel>
+        <translation><!-- Implant direct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keystone</masterLabel>
+        <translation><!-- Keystone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MIS</masterLabel>
+        <translation><!-- MIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Production</masterLabel>
+        <translation><!-- Medical Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobel Biocare</masterLabel>
+        <translation><!-- Nobel Biocare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straumann ITI</masterLabel>
+        <translation><!-- Straumann ITI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sweden &amp; Martina</masterLabel>
+        <translation><!-- Sweden &amp; Martina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBR</masterLabel>
+        <translation><!-- TBR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thommen</masterLabel>
+        <translation><!-- Thommen --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

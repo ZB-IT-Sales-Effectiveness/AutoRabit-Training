@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- AM-US-Standard --></label>
+        <name>AM_US_Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type will be used to create campaigns for any event available in Cvent. --></description>
+        <label><!-- Cvent Campaign --></label>
+        <name>Cvent_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-Promo --></label>
+        <name>DN_Promo</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Sales</label>
+        <name>EU_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EU-Standard --></label>
+        <name>EU_Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Historical Campaign --></label>
+        <name>Historical_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN- Regional Event/Exhibit Request --></label>
+        <name>Regional_Event_Exhibit_Request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- All Fields are required. --></errorMessage>
+        <name>All_fields_are_required_for_Exhibit_Camp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- IF Booth Space is &apos;Other&apos;, please provide Booth Space in &apos;Booth Space Other&apos; Field. --></errorMessage>
+        <name>If_Booth_Space_is_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Target Audience is Other, please provide details in &apos;Target Audience Other&apos; field --></errorMessage>
+        <name>If_Target_Audience_is_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Insufficient Access --></errorMessage>
+        <name>Prevent_users_from_removing_campaign_mem</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An end date is required for PureCloud Campaigns --></errorMessage>
+        <name>purecloud__PC_EndDate_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A start date is required for PureCloud Campaigns. Select today&apos;s date to start a PureCloud campaign immediately. --></errorMessage>
+        <name>purecloud__PC_StartDate_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AlleKampagnenmitgliederanzeigenoriginal --></label>
+        <name>AlleKampagnenmitgliederanzeigenoriginal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AnmeldungDetailszeigen --></label>
+        <name>AnmeldungDetailszeigen</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AnmeldungExportstarten --></label>
+        <name>AnmeldungExportstarten</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EinladungExportstarten --></label>
+        <name>EinladungExportstarten</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MitgliederStatuszeigen --></label>
+        <name>MitgliederStatuszeigen</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SalesKampagnenMitgliederZentralzeigen --></label>
+        <name>SalesKampagnenMitgliederZentralzeigen</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Mitglieder_zeigen --></label>
+        <name>Sales_Mitglieder_zeigen</name>
+    </webLinks>
+    <webLinks>
+        <label>Bekijk alle campagneleden</label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label>Bekijk campagne-invloedrapport</label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>et4ae5__ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAT_Opportunity_Validation_NexGen</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+ ( AND($RecordType.Name = &quot;ROSA Knee&quot;,NexGen_fill_in__c == FALSE)),
+ OR( NOT(ISBLANK( Trays_requested_NexGen_fill_in__c )) ,NOT(ISBLANK( NexGen_fill_in_Estimated_Annual_Cases__c )), NOT(ISBLANK( Average_of_Cases_NexGen_fill_in__c ))),
+ FALSE )</errorConditionFormula>
+    <errorMessage>Please select NexGen Checkbox FIrst.</errorMessage>
+</ValidationRule>

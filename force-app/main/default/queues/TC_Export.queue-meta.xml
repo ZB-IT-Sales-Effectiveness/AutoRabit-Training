@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>TC Export</name>
+    <queueMembers>
+        <roles>
+            <role>TC_Export_Agent</role>
+        </roles>
+        <users>
+            <user>alina.mulet@zimmerbiomet.com</user>
+            <user>amanda.grouff@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

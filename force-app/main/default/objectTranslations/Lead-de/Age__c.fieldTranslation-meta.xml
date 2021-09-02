@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please select one below --></help>
+    <label><!-- Age --></label>
+    <name>Age__c</name>
+    <picklistValues>
+        <masterLabel>30-44</masterLabel>
+        <translation><!-- 30-44 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>45-55</masterLabel>
+        <translation><!-- 45-55 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>56-70</masterLabel>
+        <translation><!-- 56-70 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>71 and older</masterLabel>
+        <translation><!-- 71 and older --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

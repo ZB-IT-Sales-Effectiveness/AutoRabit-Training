@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- iTero Demo Type --></label>
+    <name>iTero_Demo_Type__c</name>
+    <picklistValues>
+        <masterLabel>1-on-1 Demo</masterLabel>
+        <translation><!-- 1-on-1 Demo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group Demo</masterLabel>
+        <translation><!-- Group Demo --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

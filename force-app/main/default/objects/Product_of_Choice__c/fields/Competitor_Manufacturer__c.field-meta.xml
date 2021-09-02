@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Manufacturer__c</fullName>
+    <externalId>false</externalId>
+    <label>Manufacturer</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Zimmer</fullName>
+                <default>true</default>
+                <label>Zimmer</label>
+            </value>
+            <value>
+                <fullName>Biomet</fullName>
+                <default>false</default>
+                <label>Biomet</label>
+            </value>
+            <value>
+                <fullName>Depuy</fullName>
+                <default>false</default>
+                <label>Depuy</label>
+            </value>
+            <value>
+                <fullName>Exactec</fullName>
+                <default>false</default>
+                <label>Exactec</label>
+            </value>
+            <value>
+                <fullName>Otis Medical</fullName>
+                <default>false</default>
+                <label>Otis Medical</label>
+            </value>
+            <value>
+                <fullName>Smith and Nephew</fullName>
+                <default>false</default>
+                <label>Smith and Nephew</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Synthes</fullName>
+                <default>false</default>
+                <label>Synthes</label>
+            </value>
+            <value>
+                <fullName>Tournier</fullName>
+                <default>false</default>
+                <label>Tournier</label>
+            </value>
+            <value>
+                <fullName>Wright Medical</fullName>
+                <default>false</default>
+                <label>Wright Medical</label>
+            </value>
+            <value>
+                <fullName>Osteotech</fullName>
+                <default>false</default>
+                <label>Osteotech</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

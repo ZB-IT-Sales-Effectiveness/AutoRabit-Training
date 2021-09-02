@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>VERSION_TITLE</field>
+    </columns>
+    <columns>
+        <field>ContentVersion.Document_Type__c</field>
+    </columns>
+    <columns>
+        <field>WS_CREATED</field>
+    </columns>
+    <columns>
+        <field>CONTENT_CREATOR</field>
+    </columns>
+    <columns>
+        <field>ContentVersion.Last_Modified_by_User_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ContentVersion.ZBDSA__Available_Offline__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>DOWNLOAD_COUNT</field>
+    </columns>
+    <columns>
+        <field>LAST_DOWNLOAD_DATE</field>
+    </columns>
+    <columns>
+        <field>CTYPE</field>
+    </columns>
+    <columns>
+        <field>TAG</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Library activity</description>
+    <filter>
+        <criteriaItems>
+            <column>WS_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>dn- us zone</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Zone Library Content</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Content</reportType>
+    <scope>workspace</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CONTENT_CREATOR</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>WS_CREATED</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_NAM_ISR_E_Canada_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Rep_Name__c</columns>
+    <columns>DN_Lead_Type__c</columns>
+    <columns>DN_Lead_Region_2__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.DN_Lead</value>
+    </filters>
+    <filters>
+        <field>DN_Lead_Region_2__c</field>
+        <operation>equals</operation>
+        <value>East Canada</value>
+    </filters>
+    <label>DN NAM - ISR E Canada Leads</label>
+    <sharedTo>
+        <role>DN_IS_Manager</role>
+        <role>DN_IS_Supervisor</role>
+        <role>DN_NORTHAMER_All</role>
+    </sharedTo>
+</ListView>

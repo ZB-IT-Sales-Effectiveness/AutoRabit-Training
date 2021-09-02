@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_RequireNotifyField</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(IF(ISPICKVAL(Request_Type__c, &apos;Regional Sales Director&apos;),TRUE, IF(ISPICKVAL(Request_Type__c, &apos;GPO Group&apos;),TRUE,IF(ISPICKVAL(Request_Type__c, &apos;Site Visit&apos;),TRUE,FALSE))), ISBLANK(Notify__c))</errorConditionFormula>
+    <errorDisplayField>Notify__c</errorDisplayField>
+    <errorMessage>Please choose ZBConnect Employee to notify for Site Visit, Regional Sales Director, GPO/Strategic Account Requests.</errorMessage>
+</ValidationRule>

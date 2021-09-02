@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RH Product Sub-Category --></label>
+    <name>RH_Product_Sub_Category__c</name>
+    <picklistValues>
+        <masterLabel>ARAS Retractor (Spine)</masterLabel>
+        <translation><!-- ARAS Retractor (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AlloFus (Spine)</masterLabel>
+        <translation><!-- AlloFus (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Fracture Shoulder System (Extremities)</masterLabel>
+        <translation><!-- Anatomical Fracture Shoulder System (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical Shoulder System (Extremities)</masterLabel>
+        <translation><!-- Anatomical Shoulder System (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ant-Cer Anterior Cervical Plate System (Spine)</masterLabel>
+        <translation><!-- Ant-Cer Anterior Cervical Plate System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ardis Spacer (Spine)</masterLabel>
+        <translation><!-- Ardis Spacer (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAK (Spine)</masterLabel>
+        <translation><!-- BAK (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAK Vista (Spine)</masterLabel>
+        <translation><!-- BAK Vista (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAK/C (Spine)</masterLabel>
+        <translation><!-- BAK/C (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BacFix (Spine)</masterLabel>
+        <translation><!-- BacFix (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bigliani/Flatow Shoulder (Extremities)</masterLabel>
+        <translation><!-- Bigliani/Flatow Shoulder (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bipolar Cups (Hips)</masterLabel>
+        <translation><!-- Bipolar Cups (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement &amp; Accessories (Hips)</masterLabel>
+        <translation><!-- Bone Cement &amp; Accessories (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement &amp; Accessories (Surgical)</masterLabel>
+        <translation><!-- Bone Cement &amp; Accessories (Surgical) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Drills &amp; Bits (Trauma)</masterLabel>
+        <translation><!-- Bone Drills &amp; Bits (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Substitutes (Trauma)</masterLabel>
+        <translation><!-- Bone Substitutes (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable Products (Trauma)</masterLabel>
+        <translation><!-- Cable Products (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cadence (Spine)</masterLabel>
+        <translation><!-- Cadence (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chondrofix</masterLabel>
+        <translation><!-- Chondrofix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compression Hip Screws (Trauma)</masterLabel>
+        <translation><!-- Compression Hip Screws (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer-Assisted Surgery (CAS)</masterLabel>
+        <translation><!-- Computer-Assisted Surgery (CAS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coonard/Mooray Total Elbow (Extremities)</masterLabel>
+        <translation><!-- Coonard/Mooray Total Elbow (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CopiOs (Spine)</masterLabel>
+        <translation><!-- CopiOs (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corpectomy (Spine)</masterLabel>
+        <translation><!-- Corpectomy (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crystal Intervertebral Body Fusion Device (Spine)</masterLabel>
+        <translation><!-- Crystal Intervertebral Body Fusion Device (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DeNovo NT</masterLabel>
+        <translation><!-- DeNovo NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys LIS Dynamic Stabilization System (Spine)</masterLabel>
+        <translation><!-- Dynesys LIS Dynamic Stabilization System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynesys Spinal System (Spine)</masterLabel>
+        <translation><!-- Dynesys Spinal System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow Arthroplasty (Extremities)</masterLabel>
+        <translation><!-- Elbow Arthroplasty (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Fixation (Trauma)</masterLabel>
+        <translation><!-- External Fixation (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Femoral Heads (Hips)</masterLabel>
+        <translation><!-- Femoral Heads (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fidji Anterior/Anterolateral (Spine)</masterLabel>
+        <translation><!-- Fidji Anterior/Anterolateral (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FlexPosure (Spine)</masterLabel>
+        <translation><!-- FlexPosure (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FlexPosure ML Discectomy (Spine)</masterLabel>
+        <translation><!-- FlexPosure ML Discectomy (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fortitude Vue Vertebral Body Replacement (Spine)</masterLabel>
+        <translation><!-- Fortitude Vue Vertebral Body Replacement (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fracture Stems (Hips)</masterLabel>
+        <translation><!-- Fracture Stems (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel-One</masterLabel>
+        <translation><!-- Gel-One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Solutions Natural Knee II (Knee)</masterLabel>
+        <translation><!-- Gender Solutions Natural Knee II (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Solutions PFJ (Knee)</masterLabel>
+        <translation><!-- Gender Solutions PFJ (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harmony Rotator &amp; Ports (Spine)</masterLabel>
+        <translation><!-- Harmony Rotator &amp; Ports (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip Instruments (Hips)</masterLabel>
+        <translation><!-- Hip Instruments (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IM Nails (Trauma)</masterLabel>
+        <translation><!-- IM Nails (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implants</masterLabel>
+        <translation><!-- Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InCompass Spinal Fixation System (Spine)</masterLabel>
+        <translation><!-- InCompass Spinal Fixation System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InCompass with Polyaxial Screws (Spine)</masterLabel>
+        <translation><!-- InCompass with Polyaxial Screws (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InFix (Spine)</masterLabel>
+        <translation><!-- InFix (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insall/Burstein I - I/BI (Knee)</masterLabel>
+        <translation><!-- Insall/Burstein I - I/BI (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insall/Burstein II - I/BII (Knee)</masterLabel>
+        <translation><!-- Insall/Burstein II - I/BII (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee Arthroplasty (Knee)</masterLabel>
+        <translation><!-- Knee Arthroplasty (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucent (Spine)</masterLabel>
+        <translation><!-- Lucent (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucent Magnum Interbody Fusion (Spine)</masterLabel>
+        <translation><!-- Lucent Magnum Interbody Fusion (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucent Magnum Intervertebral Body Fusion (Spine)</masterLabel>
+        <translation><!-- Lucent Magnum Intervertebral Body Fusion (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucent Magnum+ (Spine)</masterLabel>
+        <translation><!-- Lucent Magnum+ (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOST Option System (Knee)</masterLabel>
+        <translation><!-- MOST Option System (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Instruments (Trauma)</masterLabel>
+        <translation><!-- Manual Instruments (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Products (Surgical)</masterLabel>
+        <translation><!-- Medical Products (Surgical) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miller/Gallante I - MG I (Knee)</masterLabel>
+        <translation><!-- Miller/Gallante I - MG I (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miller/Gallante I - MG II (Knee)</masterLabel>
+        <translation><!-- Miller/Gallante I - MG II (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miller/Gallante Unicompartmental (Knee)</masterLabel>
+        <translation><!-- Miller/Gallante Unicompartmental (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minit Posterior Cervical-Upper Thoracic Fixation System (Spine)</masterLabel>
+        <translation><!-- Minit Posterior Cervical-Upper Thoracic Fixation System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobi-C</masterLabel>
+        <translation><!-- Mobi-C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N-K II Revision (Knee)</masterLabel>
+        <translation><!-- N-K II Revision (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee (Knee)</masterLabel>
+        <translation><!-- Natural-Knee (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee CRK (Knee)</masterLabel>
+        <translation><!-- Natural-Knee CRK (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee High Tibial Osteotomy (Knee)</masterLabel>
+        <translation><!-- Natural-Knee High Tibial Osteotomy (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee II (Knee)</masterLabel>
+        <translation><!-- Natural-Knee II (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee II PFJ (Knee)</masterLabel>
+        <translation><!-- Natural-Knee II PFJ (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee II Posterior Stabilized (Knee)</masterLabel>
+        <translation><!-- Natural-Knee II Posterior Stabilized (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Knee Unicompartmental (Knee)</masterLabel>
+        <translation><!-- Natural-Knee Unicompartmental (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nex-Link Spinal Fixation (Spine)</masterLabel>
+        <translation><!-- Nex-Link Spinal Fixation (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen CR (Knee)</masterLabel>
+        <translation><!-- NexGen CR (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen CR Gender (Knee)</masterLabel>
+        <translation><!-- NexGen CR Gender (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen CRA (Knee)</masterLabel>
+        <translation><!-- NexGen CRA (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen High Tibial Osteomy (Knee)</masterLabel>
+        <translation><!-- NexGen High Tibial Osteomy (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LCCK (Knee)</masterLabel>
+        <translation><!-- NexGen LCCK (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LPS (Knee)</masterLabel>
+        <translation><!-- NexGen LPS (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LPS Flex (Knee)</masterLabel>
+        <translation><!-- NexGen LPS Flex (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LPS Flex Gender (Knee)</masterLabel>
+        <translation><!-- NexGen LPS Flex Gender (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LPS Flex Mobile (Knee)</masterLabel>
+        <translation><!-- NexGen LPS Flex Mobile (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen Rotating Hinge Knee - RHK (Knee)</masterLabel>
+        <translation><!-- NexGen Rotating Hinge Knee - RHK (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexPosure (Spine)</masterLabel>
+        <translation><!-- NexPosure (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NorthStar (Spine)</masterLabel>
+        <translation><!-- NorthStar (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ON Rod &amp; Other Trauma (Trauma)</masterLabel>
+        <translation><!-- ON Rod &amp; Other Trauma (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optima ZS (Spine)</masterLabel>
+        <translation><!-- Optima ZS (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Hip Products (Hips)</masterLabel>
+        <translation><!-- Other Hip Products (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Trauma Products (Trauma)</masterLabel>
+        <translation><!-- Other Trauma Products (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POLAr (Spine)</masterLabel>
+        <translation><!-- POLAr (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PathFinder (Spine)</masterLabel>
+        <translation><!-- PathFinder (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Specific Instrument (Knee)</masterLabel>
+        <translation><!-- Patient Specific Instrument (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pins &amp; Wires (Trauma)</masterLabel>
+        <translation><!-- Pins &amp; Wires (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plates &amp; Screws (Trauma)</masterLabel>
+        <translation><!-- Plates &amp; Screws (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Cup Liners (Hips)</masterLabel>
+        <translation><!-- Primary Cup Liners (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Cups (Hips)</masterLabel>
+        <translation><!-- Primary Cups (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prosthetics</masterLabel>
+        <translation><!-- Prosthetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proximal Humeral Fractures (Extremities)</masterLabel>
+        <translation><!-- Proximal Humeral Fractures (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puros-P (Spine)</masterLabel>
+        <translation><!-- Puros-P (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puros-S2 (Spine)</masterLabel>
+        <translation><!-- Puros-S2 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reamers (Trauma)</masterLabel>
+        <translation><!-- Reamers (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative</masterLabel>
+        <translation><!-- Regenerative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reverse Shoulder Arthroplasty (Extremities)</masterLabel>
+        <translation><!-- Reverse Shoulder Arthroplasty (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Cup (Hips)</masterLabel>
+        <translation><!-- Revision Cup (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Cup Liners (Hips)</masterLabel>
+        <translation><!-- Revision Cup Liners (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Stems (Hips)</masterLabel>
+        <translation><!-- Revision Stems (Hips) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotator Cuff Repair (Extremities)</masterLabel>
+        <translation><!-- Rotator Cuff Repair (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ST360 Spinal Fixation System (Spine)</masterLabel>
+        <translation><!-- ST360 Spinal Fixation System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sentry (Spine)</masterLabel>
+        <translation><!-- Sentry (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sequoia (Spine)</masterLabel>
+        <translation><!-- Sequoia (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder Arthroplasty (Extremities)</masterLabel>
+        <translation><!-- Shoulder Arthroplasty (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slimline Anterior Certivcal Plate (Spine)</masterLabel>
+        <translation><!-- Slimline Anterior Certivcal Plate (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soft Tissue Attachments (Trauma)</masterLabel>
+        <translation><!-- Soft Tissue Attachments (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spinal Fixation (Trauma)</masterLabel>
+        <translation><!-- Spinal Fixation (Trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Fusion (Spine)</masterLabel>
+        <translation><!-- Spine Fusion (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subchondroplasty</masterLabel>
+        <translation><!-- Subchondroplasty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Medical Rehabilitative (Surgical)</masterLabel>
+        <translation><!-- Surgical Medical Rehabilitative (Surgical) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Products (OPS)</masterLabel>
+        <translation><!-- Surgical Products (OPS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Humeral Shoulder (Extremities)</masterLabel>
+        <translation><!-- TM Humeral Shoulder (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Reverse Shoulder (Extremities)</masterLabel>
+        <translation><!-- TM Reverse Shoulder (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thinline Anterior Cervical Plate (Spine)</masterLabel>
+        <translation><!-- Thinline Anterior Cervical Plate (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Title2 (Spine)</masterLabel>
+        <translation><!-- Title2 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Shoulder Arthroplasty (Extremities)</masterLabel>
+        <translation><!-- Total Shoulder Arthroplasty (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TraXis (Spine)</masterLabel>
+        <translation><!-- TraXis (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-100 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-100 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-300 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-300 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-400 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-400 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-500 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-500 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-VBR 11 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-VBR 11 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-VBR 21 (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-VBR 21 (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabecular Metal-VBR L (Spine)</masterLabel>
+        <translation><!-- Trabecular Metal-VBR L (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Select Anterior Cervical Plate System (Spine)</masterLabel>
+        <translation><!-- Trinica Select Anterior Cervical Plate System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinica Select Anterior Lumbar Plate System (Spine)</masterLabel>
+        <translation><!-- Trinica Select Anterior Lumbar Plate System (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unispacer (Knee)</masterLabel>
+        <translation><!-- Unispacer (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universal Clamp (Spine)</masterLabel>
+        <translation><!-- Universal Clamp (Spine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VISCO-3</masterLabel>
+        <translation><!-- VISCO-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Coolagen Repair Patch (Extremities)</masterLabel>
+        <translation><!-- Zimmer Coolagen Repair Patch (Extremities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Segmental System (Knee)</masterLabel>
+        <translation><!-- Zimmer Segmental System (Knee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Unicompartmental Knee (Knee)</masterLabel>
+        <translation><!-- Zimmer Unicompartmental Knee (Knee) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

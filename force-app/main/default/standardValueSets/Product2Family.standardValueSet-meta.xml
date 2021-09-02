@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Accelero</fullName>
+        <default>false</default>
+        <label>Accelero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biologics</fullName>
+        <default>false</default>
+        <label>Biologics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bone Healing</fullName>
+        <default>false</default>
+        <label>Bone Healing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cement</fullName>
+        <default>false</default>
+        <label>Cement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CMF &amp; Thoracic</fullName>
+        <default>false</default>
+        <label>CMF &amp; Thoracic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Computer Assisted Solutions</fullName>
+        <default>false</default>
+        <label>Computer Assisted Solutions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental</fullName>
+        <default>false</default>
+        <label>Dental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Extremities</fullName>
+        <default>false</default>
+        <label>Extremities</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Foot &amp; Ankle</fullName>
+        <default>false</default>
+        <label>Foot &amp; Ankle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Health Loop</fullName>
+        <default>false</default>
+        <label>Health Loop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hip Preservation</fullName>
+        <default>false</default>
+        <label>Hip Preservation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hips</fullName>
+        <default>false</default>
+        <label>Hips</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Infection</fullName>
+        <default>false</default>
+        <label>Infection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Knees</fullName>
+        <default>false</default>
+        <label>Knees</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Palacos Bone Cement and Accessories</fullName>
+        <default>false</default>
+        <label>Palacos Bone Cement and Accessories</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personalized Solution</fullName>
+        <default>false</default>
+        <label>Personalized Solution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PMI</fullName>
+        <default>false</default>
+        <label>PMI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Robotics</fullName>
+        <default>false</default>
+        <label>Robotics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spacer Molds</fullName>
+        <default>false</default>
+        <label>Spacer Molds</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spine</fullName>
+        <default>false</default>
+        <label>Spine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sports Medicine</fullName>
+        <default>false</default>
+        <label>Sports Medicine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical</fullName>
+        <default>false</default>
+        <label>Surgical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trauma</fullName>
+        <default>false</default>
+        <label>Trauma</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZB Connect</fullName>
+        <default>false</default>
+        <label>ZB Connect</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Document Type --></label>
+    <name>DocumentType__c</name>
+    <picklistValues>
+        <masterLabel>F01</masterLabel>
+        <translation><!-- F01 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

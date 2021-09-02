@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon User Details --></label>
+    <name>Surgeon_User_Details_x__c</name>
+    <picklistValues>
+        <masterLabel>Competitive PKA User – wants to do more w/ROSA</masterLabel>
+        <translation><!-- Competitive PKA User – wants to do more w/ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive PKA User – wants to do more wo/ROSA</masterLabel>
+        <translation><!-- Competitive PKA User – wants to do more wo/ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conventional PKA Zealot wo/Technology</masterLabel>
+        <translation><!-- Conventional PKA Zealot wo/Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conventional PKA Zealots w/ROSA</masterLabel>
+        <translation><!-- Conventional PKA Zealots w/ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conventional PPK user w/ROSA</masterLabel>
+        <translation><!-- Conventional PPK user w/ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA not present</masterLabel>
+        <translation><!-- ROSA not present --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA present</masterLabel>
+        <translation><!-- ROSA present --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Gold (DePuy) not present</masterLabel>
+        <translation><!-- ZB Gold (DePuy) not present --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Gold (DePuy) present</masterLabel>
+        <translation><!-- ZB Gold (DePuy) present --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

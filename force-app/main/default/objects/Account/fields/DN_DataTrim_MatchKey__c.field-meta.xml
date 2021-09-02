@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DN_DataTrim_MatchKey__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name= &apos;DN-CA-Account_Record_Type&apos;,  BillingStreet &amp; &apos; - &apos; &amp; BillingCity , &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DN-DataTrim MatchKey</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

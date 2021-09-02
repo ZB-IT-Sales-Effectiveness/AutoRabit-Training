@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Raison de l&apos;échec</label>
+    <name>Closed_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Bad Fit</masterLabel>
+        <translation><!-- Bad Fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitive Takeover</masterLabel>
+        <translation><!-- Competitive Takeover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract term barriers</masterLabel>
+        <translation><!-- Contract term barriers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost</masterLabel>
+        <translation><!-- Cost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error/Not Valid</masterLabel>
+        <translation><!-- Error/Not Valid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT barriers</masterLabel>
+        <translation><!-- IT barriers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instrumentation</masterLabel>
+        <translation>Instrumentation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of administration commitment</masterLabel>
+        <translation><!-- Lack of administration commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Issue</masterLabel>
+        <translation><!-- Marketing Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No technology implementation</masterLabel>
+        <translation><!-- No technology implementation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Autre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price/contract</masterLabel>
+        <translation>Prix/ contact</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product performance</masterLabel>
+        <translation>Performance du produit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Issue</masterLabel>
+        <translation><!-- Sales Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service – Inventory</masterLabel>
+        <translation><!-- Service – Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service – Loanset</masterLabel>
+        <translation><!-- Service – Loanset --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unqualified</masterLabel>
+        <translation><!-- Unqualified --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Using an internal product</masterLabel>
+        <translation><!-- Using an internal product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Using competitor product</masterLabel>
+        <translation><!-- Using competitor product --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

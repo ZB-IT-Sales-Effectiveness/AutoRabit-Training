@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operator__c</fullName>
+    <description>Defines operation to perform. If Range is selected, range low/high fields should be populated. Note that the Range function will use the following format:
+(LHS &gt; Range Low &amp;&amp; LHS &lt;= Range High)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines operation to perform. If Range is selected, range low/high fields should be populated. Note that the Range function will use the following format:
+(LHS &gt; Range Low &amp;&amp; LHS &lt;= Range High)</inlineHelpText>
+    <label>Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt;</fullName>
+                <default>false</default>
+                <label>&lt;</label>
+            </value>
+            <value>
+                <fullName>&gt;</fullName>
+                <default>false</default>
+                <label>&gt;</label>
+            </value>
+            <value>
+                <fullName>=</fullName>
+                <default>true</default>
+                <label>=</label>
+            </value>
+            <value>
+                <fullName>&lt;=</fullName>
+                <default>false</default>
+                <label>&lt;=</label>
+            </value>
+            <value>
+                <fullName>&gt;=</fullName>
+                <default>false</default>
+                <label>&gt;=</label>
+            </value>
+            <value>
+                <fullName>Range</fullName>
+                <default>false</default>
+                <label>Range</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

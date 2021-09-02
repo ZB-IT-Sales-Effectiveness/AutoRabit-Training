@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_67395530</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account$Region_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>US Key Stone</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US No New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US So New England</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chesapeake Bay</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Garden State</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Upstate New York</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Metro New York</sourceValue>
+            </sourceValues>
+            <value>Northeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Mississippi Delta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Southern</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Appalachian</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Capitol</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Florida</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US SouthEast</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Florida</sourceValue>
+            </sourceValues>
+            <value>Southeast</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US Buckeye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Central</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Midwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US North Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Texas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Great Lakes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Chicago Land</sourceValue>
+            </sourceValues>
+            <value>Central</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>US North Star</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Mountain</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Golden Gate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Los Angeles</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US Pacific NW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>US South Bay</sourceValue>
+            </sourceValues>
+            <value>West</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Exact_Total__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Order_Quantity__c</field>
+    </columns>
+    <columns>
+        <field>Account$Speciality_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Invoice_Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>All Regen on SKU level</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>68212,68210,68213,68211,68214,68209,68274,68271,68275,68272,68276,68273,68803,68800,68804,68801,001510Z,005302Z,001505Z,005301Z,013010Z,001504Z,013005Z</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,68805,68802,68220,68221,00-1105-005-01,00-1105-010-01,00-1105-020-0,00-1105-020-02,00-1105-010-02,00-1105-005-02,68794,68795,68796,68797,68793,68790,68791,68792,77776,77777,77778,68770,68771,68772</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ROSBGP05,ROSBGP10,ROSBGP20,0154,0100Z,0101Z,0102Z,ROXLG80,ROXLG50,ROX20,ROXLG20,ROX10,ROX05,SEKTR,ROXR40,ROXR20,ROXRLG20,ROXR10,ROXRLG10,ROXRS05,ROXR05,ROXRS025,OG3040,OG2030,OG1520,OGF3040,OGF2030,OGF1520,RPROS10,RPROP10,RDCA220,RDCA320,RDCA520,RDCO220,RDCO320,RDCO520,RMCA220,RMCA320,RMCA520,RMCO220,RMCO320,RMCO520,RDCA210,RDCA310,RDCA510,RDCO210,RDCO310,RDCO510,RMCA210,RMCA310,RMCA510,RMCO210,RMCO310,RMCO510,RDCA205,RDCA305,RDCA505,RDCO205,RDCO305,RDCO505,RMCA205,RMCA305,RMCA505,RMCO205,RMCO305,RMCO505,ROAPM20,ROAPM10,ROAPM05,ROAP05,ROAP10,ROAP20,3987,3598,0107Z,0105Z,0103Z,0142Z,0141Z,0140Z,0192Z,0191Z,0190Z,0-602001,0-702001,0-601001,0-701001,0-600501,0-700501,0-602501,0-802001,0-902001,0-801001,0-901001,0-800501,0-900501,0-802501</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SCAKIT,SLAKIT,69.01.10Z,75.23.52Z,75.23.19Z,75.23.21Z,75.23.22Z,75.23.23Z,69.01.09Z,69.01.14Z,69.01.15Z,69.01.16Z,69.01.17Z,68.85.51Z,68.85.53Z,68.85.55Z,68.85.57Z,68.85.83Z,68.85.84Z,68.85.85Z,68.85.87Z,68.94.02Z,68.94.03Z,68.94.04Z,68.85.49Z,68.94.00Z,68.94.01Z,68.94.05Z,68.94.06Z,68.94.07Z,68.94.11Z,68.86.95Z,ICR24,ICR28,ICR32,ICR36,SDG00,SKS02,SKS03,SKS04,SKS05,SKS06,SKS07,SKS08,SKS09,SKS10,SKS11</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Sales__r.R00N70000001yJccEAE__r$Product_Code__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ALL Regen 2017 &amp; 2018 Churn</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Invoices_and_Order_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Sales__r$Invoice_Date__c</dateColumn>
+        <interval>INTERVAL_PREV2Y</interval>
+    </timeFrameFilter>
+</Report>

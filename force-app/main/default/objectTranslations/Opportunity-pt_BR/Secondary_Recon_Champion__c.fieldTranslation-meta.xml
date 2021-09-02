@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Secondary Recon Team Lead --></label>
+    <name>Secondary_Recon_Champion__c</name>
+    <relationshipLabel><!-- Opportunities (Secondary Recon Team Lead) --></relationshipLabel>
+</CustomFieldTranslation>

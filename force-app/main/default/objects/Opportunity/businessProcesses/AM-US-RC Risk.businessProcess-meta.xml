@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM-US-RC Risk</fullName>
+    <description>Process for prevention of at risk Opportunities</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Risk Incurred</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Risk Mitigated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solve</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

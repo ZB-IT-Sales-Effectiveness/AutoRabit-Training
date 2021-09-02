@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contractual Situation --></label>
+    <name>Contractual__c</name>
+    <picklistValues>
+        <masterLabel>Dual Source</masterLabel>
+        <translation><!-- Dual Source --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Contracts</masterLabel>
+        <translation><!-- No Contracts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Source</masterLabel>
+        <translation><!-- Single Source --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

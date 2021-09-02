@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aantal_heup_revisie_steel_ongecementeerd__c</fullName>
+    <description>Geef aan hoeveel heup revisie ongecementeerde stelen in dit ziekenhuis op jaarbasis worden geïmplanteerd.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Geef aan hoeveel heup revisie ongecementeerde stelen in dit ziekenhuis op jaarbasis worden geïmplanteerd.</inlineHelpText>
+    <label>Aantal heup revisie steel ongecementeerd</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

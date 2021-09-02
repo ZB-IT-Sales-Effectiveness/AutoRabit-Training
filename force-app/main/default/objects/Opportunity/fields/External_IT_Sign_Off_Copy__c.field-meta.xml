@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_IT_Sign_Off_Copy__c</fullName>
+    <description>External IT Sign Off Copy Of Customer Form Uploaded To CRM</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>External IT Sign Off Copy Of Customer Form Uploaded To CRM</inlineHelpText>
+    <label>External IT Sign Off Copy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

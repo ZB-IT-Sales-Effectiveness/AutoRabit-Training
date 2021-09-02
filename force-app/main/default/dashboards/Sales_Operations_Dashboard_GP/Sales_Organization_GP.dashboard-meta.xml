@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>John Kuras</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Marc Murrell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Eric Martin</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Erekson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Steve Pruitt</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Rob Peterson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Matt Brzozowski</values>
+        </dashboardFilterOptions>
+        <name>Select your AVP</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet South Texas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Colorado</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Alaska</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet North Texas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Southwest</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Northwest</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Central Texas Orthopedic</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Southern Idaho</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Osteo1,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Oregon</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet West</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Pacific</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Bay Area</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Fegan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Southern California</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Hibbard</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Blue Water</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Indiana</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Great Lakes</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Precision Ortho</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet RxMedical</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Central Florida</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Orthopedics,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Case Medical</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Daniel Assoc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet MidAmerica</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Davis</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Iowa</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>ZB Wisconsin</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Orthopaedics,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>ZB Southeast</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Select Orthopaedics,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Midark Surgical Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Solutions</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Boneafide Orthopaedics,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Atlanta</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet MoKan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Biomet Holzbach</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Mid-Atlantic</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet South Carolina</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Summit Surgical</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Evergen Surgical,Inc.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet TN</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet OrthoSolutions</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>ZB Apex</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Mid-Ohio</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Southwest Ohio</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Legacy Orthopedic</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Tri-State</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>Zimmer Biomet Keystone</values>
+        </dashboardFilterOptions>
+        <name>Distributorship</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>&quot;Recon (H, K)&quot;</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Trauma</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sports</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Foot &amp; Ankle</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Extremities</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Surgical</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>B.E.S.T.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>None</values>
+        </dashboardFilterOptions>
+        <name>Sales Specialty</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <header>Sales Team Breakdown</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Sales_Operations_GP/Area_Manpower_Report</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>by AVP</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>Bar</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>Account.Distributor_Name__c</groupingColumn>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Operations_GP/Regional_Manpower</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>true</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>by Month</footer>
+            <groupingSortProperties/>
+            <header>US Field Sales New Hires</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales_Operations_GP/New_Hire_Date_Report_GP</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Click Here for Summary Report</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Pie</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <footer>by role classification</footer>
+            <groupingSortProperties/>
+            <header>Role Classification Summary</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>Sales_Operations_GP/Manpower_Report_GP</report>
+            <showPercentage>true</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Click Here for Summary Report</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <header>US Field Sales Terminations</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales/Termination_Report</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Click Here for Summary Report</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Pie</componentType>
+            <dashboardFilterColumns>
+                <column>Account.RVP__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>ACCOUNT.NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Contact.Sales_Specialty__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingSortProperties/>
+            <header>Sales Specialty Summary</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Sales/Sales_Personnel_Specialty</report>
+            <showPercentage>true</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>lee.gillett@zimmerbiomet.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Sales Organization</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

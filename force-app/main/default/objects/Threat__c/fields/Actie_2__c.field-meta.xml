@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actie_2__c</fullName>
+    <description>Beschrijf de tweede actie om de bedreiging(en) weg te nemen.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Beschrijf de tweede actie om de bedreiging(en) weg te nemen.</inlineHelpText>
+    <label>Actie 2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

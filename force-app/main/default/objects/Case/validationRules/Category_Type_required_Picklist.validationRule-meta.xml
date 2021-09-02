@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Type_required_Picklist</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	OR(
+		RecordType.Name = &quot;Americas Call Center – Standard Case&quot;,
+		RecordType.Name = &quot;Customer Solutions&quot;,
+		RecordType.Name = &quot;Zimmer CAS Optical Call Center&quot;,
+		RecordType.Name = &quot;Zimmer CAS PSI Call Center&quot;,
+		RecordType.Name = &quot;Zimmer CAS Support Call Center&quot;,
+		RecordType.Name = &quot;Zimmer CAS iAssist Call Center&quot;
+		),
+	(ISPICKVAL(Category_Type__c,&quot;&quot;)),
+	OR(
+		(ISPICKVAL(Category__c,&quot;CS - B- Technical Support&quot;)),
+		(ISPICKVAL(Category__c,&quot;CS - C - Servicing&quot;)),
+		(ISPICKVAL(Category__c,&quot;PSI - K - Post-Delivery&quot;))
+		)
+	)</errorConditionFormula>
+    <errorMessage>Please enter Category Type.</errorMessage>
+</ValidationRule>

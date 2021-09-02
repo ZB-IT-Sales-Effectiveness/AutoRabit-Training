@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Arthrex</fullName>
+        <default>false</default>
+        <label>Arthrex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bioventus</fullName>
+        <default>false</default>
+        <label>Bioventus</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DePuy</fullName>
+        <default>false</default>
+        <label>DePuy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exactec</fullName>
+        <default>false</default>
+        <label>Exactec</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ferring</fullName>
+        <default>false</default>
+        <label>Ferring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fidia</fullName>
+        <default>false</default>
+        <label>Fidia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OrthogenRx</fullName>
+        <default>false</default>
+        <label>OrthogenRx</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sanofi Genzyme</fullName>
+        <default>false</default>
+        <label>Sanofi Genzyme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Smith and Nephew</fullName>
+        <default>false</default>
+        <label>Smith and Nephew</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stryker</fullName>
+        <default>false</default>
+        <label>Stryker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Synthes</fullName>
+        <default>false</default>
+        <label>Synthes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tornier</fullName>
+        <default>false</default>
+        <label>Tornier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wright Medical</fullName>
+        <default>false</default>
+        <label>Wright Medical</label>
+    </standardValue>
+</StandardValueSet>

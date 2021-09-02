@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dental Lab Qualifying Questions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dental Lab Qualifying Questions</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Primary Milling System field should not be blank as your work is &apos;FULLY IN HOUSE operation&apos;. --></errorMessage>
+        <name>Primary_Milling_System_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Milling System field should be blank as your work is not &apos;FULLY IN HOUSE operation&apos;. --></errorMessage>
+        <name>Primary_Milling_System_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Scanner field should not be blank as you are using a Scanner. --></errorMessage>
+        <name>Primary_Scanner_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Scanner field should be blank as you are not using a Scanner. --></errorMessage>
+        <name>Primary_Scanner_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

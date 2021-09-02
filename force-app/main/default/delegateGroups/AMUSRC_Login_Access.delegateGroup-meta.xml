@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>Extremity Specialist</groups>
+    <label>AM-US-RC Login Access</label>
+    <loginAccess>true</loginAccess>
+    <permissionSets>Territory Business Plan - Users</permissionSets>
+    <permissionSets>Territory Business Plan Admin</permissionSets>
+    <permissionSets>Surgeon profile Page access</permissionSets>
+    <permissionSets>Foot &amp; Ankle DSF</permissionSets>
+    <permissionSets>Territory Business Plan</permissionSets>
+    <permissionSets>Ortho Mobile: Opportunities</permissionSets>
+    <permissionSets>Ortho Mobile: Opportunity Report</permissionSets>
+    <permissionSets>Ortho Mobile: Performance to Target Chart</permissionSets>
+    <permissionSets>Ortho Mobile: Task Report</permissionSets>
+    <permissionSets>Ortho Mobile: Users</permissionSets>
+    <permissionSets>Ortho Mobile: Year over Year Growth Chart</permissionSets>
+    <permissionSets>Ortho Sales Users</permissionSets>
+    <permissionSets>US Activity Management</permissionSets>
+    <permissionSets>US AVP</permissionSets>
+    <permissionSets>US Finance</permissionSets>
+    <permissionSets>Product Interest Process</permissionSets>
+    <permissionSets>Extremities Specialist</permissionSets>
+    <permissionSets>US Ortho Capital Solutions Case Process</permissionSets>
+    <permissionSets>Access To ASC Opportunity Record Type</permissionSets>
+    <permissionSets>Manage Headcount roster for Territory Admin</permissionSets>
+    <permissionSets>US Ortho Territory Target Refinement</permissionSets>
+    <permissionSets>US Ortho Territory Target Refinement Admin</permissionSets>
+    <permissionSets>Grid Buddy User Access</permissionSets>
+    <permissionSets>Lightning Experience User</permissionSets>
+    <permissionSets>Territory CRM users</permissionSets>
+    <permissionSets>Access to different record types to pilot users for ZB Hibbard</permissionSets>
+    <permissionSets>US Ortho Sales App Access</permissionSets>
+    <permissionSets>Territory Plan Access - AVP (Significant Events)</permissionSets>
+    <profiles>ASC Sales</profiles>
+    <profiles>Enterprise Solutions</profiles>
+    <profiles>US Ortho SF Platform User</profiles>
+    <profiles>Custom-Zimmer Sales</profiles>
+    <profiles>AM-US- Surgeon Maintenance Users</profiles>
+    <roles>Enterprise Solutions Director-West</roles>
+    <roles>Enterprise Solutions: VP</roles>
+    <roles>Enterprise Solutions Director-GPO</roles>
+    <roles>AM-VP US Sales</roles>
+</DelegateGroup>

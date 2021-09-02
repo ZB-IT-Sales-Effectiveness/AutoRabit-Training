@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Resolution Type --></label>
+    <name>Resolution_Type__c</name>
+    <picklistValues>
+        <masterLabel>Access Request</masterLabel>
+        <translation><!-- Access Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation><!-- Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alignment Support</masterLabel>
+        <translation><!-- Alignment Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bug Fix</masterLabel>
+        <translation><!-- Bug Fix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clear Cache</masterLabel>
+        <translation><!-- Clear Cache --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Clean Up</masterLabel>
+        <translation><!-- Data Clean Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enhancement Needed</masterLabel>
+        <translation><!-- Enhancement Needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAMS Alignment</masterLabel>
+        <translation><!-- JAMS Alignment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JAMS Approval</masterLabel>
+        <translation><!-- JAMS Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Password Help</masterLabel>
+        <translation><!-- Password Help --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System Glitch</masterLabel>
+        <translation><!-- System Glitch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation><!-- Training --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

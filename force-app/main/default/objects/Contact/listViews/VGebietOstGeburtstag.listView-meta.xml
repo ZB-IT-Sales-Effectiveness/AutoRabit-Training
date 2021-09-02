@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VGebietOstGeburtstag</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.BIRTHDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sales_Area_CH__c</field>
+        <operation>contains</operation>
+        <value>Ost</value>
+    </filters>
+    <filters>
+        <field>CONTACT.BIRTHDATE</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>V-Gebiet Ost / Geburtstag</label>
+    <language>de</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Switzerland</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

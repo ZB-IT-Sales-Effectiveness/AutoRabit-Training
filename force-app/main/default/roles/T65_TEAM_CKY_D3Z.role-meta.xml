@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T65 TEAM CKY (D3Z)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T65 TEAM CKY (D3Z)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>ORTHOSOLU_OLIVER_STANBERY_0065</parentRole>
+</Role>

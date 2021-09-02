@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_cup_revisie_gecementeerd__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type cup revisie gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_cup_revisie_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Müller</fullName>
+                <default>false</default>
+                <label>Müller</label>
+            </value>
+            <value>
+                <fullName>ZCA cup</fullName>
+                <default>false</default>
+                <label>ZCA cup</label>
+            </value>
+            <value>
+                <fullName>Biomet cup</fullName>
+                <default>false</default>
+                <label>Biomet cup</label>
+            </value>
+            <value>
+                <fullName>seleXys DS</fullName>
+                <default>false</default>
+                <label>seleXys DS</label>
+            </value>
+            <value>
+                <fullName>SN Müller</fullName>
+                <default>false</default>
+                <label>SN Müller</label>
+            </value>
+            <value>
+                <fullName>Contemporary</fullName>
+                <default>false</default>
+                <label>Contemporary</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Müller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZCA cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Biomet cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>SN Müller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stryker</controllingFieldValue>
+            <valueName>Contemporary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mathys</controllingFieldValue>
+            <valueName>seleXys DS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

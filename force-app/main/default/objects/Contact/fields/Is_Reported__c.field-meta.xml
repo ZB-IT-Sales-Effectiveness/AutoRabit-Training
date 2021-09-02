@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Reported__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if contact is already sent in report</description>
+    <externalId>false</externalId>
+    <label>Is Reported</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

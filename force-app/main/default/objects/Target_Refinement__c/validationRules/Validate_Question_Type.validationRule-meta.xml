@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Question_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(
+Question_Type__c = &apos;Alignment Changes&apos;  || 
+Question_Type__c = &apos;New Hires&apos;          || 
+Question_Type__c = &apos;Terms&apos;              || 
+Question_Type__c = &apos;Role Changes&apos;       || 
+Question_Type__c = &apos;Team Changes&apos;       || 
+Question_Type__c = &apos;Product Changes&apos;    || 
+Question_Type__c = &apos;Target Changes&apos;     || 
+Question_Type__c = &apos;Sales Managers&apos;     || 
+Question_Type__c = &apos;Product Specialists&apos;
+)</errorConditionFormula>
+    <errorMessage>Please add the correct question type</errorMessage>
+</ValidationRule>

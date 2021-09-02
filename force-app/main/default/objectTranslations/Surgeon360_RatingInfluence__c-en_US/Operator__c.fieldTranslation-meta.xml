@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Defines operation to perform. If Range is selected, range low/high fields should be populated. Note that the Range function will use the following format:
+(LHS &gt; Range Low &amp;&amp; LHS &lt;= Range High) --></help>
+    <label><!-- Operator --></label>
+    <name>Operator__c</name>
+    <picklistValues>
+        <masterLabel>&lt;</masterLabel>
+        <translation><!-- &lt; --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&lt;=</masterLabel>
+        <translation><!-- &lt;= --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>=</masterLabel>
+        <translation><!-- = --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt;</masterLabel>
+        <translation><!-- &gt; --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt;=</masterLabel>
+        <translation><!-- &gt;= --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation><!-- Range --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

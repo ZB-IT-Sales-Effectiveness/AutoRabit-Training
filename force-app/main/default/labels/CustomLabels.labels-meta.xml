@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AssignBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignBtn</shortDescription>
+        <value>Assign</value>
+    </labels>
+    <labels>
+        <fullName>AssignSuccessSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignSuccessSummary</shortDescription>
+        <value>The opportunities you selected and their attached open activities have successfully been reassigned.</value>
+    </labels>
+    <labels>
+        <fullName>AssignSuccessTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignSuccessTitle</shortDescription>
+        <value>Reassignment successfully completed!</value>
+    </labels>
+    <labels>
+        <fullName>AssignToBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignToBtn</shortDescription>
+        <value>Assign to:</value>
+    </labels>
+    <labels>
+        <fullName>AssigningBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssigningBtn</shortDescription>
+        <value>In progress ...</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CloseDateCriteriaLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CloseDateCriteriaLabel</shortDescription>
+        <value>Closed Date</value>
+    </labels>
+    <labels>
+        <fullName>ContentURLDomain</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContentURLDomain</shortDescription>
+        <value>https://zimmer.secure.force.com</value>
+    </labels>
+    <labels>
+        <fullName>CreatedDateCriteriaLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CreatedDateCriteriaLabel</shortDescription>
+        <value>Created date:</value>
+    </labels>
+    <labels>
+        <fullName>CriteriaSearchSection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CriteriaSearchSection</shortDescription>
+        <value>Search with a search criteria</value>
+    </labels>
+    <labels>
+        <fullName>DisplayViewLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayViewLabel</shortDescription>
+        <value>Display:</value>
+    </labels>
+    <labels>
+        <fullName>DocuSign_Batch_Size_Limit_Msg</fullName>
+        <categories>DocuSign Account Batch</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSign Batch Size Limit Msg</shortDescription>
+        <value>Batch size should be 10 or less than 10</value>
+    </labels>
+    <labels>
+        <fullName>Event_US_Ortho_Sales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event US Ortho Sales</shortDescription>
+        <value>0120r00000095iCAAQ</value>
+    </labels>
+    <labels>
+        <fullName>FirstName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>GMI_BackTo</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back To used in Google Maps</shortDescription>
+        <value>Back to</value>
+    </labels>
+    <labels>
+        <fullName>GMI_GenerateKey</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please generate a Google maps API key used in Google Maps</shortDescription>
+        <value>Please generate a Google maps API key</value>
+    </labels>
+    <labels>
+        <fullName>GMI_GoogleLanguageCode</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Google Maps Language Code</shortDescription>
+        <value>en</value>
+    </labels>
+    <labels>
+        <fullName>GMI_LocalAddressFound</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location displayed using address used in Google Maps</shortDescription>
+        <value>Location displayed using address</value>
+    </labels>
+    <labels>
+        <fullName>GMI_LocalAddressNotFound</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address not found by Google used in Google Maps</shortDescription>
+        <value>Address not found by Google</value>
+    </labels>
+    <labels>
+        <fullName>GMI_LocalShowMap</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show in Google used in Google Maps</shortDescription>
+        <value>Show in Google</value>
+    </labels>
+    <labels>
+        <fullName>GMI_UpdateComponent</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please update the GoogleMapsInternational component used in Google Maps</shortDescription>
+        <value>Please update the GoogleMapsInternational component with a new key which can be generated from</value>
+    </labels>
+    <labels>
+        <fullName>GMI_WebsiteNeeded</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The website URL needed is used in Google Maps</shortDescription>
+        <value>The website URL needed is</value>
+    </labels>
+    <labels>
+        <fullName>GMI_googleMapURL</fullName>
+        <categories>Google, Maps, Google Maps, Google Maps International</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Google Maps URL</shortDescription>
+        <value>http://maps.google.com</value>
+    </labels>
+    <labels>
+        <fullName>HeaderText</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HeaderText</shortDescription>
+        <value>Mass reassign opportunities</value>
+    </labels>
+    <labels>
+        <fullName>LastName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Leadership_Communications_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Leadership Communications Id</shortDescription>
+        <value>0F92h0000008SszCAE</value>
+    </labels>
+    <labels>
+        <fullName>Location</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>NewViewLinkLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NewViewLinkLabel</shortDescription>
+        <value>Create new view</value>
+    </labels>
+    <labels>
+        <fullName>NoResultSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoResultSummary</shortDescription>
+        <value>Please modify your search criteria</value>
+    </labels>
+    <labels>
+        <fullName>NoResultTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoResultTitle</shortDescription>
+        <value>No results</value>
+    </labels>
+    <labels>
+        <fullName>NoViewSelection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoViewSelection</shortDescription>
+        <value>- None -</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_ADS_Growth</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ADS Growth Header</shortDescription>
+        <value>ADS Growth</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_ChartJS_Error</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error loading ChartJS</shortDescription>
+        <value>Error loading ChartJS</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Chart_Data_Error</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error getting data</shortDescription>
+        <value>Error retrieving report data.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Chart_Default_Color_Scheme</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default color scheme: https://bit.ly/2PwVwkW</shortDescription>
+        <value>brewer.Paired12</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Chart_Donut_Color_Scheme</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default color scheme: https://bit.ly/2PwVwkW</shortDescription>
+        <value>brewer.PuBu3</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Comment_Not_Allowed</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Comment Not Allowed</shortDescription>
+        <value>You do not have permission to comment on this post</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Communications_Posted_By</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Posted by in Ortho Communications</shortDescription>
+        <value>Posted By</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Current_Year_Sales</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Current Year Sales Header</shortDescription>
+        <value>CY Sales</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Default_Listview_Loading</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading text in Ortho Default Listview</shortDescription>
+        <value>Taking a while? Try pulling down to refresh.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Filter_Placeholder</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Placeholder for Ortho Chart Filters</shortDescription>
+        <value>Select Filter</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Group_Selector_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group Selector Label</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Group_Selector_Placeholder</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group Selector Placeholder</shortDescription>
+        <value>Select Group</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Header_Greeting</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header greeting</shortDescription>
+        <value>Hello</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Invalid_Territory_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid territory assigned to opportunity</shortDescription>
+        <value>The Opportunity can&apos;t be assigned to selected Territory. Please select a relevant Territory.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Month_Performance</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Performance Label</shortDescription>
+        <value>Month Performance to Time Elapsed</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Month_Target_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho KPI Month Target Text</shortDescription>
+        <value>MTD Target</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Off_Target_Color</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Backgorund Color for off target KPIs</shortDescription>
+        <value>#f28e2b</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_On_Target_Color</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Backgorund Color for on target KPIs</shortDescription>
+        <value>#4e79a7</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Quarter_Performance</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quarter Performance Label</shortDescription>
+        <value>Quarter Performance to Time Elapsed</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Quarter_Target_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho KPI Quarter Target Text</shortDescription>
+        <value>QTD Target</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Year_Performance</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Year Performance Label</shortDescription>
+        <value>Year Performance to Time Elapsed</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Year_Target_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho KPI Year Target Text</shortDescription>
+        <value>YTD Target</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_KPI_Year_wo_Qtr_Target_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho_KPI_Year_wo_Qtr_Target_Text</shortDescription>
+        <value>YTD w/o Qtr Target</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Chart_Performance_to_Target_Labels</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comma separated Performance to Target Labels</shortDescription>
+        <value>Performance,Remaining</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Chart_Performance_to_Target_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Performance to Target Title</shortDescription>
+        <value>Pay For Performance</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Chart_Year_Over_Year_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Year over Year Title</shortDescription>
+        <value>Year Over Year Growth</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Detail_Save_Button</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Detail_Save_Success_Message</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save toast message</shortDescription>
+        <value>Record Saved Successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Detail_Save_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save toast title</shortDescription>
+        <value>Success!</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_My_App_Apps_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apps Label</shortDescription>
+        <value>Apps</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_My_App_Default_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Title</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_My_App_Error_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Title</shortDescription>
+        <value>Error!</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_My_App_Favorites_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Favorites Label</shortDescription>
+        <value>Favorites</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_My_App_Success_Title</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success Title</shortDescription>
+        <value>Success!</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Tabs_Communications_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Communications Label</shortDescription>
+        <value>Communications</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Tabs_Dashboard_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dashboard Label</shortDescription>
+        <value>Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Mobile_Tabs_My_Apps_Label</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Apps Label</shortDescription>
+        <value>My Apps</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_New_Task</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Task label</shortDescription>
+        <value>New Task</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_No_Territory_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Territory Found for opportunity</shortDescription>
+        <value>No Territory found for this opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Open_In_Tableau</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open in Tableau Link Text</shortDescription>
+        <value>Open in Tableau</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Opportunity_Access_Error</fullName>
+        <categories>Ortho Sales</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Opportunity Access Error</shortDescription>
+        <value>Sorry, You do not have access to update this opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Previous_Year_Sales</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous Year Sales Header</shortDescription>
+        <value>LY Sales</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Reassign_Team_Not_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Reassign Team Not Selected</shortDescription>
+        <value>Team Not Selected</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Reassign_Territories_Not_Available</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Reassign Territories Not Available</shortDescription>
+        <value>Territories Not Available.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Reassign_select_one_team</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Reassign select one team</shortDescription>
+        <value>Please select atleast one team</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Reassign_unable_to_update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Reassign unable to update</shortDescription>
+        <value>Unable to update selected team. Please contact System admin.</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Select_Team</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Team Label For Ortho Reassign opportunity</shortDescription>
+        <value>Select Team</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Territory_Model</fullName>
+        <categories>Ortho Sales</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ortho Top Level Territory</shortDescription>
+        <value>Zimmer_Biomet</value>
+    </labels>
+    <labels>
+        <fullName>Ortho_Timeframe</fullName>
+        <categories>Ortho Mobile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table Timeframe Header</shortDescription>
+        <value>Period</value>
+    </labels>
+    <labels>
+        <fullName>RequestNewListingBtn</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RequestNewListingBtn</shortDescription>
+        <value>Request New Listing</value>
+    </labels>
+    <labels>
+        <fullName>ResultBlockTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ResultBlockTitle</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Seacrh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchBtn</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchBlockTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchBlockTitle</shortDescription>
+        <value>Search opportunities</value>
+    </labels>
+    <labels>
+        <fullName>SearchBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchBtn</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchRadius</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchRadius</shortDescription>
+        <value>Search Radius</value>
+    </labels>
+    <labels>
+        <fullName>SearchingBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchingBtn</shortDescription>
+        <value>Searching ...</value>
+    </labels>
+    <labels>
+        <fullName>Submit_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Button</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Surgeon_360_Rating_Label_Bronze</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Surgeon 360 Rating Label Bronze</shortDescription>
+        <value>Bronze</value>
+    </labels>
+    <labels>
+        <fullName>Surgeon_360_Rating_Label_Gold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Surgeon 360 Rating Label Gold</shortDescription>
+        <value>Gold</value>
+    </labels>
+    <labels>
+        <fullName>Surgeon_360_Rating_Label_Silver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Surgeon 360 Rating Label Silver</shortDescription>
+        <value>Silver</value>
+    </labels>
+    <labels>
+        <fullName>Tableau_Knee_dashboard_AVP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tableau_Knee_dashboard_AVP</shortDescription>
+        <value>https://tableau.zimmerbiomet.com/t/USCommercialSales/views/KneePipeline/KneePerformanceFunnel?iframeSizedToWindow=true&amp;:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no</value>
+    </labels>
+    <labels>
+        <fullName>Tableau_Knee_dashboard_CSD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tableau Knee dashboard CSD</shortDescription>
+        <value>https://tableau.zimmerbiomet.com/t/USCommercialSales/views/KneePipeline_1/KneePerformanceFunnel?iframeSizedToWindow=true&amp;:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no</value>
+    </labels>
+    <labels>
+        <fullName>Tableau_Knee_dashboard_Corporate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tableau Knee dashboard Corporate</shortDescription>
+        <value>https://tableau.zimmerbiomet.com/t/USCommercialSales/views/KneePipeline_0/KneePerformanceFunnel?iframeSizedToWindow=true&amp;:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no</value>
+    </labels>
+    <labels>
+        <fullName>Tableau_Knee_dashboard_TL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tableau Knee dashboard TL</shortDescription>
+        <value>https://tableau.zimmerbiomet.com/t/USCommercialSales/views/KneePipeline_2/KneePerformanceFunnel?iframeSizedToWindow=true&amp;:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no</value>
+    </labels>
+    <labels>
+        <fullName>Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title</shortDescription>
+        <value>Message of the Day!</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsError</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsError</shortDescription>
+        <value>The total number of open activities on the opportunities you selected is greater than the system can handle. Please reduce the number of opportunities to reassign</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsSummary</shortDescription>
+        <value>The view you selected returned more than 1000 rows. Only the 1000 first ones will be displayed</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsTitle</shortDescription>
+        <value>Too many rows returned</value>
+    </labels>
+    <labels>
+        <fullName>TotalFooterLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TotalFooterLabel</shortDescription>
+        <value>Number</value>
+    </labels>
+    <labels>
+        <fullName>USOrthoOpportunityRT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>USOrthoOpportunityRT</shortDescription>
+        <value>US Knee,US Biologics,US Cement,US Extremities,US Foot and Ankle,US Foot and Ankle DSF,US Gel-One,US Hip,US Sports Medicine,US Trauma</value>
+    </labels>
+    <labels>
+        <fullName>US_Meeting_US_Ortho_Sales</fullName>
+        <categories>RecordType</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>US Meeting US Ortho Sales</shortDescription>
+        <value>0123b000000Qg4eAAC</value>
+    </labels>
+    <labels>
+        <fullName>US_Task_Call</fullName>
+        <categories>RecordType (18)</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>US Task Call</shortDescription>
+        <value>0123b000000Qg4fAAC</value>
+    </labels>
+    <labels>
+        <fullName>US_Task_Email</fullName>
+        <categories>RecordType (18)</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>US Task Email</shortDescription>
+        <value>0123b000000Qg4gAAC</value>
+    </labels>
+    <labels>
+        <fullName>US_Task_Internal_Note</fullName>
+        <categories>RecordType</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>US Task Internal Note</shortDescription>
+        <value>0123b000000Qg4hAAC</value>
+    </labels>
+    <labels>
+        <fullName>US_Task_Zimmer_Standard</fullName>
+        <categories>RecordType</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>US Task Zimmer Standard</shortDescription>
+        <value>012800000003YR8AAM</value>
+    </labels>
+    <labels>
+        <fullName>ViewFullListingBtn</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ViewFullListingBtn</shortDescription>
+        <value>View Full Listing</value>
+    </labels>
+    <labels>
+        <fullName>ViewSearchSection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ViewSearchSection</shortDescription>
+        <value>Search with a view</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+</CustomLabels>

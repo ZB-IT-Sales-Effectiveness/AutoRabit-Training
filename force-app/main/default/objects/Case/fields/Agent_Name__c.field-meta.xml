@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Name__c</fullName>
+    <description>The Calls attended by the Agent</description>
+    <externalId>false</externalId>
+    <label>Agent Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Caudill,Laurie</fullName>
+                <default>false</default>
+                <label>Caudill,Laurie</label>
+            </value>
+            <value>
+                <fullName>Crisp,Tammy</fullName>
+                <default>false</default>
+                <label>Crisp,Tammy</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Eaton,Jane</fullName>
+                <default>false</default>
+                <label>Eaton,Jane</label>
+            </value>
+            <value>
+                <fullName>Morris,Stacey</fullName>
+                <default>false</default>
+                <label>Morris,Stacey</label>
+            </value>
+            <value>
+                <fullName>Switch Board</fullName>
+                <default>false</default>
+                <label>Switch Board</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

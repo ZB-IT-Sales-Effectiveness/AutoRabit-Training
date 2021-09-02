@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>AAP Corporate Forum Sept. 2016</fullName>
+        <default>false</default>
+        <label>AAP Corporate Forum Sept. 2016</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acquisition</fullName>
+        <default>false</default>
+        <label>Acquisition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>active.zimmer.com</fullName>
+        <default>false</default>
+        <label>active.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>advantage.zimmer.com</fullName>
+        <default>false</default>
+        <label>advantage.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement Offline</fullName>
+        <default>false</default>
+        <label>Advertisement Offline</label>
+    </standardValue>
+    <standardValue>
+        <fullName>alaska.zimmer.com</fullName>
+        <default>false</default>
+        <label>alaska.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AO Meeting</fullName>
+        <default>false</default>
+        <label>AO Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>apex.Zimmer.com</fullName>
+        <default>false</default>
+        <label>apex.Zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Reply Card</fullName>
+        <default>false</default>
+        <label>Business Reply Card</label>
+    </standardValue>
+    <standardValue>
+        <fullName>capital.zimmer.com</fullName>
+        <default>false</default>
+        <label>capital.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>carolinas.zimmer.com</fullName>
+        <default>false</default>
+        <label>carolinas.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>colorado.zimmer.com</fullName>
+        <default>false</default>
+        <label>colorado.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Continuum Web Campaign</fullName>
+        <default>false</default>
+        <label>Continuum Web Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cvent</fullName>
+        <default>false</default>
+        <label>Cvent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>daniel.zimmer.com</fullName>
+        <default>false</default>
+        <label>daniel.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>davis.zimmer.com</fullName>
+        <default>false</default>
+        <label>davis.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Compare</fullName>
+        <default>false</default>
+        <label>Dental Compare</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Product Reports</fullName>
+        <default>false</default>
+        <label>Dental Product Reports</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Digital Advertisement</fullName>
+        <default>false</default>
+        <label>Digital Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor Site - Schedule a Visit</fullName>
+        <default>false</default>
+        <label>Distributor Site - Schedule a Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>downstateny.zimmer.com</fullName>
+        <default>false</default>
+        <label>downstateny.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSO</fullName>
+        <default>false</default>
+        <label>DSO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSUVIA Target</fullName>
+        <default>false</default>
+        <label>DSUVIA Target</label>
+    </standardValue>
+    <standardValue>
+        <fullName>edge.zimmer.com</fullName>
+        <default>false</default>
+        <label>edge.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>elite.zimmer.com</fullName>
+        <default>false</default>
+        <label>elite.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Externe Empfehlung</fullName>
+        <default>false</default>
+        <label>Externe Empfehlung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>feganmaloney.zimmer.com</fullName>
+        <default>false</default>
+        <label>feganmaloney.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ForeverHip.com</fullName>
+        <default>false</default>
+        <label>ForeverHip.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GelOne.Zimmer.com</fullName>
+        <default>false</default>
+        <label>GelOne.Zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>greatlakes.zimmer.com</fullName>
+        <default>false</default>
+        <label>greatlakes.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive Account</fullName>
+        <default>false</default>
+        <label>Inactive Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Call</fullName>
+        <default>false</default>
+        <label>Inbound Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incoming Call/Email/Chat</fullName>
+        <default>false</default>
+        <label>Incoming Call/Email/Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inside Dentistry</fullName>
+        <default>false</default>
+        <label>Inside Dentistry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inside Dentistry’s website</fullName>
+        <default>false</default>
+        <label>Inside Dentistry’s website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>intermed.zimmer.com</fullName>
+        <default>false</default>
+        <label>intermed.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Japan</fullName>
+        <default>false</default>
+        <label>Japan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>keystone.zimmer.com</fullName>
+        <default>false</default>
+        <label>keystone.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lab Products Magazine</fullName>
+        <default>false</default>
+        <label>Lab Products Magazine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal</fullName>
+        <default>false</default>
+        <label>Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>List Import</fullName>
+        <default>false</default>
+        <label>List Import</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Professional</fullName>
+        <default>false</default>
+        <label>Medical Professional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>melia.zimmer.com</fullName>
+        <default>false</default>
+        <label>melia.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Messe</fullName>
+        <default>false</default>
+        <label>Messe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>midamerica.zimmer.com</fullName>
+        <default>false</default>
+        <label>midamerica.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>midatlantic.zimmer.com</fullName>
+        <default>false</default>
+        <label>midatlantic.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>midwest.zimmer.com</fullName>
+        <default>false</default>
+        <label>midwest.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mitarbeiterempfehlung</fullName>
+        <default>false</default>
+        <label>Mitarbeiterempfehlung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>mtnwest.zimmer.com</fullName>
+        <default>false</default>
+        <label>mtnwest.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mundpropaganda</fullName>
+        <default>false</default>
+        <label>Mundpropaganda</label>
+    </standardValue>
+    <standardValue>
+        <fullName>National Tradeshow</fullName>
+        <default>false</default>
+        <label>National Tradeshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>northeast.zimmer.com</fullName>
+        <default>false</default>
+        <label>northeast.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>northwest.zimmer.com</fullName>
+        <default>false</default>
+        <label>northwest.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ohio.zimmer.com</fullName>
+        <default>false</default>
+        <label>ohio.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OsseoNews</fullName>
+        <default>false</default>
+        <label>OsseoNews</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Oxfordknee.com</fullName>
+        <default>false</default>
+        <label>Oxfordknee.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>pacific.zimmer.com</fullName>
+        <default>false</default>
+        <label>pacific.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Patient Caregiver</fullName>
+        <default>false</default>
+        <label>Patient Caregiver</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Patient Education Materials</fullName>
+        <default>false</default>
+        <label>Patient Education Materials</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Physician Locator</fullName>
+        <default>false</default>
+        <label>Physician Locator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Physician Referral</fullName>
+        <default>false</default>
+        <label>Physician Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>precisionortho.zimmer.com</fullName>
+        <default>false</default>
+        <label>precisionortho.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Shopper</fullName>
+        <default>false</default>
+        <label>Product Shopper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Exhibit</fullName>
+        <default>false</default>
+        <label>Regional Exhibit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Tradeshow</fullName>
+        <default>false</default>
+        <label>Regional Tradeshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>rxmedical.zimmer.com</fullName>
+        <default>false</default>
+        <label>rxmedical.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Prospecting</fullName>
+        <default>false</default>
+        <label>Sales Prospecting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar - Internal</fullName>
+        <default>false</default>
+        <label>Seminar - Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar - Partner</fullName>
+        <default>false</default>
+        <label>Seminar - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signature website</fullName>
+        <default>false</default>
+        <label>Signature website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>solutions.zimmer.com</fullName>
+        <default>false</default>
+        <label>solutions.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>southwest.zimmer.com</fullName>
+        <default>false</default>
+        <label>southwest.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sterngold Provided Lead</fullName>
+        <default>false</default>
+        <label>Sterngold Provided Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Target Market Campaign</fullName>
+        <default>false</default>
+        <label>Target Market Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>thomson.zimmer.com</fullName>
+        <default>false</default>
+        <label>thomson.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tour</fullName>
+        <default>false</default>
+        <label>Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tradeshow</fullName>
+        <default>false</default>
+        <label>Tradeshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>tristate.zimmer.com</fullName>
+        <default>false</default>
+        <label>tristate.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>upstateny.zimmer.com</fullName>
+        <default>false</default>
+        <label>upstateny.zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VirageOCT.Zimmer.com</fullName>
+        <default>false</default>
+        <label>VirageOCT.Zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Weitere</fullName>
+        <default>false</default>
+        <label>Weitere</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Werbung</fullName>
+        <default>false</default>
+        <label>Werbung</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Word of mouth</fullName>
+        <default>false</default>
+        <label>Word of mouth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>XpressLeads</fullName>
+        <default>false</default>
+        <label>XpressLeads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduDigital</fullName>
+        <default>false</default>
+        <label>ZBDanduDigital</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduDigitalLab</fullName>
+        <default>false</default>
+        <label>ZBDanduDigitalLab</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduDigitalRestorative</fullName>
+        <default>false</default>
+        <label>ZBDanduDigitalRestorative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduDigitalSurgical</fullName>
+        <default>false</default>
+        <label>ZBDanduDigitalSurgical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduHome</fullName>
+        <default>false</default>
+        <label>ZBDanduHome</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPeriImplant</fullName>
+        <default>false</default>
+        <label>ZBDanduPeriImplant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPeriImplantM1Prevent</fullName>
+        <default>false</default>
+        <label>ZBDanduPeriImplantM1Prevent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPeriImplantM2Treat</fullName>
+        <default>false</default>
+        <label>ZBDanduPeriImplantM2Treat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPeriImplantM3Revise</fullName>
+        <default>false</default>
+        <label>ZBDanduPeriImplantM3Revise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPrecisePrep</fullName>
+        <default>false</default>
+        <label>ZBDanduPrecisePrep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPrecisePrepPerfectStart</fullName>
+        <default>false</default>
+        <label>ZBDanduPrecisePrepPerfectStart</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZBDanduPrecisePrepPreciseDrill</fullName>
+        <default>false</default>
+        <label>ZBDanduPrecisePrepPreciseDrill</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer.com</fullName>
+        <default>false</default>
+        <label>Zimmer.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZimmerBiomet.com</fullName>
+        <default>false</default>
+        <label>ZimmerBiomet.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Biomet Site</fullName>
+        <default>false</default>
+        <label>Zimmer Biomet Site</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Medical Education Event</fullName>
+        <default>false</default>
+        <label>Zimmer Medical Education Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Sales Channel</fullName>
+        <default>false</default>
+        <label>Zimmer Sales Channel</label>
+    </standardValue>
+</StandardValueSet>

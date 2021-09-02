@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Products Reprocessed Outside OP RM --></label>
+    <name>Products_Reprocessed_Outside_OP_RM__c</name>
+    <picklistValues>
+        <masterLabel>Blades - Large Bone</masterLabel>
+        <translation><!-- Blades - Large Bone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blades - Small Bone</masterLabel>
+        <translation><!-- Blades - Small Bone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CTC - Consumable</masterLabel>
+        <translation><!-- CTC - Consumable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FWM - Consumable</masterLabel>
+        <translation><!-- FWM - Consumable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquets - Consumable</masterLabel>
+        <translation><!-- Tourniquets - Consumable --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

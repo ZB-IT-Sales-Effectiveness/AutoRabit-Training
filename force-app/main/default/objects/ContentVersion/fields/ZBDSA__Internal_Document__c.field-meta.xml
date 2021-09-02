@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZBDSA__Internal_Document__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checkbox to define a document to be Internal only. The document will Only show up in Internal Mode for a Given Configuration.</description>
+    <externalId>false</externalId>
+    <label>DSA Internal Document</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

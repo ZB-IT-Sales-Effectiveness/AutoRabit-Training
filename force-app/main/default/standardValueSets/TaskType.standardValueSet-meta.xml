@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Lead - Scrub AAOS (Meetings) and Data</fullName>
+        <default>false</default>
+        <label>Lead - Scrub AAOS (Meetings) and Data</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead - Scrub Leads from Cross-Sells</fullName>
+        <default>false</default>
+        <label>Lead - Scrub Leads from Cross-Sells</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Qualify Surgeon usage/bio</fullName>
+        <default>false</default>
+        <label>Qualify - Qualify Surgeon usage/bio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Network a connection</fullName>
+        <default>false</default>
+        <label>Qualify - Network a connection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Drop off a Leave Behind (sell sheet)</fullName>
+        <default>false</default>
+        <label>Qualify - Drop off a Leave Behind (sell sheet)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Evaluate current contract details and pricing</fullName>
+        <default>false</default>
+        <label>Qualify - Evaluate current contract details and pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Assess if Implants/Instruments are on limited roll-out</fullName>
+        <default>false</default>
+        <label>Qualify - Assess if Implants/Instruments are on limited roll-out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualify - Call office to work an appointment</fullName>
+        <default>false</default>
+        <label>Qualify - Call office to work an appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Educate a surgeon via a sales aid (demos, tech guides)</fullName>
+        <default>false</default>
+        <label>Discover - Educate a surgeon via a sales aid (demos, tech guides)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Conduct Product Demo (samples)</fullName>
+        <default>false</default>
+        <label>Discover - Conduct Product Demo (samples)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Confirm the product is on contract or add</fullName>
+        <default>false</default>
+        <label>Discover - Confirm the product is on contract or add</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Submit for Pricing review</fullName>
+        <default>false</default>
+        <label>Discover - Submit for Pricing review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Solidify Implant/Instrument availability with AMD</fullName>
+        <default>false</default>
+        <label>Discover - Solidify Implant/Instrument availability with AMD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Drop off a Corporate Aid/leave behind/Thank You</fullName>
+        <default>false</default>
+        <label>Discover - Drop off a Corporate Aid/leave behind/Thank You</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Present a Journal/White Paper</fullName>
+        <default>false</default>
+        <label>Discover - Present a Journal/White Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Invite to meet at Industry Event</fullName>
+        <default>false</default>
+        <label>Discover - Invite to meet at Industry Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Conduct a Saw Bones Lab</fullName>
+        <default>false</default>
+        <label>Discover - Conduct a Saw Bones Lab</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Conduct a Personal Visit - Rep</fullName>
+        <default>false</default>
+        <label>Discover - Conduct a Personal Visit - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discover - Call for follow up appointment</fullName>
+        <default>false</default>
+        <label>Discover - Call for follow up appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Request business/trial</fullName>
+        <default>false</default>
+        <label>Consider - Request business/trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Schedule a Medical Education event</fullName>
+        <default>false</default>
+        <label>Consider - Schedule a Medical Education event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Evaluate PROS pricing. Approve or reject pricing requests</fullName>
+        <default>false</default>
+        <label>Consider - Evaluate PROS pricing. Approve or reject pricing requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Initiate inventory set needs with local field office</fullName>
+        <default>false</default>
+        <label>Consider - Initiate inventory set needs with local field office</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Conduct a Personal Visit - Rep</fullName>
+        <default>false</default>
+        <label>Consider - Conduct a Personal Visit - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consider - Call for follow up appointment</fullName>
+        <default>false</default>
+        <label>Consider - Call for follow up appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Conduct a Cadaveric Workshop (CPW)</fullName>
+        <default>false</default>
+        <label>Evaluate - Conduct a Cadaveric Workshop (CPW)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Execute a Surgeon to Surgeon Visit (S2S)</fullName>
+        <default>false</default>
+        <label>Evaluate - Execute a Surgeon to Surgeon Visit (S2S)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Execute a Site Visit/Warsaw (ESP)</fullName>
+        <default>false</default>
+        <label>Evaluate - Execute a Site Visit/Warsaw (ESP)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Request Communication from Territory Leadership</fullName>
+        <default>false</default>
+        <label>Evaluate - Request Communication from Territory Leadership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Finalize remaining contract points and set timeline</fullName>
+        <default>false</default>
+        <label>Evaluate - Finalize remaining contract points and set timeline</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Finalize inventory needs and Initiate request</fullName>
+        <default>false</default>
+        <label>Evaluate - Finalize inventory needs and Initiate request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Conduct a Personal Visit - Rep</fullName>
+        <default>false</default>
+        <label>Evaluate - Conduct a Personal Visit - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Execute Personal Visit - Corporate</fullName>
+        <default>false</default>
+        <label>Evaluate - Execute Personal Visit - Corporate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluate - Call for follow up appointment</fullName>
+        <default>false</default>
+        <label>Evaluate - Call for follow up appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finalize Deal - Execute Trial case</fullName>
+        <default>false</default>
+        <label>Finalize Deal - Execute Trial case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finalize Deal - Negotiate and execute Shelf Stock/Consignment</fullName>
+        <default>false</default>
+        <label>Finalize Deal - Negotiate and execute Shelf Stock/Consignment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finalize Deal - Contract PPA, quote and submit, obtain customer signature</fullName>
+        <default>false</default>
+        <label>Finalize Deal - Contract PPA, quote and submit, obtain customer signature</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finalize Deal - Conduct a Personal Visit - Rep</fullName>
+        <default>false</default>
+        <label>Finalize Deal - Conduct a Personal Visit - Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finalize Deal - Call for follow up appointment</fullName>
+        <default>false</default>
+        <label>Finalize Deal - Call for follow up appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won - Ensure Deal Desk, Price Desk load and activates in ERP</fullName>
+        <default>false</default>
+        <label>Closed Won - Ensure Deal Desk, Price Desk load and activates in ERP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won - Ensure inventory deployed for use</fullName>
+        <default>false</default>
+        <label>Closed Won - Ensure inventory deployed for use</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won - Request Corporate Leadership Visit</fullName>
+        <default>false</default>
+        <label>Closed Won - Request Corporate Leadership Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won - Call weekly for schedule</fullName>
+        <default>false</default>
+        <label>Closed Won - Call weekly for schedule</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fax</fullName>
+        <default>false</default>
+        <label>Fax</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supply</fullName>
+        <default>false</default>
+        <label>Supply</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Virtual</fullName>
+        <default>false</default>
+        <label>Virtual</label>
+    </standardValue>
+    <standardValue>
+        <fullName>In-person</fullName>
+        <default>false</default>
+        <label>In-person</label>
+    </standardValue>
+</StandardValueSet>

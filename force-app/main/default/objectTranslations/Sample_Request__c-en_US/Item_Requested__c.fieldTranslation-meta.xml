@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Item Requested --></label>
+    <name>Item_Requested__c</name>
+    <picklistValues>
+        <masterLabel>HEMCON Large (1) HC111 FMV $20.58</masterLabel>
+        <translation><!-- HEMCON Large (1) HC111 FMV $20.58 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HEMCON Small (1) HC103 FMV $15.84</masterLabel>
+        <translation><!-- HEMCON Small (1) HC103 FMV $15.84 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

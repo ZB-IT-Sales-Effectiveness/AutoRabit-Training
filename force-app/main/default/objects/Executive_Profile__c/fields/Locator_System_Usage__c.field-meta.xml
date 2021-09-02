@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locator_System_Usage__c</fullName>
+    <externalId>false</externalId>
+    <label>Locator System Usage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Locator only</fullName>
+                <default>false</default>
+                <label>Locator only</label>
+            </value>
+            <value>
+                <fullName>R-Tx</fullName>
+                <default>false</default>
+                <label>R-Tx</label>
+            </value>
+            <value>
+                <fullName>F-Tx</fullName>
+                <default>false</default>
+                <label>F-Tx</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

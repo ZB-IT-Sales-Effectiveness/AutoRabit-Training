@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Implant Customer Status --></label>
+    <name>Implant_Customer_Status__c</name>
+    <picklistValues>
+        <masterLabel>1-No Further Activity</masterLabel>
+        <translation><!-- 1-No Further Activity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2-In Process</masterLabel>
+        <translation><!-- 2-In Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3-On Hold</masterLabel>
+        <translation><!-- 3-On Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4-Completed</masterLabel>
+        <translation><!-- 4-Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5-Stopped</masterLabel>
+        <translation><!-- 5-Stopped --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

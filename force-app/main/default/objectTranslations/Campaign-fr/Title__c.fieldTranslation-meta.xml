@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Title --></label>
+    <name>Title__c</name>
+    <picklistValues>
+        <masterLabel>ASD</masterLabel>
+        <translation><!-- ASD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATSR</masterLabel>
+        <translation><!-- ATSR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSM</masterLabel>
+        <translation><!-- CSM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDSS</masterLabel>
+        <translation><!-- DDSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAS</masterLabel>
+        <translation><!-- KAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RSM</masterLabel>
+        <translation><!-- RSM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RSS</masterLabel>
+        <translation><!-- RSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STSR</masterLabel>
+        <translation><!-- STSR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSR</masterLabel>
+        <translation><!-- TSR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

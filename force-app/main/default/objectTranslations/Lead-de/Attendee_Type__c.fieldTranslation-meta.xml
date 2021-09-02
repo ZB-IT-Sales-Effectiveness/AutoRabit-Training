@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Attendee Type --></label>
+    <name>Attendee_Type__c</name>
+    <picklistValues>
+        <masterLabel>AAOS Candidate Member</masterLabel>
+        <translation><!-- AAOS Candidate Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AAOS Fellow</masterLabel>
+        <translation><!-- AAOS Fellow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AAOS Member</masterLabel>
+        <translation><!-- AAOS Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AAOS Resident Mbr</masterLabel>
+        <translation><!-- AAOS Resident Mbr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allied Health</masterLabel>
+        <translation><!-- Allied Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial Rep</masterLabel>
+        <translation><!-- Commercial Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exhibitor</masterLabel>
+        <translation><!-- Exhibitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeosp Admin</masterLabel>
+        <translation><!-- Homeosp Admin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Attendee</masterLabel>
+        <translation><!-- International Attendee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Member</masterLabel>
+        <translation><!-- International Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Participant MD</masterLabel>
+        <translation><!-- Participant MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Non-Mbr</masterLabel>
+        <translation><!-- Physician Non-Mbr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prog Participant--MD</masterLabel>
+        <translation><!-- Prog Participant- - MD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program Participant</masterLabel>
+        <translation><!-- Program Participant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US Resdnt/Fellowship</masterLabel>
+        <translation><!-- US Resdnt/Fellowship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

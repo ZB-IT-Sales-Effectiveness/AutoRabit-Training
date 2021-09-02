@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <acrossGroupingContext>Product_Usage__c$Date_Range__c</acrossGroupingContext>
+        <calculatedFormula>If( 
+                AND( Product_Usage__c.Invoice_Sales_Amount__c:SUM =0, PREVGROUPVAL(Product_Usage__c.Invoice_Sales_Amount__c:SUM, Product_Usage__c.Date_Range__c)=0),
+                0,
+                If( 
+                                PREVGROUPVAL(Product_Usage__c.Invoice_Sales_Amount__c:SUM, Product_Usage__c.Date_Range__c)=0,
+                                Product_Usage__c.Invoice_Sales_Amount__c:SUM/100 , 
+                                                (Product_Usage__c.Invoice_Sales_Amount__c:SUM - PREVGROUPVAL(Product_Usage__c.Invoice_Sales_Amount__c:SUM, Product_Usage__c.Date_Range__c))/(PREVGROUPVAL(Product_Usage__c.Invoice_Sales_Amount__c:SUM, Product_Usage__c.Date_Range__c) )
+                                )
+)</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>Product_Usage__c$GBI_Product_Group__c</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>MTD Change</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Product_Usage__c$Invoice_Sales_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Product_Usage__c$Name</field>
+    </columns>
+    <columns>
+        <field>Product_Usage__c$Surgeon__c</field>
+    </columns>
+    <columns>
+        <field>Product_Usage__c$Account__c</field>
+    </columns>
+    <columns>
+        <field>Product_Usage__c$Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Product_Usage__c$CreatedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Informatica Integration</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Product_Usage__c$Teams_Multiselect_Access__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Product_Usage__c$Matching_Date_New__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Month</dateGranularity>
+        <field>Product_Usage__c$Date_Range__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Product_Usage__c$GBI_Product_Group__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Product_Usage__c$Rep_Team__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MTD GBI Product Sales - Combined Team</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Product_Usage_Custom_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Product_Usage__c$Date__c</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

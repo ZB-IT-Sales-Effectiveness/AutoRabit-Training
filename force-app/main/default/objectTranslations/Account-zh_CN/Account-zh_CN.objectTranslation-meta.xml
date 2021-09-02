@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Academic Programs --></label>
+        <name>Academic_Institutions</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A record to keep information about group purchasing organizations --></description>
+        <label><!-- Enterprise Solutions --></label>
+        <name>Affiliation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-ACCT-RECORD-TYPE --></label>
+        <name>DN_ACCT_RECORD_TYPE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU-ACCT-RECORD-TYPE --></label>
+        <name>DN_EU_ACCT_RECORD_TYPE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU-Ghost Account --></label>
+        <name>DN_EU_Ghost_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Specifically for &apos;new&apos; business placeholder accounts. --></description>
+        <label><!-- DN-Ghost Account --></label>
+        <name>DN_ISR_ACCT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A record to keep information about Zimmer Distributors --></description>
+        <label><!-- Distributor --></label>
+        <name>Distributor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A record to keep information about hospitals, univerisities, medical centers, labs, clinics, etc --></description>
+        <label><!-- Healthcare Facility --></label>
+        <name>HealthcareFacility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A record to keep information about the medical practice(s) to which a surgeon is a member --></description>
+        <label><!-- Medical Practice --></label>
+        <name>Practice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used by the Reimbursement Hotline Team to track details about Payers. --></description>
+        <label><!-- Reimbursement Hotline - Payer --></label>
+        <name>Reimbursement_Hotline_Payer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- From SAP R/3 imported  Account --></description>
+        <label><!-- EU-SAP Kunde Record Type --></label>
+        <name>SAPKunde</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Scan Center --></label>
+        <name>Scan_Center</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for all Zimmer Vendor Accounts --></description>
+        <label><!-- Vendor --></label>
+        <name>Vendor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Zimmer Corporate Head Quarters --></description>
+        <label><!-- Zimmer Corporate --></label>
+        <name>Zimmer_Corporate</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot edit the account name field --></errorMessage>
+        <name>Account_Name_change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Canada Province code. --></errorMessage>
+        <name>CA_State_List_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide complete address(Street, City, State, Postal Code, Country) --></errorMessage>
+        <name>Complete_Billing_or_Shipping_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide complete address(Street, City, State, Postal Code, Country) --></errorMessage>
+        <name>Consumer_Complete_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Billing Country code (ALL CAPS). --></errorMessage>
+        <name>Country_List_Billing_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Other Country code (ALL CAPS). --></errorMessage>
+        <name>Country_List_Other_Mailing_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Person mailing Country code (ALL CAPS). --></errorMessage>
+        <name>Country_List_Person_Mailing_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Shipping Country code (ALL CAPS) Only. --></errorMessage>
+        <name>Country_List_Shipping_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter country for this account. --></errorMessage>
+        <name>Country_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter country for this account. --></errorMessage>
+        <name>Country_Required_EU</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot create Accounts manually. Please convert a qualified Lead to create a new Account. --></errorMessage>
+        <name>DN_EU_Create_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- DN-GLBL-Sales (2016) Users can&apos;t change ownership of accounts --></errorMessage>
+        <name>DN_GLBL_cant_change_Account_Owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot edit the Account Name field. --></errorMessage>
+        <name>Dental_Account_Name_Changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a Fellow Program. --></errorMessage>
+        <name>Fellow_Program_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid future Fellowship Completion Date. --></errorMessage>
+        <name>Fellowship_Completion_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select any Fellowship Focus. --></errorMessage>
+        <name>Fellowship_Focus_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is Required. Please fill in first name and save --></errorMessage>
+        <name>First_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Provide Complete Office address --></errorMessage>
+        <name>Full_Address_for_Physician_PhysicianProc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- DCS/IW Integrated Healthcare Facility Account fields cannot be edited for US, PR, GU, VI, and BM countries --></errorMessage>
+        <name>HCF_Account_Integrated_Fields_Lock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Following Healthcare Facility Account fields cannot be edited: Name, Zimmer Account Number, Billing Address, Shipping Address --></errorMessage>
+        <name>HealthCare_Facility_ReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have sufficient access to edit Healthcare Facility accounts. --></errorMessage>
+        <name>Lock_HCF_record_Edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have sufficient access to create and modify Healthcare Facility Accounts. --></errorMessage>
+        <name>Lock_HealthcareFacility_recordtype_chang</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- NPI field is locked when surgeon record is Validated and ZAN is assigned --></errorMessage>
+        <name>NPI_Read_Only_If_ZAN_is_not_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a street address for your account.
+
+ You must provide a valid 2-digit Person mailing Country code (ALL CAPS). --></errorMessage>
+        <name>Office_Address_Validation_Field_surgeon</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only enter numbers into the NPI# field --></errorMessage>
+        <name>Only_numbers_in_NPI_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only administrator can modify an inactive record. --></errorMessage>
+        <name>Physician_Read_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Implant Competitor Value Cannot be changed. Please select &apos;Other&apos; in Primary Implant Competitor to change this field value --></errorMessage>
+        <name>Primary_implant_competitor_not_other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Custom-Data Admin profile can manually remove validation requested checkbox. --></errorMessage>
+        <name>Remove_Validation_Requested_Checkbox</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid Residency Completion Date. --></errorMessage>
+        <name>Residency_Completion_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the correct format for suffix i.e, Jr.,Sr.,II,III,...... X --></errorMessage>
+        <name>Rule_for_the_Standard_Suffix</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit state code. --></errorMessage>
+        <name>State_List_Billing_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit state code. --></errorMessage>
+        <name>State_List_Person_Mailing_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a valid 2-digit Shipping state code. --></errorMessage>
+        <name>State_List_Shipping_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Surgical profile (AM US SU Sales) don&apos;t have access to manage Physicians from other than US countries. --></errorMessage>
+        <name>Surgical_Validation_Rule_For_Physician</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not necessary to check the Validation Requested box on surgeon records assigned a 005 Zimmer Account Number. To submit your changes, please uncheck the Validation Requested box and click ‘Save’. --></errorMessage>
+        <name>Validation_requested_checkbox_editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Zimmer Account Number --></errorMessage>
+        <name>ZAN_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Canadian postal code must be in A9A 9A9 format --></errorMessage>
+        <name>Zip_Code_Validation_for_Canada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Academic_Instituion_to_Mentor --></label>
+        <name>Academic_Instituion_to_Mentor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aktivitten --></label>
+        <name>Aktivitten</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Time_Invoices --></label>
+        <name>All_Time_Invoices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CY_Sales_Summary_by_Month --></label>
+        <name>CY_Sales_Summary_by_Month</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Clarify --></label>
+        <name>Clarify</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Colossus --></label>
+        <name>Colossus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Current_FY_Revenue --></label>
+        <name>Current_FY_Revenue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DN_EMEA_Customer_Sales_Report --></label>
+        <name>DN_EMEA_Customer_Sales_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Diagramm --></label>
+        <name>Diagramm</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EU_Jedox_Daily_Sales --></label>
+        <name>EU_Jedox_Daily_Sales</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EU_Qualit_tsbericht --></label>
+        <name>EU_Qualit_tsbericht</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fellow_to_Program_Report --></label>
+        <name>Fellow_to_Program_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Financial_Planning --></label>
+        <name>Financial_Planning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GMI_Show_Map_Button_Account --></label>
+        <name>GMI_Show_Map_Button_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GMI_Show_Map_Link_Account --></label>
+        <name>GMI_Show_Map_Link_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Selected_to_Salesloft --></label>
+        <name>Import_Selected_to_Salesloft</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Insert_Person_Picture --></label>
+        <name>Insert_Person_Picture</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Jahresumsatz --></label>
+        <name>Jahresumsatz</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Konsiantrag --></label>
+        <name>Konsiantrag</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LinkedIn --></label>
+        <name>LinkedIn</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Market_Share_Analysis_Report --></label>
+        <name>Market_Share_Analysis_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mentors_to_Fellows_Residents --></label>
+        <name>Mentors_to_Fellows_Residents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Physician_Market_Share_Data --></label>
+        <name>Physician_Market_Share_Data</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Potentiale --></label>
+        <name>Potentiale</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Previous_FY_Revenue --></label>
+        <name>Previous_FY_Revenue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Product_Usage --></label>
+        <name>Product_Usage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pubmed --></label>
+        <name>Pubmed</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Regen_Only_Invoices --></label>
+        <name>Regen_Only_Invoices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Revenue_Current_FY --></label>
+        <name>Revenue_Current_FY</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Revenue_Previous_FY --></label>
+        <name>Revenue_Previous_FY</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Total_SKUs_Bought_ASP --></label>
+        <name>Total_SKUs_Bought_ASP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Umsatz_nach_Segment --></label>
+        <name>Umsatz_nach_Segment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Yahoo --></label>
+        <name>Yahoo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List_Detail --></label>
+        <name>mkto_si__Add_to_Watch_List_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- weer --></label>
+        <name>weer</name>
+    </webLinks>
+</CustomObjectTranslation>

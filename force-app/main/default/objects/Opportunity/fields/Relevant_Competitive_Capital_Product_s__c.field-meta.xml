@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relevant_Competitive_Capital_Product_s__c</fullName>
+    <externalId>false</externalId>
+    <label>Relevant Competitive Capital Product(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LVT MPOWER2</fullName>
+                <default>false</default>
+                <label>LVT MPOWER2</label>
+            </value>
+            <value>
+                <fullName>LVT HALL 50</fullName>
+                <default>false</default>
+                <label>LVT HALL 50</label>
+            </value>
+            <value>
+                <fullName>SYK 6</fullName>
+                <default>false</default>
+                <label>SYK 6</label>
+            </value>
+            <value>
+                <fullName>SYK 7</fullName>
+                <default>false</default>
+                <label>SYK 7</label>
+            </value>
+            <value>
+                <fullName>SYK 8</fullName>
+                <default>false</default>
+                <label>SYK 8</label>
+            </value>
+            <value>
+                <fullName>SYK PRECISION</fullName>
+                <default>false</default>
+                <label>SYK PRECISION</label>
+            </value>
+            <value>
+                <fullName>SYK CORDLESS DRIVER (CD)</fullName>
+                <default>false</default>
+                <label>SYK CORDLESS DRIVER (CD)</label>
+            </value>
+            <value>
+                <fullName>SYK FLYTE</fullName>
+                <default>false</default>
+                <label>SYK FLYTE</label>
+            </value>
+            <value>
+                <fullName>SYNTHES</fullName>
+                <default>false</default>
+                <label>SYNTHES</label>
+            </value>
+            <value>
+                <fullName>SYK T5</fullName>
+                <default>false</default>
+                <label>SYK T5</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

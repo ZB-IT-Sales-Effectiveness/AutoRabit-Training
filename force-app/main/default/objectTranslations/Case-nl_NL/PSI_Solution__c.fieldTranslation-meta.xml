@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CAS Conclusions --></label>
+    <name>PSI_Solution__c</name>
+    <picklistValues>
+        <masterLabel>Add/change address or techs</masterLabel>
+        <translation><!-- Add/change address or techs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CITRIX issues</masterLabel>
+        <translation><!-- CITRIX issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Cancelled</masterLabel>
+        <translation><!-- Case Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case ID request</masterLabel>
+        <translation><!-- Case ID request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complaint - Forward to EtQ</masterLabel>
+        <translation><!-- Complaint - Forward to EtQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credentials requested</masterLabel>
+        <translation><!-- Credentials requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs</masterLabel>
+        <translation><!-- Customs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOB discrepancy</masterLabel>
+        <translation><!-- DOB discrepancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay Plan</masterLabel>
+        <translation><!-- Delay Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay scan</masterLabel>
+        <translation><!-- Delay scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery Confirmation</masterLabel>
+        <translation><!-- Delivery Confirmation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disclaimer Request</masterLabel>
+        <translation><!-- Disclaimer Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discrepancy in SMS</masterLabel>
+        <translation><!-- Discrepancy in SMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation><!-- Duplicate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Action</masterLabel>
+        <translation><!-- Field Action --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender discrepancy</masterLabel>
+        <translation><!-- Gender discrepancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Images Recieved</masterLabel>
+        <translation><!-- Images Recieved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete image uploaded</masterLabel>
+        <translation><!-- Incomplete image uploaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice</masterLabel>
+        <translation><!-- Invoice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Junk/SPAM</masterLabel>
+        <translation><!-- Junk/SPAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laterality Discrepancy</masterLabel>
+        <translation><!-- Laterality Discrepancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linkages</masterLabel>
+        <translation><!-- Linkages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance</masterLabel>
+        <translation><!-- Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Entered</masterLabel>
+        <translation><!-- Order Entered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order refused</masterLabel>
+        <translation><!-- Order refused --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order released</masterLabel>
+        <translation><!-- Order released --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (please describe)</masterLabel>
+        <translation><!-- Other (please describe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF to approve</masterLabel>
+        <translation><!-- PDF to approve --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PO request</masterLabel>
+        <translation><!-- PO request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI software training</masterLabel>
+        <translation><!-- PSI software training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passing scan Qualification</masterLabel>
+        <translation><!-- Passing scan Qualification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient name discrepancy</masterLabel>
+        <translation><!-- Patient name discrepancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planning ready or to schedule</masterLabel>
+        <translation><!-- Planning ready or to schedule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planning to schedule</masterLabel>
+        <translation><!-- Planning to schedule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post-op feedback</masterLabel>
+        <translation><!-- Post-op feedback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-op feedback</masterLabel>
+        <translation><!-- Pre-op feedback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-op questions</masterLabel>
+        <translation><!-- Pre-op questions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Received tracking information</masterLabel>
+        <translation><!-- Received tracking information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon case</masterLabel>
+        <translation><!-- Recon case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection = Lossy compression</masterLabel>
+        <translation><!-- Rejection = Lossy compression --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Existing implant</masterLabel>
+        <translation><!-- Rejection=Existing implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=HITACHI scanner</masterLabel>
+        <translation><!-- Rejection=HITACHI scanner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=HKA bigger than 15 degrees</masterLabel>
+        <translation><!-- Rejection=HKA bigger than 15 degrees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Image quality</masterLabel>
+        <translation><!-- Rejection=Image quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Incorrect acquisition</masterLabel>
+        <translation><!-- Rejection=Incorrect acquisition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Laterality in series</masterLabel>
+        <translation><!-- Rejection=Laterality in series --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Metal artifact</masterLabel>
+        <translation><!-- Rejection=Metal artifact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Missing series/slices</masterLabel>
+        <translation><!-- Rejection=Missing series/slices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Motion artifact</masterLabel>
+        <translation><!-- Rejection=Motion artifact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Other (please describe below)</masterLabel>
+        <translation><!-- Rejection=Other (please describe below) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Protocol not followed</masterLabel>
+        <translation><!-- Rejection=Protocol not followed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection=Rotated FOV</masterLabel>
+        <translation><!-- Rejection=Rotated FOV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request Fulfilled</masterLabel>
+        <translation><!-- Request Fulfilled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rush case Accepted</masterLabel>
+        <translation><!-- Rush case Accepted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS New User</masterLabel>
+        <translation><!-- SMS New User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS Password issues</masterLabel>
+        <translation><!-- SMS Password issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS assisted change</masterLabel>
+        <translation><!-- SMS assisted change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS training</masterLabel>
+        <translation><!-- SMS training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan Qualification</masterLabel>
+        <translation><!-- Scan Qualification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan protocol sent</masterLabel>
+        <translation><!-- Scan protocol sent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent tracking information</masterLabel>
+        <translation><!-- Sent tracking information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surg input (IMAGE SITUATION)</masterLabel>
+        <translation><!-- Surg input (IMAGE SITUATION) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surg input (JIG)</masterLabel>
+        <translation><!-- Surg input (JIG) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surg input (SEGMENTATION)</masterLabel>
+        <translation><!-- Surg input (SEGMENTATION) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon acknowledgement</masterLabel>
+        <translation><!-- Surgeon acknowledgement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon input Request</masterLabel>
+        <translation><!-- Surgeon input Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon preferences</masterLabel>
+        <translation><!-- Surgeon preferences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery date change</masterLabel>
+        <translation><!-- Surgery date change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team B follow up</masterLabel>
+        <translation><!-- Team B follow up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team C follow up</masterLabel>
+        <translation><!-- Team C follow up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Templating</masterLabel>
+        <translation><!-- Templating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation><!-- Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test images received</masterLabel>
+        <translation><!-- Test images received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tracking information</masterLabel>
+        <translation><!-- Tracking information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training  -  Optical  -  Product Knowledge</masterLabel>
+        <translation><!-- Training  -  Optical  -  Product Knowledge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training  -  PSI  -  Product Knowledge</masterLabel>
+        <translation><!-- Training  -  PSI  -  Product Knowledge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training  -  iAssist  -  Product Knowledge</masterLabel>
+        <translation><!-- Training  -  iAssist  -  Product Knowledge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trainining  -  Optical  -  Clinical</masterLabel>
+        <translation><!-- Trainining  -  Optical  -  Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trainining  -  PSI  -  Clinical</masterLabel>
+        <translation><!-- Trainining  -  PSI  -  Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trainining  -  iAssist  -  Clinical</masterLabel>
+        <translation><!-- Trainining  -  iAssist  -  Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voicemail</masterLabel>
+        <translation><!-- Voicemail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong patient</masterLabel>
+        <translation><!-- Wrong patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZARF Request</masterLabel>
+        <translation><!-- ZARF Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>case tracking/follow up</masterLabel>
+        <translation><!-- case tracking/follow up --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

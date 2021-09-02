@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Categories</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Parent_Category__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Parent Categories</label>
+    <language>en_US</language>
+</ListView>

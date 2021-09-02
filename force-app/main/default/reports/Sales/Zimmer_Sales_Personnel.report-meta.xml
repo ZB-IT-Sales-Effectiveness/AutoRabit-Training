@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_91810985</developerName>
+        <masterLabel>Business Plan Title</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Contact.Role_Classification__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <value>Full Line Sales Representative</value>
+        </values>
+        <values>
+            <value>Jr. Associate</value>
+        </values>
+        <values>
+            <value>Sales Manager</value>
+        </values>
+        <values>
+            <value>Trauma Sales Representative</value>
+        </values>
+        <values>
+            <value>Product Sales Specialist</value>
+        </values>
+        <values>
+            <value>Tech/Coverage Representative</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.Role_Classification__c</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales_Assoc_ID__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Hire_Date__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Term_Date__c</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <columns>
+        <field>PHONE1</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS1_LINE1</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS1_CITY</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS1_ZIP</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CONTACT_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Contact.Sales_Contact</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Headcount Summary</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>ownaccountteam</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact.Hire_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

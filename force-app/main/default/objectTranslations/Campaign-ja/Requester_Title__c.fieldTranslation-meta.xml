@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Requester Role --></help>
+    <label><!-- Title --></label>
+    <name>Requester_Title__c</name>
+</CustomFieldTranslation>

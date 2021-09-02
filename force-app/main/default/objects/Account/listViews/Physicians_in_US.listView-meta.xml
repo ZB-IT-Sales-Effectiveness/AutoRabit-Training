@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physicians_in_US</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>MDM_SAP_ID__c</columns>
+    <columns>PC_ADDRESS2_CITY</columns>
+    <columns>PC_ADDRESS2_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.Physician</value>
+    </filters>
+    <label>Physicians in US</label>
+    <sharedTo>
+        <role>CRMAdministrator</role>
+        <roleAndSubordinatesInternal>Restorative_Therapies_Management</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

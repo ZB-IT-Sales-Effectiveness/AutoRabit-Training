@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assistant Surgeon</fullName>
+                <default>false</default>
+                <label>Assistant Surgeon</label>
+            </value>
+            <value>
+                <fullName>Chief Surgeon</fullName>
+                <default>false</default>
+                <label>Chief Surgeon</label>
+            </value>
+            <value>
+                <fullName>Co. Chief Surgeon</fullName>
+                <default>false</default>
+                <label>Co. Chief Surgeon</label>
+            </value>
+            <value>
+                <fullName>Deputy Chief Surgeon</fullName>
+                <default>false</default>
+                <label>Deputy Chief Surgeon</label>
+            </value>
+            <value>
+                <fullName>Deputy OP-Lead</fullName>
+                <default>false</default>
+                <label>Deputy OP-Lead</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>General Manager</fullName>
+                <default>false</default>
+                <label>General Manager</label>
+            </value>
+            <value>
+                <fullName>Head of Administration</fullName>
+                <default>false</default>
+                <label>Head of Administration</label>
+            </value>
+            <value>
+                <fullName>Head of Purchasing Department</fullName>
+                <default>false</default>
+                <label>Head of Purchasing Department</label>
+            </value>
+            <value>
+                <fullName>Leading Senior Surgeon</fullName>
+                <default>false</default>
+                <label>Leading Senior Surgeon</label>
+            </value>
+            <value>
+                <fullName>Leading Surgeon</fullName>
+                <default>false</default>
+                <label>Leading Surgeon</label>
+            </value>
+            <value>
+                <fullName>Male OP Nurse</fullName>
+                <default>false</default>
+                <label>Male OP Nurse</label>
+            </value>
+            <value>
+                <fullName>Medical Director</fullName>
+                <default>false</default>
+                <label>Medical Director</label>
+            </value>
+            <value>
+                <fullName>OP Nurse</fullName>
+                <default>false</default>
+                <label>OP Nurse</label>
+            </value>
+            <value>
+                <fullName>OP-Lead</fullName>
+                <default>false</default>
+                <label>OP-Lead</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Pharmacist</fullName>
+                <default>false</default>
+                <label>Pharmacist</label>
+            </value>
+            <value>
+                <fullName>Purchasing Department</fullName>
+                <default>false</default>
+                <label>Purchasing Department</label>
+            </value>
+            <value>
+                <fullName>Secretary</fullName>
+                <default>false</default>
+                <label>Secretary</label>
+            </value>
+            <value>
+                <fullName>Senior Assistant Surgeon</fullName>
+                <default>false</default>
+                <label>Senior Assistant Surgeon</label>
+            </value>
+            <value>
+                <fullName>Senior Surgeon</fullName>
+                <default>false</default>
+                <label>Senior Surgeon</label>
+            </value>
+            <value>
+                <fullName>Surgeon</fullName>
+                <default>false</default>
+                <label>Surgeon</label>
+            </value>
+            <value>
+                <fullName>Technical Service</fullName>
+                <default>false</default>
+                <label>Technical Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

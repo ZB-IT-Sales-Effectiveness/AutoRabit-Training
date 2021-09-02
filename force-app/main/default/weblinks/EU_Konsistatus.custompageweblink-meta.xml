@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>EU-Konsistatus</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://bi-jedox.zimmer.com/ui/lnk/?_=eJxNkMsKwjAQRf9l1oXgSugHiOBGdBuQtAwmkCZhMrHE0n934qO4yj0zHHKZBeacoV%2Fg4XBGaokde4QeQoQOJgxlMPRDjtH%2FYWbDRXSomBtaRM7ot%2FVI0ftt%2FYxx%2BsK6dmBSaliyfNvBPDRrv5N4pySZ5GlkaRSyLQauqTVjnJI3jDKis2ErI620umCKxFmro0MyNNqq1SmG7D41b9eDCA9xuULPVPDdQeR2gvUFb5VWIA%3D%3D&amp;user=Michell&amp;pass=%09a%095H9MF6tF%2BJXe%2F%2BiFJ9DSHeFaSW4zAvQe&amp;var/User_Name={!User.Name}</url>
+</CustomPageWebLink>

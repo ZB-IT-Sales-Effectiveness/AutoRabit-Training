@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2e_type_schouder_gecementeerd__c</fullName>
+    <externalId>false</externalId>
+    <label>2e type schouder gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>X2e_merk_schouder_gecementeerd__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anatomical</fullName>
+                <default>false</default>
+                <label>Anatomical</label>
+            </value>
+            <value>
+                <fullName>Bigliani</fullName>
+                <default>false</default>
+                <label>Bigliani</label>
+            </value>
+            <value>
+                <fullName>Univers Eclipse</fullName>
+                <default>false</default>
+                <label>Univers Eclipse</label>
+            </value>
+            <value>
+                <fullName>TESS/Bio modular</fullName>
+                <default>false</default>
+                <label>TESS/Bio modular</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>SMR shoulder</fullName>
+                <default>false</default>
+                <label>SMR shoulder</label>
+            </value>
+            <value>
+                <fullName>Cofield</fullName>
+                <default>false</default>
+                <label>Cofield</label>
+            </value>
+            <value>
+                <fullName>Neer II</fullName>
+                <default>false</default>
+                <label>Neer II</label>
+            </value>
+            <value>
+                <fullName>Neer III</fullName>
+                <default>false</default>
+                <label>Neer III</label>
+            </value>
+            <value>
+                <fullName>Epoca</fullName>
+                <default>false</default>
+                <label>Epoca</label>
+            </value>
+            <value>
+                <fullName>Equalis</fullName>
+                <default>false</default>
+                <label>Equalis</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Anatomical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>Bigliani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arthex</controllingFieldValue>
+            <valueName>Univers Eclipse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>TESS/Bio modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lima</controllingFieldValue>
+            <valueName>SMR shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Cofield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Neer II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smith Nephew</controllingFieldValue>
+            <valueName>Neer III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Synthes</controllingFieldValue>
+            <valueName>Epoca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Equalis</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

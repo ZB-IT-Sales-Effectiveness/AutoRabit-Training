@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_HOSP_Primary_System_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>SP HOSP Primary System Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medtronic</fullName>
+                <default>false</default>
+                <label>Medtronic</label>
+            </value>
+            <value>
+                <fullName>DePuy/Synthes</fullName>
+                <default>false</default>
+                <label>DePuy/Synthes</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Nuvasive</fullName>
+                <default>false</default>
+                <label>Nuvasive</label>
+            </value>
+            <value>
+                <fullName>Physician Owned Distr</fullName>
+                <default>false</default>
+                <label>Physician Owned Distr</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Niche Vendor</fullName>
+                <default>false</default>
+                <label>Niche Vendor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

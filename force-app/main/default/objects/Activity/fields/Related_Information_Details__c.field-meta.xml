@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Information_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Information Details</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Related_Information__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Altoona, PA</fullName>
+                <default>false</default>
+                <label>Altoona, PA</label>
+            </value>
+            <value>
+                <fullName>Arizona</fullName>
+                <default>false</default>
+                <label>Arizona</label>
+            </value>
+            <value>
+                <fullName>Atlanta, GA</fullName>
+                <default>false</default>
+                <label>Atlanta, GA</label>
+            </value>
+            <value>
+                <fullName>Baldwin Hills, CA</fullName>
+                <default>false</default>
+                <label>Baldwin Hills, CA</label>
+            </value>
+            <value>
+                <fullName>Baltimore, MD</fullName>
+                <default>false</default>
+                <label>Baltimore, MD</label>
+            </value>
+            <value>
+                <fullName>Beltway Church of Christ</fullName>
+                <default>false</default>
+                <label>Beltway Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Coloumbus,OH(3/3/2011)</fullName>
+                <default>false</default>
+                <label>Coloumbus,OH(3/3/2011)</label>
+            </value>
+            <value>
+                <fullName>Discovery Health</fullName>
+                <default>false</default>
+                <label>Discovery Health</label>
+            </value>
+            <value>
+                <fullName>Ennis, TX</fullName>
+                <default>false</default>
+                <label>Ennis, TX</label>
+            </value>
+            <value>
+                <fullName>Fine Living</fullName>
+                <default>false</default>
+                <label>Fine Living</label>
+            </value>
+            <value>
+                <fullName>Florida</fullName>
+                <default>false</default>
+                <label>Florida</label>
+            </value>
+            <value>
+                <fullName>Fort Worth, TX</fullName>
+                <default>false</default>
+                <label>Fort Worth, TX</label>
+            </value>
+            <value>
+                <fullName>Full Gospel Baptist Fellowship Conference</fullName>
+                <default>false</default>
+                <label>Full Gospel Baptist Fellowship Conference</label>
+            </value>
+            <value>
+                <fullName>Hallmark</fullName>
+                <default>false</default>
+                <label>Hallmark</label>
+            </value>
+            <value>
+                <fullName>Hanover, PA</fullName>
+                <default>false</default>
+                <label>Hanover, PA</label>
+            </value>
+            <value>
+                <fullName>Harlington,TX(1/20/2011)</fullName>
+                <default>false</default>
+                <label>Harlington,TX(1/20/2011)</label>
+            </value>
+            <value>
+                <fullName>Hinesville, GA</fullName>
+                <default>false</default>
+                <label>Hinesville, GA</label>
+            </value>
+            <value>
+                <fullName>Indianapolis, IN</fullName>
+                <default>false</default>
+                <label>Indianapolis, IN</label>
+            </value>
+            <value>
+                <fullName>Kentucky</fullName>
+                <default>false</default>
+                <label>Kentucky</label>
+            </value>
+            <value>
+                <fullName>Lafayette, IN</fullName>
+                <default>false</default>
+                <label>Lafayette, IN</label>
+            </value>
+            <value>
+                <fullName>Lifetime</fullName>
+                <default>false</default>
+                <label>Lifetime</label>
+            </value>
+            <value>
+                <fullName>Lifetime Movie Network</fullName>
+                <default>false</default>
+                <label>Lifetime Movie Network</label>
+            </value>
+            <value>
+                <fullName>Memorial Baptist Church</fullName>
+                <default>false</default>
+                <label>Memorial Baptist Church</label>
+            </value>
+            <value>
+                <fullName>Memphis, TN</fullName>
+                <default>false</default>
+                <label>Memphis, TN</label>
+            </value>
+            <value>
+                <fullName>Mt. Summit, MI</fullName>
+                <default>false</default>
+                <label>Mt. Summit, MI</label>
+            </value>
+            <value>
+                <fullName>National Baptist Convention</fullName>
+                <default>false</default>
+                <label>National Baptist Convention</label>
+            </value>
+            <value>
+                <fullName>National Baptist Convention 2008</fullName>
+                <default>false</default>
+                <label>National Baptist Convention 2008</label>
+            </value>
+            <value>
+                <fullName>National Baptist Convention 2009</fullName>
+                <default>false</default>
+                <label>National Baptist Convention 2009</label>
+            </value>
+            <value>
+                <fullName>National Baptist Convention 2010</fullName>
+                <default>false</default>
+                <label>National Baptist Convention 2010</label>
+            </value>
+            <value>
+                <fullName>New York,NY</fullName>
+                <default>false</default>
+                <label>New York,NY</label>
+            </value>
+            <value>
+                <fullName>North Carolina</fullName>
+                <default>false</default>
+                <label>North Carolina</label>
+            </value>
+            <value>
+                <fullName>Ohio</fullName>
+                <default>false</default>
+                <label>Ohio</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other-N/A</fullName>
+                <default>false</default>
+                <label>Other-N/A</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania</fullName>
+                <default>false</default>
+                <label>Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Pryor, OK</fullName>
+                <default>false</default>
+                <label>Pryor, OK</label>
+            </value>
+            <value>
+                <fullName>Raleigh, NC</fullName>
+                <default>false</default>
+                <label>Raleigh, NC</label>
+            </value>
+            <value>
+                <fullName>Riverhead,NY(2/24/2011)</fullName>
+                <default>false</default>
+                <label>Riverhead,NY(2/24/2011)</label>
+            </value>
+            <value>
+                <fullName>Rockwell, TX</fullName>
+                <default>false</default>
+                <label>Rockwell, TX</label>
+            </value>
+            <value>
+                <fullName>St. Petersburg, FL</fullName>
+                <default>false</default>
+                <label>St. Petersburg, FL</label>
+            </value>
+            <value>
+                <fullName>Tampa State Fair</fullName>
+                <default>false</default>
+                <label>Tampa State Fair</label>
+            </value>
+            <value>
+                <fullName>Texas</fullName>
+                <default>false</default>
+                <label>Texas</label>
+            </value>
+            <value>
+                <fullName>Towson, MD</fullName>
+                <default>false</default>
+                <label>Towson, MD</label>
+            </value>
+            <value>
+                <fullName>TV Land</fullName>
+                <default>false</default>
+                <label>TV Land</label>
+            </value>
+            <value>
+                <fullName>Union City, TN</fullName>
+                <default>false</default>
+                <label>Union City, TN</label>
+            </value>
+            <value>
+                <fullName>United Covenant Convention</fullName>
+                <default>false</default>
+                <label>United Covenant Convention</label>
+            </value>
+            <value>
+                <fullName>Vero Beach, FL</fullName>
+                <default>false</default>
+                <label>Vero Beach, FL</label>
+            </value>
+            <value>
+                <fullName>WE</fullName>
+                <default>false</default>
+                <label>WE</label>
+            </value>
+            <value>
+                <fullName>West Chester, OH</fullName>
+                <default>false</default>
+                <label>West Chester, OH</label>
+            </value>
+            <value>
+                <fullName>Windham, NH</fullName>
+                <default>false</default>
+                <label>Windham, NH</label>
+            </value>
+            <value>
+                <fullName>Winston Salem, NC</fullName>
+                <default>false</default>
+                <label>Winston Salem, NC</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2009</controllingFieldValue>
+            <valueName>Beltway Church of Christ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2009</controllingFieldValue>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <valueName>Full Gospel Baptist Fellowship Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2009</controllingFieldValue>
+            <valueName>Memorial Baptist Church</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2009</controllingFieldValue>
+            <valueName>National Baptist Convention 2009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <controllingFieldValue>Back in the Groove 2011</controllingFieldValue>
+            <controllingFieldValue>Zimmer Randall 2010</controllingFieldValue>
+            <valueName>Atlanta, GA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <valueName>Baldwin Hills, CA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <valueName>Memphis, TN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <valueName>National Baptist Convention 2010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <controllingFieldValue>Zimmer Randall 2010</controllingFieldValue>
+            <valueName>Raleigh, NC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2010</controllingFieldValue>
+            <controllingFieldValue>Zimmer Randall 2010</controllingFieldValue>
+            <valueName>St. Petersburg, FL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer Precision 2010</controllingFieldValue>
+            <valueName>Tampa State Fair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Arizona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Kentucky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>North Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Ohio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Pennsylvania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recon Campaign Q2 2010</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminar 2011</controllingFieldValue>
+            <valueName>Coloumbus,OH(3/3/2011)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminar 2011</controllingFieldValue>
+            <valueName>Harlington,TX(1/20/2011)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminar 2011</controllingFieldValue>
+            <valueName>Riverhead,NY(2/24/2011)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back in the Groove 2011</controllingFieldValue>
+            <valueName>Fort Worth, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back in the Groove 2011</controllingFieldValue>
+            <valueName>National Baptist Convention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back in the Groove 2011</controllingFieldValue>
+            <valueName>United Covenant Convention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back in the Groove 2011</controllingFieldValue>
+            <valueName>Winston Salem, NC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2009</controllingFieldValue>
+            <valueName>Baltimore, MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2009</controllingFieldValue>
+            <valueName>Ennis, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2009</controllingFieldValue>
+            <valueName>Hinesville, GA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2009</controllingFieldValue>
+            <valueName>New York,NY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2009</controllingFieldValue>
+            <valueName>Rockwell, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Indianapolis, IN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Lafayette, IN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Mt. Summit, MI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Pryor, OK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Towson, MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Union City, TN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Vero Beach, FL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>West Chester, OH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Seminars 2010</controllingFieldValue>
+            <valueName>Windham, NH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Discovery Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Fine Living</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Hallmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Lifetime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Lifetime Movie Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>Other-N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>TV Land</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GKnee 11/2009</controllingFieldValue>
+            <valueName>WE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer Randall 2010</controllingFieldValue>
+            <valueName>Altoona, PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zimmer Randall 2010</controllingFieldValue>
+            <valueName>Hanover, PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Back In The Groove 2008</controllingFieldValue>
+            <valueName>National Baptist Convention 2008</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

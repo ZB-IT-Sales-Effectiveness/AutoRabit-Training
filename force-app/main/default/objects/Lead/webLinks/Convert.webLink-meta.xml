@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convert</fullName>
+    <availability>online</availability>
+    <description>Custom Convert that has the Sales Plan checkbox checked</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Convert</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var pickval=&quot;{!Lead.Product_Family__c}&quot;; 
+var pairs = pickval.replace(&quot;;&quot;,&quot;&amp;00NC0000004Zbxo_fu=&quot;); 
+var Fields = &quot;&amp;00NC0000004Zbxo_fu=&quot;+pairs; 
+
+var URL =&quot;/lead/leadconvert.jsp?retURL={!Lead.Id}&amp;id={!Lead.Id}&amp;nooppti=1&amp;tsk5_fu=Inbound&amp;tsk4_fu={! Lead.CreatedDate }&quot;; 
+if(&quot;{!Lead.Source__c}&quot;==&quot;Web Requests&quot;) 
+{ 
+URL =URL+ &quot;&amp;00N80000004Xhrv_fu={!Lead.Source__c}&amp;00N80000004XhsA_fu={!Lead.Source_URL__c}&amp;00N80000004Xhs0_fu={!Lead.Source_Details__c}&amp;00N80000004XhsF_fu={!Lead.Other_Source__c}&amp;00N80000004XhsU_fu={!Lead.How_did_you_hear_about_us__c}&amp;00NC0000004ZbxP_fu={!Lead.referral_Others__c}&amp;00N80000004Xhso_fu={!Lead.Other_Related_Information_Details__c}&amp;00N80000004Xhse_fu={!Lead.Other_Related_Information__c}&amp;00N80000004XhsZ_fu={!Lead.Related_Information__c}&amp;00N80000004Xhso_fu={!Lead.Related_Information_Details__c}&amp;00NC0000004ZbxZ_fu={!Lead.Is_this_for_you__c}&amp;00N80000004Xhsy_fu={!Lead.Other__c}&amp;00NC0000004Zby3_fu={!Lead.If_No_for_whom__c}&amp;tsk12_fu=Completed&amp;00NC0000004ZbyD_fu={!Lead.Opt_In_Date__c}&amp;00N80000004XhsB_fu={!Lead.referral_Others__c}&quot; +Fields; 
+
+} 
+else 
+{ 
+URL =URL+ &quot;&amp;00N80000004Xhrv_fu={!Lead.Source__c}&amp;00N80000004XhsA_fu={!Lead.Source_URL__c}&amp;00N80000004Xhs0_fu={!Lead.Source_Details__c}&amp;00N80000004XhsF_fu={!Lead.Other_Source__c}&amp;00N80000004XhsU_fu={!Lead.How_did_you_hear_about_us__c}&amp;00N80000004XhsB_fu={!Lead.Other_Details__c}&amp;00NC0000004ZbxP_fu={!Lead.referral_Others__c}&amp;00N80000004Xhso_fu={!Lead.Other_Related_Information_Details__c}&amp;00N80000004Xhse_fu={!Lead.Other_Related_Information__c}&amp;00N80000004XhsZ_fu={!Lead.Related_Information__c}&amp;00N80000004Xhso_fu={!Lead.Related_Information_Details__c}&amp;00NC0000004ZbxZ_fu={!Lead.Is_this_for_you__c}&amp;00N80000004Xhsy_fu={!Lead.Other__c}&amp;00NC0000004Zby3_fu={!Lead.If_No_for_whom__c}&amp;tsk12_fu=Completed&amp;00NC0000004ZbyD_fu={!Lead.Opt_In_Date__c}&quot; +Fields; 
+} 
+location.replace(URL);</url>
+</WebLink>

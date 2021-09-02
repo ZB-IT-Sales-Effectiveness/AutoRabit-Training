@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type heup primair steel ongecementeerd --></label>
+    <name>Type_heup_primair_steel_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>AML Total hip system</masterLabel>
+        <translation><!-- AML Total hip system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accolade</masterLabel>
+        <translation><!-- Accolade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alloclassic Zweymüller</masterLabel>
+        <translation><!-- Alloclassic Zweymüller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avenir</masterLabel>
+        <translation><!-- Avenir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beta cone</masterLabel>
+        <translation><!-- Beta cone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBC (kopie cls)</masterLabel>
+        <translation><!-- CBC (kopie cls) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBG</masterLabel>
+        <translation><!-- CBG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBH (kopie Zweymuller)</masterLabel>
+        <translation><!-- CBH (kopie Zweymuller) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFP</masterLabel>
+        <translation><!-- CFP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Brevius</masterLabel>
+        <translation><!-- CLS Brevius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLS Sportorno</masterLabel>
+        <translation><!-- CLS Sportorno --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corail</masterLabel>
+        <translation><!-- Corail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DB 10</masterLabel>
+        <translation><!-- DB 10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emeraude</masterLabel>
+        <translation><!-- Emeraude --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EndoCare steel</masterLabel>
+        <translation><!-- EndoCare steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furlong</masterLabel>
+        <translation><!-- Furlong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GSS</masterLabel>
+        <translation><!-- GSS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hipstar</masterLabel>
+        <translation><!-- Hipstar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML Taper</masterLabel>
+        <translation><!-- ML Taper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML Taper Kinective</masterLabel>
+        <translation><!-- ML Taper Kinective --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mallory head</masterLabel>
+        <translation><!-- Mallory head --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabloc</masterLabel>
+        <translation><!-- Metabloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omnifit</masterLabel>
+        <translation><!-- Omnifit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optan</masterLabel>
+        <translation><!-- Optan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteonics</masterLabel>
+        <translation><!-- Osteonics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perfecta</masterLabel>
+        <translation><!-- Perfecta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prodigy</masterLabel>
+        <translation><!-- Prodigy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profemur</masterLabel>
+        <translation><!-- Profemur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quadra</masterLabel>
+        <translation><!-- Quadra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ribbed system</masterLabel>
+        <translation><!-- Ribbed system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S rom modular hip system</masterLabel>
+        <translation><!-- S rom modular hip system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SL Plus</masterLabel>
+        <translation><!-- SL Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SN steel</masterLabel>
+        <translation><!-- SN steel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summit</masterLabel>
+        <translation><!-- Summit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Symax</masterLabel>
+        <translation><!-- Symax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Synergy</masterLabel>
+        <translation><!-- Synergy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taperloc</masterLabel>
+        <translation><!-- Taperloc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trilock</masterLabel>
+        <translation><!-- Trilock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Twinsys (kopie avenir)</masterLabel>
+        <translation><!-- Twinsys (kopie avenir) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

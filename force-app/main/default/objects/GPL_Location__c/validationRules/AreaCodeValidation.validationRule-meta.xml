@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AreaCodeValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(Country__c,&apos;AU&apos;),  OR(Area_Code__c&gt;99,   Area_Code__c&lt;10, ISBLANK(Area_Code__c)))</errorConditionFormula>
+    <errorDisplayField>Area_Code__c</errorDisplayField>
+    <errorMessage>Please enter only the 2 digits in your area Code.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banner Ads</fullName>
+        <default>false</default>
+        <label>Banner Ads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exhibition</fullName>
+        <default>false</default>
+        <label>Exhibition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Wetlab</fullName>
+        <default>false</default>
+        <label>External Wetlab</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Factory Tour</fullName>
+        <default>false</default>
+        <label>Factory Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Institute</fullName>
+        <default>false</default>
+        <label>Institute</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instructional Course</fullName>
+        <default>false</default>
+        <label>Instructional Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JIRD</fullName>
+        <default>false</default>
+        <label>JIRD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mailing</fullName>
+        <default>false</default>
+        <label>Mailing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Education</fullName>
+        <default>false</default>
+        <label>Medical Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On-Demand Webcast</fullName>
+        <default>false</default>
+        <label>On-Demand Webcast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partners</fullName>
+        <default>false</default>
+        <label>Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PathwayZ Live</fullName>
+        <default>false</default>
+        <label>PathwayZ Live</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PathwayZ Resident</fullName>
+        <default>false</default>
+        <label>PathwayZ Resident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PathwayZ Self Study</fullName>
+        <default>false</default>
+        <label>PathwayZ Self Study</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Patient Event</fullName>
+        <default>false</default>
+        <label>Patient Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Professional Education</fullName>
+        <default>false</default>
+        <label>Professional Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pronews</fullName>
+        <default>false</default>
+        <label>Pronews</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Program</fullName>
+        <default>false</default>
+        <label>Referral Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional</fullName>
+        <default>false</default>
+        <label>Regional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rep Led</fullName>
+        <default>false</default>
+        <label>Rep Led</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Road Show</fullName>
+        <default>false</default>
+        <label>Road Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>S2S Reversed</fullName>
+        <default>false</default>
+        <label>S2S Reversed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar / Conference</fullName>
+        <default>false</default>
+        <label>Seminar / Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tech Forum</fullName>
+        <default>false</default>
+        <label>Tech Forum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telemarketing</fullName>
+        <default>false</default>
+        <label>Telemarketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webcast</fullName>
+        <default>false</default>
+        <label>Webcast</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Assigned</masterLabel>
+        <translation><!-- Assigned --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Geschlossen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Adjusted</masterLabel>
+        <translation><!-- Closed Adjusted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Agreed</masterLabel>
+        <translation><!-- Closed Agreed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Disputed</masterLabel>
+        <translation><!-- Closed Disputed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complete</masterLabel>
+        <translation><!-- Complete --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Connection Live</masterLabel>
+        <translation><!-- Connection Live --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Response</masterLabel>
+        <translation><!-- Customer Response --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated</masterLabel>
+        <translation>Eskaliert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Executed Site Call</masterLabel>
+        <translation><!-- Executed Site Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Execution</masterLabel>
+        <translation><!-- Execution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Connected</masterLabel>
+        <translation><!-- IT Connected --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Images Approved</masterLabel>
+        <translation><!-- Images Approved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Images Received</masterLabel>
+        <translation><!-- Images Received --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Neu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Request</masterLabel>
+        <translation><!-- New Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Notify HCP</masterLabel>
+        <translation><!-- Notify HCP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On Hold</masterLabel>
+        <translation>Gehalten</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opened</masterLabel>
+        <translation><!-- Opened --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out For Approval</masterLabel>
+        <translation><!-- Out For Approval --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Parking Lane</masterLabel>
+        <translation><!-- Parking Lane --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Information</masterLabel>
+        <translation><!-- Pending Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Release</masterLabel>
+        <translation><!-- Pending Release --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Vendor</masterLabel>
+        <translation><!-- Pending Vendor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Received</masterLabel>
+        <translation><!-- Received --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rejected</masterLabel>
+        <translation><!-- Rejected --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reopened</masterLabel>
+        <translation><!-- Reopened --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Response</masterLabel>
+        <translation><!-- Response --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Revision Needed</masterLabel>
+        <translation><!-- Revision Needed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Security/Privacy</masterLabel>
+        <translation><!-- Security/Privacy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Support Response</masterLabel>
+        <translation><!-- Support Response --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Support</masterLabel>
+        <translation><!-- Technical Support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Testing</masterLabel>
+        <translation><!-- Testing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Under Review</masterLabel>
+        <translation><!-- Under Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Upgrade</masterLabel>
+        <translation><!-- Upgrade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Working</masterLabel>
+        <translation><!-- Working --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

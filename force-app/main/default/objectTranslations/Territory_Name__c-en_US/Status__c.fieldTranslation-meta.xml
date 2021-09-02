@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Approval Not Required</masterLabel>
+        <translation><!-- Approval Not Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending AVP Approval</masterLabel>
+        <translation><!-- Pending AVP Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation><!-- Rejected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Round 1</masterLabel>
+        <translation><!-- Round 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Round 2</masterLabel>
+        <translation><!-- Round 2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

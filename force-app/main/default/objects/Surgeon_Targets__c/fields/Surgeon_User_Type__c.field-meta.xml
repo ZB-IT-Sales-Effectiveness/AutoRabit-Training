@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_User_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Surgeon User Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Casual User</fullName>
+                <default>false</default>
+                <label>Casual User</label>
+            </value>
+            <value>
+                <fullName>Mid-Volume</fullName>
+                <default>false</default>
+                <label>Mid-Volume</label>
+            </value>
+            <value>
+                <fullName>High-Volume</fullName>
+                <default>false</default>
+                <label>High-Volume</label>
+            </value>
+            <value>
+                <fullName>On the Fence</fullName>
+                <default>false</default>
+                <label>On the Fence</label>
+            </value>
+            <value>
+                <fullName>ROSA Advantage</fullName>
+                <default>false</default>
+                <label>ROSA Advantage</label>
+            </value>
+            <value>
+                <fullName>Velys Advantage</fullName>
+                <default>false</default>
+                <label>Velys Advantage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

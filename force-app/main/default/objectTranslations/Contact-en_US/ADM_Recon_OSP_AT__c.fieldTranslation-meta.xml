@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sales Rep. Recon/OSP AT</label>
+    <name>ADM_Recon_OSP_AT__c</name>
+    <picklistValues>
+        <masterLabel>Adam Frey</masterLabel>
+        <translation><!-- Adam Frey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christian Brückler</masterLabel>
+        <translation><!-- Christian Brückler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gerhard Beyer</masterLabel>
+        <translation><!-- Gerhard Beyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gerhard Klotz</masterLabel>
+        <translation><!-- Gerhard Klotz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jürgen Jester</masterLabel>
+        <translation><!-- Jürgen Jester --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Bständig</masterLabel>
+        <translation><!-- Michael Bständig --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paul Jozsa</masterLabel>
+        <translation><!-- Paul Jozsa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roland Immler</masterLabel>
+        <translation><!-- Roland Immler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Tramontana</masterLabel>
+        <translation><!-- Thomas Tramontana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wolfgang Weber</masterLabel>
+        <translation><!-- Wolfgang Weber --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

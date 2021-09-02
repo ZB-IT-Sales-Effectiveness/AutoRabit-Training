@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ASC_Read_Write</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This gives all people part of the public group , read/write access to all ASC opportunity record types</description>
+        <label>ASC Read/Write</label>
+        <sharedTo>
+            <group>ACS_Opp_Read_Write</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ASC</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBEAST_Distributor</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Canada Opportunities - ZBEAST-Distributor</label>
+        <sharedTo>
+            <role>ZBEAST_Distributor</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBEAST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBONE_Business_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunities - ZBONE-Business Manager</label>
+        <sharedTo>
+            <role>ZBONE_Business_Manager</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBONE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBONE_Distributor</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Canada Opportunities -  ZBONE Distributor</label>
+        <sharedTo>
+            <role>ZBONE_Distributor</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBONE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBOS_Business_Manager</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Canada Opportunities - ZBOS -Business Manager</label>
+        <sharedTo>
+            <role>ZBOS_Business_Manager</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBOS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBOS_Distributor</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Canada Opportunities -  ZBOS-Distributor</label>
+        <sharedTo>
+            <role>ZBOS_Distributor</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBOS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBQUEBEC_Distributor</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Canada Opportunities - ZBQUEBEC-Distributor</label>
+        <sharedTo>
+            <role>ZBQUEBEC_Distributor</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBQUEBEC</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Canada_Opportunities_ZBWest_Distributor</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunities-  ZBWest-Distributor</label>
+        <sharedTo>
+            <role>ZBWest_Distributor</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBWEST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EXTREMITIES_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to allow Marketing Director Extremities to see all Extremities data</description>
+        <label>EXTREMITIES MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Extremities</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Extremities</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_access_to_ROSA_Oppty_to_Tyler_and_Core</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit access to ROSA Oppty to Tyler and Core</label>
+        <sharedTo>
+            <group>Access_to_edit_ROSA_Oppty</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ROSA Brain,ROSA Spine,ROSA Knee</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FOOT_ANKLE_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to allow Marketing Director Foot &amp; Ankle to see all Foot &amp; Ankle data</description>
+        <label>FOOT &amp; ANKLE MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Foot_Ankle</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HIPS_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to allow Marketing Director Hips to see all Hips data</description>
+        <label>HIPS MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Hips_Cement</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Hip,US Cement</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>KNEES_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>KNEES MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Knees_Early_Intervention</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Early Intervention,US Knee</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Foot_Ankle_CM_North_Central</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Foot &amp; Ankle opportunities to North Central Foot &amp; Ankle CM</description>
+        <label>Ortho Foot &amp; Ankle CM: North Central</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_North_Central</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP NORTH CENTRAL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Foot_Ankle_CM_Northeast</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Foot &amp; Ankle opportunities to North East Foot &amp; Ankle CM</description>
+        <label>Ortho Foot &amp; Ankle CM: Northeast</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_Northeast</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP NORTHEAST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Foot_Ankle_CM_South_Central</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Foot &amp; Ankle opportunities to South Central Foot &amp; Ankle CM</description>
+        <label>Ortho Foot &amp; Ankle CM: South Central</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_South_Central</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP SOUTH CENTRAL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Foot_Ankle_CM_Southeast</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Foot &amp; Ankle opportunities to Southeast Foot &amp; Ankle CM</description>
+        <label>Ortho Foot &amp; Ankle CM: Southeast</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_Southeast</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP SOUTHEAST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Foot_Ankle_CM_West</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Foot &amp; Ankle opportunities to West Foot &amp; Ankle CM</description>
+        <label>Ortho Foot &amp; Ankle CM: West</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_West</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Foot and Ankle,US Foot and Ankle DSF</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP West</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Sports_Medicine_CM_North_Central</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Sports Medicine opportunities to North Central Territory Sports Medicine CM</description>
+        <label>Ortho Sports Medicine CM: North Central</label>
+        <sharedTo>
+            <role>Sports_Medicine_CM_North_Central</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP NORTH CENTRAL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Sports_Medicine_CM_Northeast</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Sports Medicine opportunities to North East Territory Sports Medicine CM</description>
+        <label>Ortho Sports Medicine CM: Northeast</label>
+        <sharedTo>
+            <role>Sports_Medicine_CM_Northeast</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP NORTHEAST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Sports_Medicine_CM_South_Central</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Sports Medicine opportunities to South Central Territory Sports Medicine CM</description>
+        <label>Ortho Sports Medicine CM: South Central</label>
+        <sharedTo>
+            <role>Sports_Medicine_CM_South_Central</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP SOUTH CENTRAL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Sports_Medicine_CM_Southeast</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Sports Medicine opportunities to Southeast Territory Sports Medicine CM</description>
+        <label>Ortho Sports Medicine CM: Southeast</label>
+        <sharedTo>
+            <role>Sports_Medicine_CM_Southeast</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP SOUTHEAST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ortho_Sports_Medicine_CM_WEST</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This Sharing Rule Provides Read/Write access on Sports Medicine opportunities to West Territory Sports Medicine CM</description>
+        <label>Ortho Sports Medicine CM: WEST</label>
+        <sharedTo>
+            <role>Sports_Medicine_CM_West</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>US_Ortho_Region_Name__c</field>
+            <operation>equals</operation>
+            <value>AVP WEST</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SPORTS_MED_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to allow Marketing Director Sports Medicine to see all Sports Medicine data</description>
+        <label>SPORTS MED MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Sports_Medicine</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Sports Medicine</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Surgical_Opp_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Surgical Opp Sharing</label>
+        <sharedTo>
+            <role>ZimmerSurgicalPresident</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Walter,US Surgical,ROSA Spine,US OBT,MyMobility,ROSA Knee,ROSA Brain</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>TRAUMA_MARKETING_DIRECTOR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to allow Marketing Director Trauma to see all Trauma data</description>
+        <label>TRAUMA MARKETING DIRECTOR</label>
+        <sharedTo>
+            <role>Segment_Marketing_Director_Trauma</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Trauma</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>US_Professional_Education</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This gives all people related to rule read/write access to &apos;US Professional Education&apos; opportunity record type</description>
+        <label>US Professional Education</label>
+        <sharedTo>
+            <group>US_Professional_Education</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>US Professional Education</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ZB_Quebec_for_Philippe_Dominic</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ZB Quebec for Philippe &amp; Dominic</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBQUEBEC_Distributor</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AM-CA-RC Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CanadaDistributor__c</field>
+            <operation>equals</operation>
+            <value>ZBQUEBEC</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_Alberta_North</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule - Team Alberta North</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Alberta_North</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Alberta_North</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_Alberta_South</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule -Team Alberta South</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Alberta_South</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Alberta_South</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_BC_Interior</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule -Team BC - Interior</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_BC_Interior</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_BC_Interior</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_Lower_Mainland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule Team Lower Mainland</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Lower_Mainland</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Lower_Mainland</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_Manitoba</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule-Team Manitoba</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Manitoba</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Manitoba</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_Team_Vancouver_Island</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule - Team Vancouver Island</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Vancouver_Island</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Vancouver_Island</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_ONT_EAST</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for ONT EAST</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ONT_EAST</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ONT_EAST</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_ONT_NORTH</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for ONT NORTH</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ONT_NORTH</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ONT_NORTH</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_Downtown_Humber</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team Downtown &amp; Humber</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_Downtown_Humber</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_Downtown_Humber</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_GTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for  Team GTA</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_GTA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_GTA</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_London_Tri_Cities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team London &amp; Tri Cities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_London_Tri_Cities</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_London_Tri_Cities</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_NB_PEI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team NB &amp; PEI</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBEAST_Sales_Manager_Team_NB_PEI</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBEAST_Sales_Manager_Team_NB_PEI</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_NFLD</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team NFLD</label>
+        <sharedTo>
+            <role>ZBEAST_Sales_Rep_Team_NFLD</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ZBEAST_Sales_Rep_Team_NFLD</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_Nova_Scotia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team Nova Scotia</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBEAST_Sales_Manager_Team_Nova_Scotia</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBEAST_Sales_Manager_Team_Nova_Scotia</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_ON_NW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team ON NW</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ON_NW</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBONE_Sales_Manager_Team_ON_NW</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_SSW_Niagara</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team SSW &amp; Niagara</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_SSW_Niagara</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBOS_Sales_Manager_Team_SSW_Niagara</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Canada_Opportunity_Sharing_Rule_for_Team_Saskatchewan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Opportunity Sharing Rule for Team Saskatchewan</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Saskatchewan</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>ZBWEST_Sales_Manager_Team_Saskatchewan</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Corporate</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Corporate</label>
+        <sharedTo>
+            <group>Corporate</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>PresidentCEO</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EUATAllUsers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-AT-All Users</label>
+        <sharedTo>
+            <group>EU_AT_All_Access</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_AT_All_Access</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EUCHUsers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-CH-Users</label>
+        <sharedTo>
+            <group>EU_CH_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_CH_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_DK_FEST</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DK-FEST</label>
+        <sharedTo>
+            <group>EU_DK_FEST_Management</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_DK_FEST</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_DK_Recon</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-DK-Recon</label>
+        <sharedTo>
+            <group>EU_DK_Recon_Management</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EU_DK_Recon</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_NL_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-NL-Management</label>
+        <sharedTo>
+            <group>EU_NL_Management</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>EU_NL_Power_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EU-NL-Power Users</label>
+        <sharedTo>
+            <group>EU_NL_Power_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Netherlands</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Enterprise_Solution_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Enterprise Solution Access</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Enterprise_Solutions</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>AM_RC_Executive_Sales_Management</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Sales_Management_Read_Write_Opp</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Executive Sales Management Read Write Opp</description>
+        <label>Executive Sales Management Read Write Opp</label>
+        <sharedTo>
+            <role>AM_RC_Executive_Sales_Management</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AM_RC_Executive_Sales_Management</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jim_Holland_DSFFA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jim Holland DSFFA</label>
+        <sharedTo>
+            <role>Foot_Ankle_CM_Southeast</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Foot_Ankle_CM_North_Central</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>John_Fetchet_and_Team</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Fetchet and Team</label>
+        <sharedTo>
+            <group>John_Fetchet_and_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Surgical_User_Group</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Segment_Picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Segment Picklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cement</fullName>
+                <default>false</default>
+                <label>Cement</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Hips</fullName>
+                <default>false</default>
+                <label>Hips</label>
+            </value>
+            <value>
+                <fullName>Knees</fullName>
+                <default>false</default>
+                <label>Knees</label>
+            </value>
+            <value>
+                <fullName>Personalized Solutions</fullName>
+                <default>false</default>
+                <label>Personalized Solutions</label>
+            </value>
+            <value>
+                <fullName>Sports Med</fullName>
+                <default>false</default>
+                <label>Sports Med</label>
+            </value>
+            <value>
+                <fullName>Surgical Products</fullName>
+                <default>false</default>
+                <label>Surgical Products</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Spine</fullName>
+                <default>false</default>
+                <label>Spine</label>
+            </value>
+            <value>
+                <fullName>CMF</fullName>
+                <default>false</default>
+                <label>CMF</label>
+            </value>
+            <value>
+                <fullName>Thoracic</fullName>
+                <default>false</default>
+                <label>Thoracic</label>
+            </value>
+            <value>
+                <fullName>SAT</fullName>
+                <default>false</default>
+                <label>SAT</label>
+            </value>
+            <value>
+                <fullName>MyMobility</fullName>
+                <default>false</default>
+                <label>MyMobility</label>
+            </value>
+            <value>
+                <fullName>Effecient Care</fullName>
+                <default>false</default>
+                <label>Effecient Care</label>
+            </value>
+            <value>
+                <fullName>Lower Extremities</fullName>
+                <default>false</default>
+                <label>Lower Extremities</label>
+            </value>
+            <value>
+                <fullName>Upper Extremities</fullName>
+                <default>false</default>
+                <label>Upper Extremities</label>
+            </value>
+            <value>
+                <fullName>Extremities</fullName>
+                <default>false</default>
+                <label>Extremities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

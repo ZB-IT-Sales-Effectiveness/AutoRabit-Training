@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Analyst</masterLabel>
+        <translation><!-- Analyst --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coalition</masterLabel>
+        <translation><!-- Coalition --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer</masterLabel>
+        <translation>Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DA</masterLabel>
+        <translation><!-- DA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DC</masterLabel>
+        <translation><!-- DC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dormant Customer</masterLabel>
+        <translation>Schlafender Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOCUS</masterLabel>
+        <translation><!-- FOCUS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GPO</masterLabel>
+        <translation><!-- GPO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation><!-- ID --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IDN (CHILD)</masterLabel>
+        <translation><!-- IDN (CHILD) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IDN (PARENT)</masterLabel>
+        <translation><!-- IDN (PARENT) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IDN/IHN</masterLabel>
+        <translation><!-- IDN/IHN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS</masterLabel>
+        <translation><!-- IS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IW</masterLabel>
+        <translation><!-- IW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IX</masterLabel>
+        <translation><!-- IX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Integrator</masterLabel>
+        <translation><!-- Integrator --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investor</masterLabel>
+        <translation><!-- Investor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kunde</masterLabel>
+        <translation><!-- Kunde --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nicht-Kunde</masterLabel>
+        <translation><!-- Nicht-Kunde --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non-Customer</masterLabel>
+        <translation>Nicht-Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partner</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Potenzieller Kunde</masterLabel>
+        <translation>Potenzieller Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Presse</masterLabel>
+        <translation><!-- Presse --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private</masterLabel>
+        <translation><!-- Private --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public</masterLabel>
+        <translation><!-- Public --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation><!-- SD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WH</masterLabel>
+        <translation><!-- WH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Weitere</masterLabel>
+        <translation><!-- Weitere --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wettbewerber</masterLabel>
+        <translation><!-- Wettbewerber --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wiederverkäufer</masterLabel>
+        <translation><!-- Wiederverkäufer --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

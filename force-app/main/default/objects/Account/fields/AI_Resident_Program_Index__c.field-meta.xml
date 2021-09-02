@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Resident_Program_Index__c</fullName>
+    <externalId>false</externalId>
+    <formula>5*IF(Total_Number_of_Residents__c=0,0,IF(Total_Number_of_Residents__c&gt;=1&amp;&amp;Total_Number_of_Residents__c&lt;=10,2,IF(Total_Number_of_Residents__c &gt;=11&amp;&amp;Total_Number_of_Residents__c&lt;=20,4,IF(Total_Number_of_Residents__c&gt;=21&amp;&amp;Total_Number_of_Residents__c&lt;=30,6,IF(Total_Number_of_Residents__c&gt;=31&amp;&amp;Total_Number_of_Residents__c&lt;=40,8,10)))))+5* IF( Staff_Resident_training__c = 0,0, IF( Staff_Resident_training__c&gt;=1 &amp;&amp; Staff_Resident_training__c &lt;=2,2,IF( Staff_Resident_training__c&gt;=3 &amp;&amp; Staff_Resident_training__c &lt;=4,4,IF( Staff_Resident_training__c&gt;=5&amp;&amp; Staff_Resident_training__c&lt;=6,6, IF( Staff_Resident_training__c&gt;=7&amp;&amp; Staff_Resident_training__c&lt;=8,8,10)))))+2*IF(Wet_Lab__c,6,0)+2*IF(Dry_Lab__c,6,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AI Resident Program Index</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

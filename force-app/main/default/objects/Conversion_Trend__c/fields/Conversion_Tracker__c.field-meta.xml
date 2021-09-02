@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Tracker__c</fullName>
+    <externalId>false</externalId>
+    <label>Conversion Tracker</label>
+    <referenceTo>Conversion_Tracker__c</referenceTo>
+    <relationshipLabel>Conversion Trends</relationshipLabel>
+    <relationshipName>Conversion_Trends</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

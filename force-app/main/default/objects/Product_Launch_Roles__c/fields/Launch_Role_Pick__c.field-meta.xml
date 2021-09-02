@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Role_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Launch Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Primary Facility Contact</fullName>
+                <default>false</default>
+                <label>Primary Facility Contact</label>
+            </value>
+            <value>
+                <fullName>Primary Office Contact</fullName>
+                <default>false</default>
+                <label>Primary Office Contact</label>
+            </value>
+            <value>
+                <fullName>ROSA Champion Surgeon</fullName>
+                <default>false</default>
+                <label>ROSA Champion Surgeon</label>
+            </value>
+            <value>
+                <fullName>ROSA Distributor/GM</fullName>
+                <default>false</default>
+                <label>ROSA Distributor/GM</label>
+            </value>
+            <value>
+                <fullName>ROSA Distributor Ops Manager</fullName>
+                <default>false</default>
+                <label>ROSA Distributor Ops Manager</label>
+            </value>
+            <value>
+                <fullName>ROSA Fellow</fullName>
+                <default>false</default>
+                <label>ROSA Fellow</label>
+            </value>
+            <value>
+                <fullName>ROSA OR Director</fullName>
+                <default>false</default>
+                <label>ROSA OR Director</label>
+            </value>
+            <value>
+                <fullName>ROSA Ortho Coordinator</fullName>
+                <default>false</default>
+                <label>ROSA Ortho Coordinator</label>
+            </value>
+            <value>
+                <fullName>ROSA PDA</fullName>
+                <default>false</default>
+                <label>ROSA PDA</label>
+            </value>
+            <value>
+                <fullName>ROSA PDM</fullName>
+                <default>false</default>
+                <label>ROSA PDM</label>
+            </value>
+            <value>
+                <fullName>ROSA PDM Lead</fullName>
+                <default>false</default>
+                <label>ROSA PDM Lead</label>
+            </value>
+            <value>
+                <fullName>ROSA Recon Account Lead</fullName>
+                <default>false</default>
+                <label>ROSA Recon Account Lead</label>
+            </value>
+            <value>
+                <fullName>ROSA Recon Associate</fullName>
+                <default>false</default>
+                <label>ROSA Recon Associate</label>
+            </value>
+            <value>
+                <fullName>ROSA Recon Representative</fullName>
+                <default>false</default>
+                <label>ROSA Recon Representative</label>
+            </value>
+            <value>
+                <fullName>ROSA Recon ROSA Lead</fullName>
+                <default>false</default>
+                <label>ROSA Recon ROSA Lead</label>
+            </value>
+            <value>
+                <fullName>ROSA Recon Team Leader</fullName>
+                <default>false</default>
+                <label>ROSA Recon Team Leader</label>
+            </value>
+            <value>
+                <fullName>ROSA Resident</fullName>
+                <default>false</default>
+                <label>ROSA Resident</label>
+            </value>
+            <value>
+                <fullName>ROSA SPD Director</fullName>
+                <default>false</default>
+                <label>ROSA SPD Director</label>
+            </value>
+            <value>
+                <fullName>ROSA Surgeon</fullName>
+                <default>false</default>
+                <label>ROSA Surgeon</label>
+            </value>
+            <value>
+                <fullName>Surgeon</fullName>
+                <default>false</default>
+                <label>Surgeon</label>
+            </value>
+            <value>
+                <fullName>Unassigned</fullName>
+                <default>false</default>
+                <label>Unassigned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

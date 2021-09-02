@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Financial Doc Status --></label>
+    <name>Financial_Doc_Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved Return to Rep</masterLabel>
+        <translation><!-- Approved Return to Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit Approval</masterLabel>
+        <translation><!-- Credit Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doc Creation</masterLabel>
+        <translation><!-- Doc Creation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margin Approval</masterLabel>
+        <translation><!-- Margin Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity Revision Needed</masterLabel>
+        <translation><!-- Opportunity Revision Needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out for Signature</masterLabel>
+        <translation><!-- Out for Signature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PO Requested</masterLabel>
+        <translation><!-- PO Requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red Line</masterLabel>
+        <translation><!-- Red Line --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

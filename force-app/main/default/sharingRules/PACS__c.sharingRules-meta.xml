@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Access_to_all_PACS_records_to_PS_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Access to all PACS records to PS Team</label>
+        <sharedTo>
+            <group>PSAccessToMymobilityUsers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Biomet_Hibbard_BP_Business_Plan</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Zimmer Biomet Hibbard - BP</label>
+    <queue>Zimmer_Biomet_Hibbard_BP</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

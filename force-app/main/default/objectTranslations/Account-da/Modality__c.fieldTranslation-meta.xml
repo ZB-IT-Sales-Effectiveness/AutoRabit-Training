@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Modality --></label>
+    <name>Modality__c</name>
+    <picklistValues>
+        <masterLabel>CT</masterLabel>
+        <translation><!-- CT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MRI</masterLabel>
+        <translation><!-- MRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>X-Ray</masterLabel>
+        <translation><!-- X-Ray --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

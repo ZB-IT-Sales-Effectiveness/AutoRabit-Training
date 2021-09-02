@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie den Fachbereich des Krankenhaus aus, in dem der Kontakt tätig ist.</help>
+    <label>Fachbereich</label>
+    <name>Division__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation>Verwaltung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthesia</masterLabel>
+        <translation>Anästhesie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiac Surgery</masterLabel>
+        <translation>Herzchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiothoracic Surgery</masterLabel>
+        <translation>Herz- und Thoraxchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Sterile Services Department (CSSD)</masterLabel>
+        <translation>Zentrale Sterilgutversorgungsabteilung (ZSVA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communications</masterLabel>
+        <translation>Kommunikation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostics</masterLabel>
+        <translation>Diagnostik</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Room</masterLabel>
+        <translation>Notaufnahme</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot and Ankle Surgery</masterLabel>
+        <translation>Fuß- und Sprunggelenkchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery</masterLabel>
+        <translation>Allgemeine Chirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Geriatrics</masterLabel>
+        <translation>Geriatrie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand Surgery</masterLabel>
+        <translation>Handchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygiene</masterLabel>
+        <translation>Krankenhaushygiene</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Management</masterLabel>
+        <translation>Krankenhausmanagement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Medicine</masterLabel>
+        <translation>Innere Medizin</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Labor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Controlling</masterLabel>
+        <translation>Medizincontrolling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Product Safety</masterLabel>
+        <translation>Medizinproduktesicherheit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Technology</masterLabel>
+        <translation>Medizintechnik</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurosurgery</masterLabel>
+        <translation>Neurochirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing</masterLabel>
+        <translation>Krankenpflege</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operating Room</masterLabel>
+        <translation>OP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral and Maxillofacial Surgery</masterLabel>
+        <translation>Mund-, Kiefer- und Gesichtschirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedics</masterLabel>
+        <translation>Orthopädie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paediatric Surgery</masterLabel>
+        <translation>Kinderchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation>Apotheke</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapy</masterLabel>
+        <translation>Physiotherapie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic Surgery</masterLabel>
+        <translation>Plastische Chirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing</masterLabel>
+        <translation>Einkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Management</masterLabel>
+        <translation>QM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiology</masterLabel>
+        <translation>Radiologie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rehabilitation</masterLabel>
+        <translation>Rehabilitation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Surgery</masterLabel>
+        <translation>Wirbelsäulenchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Surgery</masterLabel>
+        <translation>Sportchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Services</masterLabel>
+        <translation>Technik</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic Surgery</masterLabel>
+        <translation>Thoraxchirurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma Surgery</masterLabel>
+        <translation>Unfallchirurgie</translation>
+    </picklistValues>
+</CustomFieldTranslation>

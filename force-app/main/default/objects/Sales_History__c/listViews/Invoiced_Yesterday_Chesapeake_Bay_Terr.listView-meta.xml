@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Yesterday_Chesapeake_Bay_Terr</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Customer_Contact_Name__c</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Total__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Code__c</field>
+        <operation>contains</operation>
+        <value>1194,1101,1070,1195,1196,1034,1085</value>
+    </filters>
+    <filters>
+        <field>Invoice_Date__c</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Invoiced Yesterday Chesapeake Bay Terr.</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>DN_USA_CB_Capitol_Southeast_Regen</group>
+        <group>DN_USA_CB_Southern_ISR</group>
+        <group>DN_USA_CP_SE_DDSS</group>
+    </sharedTo>
+</ListView>

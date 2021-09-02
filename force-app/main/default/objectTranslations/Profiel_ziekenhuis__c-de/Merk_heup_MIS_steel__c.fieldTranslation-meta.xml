@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies de fabrikant van de MIS heup steel. --></help>
+    <label><!-- Merk heup MIS steel --></label>
+    <name>Merk_heup_MIS_steel__c</name>
+    <picklistValues>
+        <masterLabel>EndoCare</masterLabel>
+        <translation><!-- EndoCare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finsbury</masterLabel>
+        <translation><!-- Finsbury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johnson &amp; Johnson</masterLabel>
+        <translation><!-- Johnson &amp; Johnson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link</masterLabel>
+        <translation><!-- Link --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smith Nephew</masterLabel>
+        <translation><!-- Smith Nephew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stryker</masterLabel>
+        <translation><!-- Stryker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer</masterLabel>
+        <translation><!-- Zimmer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

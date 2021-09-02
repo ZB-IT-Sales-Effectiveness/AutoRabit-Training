@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_ZBCOLORADO_SPEARS_0088_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB-COLORADO (SPEARS) (0088) QUEUE</label>
+    <queue>Q_ZBCOLORADO_SPEARS_0088</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

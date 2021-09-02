@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Adopter Profile --></label>
+    <name>Adopter_Profile__c</name>
+    <picklistValues>
+        <masterLabel>Early adopter</masterLabel>
+        <translation><!-- Early adopter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early majority</masterLabel>
+        <translation><!-- Early majority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innovator</masterLabel>
+        <translation><!-- Innovator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laggards</masterLabel>
+        <translation><!-- Laggards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late majority</masterLabel>
+        <translation><!-- Late majority --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

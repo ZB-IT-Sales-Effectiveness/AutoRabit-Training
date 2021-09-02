@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SoldTo Account --></label>
+    <name>SoldToAccountId__c</name>
+    <relationshipLabel>Documentations de facturation (vendu à)</relationshipLabel>
+</CustomFieldTranslation>

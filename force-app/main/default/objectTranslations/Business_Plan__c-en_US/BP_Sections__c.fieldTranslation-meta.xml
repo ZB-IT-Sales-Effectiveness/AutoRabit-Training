@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BP Sections --></label>
+    <name>BP_Sections__c</name>
+    <picklistValues>
+        <masterLabel>Dashboard Links</masterLabel>
+        <translation><!-- Dashboard Links --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Headcount Summary</masterLabel>
+        <translation><!-- Headcount Summary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing &amp; Volume/Mix Forecast</masterLabel>
+        <translation><!-- Pricing &amp; Volume/Mix Forecast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Summary</masterLabel>
+        <translation><!-- Sales Summary --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

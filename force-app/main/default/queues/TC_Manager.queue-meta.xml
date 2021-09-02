@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>TC Manager</name>
+    <queueMembers>
+        <users>
+            <user>alina.mulet@zimmerbiomet.com</user>
+            <user>amanda.grouff@zimmerbiomet.com</user>
+            <user>arun.singh@zimmerbiomet.com</user>
+            <user>jessica.co@zimmerbiomet.com</user>
+            <user>natalia.duranoliver@zimmerbiomet.com</user>
+            <user>steve.hilsen@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RollUp_Target_Changes__c</fullName>
+    <externalId>false</externalId>
+    <label>RollUp Target Changes</label>
+    <summaryFilterItems>
+        <field>Target_Refinement__c.Question_Type__c</field>
+        <operation>equals</operation>
+        <value>Target Changes</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Target_Refinement__c.IsActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Target_Refinement__c.Territory_Master__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

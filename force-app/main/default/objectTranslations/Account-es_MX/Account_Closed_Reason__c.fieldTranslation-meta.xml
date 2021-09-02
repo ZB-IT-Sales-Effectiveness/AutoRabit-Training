@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Inactive Site =  All ship to locations for this customer number in this territory are marked as inactive in Oracle, but there are ship to locations active in other territories.
+Inactive Account = Inactive customer in Oracle. --></help>
+    <label><!-- Account Inactive Reason --></label>
+    <name>Account_Closed_Reason__c</name>
+</CustomFieldTranslation>

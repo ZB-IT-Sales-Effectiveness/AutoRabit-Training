@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RSD (Regional Sales Director) --></label>
+    <name>RSD_Regional_Sales_Director__c</name>
+    <picklistValues>
+        <masterLabel>Adam Dutka</masterLabel>
+        <translation><!-- Adam Dutka --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bill McCarrick</masterLabel>
+        <translation><!-- Bill McCarrick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sara Walma</masterLabel>
+        <translation><!-- Sara Walma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scott Schwartz</masterLabel>
+        <translation><!-- Scott Schwartz --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

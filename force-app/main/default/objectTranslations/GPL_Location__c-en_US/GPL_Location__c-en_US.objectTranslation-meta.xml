@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GPL Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GPL Locations</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter only the 8 digit phone number with no spaces or (brackets). --></errorMessage>
+        <name>AUPhoneValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter only the 2 digits in your area Code. --></errorMessage>
+        <name>AreaCodeValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A country must be specified. --></errorMessage>
+        <name>CountrySelected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fax number must be a valid US or International phone number. (###)###-#### or +## ##### ##### --></errorMessage>
+        <name>FaxValidOrBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone number must be a valid US or International phone number. (###)###-#### or +## ##### ##### --></errorMessage>
+        <name>PhoneValidOrBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A state must be specified --></errorMessage>
+        <name>StateSelected</name>
+    </validationRules>
+</CustomObjectTranslation>

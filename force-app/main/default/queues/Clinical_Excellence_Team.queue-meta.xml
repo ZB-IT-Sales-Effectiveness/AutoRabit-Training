@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>surgicalsales-clinicalexcellence@zimmerbiomet.com</email>
+    <name>Clinical Excellence Team</name>
+    <queueMembers>
+        <users>
+            <user>alex.white@zimmerbiomet.com</user>
+            <user>candace.samudio@zimmer.com</user>
+            <user>denny.keo@zimmerbiomet.com</user>
+            <user>farshad.fahimi@zimmerbiomet.com</user>
+            <user>herm.halljr@zimmerbiomet.com</user>
+            <user>jeff.mccracken@zimmerbiomet.com</user>
+            <user>karen.kenny@zimmer.com</user>
+            <user>matthew.reeder@zimmerbiomet.com</user>
+            <user>tom.difilippo@zimmerbiomet.com</user>
+            <user>travis.little@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Referral Division --></label>
+    <name>Referral_Division__c</name>
+    <picklistValues>
+        <masterLabel>ARTHRO</masterLabel>
+        <translation><!-- ARTHRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASC</masterLabel>
+        <translation><!-- ASC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLINICAL</masterLabel>
+        <translation><!-- CLINICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORTHO</masterLabel>
+        <translation><!-- ORTHO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation><!-- OTHER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA</masterLabel>
+        <translation><!-- ROSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPORTS MED</masterLabel>
+        <translation><!-- SPORTS MED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SURGICAL</masterLabel>
+        <translation><!-- SURGICAL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assigned --></label>
+    <name>Assigned__c</name>
+    <picklistValues>
+        <masterLabel>Arun Singh</masterLabel>
+        <translation><!-- Arun Singh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kathy Nulf</masterLabel>
+        <translation><!-- Kathy Nulf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lori Mishler</masterLabel>
+        <translation><!-- Lori Mishler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manish Vashistha</masterLabel>
+        <translation><!-- Manish Vashistha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ryan Sobecki</masterLabel>
+        <translation><!-- Ryan Sobecki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stephanie Ault</masterLabel>
+        <translation><!-- Stephanie Ault --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steven Steier</masterLabel>
+        <translation><!-- Steven Steier --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

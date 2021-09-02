@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Event Preference --></label>
+    <name>Event_Preference__c</name>
+    <picklistValues>
+        <masterLabel>Hands-On and Lecture</masterLabel>
+        <translation><!-- Hands-On and Lecture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lecture only</masterLabel>
+        <translation><!-- Lecture only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web-Based</masterLabel>
+        <translation><!-- Web-Based --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Last_Year_Sales__c&gt;75000,&quot;A&quot;, 
+IF(AND(Last_Year_Sales__c&lt;75000, Last_Year_Sales__c&gt;30000), &quot;B&quot;, 
+IF(AND(Last_Year_Sales__c&lt;30000, Last_Year_Sales__c&gt;5000), &quot;C&quot;, 
+IF(AND(Last_Year_Sales__c&lt;5000, Last_Year_Sales__c&gt;0), &quot;D&quot;, Null
+) 
+) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Segmentation France A &gt;75000 , B &gt;30 000, C &gt;5 000, D &gt;0</inlineHelpText>
+    <label>Segmentation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

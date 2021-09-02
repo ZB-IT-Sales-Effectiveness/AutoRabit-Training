@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accountpotentieel__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Totaal van het verkoopspotentieel van alle concurrerende producten</inlineHelpText>
+    <label>Accountpotentieel</label>
+    <summarizedField>Verkoopspotentieel__c.Potentieel__c</summarizedField>
+    <summaryForeignKey>Verkoopspotentieel__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

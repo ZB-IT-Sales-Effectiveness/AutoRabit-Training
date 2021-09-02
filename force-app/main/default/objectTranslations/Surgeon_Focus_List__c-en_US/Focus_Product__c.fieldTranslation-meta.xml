@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Focus Product --></label>
+    <name>Focus_Product__c</name>
+    <picklistValues>
+        <masterLabel>Anatomic Primary - Comprehensive Anatomic</masterLabel>
+        <translation><!-- Anatomic Primary - Comprehensive Anatomic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomic Primary - Other</masterLabel>
+        <translation><!-- Anatomic Primary - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomic Primary - Sidus Stemless Shoulder</masterLabel>
+        <translation><!-- Anatomic Primary - Sidus Stemless Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow - Coonrad Morrey</masterLabel>
+        <translation><!-- Elbow - Coonrad Morrey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow - Nexel</masterLabel>
+        <translation><!-- Elbow - Nexel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow - Other</masterLabel>
+        <translation><!-- Elbow - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow - Radial Head - Explor</masterLabel>
+        <translation><!-- Elbow - Radial Head - Explor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbow - Radial Head - L2L</masterLabel>
+        <translation><!-- Elbow - Radial Head - L2L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fracture - Comprehensive Fracture</masterLabel>
+        <translation><!-- Fracture - Comprehensive Fracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fracture - Other</masterLabel>
+        <translation><!-- Fracture - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI - Other</masterLabel>
+        <translation><!-- PSI - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI - Signature</masterLabel>
+        <translation><!-- PSI - Signature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reverse - TM Reverse</masterLabel>
+        <translation><!-- Reverse - TM Reverse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision - Comprehensive Revision</masterLabel>
+        <translation><!-- Revision - Comprehensive Revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision - Comprehensive SRS</masterLabel>
+        <translation><!-- Revision - Comprehensive SRS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision - Comprehensive VRS</masterLabel>
+        <translation><!-- Revision - Comprehensive VRS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision - Other</masterLabel>
+        <translation><!-- Revision - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation><!-- none --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Persona IQ</fullName>
+                <default>false</default>
+                <label>Persona IQ</label>
+            </value>
+            <value>
+                <fullName>mymobility</fullName>
+                <default>false</default>
+                <label>mymobility</label>
+            </value>
+            <value>
+                <fullName>OrthoIntel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OrthoIntel</label>
+            </value>
+            <value>
+                <fullName>mymobility Platform</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>mymobility Platform</label>
+            </value>
+            <value>
+                <fullName>mymobility with Apple Watch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>mymobility with Apple Watch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

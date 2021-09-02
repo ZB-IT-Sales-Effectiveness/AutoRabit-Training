@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physician_Read_Only</fullName>
+    <active>true</active>
+    <description>Only administrator can modify an inactive physician and physician(processing) record (now includes JAPAN Admin as Japan uses this flag)</description>
+    <errorConditionFormula>AND(OR(RecordTypeId =&apos;012800000002C4g&apos;,RecordTypeId =&apos;012800000003YRm&apos;), Inactive__pc , NOT(OR($User.ProfileId = &apos;00e80000001SSEB&apos; , $User.ProfileId = &apos;00e80000000sptd&apos;, 
+ $User.ProfileId = &apos;00eC0000001WhI8&apos;,
+$User.ProfileId = &apos;00e80000001SQMI&apos;)))</errorConditionFormula>
+    <errorMessage>Only administrator can modify an inactive record.</errorMessage>
+</ValidationRule>

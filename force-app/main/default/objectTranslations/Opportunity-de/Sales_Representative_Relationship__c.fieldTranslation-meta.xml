@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sales Representative Relationship --></label>
+    <name>Sales_Representative_Relationship__c</name>
+    <picklistValues>
+        <masterLabel>Called on account, never met with surgeon</masterLabel>
+        <translation><!-- Called on account, never met with surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Established relationship with surgeon</masterLabel>
+        <translation><!-- Established relationship with surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Met with surgeon multiple times within past year</masterLabel>
+        <translation><!-- Met with surgeon multiple times within past year --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Met with surgeon once</masterLabel>
+        <translation><!-- Met with surgeon once --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never called on account</masterLabel>
+        <translation><!-- Never called on account --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

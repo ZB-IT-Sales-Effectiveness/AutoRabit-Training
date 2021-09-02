@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>AM - User Account Control</label>
+    <loginAccess>false</loginAccess>
+    <profiles>Custom - Force.com - One App User</profiles>
+    <profiles>Chatter Free (No group or owner)</profiles>
+    <roles>CSO</roles>
+    <roles>Zimmer Reconstructive President</roles>
+    <roles>Ops &amp; Logistics SVP</roles>
+    <roles>Spine Executive Management</roles>
+    <roles>General Counsel/Secretary/SVP</roles>
+    <roles>AM-Executive Sales Management</roles>
+</DelegateGroup>

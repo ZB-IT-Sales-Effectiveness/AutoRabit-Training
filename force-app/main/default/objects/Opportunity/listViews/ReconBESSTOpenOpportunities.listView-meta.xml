@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReconBESSTOpenOpportunities</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Distributor__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Discover,Solve,Execute</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Revenue_Growth,Opportunity.Gel_One,Opportunity.AM_US_SM_Sales,Opportunity.US_Extremities,Opportunity.US_Foot_and_Ankle_Sales</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.US_Hip,Opportunity.AM_US_BI_Sales,Opportunity.US_Trauma</value>
+    </filters>
+    <label>All Open Recon &amp; BESST Opportunities</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AM_RC_Executive_Sales_Management</role>
+        <role>AssociateDirectorCRM</role>
+        <role>CRMAdministrator</role>
+        <roleAndSubordinatesInternal>ZimmerReconstructivePresident</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

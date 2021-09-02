@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential__c</fullName>
+    <externalId>false</externalId>
+    <label>Potential</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Robotics Ja</fullName>
+                <default>false</default>
+                <label>Robotics Ja</label>
+            </value>
+            <value>
+                <fullName>Robotics Nein</fullName>
+                <default>false</default>
+                <label>Robotics Nein</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

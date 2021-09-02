@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Area VP of Sales</masterLabel>
+        <translation><!-- Area VP of Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Chefarzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact Person</masterLabel>
+        <translation>Kontaktperson</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Counsilors</masterLabel>
+        <translation>Konsiliararzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General Manager</masterLabel>
+        <translation>Geschäftsführer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Leitung Verwaltung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Head of Finance</masterLabel>
+        <translation>Leitung Finanzen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Head of Operating Room</masterLabel>
+        <translation>Leitung OP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Head of Purchasing</masterLabel>
+        <translation>Leitung Einkauf</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Patient Surgeon</masterLabel>
+        <translation>Belegarzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Leitender Oberarzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Medizinischer Direktor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>OP Pfleger/in</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-AVP</masterLabel>
+        <translation><!-- PS-AVP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ONE Planner Hip Sales Rep</masterLabel>
+        <translation><!-- PS-ONE Planner Hip Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ONE Planner Hip Surgeon</masterLabel>
+        <translation><!-- PS-ONE Planner Hip Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-PDM</masterLabel>
+        <translation><!-- PS-PDM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-PSI Knee Surgeon</masterLabel>
+        <translation><!-- PS-PSI Knee Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Hip Sales Rep</masterLabel>
+        <translation><!-- PS-ROSA Hip Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Hip Surgeon</masterLabel>
+        <translation><!-- PS-ROSA Hip Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Knee Sales Rep</masterLabel>
+        <translation><!-- PS-ROSA Knee Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Knee Surgeon</masterLabel>
+        <translation><!-- PS-ROSA Knee Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Shoulder Sales Rep</masterLabel>
+        <translation><!-- PS-ROSA Shoulder Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Shoulder Surgeon</masterLabel>
+        <translation><!-- PS-ROSA Shoulder Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Spine Sales Rep</masterLabel>
+        <translation><!-- PS-ROSA Spine Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-ROSA Spine Surgeon</masterLabel>
+        <translation><!-- PS-ROSA Spine Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-RSM</masterLabel>
+        <translation><!-- PS-RSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-Sales Rep</masterLabel>
+        <translation><!-- PS-Sales Rep --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-Signature ONE Surgeon</masterLabel>
+        <translation><!-- PS-Signature ONE Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-Surgeon</masterLabel>
+        <translation><!-- PS-Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS-X-PSI Knee Surgeon</masterLabel>
+        <translation><!-- PS-X-PSI Knee Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Apotheker</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purchaser</masterLabel>
+        <translation>Einkäufer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Referral</masterLabel>
+        <translation>Einweiser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Regional Sales Manager</masterLabel>
+        <translation><!-- Regional Sales Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Secretary/Assistent</masterLabel>
+        <translation>Sekretär/Assistent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Security Manager</masterLabel>
+        <translation>Sicherheitsbeauftragter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Oberarzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Student</masterLabel>
+        <translation><!-- Student --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Arzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technician</masterLabel>
+        <translation>Techniker</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VP of Sales</masterLabel>
+        <translation><!-- VP of Sales --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

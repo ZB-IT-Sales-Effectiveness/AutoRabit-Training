@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Type Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Request_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Deal Review</fullName>
+                <default>false</default>
+                <label>Structure Review</label>
+            </value>
+            <value>
+                <fullName>Quote Approval</fullName>
+                <default>false</default>
+                <label>Quote Approval</label>
+            </value>
+            <value>
+                <fullName>Red Lines</fullName>
+                <default>false</default>
+                <label>Red Lines</label>
+            </value>
+            <value>
+                <fullName>Facility Visit</fullName>
+                <default>false</default>
+                <label>Facility Visit</label>
+            </value>
+            <value>
+                <fullName>Product Support/Knowledge</fullName>
+                <default>false</default>
+                <label>Product Support/Knowledge</label>
+            </value>
+            <value>
+                <fullName>Inventory Status/Back Orders/Product Holds- Replacements or Substitutes</fullName>
+                <default>false</default>
+                <label>Inventory Status/Back Orders/Product Holds- Replacements or Substitutes</label>
+            </value>
+            <value>
+                <fullName>CEU Education Training</fullName>
+                <default>false</default>
+                <label>CEU Education Training</label>
+            </value>
+            <value>
+                <fullName>In-servicing</fullName>
+                <default>false</default>
+                <label>In-servicing</label>
+            </value>
+            <value>
+                <fullName>Clinical Support</fullName>
+                <default>false</default>
+                <label>Clinical Support</label>
+            </value>
+            <value>
+                <fullName>Field Support for Product set-up after sale</fullName>
+                <default>false</default>
+                <label>Field Support for Product set-up after sale</label>
+            </value>
+            <value>
+                <fullName>Demonstrations/Training</fullName>
+                <default>false</default>
+                <label>Demonstrations/Training</label>
+            </value>
+            <value>
+                <fullName>End of Term Tracking</fullName>
+                <default>false</default>
+                <label>End of Term Tracking</label>
+            </value>
+            <value>
+                <fullName>Cross-reference (Account Support)</fullName>
+                <default>false</default>
+                <label>Cross-reference (Account Support)</label>
+            </value>
+            <value>
+                <fullName>Order In-put &amp; Tracking Information</fullName>
+                <default>false</default>
+                <label>Order In-put &amp; Tracking Information</label>
+            </value>
+            <value>
+                <fullName>Opportunities Management</fullName>
+                <default>false</default>
+                <label>Opportunities Management</label>
+            </value>
+            <value>
+                <fullName>Find Accounts</fullName>
+                <default>false</default>
+                <label>Find Accounts</label>
+            </value>
+            <value>
+                <fullName>Marketing Collateral</fullName>
+                <default>false</default>
+                <label>Marketing Collateral</label>
+            </value>
+            <value>
+                <fullName>Pricing information</fullName>
+                <default>false</default>
+                <label>Pricing information</label>
+            </value>
+            <value>
+                <fullName>GPO/IDN Information</fullName>
+                <default>false</default>
+                <label>GPO/IDN Information</label>
+            </value>
+            <value>
+                <fullName>Account Reporting</fullName>
+                <default>false</default>
+                <label>Account Reporting</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Current Contract Status</fullName>
+                <default>false</default>
+                <label>Current Contract Status</label>
+            </value>
+            <value>
+                <fullName>Document Deficiencies</fullName>
+                <default>false</default>
+                <label>Document Deficiencies</label>
+            </value>
+            <value>
+                <fullName>Cross-Sell Targets at GPO/IDN/Coalition Level</fullName>
+                <default>false</default>
+                <label>Cross-Sell Targets at GPO/IDN/Coalition Level</label>
+            </value>
+            <value>
+                <fullName>Email Blast assistance</fullName>
+                <default>false</default>
+                <label>Email Blast assistance</label>
+            </value>
+            <value>
+                <fullName>Template building</fullName>
+                <default>false</default>
+                <label>Template building</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>Quote/Deal Approval</fullName>
+                <default>false</default>
+                <label>Quote/Deal Approval</label>
+            </value>
+            <value>
+                <fullName>Robotics</fullName>
+                <default>false</default>
+                <label>Robotics</label>
+            </value>
+            <value>
+                <fullName>MyMobility</fullName>
+                <default>false</default>
+                <label>MyMobility</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+            <value>
+                <fullName>Create Documents</fullName>
+                <default>false</default>
+                <label>Create Documents</label>
+            </value>
+            <value>
+                <fullName>Product Evaluation</fullName>
+                <default>false</default>
+                <label>Product Evaluation</label>
+            </value>
+            <value>
+                <fullName>Compliance Status Tracking</fullName>
+                <default>false</default>
+                <label>Compliance Status Tracking</label>
+            </value>
+            <value>
+                <fullName>Discovery Event</fullName>
+                <default>false</default>
+                <label>Discovery Event</label>
+            </value>
+            <value>
+                <fullName>DRA Status Tracking</fullName>
+                <default>false</default>
+                <label>DRA Status Tracking</label>
+            </value>
+            <value>
+                <fullName>ROSA+ Status Tracking</fullName>
+                <default>false</default>
+                <label>ROSA+ Status Tracking</label>
+            </value>
+            <value>
+                <fullName>ROSA Placement Status Tracking</fullName>
+                <default>false</default>
+                <label>ROSA Placement Status Tracking</label>
+            </value>
+            <value>
+                <fullName>Shortfall Invoice Status Tracking</fullName>
+                <default>false</default>
+                <label>Shortfall Invoice Status Tracking</label>
+            </value>
+            <value>
+                <fullName>Revision Needed</fullName>
+                <default>false</default>
+                <label>Revision Needed</label>
+            </value>
+            <value>
+                <fullName>Deal Change</fullName>
+                <default>false</default>
+                <label>Deal Change</label>
+            </value>
+            <value>
+                <fullName>ROSA Rental Status Tracking</fullName>
+                <default>false</default>
+                <label>ROSA Rental Status Tracking</label>
+            </value>
+            <value>
+                <fullName>Surgical DRA Status Tracking</fullName>
+                <default>false</default>
+                <label>Surgical DRA Status Tracking</label>
+            </value>
+            <value>
+                <fullName>Business Account Review</fullName>
+                <default>false</default>
+                <label>Business Account Review</label>
+            </value>
+            <value>
+                <fullName>SFDC Training</fullName>
+                <default>false</default>
+                <label>SFDC Training</label>
+            </value>
+            <value>
+                <fullName>Record Update</fullName>
+                <default>false</default>
+                <label>Record Update</label>
+            </value>
+            <value>
+                <fullName>New Field</fullName>
+                <default>false</default>
+                <label>New Field</label>
+            </value>
+            <value>
+                <fullName>Object Creation</fullName>
+                <default>false</default>
+                <label>Object Creation</label>
+            </value>
+            <value>
+                <fullName>Report Creation</fullName>
+                <default>false</default>
+                <label>Report Creation</label>
+            </value>
+            <value>
+                <fullName>New Widget</fullName>
+                <default>false</default>
+                <label>New Widget</label>
+            </value>
+            <value>
+                <fullName>New Dashboard</fullName>
+                <default>false</default>
+                <label>New Dashboard</label>
+            </value>
+            <value>
+                <fullName>Dashboard Update</fullName>
+                <default>false</default>
+                <label>Dashboard Update</label>
+            </value>
+            <value>
+                <fullName>Report Update</fullName>
+                <default>false</default>
+                <label>Report Update</label>
+            </value>
+            <value>
+                <fullName>Widget Update</fullName>
+                <default>false</default>
+                <label>Widget Update</label>
+            </value>
+            <value>
+                <fullName>Enhancement(s)</fullName>
+                <default>false</default>
+                <label>Enhancement(s)</label>
+            </value>
+            <value>
+                <fullName>Margin Approval</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Margin Approval</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Brand/Marketing/Product Manager</controllingFieldValue>
+            <valueName>Product Support/Knowledge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand/Marketing/Product Manager</controllingFieldValue>
+            <valueName>Inventory Status/Back Orders/Product Holds- Replacements or Substitutes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Deal Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <controllingFieldValue>Regional Sales Director</controllingFieldValue>
+            <valueName>Quote Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Red Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>End of Term Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Document Deficiencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Create Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Compliance Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>DRA Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>ROSA+ Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>ROSA Placement Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Shortfall Invoice Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Deal Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>ROSA Rental Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Surgical DRA Status Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Solutions Team</controllingFieldValue>
+            <valueName>Business Account Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Excellence Team</controllingFieldValue>
+            <valueName>CEU Education Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Excellence Team</controllingFieldValue>
+            <valueName>In-servicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Excellence Team</controllingFieldValue>
+            <valueName>Clinical Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Support</controllingFieldValue>
+            <valueName>Site Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Support</controllingFieldValue>
+            <valueName>Quote/Deal Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPO Group</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPO Group</controllingFieldValue>
+            <valueName>Current Contract Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPO Group</controllingFieldValue>
+            <valueName>Cross-Sell Targets at GPO/IDN/Coalition Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarCom</controllingFieldValue>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Marketing Collateral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarCom</controllingFieldValue>
+            <valueName>Email Blast assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarCom</controllingFieldValue>
+            <valueName>Template building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Regional Sales Director</controllingFieldValue>
+            <valueName>Facility Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Field Support for Product set-up after sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Demonstrations/Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Cross-reference (Account Support)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Order In-put &amp; Tracking Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Opportunities Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Find Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Pricing information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>GPO/IDN Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Account Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Product Evaluation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Support Team</controllingFieldValue>
+            <valueName>Discovery Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Visit</controllingFieldValue>
+            <valueName>Robotics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Visit</controllingFieldValue>
+            <valueName>MyMobility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Visit</controllingFieldValue>
+            <valueName>Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>SFDC Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Record Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>New Field</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Object Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Report Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>New Widget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>New Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Dashboard Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Report Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Widget Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SFDC Request</controllingFieldValue>
+            <valueName>Enhancement(s)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

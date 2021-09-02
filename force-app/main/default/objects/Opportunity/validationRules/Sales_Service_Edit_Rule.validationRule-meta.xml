@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Service_Edit_Rule</fullName>
+    <active>false</active>
+    <description>Sales profile cannot edit service plans and Service profile cannot edit sales plans.</description>
+    <errorConditionFormula>And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),If(($RecordType.Name=&quot;Sales&quot;  &amp;&amp;  $Profile.Id=&quot;00e80000001377C&quot;) || ( $Profile.Id = &quot;00e80000000tnIn&quot; &amp;&amp;  $RecordType.Name = &quot;MyMobility&quot;),true,false))</errorConditionFormula>
+    <errorMessage>You do not have permissions to edit. Hit cancel</errorMessage>
+</ValidationRule>

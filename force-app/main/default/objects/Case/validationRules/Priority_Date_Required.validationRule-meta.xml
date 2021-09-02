@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Date_Required</fullName>
+    <active>true</active>
+    <description>If Specific Date is selected, priority date must be entered</description>
+    <errorConditionFormula>And(NOT( OR( IsPickVal($User.Region__c,&quot;EU&quot;), IsPickVal( $User.Business_Division__c,&quot;DN&quot;))),ISPICKVAL(Priority,&quot;Specific Date&quot;), Text(Priority_Date__c) =&quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Priority_Date__c</errorDisplayField>
+    <errorMessage>Please enter a Specific Date for which this case must be closed</errorMessage>
+</ValidationRule>

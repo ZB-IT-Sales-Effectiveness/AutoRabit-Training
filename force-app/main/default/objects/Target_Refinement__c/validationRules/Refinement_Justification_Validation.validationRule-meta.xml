@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refinement_Justification_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Refinement__c  &lt;&gt; 0,LEN( Comment__c )=0, ISPICKVAL(Territory_Master__r.Status__c, &apos;Round 2&apos;) )</errorConditionFormula>
+    <errorMessage>Please add your refinement justification</errorMessage>
+</ValidationRule>

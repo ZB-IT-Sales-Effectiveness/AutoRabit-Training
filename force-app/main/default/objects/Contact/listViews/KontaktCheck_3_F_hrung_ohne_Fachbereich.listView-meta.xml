@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KontaktCheck_3_F_hrung_ohne_Fachbereich</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Division__c</columns>
+    <columns>F_hrungsebene__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>F_hrungsebene__c</field>
+        <operation>equals</operation>
+        <value>1,2,3</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.EU_Contact_Record_Type</value>
+    </filters>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Inactiv__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>KontaktCheck 3 (Führung ohne Fachbereich</label>
+    <language>de</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Germany</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

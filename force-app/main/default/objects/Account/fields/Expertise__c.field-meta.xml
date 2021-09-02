@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expertise__c</fullName>
+    <description>surgeon specialize in the following procedures</description>
+    <externalId>false</externalId>
+    <label>Expertise</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anterior Supine</fullName>
+                <default>false</default>
+                <label>Anterior Supine</label>
+            </value>
+            <value>
+                <fullName>CAS Hip</fullName>
+                <default>false</default>
+                <label>CAS Hip</label>
+            </value>
+            <value>
+                <fullName>DeNovo NT</fullName>
+                <default>false</default>
+                <label>DeNovo NT</label>
+            </value>
+            <value>
+                <fullName>Fitmore</fullName>
+                <default>false</default>
+                <label>Fitmore</label>
+            </value>
+            <value>
+                <fullName>Kinectiv</fullName>
+                <default>false</default>
+                <label>Kinectiv</label>
+            </value>
+            <value>
+                <fullName>LPS Flex Mobile</fullName>
+                <default>false</default>
+                <label>LPS Flex Mobile</label>
+            </value>
+            <value>
+                <fullName>NK ll Gender Flex</fullName>
+                <default>false</default>
+                <label>NK ll Gender Flex</label>
+            </value>
+            <value>
+                <fullName>Patient Specific</fullName>
+                <default>false</default>
+                <label>Patient Specific</label>
+            </value>
+            <value>
+                <fullName>PFJ/ZUK</fullName>
+                <default>false</default>
+                <label>PFJ/ZUK</label>
+            </value>
+            <value>
+                <fullName>Revision Hip</fullName>
+                <default>false</default>
+                <label>Revision Hip</label>
+            </value>
+            <value>
+                <fullName>Revision Knee</fullName>
+                <default>false</default>
+                <label>Revision Knee</label>
+            </value>
+            <value>
+                <fullName>Hyaluronic Acid</fullName>
+                <default>false</default>
+                <label>Hyaluronic Acid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

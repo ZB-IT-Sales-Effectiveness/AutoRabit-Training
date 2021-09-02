@@ -1,0 +1,37 @@
+.THIS h1{
+    border-bottom: 2px solid #020202;
+    font-size: 18px;
+}
+.THIS label{
+    font-weight: bold;
+}
+.THIS p{
+    font-size: 12px;
+    color: #757575;
+    text-align: left;
+}
+.THIS .text-ri{
+    text-align: right;
+}
+.THIS div.slds-hyphenate{
+    text-align: left;
+    font-size: 30px;
+}
+
+/* .THIS .slds-modal__container {
+    margin: 0 auto;
+    width: 65%;
+    max-width: 78rem;
+    min-width: 30rem;
+} */
+.THIS .body__master-data {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.THIS .cont_data{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}

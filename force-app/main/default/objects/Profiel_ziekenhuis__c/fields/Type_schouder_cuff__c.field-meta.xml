@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_schouder_cuff__c</fullName>
+    <description>Kies het type voor de schouder cuff.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies het type voor de schouder cuff.</inlineHelpText>
+    <label>Type schouder cuff</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Merk_schouder_cuff__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZCRP</fullName>
+                <default>false</default>
+                <label>ZCRP</label>
+            </value>
+            <value>
+                <fullName>Nottingham</fullName>
+                <default>false</default>
+                <label>Nottingham</label>
+            </value>
+            <value>
+                <fullName>CTA</fullName>
+                <default>false</default>
+                <label>CTA</label>
+            </value>
+            <value>
+                <fullName>CRP (cuff matje)</fullName>
+                <default>false</default>
+                <label>CRP (cuff matje)</label>
+            </value>
+            <value>
+                <fullName>Aequalis</fullName>
+                <default>false</default>
+                <label>Aequalis</label>
+            </value>
+            <value>
+                <fullName>Graftjacket</fullName>
+                <default>false</default>
+                <label>Graftjacket</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Zimmer</controllingFieldValue>
+            <valueName>ZCRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biomet</controllingFieldValue>
+            <valueName>Nottingham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>CTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Johnson &amp; Johnson</controllingFieldValue>
+            <valueName>CRP (cuff matje)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tornier</controllingFieldValue>
+            <valueName>Aequalis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wright Medical</controllingFieldValue>
+            <valueName>Graftjacket</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Western Michigan Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>000960,001220,004524,006875,007484,007540,008616,008775,009103,009146,009179,010561,010776,011475,012105,012495,013790,015897,016178,021007,024091,029055,029550,030616,030875,031080,032285,032420,033429,036485,036789,038810,039356,039879,040558,041201,043000,044163,044300,045570,049582,050752,051146,051222,051804,053573,053935,053960,054079,054453,055699,057825,059132,059929,060792,061995,063378,063490,063960,067995,073805,075815,077165,079478,080334,080405,084080,085155,086825,087988,088311,090000,093343,095263,096875,097742,109417</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

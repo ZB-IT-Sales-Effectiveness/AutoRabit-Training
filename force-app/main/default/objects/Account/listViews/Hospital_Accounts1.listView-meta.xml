@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hospital_Accounts1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>MDM_SAP_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>Distributor_Name__c</columns>
+    <columns>Segmentation_Surgical__c</columns>
+    <columns>GPO_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.HealthcareFacility</value>
+    </filters>
+    <label>My Hospital Accounts</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>AM_VP_US_Sales</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CanadaGeneralManager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>DirectorSalesTraining</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Enterprise_Solutions</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>LatinAmerica</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Management_Personalized_Solutions</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Market_Access</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Trade_Compliance_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>ZB_Canada_Corporate</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

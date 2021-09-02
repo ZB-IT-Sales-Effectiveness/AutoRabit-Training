@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ZB Apex Surgical</name>
+    <queueMembers>
+        <users>
+            <user>agatten@zbapexsurgical.com</user>
+            <user>chagg@zbapexsurgical.com</user>
+            <user>deggerton@zbapexsurgical.com</user>
+            <user>dhillyer@zbapexsurgical.com</user>
+            <user>dfox@zbapexsurgical.com</user>
+            <user>fcatanzaro@zbapexsurgical.com</user>
+            <user>kkleve@zbapexsurgical.com</user>
+            <user>pgallagher@zbapexsurgical.com</user>
+            <user>prpersic@zbapexsurgical.com</user>
+            <user>sgoetz@zbapexsurgical.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Conversion_Tracker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Territory_Name__c</sobjectType>
+    </queueSobject>
+</Queue>

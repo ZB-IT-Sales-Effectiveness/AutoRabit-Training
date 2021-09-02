@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>2nd Surgeon List</fullName>
+        <default>false</default>
+        <label>2nd Surgeon List</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Issues</fullName>
+        <default>false</default>
+        <label>Account Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement Request</fullName>
+        <default>false</default>
+        <label>Advertisement Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Anweisungen unklar</fullName>
+        <default>false</default>
+        <label>Anweisungen unklar</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Benutzer nicht an Schulung teilgenommen</fullName>
+        <default>false</default>
+        <label>Benutzer nicht an Schulung teilgenommen</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Bestehendes Problem</fullName>
+        <default>false</default>
+        <label>Bestehendes Problem</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign Registrant</fullName>
+        <default>false</default>
+        <label>Campaign Registrant</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Study Info</fullName>
+        <default>false</default>
+        <label>Clinical Study Info</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Selling Information</fullName>
+        <default>false</default>
+        <label>Competitive Selling Information</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complex functionality</fullName>
+        <default>false</default>
+        <label>Complex functionality</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contact info</fullName>
+        <default>false</default>
+        <label>Contact info</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Content Issues</fullName>
+        <default>false</default>
+        <label>Content Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customs/Instru-Serve</fullName>
+        <default>false</default>
+        <label>Customs/Instru-Serve</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Bank/Product Samples</fullName>
+        <default>false</default>
+        <label>Demo Bank/Product Samples</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Digital Templating</fullName>
+        <default>false</default>
+        <label>Digital Templating</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing problem</fullName>
+        <default>false</default>
+        <label>Existing problem</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HelpDesk/Technical Support</fullName>
+        <default>false</default>
+        <label>HelpDesk/Technical Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Image Request</fullName>
+        <default>false</default>
+        <label>Image Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Instructions not clear</fullName>
+        <default>false</default>
+        <label>Instructions not clear</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Komplexe Funktion</fullName>
+        <default>false</default>
+        <label>Komplexe Funktion</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Library Literature</fullName>
+        <default>false</default>
+        <label>Library Literature</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Live Surgery</fullName>
+        <default>false</default>
+        <label>Live Surgery</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Question</fullName>
+        <default>false</default>
+        <label>Marketing Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Metal Allergy Question</fullName>
+        <default>false</default>
+        <label>Metal Allergy Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Metal Composition</fullName>
+        <default>false</default>
+        <label>Metal Composition</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>MLC/Cadaver Lab</fullName>
+        <default>false</default>
+        <label>MLC/Cadaver Lab</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>MRI Question</fullName>
+        <default>false</default>
+        <label>MRI Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Neues Problem</fullName>
+        <default>false</default>
+        <label>Neues Problem</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Account</fullName>
+        <default>false</default>
+        <label>New Account</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New problem</fullName>
+        <default>false</default>
+        <label>New problem</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Password Reset/Resend</fullName>
+        <default>false</default>
+        <label>Password Reset/Resend</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Patient ID Card</fullName>
+        <default>false</default>
+        <label>Patient ID Card</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Post Op Questions</fullName>
+        <default>false</default>
+        <label>Post Op Questions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product/Education Material</fullName>
+        <default>false</default>
+        <label>Product/Education Material</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Experience Report</fullName>
+        <default>false</default>
+        <label>Product Experience Report</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Identification Number</fullName>
+        <default>false</default>
+        <label>Product Identification Number</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Question</fullName>
+        <default>false</default>
+        <label>Product Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PSI Online Training</fullName>
+        <default>false</default>
+        <label>PSI Online Training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Recall Question</fullName>
+        <default>false</default>
+        <label>Recall Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reporting Zimmer Van Issues</fullName>
+        <default>false</default>
+        <label>Reporting Zimmer Van Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Collateral</fullName>
+        <default>false</default>
+        <label>Sales Collateral</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Rep/Med Pro Inquiry</fullName>
+        <default>false</default>
+        <label>Sales Rep/Med Pro Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Training</fullName>
+        <default>false</default>
+        <label>Sales Training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Success Story</fullName>
+        <default>false</default>
+        <label>Success Story</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon List</fullName>
+        <default>false</default>
+        <label>Surgeon List</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgical Technique Information</fullName>
+        <default>false</default>
+        <label>Surgical Technique Information</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Transfer Call CRM</fullName>
+        <default>false</default>
+        <label>Transfer Call CRM</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Transfer Call Cust Service</fullName>
+        <default>false</default>
+        <label>Transfer Call Cust Service</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>User didn&apos;t attend training</fullName>
+        <default>false</default>
+        <label>User didn&apos;t attend training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>US Sales and Marketing Terr Visit</fullName>
+        <default>false</default>
+        <label>US Sales and Marketing Terr Visit</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>X-Ray Identification</fullName>
+        <default>false</default>
+        <label>X-Ray Identification</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer.com Questions</fullName>
+        <default>false</default>
+        <label>Zimmer.com Questions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Institute Training</fullName>
+        <default>false</default>
+        <label>Zimmer Institute Training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Denovo Availability</fullName>
+        <default>false</default>
+        <label>Denovo Availability</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar Registrant</fullName>
+        <default>false</default>
+        <label>Seminar Registrant</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Import/Export Inquiry</fullName>
+        <default>false</default>
+        <label>Import/Export Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HCP Closed Adjusted</fullName>
+        <default>false</default>
+        <label>HCP Closed Adjusted</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HCP Closed Agreed</fullName>
+        <default>false</default>
+        <label>HCP Closed Agreed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HCP Closed Dispute</fullName>
+        <default>false</default>
+        <label>HCP Closed Dispute</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Disposables</fullName>
+        <default>false</default>
+        <label>Disposables</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up/Feedback</fullName>
+        <default>false</default>
+        <label>Follow Up/Feedback</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected/Canceled Case</fullName>
+        <default>false</default>
+        <label>Rejected/Canceled Case</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>EMEA</fullName>
+        <default>false</default>
+        <label>EMEA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>APAC</fullName>
+        <default>false</default>
+        <label>APAC</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Case ID &amp; Recon Request</fullName>
+        <default>false</default>
+        <label>Case ID &amp; Recon Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada</fullName>
+        <default>false</default>
+        <label>Canada</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping</fullName>
+        <default>false</default>
+        <label>Shipping</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>SMS&amp; PSI Setup</fullName>
+        <default>false</default>
+        <label>SMS&amp; PSI Setup</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hardware</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hardware &amp; Software</fullName>
+        <default>false</default>
+        <label>Hardware &amp; Software</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>I.T. Technical Issues</fullName>
+        <default>false</default>
+        <label>I.T. Technical Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Instruments</fullName>
+        <default>false</default>
+        <label>Instruments</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Logistics</fullName>
+        <default>false</default>
+        <label>Logistics</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Technical Issue</fullName>
+        <default>false</default>
+        <label>Product Technical Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Compliant</fullName>
+        <default>false</default>
+        <label>Quality Compliant</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Scan Center</fullName>
+        <default>false</default>
+        <label>Scan Center</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <label>Software</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon Training</fullName>
+        <default>false</default>
+        <label>Surgeon Training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>International</fullName>
+        <default>false</default>
+        <label>International</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HR/Career</fullName>
+        <default>false</default>
+        <label>HR/Career</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Support</fullName>
+        <default>false</default>
+        <label>Web Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Investor Relations</fullName>
+        <default>false</default>
+        <label>Investor Relations</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Accounts Payable</fullName>
+        <default>false</default>
+        <label>Accounts Payable</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Zimmer Institute</fullName>
+        <default>false</default>
+        <label>Zimmer Institute</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Corporate Inquiry</fullName>
+        <default>false</default>
+        <label>Corporate Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre Alert Notice</fullName>
+        <default>false</default>
+        <label>Pre Alert Notice</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Information Only</fullName>
+        <default>false</default>
+        <label>Information Only</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contracted</fullName>
+        <default>false</default>
+        <label>Contracted</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Renegotiation planned</fullName>
+        <default>false</default>
+        <label>Renegotiation planned</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

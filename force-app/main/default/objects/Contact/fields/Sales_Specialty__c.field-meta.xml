@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Specialty__c</fullName>
+    <description>Used to assign sales specialty</description>
+    <externalId>false</externalId>
+    <label>Sales Specialty</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Role_Classification__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recon (H, K)</fullName>
+                <default>false</default>
+                <label>Recon (H, K)</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Foot &amp; Ankle</fullName>
+                <default>false</default>
+                <label>Foot &amp; Ankle</label>
+            </value>
+            <value>
+                <fullName>Extremities</fullName>
+                <default>false</default>
+                <label>Extremities</label>
+            </value>
+            <value>
+                <fullName>Surgical</fullName>
+                <default>false</default>
+                <label>Surgical</label>
+            </value>
+            <value>
+                <fullName>B.E.S.T.</fullName>
+                <default>false</default>
+                <label>B.E.S.T.</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Early Intervention</fullName>
+                <default>false</default>
+                <label>Early Intervention</label>
+            </value>
+            <value>
+                <fullName>DSFFA</fullName>
+                <default>false</default>
+                <label>DSFFA</label>
+            </value>
+            <value>
+                <fullName>Full Line</fullName>
+                <default>false</default>
+                <label>Full Line</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Office - Driver</controllingFieldValue>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Office - Inventory  Coordinator</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Office - Customer Service Representative</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Office - HR/Compliance</controllingFieldValue>
+            <controllingFieldValue>Distributor</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <controllingFieldValue>Office - Admin</controllingFieldValue>
+            <controllingFieldValue>Office - Customer Service Leader</controllingFieldValue>
+            <controllingFieldValue>Office - Inventory Leader</controllingFieldValue>
+            <controllingFieldValue>Office - Operations Leader</controllingFieldValue>
+            <controllingFieldValue>Office - Sourcing/Logistics Leader</controllingFieldValue>
+            <controllingFieldValue>Office - Pricing/Contracts</controllingFieldValue>
+            <controllingFieldValue>Office - Sourcing/Logistics Coordinator</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Recon (H, K)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Trauma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Foot &amp; Ankle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Extremities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Surgical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>B.E.S.T.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Early Intervention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>DSFFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Associate</controllingFieldValue>
+            <controllingFieldValue>Sales Manager with accounts</controllingFieldValue>
+            <controllingFieldValue>Sales Manager without accounts</controllingFieldValue>
+            <controllingFieldValue>Surgery Case Specialist</controllingFieldValue>
+            <valueName>Full Line</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

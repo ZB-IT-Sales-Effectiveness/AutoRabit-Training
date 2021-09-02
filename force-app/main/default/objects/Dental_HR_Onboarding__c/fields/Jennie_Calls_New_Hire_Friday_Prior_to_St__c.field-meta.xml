@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jennie_Calls_New_Hire_Friday_Prior_to_St__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Jennie Calls New Hire Friday Prior to St</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

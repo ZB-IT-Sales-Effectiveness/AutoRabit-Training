@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Catégories</label>
+    <name>Kategorie__c</name>
+    <picklistValues>
+        <masterLabel>BIKE</masterLabel>
+        <translation><!-- BIKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMF &amp; Thoracic</masterLabel>
+        <translation><!-- CMF &amp; Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christmas Card</masterLabel>
+        <translation><!-- Christmas Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christmas Card personal</masterLabel>
+        <translation><!-- Christmas Card personal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DKOU Dinner</masterLabel>
+        <translation><!-- DKOU Dinner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Encoding hints</masterLabel>
+        <translation><!-- Encoding hints --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knee</masterLabel>
+        <translation><!-- Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newsletter</masterLabel>
+        <translation><!-- Newsletter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMI</masterLabel>
+        <translation><!-- PMI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price List PDF</masterLabel>
+        <translation><!-- Price List PDF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price List XL</masterLabel>
+        <translation><!-- Price List XL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPdate</masterLabel>
+        <translation><!-- UPdate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPdate3</masterLabel>
+        <translation><!-- UPdate3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPdate6</masterLabel>
+        <translation><!-- UPdate6 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

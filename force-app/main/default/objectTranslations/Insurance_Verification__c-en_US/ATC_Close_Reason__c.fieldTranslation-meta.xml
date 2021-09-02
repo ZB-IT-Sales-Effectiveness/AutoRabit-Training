@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A-Approved
+C-changed insurance /surgeons
+D-lost to competitive other device
+G-does not meet program guidelines
+I-did not meet indications /clinical criteria
+O-office-canceled
+P-patient-canceled
+T-lost to alternative treatment
+NR-Non-responsive --></help>
+    <label><!-- ATC Close Reason --></label>
+    <name>ATC_Close_Reason__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation><!-- A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C</masterLabel>
+        <translation><!-- C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation><!-- D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation><!-- G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I</masterLabel>
+        <translation><!-- I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NR</masterLabel>
+        <translation><!-- NR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O</masterLabel>
+        <translation><!-- O --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P</masterLabel>
+        <translation><!-- P --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T</masterLabel>
+        <translation><!-- T --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

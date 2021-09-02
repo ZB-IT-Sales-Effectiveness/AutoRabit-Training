@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ortho_Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Affixus - AFFIXUS</fullName>
+                <default>false</default>
+                <label>Affixus - AFFIXUS</label>
+            </value>
+            <value>
+                <fullName>Allograft</fullName>
+                <default>false</default>
+                <label>Allograft</label>
+            </value>
+            <value>
+                <fullName>ALPS - ALPS Elbow</fullName>
+                <default>false</default>
+                <label>ALPS - ALPS Elbow</label>
+            </value>
+            <value>
+                <fullName>ALPS - ALPS Hand</fullName>
+                <default>false</default>
+                <label>ALPS - ALPS Hand</label>
+            </value>
+            <value>
+                <fullName>ALPS - ALPS PROX TIB</fullName>
+                <default>false</default>
+                <label>ALPS - ALPS PROX TIB</label>
+            </value>
+            <value>
+                <fullName>ALPS - PROXIMAL HUMERUS PLATING</fullName>
+                <default>false</default>
+                <label>ALPS - PROXIMAL HUMERUS PLATING</label>
+            </value>
+            <value>
+                <fullName>Anatomic Primary - Comprehensive Anatomic</fullName>
+                <default>false</default>
+                <label>Anatomic Primary - Comprehensive Anatomic</label>
+            </value>
+            <value>
+                <fullName>Anatomic Primary - Other</fullName>
+                <default>false</default>
+                <label>Anatomic Primary - Other</label>
+            </value>
+            <value>
+                <fullName>Anatomic Primary - Sidus Stemless Shoulder</fullName>
+                <default>false</default>
+                <label>Anatomic Primary - Sidus Stemless Shoulder</label>
+            </value>
+            <value>
+                <fullName>Arcus</fullName>
+                <default>false</default>
+                <label>Arcus</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS - AMNIOREPAIR</fullName>
+                <default>false</default>
+                <label>BIOLOGICS - AMNIOREPAIR</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS - AUTOLOGOUS BONE MARROW ASP - BIOCUE/MARROWSTIM</fullName>
+                <default>false</default>
+                <label>BIOLOGICS - AUTOLOGOUS BONE MARROW ASP - BIOCUE/MARROWSTIM</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS - AUTOLOGOUS BONE MARROW ASP - PERFUSE</fullName>
+                <default>false</default>
+                <label>BIOLOGICS - AUTOLOGOUS BONE MARROW ASP - PERFUSE</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICS - AUTOLOGOUS CONCENTRATE - GPS/CLOTALYST</fullName>
+                <default>false</default>
+                <label>BIOLOGICS - AUTOLOGOUS CONCENTRATE - GPS/CLOTALYST</label>
+            </value>
+            <value>
+                <fullName>Biologics - Biocue</fullName>
+                <default>false</default>
+                <label>Biologics - Biocue</label>
+            </value>
+            <value>
+                <fullName>Biologics - GPS</fullName>
+                <default>false</default>
+                <label>Biologics - GPS</label>
+            </value>
+            <value>
+                <fullName>Biologics - Other</fullName>
+                <default>false</default>
+                <label>Biologics - Other</label>
+            </value>
+            <value>
+                <fullName>BIOMATERIALS - EARLY INTERVENTION - BIOLOGICS HA GEL</fullName>
+                <default>false</default>
+                <label>BIOMATERIALS - EARLY INTERVENTION - BIOLOGICS HA GEL</label>
+            </value>
+            <value>
+                <fullName>Bonus Triad</fullName>
+                <default>false</default>
+                <label>Bonus Triad</label>
+            </value>
+            <value>
+                <fullName>CABLE PRODUCTS - CABLE READY</fullName>
+                <default>false</default>
+                <label>CABLE PRODUCTS - CABLE READY</label>
+            </value>
+            <value>
+                <fullName>Cannulated Screws</fullName>
+                <default>false</default>
+                <label>Cannulated Screws</label>
+            </value>
+            <value>
+                <fullName>CANNULATED SCREWS - CANNULATED SCREWS IMPLANTS</fullName>
+                <default>false</default>
+                <label>CANNULATED SCREWS - CANNULATED SCREWS IMPLANTS</label>
+            </value>
+            <value>
+                <fullName>CARRIGEN - CARRIGEN</fullName>
+                <default>false</default>
+                <label>CARRIGEN - CARRIGEN</label>
+            </value>
+            <value>
+                <fullName>ClearMix</fullName>
+                <default>false</default>
+                <label>ClearMix</label>
+            </value>
+            <value>
+                <fullName>DBM - BONUS CC</fullName>
+                <default>false</default>
+                <label>DBM - BONUS CC</label>
+            </value>
+            <value>
+                <fullName>DBM - BONUS Triad</fullName>
+                <default>false</default>
+                <label>DBM - BONUS Triad</label>
+            </value>
+            <value>
+                <fullName>DISPOSABLE INSTRUMENTS - ARCUS</fullName>
+                <default>false</default>
+                <label>DISPOSABLE INSTRUMENTS - ARCUS</label>
+            </value>
+            <value>
+                <fullName>DVR - DVR ANATOMIC</fullName>
+                <default>false</default>
+                <label>DVR - DVR ANATOMIC</label>
+            </value>
+            <value>
+                <fullName>DVR - DVR CROSSLOCK</fullName>
+                <default>false</default>
+                <label>DVR - DVR CROSSLOCK</label>
+            </value>
+            <value>
+                <fullName>Elbow - Coonrad Morrey</fullName>
+                <default>false</default>
+                <label>Elbow - Coonrad Morrey</label>
+            </value>
+            <value>
+                <fullName>Elbow - Nexel</fullName>
+                <default>false</default>
+                <label>Elbow - Nexel</label>
+            </value>
+            <value>
+                <fullName>Elbow - Other</fullName>
+                <default>false</default>
+                <label>Elbow - Other</label>
+            </value>
+            <value>
+                <fullName>Elbow - Radial Head - Explor</fullName>
+                <default>false</default>
+                <label>Elbow - Radial Head - Explor</label>
+            </value>
+            <value>
+                <fullName>Elbow - Radial Head - L2L</fullName>
+                <default>false</default>
+                <label>Elbow - Radial Head - L2L</label>
+            </value>
+            <value>
+                <fullName>EQUIVABONE - EQUIVABONE</fullName>
+                <default>false</default>
+                <label>EQUIVABONE - EQUIVABONE</label>
+            </value>
+            <value>
+                <fullName>F&amp;A SPORTS MED - BIOLOGICS - KNEE CREATIONS</fullName>
+                <default>false</default>
+                <label>F&amp;A SPORTS MED - BIOLOGICS - KNEE CREATIONS</label>
+            </value>
+            <value>
+                <fullName>Fracture - Comprehensive Fracture</fullName>
+                <default>false</default>
+                <label>Fracture - Comprehensive Fracture</label>
+            </value>
+            <value>
+                <fullName>Fracture - Cup - Bipolar</fullName>
+                <default>false</default>
+                <label>Fracture - Cup - Bipolar</label>
+            </value>
+            <value>
+                <fullName>Fracture - Cup - Unipolar</fullName>
+                <default>false</default>
+                <label>Fracture - Cup - Unipolar</label>
+            </value>
+            <value>
+                <fullName>Fracture - Other</fullName>
+                <default>false</default>
+                <label>Fracture - Other</label>
+            </value>
+            <value>
+                <fullName>Fracture - Stem - Echo FX</fullName>
+                <default>false</default>
+                <label>Fracture - Stem - Echo FX</label>
+            </value>
+            <value>
+                <fullName>Fracture - Stem - Versys LDFX</fullName>
+                <default>false</default>
+                <label>Fracture - Stem - Versys LDFX</label>
+            </value>
+            <value>
+                <fullName>GAMMA - GAMMA</fullName>
+                <default>false</default>
+                <label>GAMMA - GAMMA</label>
+            </value>
+            <value>
+                <fullName>Gel One - Gel One</fullName>
+                <default>false</default>
+                <label>Gel One - Gel One</label>
+            </value>
+            <value>
+                <fullName>Hip  - Juggerknot</fullName>
+                <default>false</default>
+                <label>Hip  - Juggerknot</label>
+            </value>
+            <value>
+                <fullName>Hip  - Other</fullName>
+                <default>false</default>
+                <label>Hip  - Other</label>
+            </value>
+            <value>
+                <fullName>IMPLANT - JUGGERKNOT</fullName>
+                <default>false</default>
+                <label>IMPLANT - JUGGERKNOT</label>
+            </value>
+            <value>
+                <fullName>IMPLANT - JUGGERLOC</fullName>
+                <default>false</default>
+                <label>IMPLANT - JUGGERLOC</label>
+            </value>
+            <value>
+                <fullName>IMPLANT - ZIPTIGHT</fullName>
+                <default>false</default>
+                <label>IMPLANT - ZIPTIGHT</label>
+            </value>
+            <value>
+                <fullName>InCore</fullName>
+                <default>false</default>
+                <label>InCore</label>
+            </value>
+            <value>
+                <fullName>INSTRUMENTS - NEXTRA</fullName>
+                <default>false</default>
+                <label>INSTRUMENTS - NEXTRA</label>
+            </value>
+            <value>
+                <fullName>INSTRUMENTS - PIROVUE</fullName>
+                <default>false</default>
+                <label>INSTRUMENTS - PIROVUE</label>
+            </value>
+            <value>
+                <fullName>INSTRUMENTS - RELINE</fullName>
+                <default>false</default>
+                <label>INSTRUMENTS - RELINE</label>
+            </value>
+            <value>
+                <fullName>Juggerloc</fullName>
+                <default>false</default>
+                <label>Juggerloc</label>
+            </value>
+            <value>
+                <fullName>Knee - APERFIX</fullName>
+                <default>false</default>
+                <label>Knee - APERFIX</label>
+            </value>
+            <value>
+                <fullName>Knee - Juggerstitch</fullName>
+                <default>false</default>
+                <label>Knee - Juggerstitch</label>
+            </value>
+            <value>
+                <fullName>Knee - Other</fullName>
+                <default>false</default>
+                <label>Knee - Other</label>
+            </value>
+            <value>
+                <fullName>Knee - Toggleloc</fullName>
+                <default>false</default>
+                <label>Knee - Toggleloc</label>
+            </value>
+            <value>
+                <fullName>MSP</fullName>
+                <default>false</default>
+                <label>MSP</label>
+            </value>
+            <value>
+                <fullName>NAILS - PHOENIX</fullName>
+                <default>false</default>
+                <label>NAILS - PHOENIX</label>
+            </value>
+            <value>
+                <fullName>NCB - NCB PLATES</fullName>
+                <default>false</default>
+                <label>NCB - NCB PLATES</label>
+            </value>
+            <value>
+                <fullName>NCB PERIPROSTHETIC - NCB PERIPROSTHETIC PLATES</fullName>
+                <default>false</default>
+                <label>NCB PERIPROSTHETIC - NCB PERIPROSTHETIC PLATES</label>
+            </value>
+            <value>
+                <fullName>Nextra</fullName>
+                <default>false</default>
+                <label>Nextra</label>
+            </value>
+            <value>
+                <fullName>NPI - Fast Frame</fullName>
+                <default>false</default>
+                <label>NPI - Fast Frame</label>
+            </value>
+            <value>
+                <fullName>NPI - OSTEO CHONDRIAL ALLOGRAFT</fullName>
+                <default>false</default>
+                <label>NPI - OSTEO CHONDRIAL ALLOGRAFT</label>
+            </value>
+            <value>
+                <fullName>NPI - THP</fullName>
+                <default>false</default>
+                <label>NPI - THP</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>OTHER - ARCUS</fullName>
+                <default>false</default>
+                <label>OTHER - ARCUS</label>
+            </value>
+            <value>
+                <fullName>Other - MyMobility Pull through</fullName>
+                <default>false</default>
+                <label>Other - MyMobility Pull through</label>
+            </value>
+            <value>
+                <fullName>OTHER - NEXTRA</fullName>
+                <default>false</default>
+                <label>OTHER - NEXTRA</label>
+            </value>
+            <value>
+                <fullName>Partial - Oxford</fullName>
+                <default>false</default>
+                <label>Partial - Oxford</label>
+            </value>
+            <value>
+                <fullName>Partial - Oxford Cementless</fullName>
+                <default>false</default>
+                <label>Partial - Oxford Cementless</label>
+            </value>
+            <value>
+                <fullName>Partial - PPK</fullName>
+                <default>false</default>
+                <label>Partial - PPK</label>
+            </value>
+            <value>
+                <fullName>PERIARTICULAR LK PLATES SCREWS - PERIARTICULAR LK PLATES TIBIA</fullName>
+                <default>false</default>
+                <label>PERIARTICULAR LK PLATES SCREWS - PERIARTICULAR LK PLATES TIBIA</label>
+            </value>
+            <value>
+                <fullName>PERIARTICULAR LK PLATES SCREWS - PERIARTICULAR LK PLT ELBOW</fullName>
+                <default>false</default>
+                <label>PERIARTICULAR LK PLATES SCREWS - PERIARTICULAR LK PLT ELBOW</label>
+            </value>
+            <value>
+                <fullName>Persona iQ</fullName>
+                <default>false</default>
+                <label>Persona iQ</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - BIODRIVE</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - BIODRIVE</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - HCS &amp; TWIST-OFF</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - HCS &amp; TWIST-OFF</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - INCORE LAPIDUS</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - INCORE LAPIDUS</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - MSP</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - MSP</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - PERIARTICULAR</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - PERIARTICULAR</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - RELINE</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - RELINE</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - SPECIALIZED SCREWS</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - SPECIALIZED SCREWS</label>
+            </value>
+            <value>
+                <fullName>PLATES &amp; SCREWS - Stratum</fullName>
+                <default>false</default>
+                <label>PLATES &amp; SCREWS - Stratum</label>
+            </value>
+            <value>
+                <fullName>Primary - Cup - Continuum</fullName>
+                <default>false</default>
+                <label>Primary - Cup - Continuum</label>
+            </value>
+            <value>
+                <fullName>Primary - Cup - G7 Osseoti</fullName>
+                <default>false</default>
+                <label>Primary - Cup - G7 Osseoti</label>
+            </value>
+            <value>
+                <fullName>Primary - Cup - G7 PPS</fullName>
+                <default>false</default>
+                <label>Primary - Cup - G7 PPS</label>
+            </value>
+            <value>
+                <fullName>Primary - Cup - Magnum</fullName>
+                <default>false</default>
+                <label>Primary - Cup - Magnum</label>
+            </value>
+            <value>
+                <fullName>Primary - Cup - Trilogy</fullName>
+                <default>false</default>
+                <label>Primary - Cup - Trilogy</label>
+            </value>
+            <value>
+                <fullName>Primary - Dual Mobility - G7 CoCr Liner</fullName>
+                <default>false</default>
+                <label>Primary - Dual Mobility - G7 CoCr Liner</label>
+            </value>
+            <value>
+                <fullName>Primary - Head - Ceramic 1 Piec</fullName>
+                <default>false</default>
+                <label>Primary - Head - Ceramic 1 Piec</label>
+            </value>
+            <value>
+                <fullName>Primary - Head - Ceramic Delta Option</fullName>
+                <default>false</default>
+                <label>Primary - Head - Ceramic Delta Option</label>
+            </value>
+            <value>
+                <fullName>Primary - Head - CoCr</fullName>
+                <default>false</default>
+                <label>Primary - Head - CoCr</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - Arcom XL</fullName>
+                <default>false</default>
+                <label>Primary - Liner - Arcom XL</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - Arcom XL Active Articulation</fullName>
+                <default>false</default>
+                <label>Primary - Liner - Arcom XL Active Articulation</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - E1</fullName>
+                <default>false</default>
+                <label>Primary - Liner - E1</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - E1 Active Articulation</fullName>
+                <default>false</default>
+                <label>Primary - Liner - E1 Active Articulation</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - Longevity</fullName>
+                <default>false</default>
+                <label>Primary - Liner - Longevity</label>
+            </value>
+            <value>
+                <fullName>Primary - Liner - Vivacit E</fullName>
+                <default>false</default>
+                <label>Primary - Liner - Vivacit E</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Avenir</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Avenir</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Avenir Complete</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Avenir Complete</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - CPT</fullName>
+                <default>false</default>
+                <label>Primary - Stem - CPT</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Echo Bimetric</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Echo Bimetric</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Echo Bimetric Microplasty</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Echo Bimetric Microplasty</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Fitmore</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Fitmore</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Sirius</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Sirius</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Taperloc Complete</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Taperloc Complete</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Taperloc Complete Microplasty</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Taperloc Complete Microplasty</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - TM Primary</fullName>
+                <default>false</default>
+                <label>Primary - Stem - TM Primary</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Versys Advocate</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Versys Advocate</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Versys Heritage</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Versys Heritage</label>
+            </value>
+            <value>
+                <fullName>Primary - Stem - Wagner Cone</fullName>
+                <default>false</default>
+                <label>Primary - Stem - Wagner Cone</label>
+            </value>
+            <value>
+                <fullName>PSI - Other</fullName>
+                <default>false</default>
+                <label>PSI - Other</label>
+            </value>
+            <value>
+                <fullName>PSI - Signature</fullName>
+                <default>false</default>
+                <label>PSI - Signature</label>
+            </value>
+            <value>
+                <fullName>Refobacin</fullName>
+                <default>false</default>
+                <label>Refobacin</label>
+            </value>
+            <value>
+                <fullName>Relign</fullName>
+                <default>false</default>
+                <label>Relign</label>
+            </value>
+            <value>
+                <fullName>ReLine</fullName>
+                <default>false</default>
+                <label>ReLine</label>
+            </value>
+            <value>
+                <fullName>Reverse - Comprehensive Reverse</fullName>
+                <default>false</default>
+                <label>Reverse - Comprehensive Reverse</label>
+            </value>
+            <value>
+                <fullName>Reverse - Other</fullName>
+                <default>false</default>
+                <label>Reverse - Other</label>
+            </value>
+            <value>
+                <fullName>Reverse - TM Reverse</fullName>
+                <default>false</default>
+                <label>Reverse - TM Reverse</label>
+            </value>
+            <value>
+                <fullName>Revision - 360</fullName>
+                <default>false</default>
+                <label>Revision - 360</label>
+            </value>
+            <value>
+                <fullName>Revision - Comprehensive Revision</fullName>
+                <default>false</default>
+                <label>Revision - Comprehensive Revision</label>
+            </value>
+            <value>
+                <fullName>Revision - Comprehensive SRS</fullName>
+                <default>false</default>
+                <label>Revision - Comprehensive SRS</label>
+            </value>
+            <value>
+                <fullName>Revision - Comprehensive VRS</fullName>
+                <default>false</default>
+                <label>Revision - Comprehensive VRS</label>
+            </value>
+            <value>
+                <fullName>Revision - Cup - Continuum MH</fullName>
+                <default>false</default>
+                <label>Revision - Cup - Continuum MH</label>
+            </value>
+            <value>
+                <fullName>Revision - Cup - Osseoti MH</fullName>
+                <default>false</default>
+                <label>Revision - Cup - Osseoti MH</label>
+            </value>
+            <value>
+                <fullName>Revision - Cup - TMARS</fullName>
+                <default>false</default>
+                <label>Revision - Cup - TMARS</label>
+            </value>
+            <value>
+                <fullName>Revision - Cup - Trilogy</fullName>
+                <default>false</default>
+                <label>Revision - Cup - Trilogy</label>
+            </value>
+            <value>
+                <fullName>Revision - Dual Mobility - G7 CoCr Liner</fullName>
+                <default>false</default>
+                <label>Revision - Dual Mobility - G7 CoCr Liner</label>
+            </value>
+            <value>
+                <fullName>Revision - Head - Ceramic 1 Piec</fullName>
+                <default>false</default>
+                <label>Revision - Head - Ceramic 1 Piec</label>
+            </value>
+            <value>
+                <fullName>Revision - Head - Ceramic Delta Option</fullName>
+                <default>false</default>
+                <label>Revision - Head - Ceramic Delta Option</label>
+            </value>
+            <value>
+                <fullName>Revision - Head - CoCr</fullName>
+                <default>false</default>
+                <label>Revision - Head - CoCr</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - Arcom XL</fullName>
+                <default>false</default>
+                <label>Revision - Liner - Arcom XL</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - Arcom XL Active Articulation</fullName>
+                <default>false</default>
+                <label>Revision - Liner - Arcom XL Active Articulation</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - E1</fullName>
+                <default>false</default>
+                <label>Revision - Liner - E1</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - E1 Active Articulation</fullName>
+                <default>false</default>
+                <label>Revision - Liner - E1 Active Articulation</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - Longevity</fullName>
+                <default>false</default>
+                <label>Revision - Liner - Longevity</label>
+            </value>
+            <value>
+                <fullName>Revision - Liner - Vivacit E</fullName>
+                <default>false</default>
+                <label>Revision - Liner - Vivacit E</label>
+            </value>
+            <value>
+                <fullName>Revision - OSS</fullName>
+                <default>false</default>
+                <label>Revision - OSS</label>
+            </value>
+            <value>
+                <fullName>Revision - Other</fullName>
+                <default>false</default>
+                <label>Revision - Other</label>
+            </value>
+            <value>
+                <fullName>Revision - Persona</fullName>
+                <default>false</default>
+                <label>Revision - Persona</label>
+            </value>
+            <value>
+                <fullName>Revision - Stem - Arcos 1 Piece</fullName>
+                <default>false</default>
+                <label>Revision - Stem - Arcos 1 Piece</label>
+            </value>
+            <value>
+                <fullName>Revision - Stem - Arcos Modular</fullName>
+                <default>false</default>
+                <label>Revision - Stem - Arcos Modular</label>
+            </value>
+            <value>
+                <fullName>Revision - Stem - Wagner SL</fullName>
+                <default>false</default>
+                <label>Revision - Stem - Wagner SL</label>
+            </value>
+            <value>
+                <fullName>SCP</fullName>
+                <default>false</default>
+                <label>SCP</label>
+            </value>
+            <value>
+                <fullName>SCP - SCP</fullName>
+                <default>false</default>
+                <label>SCP - SCP</label>
+            </value>
+            <value>
+                <fullName>Shoulder - Biowic</fullName>
+                <default>false</default>
+                <label>Shoulder - Biowic</label>
+            </value>
+            <value>
+                <fullName>Shoulder - Juggernot</fullName>
+                <default>false</default>
+                <label>Shoulder - Juggernot</label>
+            </value>
+            <value>
+                <fullName>Shoulder - Other</fullName>
+                <default>false</default>
+                <label>Shoulder - Other</label>
+            </value>
+            <value>
+                <fullName>Shoulder - Quatro</fullName>
+                <default>false</default>
+                <label>Shoulder - Quatro</label>
+            </value>
+            <value>
+                <fullName>SPORTS MED BIOLOGICS - KNEE SUBCHONDROPLASTY - KNEE CREATIONS</fullName>
+                <default>false</default>
+                <label>SPORTS MED BIOLOGICS - KNEE SUBCHONDROPLASTY - KNEE CREATIONS</label>
+            </value>
+            <value>
+                <fullName>STAGRAFT - STAGRAFT</fullName>
+                <default>false</default>
+                <label>STAGRAFT - STAGRAFT</label>
+            </value>
+            <value>
+                <fullName>STAGRAFT - STAGRAFT FIBER</fullName>
+                <default>false</default>
+                <label>STAGRAFT - STAGRAFT FIBER</label>
+            </value>
+            <value>
+                <fullName>Stratum	Stratum</fullName>
+                <default>false</default>
+                <label>Stratum	Stratum</label>
+            </value>
+            <value>
+                <fullName>SYNTHETICS - CALCIGEN</fullName>
+                <default>false</default>
+                <label>SYNTHETICS - CALCIGEN</label>
+            </value>
+            <value>
+                <fullName>TISSUE - DERMASPAN</fullName>
+                <default>false</default>
+                <label>TISSUE - DERMASPAN</label>
+            </value>
+            <value>
+                <fullName>TM Ankle</fullName>
+                <default>false</default>
+                <label>TM Ankle</label>
+            </value>
+            <value>
+                <fullName>TOTAL ANKLE - TOTAL FOOT AND ANKLE</fullName>
+                <default>false</default>
+                <label>TOTAL ANKLE - TOTAL FOOT AND ANKLE</label>
+            </value>
+            <value>
+                <fullName>Total - Persona</fullName>
+                <default>false</default>
+                <label>Total - Persona</label>
+            </value>
+            <value>
+                <fullName>Total - Persona Cementless (TM femur &amp; Tibia)</fullName>
+                <default>false</default>
+                <label>Total - Persona Cementless (TM femur &amp; Tibia)</label>
+            </value>
+            <value>
+                <fullName>Total - Persona Medical Contgruent Articulation</fullName>
+                <default>false</default>
+                <label>Total - Persona Medical Contgruent Articulation</label>
+            </value>
+            <value>
+                <fullName>Total - ROSA Pull through</fullName>
+                <default>false</default>
+                <label>Total - ROSA Pull through</label>
+            </value>
+            <value>
+                <fullName>UNIVERSAL LOCKING - UNIVERSAL LOCKING PLATES 2.7MM</fullName>
+                <default>false</default>
+                <label>UNIVERSAL LOCKING - UNIVERSAL LOCKING PLATES 2.7MM</label>
+            </value>
+            <value>
+                <fullName>UNIVERSAL LOCKING - UNIVERSAL LOCKING PLATES 3.5MM</fullName>
+                <default>false</default>
+                <label>UNIVERSAL LOCKING - UNIVERSAL LOCKING PLATES 3.5MM</label>
+            </value>
+            <value>
+                <fullName>VARIABLE PITCH COMPRESSION - VARIABLE PITCH COMPRESSION</fullName>
+                <default>false</default>
+                <label>VARIABLE PITCH COMPRESSION - VARIABLE PITCH COMPRESSION</label>
+            </value>
+            <value>
+                <fullName>Viscoe 3 - Viscoe 3</fullName>
+                <default>false</default>
+                <label>Viscoe 3 - Viscoe 3</label>
+            </value>
+            <value>
+                <fullName>XTRAFIX - XTRAFIX LARGE BARS - 11MM</fullName>
+                <default>false</default>
+                <label>XTRAFIX - XTRAFIX LARGE BARS - 11MM</label>
+            </value>
+            <value>
+                <fullName>XTRAFIX - XTRAFIX SMALL BARS - 6MM</fullName>
+                <default>false</default>
+                <label>XTRAFIX - XTRAFIX SMALL BARS - 6MM</label>
+            </value>
+            <value>
+                <fullName>ZB Bone Cement</fullName>
+                <default>false</default>
+                <label>ZB Bone Cement</label>
+            </value>
+            <value>
+                <fullName>ZEOS</fullName>
+                <default>false</default>
+                <label>ZEOS</label>
+            </value>
+            <value>
+                <fullName>ZNN - ZNN ANTE FEMUR</fullName>
+                <default>false</default>
+                <label>ZNN - ZNN ANTE FEMUR</label>
+            </value>
+            <value>
+                <fullName>ZNN - ZNN CEPHALOMEDULLARY (CM)</fullName>
+                <default>false</default>
+                <label>ZNN - ZNN CEPHALOMEDULLARY (CM)</label>
+            </value>
+            <value>
+                <fullName>ZNN - ZNN RETRO FEMUR</fullName>
+                <default>false</default>
+                <label>ZNN - ZNN RETRO FEMUR</label>
+            </value>
+            <value>
+                <fullName>ZNN - ZNN TIBIA</fullName>
+                <default>false</default>
+                <label>ZNN - ZNN TIBIA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

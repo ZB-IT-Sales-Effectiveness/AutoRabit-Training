@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actions__c</fullName>
+    <externalId>false</externalId>
+    <label>Actions</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fellowships</fullName>
+                <default>false</default>
+                <label>Fellowships</label>
+            </value>
+            <value>
+                <fullName>Mentorships</fullName>
+                <default>false</default>
+                <label>Mentorships</label>
+            </value>
+            <value>
+                <fullName>Journal Clubs</fullName>
+                <default>false</default>
+                <label>Journal Clubs</label>
+            </value>
+            <value>
+                <fullName>Book Program</fullName>
+                <default>false</default>
+                <label>Book Program</label>
+            </value>
+            <value>
+                <fullName>Grand Rounds</fullName>
+                <default>false</default>
+                <label>Grand Rounds</label>
+            </value>
+            <value>
+                <fullName>Mini Fellowships</fullName>
+                <default>false</default>
+                <label>Mini Fellowships</label>
+            </value>
+            <value>
+                <fullName>Educational Grants</fullName>
+                <default>false</default>
+                <label>Educational Grants</label>
+            </value>
+            <value>
+                <fullName>AI Advisory Groups</fullName>
+                <default>false</default>
+                <label>AI Advisory Groups</label>
+            </value>
+            <value>
+                <fullName>Beyond the Exam Room</fullName>
+                <default>false</default>
+                <label>Beyond the Exam Room</label>
+            </value>
+            <value>
+                <fullName>Fellowship Alumni Program</fullName>
+                <default>false</default>
+                <label>Fellowship Alumni Program</label>
+            </value>
+            <value>
+                <fullName>International Surgeon to Surgeon</fullName>
+                <default>false</default>
+                <label>International Surgeon to Surgeon</label>
+            </value>
+            <value>
+                <fullName>Site Visit - Warsaw</fullName>
+                <default>false</default>
+                <label>Site Visit - Warsaw</label>
+            </value>
+            <value>
+                <fullName>Site Visit - Austin</fullName>
+                <default>false</default>
+                <label>Site Visit - Austin</label>
+            </value>
+            <value>
+                <fullName>Site Visit -  Parsippany</fullName>
+                <default>false</default>
+                <label>Site Visit -  Parsippany</label>
+            </value>
+            <value>
+                <fullName>Z Clinicals to Institution</fullName>
+                <default>false</default>
+                <label>Z Clinicals to Institution</label>
+            </value>
+            <value>
+                <fullName>Z Research to Institution</fullName>
+                <default>false</default>
+                <label>Z Research to Institution</label>
+            </value>
+            <value>
+                <fullName>Z H ealth Economies to Institution</fullName>
+                <default>false</default>
+                <label>Z H ealth Economies to Institution</label>
+            </value>
+            <value>
+                <fullName>Z Business Segment to Institution</fullName>
+                <default>false</default>
+                <label>Z Business Segment to Institution</label>
+            </value>
+            <value>
+                <fullName>Sawbones</fullName>
+                <default>false</default>
+                <label>Sawbones</label>
+            </value>
+            <value>
+                <fullName>Local cadaveric workshop</fullName>
+                <default>false</default>
+                <label>Local cadaveric workshop</label>
+            </value>
+            <value>
+                <fullName>Pre/Post ZI session</fullName>
+                <default>false</default>
+                <label>Pre/Post ZI session</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

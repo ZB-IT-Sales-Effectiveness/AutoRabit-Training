@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refinement_Total__c</fullName>
+    <externalId>false</externalId>
+    <label>Refinement Total</label>
+    <summarizedField>Target_Refinement__c.Refinement__c</summarizedField>
+    <summaryFilterItems>
+        <field>Target_Refinement__c.IsActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Target_Refinement__c.Territory_Master__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- MMIS System --></label>
+    <name>MMIS_System__c</name>
+    <picklistValues>
+        <masterLabel>Ariba</masterLabel>
+        <translation><!-- Ariba --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EasyLink</masterLabel>
+        <translation><!-- EasyLink --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lawson</masterLabel>
+        <translation><!-- Lawson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>McKesson Nova</masterLabel>
+        <translation><!-- McKesson Nova --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>McKesson PMM (Pathways)</masterLabel>
+        <translation><!-- McKesson PMM (Pathways) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MediClick</masterLabel>
+        <translation><!-- MediClick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MediTech</masterLabel>
+        <translation><!-- MediTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oracle</masterLabel>
+        <translation><!-- Oracle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PeopleSoft</masterLabel>
+        <translation><!-- PeopleSoft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ProClick</masterLabel>
+        <translation><!-- ProClick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAP</masterLabel>
+        <translation><!-- SAP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Division --></label>
+    <name>Business_Division__c</name>
+    <picklistValues>
+        <masterLabel>Bone Healing</masterLabel>
+        <translation><!-- Bone Healing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMFT</masterLabel>
+        <translation><!-- CMFT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMFT - Robotics</masterLabel>
+        <translation><!-- CMFT - Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ortho</masterLabel>
+        <translation><!-- Ortho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ortho - Robotics</masterLabel>
+        <translation><!-- Ortho - Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon</masterLabel>
+        <translation><!-- Recon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine - Robotics</masterLabel>
+        <translation><!-- Spine - Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

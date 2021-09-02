@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GDPR_Consent_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>GDPR_Consent Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compliant - Opt-in Confirmed</fullName>
+                <default>false</default>
+                <label>Compliant - Opt-in Confirmed</label>
+            </value>
+            <value>
+                <fullName>Pending Opt-in Confirmation</fullName>
+                <default>false</default>
+                <label>Pending Opt-in Confirmation</label>
+            </value>
+            <value>
+                <fullName>Non-compliant - Consent Not Obtained</fullName>
+                <default>false</default>
+                <label>Non-compliant - Consent Not Obtained</label>
+            </value>
+            <value>
+                <fullName>No Consent Required</fullName>
+                <default>false</default>
+                <label>No Consent Required</label>
+            </value>
+            <value>
+                <fullName>Verbal Consent Given - Pending Opt-In Confirmation</fullName>
+                <default>false</default>
+                <label>Verbal Consent Given - Pending Opt-In Confirmation</label>
+            </value>
+            <value>
+                <fullName>Unsubscribed - Opted Out</fullName>
+                <default>false</default>
+                <label>Unsubscribed - Opted Out</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

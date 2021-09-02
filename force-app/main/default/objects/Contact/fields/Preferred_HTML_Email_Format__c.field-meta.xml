@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_HTML_Email_Format__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Exact Target mailing HTML else text if unchecked</description>
+    <externalId>false</externalId>
+    <label>Preferred HTML Email Format</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

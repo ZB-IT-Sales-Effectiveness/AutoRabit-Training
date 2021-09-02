@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Unit --></label>
+    <name>Business_Unit__c</name>
+    <picklistValues>
+        <masterLabel>Extremities</masterLabel>
+        <translation><!-- Extremities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon</masterLabel>
+        <translation><!-- Recon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SET</masterLabel>
+        <translation><!-- SET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine/CMF-T</masterLabel>
+        <translation><!-- Spine/CMF-T --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

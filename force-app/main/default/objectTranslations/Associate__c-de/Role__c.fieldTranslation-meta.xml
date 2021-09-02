@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Rolle --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Marketing-Manager</masterLabel>
+        <translation><!-- Marketing-Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations-Manager</masterLabel>
+        <translation><!-- Operations-Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales-Manager</masterLabel>
+        <translation><!-- Sales-Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sekretärin / Assistentin</masterLabel>
+        <translation><!-- Sekretärin / Assistentin --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolution Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Access Request</fullName>
+                <default>false</default>
+                <label>Access Request</label>
+            </value>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Alignment Support</fullName>
+                <default>false</default>
+                <label>Alignment Support</label>
+            </value>
+            <value>
+                <fullName>Bug Fix</fullName>
+                <default>false</default>
+                <label>Bug Fix</label>
+            </value>
+            <value>
+                <fullName>Clear Cache</fullName>
+                <default>false</default>
+                <label>Clear Cache</label>
+            </value>
+            <value>
+                <fullName>Data Clean Up</fullName>
+                <default>false</default>
+                <label>Data Clean Up</label>
+            </value>
+            <value>
+                <fullName>Enhancement Needed</fullName>
+                <default>false</default>
+                <label>Enhancement Needed</label>
+            </value>
+            <value>
+                <fullName>JAMS Alignment</fullName>
+                <default>false</default>
+                <label>JAMS Alignment</label>
+            </value>
+            <value>
+                <fullName>JAMS Approval</fullName>
+                <default>false</default>
+                <label>JAMS Approval</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Password Help</fullName>
+                <default>false</default>
+                <label>Password Help</label>
+            </value>
+            <value>
+                <fullName>System Glitch</fullName>
+                <default>false</default>
+                <label>System Glitch</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

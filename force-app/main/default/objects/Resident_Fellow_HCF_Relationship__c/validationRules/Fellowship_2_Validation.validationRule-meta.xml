@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fellowship_2_Validation</fullName>
+    <active>true</active>
+    <description>Fellowship_2_Validation</description>
+    <errorConditionFormula>ISBLANK( Fellowship__c ) &amp;&amp;  ISBLANK( Other_Fellowship__c )</errorConditionFormula>
+    <errorMessage>Please provide Fellowship type</errorMessage>
+</ValidationRule>

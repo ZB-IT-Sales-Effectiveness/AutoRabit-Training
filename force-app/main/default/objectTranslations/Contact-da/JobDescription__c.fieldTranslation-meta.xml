@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Funktion</label>
+    <name>JobDescription__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation>Professor, Overlæge, Dr. Med.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anaesthetist</masterLabel>
+        <translation>Anæstesilæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistant Surgeon</masterLabel>
+        <translation>Afdelingslæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Manager</masterLabel>
+        <translation><!-- CSSD Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSSD Technician</masterLabel>
+        <translation><!-- CSSD Technician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Manager</masterLabel>
+        <translation><!-- Case Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Surgeon</masterLabel>
+        <translation>Ledende Overlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co. Chief Surgeon</masterLabel>
+        <translation>Overlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy Chief Surgeon</masterLabel>
+        <translation>Konstitueret overlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deputy OP Lead</masterLabel>
+        <translation>Souschef</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation>Oversygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Manager</masterLabel>
+        <translation>Administrerende direktør</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Administration</masterLabel>
+        <translation>Administrationschef</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Laboratory</masterLabel>
+        <translation>Laboratoriechef</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Pharmacy</masterLabel>
+        <translation><!-- Head of Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head of Purchasing</masterLabel>
+        <translation>Indkøbsdirektør</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Hygienist</masterLabel>
+        <translation><!-- Hospital Hygienist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Senior Surgeon</masterLabel>
+        <translation>Afdelingsleder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leading Surgeon</masterLabel>
+        <translation>Reservelæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Director</masterLabel>
+        <translation>Overlæge, Ph.d., Dr. Med.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation>Sygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Lead</masterLabel>
+        <translation>Sterilsygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Manager</masterLabel>
+        <translation>Anæstesisygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Nurse</masterLabel>
+        <translation>Operationssygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Andet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation>Afdelingssygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Specialeansvarlig Sygeplejerske</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiotherapist</masterLabel>
+        <translation>Fysioterapeut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Manager</masterLabel>
+        <translation><!-- Project Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchaser</masterLabel>
+        <translation>Indkøber</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QM Lead</masterLabel>
+        <translation>Kvalitetsansvarlig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsible Implants/Instruments</masterLabel>
+        <translation><!-- Responsible Implants/Instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Manager</masterLabel>
+        <translation><!-- Safety Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation>Sekretær</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Assistant Surgeon</masterLabel>
+        <translation>Juridisk/Økonomisk Rådgiver</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Surgeon</masterLabel>
+        <translation>Overtandlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation>Tandlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Study Nurse</masterLabel>
+        <translation><!-- Study Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon</masterLabel>
+        <translation>Specialeansvarlig Overlæge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician</masterLabel>
+        <translation>Læge</translation>
+    </picklistValues>
+</CustomFieldTranslation>

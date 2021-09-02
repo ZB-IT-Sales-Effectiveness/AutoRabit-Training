@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Verkaufsgebiet AT --></label>
+    <name>Verkaufsgebiet_AT__c</name>
+    <picklistValues>
+        <masterLabel>Nord 1</masterLabel>
+        <translation><!-- Nord 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nord 2</masterLabel>
+        <translation><!-- Nord 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ost 1</masterLabel>
+        <translation><!-- Ost 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ost 2</masterLabel>
+        <translation><!-- Ost 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Süd</masterLabel>
+        <translation><!-- Süd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West</masterLabel>
+        <translation><!-- West --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

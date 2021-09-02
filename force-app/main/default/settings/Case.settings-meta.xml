@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAssignNotificationTemplate>All_Email_Templates/SUPPORT_New_case_in_queue_notification</caseAssignNotificationTemplate>
+    <caseAutoProcUser>true</caseAutoProcUser>
+    <caseCloseNotificationTemplate>CAS_Call_Center/CASCallCenter_Closed_Case_Template</caseCloseNotificationTemplate>
+    <caseCreateNotificationTemplate>CAS_Call_Center/CASCallCenter_Open_Case_Template</caseCreateNotificationTemplate>
+    <caseFeedItemSettings>
+        <characterLimit>5000</characterLimit>
+        <displayFormat>Default</displayFormat>
+        <feedItemType>EmailMessageEvent</feedItemType>
+    </caseFeedItemSettings>
+    <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
+    <caseMergeInLightning>true</caseMergeInLightning>
+    <closeCaseThroughStatusChange>true</closeCaseThroughStatusChange>
+    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>zb.servicecloud@zimmerbiomet.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>zb.servicecloud@zimmerbiomet.com</defaultCaseUser>
+    <emailToCase>
+        <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
+        <enableE2CSourceTracking>true</enableE2CSourceTracking>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>false</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>true</preQuoteSignature>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>optical.support@zimmercas.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>CAS Optical</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CAS_Optical</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>CAS Optical</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CAS_PSI</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>CAS PSI</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>cas-support@zimmercas.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>CAS Support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CAS_Support</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>CAS Triage</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Web</caseOrigin>
+            <caseOwner>CAS_iAssist</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>CAS iAssist</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>iassist.support@zimmercas.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>CAS iAssist</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>PACS Call Center</caseOrigin>
+            <caseOwner>PS_IT</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>pacs@zimmerbiomet.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>PACS Support Email</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Personalized Solutions Clinical Graphics</caseOrigin>
+            <caseOwner>remy.turner@zimmerbiomet.com</caseOwner>
+            <caseOwnerType>User</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>us.support@clinicalgraphics.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>PS Clinical Graphics Call Center</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Persona IQ</caseOrigin>
+            <caseOwner>Persona_IQ_Support</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>smartkneesupport@zimmerbiomet.com</emailAddress>
+            <emailServicesAddress>smartkneesupport@4-1px31zrt6lbx0ag2vc62a5epsf5sf428ab9jzq8ezyxlvstwwg.6w-4bnveay.cs169.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Persona IQ Support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>ashley.vandurmen@zimmerbiomet.com</caseOwner>
+            <caseOwnerType>User</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>Personalized Solutions</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Personalized Solutions Call Center</caseOrigin>
+            <caseOwner>PS_Manager</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>personalizedsolutions@zimmerbiomet.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Personalized Solutions Call Center</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Personalized Solutions Call Center</caseOrigin>
+            <caseOwner>PS_Manager</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>anz.ps@zimmerbiomet.com</emailAddress>
+            <emailServicesAddress>anz.ps@q-2jc0wtnnlmxwrvedaunbmmzg9poshro2y62ay8a8uru6pqprdl.6w-4bnveay.cs169.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Personalized Solutions Call Center 2</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>TC_Export</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>tc.ops@zimmerbiomet.com</emailAddress>
+            <emailServicesAddress>tc.ops@fz8d7fnyvqnph9l7ahn4e6mjynda19crk5g76nnn4ex4xr9kh.6w-4bnveay.cs169.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>TC Export</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>TC_Import</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>tcimports@zimmerbiomet.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>TC Imports</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>Outlook</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>System_Admins</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <isVerified>false</isVerified>
+            <routingName>Test</routingName>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>US_Sales_Admin</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>NONE</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>ussalesadministration@zimmerbiomet.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>US Sales Administration</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CAS_PSI</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Low</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>zimmerpsi@zimmercas.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Zimmer PSI</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>8-12 Hours</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>crm@zimmer.com</emailAddress>
+            <isVerified>false</isVerified>
+            <routingName>Zimmer Support</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>support@zbmymobilitysolutions.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>mymobility support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+            <taskStatus>Not Started</taskStatus>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+    </emailToCase>
+    <enableCaseFeed>true</enableCaseFeed>
+    <enableCollapseEmailThread>false</enableCollapseEmailThread>
+    <enableDraftEmails>true</enableDraftEmails>
+    <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
+    <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
+    <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
+    <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
+    <enableMultiLangSolution>false</enableMultiLangSolution>
+    <enableSolutionCategory>true</enableSolutionCategory>
+    <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
+    <enableSolutionShortSummary>true</enableSolutionShortSummary>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
+    <enableSuggestedSolutions>true</enableSuggestedSolutions>
+    <escalateCaseBefore>false</escalateCaseBefore>
+    <keepCaseMergeRecords>true</keepCaseMergeRecords>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
+    <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
+    <notifyDefaultCaseOwner>true</notifyDefaultCaseOwner>
+    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
+    <showFewerCloseActions>false</showFewerCloseActions>
+    <systemUserEmail>automatedcase@00d80000000kvi9eak.ext</systemUserEmail>
+    <useSystemEmailAddress>true</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
+    <visibleInCssCheckbox>false</visibleInCssCheckbox>
+    <webToCase>
+        <caseOrigin>Web</caseOrigin>
+        <defaultResponseTemplate>All_Email_Templates/SUPPORTWebtoCaseemailresponseSAMPLE</defaultResponseTemplate>
+        <enableWebToCase>true</enableWebToCase>
+    </webToCase>
+</CaseSettings>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$Subject</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$ActivityDate</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$Status</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$CompletedDateTime</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$Owner</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>ZB_Corporate_Contact__c.Activities$CreatedDate</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ZB_Corporate_Contact__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ZB Corporate Contacts w/Activities</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ZB_Corporate_Contacts_w_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ZB_Corporate_Contact__c.Activities$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-01-01</startDate>
+    </timeFrameFilter>
+</Report>

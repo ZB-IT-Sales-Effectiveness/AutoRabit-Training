@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 2e type cup revisie ongecementeerd --></label>
+    <name>X2e_type_cup_revisie_ongecementeerd__c</name>
+    <picklistValues>
+        <masterLabel>Allofit S</masterLabel>
+        <translation><!-- Allofit S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Annanova</masterLabel>
+        <translation><!-- Annanova --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomet cup</masterLabel>
+        <translation><!-- Biomet cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burchschneider</masterLabel>
+        <translation><!-- Burchschneider --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durom LDH</masterLabel>
+        <translation><!-- Durom LDH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eska AC</masterLabel>
+        <translation><!-- Eska AC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ganz ring</masterLabel>
+        <translation><!-- Ganz ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kerboull cross system</masterLabel>
+        <translation><!-- Kerboull cross system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link Endo modell</masterLabel>
+        <translation><!-- Link Endo modell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muller roof ring</masterLabel>
+        <translation><!-- Muller roof ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oblong</masterLabel>
+        <translation><!-- Oblong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protusio cage</masterLabel>
+        <translation><!-- Protusio cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restoration gap cup</masterLabel>
+        <translation><!-- Restoration gap cup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restoration gap ring</masterLabel>
+        <translation><!-- Restoration gap ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S rom Oblong cup cage</masterLabel>
+        <translation><!-- S rom Oblong cup cage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM Modular</masterLabel>
+        <translation><!-- TM Modular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TM revision</masterLabel>
+        <translation><!-- TM revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trilogy multi/cluster</masterLabel>
+        <translation><!-- Trilogy multi/cluster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ultima reinforcement ring</masterLabel>
+        <translation><!-- Ultima reinforcement ring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZCA Cage</masterLabel>
+        <translation><!-- ZCA Cage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

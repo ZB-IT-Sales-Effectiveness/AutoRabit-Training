@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1-2 Hours</masterLabel>
+        <translation><!-- 1-2 Hours --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>12-24 Hours</masterLabel>
+        <translation><!-- 12-24 Hours --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>3-8 Hours</masterLabel>
+        <translation><!-- 3-8 Hours --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>8-12 Hours</masterLabel>
+        <translation><!-- 8-12 Hours --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>High</masterLabel>
+        <translation>Hoch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Immediate</masterLabel>
+        <translation><!-- Immediate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Low</masterLabel>
+        <translation>Niedrig</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medium</masterLabel>
+        <translation>Mittel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NONE</masterLabel>
+        <translation>Keine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Normal</masterLabel>
+        <translation><!-- Normal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Specific Date</masterLabel>
+        <translation><!-- Specific Date --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Urgent</masterLabel>
+        <translation><!-- Urgent --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

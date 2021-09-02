@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Approves Products Used</fullName>
+        <default>false</default>
+        <label>Approves Products Used</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing Contact</fullName>
+        <default>false</default>
+        <label>Billing Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blocker</fullName>
+        <default>false</default>
+        <label>Blocker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business User</fullName>
+        <default>false</default>
+        <label>Business User</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Champion</fullName>
+        <default>false</default>
+        <label>Champion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinician</fullName>
+        <default>false</default>
+        <label>Clinician</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coach</fullName>
+        <default>false</default>
+        <label>Coach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consignment Contact</fullName>
+        <default>false</default>
+        <label>Consignment Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSSD Contact</fullName>
+        <default>false</default>
+        <label>CSSD Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EDI</fullName>
+        <default>false</default>
+        <label>EDI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loan Set Contact</fullName>
+        <default>false</default>
+        <label>Loan Set Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mentor</fullName>
+        <default>false</default>
+        <label>Mentor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Neutral</fullName>
+        <default>false</default>
+        <label>Neutral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Physician</fullName>
+        <default>false</default>
+        <label>Physician</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registrar – Set 1</fullName>
+        <default>false</default>
+        <label>Registrar – Set 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registrar – Set 2</fullName>
+        <default>false</default>
+        <label>Registrar – Set 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registrar – Set 3</fullName>
+        <default>false</default>
+        <label>Registrar – Set 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registrar – Set 4</fullName>
+        <default>false</default>
+        <label>Registrar – Set 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registrar – Set 5</fullName>
+        <default>false</default>
+        <label>Registrar – Set 5</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Roaming Specialist Visits Practice</fullName>
+        <default>false</default>
+        <label>Roaming Specialist Visits Practice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Associate</fullName>
+        <default>true</default>
+        <label>Sales Associate</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Was ist die durchschnittliche Wartezeit für Patienten?</help>
+    <label>Durchschnittliche Wartezeit</label>
+    <name>Average_waiting_time__c</name>
+    <picklistValues>
+        <masterLabel>1 week</masterLabel>
+        <translation>1 Woche</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 weeks</masterLabel>
+        <translation>10 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 weeks</masterLabel>
+        <translation>11 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 weeks</masterLabel>
+        <translation>12 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13 weeks</masterLabel>
+        <translation>13 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14 weeks</masterLabel>
+        <translation>14 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15 weeks</masterLabel>
+        <translation>15 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16 weeks</masterLabel>
+        <translation>16 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>17 weeks</masterLabel>
+        <translation>17 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>18 weeks</masterLabel>
+        <translation>18 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>19 weeks</masterLabel>
+        <translation>19 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 weeks</masterLabel>
+        <translation>2 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20 weeks</masterLabel>
+        <translation>20 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>21 weeks</masterLabel>
+        <translation>21 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22 weeks</masterLabel>
+        <translation>22 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23 weeks</masterLabel>
+        <translation>23 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24 weeks</masterLabel>
+        <translation>24 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25 weeks</masterLabel>
+        <translation>25 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>26 weeks</masterLabel>
+        <translation>26 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>27 weeks</masterLabel>
+        <translation>27 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>28 weeks</masterLabel>
+        <translation>28 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>29 weeks</masterLabel>
+        <translation>29 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 weeks</masterLabel>
+        <translation>3 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30 weeks</masterLabel>
+        <translation>30 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31 weeks</masterLabel>
+        <translation>31 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>32 weeks</masterLabel>
+        <translation>32 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>33 weeks</masterLabel>
+        <translation>33 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>34 weeks</masterLabel>
+        <translation>34 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>35 weeks</masterLabel>
+        <translation>35 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36 weeks</masterLabel>
+        <translation>36 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>37 weeks</masterLabel>
+        <translation>37 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>38 weeks</masterLabel>
+        <translation>38 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>39 weeks</masterLabel>
+        <translation>39 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 weeks</masterLabel>
+        <translation>4 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40 weeks</masterLabel>
+        <translation>40 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>41 weeks</masterLabel>
+        <translation>41 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42 weeks</masterLabel>
+        <translation>42 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>43 weeks</masterLabel>
+        <translation>43 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44 weeks</masterLabel>
+        <translation>44 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>45 weeks</masterLabel>
+        <translation>45 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>46 weeks</masterLabel>
+        <translation>46 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>47 weeks</masterLabel>
+        <translation>47 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48 weeks</masterLabel>
+        <translation>48 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>49 weeks</masterLabel>
+        <translation>49 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 weeks</masterLabel>
+        <translation>5 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50 weeks</masterLabel>
+        <translation>50 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>51 weeks</masterLabel>
+        <translation>51 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>52 weeks</masterLabel>
+        <translation>52 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 weeks</masterLabel>
+        <translation><!-- 6 weeks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 weeks</masterLabel>
+        <translation><!-- 7 weeks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 weeks</masterLabel>
+        <translation><!-- 8 weeks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9 weeks</masterLabel>
+        <translation><!-- 9 weeks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt; 52 weeks</masterLabel>
+        <translation>&gt; 52 Wochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not known</masterLabel>
+        <translation>Unbekannt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

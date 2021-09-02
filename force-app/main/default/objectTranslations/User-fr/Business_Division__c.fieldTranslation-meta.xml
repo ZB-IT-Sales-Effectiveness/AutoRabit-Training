@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is required-There are workflow and validation rules that uses this field to determine processing path based on the Geography, Business Division and/or Region field(s) setting of the user. --></help>
+    <label><!-- Business Division --></label>
+    <name>Business_Division__c</name>
+    <picklistValues>
+        <masterLabel>BH</masterLabel>
+        <translation><!-- BH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAS</masterLabel>
+        <translation><!-- CAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CO</masterLabel>
+        <translation><!-- CO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DN</masterLabel>
+        <translation><!-- DN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GE</masterLabel>
+        <translation><!-- GE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GO</masterLabel>
+        <translation><!-- GO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HL</masterLabel>
+        <translation><!-- HL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RC</masterLabel>
+        <translation><!-- RC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP</masterLabel>
+        <translation><!-- SP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR</masterLabel>
+        <translation><!-- TR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZSP</masterLabel>
+        <translation><!-- ZSP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

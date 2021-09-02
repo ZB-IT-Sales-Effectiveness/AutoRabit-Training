@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASC_Economic_Information</fullName>
+    <active>true</active>
+    <description>A user has to enter all economic information before going past the proposal negotiations stage</description>
+    <errorConditionFormula>AND (
+       RecordType.DeveloperName = &apos;ASC&apos;,
+       Probability &gt;= 0.50,
+        OR ( 
+            ISBLANK( TTM_Spend__c ),
+            ISBLANK( Total_Customer_Revenue_Annual_Growth_Opp__c),
+            ISBLANK( Term_of_Agreement_in_YRS__c )
+            )
+     
+   )</errorConditionFormula>
+    <errorMessage>Wowzers.... you must have values for &apos;TTM Spend&apos; and &apos;YR1 Comitted Growth&apos; and &apos;Term of Agreement in YRS&apos; before moving to Proposal/Negotiations and after</errorMessage>
+</ValidationRule>

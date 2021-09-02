@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Mobility_Health__c</fullName>
+    <externalId>false</externalId>
+    <formula>(IF( DRA_Request__c = TRUE,
+
+(IF(ISBLANK ( Surgeon_Champion__c ) , 0, 0.10) +
+IF(ISBLANK (Admin_Champ_Contact_Complete__c ) , 0, 0.08) +
+IF(! Executive_IT_Sign_Off__c , 0, 0.16) +
+IF( ! Contract_Deployment__c, 0, 0.06) +
+IF(! Redline_Agreement__c , 0, 0.16) +
+IF(ISBLANK( NextStep ), 0, 0.08) +
+IF(ISBLANK( CloseDate ), 0, 0.08)+
+IF (!  Align_Growth_Opportunity__c ,0,0.08)+
+IF(!  Supply_Chain_Agreement__c, 0 ,0.08)+
+IF(!  DRA_Request__c , 0, 0.06)+
+IF (! Pricing_Approval__c , 0,0.06)),
+
+(IF(ISBLANK (  Surgeon_Champion__c ) , 0, 0.10) +
+IF(ISBLANK (Admin_Champ_Contact_Complete__c ) , 0, 0.10) +
+IF(! Executive_IT_Sign_Off__c , 0, 0.25) +
+IF( ! Contract_Deployment__c, 0, 0.10) +
+IF(! Redline_Agreement__c , 0, 0.25) +
+IF(ISBLANK( NextStep ), 0, 0.10) +
+IF(ISBLANK(   CloseDate  ), 0, 0.10))))</formula>
+    <label>MyMobility Opp %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

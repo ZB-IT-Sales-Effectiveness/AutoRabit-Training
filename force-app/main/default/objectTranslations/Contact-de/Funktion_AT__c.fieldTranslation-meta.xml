@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Funktion AT --></label>
+    <name>Funktion_AT__c</name>
+    <picklistValues>
+        <masterLabel>Abteilungsvorstand</masterLabel>
+        <translation><!-- Abteilungsvorstand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arzt</masterLabel>
+        <translation><!-- Arzt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistenzarzt</masterLabel>
+        <translation><!-- Assistenzarzt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belegarzt</masterLabel>
+        <translation><!-- Belegarzt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direktor</masterLabel>
+        <translation><!-- Direktor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Einkauf</masterLabel>
+        <translation><!-- Einkauf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Einkaufsleitung</masterLabel>
+        <translation><!-- Einkaufsleitung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inhaber</masterLabel>
+        <translation><!-- Inhaber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leitender Arzt</masterLabel>
+        <translation><!-- Leitender Arzt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lt. Steri-Schwester</masterLabel>
+        <translation><!-- Lt. Steri-Schwester --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Pfleger</masterLabel>
+        <translation><!-- OP Pfleger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP Schwester</masterLabel>
+        <translation><!-- OP Schwester --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OP-Leitung</masterLabel>
+        <translation><!-- OP-Leitung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oberarzt</masterLabel>
+        <translation><!-- Oberarzt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pfleger</masterLabel>
+        <translation><!-- Pfleger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primarius</masterLabel>
+        <translation><!-- Primarius --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schwester</masterLabel>
+        <translation><!-- Schwester --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stv. OP-Leitung</masterLabel>
+        <translation><!-- Stv. OP-Leitung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technische Leitung</masterLabel>
+        <translation><!-- Technische Leitung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verwaltung</masterLabel>
+        <translation><!-- Verwaltung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verwaltungsleitung</masterLabel>
+        <translation><!-- Verwaltungsleitung --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ärztlicher Direktor</masterLabel>
+        <translation><!-- Ärztlicher Direktor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_numbers_in_NPI_Field</fullName>
+    <active>true</active>
+    <description>This validation rule will only allow numbers to be entered into the NPI# Field.</description>
+    <errorConditionFormula>NOT( 
+OR( 
+ISNUMBER(NPI__c), 
+LEN (NPI__c) = 0 
+) 
+)</errorConditionFormula>
+    <errorMessage>You can only enter numbers into the NPI# field</errorMessage>
+</ValidationRule>

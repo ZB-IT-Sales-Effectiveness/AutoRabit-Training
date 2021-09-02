@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Qualifier --></label>
+    <name>Qualifier__c</name>
+    <picklistValues>
+        <masterLabel>Brochure</masterLabel>
+        <translation><!-- Brochure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email Info</masterLabel>
+        <translation><!-- Email Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow up</masterLabel>
+        <translation><!-- Follow up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Have Rep Call</masterLabel>
+        <translation><!-- Have Rep Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hot Lead</masterLabel>
+        <translation><!-- Hot Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail Info</masterLabel>
+        <translation><!-- Mail Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Education</masterLabel>
+        <translation><!-- Medical Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Model</masterLabel>
+        <translation><!-- Model --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Technique</masterLabel>
+        <translation><!-- Surgical Technique --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White Paper</masterLabel>
+        <translation><!-- White Paper --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

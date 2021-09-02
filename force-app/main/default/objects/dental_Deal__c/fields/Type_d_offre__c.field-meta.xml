@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_d_offre__c</fullName>
+    <externalId>false</externalId>
+    <label>Type d&apos;offre</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TSV</fullName>
+                <default>false</default>
+                <label>TSV</label>
+            </value>
+            <value>
+                <fullName>TSVM - TSVT</fullName>
+                <default>false</default>
+                <label>TSVM - TSVT</label>
+            </value>
+            <value>
+                <fullName>Régénération</fullName>
+                <default>false</default>
+                <label>Régénération</label>
+            </value>
+            <value>
+                <fullName>Membranes</fullName>
+                <default>false</default>
+                <label>Membranes</label>
+            </value>
+            <value>
+                <fullName>SwissPlus</fullName>
+                <default>false</default>
+                <label>SwissPlus</label>
+            </value>
+            <value>
+                <fullName>PI - MT</fullName>
+                <default>false</default>
+                <label>PI - MT</label>
+            </value>
+            <value>
+                <fullName>PI - AMP</fullName>
+                <default>false</default>
+                <label>PI - AMP</label>
+            </value>
+            <value>
+                <fullName>PI - HEX</fullName>
+                <default>false</default>
+                <label>PI - HEX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

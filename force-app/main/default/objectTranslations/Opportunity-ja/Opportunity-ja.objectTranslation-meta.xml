@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>セールスプラン</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Icertis --></label>
+        <name>Icertis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ortho Mobile Fields --></label>
+        <name>Ortho_Mobile_Fields</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- This sales Record type is Created for Canada Sales Plan --></description>
+        <label><!-- AM-CA-RC Sales --></label>
+        <name>AM_CA_RC_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Biologics for US Sales --></description>
+        <label><!-- US Biologics --></label>
+        <name>AM_US_BI_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AM-US-RC Actuals --></label>
+        <name>AM_US_RC_Actuals</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sports Medicine for US Sales --></description>
+        <label><!-- US Sports Medicine --></label>
+        <name>AM_US_SM_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This will be the record type created for spine region --></description>
+        <label><!-- US Spine --></label>
+        <name>AM_US_SP_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Surgical for US Sales --></description>
+        <label><!-- US Surgical --></label>
+        <name>AM_US_SU_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This opportunity types triggers a ASC opportunity --></description>
+        <label><!-- ASC --></label>
+        <name>ASC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MyMobility --></label>
+        <name>Accelero</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- OBT for US Sales --></description>
+        <label><!-- US OBT --></label>
+        <name>Bone_Healing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the opportunity record type for all Canadian Dental Opportunities. --></description>
+        <label><!-- DN-CA-Opportunity --></label>
+        <name>DN_CA_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-EU Opportunity --></label>
+        <name>DN_EU_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the opportunity for all US Dental opportunities. --></description>
+        <label><!-- DN-US-Opportunity --></label>
+        <name>DN_US_Opportunity_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Enterprise --></label>
+        <name>Enterprise</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Enterprise Covid-19 Opportunity --></label>
+        <name>Enterprise_Covid_19_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Gel-One for US Sales --></description>
+        <label><!-- US Gel-One --></label>
+        <name>Gel_One</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Clinical Graphics --></label>
+        <name>Hip_Preservation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Hip Preservation --></label>
+        <name>Hip_Preservation_Main</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Historical Opportunity --></label>
+        <name>Historical_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MIS --></label>
+        <name>MIS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- One Bill Sales --></description>
+        <label><!-- One Bill --></label>
+        <name>One_Bill</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Knee --></label>
+        <name>ROSA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Brain --></label>
+        <name>ROSA_Brain</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ROSA Spine --></label>
+        <name>ROSA_Spine</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Knee for US Sales --></description>
+        <label><!-- US Knee --></label>
+        <name>Revenue_Growth</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for all Opportunities in EMEA --></description>
+        <label><!-- EU-Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cement for US Recon --></description>
+        <label><!-- US Cement --></label>
+        <name>US_Cement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Early Intervention --></label>
+        <name>US_Early_Intervention</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Extremities for US Sales --></description>
+        <label><!-- US Extremities --></label>
+        <name>US_Extremities</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Foot and Ankle DSF --></label>
+        <name>US_Foot_and_Ankle_DSF</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Foot and Ankle for US Sales --></description>
+        <label><!-- US Foot and Ankle --></label>
+        <name>US_Foot_and_Ankle_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Hip for US Sales --></description>
+        <label><!-- US Hip --></label>
+        <name>US_Hip</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Lower Trauma --></label>
+        <name>US_Lower_Trauma</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Ortho Surgical --></label>
+        <name>US_Ortho_Surgical</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US Professional Education --></label>
+        <name>US_Professional_Education</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Trauma for US Sales --></description>
+        <label><!-- US Trauma --></label>
+        <name>US_Trauma</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Walter --></label>
+        <name>Walter</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Wowzers.... you must have values for &apos;TTM Spend&apos; and &apos;YR1 Comitted Growth&apos; and &apos;Term of Agreement in YRS&apos; before moving to Proposal/Negotiations and after --></errorMessage>
+        <name>ASC_Economic_Information</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Opportunity that is &apos;At Risk&apos; and a &apos;BP Target&apos; cannot be &apos;Closed Lost&apos; --></errorMessage>
+        <name>AT_Risk_and_Business_Plan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For closed won or closed lost, closed reason should be selected --></errorMessage>
+        <name>Closed_Reason_Required_for_Sales_Opp_Rec</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Closed Lost Stage please provide Closed Reason --></errorMessage>
+        <name>Closed_Reason_for_Service_Opp_Rec</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Deal Type --></errorMessage>
+        <name>Deal_Type_Surgical_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you have a Closed Conversion Sales Plan, the probability must be 100% --></errorMessage>
+        <name>If_Closed_Won_probability_must_be_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are creating an opportunity for an INACTIVE customer. Please select an ‘Active’ Account to create this opportunity. --></errorMessage>
+        <name>Inactive_account_status_check_on_Opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Insufficient Privileges! You are not allowed to update CREDIT APPROVAL STATUS &amp; CREDIT REVIEW DATE&apos; field. --></errorMessage>
+        <name>LOCK_CREDIT_APP_STATUS_CREDIT_REV_DATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If RGA # is populated, then Loaner Requested field is required. --></errorMessage>
+        <name>Loaner_Requested_field_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity stage cannot be changed, as the closed date is of current month. --></errorMessage>
+        <name>Lock_Opp_Record_On_Commit_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Approved Users and System Administrators can edit the Released for Revenue field. --></errorMessage>
+        <name>MIS_Release_for_Revenue_access</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before you can move an opportunity to the stages Solve, Execute or Closed Won you must fill in Purchase Type --></errorMessage>
+        <name>Must_Include_Purchase_Type_on_Surgical</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before you can move an opportunity to the stages Solve, Execute or Closed Won you must fill in Primary GPO Type --></errorMessage>
+        <name>Must_fill_out_Primary_GPO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;New Equipment Quantity&quot; is required for this Opportunity Stage --></errorMessage>
+        <name>New_Equipment_Quanity_Field_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must Fill Out Hospital Ownership and Rebate %  to move to this stage. Zero is an acceptable value --></errorMessage>
+        <name>Ownership_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Follow Up --></errorMessage>
+        <name>Professional_Edu_ContractDel_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Committee Status --></errorMessage>
+        <name>Professional_Edu_Nominated_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunities in Projected and financial sales are not editable --></errorMessage>
+        <name>Projected_and_financial_sales_opp_locked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a Closed Reason for this Closed Lost Opportunity. --></errorMessage>
+        <name>Provide_Closed_Lost_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a Primary Competitor for this opportunity. --></errorMessage>
+        <name>Provide_Primary_Competitor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you check the New Equipment Needed Box you must enter a quanity --></errorMessage>
+        <name>Quantity_if_New_Equipment_is_Checked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Implant details --></errorMessage>
+        <name>SAT_Opportunity_Implant_Details_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Implant associated with this Opportunity --></errorMessage>
+        <name>SAT_Opportunity_Stage_And_Implant_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Persona Implant checkbox first. --></errorMessage>
+        <name>SAT_Opportunity_Stage_And_Persona_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Vanguard Implant Checkbox first. --></errorMessage>
+        <name>SAT_Opportunity_Stage_And_Vanguard_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select NexGen Checkbox FIrst. --></errorMessage>
+        <name>SAT_Opportunity_Validation_NexGen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permissions to edit. Hit cancel --></errorMessage>
+        <name>Sales_Service_Edit_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Insufficient Privileges! You are not allowed to update the &apos;BP Target&apos; field. --></errorMessage>
+        <name>Sales_user_Not_be_able_to_edit_BP_Target</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the &apos;Segments&apos; field once the opportunity is in (or past) the &apos;Proposal/Negotiations&apos; stage. --></errorMessage>
+        <name>Segment_Required_on_ASC_Opportunities</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Surgeon Name details --></errorMessage>
+        <name>Surgeon_Name_should_not_be_blank_on_ROSA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must pick a hospital account with a &apos;zimmer account number&apos;. --></errorMessage>
+        <name>US_Auto_Assignment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select a Won/Loss Reason to close an opportunity --></errorMessage>
+        <name>WonLost_reason_on_SU_Opps</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clarify --></label>
+        <name>Clarify</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EU_T300_Dashboard --></label>
+        <name>EU_T300_Dashboard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Surgical_Cross_Reference --></label>
+        <name>Surgical_Cross_Reference</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+</CustomObjectTranslation>

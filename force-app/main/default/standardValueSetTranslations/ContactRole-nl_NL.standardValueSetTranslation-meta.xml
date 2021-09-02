@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Architect</masterLabel>
+        <translation><!-- Architect --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blocker</masterLabel>
+        <translation><!-- Blocker --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business User</masterLabel>
+        <translation>Technical user / trouble</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Champion</masterLabel>
+        <translation><!-- Champion --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coach</masterLabel>
+        <translation>Coach</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Decision Maker</masterLabel>
+        <translation>Technical user / even-keel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economic Buyer</masterLabel>
+        <translation>Economic buyer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economic Decision Maker</masterLabel>
+        <translation>Technical user / over confident</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Equipment Planner</masterLabel>
+        <translation><!-- Equipment Planner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluator</masterLabel>
+        <translation>-</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Executive Sponsor</masterLabel>
+        <translation>-</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Influencer</masterLabel>
+        <translation>-</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Neutral</masterLabel>
+        <translation><!-- Neutral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Additional key player</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Primary Facility Contact</masterLabel>
+        <translation><!-- Primary Facility Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Primary Office Contact</masterLabel>
+        <translation><!-- Primary Office Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Champion Surgeon</masterLabel>
+        <translation><!-- ROSA Champion Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Distributor Ops Manager</masterLabel>
+        <translation><!-- ROSA Distributor Ops Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Distributor/GM</masterLabel>
+        <translation><!-- ROSA Distributor/GM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Fellow</masterLabel>
+        <translation><!-- ROSA Fellow --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA OR Director</masterLabel>
+        <translation><!-- ROSA OR Director --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Ortho Coordinator</masterLabel>
+        <translation><!-- ROSA Ortho Coordinator --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA PDA</masterLabel>
+        <translation><!-- ROSA PDA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA PDM</masterLabel>
+        <translation><!-- ROSA PDM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA PDM Lead</masterLabel>
+        <translation><!-- ROSA PDM Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Recon Account Lead</masterLabel>
+        <translation><!-- ROSA Recon Account Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Recon Associate</masterLabel>
+        <translation><!-- ROSA Recon Associate --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Recon ROSA Lead</masterLabel>
+        <translation><!-- ROSA Recon ROSA Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Recon Representative</masterLabel>
+        <translation><!-- ROSA Recon Representative --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Recon Team Leader</masterLabel>
+        <translation><!-- ROSA Recon Team Leader --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Resident</masterLabel>
+        <translation><!-- ROSA Resident --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA SPD Director</masterLabel>
+        <translation><!-- ROSA SPD Director --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ROSA Surgeon</masterLabel>
+        <translation><!-- ROSA Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Referral</masterLabel>
+        <translation><!-- Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surgeon</masterLabel>
+        <translation><!-- Surgeon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Buyer</masterLabel>
+        <translation>Technical user / growth</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Buyer</masterLabel>
+        <translation>-</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VP of Neurosciences</masterLabel>
+        <translation><!-- VP of Neurosciences --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

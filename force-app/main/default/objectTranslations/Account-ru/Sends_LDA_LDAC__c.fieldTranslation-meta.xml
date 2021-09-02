@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is this lab set up to send LDA/LDAC --></help>
+    <label><!-- Sends LDA/LDAC --></label>
+    <name>Sends_LDA_LDAC__c</name>
+</CustomFieldTranslation>

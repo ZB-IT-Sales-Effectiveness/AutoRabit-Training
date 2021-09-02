@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business/Customer Type --></label>
+    <name>Business_Customer_Type__c</name>
+    <picklistValues>
+        <masterLabel>Existing Business to Existing Customers</masterLabel>
+        <translation><!-- Existing Business to Existing Customers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Business to Existing Customers</masterLabel>
+        <translation><!-- New Business to Existing Customers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Business to New Customers</masterLabel>
+        <translation><!-- New Business to New Customers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replacement Product to Existing Customer</masterLabel>
+        <translation><!-- Replacement Product to Existing Customer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Biologics</masterLabel>
+        <translation><!-- Biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement</masterLabel>
+        <translation><!-- Bone Cement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Cement Accessories</masterLabel>
+        <translation><!-- Bone Cement Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elbows</masterLabel>
+        <translation><!-- Elbows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fluid Waste</masterLabel>
+        <translation><!-- Fluid Waste --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot &amp; Ankle</masterLabel>
+        <translation><!-- Foot &amp; Ankle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Hips</masterLabel>
+        <translation><!-- Partial Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patial Knees</masterLabel>
+        <translation><!-- Patial Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pneumatic Comp</masterLabel>
+        <translation><!-- Pneumatic Comp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power/Blades</masterLabel>
+        <translation><!-- Power/Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Hips</masterLabel>
+        <translation><!-- Primary Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Knees</masterLabel>
+        <translation><!-- Primary Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protective Apparel</masterLabel>
+        <translation><!-- Protective Apparel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulse Lavage</masterLabel>
+        <translation><!-- Pulse Lavage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Brain</masterLabel>
+        <translation><!-- ROSA Brain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Spine</masterLabel>
+        <translation><!-- ROSA Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Hips</masterLabel>
+        <translation><!-- Revision Hips --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Knees</masterLabel>
+        <translation><!-- Revision Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salvage Knees</masterLabel>
+        <translation><!-- Salvage Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulders</masterLabel>
+        <translation><!-- Shoulders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Grafting</masterLabel>
+        <translation><!-- Skin Grafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports Medicine</masterLabel>
+        <translation><!-- Sports Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourniquets</masterLabel>
+        <translation><!-- Tourniquets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traction</masterLabel>
+        <translation><!-- Traction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation><!-- Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Visualization</masterLabel>
+        <translation><!-- Visualization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walter</masterLabel>
+        <translation><!-- Walter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Drainage</masterLabel>
+        <translation><!-- Wound Drainage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

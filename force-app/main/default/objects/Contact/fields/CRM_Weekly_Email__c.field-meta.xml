@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Weekly_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox on Contact record to allow Sales users to determine if they want access to the weekly Salesforce email.</description>
+    <externalId>false</externalId>
+    <label>CRM Weekly Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

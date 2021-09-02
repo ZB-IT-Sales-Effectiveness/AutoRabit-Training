@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_fields_are_required_for_Exhibit_Camp</fullName>
+    <active>true</active>
+    <description>All_fields_are_required_for_Exhibit_Campaign</description>
+    <errorConditionFormula>AND
+(
+ RecordType.Id == &apos;0122h0000009yPd&apos;,
+ ISCHANGED(Status),
+ NOT(TEXT(Status) == &quot;Draft&quot;),
+OR(
+ ISPICKVAL(Region__c,&apos;&apos;) , 
+ Fulfills_Business_Need_And_Budget__c == FALSE,
+ Exhibit_Fee_Is_Not_Paid_To_An_Individual__c == FALSE,
+ Exhibit_Space_Is_Offered_To_All_Vendors__c == FALSE,
+ ISNULL(Single_Event_or_First_Meeting_Start_Date__c) ,
+ ISNULL(Single_Event_or_First_Meeting_End_Date__c ),
+ ISNULL(Number_of_Meetings__c ),
+ ISPICKVAL(Type,&apos;&apos;),
+ ISBLANK( Dates_Participating__c ),
+ ISBLANK( Exhibit_fee_amount_requested__c ),
+ ISBLANK( Event_Exhibit_Contact_Name__c ),
+ ISBLANK(Event_Exhibit_E_Mail_Address__c),
+ ISBLANK(Who_is_the_target_audience_at_this_event__c),
+ ISBLANK(What_is_the_estimated_number_of_exhibito__c),
+ ISBLANK(List_of_Product__c),
+ ISPICKVAL(Will_you_be_attending_the_event__c,&apos;&apos;),
+ ISPICKVAL(What_size_booth_space_is_being_provided__c,&apos;&apos;),
+ ISPICKVAL(Region__c,&apos;&apos;),
+ ISBLANK(What_is_the_Event_Exhibit_web_address__c),
+ ISBLANK(Venue_Name__c),
+ ISBLANK(Venue_Address__c),
+ ISBLANK(Venue_City__c),
+ ISBLANK(Venue_State__c),
+ ISBLANK(Venue_Postal_Code__c),
+ ISBLANK(Venue_Country__c),
+ ISBLANK(Event_Exhibit_Contact_Title__c),
+ ISBLANK(Event_Exhibit_Phone_Number__c),
+ ISBLANK(Describe_the_event__c),
+ ISBLANK(What_is_the_anticipated_number_of_attend__c),
+ ISBLANK(List_of_Competitors__c),
+ ISBLANK(Event_Exhibit_Type__c),
+ ISBLANK(List_ZB_Reps_Attending_Event__c),
+ Formal_exhibitor_Letter_of_Invite__c == FALSE
+)
+)</errorConditionFormula>
+    <errorMessage>All Fields are required.</errorMessage>
+</ValidationRule>

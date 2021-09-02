@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>bonusteam@zimmerbiomet.com</email>
+    <name>EU-DE Vertrag beim Kunden</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>EU_DE_Bonus_and_Contract_Management</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

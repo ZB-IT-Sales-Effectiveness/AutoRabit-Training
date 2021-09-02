@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Requested</fullName>
+    <columns>Validation_Requested__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Zimmer_Number__c</columns>
+    <columns>Biomet_Account__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.Physician</value>
+    </filters>
+    <filters>
+        <field>Validation_Requested__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Validation Requested</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Sales_Operations_report</group>
+    </sharedTo>
+</ListView>

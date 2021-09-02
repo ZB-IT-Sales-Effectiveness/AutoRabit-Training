@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type d&apos;offre --></label>
+    <name>Type_d_offre__c</name>
+    <picklistValues>
+        <masterLabel>Membranes</masterLabel>
+        <translation><!-- Membranes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PI - AMP</masterLabel>
+        <translation><!-- PI - AMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PI - HEX</masterLabel>
+        <translation><!-- PI - HEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PI - MT</masterLabel>
+        <translation><!-- PI - MT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Régénération</masterLabel>
+        <translation><!-- Régénération --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SwissPlus</masterLabel>
+        <translation><!-- SwissPlus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSV</masterLabel>
+        <translation><!-- TSV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSVM - TSVT</masterLabel>
+        <translation><!-- TSVM - TSVT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

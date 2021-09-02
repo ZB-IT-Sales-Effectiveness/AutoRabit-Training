@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>West_Rosa_Uni_Opps_Chris_Miller</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Deal_Type_Surgical__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Manager_Forecast_Judgement__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Distributor__c</field>
+        <operation>contains</operation>
+        <value>RXMEDICAL,WEST,ZB-ARIZONA,ZB-RIO GRANDE,PREMIER ORTH (VON SAVOYE),ZB-BAY AREA,ZB-SO CAL,ALASKA,REGON,OSTEO1,ZB-NORTHWEST,ZB-SOUTH IDAHO,DAVIS,ZB-COLORADO,ZB-HEARTLAND,ZB-MOKAN,KLEM,SCOTT,TU-TYGRS,SCHMITT,PARKIN</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.ROSA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Discover,Solve,Execute,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kyle Klein,Bailee Fitzgerald,Kris Simonton,Jackson Pfister,Kyle Smith</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>Scott Wherry,Tanner Forester</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Service</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Chris Miller</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>ROSA UNI</value>
+    </filters>
+    <label>West Rosa Uni Opps Chris Miller</label>
+    <sharedTo>
+        <role>ROSA_Sales_Team_West_Zone</role>
+    </sharedTo>
+</ListView>

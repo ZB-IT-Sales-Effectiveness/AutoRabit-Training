@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_HCF_record_Edit</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(
+
+AND(
+ISCHANGED(Total_Opportunity_Dollars__c)
+)
+
+)
+
+&amp;&amp;
+AND(NOT(ISNEW()),
+RecordType.DeveloperName=&apos;HealthcareFacility&apos;,
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+$Profile.Name &lt;&gt; &apos;Custom - Data Administrator&apos;,
+$Profile.Name &lt;&gt; &apos;Zimmer Integration Profile&apos;,
+$Profile.Name &lt;&gt; &apos;Cvent Integration Profile&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Estimated_Implants_or_Restorations_YR__c</errorDisplayField>
+    <errorMessage>You do not have sufficient access to edit Healthcare Facility accounts.</errorMessage>
+</ValidationRule>

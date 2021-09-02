@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Golden Gate</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>389139,427902,412295,309034,342534,385791,113066,356338,409147,113074,137250,141315,212053,236106,335686,385729,407011,420740,424827,450330,458845,385396,388742,154389,385378,457532,385776,453252,360283,358604,116132,389148,349408,354090,407372,447847,116098,347958,388916,393328,388758,365081,386015,406831,357928,115120,385746,144648,164403,367781,385289,388720,430124,439803,311041,385201,449106,369116,457050,139891,386012,274500,456362,384999,277375,115001,285514,452391,388724,450115,125651,388766,388783,429599,407496,385820,409644,425832,367252,115113,133494,385667,295211,400767,385709,454761,385239,388991,385595,385570,389107,390357,113017,143090,385435,389626,371814,114947,385857,439612,115114,392067,425179,425955,368577,385030,114971,405969,104554,450998,396067,385373,427406,385323,385624,367844,118461,449157,399884,408304,385845,115109,431316,116234,114927,351155,391739,113013,303017,150425,385996,388745,420355,385206,460080</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>369261,221714,113048,425168,456342,388938,154494,385362,385290,259816,453001,357663,388785,386080,424998,323807,141449,385969,171699,385560,388983,448925,295496,389161,440994,385029,348792,426579,385571,388996,454560,407375,124815,432289,388962,431536,430075,203057,444522,389141,457750,367256,443423,385844,386078,385395,251216,443137,371996,385928,151995,125655,335293,129048,457847,385553,385945,385964,385510,389140,327688,443735,404030,358656,135743,385020,242629,350295,459150,389151,426919,385962,409120,309530,312038,339146,458421,354807,133690,396074,386028,460281,385712,453292,373413,114941,451662,323253,391825,405694,311240,389203,115090,385164,391616,439020,106399,423714,444568,354977,152983,175543,450069,389133,451118,385840,346104,116245,445886,299915,117094,115008,385120,385711,247732,284975,410294,432798,407502,429268,386002,389625,444150,358010,388895,346256,268168,403039,244354,385876,388981,112893,390768,388752,128083,432149,385398,366064,243877,126214,392899,326023,274971,439366,460429,440193,388781,126893,294995,368296,164106,428966,437903,385035,410883,116097,410434,364692,372115,421840,117504,355400,388769,388817,386044,388904,361032,460836,385843,282852</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Golden Gate</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Name</fullName>
+    <active>false</active>
+    <description>If Stage = Execute, Legal name is mandatory</description>
+    <errorConditionFormula>AND(IsPickVal(ZB_Sales_Placement_Process__c, &quot;4. Execute&quot;), 
+(Legal_Name__c) = &quot;&quot;, RecordTypeId =&quot;0122h000000A4z&quot;)</errorConditionFormula>
+    <errorDisplayField>Legal_Name__c</errorDisplayField>
+    <errorMessage>If Stage = Execute, Legal name is mandatory</errorMessage>
+</ValidationRule>

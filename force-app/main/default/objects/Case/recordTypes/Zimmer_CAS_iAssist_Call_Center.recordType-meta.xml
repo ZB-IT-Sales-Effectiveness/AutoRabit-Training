@@ -1,0 +1,2657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_CAS_iAssist_Call_Center</fullName>
+    <active>true</active>
+    <businessProcess>CAS Call Center</businessProcess>
+    <description>cases created for Zimmer CAS iAssist Call Center</description>
+    <label>Zimmer CAS iAssist Call Center</label>
+    <picklistValues>
+        <picklist>Adjustment_Required_to_Sunshine_Report__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Division__c</picklist>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category_Type__c</picklist>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not a Complaint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>CS - A - Logistics %26 Sales Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS - B- Technical Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS - C - Servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS - D - Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - A - Production follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - B - SMS %26 PSI Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - C - Rejected%2FCancelled case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - D - Case ID %26 Recon Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - E - Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - F - Follow-Up%2FFeedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - G - Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - H - Product Technical Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - I - Templating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - J - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI - K - Post-Delivery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Compliance_Office_Classification__c</picklist>
+        <values>
+            <fullName>Disputed transactions - Correction required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disputed transactions - No Correction required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for additional information</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Service_Type__c</picklist>
+        <values>
+            <fullName>Backorder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCS Question%2FIssues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeNovo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice Copy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loaner Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POD%2FTracking Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order Follow-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shortage%2FOverage Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Technique%2FLit%2E Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Temperature__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>ASC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Form_of_Payment__c</picklist>
+        <values>
+            <fullName>Cash or cash equivalent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-kind items and services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Injury_as_a_result_of_use_of_the_device__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Type__c</picklist>
+        <values>
+            <fullName>Clinical support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General%2F Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imaging%2F Case Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation documentation%2F paperwork</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med Ed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Support%2FEngineering</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>My_Mobility_Level2_Process__c</picklist>
+        <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reopened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Nature_of_Payment__c</picklist>
+        <values>
+            <fullName>Consulting Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food and Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royalty or License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Space rental or facility fees %28teaching hospital only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel and Lodging</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PSI_Solution__c</picklist>
+        <values>
+            <fullName>Add%2Fchange address or techs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITRIX issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case ID request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint - Forward to EtQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credentials requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOB discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disclaimer Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discrepancy in SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Images Recieved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete image uploaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junk%2FSPAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laterality Discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order refused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order released</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28please describe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDF to approve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI software training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passing scan Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient name discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning ready or to schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning to schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-op feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-op feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-op questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received tracking information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recon case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection %3D Lossy compression</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DExisting implant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DHITACHI scanner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DHKA bigger than 15 degrees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DImage quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DIncorrect acquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DLaterality in series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DMetal artifact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DMissing series%2Fslices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DMotion artifact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DOther %28please describe below%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DProtocol not followed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection%3DRotated FOV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request Fulfilled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rush case Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS New User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Password issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS assisted change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan protocol sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent tracking information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surg input %28IMAGE SITUATION%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surg input %28JIG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surg input %28SEGMENTATION%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon acknowledgement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon input Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon preferences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery date change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team B follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team C follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Templating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test images received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training  -  Optical  -  Product Knowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training  -  PSI  -  Product Knowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training  -  iAssist  -  Product Knowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainining  -  Optical  -  Clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainining  -  PSI  -  Clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainining  -  iAssist  -  Clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong patient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZARF Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>case tracking%2Ffollow up</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Patient_on_table__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Category__c</picklist>
+        <values>
+            <fullName>Biologics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extremities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Sub_Category__c</picklist>
+        <values>
+            <fullName>Anatomical Fracture Shoulder System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomical Inverse%2FReverse Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomical Shoulder System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Articular Surface Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Augments%2C Bone Screws %26 Stem Extensions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bigliani%2FFlatow Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biologics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bipolar Cups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Cement %26 Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Cement %2B Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Drills and Bits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Substitutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compression Hip Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coonrad%2FMorrey Total Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeNovo ET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeNovo NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Fixation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Femoral Heads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Femoral Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fracture Stems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Solutions Natural-Knee Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Solutions PFJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IM Nails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insall%2FBurstein I %28I%2FB I%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insall%2FBurstein II %28I%2FB II%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee Instrumentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOST Options System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante I %28M%2FG I%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante II %28M%2FG II%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante Unicompartmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N-K II Revision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee CRK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee High Tibial Osteotomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II PFJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II Posterior Stabalized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee Unicompartmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CR Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CR Gender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen High Tibial Osteotomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LCCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex Gender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen Rotating Hinge Knee %28RHK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON Rod and Other Trauma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Extremities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Hip Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patellar Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pins and Wires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plates%2FScrews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Cup Liners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Cups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Stems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proximal Humeral Fractures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reamers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reverse Shoulder Arthroplasty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Cup Liners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Cups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Stems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segmental Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skin Grafting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Tissue Attachment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spinal Fixation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tibial Implants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Shoulder Arthroplasty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourniquets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal Humeral Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal Reverse Shoulder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wound Debridement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Collagen Repair Patch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Segmental System %28ZSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Unicompartmental Knee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>Fluid Waste Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omni Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Brain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Spine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RH_Case_Reason__c</picklist>
+        <values>
+            <fullName>Question%3A Coding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question%3A Coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question%3A Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question%3A Prior Authorization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request%3A Coding Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RH_Product_Category__c</picklist>
+        <values>
+            <fullName>Extremities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RH_Product_Sub_Category__c</picklist>
+        <values>
+            <fullName>ARAS Retractor %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AlloFus %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomical Fracture Shoulder System %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomical Shoulder System %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ant-Cer Anterior Cervical Plate System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ardis Spacer %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAK %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAK Vista %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAK%2FC %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BacFix %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bigliani%2FFlatow Shoulder %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bipolar Cups %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Cement %26 Accessories %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Cement %26 Accessories %28Surgical%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Drills %26 Bits %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Substitutes %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Products %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cadence %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chondrofix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compression Hip Screws %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coonard%2FMooray Total Elbow %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CopiOs %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corpectomy %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crystal Intervertebral Body Fusion Device %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeNovo NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dynesys LIS Dynamic Stabilization System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dynesys Spinal System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elbow Arthroplasty %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Fixation %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Femoral Heads %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidji Anterior%2FAnterolateral %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FlexPosure %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FlexPosure ML Discectomy %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortitude Vue Vertebral Body Replacement %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fracture Stems %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Solutions Natural Knee II %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Solutions PFJ %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmony Rotator %26 Ports %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip Instruments %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IM Nails %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InCompass Spinal Fixation System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InCompass with Polyaxial Screws %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InFix %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insall%2FBurstein I - I%2FBI %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insall%2FBurstein II - I%2FBII %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knee Arthroplasty %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucent %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucent Magnum Interbody Fusion %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucent Magnum Intervertebral Body Fusion %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucent Magnum%2B %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOST Option System %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Instruments %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Products %28Surgical%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante I - MG I %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante I - MG II %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2FGallante Unicompartmental %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minit Posterior Cervical-Upper Thoracic Fixation System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N-K II Revision %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee CRK %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee High Tibial Osteotomy %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II PFJ %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee II Posterior Stabilized %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural-Knee Unicompartmental %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nex-Link Spinal Fixation %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CR %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CR Gender %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen CRA %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen High Tibial Osteomy %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LCCK %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex Gender %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen LPS Flex Mobile %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexGen Rotating Hinge Knee - RHK %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NexPosure %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NorthStar %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON Rod %26 Other Trauma %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optima ZS %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Hip Products %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Trauma Products %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POLAr %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PathFinder %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Specific Instrument %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pins %26 Wires %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plates %26 Screws %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Cup Liners %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Cups %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proximal Humeral Fractures %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puros-P %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puros-S2 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reamers %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reverse Shoulder Arthroplasty %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Cup %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Cup Liners %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Stems %28Hips%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotator Cuff Repair %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST360 Spinal Fixation System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sentry %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sequoia %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder Arthroplasty %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slimline Anterior Certivcal Plate %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Tissue Attachments %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spinal Fixation %28Trauma%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spine Fusion %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Medical Rehabilitative %28Surgical%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Products %28OPS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM Humeral Shoulder %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM Reverse Shoulder %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thinline Anterior Cervical Plate %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title2 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Shoulder Arthroplasty %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TraXis %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-100 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-300 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-400 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-500 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-VBR 11 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-VBR 21 %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabecular Metal-VBR L %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinica Select Anterior Cervical Plate System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinica Select Anterior Lumbar Plate System %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unispacer %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universal Clamp %28Spine%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Coolagen Repair Patch %28Extremities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Segmental System %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmer Unicompartmental Knee %28Knee%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RH_Site_of_Service__c</picklist>
+        <values>
+            <fullName>Ambulatory Surgery Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnostic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital Inpatient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital Outpatient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imaging Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician Office Practice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>2nd Surgeon List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign Registrant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case ID %26 Recon Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denovo Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up%2FFeedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware %26 Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%2ET%2E Technical Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRI Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Allergy Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient ID Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Op Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Experience Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product%2FEducation Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Compliant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recall Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected%2FCanceled Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Zimmer Van Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS%26 PSI Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Rep%2FMed Pro Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Call CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Call Cust Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Type_Detail__c</picklist>
+        <values>
+            <fullName>Account Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEU Education Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross-Sell Targets at GPO%2FIDN%2FCoalition Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross-reference %28Account Support%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Contract Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demonstrations%2FTraining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Blast assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Support for Product set-up after sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Find Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPO%2FIDN Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Status%2FBack Orders%2FProduct Holds- Replacements or Substitutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Collateral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MyMobility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunities Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order In-put %26 Tracking Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Support%2FKnowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FDeal Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Lines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Template building</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Type__c</picklist>
+        <values>
+            <fullName>Brand%2FMarketing%2FProduct Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital Solutions Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Excellence Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPO Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MarCom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Sales Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Visit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Type__c</picklist>
+        <values>
+            <fullName>Access Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alignment Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug Fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clear Cache</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Clean Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhancement Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMS Alignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMS Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Password Help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Glitch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resources_Used__c</picklist>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Return_Type__c</picklist>
+        <values>
+            <fullName>CMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RMA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLA_Indicator__c</picklist>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Violated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Catergory__c</picklist>
+        <values>
+            <fullName>CAS New case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case details change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Images not uploaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete images uploaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing series%2FWrong laterality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28please describe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSI Case ID Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Anatomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Info discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning %26 schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-op report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recon Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned Merchandise %28RMA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Interface Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder %28or other parts%29 Disclaimer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surg input</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgeon prefs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Templating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training - Optical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training - PSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training - iAssist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Type__c</picklist>
+        <values>
+            <fullName>Access Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alignment Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Visibility Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhancement Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Functional Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grid Buddy Functional Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMS Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMS Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMS Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JTM Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permission Set Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFDC Mobile Functional Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Data Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Reporting Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Access Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tableau Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target Reporting Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Level__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Team__c</picklist>
+        <values>
+            <fullName>Case Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Support</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term_of_Agreement_in_Months__c</picklist>
+        <values>
+            <fullName>12 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Non-Std Request Below</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transferred_Call_To__c</picklist>
+        <values>
+            <fullName>Axis Med Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Person%2FDepartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switchboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>CRM Application Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Update Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo Kit Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Literature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Technique Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZI - BioSkills Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZI - Med Ed Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZI - Zimmer Institute Online %28ZIO%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Agreement__c</picklist>
+        <values>
+            <fullName>Directed Rebate Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placement Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rental Agreement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ZB_Account_Segmentation__c</picklist>
+        <values>
+            <fullName>Bronze Mine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold Mine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum Mine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver Mine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ZB_ROSA_Pivot_Type__c</picklist>
+        <values>
+            <fullName>ROSA DRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROSA%2B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ZB_Sales_Placement_Process__c</picklist>
+        <values>
+            <fullName>1%2E Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Discover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E Solve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Execute</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

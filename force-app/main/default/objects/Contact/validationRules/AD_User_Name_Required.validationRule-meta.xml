@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AD_User_Name_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR( ISPICKVAL( Role_Classification__c , &quot;Sales Associate&quot;),
+ ISPICKVAL( Role_Classification__c , &quot;Distributor&quot;),
+ISPICKVAL( Role_Classification__c , &quot;Sales Manager with Accounts&quot;),
+ISPICKVAL( Role_Classification__c , &quot;Sales Manager without Accounts&quot;),
+ISPICKVAL( Role_Classification__c , &quot;Surgery Case Specialist&quot; )) &amp;&amp; 
+ ISBLANK( AD_Username__c ) &amp;&amp;
+(INCLUDES(Account.Distributor_Specialties__c , &quot;Reconstructive&quot;)))</errorConditionFormula>
+    <errorMessage>The AD user name is required on this contact</errorMessage>
+</ValidationRule>

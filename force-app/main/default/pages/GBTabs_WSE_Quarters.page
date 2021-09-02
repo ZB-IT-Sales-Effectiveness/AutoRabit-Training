@@ -1,0 +1,42 @@
+<apex:page standardController="WSE__c" showHeader="false" sidebar="false" title="WSE Quarters">
+	<GBLite:TabbedPageComponent pageAPIName="GBTabs_WSE_Quarters" customJsIds="" customCssIds="">
+	<GBLite:EmbedComponent baseGridUrl="{!$Page.GBLite__Grid}" />
+		<script>
+			var pageDefinition = {
+	"pageAPIName": "GBTabs_WSE_Quarters",
+	"showSidebar": false,
+	"showHeader": false,
+	"height": "",
+	"object": "WSE__c",
+	"globalButtons": true,
+	"description": "",
+	"selectedCustomJSIds": [],
+	"selectedCustomCSSIds": [],
+	"id": 1625625046783,
+	"tabs": [
+		{
+			"id": 1625625046783,
+			"content": "{!gridPage}gname=WSE Quarter 1&amp;sh=0&amp;sfname=default",
+			"name": "WSE Q1"
+		},
+		{
+			"id": 1625625085390,
+			"content": "{!gridPage}gname=WSE Quarter 2&amp;sh=0&amp;sfname=default",
+			"name": "WSE Q2"
+		},
+		{
+			"name": "WSE Q3",
+			"content": "{!gridPage}gname=WSE Quarter 3&amp;sh=0&amp;sfname=default",
+			"id": 1625629738868
+		},
+		{
+			"name": "WSE Q4",
+			"content": "{!gridPage}gname=WSE Quarter 4&amp;sh=0&amp;sfname=default",
+			"id": 1625629750138
+		}
+	],
+	"name": "WSE Quarters"
+};
+		</script>
+	</GBLite:TabbedPageComponent>
+</apex:page>

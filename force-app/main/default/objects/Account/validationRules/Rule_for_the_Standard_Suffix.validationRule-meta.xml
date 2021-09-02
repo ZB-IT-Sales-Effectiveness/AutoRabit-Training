@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_for_the_Standard_Suffix</fullName>
+    <active>true</active>
+    <description>This validation Rule is For the standard suffix Field to enter the correct format .</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(Suffix)),
+if(NOT(BEGINS(Suffix,&quot;Jr.&quot;)||BEGINS(Suffix,&quot;Sr.&quot;)||BEGINS(Suffix,&quot;II&quot;)||
+
+BEGINS(Suffix,&quot;III&quot;)||BEGINS(Suffix,&quot;IV&quot;)||BEGINS(Suffix,
+&quot;V&quot;)||BEGINS(Suffix,&quot;V1&quot;)||
+
+BEGINS(Suffix,&quot;VII&quot;)||BEGINS(Suffix,&quot;VIII&quot;)||BEGINS(Suffix,&quot;IX&quot;)||BEGINS(Suffix,
+&quot;X&quot;)),TRUE,FALSE))</errorConditionFormula>
+    <errorDisplayField>Suffix</errorDisplayField>
+    <errorMessage>Please enter the correct format for suffix i.e, Jr.,Sr.,II,III,...... X</errorMessage>
+</ValidationRule>

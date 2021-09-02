@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abteilung_AT__c</fullName>
+    <externalId>false</externalId>
+    <label>Abteilung AT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Orthopädie</fullName>
+                <default>false</default>
+                <label>Orthopädie</label>
+            </value>
+            <value>
+                <fullName>Unfallchirurgie</fullName>
+                <default>false</default>
+                <label>Unfallchirurgie</label>
+            </value>
+            <value>
+                <fullName>Neurochirurgie</fullName>
+                <default>false</default>
+                <label>Neurochirurgie</label>
+            </value>
+            <value>
+                <fullName>Allgemeine Chirurgie</fullName>
+                <default>false</default>
+                <label>Allgemeine Chirurgie</label>
+            </value>
+            <value>
+                <fullName>Plastische Chirurgie</fullName>
+                <default>false</default>
+                <label>Plastische Chirurgie</label>
+            </value>
+            <value>
+                <fullName>Verbrennungschirurgie</fullName>
+                <default>false</default>
+                <label>Verbrennungschirurgie</label>
+            </value>
+            <value>
+                <fullName>Sterilisation</fullName>
+                <default>false</default>
+                <label>Sterilisation</label>
+            </value>
+            <value>
+                <fullName>Dermatologie</fullName>
+                <default>false</default>
+                <label>Dermatologie</label>
+            </value>
+            <value>
+                <fullName>Wirbelsäulenzentrum</fullName>
+                <default>false</default>
+                <label>Wirbelsäulenzentrum</label>
+            </value>
+            <value>
+                <fullName>Verwaltung</fullName>
+                <default>false</default>
+                <label>Verwaltung</label>
+            </value>
+            <value>
+                <fullName>Zentral OP (Z-OP)</fullName>
+                <default>false</default>
+                <label>Zentral OP (Z-OP)</label>
+            </value>
+            <value>
+                <fullName>OP</fullName>
+                <default>false</default>
+                <label>OP</label>
+            </value>
+            <value>
+                <fullName>Einkauf</fullName>
+                <default>false</default>
+                <label>Einkauf</label>
+            </value>
+            <value>
+                <fullName>Apotheke</fullName>
+                <default>false</default>
+                <label>Apotheke</label>
+            </value>
+            <value>
+                <fullName>Sekretariat</fullName>
+                <default>false</default>
+                <label>Sekretariat</label>
+            </value>
+            <value>
+                <fullName>Allgemeine Chirurgie m. Unfallchirurgie</fullName>
+                <default>false</default>
+                <label>Allgemeine Chirurgie m. Unfallchirurgie</label>
+            </value>
+            <value>
+                <fullName>Anästhesiologie</fullName>
+                <default>false</default>
+                <label>Anästhesiologie</label>
+            </value>
+            <value>
+                <fullName>Ärztliche Direktion</fullName>
+                <default>false</default>
+                <label>Ärztliche Direktion</label>
+            </value>
+            <value>
+                <fullName>Chirurgische Abteilung</fullName>
+                <default>false</default>
+                <label>Chirurgische Abteilung</label>
+            </value>
+            <value>
+                <fullName>Geschäftsführung</fullName>
+                <default>false</default>
+                <label>Geschäftsführung</label>
+            </value>
+            <value>
+                <fullName>Interne Medizin</fullName>
+                <default>false</default>
+                <label>Interne Medizin</label>
+            </value>
+            <value>
+                <fullName>Ordinationsgemeinschaft</fullName>
+                <default>false</default>
+                <label>Ordinationsgemeinschaft</label>
+            </value>
+            <value>
+                <fullName>Präsident der Öst. Ges.f. Fußchirurgie</fullName>
+                <default>false</default>
+                <label>Präsident der Öst. Ges.f. Fußchirurgie</label>
+            </value>
+            <value>
+                <fullName>Radiologie</fullName>
+                <default>false</default>
+                <label>Radiologie</label>
+            </value>
+            <value>
+                <fullName>Wirbelsäulenchirurgie</fullName>
+                <default>false</default>
+                <label>Wirbelsäulenchirurgie</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

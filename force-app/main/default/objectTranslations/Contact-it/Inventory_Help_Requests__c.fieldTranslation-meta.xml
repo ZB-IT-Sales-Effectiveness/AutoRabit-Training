@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Request from territory to other territories for inventory help. --></help>
+    <label><!-- Inventory Help Requests --></label>
+    <name>Inventory_Help_Requests__c</name>
+</CustomFieldTranslation>

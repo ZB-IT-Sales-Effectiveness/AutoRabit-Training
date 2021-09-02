@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physicians_Locator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates where we recieved the list information</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you want to select this list for your mailng</inlineHelpText>
+    <label>Physicians Locator</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

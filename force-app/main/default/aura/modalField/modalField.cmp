@@ -1,0 +1,133 @@
+<!--
+  @description       :
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             :
+  @last modified on  : 08-30-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<aura:component controller="lookupFieldOnlyToSeeController" implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    <!--
+        use boolean attribute for Store true/false value,
+        make default to "false" so modal box are not display on the load of component.
+    -->
+    <aura:attribute name="isOpen" type="boolean" default="false"/>
+    <aura:attribute name="childValue" type="map" />
+    <aura:attribute name="childValueEdit" type="map" />
+    <aura:attribute name="State" type="List"/>
+    <aura:attribute name="dataTable" type="List" default="[]"/>
+    <aura:attribute name="validPhoto" type="boolean" default="true"/>
+
+    <aura:method name="childMethod" action="{!c.getMessage}" access="public">
+        <aura:attribute name="ChildParam" type="map"/> 
+    </aura:method>
+
+    <!--Use "slds-m-around_xx-large" class to add standard X-Large padding to the component-->
+    <div class="slds-m-around_xx-large">
+
+        <lightning:button variant="brand"
+                          label="{!$Label.c.ViewFullListingBtn}"
+                          title="About SFDCmonkey.com"
+                          onclick="{! c.openModel }" />
+        <!--Use aura:if tag to display Model Box, on the bese of conditions. [isOpen boolean attribute] -->
+        <aura:if isTrue="{!v.isOpen}">
+            <!--###### MODAL BOX Start######-->
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <!-- ###### MODAL BOX HEADER Start ######-->
+                    <header class="slds-modal__header">
+                        <lightning:buttonIcon iconName="utility:close"
+                                              onclick="{! c.closeModel }"
+                                              alternativeText="close"
+                                              variant="bare-inverse"
+                                              class="slds-modal__close"/>
+                        <div id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Manage Surgeon Profiles</div>
+                    </header>
+                    <!--###### MODAL BOX BODY Part Start######-->
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <div class="body__master-data">
+                            <div class="master-data__foto">
+                                <div class="body-data__foto">
+                                    <aura:if isTrue="{!v.validPhoto}">
+                                        <aura:unescapedHtml value="{!v.childValue.Photo__c}"/>
+                                        <aura:set attribute="else">
+                                            <img src="{!$Resource.logo}"/>
+                                        </aura:set>
+                                    </aura:if> 
+                                </div>
+                                <div class="body-btn__foto">
+                                    <lightning:button variant="base" label="Change" title="Change" onclick="{! c.handleClick }"/>
+                                    <!-- <lightning:button label="Upload" iconName="utility:edit" iconPosition="left"  variant="brand" /> -->
+                                </div>
+                            </div>
+                            <div class="master-data">
+                                <c:dataProfiles
+                                    parent="{!this}"
+                                    title="Master Data"
+                                    clase="cont_data"
+                                    textFooter="Maaster Data is maintained by de Sales Operations team. To request changes, contact Sales Operation at salesops.maint@zimmer.com. "
+                                    fields="[['FirstName__c','LastName__c'],['Salutation__c', 'Job title']]"
+                                    fullrecord="{!v.childValue}" 
+                                    />
+                                </div>
+                                <!-- inputlabel="[[{name: 'First Name', value: 'Jorge'}, {name:'Last Name', value:'' }],[{name: 'Salutation', value: ''}, {name: 'Job Title', value: ''}]]" -->
+                        </div>
+                        <div class="body__profile-details">
+                            <c:dataProfiles
+                                parent="{!this}"
+                                title="Profile Details"
+                                clase="cont_details"
+                                textFooter="Specialties, procedures, and devices are subject to review and may be updated periodically based on sales history."
+                                fields="[['MedicalSchool__c','Fellowship__c','Residency__c', 'Honors__c', 'Groups__c'], ['Specialties__c', 'Procedures__c', 'Devices__c'], ['PreferredFirstName__c', 'Twitter__c', 'Facebook__c', 'LinkedIn__c', 'YouTube__c']]"
+                                fullrecord="{!v.childValue}" 
+                                showIcon="true"
+                                /> 
+                                <!-- inputlabel="[[{name: 'Medical School', value: 'Hugo'}, {name: 'Fellowship', value: ''}, {name: 'Residency', value: ''}, {name: 'Honors', value: ''}, {name: 'Groups/Memberships', value: ''}],
+                                [{name: 'Specialites', value: ''}, {name: 'Procedures', value: ''}, {name: 'Devices', value: ''} ], 
+                                [{name: 'Preferred First Name', value: ''}, {name: 'Twitter', value: ''}, {name: 'Facebook', value: ''}, {name: 'LinkedIn', value: ''}, {name: 'YouTube', value: ''}]]"
+                                -->
+                        </div>
+                        <div class="body__profile-locations">
+                            <h1>Profile Locations</h1>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Type</th>
+                                        <th>Nombre</th>
+                                        <th>Address</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <aura:iteration var="item" items="{!v.dataTable}" indexVar="i">
+                                        <tr>
+                                            <td>{!item.Location_Type__c}</td>
+                                            <td>{!item.Name__c}</td>
+                                            <td>{!item.Street__c} {!item.City__c}, {!item.State__c}, {!item.PostalCode__c}</td>
+                                            <td class="text-ri">
+                                                <c:modalAddress address="{!item}"  State="{!v.State}"/>
+                                            </td>
+                                        </tr>                                                                                                        
+                                    </aura:iteration>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--###### MODAL BOX FOOTER Part Start ######-->
+                    <footer class="slds-modal__footer">
+                        <lightning:button variant="neutral"
+                                          label="Deactivate Profile"
+                                          title="Deactivate Profile"
+                                          onclick="{! c.closeModel }"/>
+                        <lightning:button variant="brand"
+                                          label="Submit"
+                                          title="Submit"
+                                          onclick="{! c.Submit }"/>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+            <!--###### MODAL BOX Part END Here ######-->
+
+        </aura:if>
+    </div>
+</aura:component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Capital Services and Pricing Approval --></label>
+    <name>Capital_Services_and_Pricing_Approval__c</name>
+    <picklistValues>
+        <masterLabel>Accelero</masterLabel>
+        <translation><!-- Accelero --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Efficient Care</masterLabel>
+        <translation><!-- Efficient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Knee</masterLabel>
+        <translation><!-- ROSA Knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- Endoscopy Platform</masterLabel>
+        <translation><!-- Surgical- Endoscopy Platform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- Fluid Waste Management</masterLabel>
+        <translation><!-- Surgical- Fluid Waste Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- PPE</masterLabel>
+        <translation><!-- Surgical- PPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- Power and Saw Blades</masterLabel>
+        <translation><!-- Surgical- Power and Saw Blades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- Pulsed Lavage</masterLabel>
+        <translation><!-- Surgical- Pulsed Lavage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical- Tourniquet Systems &amp; Accessories</masterLabel>
+        <translation><!-- Surgical- Tourniquet Systems &amp; Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility</masterLabel>
+        <translation><!-- mymobility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

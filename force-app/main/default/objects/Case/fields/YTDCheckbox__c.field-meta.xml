@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YTDCheckbox__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(((DATEVALUE(CreatedDate) - DATE(YEAR(DATEVALUE(CreatedDate)), 01, 01))
+&lt;=
+(TODAY() - DATE(YEAR( TODAY()), 01,01))),OR( If( RecordType.Name= &quot;TC Export&quot;, true, false), If( RecordType.Name= &quot;TC Import&quot;, true, false)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>YTDCheckbox</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

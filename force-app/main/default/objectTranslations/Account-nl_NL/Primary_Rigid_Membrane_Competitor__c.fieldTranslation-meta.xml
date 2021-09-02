@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Rigid Membrane Competitor --></label>
+    <name>Primary_Rigid_Membrane_Competitor__c</name>
+    <picklistValues>
+        <masterLabel>Citagenix</masterLabel>
+        <translation><!-- Citagenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cytoplast RTM (Osteogenics)</masterLabel>
+        <translation><!-- Cytoplast RTM (Osteogenics) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HeliMend (PuraGraft)</masterLabel>
+        <translation><!-- HeliMend (PuraGraft) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MemLok (Biohorizons)</masterLabel>
+        <translation><!-- MemLok (Biohorizons) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OraMEM (Salvin)</masterLabel>
+        <translation><!-- OraMEM (Salvin) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRP/PRF</masterLabel>
+        <translation><!-- PRP/PRF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RCM6 (Ace)</masterLabel>
+        <translation><!-- RCM6 (Ace) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>steven.steier@zimmerbiomet.com</contactEmail>
+    <label>Quip Connection</label>
+    <samlConfig>
+        <acsUrl>https://zimmerbiometglobal.my.salesforce.com/services/auth/idp/saml2/logout</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://zimmerbiometglobal.my.salesforce.com</entityUrl>
+        <issuer>https://zimmerbiometglobal.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+    <startUrl>https://zimmerbiometglobal.my.salesforce.com</startUrl>
+</ConnectedApp>

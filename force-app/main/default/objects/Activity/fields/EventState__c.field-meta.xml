@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EventState__c</fullName>
+    <externalId>false</externalId>
+    <label>Event status</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>open</fullName>
+                <default>true</default>
+                <label>open</label>
+            </value>
+            <value>
+                <fullName>done</fullName>
+                <default>false</default>
+                <label>done</label>
+            </value>
+            <value>
+                <fullName>postponed</fullName>
+                <default>false</default>
+                <label>postponed</label>
+            </value>
+            <value>
+                <fullName>called off</fullName>
+                <default>false</default>
+                <label>called off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

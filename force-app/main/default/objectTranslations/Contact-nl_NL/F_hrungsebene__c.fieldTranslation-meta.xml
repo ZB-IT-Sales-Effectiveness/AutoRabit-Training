@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Values 1,2,3 Recon 
+SP1,2 for Spine Contacts 
+TR1,2 for Trauma Contacts --></help>
+    <label>Managementniveau</label>
+    <name>F_hrungsebene__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation>Opleider</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation>lid NOV</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation>lid NVT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP1</masterLabel>
+        <translation>Hoofd maatschap / afdelingshoofd</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SP2</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR1</masterLabel>
+        <translation>-</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR2</masterLabel>
+        <translation>lid DFAS (vh DOFAA)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

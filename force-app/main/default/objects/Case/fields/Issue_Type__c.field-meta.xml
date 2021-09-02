@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Issue Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tech Support/Engineering</fullName>
+                <default>false</default>
+                <label>Tech Support/Engineering</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>Clinical support</fullName>
+                <default>false</default>
+                <label>Clinical support</label>
+            </value>
+            <value>
+                <fullName>Installation documentation/ paperwork</fullName>
+                <default>false</default>
+                <label>Installation documentation/ paperwork</label>
+            </value>
+            <value>
+                <fullName>Demo Inquiry</fullName>
+                <default>false</default>
+                <label>Demo Inquiry</label>
+            </value>
+            <value>
+                <fullName>Imaging/ Case Inquiry</fullName>
+                <default>false</default>
+                <label>Imaging/ Case Inquiry</label>
+            </value>
+            <value>
+                <fullName>IT Security</fullName>
+                <default>false</default>
+                <label>IT Security</label>
+            </value>
+            <value>
+                <fullName>Med Ed</fullName>
+                <default>false</default>
+                <label>Med Ed</label>
+            </value>
+            <value>
+                <fullName>General/ Misc</fullName>
+                <default>false</default>
+                <label>General/ Misc</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Product Questions category</fullName>
+                <default>false</default>
+                <label>Product Questions category</label>
+            </value>
+            <value>
+                <fullName>Pricing category</fullName>
+                <default>false</default>
+                <label>Pricing category</label>
+            </value>
+            <value>
+                <fullName>Invoice category</fullName>
+                <default>false</default>
+                <label>Invoice category</label>
+            </value>
+            <value>
+                <fullName>Shipping category</fullName>
+                <default>false</default>
+                <label>Shipping category</label>
+            </value>
+            <value>
+                <fullName>Account Info category</fullName>
+                <default>false</default>
+                <label>Account Info category</label>
+            </value>
+            <value>
+                <fullName>Complaint category</fullName>
+                <default>false</default>
+                <label>Complaint category</label>
+            </value>
+            <value>
+                <fullName>Switchboard</fullName>
+                <default>false</default>
+                <label>Switchboard</label>
+            </value>
+            <value>
+                <fullName>Quoting</fullName>
+                <default>false</default>
+                <label>Quoting</label>
+            </value>
+            <value>
+                <fullName>PROs Report</fullName>
+                <default>false</default>
+                <label>PROs Report</label>
+            </value>
+            <value>
+                <fullName>Evaluation/Sample Product</fullName>
+                <default>false</default>
+                <label>Evaluation/Sample Product</label>
+            </value>
+            <value>
+                <fullName>Non-Sales Activity</fullName>
+                <default>false</default>
+                <label>Non-Sales Activity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

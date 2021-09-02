@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How have you benefited from being part of the User Acceptance Test? Please describe your experience in 1-2 sentances. --></help>
+    <label><!-- Question #2 --></label>
+    <name>Question_2__c</name>
+</CustomFieldTranslation>

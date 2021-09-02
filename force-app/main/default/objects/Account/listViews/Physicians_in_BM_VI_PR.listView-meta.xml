@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physicians_in_BM_VI_PR</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>PC_ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.Physician</value>
+    </filters>
+    <filters>
+        <field>PC_ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>BM,VI,PR</value>
+    </filters>
+    <label>Physicians in BM VI PR</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Corporate</group>
+    </sharedTo>
+</ListView>

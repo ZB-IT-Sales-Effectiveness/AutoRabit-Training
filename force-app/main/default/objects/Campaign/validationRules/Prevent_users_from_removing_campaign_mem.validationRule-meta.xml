@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_users_from_removing_campaign_mem</fullName>
+    <active>true</active>
+    <description>Prevent_User_from_Removing_Campaign_Member</description>
+    <errorConditionFormula>AND 
+( 
+PRIORVALUE(Campaign_Member_Count__c)&gt;Campaign_Member_Count__c, 
+OR( 
+$Profile.Name = &apos;DN- Executive Profile&apos;, 
+$Profile.Name = &apos;DN-Force.com User&apos;, 
+$Profile.Name = &apos;DN-FR-Rungis-Sales (2016)&apos;, 
+$Profile.Name = &apos;DN-GLBL-Sales&apos;, 
+$Profile.Name = &apos;DN-GLBL-Sales &amp; Executive&apos;, 
+$Profile.Name = &apos;DN-Marketing&apos;, 
+$Profile.Name = &apos;DN-Read Only&apos; 
+) 
+)</errorConditionFormula>
+    <errorMessage>Insufficient Access</errorMessage>
+</ValidationRule>

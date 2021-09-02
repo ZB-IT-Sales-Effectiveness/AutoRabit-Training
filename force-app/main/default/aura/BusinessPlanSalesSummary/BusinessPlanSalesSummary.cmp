@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <lightning:workspaceAPI aura:id="myworkspace"/>
+    <c:businessPlanSalesSmry onpagereload="{!c.refresh}" recordId="{!v.recordId}"/>
+</aura:component>

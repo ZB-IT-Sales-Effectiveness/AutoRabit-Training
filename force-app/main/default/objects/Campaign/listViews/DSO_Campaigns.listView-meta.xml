@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DSO_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Campaign_Member_Count__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>DSO</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Lily,Leanne,Satya,Mohit</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>5/1/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>notContain</operation>
+        <value>super user,strategy</value>
+    </filters>
+    <label>DSO Campaigns</label>
+    <sharedTo>
+        <group>DN_Canada_Sales_Team</group>
+        <group>DN_USA_Sales_Team</group>
+        <role>DN_USA_All</role>
+        <roleAndSubordinates>DN_ALL_ACCESS</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category B --></label>
+    <name>Category_B__c</name>
+    <picklistValues>
+        <masterLabel>Bone-Allograft</masterLabel>
+        <translation><!-- Bone-Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone-Xenograft</masterLabel>
+        <translation><!-- Bone-Xenograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certain</masterLabel>
+        <translation><!-- Certain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermal Matrix</masterLabel>
+        <translation><!-- Dermal Matrix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Abutments</masterLabel>
+        <translation><!-- Digital Abutments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drills</masterLabel>
+        <translation><!-- Drills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eztetic</masterLabel>
+        <translation><!-- Eztetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid Abutments</masterLabel>
+        <translation><!-- Hybrid Abutments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implants-Other</masterLabel>
+        <translation><!-- Implants-Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Designed Abutment</masterLabel>
+        <translation><!-- Lab Designed Abutment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membrane-Allograft</masterLabel>
+        <translation><!-- Membrane-Allograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membrane-Xenograft</masterLabel>
+        <translation><!-- Membrane-Xenograft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Implants</masterLabel>
+        <translation><!-- Other Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removable Abutments</masterLabel>
+        <translation><!-- Removable Abutments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative Tools</masterLabel>
+        <translation><!-- Restorative Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Std Abutment</masterLabel>
+        <translation><!-- Std Abutment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Kits</masterLabel>
+        <translation><!-- Surgical Kits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T3</masterLabel>
+        <translation><!-- T3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMM</masterLabel>
+        <translation><!-- TMM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSV/T/M</masterLabel>
+        <translation><!-- TSV/T/M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Woundcare</masterLabel>
+        <translation><!-- Woundcare --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

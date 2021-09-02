@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KPI Access --></label>
+    <name>KPI_Access__c</name>
+    <picklistValues>
+        <masterLabel>STP</masterLabel>
+        <translation><!-- STP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YOY</masterLabel>
+        <translation><!-- YOY --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- C-Index Profile --></label>
+    <name>C_Index_Profile__c</name>
+    <picklistValues>
+        <masterLabel>Cultivator</masterLabel>
+        <translation><!-- Cultivator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pioneer</masterLabel>
+        <translation><!-- Pioneer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

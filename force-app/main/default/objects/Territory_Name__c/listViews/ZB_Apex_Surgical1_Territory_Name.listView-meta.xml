@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZB_Apex_Surgical1_Territory_Name</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ZB Apex Surgical</label>
+    <queue>ZB_Apex_Surgical1</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

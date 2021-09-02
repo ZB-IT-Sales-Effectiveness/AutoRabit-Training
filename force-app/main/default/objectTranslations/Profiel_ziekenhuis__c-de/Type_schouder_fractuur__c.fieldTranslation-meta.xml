@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Kies het type voor schouder fractuur. --></help>
+    <label><!-- Type schouder fractuur --></label>
+    <name>Type_schouder_fractuur__c</name>
+    <picklistValues>
+        <masterLabel>Aequalis Fx</masterLabel>
+        <translation><!-- Aequalis Fx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affinis</masterLabel>
+        <translation><!-- Affinis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anatomical fracture</masterLabel>
+        <translation><!-- Anatomical fracture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Articula</masterLabel>
+        <translation><!-- Articula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bigliani fractuur</masterLabel>
+        <translation><!-- Bigliani fractuur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comprehensive FX stem</masterLabel>
+        <translation><!-- Comprehensive FX stem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global FX</masterLabel>
+        <translation><!-- Global FX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olympia</masterLabel>
+        <translation><!-- Olympia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promos</masterLabel>
+        <translation><!-- Promos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reversed/Fx</masterLabel>
+        <translation><!-- Reversed/Fx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universe fracture stem</masterLabel>
+        <translation><!-- Universe fracture stem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgical_Eval_Product_Shipped__c</fullName>
+    <externalId>false</externalId>
+    <label>Surgical Eval Product Shipped</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATS 2200</fullName>
+                <default>false</default>
+                <label>ATS 2200</label>
+            </value>
+            <value>
+                <fullName>ATS 4000TS W/STND BKS/HOSE</fullName>
+                <default>false</default>
+                <label>ATS 4000TS W/STND BKS/HOSE</label>
+            </value>
+            <value>
+                <fullName>ATS 4000TS WITH HOSES</fullName>
+                <default>false</default>
+                <label>ATS 4000TS WITH HOSES</label>
+            </value>
+            <value>
+                <fullName>INTELLICART EVAC STATION</fullName>
+                <default>false</default>
+                <label>INTELLICART EVAC STATION</label>
+            </value>
+            <value>
+                <fullName>MESHGRAFT 11</fullName>
+                <default>false</default>
+                <label>MESHGRAFT 11</label>
+            </value>
+            <value>
+                <fullName>SKIN GRAFT MESHER</fullName>
+                <default>false</default>
+                <label>SKIN GRAFT MESHER</label>
+            </value>
+            <value>
+                <fullName>TOTAL SHIELD SURGICAL HELM</fullName>
+                <default>false</default>
+                <label>TOTAL SHIELD SURGICAL HELM</label>
+            </value>
+            <value>
+                <fullName>Vaso 500 Digital Mini</fullName>
+                <default>false</default>
+                <label>Vaso 500 Digital Mini</label>
+            </value>
+            <value>
+                <fullName>ZEOS 31IN 4K UHD MONITOR</fullName>
+                <default>false</default>
+                <label>ZEOS 31IN 4K UHD MONITOR</label>
+            </value>
+            <value>
+                <fullName>ZEOS 32IN ARTICULAT ARM CART</fullName>
+                <default>false</default>
+                <label>ZEOS 32IN ARTICULAT ARM CART</label>
+            </value>
+            <value>
+                <fullName>ZEOS 32IN FIXED ARM CART</fullName>
+                <default>false</default>
+                <label>ZEOS 32IN FIXED ARM CART</label>
+            </value>
+            <value>
+                <fullName>ZEOS 4K UHD CAMERA CNTRL UNIT</fullName>
+                <default>false</default>
+                <label>ZEOS 4K UHD CAMERA CNTRL UNIT</label>
+            </value>
+            <value>
+                <fullName>ZEOS 4K UHD CH C-MOUNT</fullName>
+                <default>false</default>
+                <label>ZEOS 4K UHD CH C-MOUNT</label>
+            </value>
+            <value>
+                <fullName>ZEOS 4K UHD CH INTEGRATED</fullName>
+                <default>false</default>
+                <label>ZEOS 4K UHD CH INTEGRATED</label>
+            </value>
+            <value>
+                <fullName>ZEOS HD CAMERA CONTROL UNIT</fullName>
+                <default>false</default>
+                <label>ZEOS HD CAMERA CONTROL UNIT</label>
+            </value>
+            <value>
+                <fullName>ZEOS HD CH C-MOUNT</fullName>
+                <default>false</default>
+                <label>ZEOS HD CH C-MOUNT</label>
+            </value>
+            <value>
+                <fullName>ZEOS HD CH INTEGRATED</fullName>
+                <default>false</default>
+                <label>ZEOS HD CH INTEGRATED</label>
+            </value>
+            <value>
+                <fullName>ZEOS MONITOR DUST COVER 26IN</fullName>
+                <default>false</default>
+                <label>ZEOS MONITOR DUST COVER 26IN</label>
+            </value>
+            <value>
+                <fullName>ZEOS MONITOR DUST COVER 31IN</fullName>
+                <default>false</default>
+                <label>ZEOS MONITOR DUST COVER 31IN</label>
+            </value>
+            <value>
+                <fullName>ZEOS MONITOR ROLL STAND</fullName>
+                <default>false</default>
+                <label>ZEOS MONITOR ROLL STAND</label>
+            </value>
+            <value>
+                <fullName>ZEOS TABLET</fullName>
+                <default>false</default>
+                <label>ZEOS TABLET</label>
+            </value>
+            <value>
+                <fullName>ZEOS TABLET HOLDER</fullName>
+                <default>false</default>
+                <label>ZEOS TABLET HOLDER</label>
+            </value>
+            <value>
+                <fullName>ZEOS WIRELESS TRANSMIT-RECEIVE</fullName>
+                <default>false</default>
+                <label>ZEOS WIRELESS TRANSMIT-RECEIVE</label>
+            </value>
+            <value>
+                <fullName>ZIMMER ELECTRIC DERMATOME</fullName>
+                <default>false</default>
+                <label>ZIMMER ELECTRIC DERMATOME</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

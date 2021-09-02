@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contract Type --></label>
+    <name>Contract_Type__c</name>
+    <picklistValues>
+        <masterLabel>Asset Waiver</masterLabel>
+        <translation><!-- Asset Waiver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Confidentiality</masterLabel>
+        <translation><!-- Confidentiality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Compete</masterLabel>
+        <translation><!-- Non-Compete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Compete Verbal</masterLabel>
+        <translation><!-- Non-Compete Verbal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB 1099 Agreement</masterLabel>
+        <translation><!-- ZB 1099 Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZB Non-Compete</masterLabel>
+        <translation><!-- ZB Non-Compete --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

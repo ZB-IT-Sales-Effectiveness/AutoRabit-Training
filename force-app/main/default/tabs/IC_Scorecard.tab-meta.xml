@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Zimmer ICM – used as a web tab to the Incentives Portal</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>Commission Statement</label>
+    <motif>Custom16: Bank</motif>
+    <url>https://zmmr-prd.callidusondemand.com/CallidusPortal/do/noheader/CPOR/ghp.do?sforceSessionId={!API.Session_ID}&amp;sforceServerUrl={!API.Partner_Server_URL_90}</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

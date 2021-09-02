@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- These are specific notes gathered by zimmer biomet about the lead at the show --></help>
+    <label><!-- Show/Event Notes --></label>
+    <name>Show_Event_Notes__c</name>
+</CustomFieldTranslation>

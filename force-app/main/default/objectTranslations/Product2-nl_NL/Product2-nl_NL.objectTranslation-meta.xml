@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Product record type for the ASC team. --></description>
+        <label><!-- ASC --></label>
+        <name>ASC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-CA-Product Record Type --></label>
+        <name>DN_CA_Product_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DN-US-Product Record Type --></label>
+        <name>DN_US_Product_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Product Record Type for EU --></description>
+        <label><!-- EU-Product --></label>
+        <name>EU_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type used for price scheduling for the Enterprise Solutions team. --></description>
+        <label><!-- Enterprise --></label>
+        <name>Enterprise</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Global Product Record type --></description>
+        <label><!-- Global Product --></label>
+        <name>Global_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Master Products for Integration and Reporting --></description>
+        <label><!-- Master Product --></label>
+        <name>Master_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- aus SAP R/3 importiertes Produkt --></description>
+        <label><!-- EU-SAP Produkt --></label>
+        <name>SAPProdukt</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- IstinwelchenSAPFakturasenthalten --></label>
+        <name>IstinwelchenSAPFakturasenthalten</name>
+    </webLinks>
+</CustomObjectTranslation>

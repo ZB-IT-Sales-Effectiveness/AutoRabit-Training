@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Category --></label>
+    <name>Sub_Catergory__c</name>
+    <picklistValues>
+        <masterLabel>--None--</masterLabel>
+        <translation><!-- - - None- -  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACE</masterLabel>
+        <translation><!-- ACE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activation</masterLabel>
+        <translation><!-- Activation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Android updates</masterLabel>
+        <translation><!-- Android updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>App Store Audit</masterLabel>
+        <translation><!-- App Store Audit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apple Health Kit</masterLabel>
+        <translation><!-- Apple Health Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apple Watch Stats</masterLabel>
+        <translation><!-- Apple Watch Stats --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aprimo</masterLabel>
+        <translation><!-- Aprimo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asset Disposal Screening</masterLabel>
+        <translation><!-- Asset Disposal Screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSST Issue</masterLabel>
+        <translation><!-- BSST Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base Station Install</masterLabel>
+        <translation><!-- Base Station Install --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base Station Issue</masterLabel>
+        <translation><!-- Base Station Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base Station Setup Appt Scheduled</masterLabel>
+        <translation><!-- Base Station Setup Appt Scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Billing</masterLabel>
+        <translation><!-- Billing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BiometOS</masterLabel>
+        <translation><!-- BiometOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr General Inq</masterLabel>
+        <translation><!-- Bkr General Inq --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq - AD/CV</masterLabel>
+        <translation><!-- Bkr Inq - AD/CV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq - Classification</masterLabel>
+        <translation><!-- Bkr Inq - Classification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq - High Duties</masterLabel>
+        <translation><!-- Bkr Inq - High Duties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq - Valuation</masterLabel>
+        <translation><!-- Bkr Inq - Valuation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq COO</masterLabel>
+        <translation><!-- Bkr Inq COO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq Currency</masterLabel>
+        <translation><!-- Bkr Inq Currency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq HTS/FDA</masterLabel>
+        <translation><!-- Bkr Inq HTS/FDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bkr Inq Missing/Illegible Docs</masterLabel>
+        <translation><!-- Bkr Inq Missing/Illegible Docs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken Base Station</masterLabel>
+        <translation><!-- Broken Base Station --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broker Inquiries</masterLabel>
+        <translation><!-- Broker Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broker Inquiries – IOR</masterLabel>
+        <translation><!-- Broker Inquiries – IOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broker Inquiries – Illegible/Missing Docs</masterLabel>
+        <translation><!-- Broker Inquiries – Illegible/Missing Docs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broker Inquiries – Weights</masterLabel>
+        <translation><!-- Broker Inquiries – Weights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broker SOP Inq/Updates</masterLabel>
+        <translation><!-- Broker SOP Inq/Updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAS New case</masterLabel>
+        <translation><!-- CAS New case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMFT</masterLabel>
+        <translation><!-- CMFT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel Appointment</masterLabel>
+        <translation><!-- Cancel Appointment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled Case</masterLabel>
+        <translation><!-- Cancelled Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Care Team/Group</masterLabel>
+        <translation><!-- Care Team/Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carnet</masterLabel>
+        <translation><!-- Carnet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Creation</masterLabel>
+        <translation><!-- Case Creation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case details change</masterLabel>
+        <translation><!-- Case details change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case status</masterLabel>
+        <translation><!-- Case status --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Change Appointment</masterLabel>
+        <translation><!-- Change Appointment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Change Hierarchy or Linking of users</masterLabel>
+        <translation><!-- Change Hierarchy or Linking of users --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Classification</masterLabel>
+        <translation><!-- Classification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Classification Inquiries</masterLabel>
+        <translation><!-- Classification Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Graphics</masterLabel>
+        <translation><!-- Clinical Graphics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cloud Invite</masterLabel>
+        <translation><!-- Cloud Invite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cloud Troubleshoot</masterLabel>
+        <translation><!-- Cloud Troubleshoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoO Analysis</masterLabel>
+        <translation><!-- CoO Analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoO Inquiries</masterLabel>
+        <translation><!-- CoO Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoO Request</masterLabel>
+        <translation><!-- CoO Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complaint</masterLabel>
+        <translation><!-- Complaint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer Equipment Issue</masterLabel>
+        <translation><!-- Computer Equipment Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer Issue</masterLabel>
+        <translation><!-- Computer Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Content</masterLabel>
+        <translation><!-- Content --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credentials</masterLabel>
+        <translation><!-- Credentials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credentials/Touch Face ID</masterLabel>
+        <translation><!-- Credentials/Touch Face ID --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customs CF 28/29</masterLabel>
+        <translation><!-- Customs CF 28/29 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCMS Service Now Ticket</masterLabel>
+        <translation><!-- DCMS Service Now Ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCMS-Incident Ticket</masterLabel>
+        <translation><!-- DCMS-Incident Ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCMS-Request Ticket</masterLabel>
+        <translation><!-- DCMS-Request Ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCMS/DRIVE</masterLabel>
+        <translation><!-- DCMS/DRIVE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dashboard</masterLabel>
+        <translation><!-- Dashboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dashboard Information Not Populating</masterLabel>
+        <translation><!-- Dashboard Information Not Populating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Consent</masterLabel>
+        <translation><!-- Data Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Inquiry</masterLabel>
+        <translation><!-- Data Inquiry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deactivate Clinician</masterLabel>
+        <translation><!-- Deactivate Clinician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deactivate Patient</masterLabel>
+        <translation><!-- Deactivate Patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay Inq</masterLabel>
+        <translation><!-- Delay Inq --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay Scan</masterLabel>
+        <translation><!-- Delay Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discrepancy with case</masterLabel>
+        <translation><!-- Discrepancy with case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discrepancy with case and/or images</masterLabel>
+        <translation><!-- Discrepancy with case and/or images --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentation</masterLabel>
+        <translation><!-- Documentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documents/UG</masterLabel>
+        <translation><!-- Documents/UG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dom. Asset Disp.</masterLabel>
+        <translation><!-- Dom. Asset Disp. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dover</masterLabel>
+        <translation><!-- Dover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation><!-- Duplicate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ETQ #</masterLabel>
+        <translation><!-- ETQ # --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit Profile (Clinician)</masterLabel>
+        <translation><!-- Edit Profile (Clinician) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit Profile (Patient)</masterLabel>
+        <translation><!-- Edit Profile (Patient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit user profile</masterLabel>
+        <translation><!-- Edit user profile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email NDR</masterLabel>
+        <translation><!-- Email NDR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email Spam</masterLabel>
+        <translation><!-- Email Spam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Escalate to Canary Support</masterLabel>
+        <translation><!-- Escalate to Canary Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Escalation</masterLabel>
+        <translation><!-- Escalation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Escalation-PACS Admin</masterLabel>
+        <translation><!-- Escalation-PACS Admin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FTA Responses</masterLabel>
+        <translation><!-- FTA Responses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feedback</masterLabel>
+        <translation><!-- Feedback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Support</masterLabel>
+        <translation><!-- Field Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formus</masterLabel>
+        <translation><!-- Formus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functionality</masterLabel>
+        <translation><!-- Functionality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GTS Off-line Screening</masterLabel>
+        <translation><!-- GTS Off-line Screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GTS inquiries</masterLabel>
+        <translation><!-- GTS inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Broker Requests</masterLabel>
+        <translation><!-- General Broker Requests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Information</masterLabel>
+        <translation><!-- General Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Google Fit</masterLabel>
+        <translation><!-- Google Fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HDE/IDE Inquiries</masterLabel>
+        <translation><!-- HDE/IDE Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation><!-- Hardware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hardware Not Compatible</masterLabel>
+        <translation><!-- Hardware Not Compatible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hardware Phone</masterLabel>
+        <translation><!-- Hardware Phone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hardware Watch</masterLabel>
+        <translation><!-- Hardware Watch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hip</masterLabel>
+        <translation><!-- Hip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Historical</masterLabel>
+        <translation><!-- Historical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IFE Monitoring</masterLabel>
+        <translation><!-- IFE Monitoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IM/EX Checks</masterLabel>
+        <translation><!-- IM/EX Checks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ISF Inquiries</masterLabel>
+        <translation><!-- ISF Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT Testing</masterLabel>
+        <translation><!-- IT Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT install</masterLabel>
+        <translation><!-- IT install --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Image Acquisition/Location</masterLabel>
+        <translation><!-- Image Acquisition/Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Images Received</masterLabel>
+        <translation><!-- Images Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Images not uploaded</masterLabel>
+        <translation><!-- Images not uploaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Complaint</masterLabel>
+        <translation><!-- Implant Complaint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete</masterLabel>
+        <translation><!-- Incomplete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete images uploaded</masterLabel>
+        <translation><!-- Incomplete images uploaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intellicart</masterLabel>
+        <translation><!-- Intellicart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Audit Responses</masterLabel>
+        <translation><!-- Internal Audit Responses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Inquiries</masterLabel>
+        <translation><!-- Internal Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intranet</masterLabel>
+        <translation><!-- Intranet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inv. Maintenance</masterLabel>
+        <translation><!-- Inv. Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invitation Not Received</masterLabel>
+        <translation><!-- Invitation Not Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Junk/SPAM</masterLabel>
+        <translation><!-- Junk/SPAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knees</masterLabel>
+        <translation><!-- Knees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge Base</masterLabel>
+        <translation><!-- Knowledge Base --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LB Compass Set Up</masterLabel>
+        <translation><!-- LB Compass Set Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LB Compass Troubleshoot</masterLabel>
+        <translation><!-- LB Compass Troubleshoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late approval</masterLabel>
+        <translation><!-- Late approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License</masterLabel>
+        <translation><!-- License --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location of Base Station</masterLabel>
+        <translation><!-- Location of Base Station --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Log On Issues</masterLabel>
+        <translation><!-- Log On Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Mission Screenings</masterLabel>
+        <translation><!-- Medical Mission Screenings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medstrat/Vendor issues</masterLabel>
+        <translation><!-- Medstrat/Vendor issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Messaging</masterLabel>
+        <translation><!-- Messaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Migration</masterLabel>
+        <translation><!-- Migration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous Inquiries</masterLabel>
+        <translation><!-- Miscellaneous Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous Invoice</masterLabel>
+        <translation><!-- Miscellaneous Invoice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing Base Station Light</masterLabel>
+        <translation><!-- Missing Base Station Light --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing Items</masterLabel>
+        <translation><!-- Missing Items --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing series/Wrong laterality</masterLabel>
+        <translation><!-- Missing series/Wrong laterality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal/Bangkok Requests</masterLabel>
+        <translation><!-- Montreal/Bangkok Requests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A or Junk</masterLabel>
+        <translation><!-- N/A or Junk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NPI</masterLabel>
+        <translation><!-- NPI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Site/Site Call</masterLabel>
+        <translation><!-- New Site/Site Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Action</masterLabel>
+        <translation><!-- No Action --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Action – Exports</masterLabel>
+        <translation><!-- No Action – Exports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Action – Imports</masterLabel>
+        <translation><!-- No Action – Imports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Action Item</masterLabel>
+        <translation><!-- Non-Action Item --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Notifications</masterLabel>
+        <translation><!-- Notifications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA - Census</masterLabel>
+        <translation><!-- OGA - Census --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA - FCC</masterLabel>
+        <translation><!-- OGA - FCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA - FDA</masterLabel>
+        <translation><!-- OGA - FDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA - FWS</masterLabel>
+        <translation><!-- OGA - FWS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA - USDA</masterLabel>
+        <translation><!-- OGA - USDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OGA Inquiries</masterLabel>
+        <translation><!-- OGA Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OR Base Station Issue</masterLabel>
+        <translation><!-- OR Base Station Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OS Updates</masterLabel>
+        <translation><!-- OS Updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations Team</masterLabel>
+        <translation><!-- Operations Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order follow-up</masterLabel>
+        <translation><!-- Order follow-up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OrthoIntel</masterLabel>
+        <translation><!-- OrthoIntel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthosize/Medstrat</masterLabel>
+        <translation><!-- Orthosize/Medstrat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ossis</masterLabel>
+        <translation><!-- Ossis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (please describe)</masterLabel>
+        <translation><!-- Other (please describe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMI</masterLabel>
+        <translation><!-- PMI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMP (Mobility)</masterLabel>
+        <translation><!-- PMP (Mobility) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMP Support</masterLabel>
+        <translation><!-- PMP Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRE-APP</masterLabel>
+        <translation><!-- PRE-APP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI Case ID Request</masterLabel>
+        <translation><!-- PSI Case ID Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSI Product (Jig Labelling)</masterLabel>
+        <translation><!-- PSI Product (Jig Labelling) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PTIA (MFG Transfer)</masterLabel>
+        <translation><!-- PTIA (MFG Transfer) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Management</masterLabel>
+        <translation><!-- Pain Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Password Resets</masterLabel>
+        <translation><!-- Password Resets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Anatomy</masterLabel>
+        <translation><!-- Patient Anatomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Drop Out</masterLabel>
+        <translation><!-- Patient Drop Out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Info discrepancy</masterLabel>
+        <translation><!-- Patient Info discrepancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient No Longer Interested</masterLabel>
+        <translation><!-- Patient No Longer Interested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Not Agreeing With Privacy or T&amp;C’s</masterLabel>
+        <translation><!-- Patient Not Agreeing With Privacy or T&amp;C’s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Refusal</masterLabel>
+        <translation><!-- Patient Refusal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient WIFI Issues</masterLabel>
+        <translation><!-- Patient WIFI Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone</masterLabel>
+        <translation><!-- Phone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plan Ready</masterLabel>
+        <translation><!-- Plan Ready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planner/PDF</masterLabel>
+        <translation><!-- Planner/PDF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planning &amp; schedule</masterLabel>
+        <translation><!-- Planning &amp; schedule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plans ready for Approval</masterLabel>
+        <translation><!-- Plans ready for Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Battery</masterLabel>
+        <translation><!-- Power Battery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Electric</masterLabel>
+        <translation><!-- Power Electric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PowerBI</masterLabel>
+        <translation><!-- PowerBI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Alert Complete</masterLabel>
+        <translation><!-- Pre-Alert Complete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Alert Missing Info</masterLabel>
+        <translation><!-- Pre-Alert Missing Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-alerts</masterLabel>
+        <translation><!-- Pre-alerts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-op report</masterLabel>
+        <translation><!-- Pre-op report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Privacy / Security</masterLabel>
+        <translation><!-- Privacy / Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Information</masterLabel>
+        <translation><!-- Product Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Team</masterLabel>
+        <translation><!-- Product Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protocol</masterLabel>
+        <translation><!-- Protocol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protocols/Routines</masterLabel>
+        <translation><!-- Protocols/Routines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase Order</masterLabel>
+        <translation><!-- Purchase Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Push Notifications</masterLabel>
+        <translation><!-- Push Notifications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Compliant</masterLabel>
+        <translation><!-- Quality Compliant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation><!-- Quote --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA upload</masterLabel>
+        <translation><!-- ROSA upload --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUSH Case</masterLabel>
+        <translation><!-- RUSH Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recon Case</masterLabel>
+        <translation><!-- Recon Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registering a Patient</masterLabel>
+        <translation><!-- Registering a Patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registration Forms</masterLabel>
+        <translation><!-- Registration Forms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registration Issue</masterLabel>
+        <translation><!-- Registration Issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reinstall</masterLabel>
+        <translation><!-- Reinstall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejection</masterLabel>
+        <translation><!-- Rejection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request Images</masterLabel>
+        <translation><!-- Request Images --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Info</masterLabel>
+        <translation><!-- Request for Info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested Appointment</masterLabel>
+        <translation><!-- Requested Appointment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return Request Home Base Station</masterLabel>
+        <translation><!-- Return Request Home Base Station --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return base station request</masterLabel>
+        <translation><!-- Return base station request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Returned Merchandise (RMA)</masterLabel>
+        <translation><!-- Returned Merchandise (RMA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Returns or Expired Guide Questions</masterLabel>
+        <translation><!-- Returns or Expired Guide Questions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robotics</masterLabel>
+        <translation><!-- Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Router Equipment Issues</masterLabel>
+        <translation><!-- Router Equipment Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SDL</masterLabel>
+        <translation><!-- SDL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS</masterLabel>
+        <translation><!-- SMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS Credentials/Citrix Access</masterLabel>
+        <translation><!-- SMS Credentials/Citrix Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS Interface Support</masterLabel>
+        <translation><!-- SMS Interface Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS Support</masterLabel>
+        <translation><!-- SMS Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOMS/ZOMS</masterLabel>
+        <translation><!-- SOMS/ZOMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQR</masterLabel>
+        <translation><!-- SQR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce</masterLabel>
+        <translation><!-- Salesforce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan Center</masterLabel>
+        <translation><!-- Scan Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan Center Setup</masterLabel>
+        <translation><!-- Scan Center Setup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan Qualification</masterLabel>
+        <translation><!-- Scan Qualification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scanner</masterLabel>
+        <translation><!-- Scanner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Server Maintenance</masterLabel>
+        <translation><!-- Server Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Set Up</masterLabel>
+        <translation><!-- Set Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Set up – New User</masterLabel>
+        <translation><!-- Set up – New User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipment Pre-Approvals</masterLabel>
+        <translation><!-- Shipment Pre-Approvals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipment information</masterLabel>
+        <translation><!-- Shipment information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder</masterLabel>
+        <translation><!-- Shoulder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder (or other parts) Disclaimer</masterLabel>
+        <translation><!-- Shoulder (or other parts) Disclaimer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature Solutions</masterLabel>
+        <translation><!-- Signature Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Setup</masterLabel>
+        <translation><!-- Site Setup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smart Implant</masterLabel>
+        <translation><!-- Smart Implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software Issues</masterLabel>
+        <translation><!-- Software Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine</masterLabel>
+        <translation><!-- Spine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Successful</masterLabel>
+        <translation><!-- Successful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supplier Inquiries</masterLabel>
+        <translation><!-- Supplier Inquiries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surg input</masterLabel>
+        <translation><!-- Surg input --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgeon prefs</masterLabel>
+        <translation><!-- Surgeon prefs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Date</masterLabel>
+        <translation><!-- Surgery Date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Date Change</masterLabel>
+        <translation><!-- Surgery Date Change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surveys/Questionnaire</masterLabel>
+        <translation><!-- Surveys/Questionnaire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TECI</masterLabel>
+        <translation><!-- TECI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSCA</masterLabel>
+        <translation><!-- TSCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tariff Analysis</masterLabel>
+        <translation><!-- Tariff Analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Support</masterLabel>
+        <translation><!-- Technical Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telemedicine</masterLabel>
+        <translation><!-- Telemedicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Templating</masterLabel>
+        <translation><!-- Templating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Scan</masterLabel>
+        <translation><!-- Test Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Testing</masterLabel>
+        <translation><!-- Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Text Activation Assist</masterLabel>
+        <translation><!-- Text Activation Assist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Text Validation Code</masterLabel>
+        <translation><!-- Text Validation Code --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic</masterLabel>
+        <translation><!-- Thoracic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training - Optical</masterLabel>
+        <translation><!-- Training - Optical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training - PSI</masterLabel>
+        <translation><!-- Training - PSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training - iAssist</masterLabel>
+        <translation><!-- Training - iAssist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transferred to PMI</masterLabel>
+        <translation><!-- Transferred to PMI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel Training</masterLabel>
+        <translation><!-- Travel Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Troubleshoot</masterLabel>
+        <translation><!-- Troubleshoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ultra Dual Cart</masterLabel>
+        <translation><!-- Ultra Dual Cart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuccessful</masterLabel>
+        <translation><!-- Unsuccessful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update</masterLabel>
+        <translation><!-- Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrade</masterLabel>
+        <translation><!-- Upgrade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uploading to SMS/DCMS</masterLabel>
+        <translation><!-- Uploading to SMS/DCMS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Guide</masterLabel>
+        <translation><!-- User Guide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User training or info</masterLabel>
+        <translation><!-- User training or info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VPN Set Up</masterLabel>
+        <translation><!-- VPN Set Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VPN Troubleshoot</masterLabel>
+        <translation><!-- VPN Troubleshoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VPN/Laurel Bridge</masterLabel>
+        <translation><!-- VPN/Laurel Bridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voxx/Watch fulfillment</masterLabel>
+        <translation><!-- Voxx/Watch fulfillment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walking Goals</masterLabel>
+        <translation><!-- Walking Goals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walkthrough</masterLabel>
+        <translation><!-- Walkthrough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wi-Fi Issues</masterLabel>
+        <translation><!-- Wi-Fi Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workflow</masterLabel>
+        <translation><!-- Workflow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workflow/Image Location</masterLabel>
+        <translation><!-- Workflow/Image Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workflow/Troubleshooting</masterLabel>
+        <translation><!-- Workflow/Troubleshooting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XPSI</masterLabel>
+        <translation><!-- XPSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZBS IT (Citrix, Network, etc.)</masterLabel>
+        <translation><!-- ZBS IT (Citrix, Network, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iOS updates</masterLabel>
+        <translation><!-- iOS updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mymobility update</masterLabel>
+        <translation><!-- mymobility update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>watchOS updates</masterLabel>
+        <translation><!-- watchOS updates --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

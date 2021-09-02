@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Inside_Sales_Regen_Watchlist__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Region_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Base_Customer_Number__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7)</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS1_COUNTRY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.DSO1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>3i Internal,Intercompany,Salesrep Display Account,Subsidiary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Biomet 3i,Zimmer Dental,Zimmer Biomet,Biomet,SALES REP,SALE REP,SALESREP,SALES-REP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US Lone Star</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>383705,396632,103553,450619,457060,369780,399971,458342,125777,306519,382962,383632,383834,385250,444619,364016,409545,387901,453564,383735,384760,409844,457975,450772,129246,428331,459220,277186,105050,240266,386216,383630,154301,410912,450314,384660,366465,357472,146963,288164,336323,352593,383010,383616,384259,448761,445884,384213,403477,448348,428173,118104,409318,445187,256634,429367,384493,425835,154556,314985,373509,425644,450303,458751,446006,346362,275742,457574,449619,384947,146846,449862,450864,453045,458901,410175,383856,384657,427761,426525,112933,452307,350519,405595,420881,439807,297567,441456,382691,383998,404438,431587,392968,423056,348141,392987,285000,448512,382983,447625,125790,383413,384587,382979,383637,384205,454331,441259,383462,423847,386943,102676,385177,128870,141499,440012,311041,384942,424907,366318,450780,387903</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Base_Customer_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>448376,245768,432549,444143,383849,237738,384661,456771,126827,384200,308244,372795,166911,168080,384912,372649,373101,405455,447223,405013,383370,383425,406078,392958,382848,453365,426963,167902,384331,103653,365177,118342,427989,390808,367578,388057,372960,384132,386929,384528,457867,442918,210967,449771,388189,390430,387111,383655,113511,383700,456282,383427,419163,387097,454185,385462,336616,384590,128728,386247,133648,367857,457935,429691,342459,199708,388056,111341,411797,387079,353573,383964,286332,384584,353976,364063,118323,177661,334628,246544,385213,386958,454211,425446,103578,131975,275734,392425,384293,128658,384197,369962,383046,100410,388038,427410,396603,424766,368589,404062,443324,385490,336757,456222,386994,387109,254384,198298,382814,388173,355223,275373,277444,384209,359764,384945,384944,342532,439051,284747,382982,438827,140720,120823,391852,308806,401511,113535,384167</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>DN-Regen Watchlist 2020 Lone Star</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

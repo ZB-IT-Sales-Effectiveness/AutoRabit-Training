@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Grant Login Thank You Notification</title>
+<link href="/sCSS/17.0/Theme2/maintenance.css" type="text/css" media="handheld,print,projection,screen,tty,tv" rel="stylesheet">
+<script language="JavaScript" type="text/javascript">
+<!--
+var startingPoint = 0;
+
+function initiatePage() {
+	var docHTML = "<iframe id=\"jsupdate1\" name=\"jsupdate1\" src=\"/secur/useraccessdateedit.jsp?retURL=%2Fhome%2Fhome.jsp&setupid=GrantLogin&p2=1/1/2012&save=1\" width=\"1\" height=\"1\" scrolling=\"No\" frameborder=\"0\"></iframe>";
+	document.getElementById("output").innerHTML = docHTML;
+	setTimeout("runReSaveFunction()",7850);
+}
+
+function runReSaveFunction() {
+	var frame = document.getElementById("jsupdate1");
+	var insideFrame = frame.contentWindow;
+	var confirmationKeyElement = insideFrame.document.getElementById("_CONFIRMATIONTOKEN")
+	if (confirmationKeyElement != null) {
+		var confirmationKey = confirmationKeyElement.value;
+		insideFrame.document.location.href = insideFrame.document.location.href+"&_CONFIRMATIONTOKEN="+confirmationKey;
+		var text = "<span style=\"color: #348017;\">Success</span>";
+	} else {
+		var text = "<span style=\"color: #FF0000;\">Failed!</span>";
+	}
+	document.getElementById("result").innerHTML = text;
+}
+//-->
+</script>
+</head>
+<body onload="initiatePage();">
+<div id="red">
+	<div id="box">
+		<h1>Thank You!</h1>
+		<h2>- Updates have been made and saved -</h2>
+		<p>&nbsp;</p>
+		<p>Please be advised you have granted login access to your local Salesforce administrator.<BR><BR>Your admin will now be able to assist you with troubleshooting any Salesforce issues/questions you may have.<BR><BR> WAIT UNTIL YOU SEE "SUCCESS" MESSAGE IN GREEN <BR><BR></p>
+		<p class="input"><a href="/home/home.jsp" class="continue">Continue</a></p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div id="output"></div>
+<div id="result"></div>
+</body>
+</html>

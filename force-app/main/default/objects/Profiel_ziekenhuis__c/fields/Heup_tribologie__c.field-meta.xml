@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Heup_tribologie__c</fullName>
+    <description>Geef aan welke filosofie voor de heup kop en cup wordt gebruikt in het ziekenhuis. Er zijn meerdere opties mogelijk.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Geef aan welke filosofie voor de heup kop en cup wordt gebruikt in het ziekenhuis. Er zijn meerdere opties mogelijk.</inlineHelpText>
+    <label>Heup tribologie</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Metal - Metal</fullName>
+                <default>false</default>
+                <label>Metal - Metal</label>
+            </value>
+            <value>
+                <fullName>Ceramic - Ceramic</fullName>
+                <default>false</default>
+                <label>Ceramic - Ceramic</label>
+            </value>
+            <value>
+                <fullName>HXPE - Ceramic</fullName>
+                <default>false</default>
+                <label>HXPE - Ceramic</label>
+            </value>
+            <value>
+                <fullName>HXPE - Metal</fullName>
+                <default>false</default>
+                <label>HXPE - Metal</label>
+            </value>
+            <value>
+                <fullName>PE - Ceramic</fullName>
+                <default>false</default>
+                <label>PE - Ceramic</label>
+            </value>
+            <value>
+                <fullName>PE - Metal</fullName>
+                <default>false</default>
+                <label>PE - Metal</label>
+            </value>
+            <value>
+                <fullName>HXLPE -Ceramic</fullName>
+                <default>false</default>
+                <label>HXLPE -Ceramic</label>
+            </value>
+            <value>
+                <fullName>HXLPE - Metal</fullName>
+                <default>false</default>
+                <label>HXLPE - Metal</label>
+            </value>
+            <value>
+                <fullName>E-Poly - Ceramic</fullName>
+                <default>false</default>
+                <label>E-Poly - Ceramic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ZB ROSA Pivot Type --></label>
+    <name>ZB_ROSA_Pivot_Type__c</name>
+    <picklistValues>
+        <masterLabel>ROSA DRA</masterLabel>
+        <translation><!-- ROSA DRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Placement</masterLabel>
+        <translation><!-- ROSA Placement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Rental</masterLabel>
+        <translation><!-- ROSA Rental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA+</masterLabel>
+        <translation><!-- ROSA+ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funnel__c</fullName>
+    <description>This Picklist Value is added only to Germany Users</description>
+    <externalId>false</externalId>
+    <label>Funnel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VIP30%TSV/T/ ZOP</fullName>
+                <default>false</default>
+                <label>VIP30%TSV/T/ ZOP</label>
+            </value>
+            <value>
+                <fullName>VIP60%TSV/T/ ZOP</fullName>
+                <default>false</default>
+                <label>VIP60%TSV/T/ ZOP</label>
+            </value>
+            <value>
+                <fullName>VIP30% TM</fullName>
+                <default>false</default>
+                <label>VIP30% TM</label>
+            </value>
+            <value>
+                <fullName>VIP60% TM</fullName>
+                <default>false</default>
+                <label>VIP60% TM</label>
+            </value>
+            <value>
+                <fullName>VIP30%CadCam</fullName>
+                <default>false</default>
+                <label>VIP30%CadCam</label>
+            </value>
+            <value>
+                <fullName>VIP60%CadCam</fullName>
+                <default>false</default>
+                <label>VIP60%CadCam</label>
+            </value>
+            <value>
+                <fullName>VIP30%Regen</fullName>
+                <default>false</default>
+                <label>VIP30%Regen</label>
+            </value>
+            <value>
+                <fullName>VIP60%Regen</fullName>
+                <default>false</default>
+                <label>VIP60%Regen</label>
+            </value>
+            <value>
+                <fullName>VIP KALT</fullName>
+                <default>false</default>
+                <label>VIP KALT</label>
+            </value>
+            <value>
+                <fullName>VIP KALT BESUCHT</fullName>
+                <default>false</default>
+                <label>VIP KALT BESUCHT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

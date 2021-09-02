@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_By_Add_to_ROSA_Team_USA_DL__c</fullName>
+    <externalId>false</externalId>
+    <label>Completed By</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kyle Smith</fullName>
+                <default>false</default>
+                <label>Kyle Smith</label>
+            </value>
+            <value>
+                <fullName>Kelsey Ketcham</fullName>
+                <default>false</default>
+                <label>Kelsey Ketcham</label>
+            </value>
+            <value>
+                <fullName>Jackson Pfister</fullName>
+                <default>false</default>
+                <label>Jackson Pfister</label>
+            </value>
+            <value>
+                <fullName>Troy Watson</fullName>
+                <default>false</default>
+                <label>Troy Watson</label>
+            </value>
+            <value>
+                <fullName>Kris Simonton</fullName>
+                <default>false</default>
+                <label>Kris Simonton</label>
+            </value>
+            <value>
+                <fullName>Jake Nimmo</fullName>
+                <default>false</default>
+                <label>Jake Nimmo</label>
+            </value>
+            <value>
+                <fullName>Rachael Gilardi</fullName>
+                <default>false</default>
+                <label>Rachael Gilardi</label>
+            </value>
+            <value>
+                <fullName>Jessica Napka</fullName>
+                <default>false</default>
+                <label>Jessica Napka</label>
+            </value>
+            <value>
+                <fullName>Mindy Apperson</fullName>
+                <default>false</default>
+                <label>Mindy Apperson</label>
+            </value>
+            <value>
+                <fullName>Lee Gillett</fullName>
+                <default>false</default>
+                <label>Lee Gillett</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

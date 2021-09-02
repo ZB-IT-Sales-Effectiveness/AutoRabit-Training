@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Ft. Wayne Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.MDM_SAP_ID__c</field>
+        <operation>contains</operation>
+        <value>012866,018252,019472,022099,023312,024424,034172,035843,036674,039550,045862,050051,050154,050188,050270,050760,050840,051133,056390,060137,060352,060849,061630,066758,070592,072752,080384,085081,088324,089540,090000,097793,098556,099941,099942,107685</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Healthcare Facility</value>
+    </ruleItems>
+</Territory2Rule>

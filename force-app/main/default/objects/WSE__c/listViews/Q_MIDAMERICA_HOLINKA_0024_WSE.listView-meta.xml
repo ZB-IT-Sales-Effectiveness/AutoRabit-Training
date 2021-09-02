@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_MIDAMERICA_HOLINKA_0024_WSE</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MIDAMERICA (HOLINKA) (0024) QUEUE</label>
+    <queue>Q_MIDAMERICA_HOLINKA_0024</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

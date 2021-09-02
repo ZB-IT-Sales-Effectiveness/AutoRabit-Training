@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intraoral_Scanner_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Intraoral Scanner Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3M</fullName>
+                <default>false</default>
+                <label>3M</label>
+            </value>
+            <value>
+                <fullName>3Shape (Trios)</fullName>
+                <default>false</default>
+                <label>3Shape (Trios)</label>
+            </value>
+            <value>
+                <fullName>Caresteam</fullName>
+                <default>false</default>
+                <label>Caresteam</label>
+            </value>
+            <value>
+                <fullName>Dental Wings (DWOS)</fullName>
+                <default>false</default>
+                <label>Dental Wings (DWOS)</label>
+            </value>
+            <value>
+                <fullName>iTero (Element series)</fullName>
+                <default>false</default>
+                <label>iTero (Element series)</label>
+            </value>
+            <value>
+                <fullName>iTero (Older)</fullName>
+                <default>false</default>
+                <label>iTero (Older)</label>
+            </value>
+            <value>
+                <fullName>Medit</fullName>
+                <default>false</default>
+                <label>Medit</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Planmeca (Emerald)</fullName>
+                <default>false</default>
+                <label>Planmeca (Emerald)</label>
+            </value>
+            <value>
+                <fullName>Sirona (Older)</fullName>
+                <default>false</default>
+                <label>Sirona (Older)</label>
+            </value>
+            <value>
+                <fullName>Sirona (Primescan)</fullName>
+                <default>false</default>
+                <label>Sirona (Primescan)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

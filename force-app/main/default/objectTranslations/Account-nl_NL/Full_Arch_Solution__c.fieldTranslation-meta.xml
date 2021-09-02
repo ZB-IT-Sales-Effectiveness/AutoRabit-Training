@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Does this specialist offer full arch rehab? If so, what solution does he/she use? --></help>
+    <label><!-- Full Arch Solution --></label>
+    <name>Full_Arch_Solution__c</name>
+    <picklistValues>
+        <masterLabel>Competitor</masterLabel>
+        <translation><!-- Competitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIEM</masterLabel>
+        <translation><!-- DIEM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revitalize</masterLabel>
+        <translation><!-- Revitalize --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

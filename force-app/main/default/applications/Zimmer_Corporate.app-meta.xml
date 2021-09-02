@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Home page for your customer relationship management application specific to the Zimmer Corporate group.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Zimmer Corporate</label>
+    <logo>SharedDocuments/CRM_Logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>State_Licensure_zem__c</tabs>
+    <tabs>HR_Contract__c</tabs>
+    <tabs>SFDC_Feature_Reques__c</tabs>
+    <tabs>SalesArea__c</tabs>
+    <tabs>BillingDoc__c</tabs>
+    <tabs>Banner_Ads__c</tabs>
+    <tabs>Thumbnail__c</tabs>
+    <tabs>GPL_Profile__c</tabs>
+    <tabs>MyProfile</tabs>
+    <tabs>GPL_Location__c</tabs>
+    <tabs>SalesTeamMember__c</tabs>
+    <tabs>Sunshine_Payment__c</tabs>
+    <tabs>Instrument_Request__c</tabs>
+    <tabs>Conversion_Tracker__c</tabs>
+    <tabs>et4ae5__Configuration__c</tabs>
+</CustomApplication>

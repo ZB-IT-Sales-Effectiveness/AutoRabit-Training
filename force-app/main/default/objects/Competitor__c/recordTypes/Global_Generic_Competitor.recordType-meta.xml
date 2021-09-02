@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Generic_Competitor</fullName>
+    <active>true</active>
+    <description>Global Generic Competitor</description>
+    <label>Global Generic Competitor</label>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>AAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aecuaos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aesculap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ai-medic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alpha Consulting Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arthrex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ascension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axomed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biomet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brehm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conformis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DJO%2FEncore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DePuy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeSoutter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exactech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GE Healthcare Performance Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Globus Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hunter %26 Associates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implantcast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implantindustries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JMM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Konigsee Implantate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyocera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mako</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marshall Steele %26 Associates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mathys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medacta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medartis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medtronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mizuho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakashima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NuVasive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omni Life Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthofix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthopaedic Advantage Healthcare Consulting LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paradigm Spine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pioneer Surgical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scient%27x-Alphatec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signus Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Bone Innovations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smith %26 Nephew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speedtec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spinal Kinetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SpineMark Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stelkast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stryker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sullivan Healthcare Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summit Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery Management Improvement Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Synthes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tantum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TeleVisual Communications %28TVC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Advisory Board Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thomson Reuters Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokibo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tornier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TranS1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ulrich Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VHA Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wright Medical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

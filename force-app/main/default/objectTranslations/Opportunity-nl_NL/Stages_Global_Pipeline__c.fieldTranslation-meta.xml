@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fasen global pipeline</label>
+    <name>Stages_Global_Pipeline__c</name>
+    <picklistValues>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation>Fase 5: Gesloten en verloren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Other</masterLabel>
+        <translation>Fase 5: Gesloten en overig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed Won</masterLabel>
+        <translation>Fase 5: Gesloten en gewonnen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commitment</masterLabel>
+        <translation>Fase 4: Onderhandeling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Identification/Qualification</masterLabel>
+        <translation>Fase 1: Kwalificatie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposal/Assessment</masterLabel>
+        <translation>Fase 2: Prijsopgave</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training/Trial</masterLabel>
+        <translation>Fase 3: Test</translation>
+    </picklistValues>
+</CustomFieldTranslation>

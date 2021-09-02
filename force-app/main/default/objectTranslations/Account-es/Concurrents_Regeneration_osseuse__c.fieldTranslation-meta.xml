@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Concurrents Regeneration osseuse --></label>
+    <name>Concurrents_Regeneration_osseuse__c</name>
+    <picklistValues>
+        <masterLabel>BioOss</masterLabel>
+        <translation><!-- BioOss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biobank</masterLabel>
+        <translation><!-- Biobank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomup</masterLabel>
+        <translation><!-- Biomup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerabone</masterLabel>
+        <translation><!-- Cerabone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceros</masterLabel>
+        <translation><!-- Ceros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Easygraft</masterLabel>
+        <translation><!-- Easygraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emdogain</masterLabel>
+        <translation><!-- Emdogain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endobone</masterLabel>
+        <translation><!-- Endobone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gen-Oss</masterLabel>
+        <translation><!-- Gen-Oss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kasios</masterLabel>
+        <translation><!-- Kasios --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ladec</masterLabel>
+        <translation><!-- Ladec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Osteobiol</masterLabel>
+        <translation><!-- Osteobiol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBF</masterLabel>
+        <translation><!-- TBF --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

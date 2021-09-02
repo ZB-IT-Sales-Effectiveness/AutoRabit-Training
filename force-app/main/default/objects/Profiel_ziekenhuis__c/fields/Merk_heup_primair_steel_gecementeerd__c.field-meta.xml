@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merk_heup_primair_steel_gecementeerd__c</fullName>
+    <description>Kies de fabrikant van de primaire, gecementeerde heup steel.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kies de fabrikant van de primaire, gecementeerde heup steel.</inlineHelpText>
+    <label>Merk heup primair steel gecementeerd</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Zimmer</fullName>
+                <default>false</default>
+                <label>Zimmer</label>
+            </value>
+            <value>
+                <fullName>Biomet</fullName>
+                <default>false</default>
+                <label>Biomet</label>
+            </value>
+            <value>
+                <fullName>EndoCare</fullName>
+                <default>false</default>
+                <label>EndoCare</label>
+            </value>
+            <value>
+                <fullName>Johnson &amp; Johnson</fullName>
+                <default>false</default>
+                <label>Johnson &amp; Johnson</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>Mathys</fullName>
+                <default>false</default>
+                <label>Mathys</label>
+            </value>
+            <value>
+                <fullName>Stryker</fullName>
+                <default>false</default>
+                <label>Stryker</label>
+            </value>
+            <value>
+                <fullName>Smit Nephew</fullName>
+                <default>false</default>
+                <label>Smit Nephew</label>
+            </value>
+            <value>
+                <fullName>Wright Medical</fullName>
+                <default>false</default>
+                <label>Wright Medical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

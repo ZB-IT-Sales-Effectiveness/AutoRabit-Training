@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Deal Type --></label>
+    <name>Lead_Deal_Type__c</name>
+    <picklistValues>
+        <masterLabel>Acquire - DSUVIA</masterLabel>
+        <translation><!-- Acquire - DSUVIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire - Guided</masterLabel>
+        <translation><!-- Acquire - Guided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire – Implant</masterLabel>
+        <translation><!-- Acquire – Implant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire – Regen</masterLabel>
+        <translation><!-- Acquire – Regen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acquire – Rest/Digital</masterLabel>
+        <translation><!-- Acquire – Rest/Digital --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

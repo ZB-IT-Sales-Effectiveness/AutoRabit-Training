@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provide_Closed_Lost_Reason</fullName>
+    <active>true</active>
+    <description>Rule that requires users to enter a Closed Lost Reason if an opportunity is marked Closed Lost.</description>
+    <errorConditionFormula>AND(
+ISBLANK( TEXT(Closed_Reason__c) ), 
+ISPICKVAL( StageName ,&quot;Closed Lost&quot;),  
+OR(RecordType.DeveloperName  = &quot;US_Hip&quot;, RecordType.DeveloperName  = &quot;Revenue_Growth&quot;, RecordType.DeveloperName  = &quot;US_Extremities&quot;, RecordType.DeveloperName  = &quot;US_Trauma&quot;, RecordType.DeveloperName  = &quot;US_Foot_and_Ankle_Sales&quot;, RecordType.DeveloperName  = &quot;US_Cement&quot;, RecordType.DeveloperName  = &quot;US_Early_Intervention&quot;, RecordType.DeveloperName  = &quot;AM_US_SM_Sales&quot;), 
+AND(
+($Profile.Name &lt;&gt; &quot;AM-US-Sales Management&quot;),
+($Profile.Name &lt;&gt; &quot;System Administrator&quot;),
+($Profile.Name &lt;&gt; &quot;Zimmer Integration Profile&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Please enter a Closed Reason for this Closed Lost Opportunity.</errorMessage>
+</ValidationRule>

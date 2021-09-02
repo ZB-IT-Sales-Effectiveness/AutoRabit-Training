@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Opportunity</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Business_Plan__c</field>
+            <operation>equals</operation>
+            <valueField>Opportunity.Product_Sales_Summary__r.Business_Plan__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Sales Rep Action Plan</relationshipLabel>
+    <relationshipName>Sales_Rep_Action_Plan</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

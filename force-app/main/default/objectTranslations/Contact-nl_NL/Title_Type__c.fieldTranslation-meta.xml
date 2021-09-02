@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Title Type --></label>
+    <name>Title_Type__c</name>
+    <picklistValues>
+        <masterLabel>Business Contact</masterLabel>
+        <translation><!-- Business Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operation Contact</masterLabel>
+        <translation><!-- Operation Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Person In Charge</masterLabel>
+        <translation><!-- Person In Charge --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Products --></label>
+    <name>Lead_Products__c</name>
+    <picklistValues>
+        <masterLabel>DSUVIA</masterLabel>
+        <translation><!-- DSUVIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital</masterLabel>
+        <translation><!-- Digital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Education</masterLabel>
+        <translation><!-- Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implant Concierge</masterLabel>
+        <translation><!-- Implant Concierge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implants</masterLabel>
+        <translation><!-- Implants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instruments and Tools</masterLabel>
+        <translation><!-- Instruments and Tools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PartnerZ</masterLabel>
+        <translation><!-- PartnerZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Guide</masterLabel>
+        <translation><!-- Real Guide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerative</masterLabel>
+        <translation><!-- Regenerative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restorative</masterLabel>
+        <translation><!-- Restorative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z3D</masterLabel>
+        <translation><!-- Z3D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iTero</masterLabel>
+        <translation><!-- iTero --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

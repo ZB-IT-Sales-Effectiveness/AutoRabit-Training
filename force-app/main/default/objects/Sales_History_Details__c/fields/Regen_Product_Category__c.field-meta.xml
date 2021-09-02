@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regen_Product_Category__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Name, 
+&quot;103&quot;, &quot;Membranes&quot;, &quot;105&quot;, &quot;Membranes&quot;, &quot;107&quot;,  &quot;Membranes&quot;,&quot;140&quot;, &quot;Membranes&quot;, &quot;141&quot;, &quot;Membranes&quot;, &quot;142&quot;,  &quot;Membranes&quot;, &quot;154&quot;,&quot;Membranes&quot;,
+&quot;0103&quot;, &quot;Membranes&quot;, &quot;0105&quot;, &quot;Membranes&quot;, &quot;0107&quot;,  &quot;Membranes&quot;,&quot;0140&quot;, &quot;Membranes&quot;, &quot;0141&quot;, &quot;Membranes&quot;, &quot;0142&quot;,  &quot;Membranes&quot;, &quot;0154&quot;, &quot;Membranes&quot;,
+&quot;100&quot;, &quot;Colla&quot;, &quot;101&quot;, &quot;Colla&quot;, &quot;102&quot;,  &quot;Colla&quot;,
+&quot;0100&quot;, &quot;Colla&quot;, &quot;0101&quot;, &quot;Colla&quot;, &quot;0102&quot;,  &quot;Colla&quot;,
+&quot;HC204&quot;, &quot;Hemcon&quot;, &quot;HC205&quot;, &quot;Hemcon&quot;, &quot;HC217&quot;,  &quot;Hemcon&quot;,
+&quot;8793R&quot;, &quot;Dermis Tissue Matrix&quot;, &quot;8790R&quot;, &quot;Dermis Tissue Matrix&quot;, &quot;8791R&quot;, &quot;Dermis Tissue Matrix&quot;, &quot;8792R&quot;,&quot;Dermis Tissue Matrix&quot;, &quot;8794R&quot;,&quot;Dermis Tissue Matrix&quot;, &quot;8795R&quot;, &quot;Dermis Tissue Matrix&quot;, &quot;8796R&quot;, &quot;Dermis Tissue Matrix&quot;, &quot;8797R&quot;, &quot;Dermis Tissue Matrix&quot;,
+&quot;8210R&quot;, &quot;Puros Bone&quot;, &quot;8211R&quot;,  &quot;Puros Bone&quot;, &quot;8209R&quot;, &quot;Puros Bone&quot;, &quot;8212R&quot;, &quot;Puros Bone&quot;, &quot;8213R&quot;, &quot;Puros Bone&quot;, &quot;8214R&quot;, &quot;Puros Bone&quot;, &quot;8271R&quot;, &quot;Puros Bone&quot;, &quot;8272R&quot;, &quot;Puros Bone&quot;, &quot;8273R&quot;, &quot;Puros Bone&quot;, &quot;8274R&quot;, &quot;Puros Bone&quot;, &quot;8275R&quot;, &quot;Puros Bone&quot;, &quot;8276R&quot;, &quot;Puros Bone&quot;, &quot;8220R&quot;, &quot;Puros Bone&quot;, &quot;8221R&quot;,  &quot;Puros Bone&quot;, 
+&quot;00110500501&quot;, &quot;DBM&quot;, &quot;00110501001&quot;, &quot;DBM&quot;, &quot;00110502001&quot;, &quot;DBM&quot;, &quot;00110500502&quot;, &quot;DBM&quot;, &quot;00110501002&quot;, &quot;DBM&quot;, &quot;00110502002&quot;, &quot;DBM&quot;, 
+&quot;8770&quot;, &quot;Pericardium Membrane&quot;, &quot;8771&quot;, &quot;Pericardium Membrane&quot;, &quot;8772&quot;,  &quot;Pericardium Membrane&quot;,&quot;7776&quot;,  &quot;Pericardium Membrane&quot;, &quot;7777&quot;, &quot;Pericardium Membrane&quot;, &quot;7778&quot;,  &quot;Pericardium Membrane&quot;, &quot;14002&quot;, &quot;Other&quot;, &quot;14003&quot;, &quot;Other&quot;, &quot;14003&quot;, &quot;Other&quot;,  
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Regen Product Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

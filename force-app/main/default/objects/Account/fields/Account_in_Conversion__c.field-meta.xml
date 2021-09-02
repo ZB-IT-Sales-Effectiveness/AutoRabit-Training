@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_in_Conversion__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field controls the setting of the Lead Type field during conversion for DN-CA record types. Its value must be set at &quot;unchecked&quot;.</description>
+    <externalId>false</externalId>
+    <label>Account_in_Conversion</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

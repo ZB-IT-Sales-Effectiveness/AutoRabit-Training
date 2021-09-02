@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Rebate --></label>
+    <name>Type_of_Rebate__c</name>
+    <picklistValues>
+        <masterLabel>Directed Rebate - revenue threshold</masterLabel>
+        <translation><!-- Directed Rebate - revenue threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Directed Rebate - unit threshold</masterLabel>
+        <translation><!-- Directed Rebate - unit threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth - revenue threshold</masterLabel>
+        <translation><!-- Growth - revenue threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth - unit threshold</masterLabel>
+        <translation><!-- Growth - unit threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance - revenue threshold</masterLabel>
+        <translation><!-- Maintenance - revenue threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance - unit threshold</masterLabel>
+        <translation><!-- Maintenance - unit threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price Protection</masterLabel>
+        <translation><!-- Price Protection --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

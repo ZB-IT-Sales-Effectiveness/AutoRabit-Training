@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgical Interests --></label>
+    <name>Surgical_Interests__c</name>
+    <picklistValues>
+        <masterLabel>Adult Degenerative Spine Condition</masterLabel>
+        <translation><!-- Adult Degenerative Spine Condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Hip and Knee Reconstruction</masterLabel>
+        <translation><!-- Adult Hip and Knee Reconstruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Joint Reconstruction</masterLabel>
+        <translation><!-- Adult Joint Reconstruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthroscopy</masterLabel>
+        <translation><!-- Arthroscopy --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

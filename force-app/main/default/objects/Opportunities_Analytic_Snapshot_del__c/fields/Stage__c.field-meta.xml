@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Approached</fullName>
+                <default>false</default>
+                <label>Not Approached</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Phase0</fullName>
+                <default>false</default>
+                <label>Phase0</label>
+            </value>
+            <value>
+                <fullName>Phase1</fullName>
+                <default>false</default>
+                <label>Phase1</label>
+            </value>
+            <value>
+                <fullName>Prospecting</fullName>
+                <default>false</default>
+                <label>Prospecting</label>
+            </value>
+            <value>
+                <fullName>Identification/Qualification</fullName>
+                <default>false</default>
+                <label>Identification/Qualification</label>
+            </value>
+            <value>
+                <fullName>Interested-Issue Discovery,Pain/Gain</fullName>
+                <default>false</default>
+                <label>Interested-Issue Discovery,Pain/Gain</label>
+            </value>
+            <value>
+                <fullName>Phase2</fullName>
+                <default>false</default>
+                <label>Phase2</label>
+            </value>
+            <value>
+                <fullName>Erwartung</fullName>
+                <default>false</default>
+                <label>Erwartung</label>
+            </value>
+            <value>
+                <fullName>Potenzialanalyse</fullName>
+                <default>false</default>
+                <label>Potenzialanalyse</label>
+            </value>
+            <value>
+                <fullName>Phase3</fullName>
+                <default>false</default>
+                <label>Phase3</label>
+            </value>
+            <value>
+                <fullName>Id. Decision Makers</fullName>
+                <default>false</default>
+                <label>Id. Decision Makers</label>
+            </value>
+            <value>
+                <fullName>Phone call scheduled</fullName>
+                <default>false</default>
+                <label>Phone call scheduled</label>
+            </value>
+            <value>
+                <fullName>Workshop/Med Ed Event</fullName>
+                <default>false</default>
+                <label>Workshop/Med Ed Event</label>
+            </value>
+            <value>
+                <fullName>Phase4</fullName>
+                <default>false</default>
+                <label>Phase4</label>
+            </value>
+            <value>
+                <fullName>Bedarfsanalyse Analyse</fullName>
+                <default>false</default>
+                <label>Bedarfsanalyse Analyse</label>
+            </value>
+            <value>
+                <fullName>Produktvorstellung</fullName>
+                <default>false</default>
+                <label>Produktvorstellung</label>
+            </value>
+            <value>
+                <fullName>Proposal/Assessment</fullName>
+                <default>false</default>
+                <label>Proposal/Assessment</label>
+            </value>
+            <value>
+                <fullName>Agreed to Book</fullName>
+                <default>false</default>
+                <label>Agreed to Book</label>
+            </value>
+            <value>
+                <fullName>Initial Discussion</fullName>
+                <default>false</default>
+                <label>Initial Discussion</label>
+            </value>
+            <value>
+                <fullName>Meeting scheduled</fullName>
+                <default>false</default>
+                <label>Meeting scheduled</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Workshop</fullName>
+                <default>false</default>
+                <label>Workshop</label>
+            </value>
+            <value>
+                <fullName>Phase5</fullName>
+                <default>false</default>
+                <label>Phase5</label>
+            </value>
+            <value>
+                <fullName>Training/Trial</fullName>
+                <default>false</default>
+                <label>Training/Trial</label>
+            </value>
+            <value>
+                <fullName>1st Case</fullName>
+                <default>false</default>
+                <label>1st Case</label>
+            </value>
+            <value>
+                <fullName>Angebot</fullName>
+                <default>false</default>
+                <label>Angebot</label>
+            </value>
+            <value>
+                <fullName>Wertangebot</fullName>
+                <default>false</default>
+                <label>Wertangebot</label>
+            </value>
+            <value>
+                <fullName>Presentation Made</fullName>
+                <default>false</default>
+                <label>Presentation Made</label>
+            </value>
+            <value>
+                <fullName>Highly Likely to Close</fullName>
+                <default>false</default>
+                <label>Highly Likely to Close</label>
+            </value>
+            <value>
+                <fullName>3rd Case</fullName>
+                <default>false</default>
+                <label>3rd Case</label>
+            </value>
+            <value>
+                <fullName>Id. Entscheidungsträger</fullName>
+                <default>false</default>
+                <label>Id. Entscheidungsträger</label>
+            </value>
+            <value>
+                <fullName>Wahrnehmungsanalyse</fullName>
+                <default>false</default>
+                <label>Wahrnehmungsanalyse</label>
+            </value>
+            <value>
+                <fullName>Presentation Complete</fullName>
+                <default>false</default>
+                <label>Presentation Complete</label>
+            </value>
+            <value>
+                <fullName>Test-OP</fullName>
+                <default>false</default>
+                <label>Test-OP</label>
+            </value>
+            <value>
+                <fullName>Reference Checking</fullName>
+                <default>false</default>
+                <label>Reference Checking</label>
+            </value>
+            <value>
+                <fullName>Negotiation/Review</fullName>
+                <default>false</default>
+                <label>Negotiation/Review</label>
+            </value>
+            <value>
+                <fullName>Commitment</fullName>
+                <default>false</default>
+                <label>Commitment</label>
+            </value>
+            <value>
+                <fullName>10th Case</fullName>
+                <default>false</default>
+                <label>10th Case</label>
+            </value>
+            <value>
+                <fullName>Verhandlung/Überprüfung</fullName>
+                <default>false</default>
+                <label>Verhandlung/Überprüfung</label>
+            </value>
+            <value>
+                <fullName>Regular User</fullName>
+                <default>false</default>
+                <label>Regular User</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Phase6</fullName>
+                <default>false</default>
+                <label>Phase6</label>
+            </value>
+            <value>
+                <fullName>Geschlossene und gewonnene</fullName>
+                <default>false</default>
+                <label>Geschlossene und gewonnene</label>
+            </value>
+            <value>
+                <fullName>Geschlossene und verlorene</fullName>
+                <default>false</default>
+                <label>Geschlossene und verlorene</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>Closed - Inactive</fullName>
+                <default>false</default>
+                <label>Closed - Inactive</label>
+            </value>
+            <value>
+                <fullName>Closed Other</fullName>
+                <default>false</default>
+                <label>Closed Other</label>
+            </value>
+            <value>
+                <fullName>Lost/不成立</fullName>
+                <default>false</default>
+                <label>Lost/不成立</label>
+            </value>
+            <value>
+                <fullName>Regular User (Brickwall)</fullName>
+                <default>false</default>
+                <label>Regular User (Brickwall)</label>
+            </value>
+            <value>
+                <fullName>Drifting</fullName>
+                <default>false</default>
+                <label>Drifting</label>
+            </value>
+            <value>
+                <fullName>Trialling Competitor Product</fullName>
+                <default>false</default>
+                <label>Trialling Competitor Product</label>
+            </value>
+            <value>
+                <fullName>Stopped ( Closed )</fullName>
+                <default>false</default>
+                <label>Stopped ( Closed )</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

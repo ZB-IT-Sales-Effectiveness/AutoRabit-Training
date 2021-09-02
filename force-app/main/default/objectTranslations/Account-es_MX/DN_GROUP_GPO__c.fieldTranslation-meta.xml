@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- DN GROUP-GPO --></label>
+    <name>DN_GROUP_GPO__c</name>
+    <picklistValues>
+        <masterLabel>Access</masterLabel>
+        <translation><!-- Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advantage</masterLabel>
+        <translation><!-- Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affordable Dentures</masterLabel>
+        <translation><!-- Affordable Dentures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AllAccess</masterLabel>
+        <translation><!-- AllAccess --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allied</masterLabel>
+        <translation><!-- Allied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Altima (Canada)</masterLabel>
+        <translation><!-- Altima (Canada) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>American Dental Partners</masterLabel>
+        <translation><!-- American Dental Partners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aspen</masterLabel>
+        <translation><!-- Aspen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baystate</masterLabel>
+        <translation><!-- Baystate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clear Choice</masterLabel>
+        <translation><!-- Clear Choice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coast/Smilecare/Nevada</masterLabel>
+        <translation><!-- Coast/Smilecare/Nevada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comfort Dental</masterLabel>
+        <translation><!-- Comfort Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Concerned</masterLabel>
+        <translation><!-- Concerned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSG Dental Lab</masterLabel>
+        <translation><!-- DSG Dental Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dca/Gentle (Mi-Pa-Va)</masterLabel>
+        <translation><!-- Dca/Gentle (Mi-Pa-Va) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Associates</masterLabel>
+        <translation><!-- Dental Associates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental Corp (Canada)</masterLabel>
+        <translation><!-- Dental Corp (Canada) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DentalOne Partners</masterLabel>
+        <translation><!-- DentalOne Partners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern</masterLabel>
+        <translation><!-- Eastern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First Advantage</masterLabel>
+        <translation><!-- First Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fusion</masterLabel>
+        <translation><!-- Fusion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gentle (Fl)</masterLabel>
+        <translation><!-- Gentle (Fl) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gentle (Ma)</masterLabel>
+        <translation><!-- Gentle (Ma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gentle (Ny)</masterLabel>
+        <translation><!-- Gentle (Ny) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Great Expressions</masterLabel>
+        <translation><!-- Great Expressions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Half</masterLabel>
+        <translation><!-- Half --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hawaii Family</masterLabel>
+        <translation><!-- Hawaii Family --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HealthPartners</masterLabel>
+        <translation><!-- HealthPartners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heartland</masterLabel>
+        <translation><!-- Heartland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imagix</masterLabel>
+        <translation><!-- Imagix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interdent-Gentle (CA,OR,WA) Smilekeepers</masterLabel>
+        <translation><!-- Interdent-Gentle (CA,OR,WA) Smilekeepers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jefferson</masterLabel>
+        <translation><!-- Jefferson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kaiser Permanente NW</masterLabel>
+        <translation><!-- Kaiser Permanente NW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katsur</masterLabel>
+        <translation><!-- Katsur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Bill-To Account</masterLabel>
+        <translation><!-- Master Bill-To Account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Microdental Labs</masterLabel>
+        <translation><!-- Microdental Labs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midwest</masterLabel>
+        <translation><!-- Midwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midwestern (MI)</masterLabel>
+        <translation><!-- Midwestern (MI) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mortenson Dental</masterLabel>
+        <translation><!-- Mortenson Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyDentist</masterLabel>
+        <translation><!-- MyDentist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyDrDental (Northeast)</masterLabel>
+        <translation><!-- MyDrDental (Northeast) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Dentex Lab</masterLabel>
+        <translation><!-- National Dentex Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast</masterLabel>
+        <translation><!-- Northeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean</masterLabel>
+        <translation><!-- Ocean --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pacific</masterLabel>
+        <translation><!-- Pacific --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Park</masterLabel>
+        <translation><!-- Park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perfect Dental</masterLabel>
+        <translation><!-- Perfect Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perfect Teeth</masterLabel>
+        <translation><!-- Perfect Teeth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refresh</masterLabel>
+        <translation><!-- Refresh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smile Brands-Monarch-Castle-Brightnow</masterLabel>
+        <translation><!-- Smile Brands-Monarch-Castle-Brightnow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smilecare</masterLabel>
+        <translation><!-- Smilecare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sunrise</masterLabel>
+        <translation><!-- Sunrise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Towncare</masterLabel>
+        <translation><!-- Towncare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unified Smiles</masterLabel>
+        <translation><!-- Unified Smiles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VA Direct-Mult Ship to&apos;s</masterLabel>
+        <translation><!-- VA Direct-Mult Ship to&apos;s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veterans Health-Military Location</masterLabel>
+        <translation><!-- Veterans Health-Military Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veterans Health-VA Location</masterLabel>
+        <translation><!-- Veterans Health-VA Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Coast</masterLabel>
+        <translation><!-- West Coast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Western Dental</masterLabel>
+        <translation><!-- Western Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Willamette</masterLabel>
+        <translation><!-- Willamette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer CLT (for internal use only)</masterLabel>
+        <translation><!-- Zimmer CLT (for internal use only) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iSmiles</masterLabel>
+        <translation><!-- iSmiles --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

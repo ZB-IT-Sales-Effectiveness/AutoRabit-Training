@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Please_select_your_distributorship__c</fullName>
+    <externalId>false</externalId>
+    <label>Please select your distributorship</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Boneafide Orthopaedics, Inc.</fullName>
+                <default>false</default>
+                <label>Boneafide Orthopaedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>EverGen Surgical, Inc.</fullName>
+                <default>false</default>
+                <label>EverGen Surgical, Inc.</label>
+            </value>
+            <value>
+                <fullName>Midark Surgical Inc.</fullName>
+                <default>false</default>
+                <label>Midark Surgical Inc.</label>
+            </value>
+            <value>
+                <fullName>Select Orthopedics, Inc.</fullName>
+                <default>false</default>
+                <label>Select Orthopedics, Inc.</label>
+            </value>
+            <value>
+                <fullName>ZB APEX Surgical</fullName>
+                <default>false</default>
+                <label>ZB APEX Surgical</label>
+            </value>
+            <value>
+                <fullName>ZB Davis</fullName>
+                <default>false</default>
+                <label>ZB Davis</label>
+            </value>
+            <value>
+                <fullName>ZB Iowa</fullName>
+                <default>false</default>
+                <label>ZB Iowa</label>
+            </value>
+            <value>
+                <fullName>ZB MidAmerica</fullName>
+                <default>false</default>
+                <label>ZB MidAmerica</label>
+            </value>
+            <value>
+                <fullName>ZB Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>ZB Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>ZB Mid-Ohio</fullName>
+                <default>false</default>
+                <label>ZB Mid-Ohio</label>
+            </value>
+            <value>
+                <fullName>ZB South Carolina</fullName>
+                <default>false</default>
+                <label>ZB South Carolina</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

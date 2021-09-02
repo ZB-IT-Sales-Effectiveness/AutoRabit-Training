@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Service_Type__c</fullName>
+    <description>Pick list used for type of Customer Service Calls</description>
+    <externalId>false</externalId>
+    <label>Customer Service Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Backorder</fullName>
+                <default>false</default>
+                <label>Backorder</label>
+            </value>
+            <value>
+                <fullName>Cancel Order</fullName>
+                <default>false</default>
+                <label>Cancel Order</label>
+            </value>
+            <value>
+                <fullName>CBE</fullName>
+                <default>false</default>
+                <label>CBE</label>
+            </value>
+            <value>
+                <fullName>DCS Question/Issues</fullName>
+                <default>false</default>
+                <label>DCS Question/Issues</label>
+            </value>
+            <value>
+                <fullName>DeNovo</fullName>
+                <default>false</default>
+                <label>DeNovo</label>
+            </value>
+            <value>
+                <fullName>EDI</fullName>
+                <default>false</default>
+                <label>EDI</label>
+            </value>
+            <value>
+                <fullName>Inventory Issue</fullName>
+                <default>false</default>
+                <label>Inventory Issue</label>
+            </value>
+            <value>
+                <fullName>Invoice Copy</fullName>
+                <default>false</default>
+                <label>Invoice Copy</label>
+            </value>
+            <value>
+                <fullName>Loaner Pool</fullName>
+                <default>false</default>
+                <label>Loaner Pool</label>
+            </value>
+            <value>
+                <fullName>Order Entry</fullName>
+                <default>false</default>
+                <label>Order Entry</label>
+            </value>
+            <value>
+                <fullName>Order Maintenance</fullName>
+                <default>false</default>
+                <label>Order Maintenance</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>POD/Tracking Info</fullName>
+                <default>false</default>
+                <label>POD/Tracking Info</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Product Question</fullName>
+                <default>false</default>
+                <label>Product Question</label>
+            </value>
+            <value>
+                <fullName>PSI</fullName>
+                <default>false</default>
+                <label>PSI</label>
+            </value>
+            <value>
+                <fullName>Purchase Order Follow-Up</fullName>
+                <default>false</default>
+                <label>Purchase Order Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Return Info</fullName>
+                <default>false</default>
+                <label>Return Info</label>
+            </value>
+            <value>
+                <fullName>Shipping Issue</fullName>
+                <default>false</default>
+                <label>Shipping Issue</label>
+            </value>
+            <value>
+                <fullName>Shortage/Overage Claim</fullName>
+                <default>false</default>
+                <label>Shortage/Overage Claim</label>
+            </value>
+            <value>
+                <fullName>Surgical Technique/Lit. Request</fullName>
+                <default>false</default>
+                <label>Surgical Technique/Lit. Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Number_Check_for_Non_Employee</fullName>
+    <active>true</active>
+    <errorConditionFormula>If(	NOT($Permission.Custom_Permission_for_SAP_Field),false,(	
+		AND(
+			AND(
+				ISPICKVAL(Employee_Non_Employee__c, &quot;No&quot;)), 
+				NOT(ISBLANK(SAP__c)
+			)
+		)
+	)
+)</errorConditionFormula>
+    <errorMessage>Please clear SAP number or Select correct Employee Status?</errorMessage>
+</ValidationRule>

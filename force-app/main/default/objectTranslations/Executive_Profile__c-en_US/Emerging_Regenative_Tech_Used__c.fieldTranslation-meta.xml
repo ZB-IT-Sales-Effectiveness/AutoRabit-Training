@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Emerging Regenative Tech Used --></label>
+    <name>Emerging_Regenative_Tech_Used__c</name>
+    <picklistValues>
+        <masterLabel>Growth Factor</masterLabel>
+        <translation><!-- Growth Factor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient-Specific Products (3D Printing or Custom-Milled Grafts)</masterLabel>
+        <translation><!-- Patient-Specific Products (3D Printing or Custom-Milled Grafts) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stem Cell</masterLabel>
+        <translation><!-- Stem Cell --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

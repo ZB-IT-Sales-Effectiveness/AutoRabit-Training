@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ZB Touchpoint</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ZB Touchpoints</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter call date --></errorMessage>
+        <name>Call_Date_is_Required_Spoke_Customer</name>
+    </validationRules>
+</CustomObjectTranslation>

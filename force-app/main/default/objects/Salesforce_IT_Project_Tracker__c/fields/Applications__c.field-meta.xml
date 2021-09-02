@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applications__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Other Give Details in Notes field</inlineHelpText>
+    <label>Applications</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Avalanche Bell</fullName>
+                <default>false</default>
+                <label>Avalanche Bell</label>
+            </value>
+            <value>
+                <fullName>CPQ</fullName>
+                <default>false</default>
+                <label>CPQ</label>
+            </value>
+            <value>
+                <fullName>Cvent</fullName>
+                <default>false</default>
+                <label>Cvent</label>
+            </value>
+            <value>
+                <fullName>Demand Tools</fullName>
+                <default>false</default>
+                <label>Demand Tools</label>
+            </value>
+            <value>
+                <fullName>Einstein</fullName>
+                <default>false</default>
+                <label>Einstein</label>
+            </value>
+            <value>
+                <fullName>GBI</fullName>
+                <default>false</default>
+                <label>GBI</label>
+            </value>
+            <value>
+                <fullName>GIW</fullName>
+                <default>false</default>
+                <label>GIW</label>
+            </value>
+            <value>
+                <fullName>Grid Buddy</fullName>
+                <default>false</default>
+                <label>Grid Buddy</label>
+            </value>
+            <value>
+                <fullName>Informatica</fullName>
+                <default>false</default>
+                <label>Informatica</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Marketo</fullName>
+                <default>false</default>
+                <label>Marketo</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>NOVO</fullName>
+                <default>false</default>
+                <label>NOVO</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PROS</fullName>
+                <default>false</default>
+                <label>PROS</label>
+            </value>
+            <value>
+                <fullName>SFDC</fullName>
+                <default>false</default>
+                <label>SFDC</label>
+            </value>
+            <value>
+                <fullName>Tableau</fullName>
+                <default>false</default>
+                <label>Tableau</label>
+            </value>
+            <value>
+                <fullName>Tibco</fullName>
+                <default>false</default>
+                <label>Tibco</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

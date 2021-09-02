@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>T39 TEAM SOUTH HILLS (NC6)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>T39 TEAM SOUTH HILLS (NC6)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>APEX_SURGICAL_FOX_GATTEN_0039</parentRole>
+</Role>

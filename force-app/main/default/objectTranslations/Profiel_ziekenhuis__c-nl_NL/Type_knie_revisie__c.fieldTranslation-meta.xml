@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type knie revisie --></label>
+    <name>Type_knie_revisie__c</name>
+    <picklistValues>
+        <masterLabel>Advance revision</masterLabel>
+        <translation><!-- Advance revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ascent revision</masterLabel>
+        <translation><!-- Ascent revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duracon TC</masterLabel>
+        <translation><!-- Duracon TC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GMRS segmental</masterLabel>
+        <translation><!-- GMRS segmental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innex SC</masterLabel>
+        <translation><!-- Innex SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCS revision</masterLabel>
+        <translation><!-- LCS revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legion revision</masterLabel>
+        <translation><!-- Legion revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Link endo model</masterLabel>
+        <translation><!-- Link endo model --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxim revision</masterLabel>
+        <translation><!-- Maxim revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multigen revision</masterLabel>
+        <translation><!-- Multigen revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen LCCK</masterLabel>
+        <translation><!-- NexGen LCCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NexGen RHK</masterLabel>
+        <translation><!-- NexGen RHK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSS segemental</masterLabel>
+        <translation><!-- OSS segemental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optetrak revision</masterLabel>
+        <translation><!-- Optetrak revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFC sigma TC3</masterLabel>
+        <translation><!-- PFC sigma TC3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S-rom hinge knee</masterLabel>
+        <translation><!-- S-rom hinge knee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scorpio TC revision</masterLabel>
+        <translation><!-- Scorpio TC revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TC Plus revision</masterLabel>
+        <translation><!-- TC Plus revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR plus Hinge</masterLabel>
+        <translation><!-- TR plus Hinge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanguard SSK revision</masterLabel>
+        <translation><!-- Vanguard SSK revision --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

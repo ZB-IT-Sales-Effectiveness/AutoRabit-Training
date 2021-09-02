@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ortho Task Type</label>
+    <pluralLabel>Ortho Task Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

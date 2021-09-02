@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>surgicalsales-finance@zimmerbiomet.com</email>
+    <name>Capital Solutions Team</name>
+    <queueMembers>
+        <users>
+            <user>abby.kneisel@zimmerbiomet.com</user>
+            <user>chris.jepson@zimmerbiomet.com</user>
+            <user>corey.farnbauch@zimmerbiomet.com</user>
+            <user>david.schnell@zimmerbiomet.com</user>
+            <user>katie.davis@zimmerbiomet.com</user>
+            <user>kj.tenchjr@zimmerbiomet.com</user>
+            <user>mindy.apperson@zimmer.com</user>
+            <user>steven.steier@zimmerbiomet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

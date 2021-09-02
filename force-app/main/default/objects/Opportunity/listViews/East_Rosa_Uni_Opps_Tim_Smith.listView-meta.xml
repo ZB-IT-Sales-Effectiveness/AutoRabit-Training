@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>East_Rosa_Uni_Opps_Tim_Smith</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Deal_Type_Surgical__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Manager_Forecast_Judgement__c</columns>
+    <columns>Distributor__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Distributor__c</field>
+        <operation>contains</operation>
+        <value>ZB-N ATLANTIC (ALMEIDA),APEX SURGICAL,MID-OHIO,SOUTHWEST OHIO,ZB-EMPIRE,JNT MED CONCEPTS,ORTHOSOLU,SOUTHEAST,ZB-CAROLINAS,ZB-NC,ZB-ONE,LEGACY ORTHO,RICCIONE,ZB-MID-ATLANTIC,ZB-NYC,ZB-TRI-STATE</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.ROSA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Discover,Solve,Execute,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Service</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kyle Klein,Bailee Fitzgerald,Kris Simonton,Jackson Pfister,Kyle Smith,Mason DeAnna</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Tim Smith</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>ROSA UNI</value>
+    </filters>
+    <label>East Rosa Uni Opps Tim Smith</label>
+    <sharedTo>
+        <role>ROSA_Sales_Team_East_Zone</role>
+    </sharedTo>
+</ListView>

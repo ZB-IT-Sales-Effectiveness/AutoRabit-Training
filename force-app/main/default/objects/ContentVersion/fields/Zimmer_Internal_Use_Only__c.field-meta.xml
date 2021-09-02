@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zimmer_Internal_Use_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies if an article of content is for internal use only.  Note: These content articles will not appear when in &quot;Presenter Mode&quot;</inlineHelpText>
+    <label>Zimmer Internal Use Only</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

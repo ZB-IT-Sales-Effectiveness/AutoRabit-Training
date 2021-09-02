@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eval_Product_Shipped__c</fullName>
+    <externalId>false</externalId>
+    <label>Eval Product Shipped</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Capital – Compression Therapy</fullName>
+                <default>false</default>
+                <label>Capital – Compression Therapy</label>
+            </value>
+            <value>
+                <fullName>Capital – Fluid Waste Management</fullName>
+                <default>false</default>
+                <label>Capital – Fluid Waste Management</label>
+            </value>
+            <value>
+                <fullName>Capital - MCS</fullName>
+                <default>false</default>
+                <label>Capital - MCS</label>
+            </value>
+            <value>
+                <fullName>Capital – Power</fullName>
+                <default>false</default>
+                <label>Capital – Power</label>
+            </value>
+            <value>
+                <fullName>Capital – Skin Grafting</fullName>
+                <default>false</default>
+                <label>Capital – Skin Grafting</label>
+            </value>
+            <value>
+                <fullName>Capital – Total Shield</fullName>
+                <default>false</default>
+                <label>Capital – Total Shield</label>
+            </value>
+            <value>
+                <fullName>Capital – Tourniquets</fullName>
+                <default>false</default>
+                <label>Capital – Tourniquets</label>
+            </value>
+            <value>
+                <fullName>Capital – Traction</fullName>
+                <default>false</default>
+                <label>Capital – Traction</label>
+            </value>
+            <value>
+                <fullName>Capital – Video Systems</fullName>
+                <default>false</default>
+                <label>Capital – Video Systems</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

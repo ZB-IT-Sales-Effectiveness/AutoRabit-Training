@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Finance Request</label>
+    <referenceTo>Finance_Request__c</referenceTo>
+    <relationshipLabel>Finance Request PO Line Items</relationshipLabel>
+    <relationshipName>Finance_Request_PO_Line_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

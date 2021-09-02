@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISR_Watchlist_US_Chicago_Land</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>DSO_Parent_Account__c</columns>
+    <columns>Customer_Number__c</columns>
+    <columns>Speciality_Type__c</columns>
+    <columns>Region_Name__c</columns>
+    <columns>Account_Owner_Name__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>DN_Regen_YTD_Manual_Rollup__c</columns>
+    <columns>DN_Regen_FPY_Manual_Rollup__c</columns>
+    <columns>YTD_Total__c</columns>
+    <columns>Last_Invoice_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Inside_Sales_Regen_Watchlist__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Region_Name__c</field>
+        <operation>equals</operation>
+        <value>US Chicago Land</value>
+    </filters>
+    <label>ISR Watchlist - US Chicago Land</label>
+    <sharedTo>
+        <group>DN_Inside_Sales_Group</group>
+    </sharedTo>
+</ListView>

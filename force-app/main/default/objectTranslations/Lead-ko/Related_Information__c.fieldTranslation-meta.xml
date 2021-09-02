@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related Information --></label>
+    <name>Related_Information__c</name>
+    <picklistValues>
+        <masterLabel>2010 Back in the Groove</masterLabel>
+        <translation><!-- 2010 Back in the Groove --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertisement</masterLabel>
+        <translation><!-- Advertisement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arthritis Today</masterLabel>
+        <translation><!-- Arthritis Today --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Back In the Groove</masterLabel>
+        <translation><!-- Back In the Groove --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Week</masterLabel>
+        <translation><!-- Business Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial/Ad</masterLabel>
+        <translation><!-- Commercial/Ad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminars</masterLabel>
+        <translation><!-- Community Seminars --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Seminars 2010</masterLabel>
+        <translation><!-- Community Seminars 2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GKnee 11/2009</masterLabel>
+        <translation><!-- GKnee 11/2009 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Story</masterLabel>
+        <translation><!-- New Story --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OBGYN</masterLabel>
+        <translation><!-- OBGYN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopaedic Surgeon</masterLabel>
+        <translation><!-- Orthopaedic Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prevention</masterLabel>
+        <translation><!-- Prevention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Physician</masterLabel>
+        <translation><!-- Primary Care Physician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Engine</masterLabel>
+        <translation><!-- Search Engine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Story/Article</masterLabel>
+        <translation><!-- Story/Article --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WebMD</masterLabel>
+        <translation><!-- WebMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zimmer Sites</masterLabel>
+        <translation><!-- Zimmer Sites --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implant_Item_3_Perc_Change__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Implant_Item_3_PYTD__c &lt;&gt;0, ( Implant_Item_3_YTD__c -  Implant_Item_3_PYTD__c )/ ABS(Implant_Item_3_PYTD__c),null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Certain % Change</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

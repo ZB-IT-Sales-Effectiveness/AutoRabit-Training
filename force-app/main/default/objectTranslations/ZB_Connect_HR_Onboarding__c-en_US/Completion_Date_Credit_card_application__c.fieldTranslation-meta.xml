@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Company Credit Card Application Complete --></help>
+    <label><!-- Completion Date --></label>
+    <name>Completion_Date_Credit_card_application__c</name>
+</CustomFieldTranslation>

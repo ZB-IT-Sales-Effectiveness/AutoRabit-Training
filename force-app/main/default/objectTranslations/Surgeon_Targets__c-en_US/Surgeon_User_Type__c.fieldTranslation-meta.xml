@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surgeon User Type --></label>
+    <name>Surgeon_User_Type__c</name>
+    <picklistValues>
+        <masterLabel>Casual User</masterLabel>
+        <translation><!-- Casual User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High-Volume</masterLabel>
+        <translation><!-- High-Volume --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid-Volume</masterLabel>
+        <translation><!-- Mid-Volume --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On the Fence</masterLabel>
+        <translation><!-- On the Fence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROSA Advantage</masterLabel>
+        <translation><!-- ROSA Advantage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Velys Advantage</masterLabel>
+        <translation><!-- Velys Advantage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

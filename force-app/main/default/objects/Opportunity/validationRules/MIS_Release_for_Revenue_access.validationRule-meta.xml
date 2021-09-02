@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MIS_Release_for_Revenue_access</fullName>
+    <active>true</active>
+    <description>Control field edit access on the Release For Revenue field currently only used by MIS team</description>
+    <errorConditionFormula>AND  (ISCHANGED(Release_for_Revenue__c), RecordTypeId = &apos;0123b000000IKLz&apos;, $Profile.Id &lt;&gt; &apos;00e80000000sptd&apos;,
+						$User.Id &lt;&gt; &apos;005C00000042TL5&apos;, 
+						$User.Id &lt;&gt; &apos;005C000000549ub&apos;,
+						$User.Id &lt;&gt; &apos;005C0000006cHbF&apos;,
+						$User.Id &lt;&gt; &apos;0053b00000BRCTA&apos;
+		)</errorConditionFormula>
+    <errorMessage>Only Approved Users and System Administrators can edit the Released for Revenue field.</errorMessage>
+</ValidationRule>
