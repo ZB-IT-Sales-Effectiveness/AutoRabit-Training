@@ -28,7 +28,7 @@ public with sharing class MedCert_Util {
         
         lstExistingCerts = [Select Id, Certification__c, Health_Care_Facility__c, Surgeon__c from HCF_Surgeon_Certification__c where Surgeon__c in :lstUnqSrgns];
 
-        lstHCFs = [Select Id, Healthcare_Facility__c, Surgeon__c from Healthcare_Surgeon_Relationship__c where Surgeon__c in :lstUnqSrgns];
+        lstHCFs = [Select Id, Healthcare_Facility__c, Surgeon__c from Healthcare_Surgeon_Relationship__c where Surgeon__c in :lstUnqSrgns and Healthcare_Facility__c != null];
 
         Map<Id, Set<Id>> srgnCertMap = new Map<id, Set<Id>>();
         Map<Id, Set<Id>> srgnHCFMap = new Map<id, Set<Id>>();

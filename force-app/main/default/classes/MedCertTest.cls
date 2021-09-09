@@ -5,7 +5,7 @@ public inherited sharing class MedCertTest {
     public static void createTestData(){
         
         User utausr = TestUtilsLocal.createTestUser('utaTest', True);  
-        
+        // This is the setup method for Test Data
         /*acc = new Account();
         acc.RecordTypeId = '012800000002AW5AAM';//Healthcare Facility
         acc.Name = 'APEX SURGICAL(TEST)';
