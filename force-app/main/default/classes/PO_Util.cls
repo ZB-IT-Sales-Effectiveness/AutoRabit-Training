@@ -43,8 +43,7 @@ public class PO_Util {
             terrIdSet.add(tId[i]);
         }
         
-        if(!terrIdSet.isEmpty()){
-            
+        if(!terrIdSet.isEmpty()){            
             PO_Util.createPOSharesForTerritory(terrIdSet);            
         }
     }
@@ -66,23 +65,12 @@ public class PO_Util {
                     new UserTerritoryAssociation(uta2.UserId, uta2.Territory2Id, uta2.RoleInTerritory2));
             }
         }
-
-        /*List<User_Territory_Association__c> utaCustomList = Ortho_UserTerrAssociationSelector.selectUtaByTerrId(terrIdSet);
-
-        for(User_Territory_Association__c uta : utaCustomList){
-            if(!terrUserMap.containsKey(uta.Territory__C)){
-                terrUserMap.put(uta.Territory__C, new List<UserTerritoryAssociation>());
-            }
-            terrUserMap.get(uta.Territory__C).add(
-                new UserTerritoryAssociation(uta.User__c, uta.Territory__C, uta.Role__C));
-        }*/
-
+        
         return terrUserMap;
     }
 
     /**
-    * @description (NOT Used) This method recreates Purchase Order Share Records. 
-    * Alternate way - To make it more efficient...
+    * @description (NOT Used) This method recreates Purchase Order Share Records.     
     * Find the new PO Share Records which are not in Existing PO Share List
     */
     /*public static void recreatePOSharesFast() {
@@ -219,7 +207,7 @@ public class PO_Util {
             utaList = terrUserMap.get((Id)po.Territory2_ID__c);
             
             if (utaList == null)
-            System.debug('Territory user list came back as NULL for Territory Id : '+po.Territory2_ID__c);
+                System.debug('Territory user list came back as NULL for Territory Id : '+po.Territory2_ID__c);
             else {
                 for(UserTerritoryAssociation uta : utaList){
                     if (uta.userId != po.ownerId ) {
