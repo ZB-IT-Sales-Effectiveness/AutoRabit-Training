@@ -177,6 +177,7 @@ public class PO_Util {
 
     /**
     * @description This method recreates Share Records for Given Purchase Order List
+    * Input : List of Purchase Orders
     */
     public static void createPOSharesForPurchaseOrders(List<Purchase_Order__c> lstPOs) {        
         Set<Id> terrIdSet = new Set<Id>();        

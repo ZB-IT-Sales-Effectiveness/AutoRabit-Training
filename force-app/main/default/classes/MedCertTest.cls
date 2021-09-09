@@ -3,7 +3,7 @@ public inherited sharing class MedCertTest {
     
     @testSetup
     public static void createTestData(){
-        
+        //This method sets up Test
         User utausr = TestUtilsLocal.createTestUser('utaTest', True);  
         
         /*acc = new Account();
